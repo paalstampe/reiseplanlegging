@@ -1,0 +1,430 @@
+<title>Reisekart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Work+Sans:wght@400;500;600&display=swap">
+<style>
+/* Stil: samme papirretning som Pål's London (style.css) – serif til navn, ingen skygger, rette hjørner. */
+:root {
+  --papir:#F7F4EE; --kartflate:#DCE4E3; --land:#FBF8F1; --landkant:#D3C8B4;
+  --kort:#FFFDF8; --tekst:#241F19; --dempet:#6B5D4A; --kant:#DCD2C0; --kant-lys:#E0D8C9;
+  --aksent:#8A5A2B; --aksent-hover:#63401D;
+  --beste:#1E7B45; --god:#63BE7B; --ellers:#B8AD99; --varsel:#9A3B24;
+  --sidebar-bredde:440px;
+}
+* { box-sizing:border-box; }
+html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
+  font-family:'Work Sans', system-ui, -apple-system, sans-serif; font-size:16px; -webkit-font-smoothing:antialiased; }
+.app { display:flex; height:100%; overflow:hidden; }
+
+.sidebar { width:var(--sidebar-bredde); flex:0 0 var(--sidebar-bredde); border-right:1px solid var(--kant);
+  background:var(--papir); display:flex; flex-direction:column; overflow:hidden; }
+.sidebar-head { padding:30px 32px 14px; }
+.kicker { margin:0 0 10px; font-size:11px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--dempet); }
+.tittel { margin:0; font-family:'Playfair Display', Georgia, serif; font-weight:700; font-size:40px; line-height:1.08; letter-spacing:-.01em; text-wrap:balance; }
+.ingress { margin:10px 0 0; font-size:14px; line-height:1.5; color:var(--dempet); max-width:36ch; }
+
+.filtre { padding:0 32px 14px; display:flex; flex-direction:column; gap:10px; }
+.gruppe-etikett { font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--dempet); margin:0 0 -4px; }
+.filtergruppe { display:flex; flex-wrap:wrap; gap:6px; }
+.maneder { display:grid; grid-template-columns:repeat(6, 1fr); gap:6px; }
+.chip { height:36px; padding:0 12px; border:1px solid var(--kant); border-radius:3px; background:var(--kort); color:var(--tekst);
+  font-family:inherit; font-size:12px; font-weight:500; letter-spacing:.01em; cursor:pointer;
+  display:inline-flex; align-items:center; justify-content:center; gap:7px; transition:border-color .12s, color .12s, background .12s; }
+.chip:hover { border-color:var(--aksent); color:var(--aksent); }
+.chip:focus-visible, .oppslag:focus-visible, .strip-celle:focus-visible { outline:2px solid var(--aksent); outline-offset:2px; }
+.chip[aria-pressed="true"] { background:var(--aksent); border-color:var(--aksent); color:var(--papir); }
+.chip[aria-pressed="true"]:hover { background:var(--aksent-hover); border-color:var(--aksent-hover); color:var(--papir); }
+.maneder .chip { padding:0; }
+
+.tegnforklaring { display:flex; flex-wrap:wrap; gap:14px; font-size:12px; color:var(--dempet); }
+.tegnforklaring span { display:inline-flex; align-items:center; gap:6px; }
+.prikk { width:9px; height:9px; border-radius:50%; flex:0 0 9px; display:inline-block; }
+
+.teller-rad { margin:0 32px; padding:12px 0 10px; border-top:1px solid var(--kant-lys); display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
+.teller { font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--dempet); }
+.lenkeknapp { border:0; background:none; padding:0; font-family:inherit; font-size:12px; color:var(--aksent); cursor:pointer; text-decoration:underline; text-underline-offset:3px; }
+.lenkeknapp:hover { color:var(--aksent-hover); }
+
+.liste { flex:1 1 auto; overflow-y:auto; padding:0 32px 24px; }
+.oppslag { position:relative; padding:13px 0 14px; border-bottom:1px solid var(--kant-lys); cursor:pointer; }
+.oppslag:hover .oppslag-navn { color:var(--aksent); }
+.oppslag.er-valgt { padding-left:14px; margin-left:-16px; border-left:2px solid var(--aksent); }
+.oppslag-topp { display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
+.oppslag-navn { margin:0; font-family:'Playfair Display', Georgia, serif; font-weight:500; font-size:20px; line-height:1.2; transition:color .12s; }
+.score { flex:0 0 auto; min-width:38px; padding:2px 7px; border-radius:2px; font-size:13px; font-weight:600; text-align:center;
+  font-variant-numeric:tabular-nums; background:transparent; color:var(--dempet); border:1px solid var(--kant); }
+.score.beste { background:var(--beste); border-color:var(--beste); color:#fff; }
+.score.god { background:var(--god); border-color:var(--god); color:#12301d; }
+.oppslag-meta { margin:4px 0 0; font-size:12px; color:var(--dempet); display:flex; flex-wrap:wrap; gap:4px 10px; }
+.oppslag-notat { margin:6px 0 0; font-size:14px; line-height:1.45; }
+.merke { font-size:10px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--aksent); }
+.merke.varsel { color:var(--varsel); }
+.tomt { padding:24px 0; font-size:14px; color:var(--dempet); }
+
+.sidebar-fot { padding:12px 32px 14px; border-top:1px solid var(--kant); font-size:12px; line-height:1.5; color:var(--dempet); }
+
+.kartflate { position:relative; flex:1 1 auto; background:var(--kartflate); }
+#kart { position:absolute; inset:0; }
+.kart-feil { position:absolute; left:20px; top:20px; max-width:360px; padding:12px 14px; background:var(--kort); border:1px solid var(--kant); font-size:13px; color:var(--dempet); }
+
+/* Hover-kort (ECharts tooltip) */
+.tt { width:300px; white-space:normal; font-family:'Work Sans', system-ui, sans-serif; color:var(--tekst); }
+.tt-navn { margin:0; font-family:'Playfair Display', Georgia, serif; font-weight:500; font-size:19px; line-height:1.2; }
+.tt-meta { margin:4px 0 0; font-size:12px; color:var(--dempet); }
+.tt-rad { display:flex; align-items:center; gap:10px; margin-top:10px; padding-top:9px; border-top:1px solid var(--kant-lys); }
+.tt-deler { font-size:12px; color:var(--dempet); line-height:1.5; font-variant-numeric:tabular-nums; }
+.tt-deler b { color:var(--tekst); font-weight:600; }
+.tt-notat { margin:8px 0 0; font-size:13px; line-height:1.45; }
+.tt-hend { margin:8px 0 0; font-size:12px; line-height:1.45; color:var(--aksent); }
+.tt-varsel { margin:8px 0 0; font-size:12px; line-height:1.4; color:var(--varsel); }
+.tt-hint { margin:8px 0 0; font-size:11px; color:var(--dempet); }
+
+/* Mini-årsstripe */
+.strip { display:grid; grid-template-columns:repeat(12, 1fr); gap:2px; margin-top:10px; }
+.strip-celle { height:22px; display:flex; align-items:center; justify-content:center; font-size:9.5px; font-weight:600;
+  font-variant-numeric:tabular-nums; background:#EEE8DC; color:var(--dempet); border:1px solid transparent; }
+.strip-celle.god { background:var(--god); color:#12301d; }
+.strip-celle.beste { background:var(--beste); color:#fff; }
+.strip-celle.valgt { border-color:var(--tekst); }
+.strip-akse { display:grid; grid-template-columns:repeat(12, 1fr); gap:2px; font-size:9px; color:var(--dempet); text-align:center; margin-top:2px; text-transform:uppercase; letter-spacing:.04em; }
+button.strip-celle { padding:0; font-family:inherit; cursor:pointer; }
+
+/* Detaljkort for valgt destinasjon */
+.rute-kort { position:absolute; left:20px; bottom:24px; z-index:5; width:360px; max-height:calc(100% - 48px); overflow-y:auto;
+  padding:18px 20px 20px; background:var(--kort); border:1px solid var(--kant); }
+.rute-lukk { position:absolute; top:8px; right:10px; border:0; background:none; font-size:22px; line-height:1; color:var(--dempet); cursor:pointer; padding:2px 6px; }
+.rute-lukk:hover { color:var(--aksent); }
+.rute-kicker { margin:0 0 8px; font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--aksent); }
+.rute-navn { margin:0; padding-right:24px; font-family:'Playfair Display', Georgia, serif; font-weight:500; font-size:23px; line-height:1.2; }
+.seksjon { margin-top:14px; padding-top:10px; border-top:1px solid var(--kant-lys); }
+.seksjon-tittel { margin:0 0 6px; font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--dempet); }
+.tall-rad { display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; }
+.tall { font-size:11px; color:var(--dempet); }
+.tall b { display:block; font-size:18px; font-weight:600; color:var(--tekst); font-variant-numeric:tabular-nums; }
+.uker { display:flex; flex-wrap:wrap; gap:4px; }
+.uke { font-size:11px; padding:3px 6px; border:1px solid var(--kant); font-variant-numeric:tabular-nums; color:var(--dempet); }
+.uke.god { background:var(--god); border-color:var(--god); color:#12301d; }
+.uke.beste { background:var(--beste); border-color:var(--beste); color:#fff; }
+.liten { font-size:13px; line-height:1.45; margin:0; }
+.kilde { font-size:11px; line-height:1.4; color:var(--dempet); margin:0; }
+ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
+
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+
+@media (max-width: 900px) {
+  .app { flex-direction:column; height:auto; min-height:100%; overflow:visible; }
+  .sidebar { width:100%; flex:none; border-right:0; border-bottom:1px solid var(--kant); order:2; overflow:visible; }
+  .liste { overflow:visible; }
+  .kartflate { order:1; flex:none; height:58vh; min-height:340px; }
+  .sidebar-head { padding:22px 16px 12px; }
+  .tittel { font-size:32px; }
+  .filtre, .liste, .sidebar-fot { padding-left:16px; padding-right:16px; }
+  .teller-rad { margin-left:16px; margin-right:16px; }
+  .rute-kort { left:12px; right:12px; width:auto; bottom:12px; max-height:calc(100% - 24px); }
+  .tt { width:250px; }
+}
+</style>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <p class="kicker">Reisekalender · 40 reisemål</p>
+      <h1 class="tittel">Hvor er det best i <span id="tittel-mnd">oktober</span>?</h1>
+      <p class="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Samme regler som i regnearket.</p>
+    </div>
+
+    <div class="filtre">
+      <p class="gruppe-etikett">Måned</p>
+      <div class="maneder" id="maneder" role="group" aria-label="Måned"></div>
+      <p class="gruppe-etikett">År (for høytider og festivaler)</p>
+      <div class="filtergruppe" id="ar" role="group" aria-label="År"></div>
+      <p class="gruppe-etikett">Region</p>
+      <div class="filtergruppe" id="regioner" role="group" aria-label="Region"></div>
+      <div class="tegnforklaring">
+        <span><i class="prikk" style="background:var(--beste)"></i>≥ 4,4 best</span>
+        <span><i class="prikk" style="background:var(--god)"></i>≥ 4,0 bra</span>
+        <span><i class="prikk" style="background:var(--ellers)"></i>under 4,0</span>
+      </div>
+    </div>
+
+    <div class="teller-rad">
+      <span class="teller" id="teller">—</span>
+      <button class="lenkeknapp" id="bare-gronne" type="button" aria-pressed="false">Vis bare grønne</button>
+    </div>
+    <div class="liste" id="liste"></div>
+    <div class="sidebar-fot">Score = 0,4·klima + 0,4·opplevelse + 0,2·trengsel/pris, snitt av ukene i måneden inkl. høytider og festivaler. Data fra Reisekalender.xlsx per <span id="datadato"></span>.</div>
+  </aside>
+
+  <section class="kartflate" aria-label="Kart">
+    <div id="kart"></div>
+    <div class="rute-kort" id="detalj" hidden></div>
+  </section>
+</div>
+
+<script>
+const DATA = __DATA__;
+
+const MND = ["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"];
+const MND_LANG = ["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"];
+const GOD = 4.0, BESTE = 4.4, EPS = 1e-3;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = x => x == null ? "–" : x.toFixed(1).replace(".", ",");
+const klasse = s => s == null ? "" : s >= BESTE - EPS ? "beste" : s >= GOD - EPS ? "god" : "";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const [WK, WO, WT] = DATA.weights, CAP = DATA.cap;
+function manedScore(r) {
+  const [k, o, t] = r;
+  const v = k*WK + o*WO + t*WT;
+  return Math.round((k === 1 || o === 1 ? Math.min(CAP, v) : v) * 10) / 10;
+}
+// ISO-uke -> torsdag -> måned (samme logikk som Kalender-arket; uke 53 ignoreres)
+function ukeTorsdag(ar, u) {
+  const jan4 = new Date(Date.UTC(ar, 0, 4));
+  const dow = (jan4.getUTCDay() + 6) % 7;
+  return new Date(jan4.getTime() + ((u - 1) * 7 - dow + 3) * 864e5);
+}
+function vinduGjelder(w, u, ar) {
+  const [, fra, til, , , kunAr] = w;
+  if (kunAr != null && kunAr !== ar) return false;
+  return fra <= til ? (u >= fra && u <= til) : (u >= fra || u <= til);
+}
+
+const state = { mnd: (new Date().getMonth() + 1) % 12, ar: new Date().getFullYear(), region: "Alle", bareGronne: false, valgt: null };
+if (state.mnd === 0) state.ar += 1;
+const AR_VALG = [2026, 2027, 2028];
+if (!AR_VALG.includes(state.ar)) state.ar = 2026;
+
+function beregn(d, mnd, ar) {
+  const uker = [];
+  for (let u = 1; u <= 52; u++) {
+    const th = ukeTorsdag(ar, u);
+    if (th.getUTCMonth() !== mnd) continue;
+    const base = manedScore(d.m[mnd]);
+    const vs = DATA.win.filter(w => w[0] === d.id && vinduGjelder(w, u, ar));
+    const adj = vs.reduce((s, w) => s + w[4], 0);
+    uker.push({ u, s: Math.max(1, Math.min(5, Math.round((base + adj) * 10) / 10)) });
+  }
+  const snitt = uker.length ? Math.round(uker.reduce((s, x) => s + x.s, 0) / uker.length * 10) / 10 : manedScore(d.m[mnd]);
+  const ukeSet = new Set(uker.map(x => x.u));
+  const hend = DATA.win.filter(w => w[0] === d.id && [...ukeSet].some(u => vinduGjelder(w, u, ar)));
+  return { snitt, uker, hend, base: manedScore(d.m[mnd]) };
+}
+function aarsprofil(d, ar) { return MND.map((_, i) => beregn(d, i, ar).snitt); }
+
+const REGIONER = ["Alle", ...new Set(DATA.dest.map(d => d.region))];
+const kortRegion = r => ({"Asia, Oseania og Midt-Østen":"Asia og Midtøsten","Sør- og Mellom-Amerika":"Sør- og Mellom-Amerika"}[r] || r);
+const navn = d => d.sted ? `${d.land} – ${d.sted}` : d.land;
+
+function chip(label, pressed, onclick, extra = "") {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "chip"; b.textContent = label;
+  b.setAttribute("aria-pressed", pressed ? "true" : "false");
+  if (extra) b.title = extra;
+  b.addEventListener("click", onclick);
+  return b;
+}
+function tegnFiltre() {
+  const m = document.getElementById("maneder"); m.innerHTML = "";
+  MND.forEach((x, i) => m.appendChild(chip(x, i === state.mnd, () => { state.mnd = i; oppdater(); }, MND_LANG[i])));
+  const a = document.getElementById("ar"); a.innerHTML = "";
+  AR_VALG.forEach(y => a.appendChild(chip(String(y), y === state.ar, () => { state.ar = y; oppdater(); })));
+  const r = document.getElementById("regioner"); r.innerHTML = "";
+  REGIONER.forEach(x => r.appendChild(chip(kortRegion(x), x === state.region, () => { state.region = x; oppdater(); })));
+  const bg = document.getElementById("bare-gronne");
+  bg.setAttribute("aria-pressed", state.bareGronne ? "true" : "false");
+  bg.textContent = state.bareGronne ? "Vis alle" : "Vis bare grønne";
+}
+
+function rader() {
+  return DATA.dest
+    .filter(d => state.region === "Alle" || d.region === state.region)
+    .map(d => ({ d, r: beregn(d, state.mnd, state.ar) }))
+    .sort((a, b) => b.r.snitt - a.r.snitt || navn(a.d).localeCompare(navn(b.d), "nb"));
+}
+
+function stripHtml(d, knapp) {
+  const p = aarsprofil(d, state.ar);
+  const celler = p.map((s, i) => {
+    const cls = `strip-celle ${klasse(s)} ${i === state.mnd ? "valgt" : ""}`;
+    return knapp
+      ? `<button type="button" class="${cls}" data-mnd="${i}" title="${MND_LANG[i]}: ${fmt(s)}">${fmt(s)}</button>`
+      : `<div class="${cls}">${fmt(s)}</div>`;
+  }).join("");
+  return `<div class="strip">${celler}</div><div class="strip-akse">${MND.map(x => `<span>${x[0]}</span>`).join("")}</div>`;
+}
+const besteManeder = d => {
+  const p = aarsprofil(d, state.ar);
+  const b = p.map((s, i) => [s, i]).filter(([s]) => s >= BESTE - EPS).map(([, i]) => MND[i]);
+  const g = p.map((s, i) => [s, i]).filter(([s]) => s >= GOD - EPS).map(([, i]) => MND[i]);
+  return b.length ? `Best: ${b.join(", ")}` : g.length ? `Bra: ${g.join(", ")}` : "Ingen måneder over 4,0";
+};
+
+function tooltipHtml(d) {
+  const r = beregn(d, state.mnd, state.ar);
+  const [k, o, t, T, N, txt] = d.m[state.mnd];
+  const hend = r.hend.map(w => `${w[4] > 0 ? "+" : "−"}${String(Math.abs(w[4])).replace(".", ",")} ${esc(w[6])}`).join("<br>");
+  return `<div class="tt">
+    <p class="tt-navn">${esc(navn(d))}</p>
+    <p class="tt-meta">${esc(d.kategori || kortRegion(d.region))} · ${MND_LANG[state.mnd]} ${state.ar}</p>
+    <div class="tt-rad"><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span>
+      <span class="tt-deler">Klima <b>${k}</b> · Opplevelse <b>${o}</b> · Trengsel/pris <b>${t}</b><br>${T == null ? "" : `T maks <b>${String(T).replace(".", ",")} °C</b>`}${N == null ? "" : ` · nedbør <b>${Math.round(N)} mm</b>`}</span></div>
+    <p class="tt-notat">${esc(txt)}</p>
+    ${hend ? `<p class="tt-hend">${hend}</p>` : ""}
+    ${/sikkerhet/i.test(d.merknad) ? `<p class="tt-varsel">${esc(d.merknad)}</p>` : ""}
+    ${stripHtml(d, false)}
+    <p class="tt-hint">${besteManeder(d)} · klikk for detaljer</p>
+  </div>`;
+}
+
+function detaljHtml(d) {
+  const r = beregn(d, state.mnd, state.ar);
+  const [k, o, t, T, N, txt] = d.m[state.mnd];
+  const uker = r.uker.map(x => `<span class="uke ${klasse(x.s)}">u${x.u} ${fmt(x.s)}</span>`).join("");
+  const hend = r.hend.map(w => `<li>${esc(w[6])} <span class="merke">${w[4] > 0 ? "+" : "−"}${String(Math.abs(w[4])).replace(".", ",")}</span></li>`).join("");
+  const alleHend = DATA.win.filter(w => w[0] === d.id && (w[5] == null || w[5] === state.ar));
+  return `<button class="rute-lukk" id="lukk" type="button" aria-label="Lukk">×</button>
+    <p class="rute-kicker">${esc(kortRegion(d.region))}${d.kategori ? " · " + esc(d.kategori) : ""}</p>
+    <h2 class="rute-navn">${esc(navn(d))}</h2>
+    <div class="seksjon"><p class="seksjon-tittel">Året ${state.ar} – klikk en måned</p>${stripHtml(d, true)}</div>
+    <div class="seksjon"><p class="seksjon-tittel">${MND_LANG[state.mnd]} · samlet ${fmt(r.snitt)}</p>
+      <div class="tall-rad">
+        <div class="tall">Klima<b>${k}</b></div><div class="tall">Opplevelse<b>${o}</b></div><div class="tall">Trengsel/pris<b>${t}</b></div>
+        <div class="tall">T maks<b>${T == null ? "–" : String(T).replace(".", ",") + "°"}</b></div><div class="tall">Nedbør<b>${N == null ? "–" : Math.round(N) + " mm"}</b></div><div class="tall">Månedsscore<b>${fmt(r.base)}</b></div>
+      </div>
+      <p class="liten" style="margin-top:10px">${esc(txt)}</p>
+    </div>
+    <div class="seksjon"><p class="seksjon-tittel">Uker</p><div class="uker">${uker}</div></div>
+    ${hend ? `<div class="seksjon"><p class="seksjon-tittel">Hendelser denne måneden</p><ul class="hend">${hend}</ul></div>` : ""}
+    ${!hend && alleHend.length ? `<div class="seksjon"><p class="seksjon-tittel">Hendelser ellers i ${state.ar}</p><ul class="hend">${alleHend.map(w => `<li>${esc(w[6])} (uke ${w[1]}${w[2] !== w[1] ? "–" + w[2] : ""})</li>`).join("")}</ul></div>` : ""}
+    ${d.merknad ? `<div class="seksjon"><p class="liten" style="color:${/sikkerhet/i.test(d.merknad) ? "var(--varsel)" : "inherit"}">${esc(d.merknad)}</p></div>` : ""}
+    <div class="seksjon"><p class="kilde">Klimakilde: ${esc(d.kilde)}</p></div>`;
+}
+
+function visDetalj(id) {
+  state.valgt = id;
+  const el = document.getElementById("detalj");
+  const d = DATA.dest.find(x => x.id === id);
+  if (!d) { el.hidden = true; return; }
+  el.innerHTML = detaljHtml(d); el.hidden = false; el.scrollTop = 0;
+  el.querySelector("#lukk").addEventListener("click", () => { state.valgt = null; el.hidden = true; tegnListe(); tegnKart(); });
+  el.querySelectorAll("button.strip-celle").forEach(b => b.addEventListener("click", () => { state.mnd = +b.dataset.mnd; oppdater(); }));
+}
+
+function tegnListe() {
+  const rr = rader();
+  const vis = state.bareGronne ? rr.filter(x => x.r.snitt >= GOD - EPS) : rr;
+  const antG = rr.filter(x => x.r.snitt >= GOD - EPS).length;
+  document.getElementById("teller").textContent = `${antG} av ${rr.length} grønne i ${MND_LANG[state.mnd]}`;
+  const l = document.getElementById("liste");
+  if (!vis.length) { l.innerHTML = `<p class="tomt">Ingen reisemål over 4,0 i ${MND_LANG[state.mnd]} for dette utvalget.</p>`; return; }
+  l.innerHTML = vis.map(({ d, r }) => `
+    <div class="oppslag ${state.valgt === d.id ? "er-valgt" : ""}" data-id="${d.id}" tabindex="0" role="button" aria-label="${esc(navn(d))}, score ${fmt(r.snitt)}">
+      <div class="oppslag-topp"><p class="oppslag-navn">${esc(navn(d))}</p><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span></div>
+      <p class="oppslag-meta"><span>${esc(kortRegion(d.region))}</span>${r.hend.length ? `<span class="merke">${r.hend.some(w => w[4] > 0) ? "Hendelse" : "Høytid"}</span>` : ""}${/sikkerhet/i.test(d.merknad) ? `<span class="merke varsel">Sjekk reiseråd</span>` : ""}</p>
+      <p class="oppslag-notat">${esc(d.m[state.mnd][5])}</p>
+    </div>`).join("");
+  l.querySelectorAll(".oppslag").forEach(el => {
+    const velg = () => { visDetalj(el.dataset.id); tegnListe(); tegnKart(); fokuser(el.dataset.id); };
+    el.addEventListener("click", velg);
+    el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); velg(); } });
+    el.addEventListener("mouseenter", () => kart && kart.dispatchAction({ type: "highlight", seriesIndex: 0, name: el.dataset.id }));
+    el.addEventListener("mouseleave", () => kart && kart.dispatchAction({ type: "downplay", seriesIndex: 0, name: el.dataset.id }));
+  });
+}
+
+let kart = null;
+function punktData() {
+  return rader().map(({ d, r }) => {
+    const c = klasse(r.snitt);
+    const farge = c === "beste" ? css("--beste") : c === "god" ? css("--god") : css("--ellers");
+    const valgt = state.valgt === d.id;
+    return {
+      name: d.id, value: [DATA_KOORD[d.id][1], DATA_KOORD[d.id][0], r.snitt],
+      symbolSize: (c ? 15 : 10) + (valgt ? 6 : 0),
+      itemStyle: { color: farge, borderColor: valgt ? css("--tekst") : "#FFFDF8", borderWidth: valgt ? 2.5 : 1.5, opacity: c || valgt ? 1 : 0.85 },
+      z: c === "beste" ? 3 : c ? 2 : 1,
+      label: { show: !!c || valgt, formatter: navnKort(d), position: "right", fontSize: 11, color: css("--tekst"), fontFamily: "Work Sans, system-ui, sans-serif", textBorderColor: "#FBF8F1", textBorderWidth: 3 }
+    };
+  });
+}
+const navnKort = d => d.sted && d.land.length + d.sted.length < 22 ? `${d.land} ${d.sted}` : (d.sted && d.land === "Sri Lanka" ? `Sri Lanka ${d.id === "LKA-O" ? "øst" : "sør/vest"}` : d.land);
+const DATA_KOORD = DATA.koord;
+
+function tegnKart() {
+  if (!kart) return;
+  kart.setOption({ series: [{ data: punktData() }] });
+}
+function fokuser(id) {
+  if (!kart) return;
+  const [lat, lon] = DATA_KOORD[id];
+  const opt = kart.getOption();
+  const zoom = Math.max(opt.geo[0].zoom || 1, 2.2);
+  kart.setOption({ geo: { center: [lon, lat], zoom } });
+}
+
+const KILDER = [
+  "https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js",
+  "https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"
+];
+function lastSkript(src) {
+  return new Promise((ok, feil) => {
+    const s = document.createElement("script");
+    s.src = src; s.async = false;
+    s.onload = ok; s.onerror = () => feil(new Error("kunne ikke hente " + src.split("/")[2]));
+    document.head.appendChild(s);
+  });
+}
+// Lastes etter siden, og med AMD/CommonJS skjult, så bibliotekene legger seg på window uansett miljø.
+async function lastKart() {
+  const lagret = { define: window.define, module: window.module, exports: window.exports };
+  try {
+    try { window.define = undefined; window.module = undefined; window.exports = undefined; } catch (e) {}
+    for (const src of KILDER) await lastSkript(src);
+  } finally {
+    try { window.define = lagret.define; window.module = lagret.module; window.exports = lagret.exports; } catch (e) {}
+  }
+  if (!window.echarts) throw new Error("ECharts ble ikke tilgjengelig");
+  if (!echarts.getMap || !echarts.getMap("world")) throw new Error("verdenskartet ble ikke registrert");
+}
+function visKartFeil(e) {
+  const el = document.getElementById("kart");
+  el.insertAdjacentHTML("afterend", `<div class="kart-feil">Kartet kunne ikke lastes (${esc(e && e.message || e)}). Listen til venstre virker som vanlig.</div>`);
+}
+
+function initKart() {
+  const el = document.getElementById("kart");
+  kart = echarts.init(el, null, { renderer: "canvas" });
+  kart.setOption({
+    backgroundColor: css("--kartflate"),
+    geo: {
+      map: "world", roam: true, boundingCoords: [[-180, 80], [180, -70]], scaleLimit: { min: 1, max: 12 },
+      itemStyle: { areaColor: css("--land"), borderColor: css("--landkant"), borderWidth: 0.6 },
+      emphasis: { disabled: true }, select: { disabled: true }, silent: true, label: { show: false }
+    },
+    tooltip: {
+      trigger: "item", triggerOn: "mousemove|click", confine: true, enterable: false,
+      backgroundColor: css("--kort"), borderColor: css("--kant"), borderWidth: 1, padding: [14, 16],
+      extraCssText: "box-shadow:none;border-radius:2px;",
+      formatter: p => { const d = DATA.dest.find(x => x.id === p.name); return d ? tooltipHtml(d) : ""; }
+    },
+    series: [{
+      type: "scatter", coordinateSystem: "geo", data: punktData(),
+      emphasis: { scale: 1.5, label: { show: true } }, labelLayout: { hideOverlap: true }, animationDurationUpdate: 300
+    }]
+  });
+  kart.on("click", p => { if (p.seriesType === "scatter") { visDetalj(p.name); tegnListe(); tegnKart(); } });
+  new ResizeObserver(() => kart.resize()).observe(el);
+}
+
+function oppdater() {
+  document.getElementById("tittel-mnd").textContent = MND_LANG[state.mnd];
+  tegnFiltre(); tegnListe(); tegnKart();
+  if (state.valgt) visDetalj(state.valgt);
+}
+
+document.getElementById("bare-gronne").addEventListener("click", () => { state.bareGronne = !state.bareGronne; oppdater(); });
+document.getElementById("datadato").textContent = DATA.dato;
+oppdater();
+lastKart().then(() => { initKart(); tegnKart(); }).catch(visKartFeil);
+</script>
