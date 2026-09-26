@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Reisekart</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -124,6 +129,8 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
   .tt { width:250px; }
 }
 </style>
+</head>
+<body>
 
 <div class="app">
   <aside class="sidebar">
@@ -428,3 +435,5 @@ document.getElementById("datadato").textContent = DATA.dato;
 oppdater();
 lastKart().then(() => { initKart(); tegnKart(); }).catch(visKartFeil);
 </script>
+</body>
+</html>
