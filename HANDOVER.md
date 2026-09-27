@@ -48,6 +48,11 @@ Oversikt over når på året (ned mot ukenummer) det er best å reise til hvert 
 - Destinasjoner som kun fantes i det gamle arket droppes.
 - Filer flyttet til undermappen Reiseplanlegging; «Delt med Claude» og gamle versjoner slettet.
 
+## Navneendringer (27.09.2026)
+- USA-WC → «USA Nordvestkyst – San Francisco til Vancouver»; USA-HI → «Hawaii»; MEX-CDMX → «Mexico City»; EGY → «Egypt – Kairo, Luxor»; SILK → «Sentral-Asia – Silkeveien»; SGP → «Singapore».
+- USA-CHS → «Savannah–Charleston»: dekker Georgia/South Carolina-kysten generelt; klima = snitt av Charleston og Savannah/Hilton Head (NOAA 1991–2020), koordinat midt mellom byene.
+- Kartetiketter bruker nå tankestrek mellom land og sted (f.eks. «Brasil – Rio og nordover»).
+
 ## Neste steg
 1. ~~Få svar på åpne spørsmål, juster struktur/skript.~~ Gjort 25.09.
 2. ~~Populer alle destinasjoner~~ Gjort 25.09. Videre: finjuster scorer etter Påls vurdering.

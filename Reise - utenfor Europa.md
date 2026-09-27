@@ -11,9 +11,9 @@
 - [ ] Fransk Polynesia
 - [ ] Yemen: Socotra
 - [ ] Vietnam: Reunification Express + Hue
-- [ ] Silkeveien («Stan-land»)
+- [ ] Silkeveien
 - [ ] Indonesia: Rote
-- [ ] Singapore: Long stay
+- [ ] Singapore
 - [ ] Filippinene
 - [ ] Papua New Gunea
 - [ ] Øst-Timor
@@ -21,9 +21,9 @@
 
 ## Nord-Amerika
 
-- [ ] California til British Columbia
-- [ ] USA: Hawaii
-- [ ] USA: Charleston, South Carolina
+- [ ] USA Nordvestkyst: San Francisco til Vancouver
+- [ ] Hawaii
+- [ ] Savannah–Charleston (Georgia/South Carolina-kysten)
 
 ## Sør- og Mellom-Amerika
 
@@ -34,7 +34,7 @@
 - [ ] Brasil: Rio og nordover
 - [ ] Galapagos
 - [ ] Antarktis
-- [ ] Mexico: Mexico City
+- [ ] Mexico City
 
 ## Afrika
 
@@ -46,6 +46,6 @@
 - [ ] Zambia
 - [ ] São Tomé og Príncipe
 - [ ] Zimbabwe
-- [ ] Egypt: Kairo (nytt museum), Luxor (hotell)
+- [ ] Egypt: Kairo, Luxor
 - [ ] Benin
 - [ ] Togo
