@@ -308,13 +308,27 @@ function detaljHtml(d) {
     <div class="seksjon"><p class="kilde">Klimakilde: ${esc(d.kilde)}</p></div>`;
 }
 
+function lukkDetalj() {
+  if (!state.valgt) return;
+  state.valgt = null; document.getElementById("detalj").hidden = true; tegnListe(); tegnKart();
+}
+// Lukk detaljkortet ved klikk utenfor det. Unntak: listeoppslag (åpner et annet sted), knapper/filtre
+// (oppdaterer kortet) og selve kartet (håndteres i zr-klikk: prikk = åpne, tomt kart = lukk).
+document.addEventListener("click", e => {
+  const t = e.target;
+  if (!state.valgt || !t.closest) return;
+  if (t.closest("#detalj, #kart, .oppslag, button, a, input, select, label")) return;
+  lukkDetalj();
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") lukkDetalj(); });
+
 function visDetalj(id) {
   state.valgt = id;
   const el = document.getElementById("detalj");
   const d = DATA.dest.find(x => x.id === id);
   if (!d) { el.hidden = true; return; }
   el.innerHTML = detaljHtml(d); el.hidden = false; el.scrollTop = 0;
-  el.querySelector("#lukk").addEventListener("click", () => { state.valgt = null; el.hidden = true; tegnListe(); tegnKart(); });
+  el.querySelector("#lukk").addEventListener("click", lukkDetalj);
   el.querySelectorAll("button.strip-celle").forEach(b => b.addEventListener("click", () => { state.mnd = +b.dataset.mnd; oppdater(); }));
 }
 
@@ -460,10 +474,13 @@ function initKart() {
     zr.on("globalout", () => settHover(null));
     kart.on("georoam", skjulTip);
   }
+  let ned = null;   // PC: klikk etter at kartet er dratt skal ikke telle
+  zr.on("mousedown", e => { ned = [e.offsetX, e.offsetY]; });
   zr.on("click", e => {
     if (Date.now() - sisteGestus < 350) return;   // fingeren slapp etter zoom/panorering – ikke et trykk
+    if (ned && Math.hypot(e.offsetX - ned[0], e.offsetY - ned[1]) > 5) return;
     const n = naermeste(e.offsetX, e.offsetY);
-    if (!n) return;
+    if (!n) { skjulTip(); lukkDetalj(); return; }   // trykk på tomt kart lukker kortet
     skjulTip(); visDetalj(n.name); tegnListe(); tegnKart();
   });
   if (TOUCH) touchRoam(el);
