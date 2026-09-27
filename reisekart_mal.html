@@ -372,7 +372,7 @@ function punktData() {
     };
   });
 }
-const navnKort = d => d.sted && d.land.length + d.sted.length < 22 ? `${d.land} – ${d.sted}` : (d.sted && d.land === "Sri Lanka" ? `Sri Lanka ${d.id === "LKA-O" ? "øst" : "sør/vest"}` : d.land);
+const navnKort = d => d.sted && d.land.length + d.sted.length < 23 ? `${d.land} – ${d.sted}` : (d.sted && d.land === "Sri Lanka" ? `Sri Lanka ${d.id === "LKA-O" ? "øst" : "sør/vest"}` : d.land);
 const DATA_KOORD = DATA.koord;
 
 function tegnKart() {

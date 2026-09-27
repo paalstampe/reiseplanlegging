@@ -23,7 +23,7 @@
 
 - [ ] USA Nordvestkyst: San Francisco til Vancouver
 - [ ] Hawaii
-- [ ] Savannah–Charleston (Georgia/South Carolina-kysten)
+- [ ] USA: Savannah-Charleston (Georgia/South Carolina-kysten)
 
 ## Sør- og Mellom-Amerika
 

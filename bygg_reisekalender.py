@@ -89,7 +89,7 @@ dest=[
 ("LBN",AS,"Libanon","","","","",""),
 ("USA-WC",NA,"USA Nordvestkyst","San Francisco til Vancouver","","","",""),
 ("USA-HI",NA,"Hawaii","","","","",""),
-("USA-CHS",NA,"Savannah–Charleston","","","","",""),
+("USA-CHS",NA,"USA","Savannah-Charleston","","","",""),
 ("CRI",SA,"Costa Rica","","","","",""),
 ("PAN",SA,"Panama","","","","",""),
 ("COL",SA,"Colombia","","","","",""),
