@@ -114,6 +114,8 @@ button.strip-celle { padding:0; font-family:inherit; cursor:pointer; }
 .kilde { font-size:11px; line-height:1.4; color:var(--dempet); margin:0; }
 ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
 
+/* iOS Safari sender bare klikk videre fra elementer som ser klikkbare ut – trengs for «trykk utenfor lukker kortet». */
+@media (hover: none) { body { cursor:pointer; -webkit-tap-highlight-color:transparent; } }
 @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
 
 @media (max-width: 900px) {
@@ -125,7 +127,7 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
   .tittel { font-size:32px; }
   .filtre, .liste, .sidebar-fot { padding-left:16px; padding-right:16px; }
   .teller-rad { margin-left:16px; margin-right:16px; }
-  .rute-kort { left:12px; right:12px; width:auto; bottom:12px; max-height:calc(100% - 24px); }
+  .rute-kort { left:12px; right:12px; width:auto; bottom:12px; max-height:calc(100% - 96px); }
   .tt { width:250px; }
 }
 </style>
