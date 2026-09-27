@@ -25,6 +25,13 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
   background:var(--papir); display:flex; flex-direction:column; overflow:hidden; }
 .sidebar-head { padding:30px 32px 14px; }
 .kicker { margin:0 0 10px; font-size:11px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--dempet); }
+/* Brødsmuler: stam.pe / Reiseplanlegging (samme som i byguidene) */
+.smuler { margin:0 0 12px; font-size:11px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--dempet);
+  display:flex; flex-wrap:wrap; align-items:baseline; }
+.smuler a { color:var(--dempet); text-decoration:none; }
+.smuler a:hover { color:var(--aksent); }
+.smuler [aria-current] { color:var(--tekst); }
+.smule-skille { margin:0 8px; color:var(--kant); font-weight:400; }
 .tittel { margin:0; font-family:'Playfair Display', Georgia, serif; font-weight:700; font-size:40px; line-height:1.08; letter-spacing:-.01em; text-wrap:balance; }
 .ingress { margin:10px 0 0; font-size:14px; line-height:1.5; color:var(--dempet); max-width:36ch; }
 
@@ -137,7 +144,9 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
 <div class="app">
   <aside class="sidebar">
     <div class="sidebar-head">
-      <p class="kicker">Reisekalender · 40 reisemål</p>
+      <nav class="smuler" aria-label="Du er her">
+        <a href="/">stam.pe</a><span class="smule-skille">/</span><span aria-current="page">Reiseplanlegging</span>
+      </nav>
       <h1 class="tittel">Hvor er det best i <span id="tittel-mnd">oktober</span>?</h1>
       <p class="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Samme regler som i regnearket.</p>
     </div>
