@@ -69,7 +69,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .sidebar-fot { padding:12px 32px 14px; border-top:1px solid var(--kant); font-size:12px; line-height:1.5; color:var(--dempet); }
 
 .kartflate { position:relative; flex:1 1 auto; background:var(--kartflate); }
-#kart { position:absolute; inset:0; touch-action:none; -webkit-user-select:none; user-select:none; }
+#kart { position:absolute; inset:0; overflow:hidden; touch-action:none; -webkit-user-select:none; user-select:none; }
 .kart-feil { position:absolute; left:20px; top:20px; max-width:360px; padding:12px 14px; background:var(--kort); border:1px solid var(--kant); font-size:13px; color:var(--dempet); }
 
 /* Hover-kort (ECharts tooltip) */
@@ -412,7 +412,7 @@ function initKart() {
   const el = document.getElementById("kart");
   kart = echarts.init(el, null, { renderer: "canvas" });
   kart.setOption({
-    backgroundColor: css("--kartflate"),
+    backgroundColor: css("--kartflate"), animation: false,
     geo: {
       map: "world", roam: TOUCH ? false : true, boundingCoords: [[-180, 80], [180, -70]], scaleLimit: { min: ZOOM_MIN, max: ZOOM_MAX },
       itemStyle: { areaColor: css("--land"), borderColor: css("--landkant"), borderWidth: 0.6 },
@@ -470,10 +470,13 @@ function initKart() {
   new ResizeObserver(() => kart.resize()).observe(el);
 }
 
-// Egen pinch/pan for touch. ECharts sin innebygde er for følsom og «hopper» på telefon.
+// Egen pinch/pan for touch. Under gesten flyttes/skaleres det ferdige kartbildet med CSS-transform
+// (GPU, ingen omtegning); når fingrene slipper tegnes kartet én gang med ny zoom/senter.
 // Geo-kartet er lineært i lon/lat, så zoom rundt et punkt: c' = p + (c − p)·z/z'.
 function touchRoam(el) {
-  let start = null, ventende = null, raf = 0;
+  const lag = el.firstElementChild;   // ECharts sin container (canvas)
+  lag.style.transformOrigin = "0 0";
+  let start = null, siste = null, raf = 0;
   const pkt = t => { const r = el.getBoundingClientRect(); return [t.clientX - r.left, t.clientY - r.top]; };
   const tilGeo = px => kart.convertFromPixel({ geoIndex: 0 }, px);
   const visning = () => { const g = kart.getOption().geo[0]; return { zoom: g.zoom || 1, center: g.center || tilGeo([el.clientWidth / 2, el.clientHeight / 2]) }; };
@@ -483,33 +486,37 @@ function touchRoam(el) {
     const b = pkt(e.touches[1]);
     return { mid: [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], dist: Math.hypot(a[0] - b[0], a[1] - b[1]), n: 2 };
   };
-  const begynn = e => { start = { ...tilstand(e), ...visning(), flyttet: false }; start.midGeo = tilGeo(start.mid); };
-  const tegn = () => {
-    raf = 0; if (!ventende || !start) return;
-    const t = ventende; ventende = null;
-    let zoom = start.zoom;
-    if (t.n === 2 && start.n === 2 && start.dist > 0)
-      zoom = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, start.zoom * Math.pow(t.dist / start.dist, PINCH_DEMPING)));
-    // Punktet som var under fingrene ved start (midGeo) skal ligge under fingrenes nåværende midtpunkt.
-    kart.setOption({ geo: { zoom, center: start.center } }, { lazyUpdate: false, silent: true });
-    const naa = tilGeo(t.mid);
-    const c = kart.getOption().geo[0].center || start.center;
-    kart.setOption({ geo: { center: [c[0] + start.midGeo[0] - naa[0], c[1] + start.midGeo[1] - naa[1]] } }, { silent: true });
+  const nyZoom = t => (t.n === 2 && start.n === 2 && start.dist > 0)
+    ? Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, start.zoom * Math.pow(t.dist / start.dist, PINCH_DEMPING)))
+    : start.zoom;
+  const begynn = e => { start = { ...tilstand(e), ...visning(), flyttet: false }; start.midGeo = tilGeo(start.mid); siste = null; };
+  const tegnTransform = () => {
+    raf = 0; if (!siste || !start) return;
+    const k = nyZoom(siste) / start.zoom;
+    const tx = siste.mid[0] - k * start.mid[0], ty = siste.mid[1] - k * start.mid[1];
+    lag.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${k})`;
   };
-  el.addEventListener("touchstart", e => { begynn(e); }, { passive: true });
+  const fullfor = () => {   // tegn kartet én gang i ny tilstand og nullstill transformen
+    if (raf) { cancelAnimationFrame(raf); raf = 0; }
+    if (start && start.flyttet && siste) {
+      kart.setOption({ geo: { zoom: nyZoom(siste), center: start.center } }, { silent: true });
+      const naa = tilGeo(siste.mid), c = kart.getOption().geo[0].center || start.center;
+      kart.setOption({ geo: { center: [c[0] + start.midGeo[0] - naa[0], c[1] + start.midGeo[1] - naa[1]] } }, { silent: true });
+      sisteGestus = Date.now();
+    }
+    lag.style.transform = "";
+  };
+  el.addEventListener("touchstart", e => { if (start) fullfor(); begynn(e); }, { passive: true });
   el.addEventListener("touchmove", e => {
     if (!start) return;
     const t = tilstand(e);
-    if (t.n !== start.n) { begynn(e); return; }   // gikk fra 1 til 2 fingre (eller omvendt) – nytt utgangspunkt
+    if (t.n !== start.n) { fullfor(); begynn(e); return; }   // 1↔2 fingre: lås inn og start på nytt
     if (!start.flyttet && Math.hypot(t.mid[0] - start.mid[0], t.mid[1] - start.mid[1]) < 6 && Math.abs(t.dist - start.dist) < 6) return;
     start.flyttet = true; sisteGestus = Date.now();
     e.preventDefault();
-    ventende = t; if (!raf) raf = requestAnimationFrame(tegn);
+    siste = t; if (!raf) raf = requestAnimationFrame(tegnTransform);
   }, { passive: false });
-  const slutt = e => {
-    if (start && start.flyttet) sisteGestus = Date.now();
-    if (e.touches.length) begynn(e); else start = null;
-  };
+  const slutt = e => { fullfor(); if (e.touches.length) begynn(e); else start = null; };
   el.addEventListener("touchend", slutt, { passive: true });
   el.addEventListener("touchcancel", slutt, { passive: true });
   // iOS Safari: hindre at hele siden zoomes når man kniper på kartet.
