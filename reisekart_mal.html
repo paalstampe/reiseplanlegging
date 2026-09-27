@@ -69,7 +69,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .sidebar-fot { padding:12px 32px 14px; border-top:1px solid var(--kant); font-size:12px; line-height:1.5; color:var(--dempet); }
 
 .kartflate { position:relative; flex:1 1 auto; background:var(--kartflate); }
-#kart { position:absolute; inset:0; }
+#kart { position:absolute; inset:0; touch-action:none; -webkit-user-select:none; user-select:none; }
 .kart-feil { position:absolute; left:20px; top:20px; max-width:360px; padding:12px 14px; background:var(--kort); border:1px solid var(--kant); font-size:13px; color:var(--dempet); }
 
 /* Hover-kort (ECharts tooltip) */
@@ -332,7 +332,8 @@ function tegnListe() {
       <p class="oppslag-notat">${esc(d.m[state.mnd][5])}</p>
     </div>`).join("");
   l.querySelectorAll(".oppslag").forEach(el => {
-    const velg = () => { visDetalj(el.dataset.id); tegnListe(); tegnKart(); fokuser(el.dataset.id); };
+    const velg = () => { visDetalj(el.dataset.id); tegnListe(); tegnKart(); fokuser(el.dataset.id);
+      if (window.matchMedia("(max-width: 900px)").matches) document.querySelector(".kartflate").scrollIntoView({ behavior: "smooth", block: "start" }); };
     el.addEventListener("click", velg);
     el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); velg(); } });
     el.addEventListener("mouseenter", () => kart && kart.dispatchAction({ type: "highlight", seriesIndex: 0, name: el.dataset.id }));
@@ -399,29 +400,120 @@ function visKartFeil(e) {
   el.insertAdjacentHTML("afterend", `<div class="kart-feil">Kartet kunne ikke lastes (${esc(e && e.message || e)}). Listen til venstre virker som vanlig.</div>`);
 }
 
+// Touch (mobil/nettbrett): ingen hover-tooltip, trykk åpner detaljkortet, egen dempet pinch/pan.
+// Mus (PC): tooltip etter kort pause i hover, klikk åpner detaljkortet og skjuler tooltip.
+const TOUCH = window.matchMedia("(hover: none) and (pointer: coarse)").matches;
+const HOVER_FORSINKELSE = 400;   // ms før tooltip vises på PC
+const PINCH_DEMPING = 0.6;       // <1 = mindre følsom zoom (eksponent på fingeravstand-forholdet)
+const ZOOM_MIN = 1, ZOOM_MAX = 12;
+let sisteGestus = 0;             // tidspunkt for siste pan/pinch – undertrykker «klikk» rett etter
+
 function initKart() {
   const el = document.getElementById("kart");
   kart = echarts.init(el, null, { renderer: "canvas" });
   kart.setOption({
     backgroundColor: css("--kartflate"),
     geo: {
-      map: "world", roam: true, boundingCoords: [[-180, 80], [180, -70]], scaleLimit: { min: 1, max: 12 },
+      map: "world", roam: TOUCH ? false : true, boundingCoords: [[-180, 80], [180, -70]], scaleLimit: { min: ZOOM_MIN, max: ZOOM_MAX },
       itemStyle: { areaColor: css("--land"), borderColor: css("--landkant"), borderWidth: 0.6 },
       emphasis: { disabled: true }, select: { disabled: true }, silent: true, label: { show: false }
     },
     tooltip: {
-      trigger: "item", triggerOn: "mousemove|click", confine: true, enterable: false,
+      show: !TOUCH, trigger: "item", triggerOn: "none", confine: true, enterable: false,
       backgroundColor: css("--kort"), borderColor: css("--kant"), borderWidth: 1, padding: [14, 16],
       extraCssText: "box-shadow:none;border-radius:2px;",
       formatter: p => { const d = DATA.dest.find(x => x.id === p.name); return d ? tooltipHtml(d) : ""; }
     },
     series: [{
-      type: "scatter", coordinateSystem: "geo", data: punktData(),
+      type: "scatter", coordinateSystem: "geo", data: punktData(), silent: true,
       emphasis: { scale: 1.5, label: { show: true } }, labelLayout: { hideOverlap: true }, animationDurationUpdate: 300
     }]
   });
-  kart.on("click", p => { if (p.seriesType === "scatter") { visDetalj(p.name); tegnListe(); tegnKart(); } });
+
+  // Treff avgjøres av nærmeste prikk, ikke av hvilket grafikkelement som ligger øverst –
+  // ellers kan en navneetikett (f.eks. «Øst-Timor») ligge over en annen prikk (PNG) og stjele hover/trykk.
+  const RADIUS = TOUCH ? 24 : 12;   // px treffområde
+  const naermeste = (x, y) => {
+    let best = null, bd = RADIUS * RADIUS;
+    kart.getOption().series[0].data.forEach((v, i) => {
+      const q = kart.convertToPixel({ geoIndex: 0 }, [v.value[0], v.value[1]]);
+      const dd = (q[0] - x) ** 2 + (q[1] - y) ** 2;
+      if (dd <= bd) { bd = dd; best = { i, name: v.name }; }
+    });
+    return best;
+  };
+  const zr = kart.getZr();
+  let tipTimer = null, hoverNavn = null;
+  const skjulTip = () => { clearTimeout(tipTimer); tipTimer = null; kart.dispatchAction({ type: "hideTip" }); };
+  const settHover = n => {
+    if ((n && n.name) === hoverNavn) return;
+    if (hoverNavn) kart.dispatchAction({ type: "downplay", seriesIndex: 0, name: hoverNavn });
+    hoverNavn = n ? n.name : null;
+    skjulTip();
+    if (!n) return;
+    kart.dispatchAction({ type: "highlight", seriesIndex: 0, name: n.name });
+    if (n.name !== state.valgt) tipTimer = setTimeout(() => kart.dispatchAction({ type: "showTip", seriesIndex: 0, dataIndex: n.i }), HOVER_FORSINKELSE);
+  };
+  if (!TOUCH) {
+    // Tooltip (kun PC): vises etter forsinkelse, aldri for punktet som allerede har detaljkort åpent.
+    zr.on("mousemove", e => { const n = naermeste(e.offsetX, e.offsetY); settHover(n); if (n) zr.setCursorStyle("pointer"); });
+    zr.on("globalout", () => settHover(null));
+    kart.on("georoam", skjulTip);
+  }
+  zr.on("click", e => {
+    if (Date.now() - sisteGestus < 350) return;   // fingeren slapp etter zoom/panorering – ikke et trykk
+    const n = naermeste(e.offsetX, e.offsetY);
+    if (!n) return;
+    skjulTip(); visDetalj(n.name); tegnListe(); tegnKart();
+  });
+  if (TOUCH) touchRoam(el);
   new ResizeObserver(() => kart.resize()).observe(el);
+}
+
+// Egen pinch/pan for touch. ECharts sin innebygde er for følsom og «hopper» på telefon.
+// Geo-kartet er lineært i lon/lat, så zoom rundt et punkt: c' = p + (c − p)·z/z'.
+function touchRoam(el) {
+  let start = null, ventende = null, raf = 0;
+  const pkt = t => { const r = el.getBoundingClientRect(); return [t.clientX - r.left, t.clientY - r.top]; };
+  const tilGeo = px => kart.convertFromPixel({ geoIndex: 0 }, px);
+  const visning = () => { const g = kart.getOption().geo[0]; return { zoom: g.zoom || 1, center: g.center || tilGeo([el.clientWidth / 2, el.clientHeight / 2]) }; };
+  const tilstand = e => {
+    const a = pkt(e.touches[0]);
+    if (e.touches.length < 2) return { mid: a, dist: 0, n: 1 };
+    const b = pkt(e.touches[1]);
+    return { mid: [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], dist: Math.hypot(a[0] - b[0], a[1] - b[1]), n: 2 };
+  };
+  const begynn = e => { start = { ...tilstand(e), ...visning(), flyttet: false }; start.midGeo = tilGeo(start.mid); };
+  const tegn = () => {
+    raf = 0; if (!ventende || !start) return;
+    const t = ventende; ventende = null;
+    let zoom = start.zoom;
+    if (t.n === 2 && start.n === 2 && start.dist > 0)
+      zoom = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, start.zoom * Math.pow(t.dist / start.dist, PINCH_DEMPING)));
+    // Punktet som var under fingrene ved start (midGeo) skal ligge under fingrenes nåværende midtpunkt.
+    kart.setOption({ geo: { zoom, center: start.center } }, { lazyUpdate: false, silent: true });
+    const naa = tilGeo(t.mid);
+    const c = kart.getOption().geo[0].center || start.center;
+    kart.setOption({ geo: { center: [c[0] + start.midGeo[0] - naa[0], c[1] + start.midGeo[1] - naa[1]] } }, { silent: true });
+  };
+  el.addEventListener("touchstart", e => { begynn(e); }, { passive: true });
+  el.addEventListener("touchmove", e => {
+    if (!start) return;
+    const t = tilstand(e);
+    if (t.n !== start.n) { begynn(e); return; }   // gikk fra 1 til 2 fingre (eller omvendt) – nytt utgangspunkt
+    if (!start.flyttet && Math.hypot(t.mid[0] - start.mid[0], t.mid[1] - start.mid[1]) < 6 && Math.abs(t.dist - start.dist) < 6) return;
+    start.flyttet = true; sisteGestus = Date.now();
+    e.preventDefault();
+    ventende = t; if (!raf) raf = requestAnimationFrame(tegn);
+  }, { passive: false });
+  const slutt = e => {
+    if (start && start.flyttet) sisteGestus = Date.now();
+    if (e.touches.length) begynn(e); else start = null;
+  };
+  el.addEventListener("touchend", slutt, { passive: true });
+  el.addEventListener("touchcancel", slutt, { passive: true });
+  // iOS Safari: hindre at hele siden zoomes når man kniper på kartet.
+  ["gesturestart", "gesturechange"].forEach(n => el.addEventListener(n, e => e.preventDefault(), { passive: false }));
 }
 
 function oppdater() {
