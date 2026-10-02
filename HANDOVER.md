@@ -18,8 +18,8 @@ Oversikt over når på året (ned mot ukenummer) det er best å reise til hvert 
 ## Forhåndsvisning av grener
 `.github/workflows/pages.yml` publiserer `main` på `stam.pe/reiseplanlegging/` og hver annen gren på `stam.pe/reiseplanlegging/forhandsvisning/<gren>/`, ett–to minutter etter push (samme oppsett som byguidene). Slettede grener forsvinner ved neste publisering. Pages-kilden er «GitHub Actions». Husk at `index.html` må være generert (`python3 lag_reisekart.py`) og committet på grenen.
 
-## Sjekke design (Claude i skyen)
-Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem — av forhåndsvisningen for grener, ellers av den publiserte siden: `.claude/skjermbilde.sh https://stam.pe/reiseplanlegging/ <fil.png> 390 844` (mobil) og `1300 900` (desktop); legg til `hel` for hele siden. Virker bare i Claude Code-skyøkter og bare for `https://stam.pe/...`. Kjøretillatelsen står i `.claude/settings.json`.
+## Sjekke design
+Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem — av forhåndsvisningen eller en lokal kopi for grener, ellers av den publiserte siden: `.claude/skjermbilde.sh https://stam.pe/reiseplanlegging/ <fil.png> 390 844` (mobil) og `1300 900` (desktop); legg til `hel` for hele siden. Tillatt: `https://stam.pe/...` og `http://localhost:<port>/...`. Virker både i skyøkter og lokalt på Macen (der kreves Node og Playwright, se toppen av skriptet). Lokal kopi: `python3 lag_reisekart.py`, så `python3 -m http.server 8000 --bind 127.0.0.1` i repoet (bind hindrer at andre på samme nett ser mappen). I lokale økter starter Claude serveren og åpner siden for Pål når han bør se på noe. Kjøretillatelsen står i `.claude/settings.json`.
 
 ## Besluttet design
 - **Format:** Excel. Normalisert datamodell + generert visning. (HTML-visning evt. senere, generert fra Excel.)

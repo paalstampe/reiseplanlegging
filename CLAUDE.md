@@ -34,7 +34,7 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, s
   og committet på grenen.
 - Sjekk designet selv: .claude/skjermbilde.sh <url> <fil.png> 390 844 (mobil) og 1300 900 (desktop);
   legg til «hel» for hele siden. Tillatt: https://stam.pe/... og http://localhost:<port>/... (eller 127.0.0.1)
-  (kjør python3 -m http.server 8000 i repoet først — gir rask sjekk før push). Virker i skyen og på Macen;
+  (kjør python3 -m http.server 8000 --bind 127.0.0.1 i repoet først — gir rask sjekk før push). Virker i skyen og på Macen;
   på Macen kreves Node og Playwright (installasjon øverst i skriptet). Kartet tegnes med ECharts og krever
   ingen nøkkel, så det virker også fra localhost.
 - Test samspill (hover, klikk, trykk, pinch) med Playwright, også på mobilbredde. zrender krever
@@ -42,6 +42,12 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, s
 - Fletting: Kan du selv verifisere at alt er i orden (skjermbilder mobil + desktop, ingen JS-feil),
   åpne PR og flett uten å spørre. Er det noe Pål bør se på (designvalg, smak, scorer, usikkerhet), push grenen,
   oppgi forhåndsvisningen og vent — flett når han sier ok.
+- Lokal økt på Påls Mac: skal Pål se på noe, start serveren selv om den ikke kjører
+  (python3 -m http.server 8000 --bind 127.0.0.1, i bakgrunnen) og åpne siden for ham med
+  open http://localhost:8000/ (generer index.html først). Stopp serveren når han er ferdig. I skyøkter: bruk forhåndsvisningen.
+- Lokal eller sky velges når Pål starter økta. Kode- og designarbeid går raskest lokalt på Macen;
+  data og dokumentasjon går like bra i sky. Får du en kode- eller designoppgave i en skyøkt,
+  si fra tidlig at den egner seg bedre lokalt (fortsett hvis Pål vil).
 - GitHub sletter grenen automatisk ved fletting. Sjekk bare at den er borte (git ls-remote --heads origin);
   slett den selv bare hvis den likevel ligger igjen.
 - Én endring per gren. Små, selvstendige commits.
