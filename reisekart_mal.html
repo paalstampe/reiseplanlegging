@@ -136,6 +136,14 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
 @media (hover: none) { body { cursor:pointer; -webkit-tap-highlight-color:transparent; } }
 @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
 
+/* Desktop: hele sidepanelet ruller (ett rullefelt), tellerlinjen blir liggende øverst. */
+@media (min-width: 901px) {
+  .sidebar { overflow-y:auto; overscroll-behavior:contain; }
+  .sidebar > * { flex-shrink:0; }
+  .liste { flex:1 0 auto; overflow:visible; }
+  .teller-rad { position:sticky; top:0; z-index:2; background:var(--papir); }
+}
+
 @media (max-width: 900px) {
   .app { flex-direction:column; height:auto; min-height:100%; overflow:visible; }
   .sidebar { width:100%; flex:none; border-right:0; border-bottom:1px solid var(--kant); order:2; overflow:visible; }
