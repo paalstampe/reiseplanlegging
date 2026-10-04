@@ -59,6 +59,7 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 - USA-CHS → «USA – Savannah-Charleston»: dekker Georgia/South Carolina-kysten generelt; klima = snitt av Charleston og Savannah/Hilton Head (NOAA 1991–2020), koordinat midt mellom byene.
 - Kartetiketter bruker nå tankestrek mellom land og sted (f.eks. «Brasil – Rio og nordover»).
 - Brødsmuler øverst i sidepanelet («stam.pe / Reiseplanlegging», stam.pe lenker til landingssiden) erstatter kickeren «Reisekalender · 40 reisemål» – samme stil som i byguidene.
+- Sidepanelet på desktop (04.10.2026): hele panelet ruller (ett rullefelt, listen har ikke eget), tellerlinjen «N av 40 grønne …» ligger fast øverst. Alternativet med kompakte filtre (månedene på én rad osv.) ble prøvd på grenen `sidepanel-kompakt`, men ikke valgt.
 
 ## Neste steg
 1. ~~Få svar på åpne spørsmål, juster struktur/skript.~~ Gjort 25.09.
