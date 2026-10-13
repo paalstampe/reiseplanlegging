@@ -427,6 +427,18 @@ function fokuser(id) {
   const ut = document.getElementById("zoom-ut"); if (ut) ut.disabled = false;
 }
 
+/* Offline: sw.js lagrer siden, bibliotekene og fontene (se kommentaren der). Det siden har lastet
+   meldes inn etterpå, så fontfilene også er med første gang. */
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+  window.addEventListener("load", () => {
+    Promise.all([navigator.serviceWorker.ready, document.fonts.ready]).then(([reg]) => {
+      const adresser = performance.getEntriesByType("resource").map(e => e.name).filter(u => /^https?:/.test(u));
+      if (reg.active) reg.active.postMessage({ type: "forhandslast", adresser: adresser });
+    }).catch(() => {});
+  });
+}
+
 const KILDER = [
   "https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js",
   "https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"
