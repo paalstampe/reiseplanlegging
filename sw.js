@@ -75,17 +75,23 @@ async function lagre(lager, url) {
   if (r.ok || r.type === 'opaque') await lager.put(url, r);
 }
 
-/* Fra siden: { type: 'forhandslast', adresser: [...] } — det siden har lastet (fontfilene),
-   så de også finnes første gang siden åpnes uten nett. Henter bare det som mangler. */
+/* Lagring for bruk offline, fra siden selv eller fra «Lagre alt» på stam.pe:
+     { type: 'lagre', adresser: [...] } — adresser er det siden har lastet (fontfilene).
+   Henter FILER og adressene som mangler, og melder { type: 'lagret', app: 'reiseplanlegging', hentet, feilet }
+   til alle åpne sider på stam.pe. */
 self.addEventListener('message', e => {
   const m = e.data || {};
-  if (m.type !== 'forhandslast' || !Array.isArray(m.adresser)) return;
+  if (m.type !== 'lagre') return;
   e.waitUntil((async () => {
     const lager = await caches.open(LAGER);
-    for (const url of new Set(m.adresser)) {
+    const liste = FILER.map(f => new URL(f, OMFANG).href).concat(m.adresser || []);
+    let hentet = 0, feilet = 0;
+    for (const url of new Set(liste)) {
       if (!egen(url) && !FREMMEDE.test(url)) continue;
       if (await lager.match(url, SOK)) continue;
-      await lagre(lager, url).catch(() => {});
+      try { await lagre(lager, url); hentet++; } catch (err) { feilet++; }
     }
+    const sider = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    sider.forEach(c => c.postMessage({ type: 'lagret', app: 'reiseplanlegging', hentet, feilet }));
   })());
 });

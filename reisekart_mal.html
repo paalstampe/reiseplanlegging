@@ -36,6 +36,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .smuler a:hover { color:var(--aksent); }
 .smuler [aria-current] { color:var(--tekst); }
 .smule-skille { margin:0 8px; color:var(--kant); font-weight:400; }
+.offline-status { margin:3px 0 0; font-size:14px; color:var(--aksent); }
 .tittel { margin:0; font-family:'Playfair Display', Georgia, serif; font-weight:700; font-size:40px; line-height:1.08; letter-spacing:-.01em; text-wrap:balance; }
 .ingress { margin:10px 0 0; font-size:14px; line-height:1.5; color:var(--dempet); max-width:36ch; }
 
@@ -170,6 +171,7 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
       </nav>
       <h1 class="tittel">Hvor er det best i <span id="tittel-mnd">oktober</span>?</h1>
       <p class="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Samme regler som i regnearket.</p>
+      <p class="offline-status" id="offline-status" hidden></p>
     </div>
 
     <div class="filtre">
@@ -428,13 +430,34 @@ function fokuser(id) {
 }
 
 /* Offline: sw.js lagrer siden, bibliotekene og fontene (se kommentaren der). Det siden har lastet
-   meldes inn etterpå, så fontfilene også er med første gang. */
+   meldes inn etter lasting, så fontfilene også er med første gang. Når alt er lagret, vises
+   «Tilgjengelig offline · 13. okt» under ingressen; datoen huskes i nettleseren (samme nøkkel som
+   «Lagre alt» på stam.pe bruker). */
+const OFFLINE_NOKKEL = "reiseplanlegging-offline:" + new URL("./", location.href).pathname;
+function visOffline() {
+  let v = null;
+  try { v = localStorage.getItem(OFFLINE_NOKKEL); } catch (e) {}
+  const d = v ? new Date(v) : null;
+  const el = document.getElementById("offline-status");
+  if (!d || isNaN(d)) { el.hidden = true; return; }
+  el.textContent = "Tilgjengelig offline · " + d.getDate() + ". " + "jan feb mar apr mai jun jul aug sep okt nov des".split(" ")[d.getMonth()];
+  el.hidden = false;
+}
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
+  navigator.serviceWorker.addEventListener("message", e => {
+    const m = e.data || {};
+    if (m.type !== "lagret" || m.app !== "reiseplanlegging" || m.feilet) return;
+    try { localStorage.setItem(OFFLINE_NOKKEL, new Date().toISOString()); } catch (err) {}
+    visOffline();
+  });
+  navigator.serviceWorker.startMessages();   // Safari leverer ellers ikke meldingene til addEventListener
+  visOffline();
   window.addEventListener("load", () => {
+    if (!navigator.onLine) return;
     Promise.all([navigator.serviceWorker.ready, document.fonts.ready]).then(([reg]) => {
       const adresser = performance.getEntriesByType("resource").map(e => e.name).filter(u => /^https?:/.test(u));
-      if (reg.active) reg.active.postMessage({ type: "forhandslast", adresser: adresser });
+      if (reg.active) reg.active.postMessage({ type: "lagre", adresser: adresser });
     }).catch(() => {});
   });
 }
