@@ -78,7 +78,8 @@ async function lagre(lager, url) {
 /* Lagring for bruk offline, fra siden selv eller fra «Lagre alt» på stam.pe:
      { type: 'lagre', adresser: [...] } — adresser er det siden har lastet (fontfilene).
    Henter FILER og adressene som mangler, og melder { type: 'lagret', app: 'reiseplanlegging', hentet, feilet }
-   til alle åpne sider på stam.pe. */
+   til alle åpne sider på stam.pe, og til svarkanalen (MessageChannel) når avsenderen sendte med en —
+   den kommer alltid fram, også i Safari når avsendersiden styres av en annen service worker. */
 self.addEventListener('message', e => {
   const m = e.data || {};
   if (m.type !== 'lagre') return;
@@ -91,7 +92,9 @@ self.addEventListener('message', e => {
       if (await lager.match(url, SOK)) continue;
       try { await lagre(lager, url); hentet++; } catch (err) { feilet++; }
     }
+    const svar = { type: 'lagret', app: 'reiseplanlegging', hentet, feilet };
+    if (e.ports && e.ports[0]) e.ports[0].postMessage(svar);
     const sider = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
-    sider.forEach(c => c.postMessage({ type: 'lagret', app: 'reiseplanlegging', hentet, feilet }));
+    sider.forEach(c => c.postMessage(svar));
   })());
 });
