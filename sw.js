@@ -87,12 +87,15 @@ self.addEventListener('message', e => {
     const lager = await caches.open(LAGER);
     const liste = FILER.map(f => new URL(f, OMFANG).href).concat(m.adresser || []);
     let hentet = 0, feilet = 0;
+    const feilede = [];   // vertsnavn + feilmelding, så stam.pe kan si hva som gikk galt
     for (const url of new Set(liste)) {
       if (!egen(url) && !FREMMEDE.test(url)) continue;
+      if (/\/sw\.js$/.test(url)) continue;
       if (await lager.match(url, SOK)) continue;
-      try { await lagre(lager, url); hentet++; } catch (err) { feilet++; }
+      try { await lagre(lager, url); hentet++; }
+      catch (err) { feilet++; feilede.push(new URL(url).hostname + ': ' + (err && err.name || 'feil')); }
     }
-    const svar = { type: 'lagret', app: 'reiseplanlegging', hentet, feilet };
+    const svar = { type: 'lagret', app: 'reiseplanlegging', hentet, feilet, feilede: feilede.slice(0, 3) };
     if (e.ports && e.ports[0]) e.ports[0].postMessage(svar);
     const sider = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
     sider.forEach(c => c.postMessage(svar));
