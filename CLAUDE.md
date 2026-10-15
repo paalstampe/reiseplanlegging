@@ -95,7 +95,6 @@ oppdater alle bildene som viser den, i alle repoene og i begge utgavene, og sjek
 Oppskrift: viewport 1300×900, deviceScaleFactor 2, beskjær 1200×900 fra venstre, skaler til 360×270 webp,
 Playwright med `colorScheme: 'light'` og `'dark'`. Ta bildene fra stam.pe etter at endringen er publisert.
 
-
 ## Data
 - Nye reisemål: legg inn i `dest`, `reisedata.py` (scorer, kilde, KOORD) og masterlisten i .md.
   Klimanormaler fra én representativ stasjon (helst WMO/nasjonal met-tjeneste, 1991–2020); oppgi kilde og periode.
