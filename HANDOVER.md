@@ -35,6 +35,9 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 - **Ukescore** = månedsscore for måneden torsdagen i uken faller i (ISO) + sum vindusjusteringer, begrenset til [1, 5]. Fra > Til = vindu over nyttår. Uke 53 vises ikke.
 - **Konvensjoner:** Arial; blå tekst/gul fylling = input, svart = formel. Bare Excel-2007-funksjoner + `_xlfn.MINIFS` (ingen XLOOKUP/FILTER o.l.).
 
+## Mørk modus
+Følger enhetens innstilling. `@media (prefers-color-scheme: dark)` i `reisekart_mal.html` bytter CSS-variablene til samme mørke palett som stam.pe og byguidene. Kartet (ECharts) leser fargene fra variablene med `css("--…")` når det tegnes. Nye farger skal derfor alltid være variabler, ikke faste verdier.
+
 ## Ikke søkbar
 `reisekart_mal.html` har `<meta name="robots" content="noindex, nofollow, noarchive">`, så den følger med inn i `index.html`. KI-innsamlere stenges ute av `robots.txt` i `paalstampe.github.io`, som gjelder hele stam.pe.
 
