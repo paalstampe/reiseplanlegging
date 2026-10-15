@@ -35,6 +35,9 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 - **Ukescore** = månedsscore for måneden torsdagen i uken faller i (ISO) + sum vindusjusteringer, begrenset til [1, 5]. Fra > Til = vindu over nyttår. Uke 53 vises ikke.
 - **Konvensjoner:** Arial; blå tekst/gul fylling = input, svart = formel. Bare Excel-2007-funksjoner + `_xlfn.MINIFS` (ingen XLOOKUP/FILTER o.l.).
 
+## Ikke søkbar
+`reisekart_mal.html` har `<meta name="robots" content="noindex, nofollow, noarchive">`, så den følger med inn i `index.html`. KI-innsamlere stenges ute av `robots.txt` i `paalstampe.github.io`, som gjelder hele stam.pe.
+
 ## Status (25.09.2026)
 - **Alle 40 destinasjoner populert:** klimanormaler fra én representativ stasjon per destinasjon (kilde og periode i Destinasjoner kol. K, hovedsakelig WMO/nasjonale met-tjenester via Wikipedia), delscorer, begrunnelser og 49 vinduer (bevegelige høytider 2026–28, festivaler, dyrelivshendelser).
 - BWA (Maun, DWD 1961–1990) og ATA (Esperanza-basen, SMN 1991–2020) er nå verifisert.
