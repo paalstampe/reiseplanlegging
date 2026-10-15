@@ -7,7 +7,8 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="Reisekart">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#F7F4EE">
+<meta name="theme-color" content="#F7F4EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1814" media="(prefers-color-scheme: dark)">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,20 @@
   --kort:#FFFDF8; --tekst:#241F19; --dempet:#6B5D4A; --kant:#DCD2C0; --kant-lys:#E0D8C9;
   --aksent:#8A5A2B; --aksent-hover:#63401D;
   --beste:#1E7B45; --god:#63BE7B; --ellers:#B8AD99; --varsel:#9A3B24;
+  --strip-tom:#EEE8DC; --deaktivert:#bbb;
   --sidebar-bredde:440px;
+}
+/* Mørk modus: samme papirretning som stam.pe og byguidene, mørk og varm. Kartet (ECharts)
+   leser fargene fra variablene når det tegnes, så det følger med. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --papir:#1B1814; --kartflate:#1C282C; --land:#2A251F; --landkant:#4A4136;
+    --kort:#24201B; --tekst:#ECE5D8; --dempet:#A6987F; --kant:#4A4136; --kant-lys:#362F27;
+    --aksent:#C99158; --aksent-hover:#E0AA72;
+    --beste:#2A9356; --god:#63BE7B; --ellers:#6E6454; --varsel:#D06A4F;
+    --strip-tom:#2C2620; --deaktivert:#5A5048;
+  }
 }
 * { box-sizing:border-box; }
 html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
@@ -91,7 +105,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .ktrl-gruppe button + button { border-top:1px solid var(--kant); }
 .ktrl-gruppe button:hover { background:var(--papir); }
 .ktrl-gruppe button:focus-visible { outline:2px solid var(--aksent); outline-offset:-2px; }
-.ktrl-gruppe button:disabled { color:#bbb; cursor:default; background:transparent; }
+.ktrl-gruppe button:disabled { color:var(--deaktivert); cursor:default; background:transparent; }
 .kart-feil { position:absolute; left:20px; top:20px; max-width:360px; padding:12px 14px; background:var(--kort); border:1px solid var(--kant); font-size:13px; color:var(--dempet); }
 
 /* Hover-kort (ECharts tooltip) */
@@ -109,7 +123,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 /* Mini-årsstripe */
 .strip { display:grid; grid-template-columns:repeat(12, 1fr); gap:2px; margin-top:10px; }
 .strip-celle { height:22px; display:flex; align-items:center; justify-content:center; font-size:9.5px; font-weight:600;
-  font-variant-numeric:tabular-nums; background:#EEE8DC; color:var(--dempet); border:1px solid transparent; }
+  font-variant-numeric:tabular-nums; background:var(--strip-tom); color:var(--dempet); border:1px solid transparent; }
 .strip-celle.god { background:var(--god); color:#12301d; }
 .strip-celle.beste { background:var(--beste); color:#fff; }
 .strip-celle.valgt { border-color:var(--tekst); }
@@ -408,9 +422,9 @@ function punktData() {
     return {
       name: d.id, value: [DATA_KOORD[d.id][1], DATA_KOORD[d.id][0], r.snitt],
       symbolSize: (c ? 15 : 10) + (valgt ? 6 : 0),
-      itemStyle: { color: farge, borderColor: valgt ? css("--tekst") : "#FFFDF8", borderWidth: valgt ? 2.5 : 1.5, opacity: c || valgt ? 1 : 0.85 },
+      itemStyle: { color: farge, borderColor: valgt ? css("--tekst") : css("--kort"), borderWidth: valgt ? 2.5 : 1.5, opacity: c || valgt ? 1 : 0.85 },
       z: c === "beste" ? 3 : c ? 2 : 1,
-      label: { show: !!c || valgt, formatter: navnKort(d), position: "right", fontSize: 11, color: css("--tekst"), fontFamily: "Work Sans, system-ui, sans-serif", textBorderColor: "#FBF8F1", textBorderWidth: 3 }
+      label: { show: !!c || valgt, formatter: navnKort(d), position: "right", fontSize: 11, color: css("--tekst"), fontFamily: "Work Sans, system-ui, sans-serif", textBorderColor: css("--land"), textBorderWidth: 3 }
     };
   });
 }
