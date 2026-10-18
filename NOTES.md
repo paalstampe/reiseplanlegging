@@ -37,3 +37,4 @@ Sist oppdatert: 18. oktober 2026.
 - 2026-10-04: Hele sidepanelet ruller på desktop. Varianten med kompakte filtre ble prøvd, men ikke valgt.
 - 2026-10-15: Mørk modus følger enheten, og siden er ikke søkbar (noindex).
 - 2026-10-18: Løpende status føres i NOTES.md, og HANDOVER.md er referanse.
+- 2026-10-18: Ubrukte filer er slettet: det gamle regnearket («Gammel - Reiseidéer og reisekalender.xlsx»), style.css (bare forbilde) og det utdaterte oppsettnotatet for GitHub Pages.

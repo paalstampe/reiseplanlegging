@@ -26,7 +26,6 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   Generert `index.html` committes alltid sammen med endringen den kommer fra.
 - `python3 bygg_reisekalender.py` bygger `Reisekalender.xlsx` (krever openpyxl). Bygg på nytt når
   dataene endres, og commit den sammen med dataendringen.
-- `style.css` er bare referanse — brukes ikke av appen.
 
 ## Arbeidsflyt
 - Endringer som ikke trenger forhåndsvisning — data (`reisedata.py`, destinasjonslisten,
@@ -107,7 +106,6 @@ Playwright med `colorScheme: 'light'` og `'dark'`. Ta bildene fra stam.pe etter 
   Merk usikre datoer «sjekk dato».
 
 ## Ikke gjør
-- Ikke rør «Gammel - Reiseidéer og reisekalender.xlsx» (referanse).
 - Ikke rediger `index.html` direkte.
 - Ikke legg inn avhengigheter, byggeverktøy eller rammeverk.
 - Ikke slett uflettede grener eller force-push uten at Pål ber om det.
