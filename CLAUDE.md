@@ -1,9 +1,13 @@
+Gjeldende status (lastes inn automatisk):
+@NOTES.md
+
 # Reiseplanlegging — arbeidsregler for Claude
 
 Påls reisekart og reisekalender: beste reisetid per reisemål (ca. 40 steder utenfor Europa), ned mot ukenummer.
 Live på https://stam.pe/reiseplanlegging/.
-Les HANDOVER.md før større endringer — den har datamodell, scoremodell, kartteknikk og status.
-Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, status, navneendringer).
+Løpende status, neste steg, åpne spørsmål og beslutningslogg: NOTES.md (oppdateres ved slutten av hver økt).
+Les HANDOVER.md før større endringer — den har datamodell, scoremodell og kartteknikk.
+Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, navneendringer).
 
 ## Språk
 - Svar Pål på norsk, direkte og konsist. Ikke forklar grunnleggende git- eller webbegreper.
