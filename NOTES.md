@@ -24,7 +24,6 @@ Sist oppdatert: 28. oktober 2026.
   Vinduene dekker 2026–28, så 2029 må inn i løpet av 2028.
 - Oppdater miniatyrene på stam.pe når kartet endrer utseende merkbart (CLAUDE.md, Miniatyrer).
 - Nye eller endrede tekster i `reisedata.py` trenger engelsk i `reisedata_en.py`. `lag_reisekart.py` melder hull.
-- Sjekk i Safari på Mac at kartet bytter farge ved modusbytte (testet bare i Chromium).
 
 ## Åpne spørsmål
 
