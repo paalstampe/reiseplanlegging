@@ -33,6 +33,18 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 - **Ukescore** = månedsscore for måneden torsdagen i uken faller i (ISO) + sum vindusjusteringer, begrenset til [1, 5]. Fra > Til = vindu over nyttår. Uke 53 vises ikke.
 - **Konvensjoner:** Arial; blå tekst/gul fylling = input, svart = formel. Bare Excel-2007-funksjoner + `_xlfn.MINIFS` (ingen XLOOKUP/FILTER o.l.).
 
+## Språk: norsk og engelsk
+Bryteren `NO / EN` står til høyre i brødsmulene. Valget huskes i nettleseren under nøkkelen `byguider-sprak`
+(samme som byguidene og stam.pe, så valget følger med mellom appene) og speiles i adressen som `?lang=en`.
+Standard er norsk. Lenken «stam.pe» i brødsmulene går til `/?lang=en` på engelsk.
+- Faste tekster: `TEKST` i `reisekart_mal.html` (norsk og engelsk side om side), elementer merket med
+  `data-t`, `data-t-aria` og `data-t-title` fylles av `oversettDom()`.
+- Innhold: `reisedata_en.py`. `EN[id]` har `land`, `sted`, `kategori`, `merknad`, `kilde` og `m` (12 begrunnelser);
+  `VINDUER_EN` har engelsk beskrivelse per norsk vindusbeskrivelse. `lag_reisekart.py` legger dem i `d.en` og
+  sist i hvert vindu (`w[7]`), og melder hull. Mangler engelsk, vises norsk.
+- På engelsk brukes desimalpunktum og engelske månedsnavn. Regnearket er bare på norsk.
+- Sikkerhetsvarselet avgjøres av den norske merknaden («Sikkerhet:»).
+
 ## Mørk modus
 Følger enhetens innstilling. `@media (prefers-color-scheme: dark)` i `reisekart_mal.html` bytter CSS-variablene til samme mørke palett som stam.pe og byguidene. Kartet (ECharts) leser fargene fra variablene med `css("--…")` når det tegnes. Nye farger skal derfor alltid være variabler, ikke faste verdier.
 

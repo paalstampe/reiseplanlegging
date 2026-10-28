@@ -14,11 +14,14 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
 - Commit-meldinger, PR-titler og -beskrivelser på norsk. Commit-stil: «Område: hva som er endret»
   (f.eks. «Kart: trykk på tomt kart lukker detaljkortet»).
 - Kode: norske navn på variabler og funksjoner, som i resten av koden.
-- Siden er bare på norsk.
+- Siden finnes på norsk og engelsk (NO / EN i brødsmulene). Faste tekster står i `TEKST` i malen,
+  innholdet i `reisedata_en.py`. Nye UI-tekster og nye data skal alltid ha begge språk.
 
 ## Filer og generering
 - `reisedata.py` — all data: månedsscorer, T maks/nedbør, begrunnelser, klimakilde, kategori, merknader,
   vinduer (VINDUER) og koordinater (KOORD). Bevegelige datoer angis som datoer og regnes om til ISO-uker.
+- `reisedata_en.py` — engelske tekster (navn, kategori, merknad, kilde, månedsbegrunnelser, vindusbeskrivelser).
+  Endres en norsk tekst, endre den engelske også. `lag_reisekart.py` skriver «Mangler engelsk: …» for hull.
 - Destinasjonslisten (`dest=[...]`) står i `bygg_reisekalender.py` og leses også av `lag_reisekart.py`.
 - `Reise - utenfor Europa.md` — masterliste over reisemål (avkrysning = besøkt). Hold den i takt med `dest`.
 - `reisekart_mal.html` — malen for kart-appen. `python3 lag_reisekart.py` skriver `index.html` fra mal + data.
