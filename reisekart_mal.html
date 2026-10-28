@@ -687,6 +687,15 @@ function initKart() {
   });
   if (TOUCH) touchRoam(el);
   new ResizeObserver(() => kart.resize()).observe(el);
+  // Bytter enheten mellom lys og mørk modus, leses fargene på nytt (ECharts tar ikke CSS-variabler selv).
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    kart.setOption({
+      backgroundColor: css("--kartflate"),
+      geo: { itemStyle: { areaColor: css("--land"), borderColor: css("--landkant") } },
+      tooltip: { backgroundColor: css("--kort"), borderColor: css("--kant") }
+    });
+    tegnKart();
+  });
   zoomKnapper(el, skjulTip);
 }
 

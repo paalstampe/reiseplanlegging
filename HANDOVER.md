@@ -46,7 +46,7 @@ Standard er norsk. Lenken «stam.pe» i brødsmulene går til `/?lang=en` på en
 - Sikkerhetsvarselet avgjøres av den norske merknaden («Sikkerhet:»).
 
 ## Mørk modus
-Følger enhetens innstilling. `@media (prefers-color-scheme: dark)` i `reisekart_mal.html` bytter CSS-variablene til samme mørke palett som stam.pe og byguidene. Kartet (ECharts) leser fargene fra variablene med `css("--…")` når det tegnes. Nye farger skal derfor alltid være variabler, ikke faste verdier.
+Følger enhetens innstilling. `@media (prefers-color-scheme: dark)` i `reisekart_mal.html` bytter CSS-variablene til samme mørke palett som stam.pe og byguidene. Kartet (ECharts) leser fargene fra variablene med `css("--…")` når det tegnes, og på nytt når enheten bytter modus (lytter på `prefers-color-scheme` i `initKart()`). Nye farger skal derfor alltid være variabler, ikke faste verdier.
 
 ## Ikke søkbar
 `reisekart_mal.html` har `<meta name="robots" content="noindex, nofollow, noarchive">`, så den følger med inn i `index.html`. KI-innsamlere stenges ute av `robots.txt` i `paalstampe.github.io`, som gjelder hele stam.pe.
