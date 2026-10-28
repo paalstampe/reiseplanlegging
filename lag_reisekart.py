@@ -14,7 +14,9 @@ data = {"dest": [], "win": [list(w) + [EN.VINDUER_EN.get(w[6], w[6])] for w in R
 for idd, reg, land, sted, stat, kat, var, mer in dest:
     data["dest"].append({"id": idd, "region": reg, "land": land, "sted": sted, "status": stat or "Ikke besøkt",
         "kategori": kat or RD.KATEGORI.get(idd, ""), "merknad": mer or RD.MERKNAD.get(idd, ""),
-        "kilde": RD.MANED[idd][0], "m": [list(x) for x in RD.MANED[idd][1]], "en": EN.EN.get(idd, {})})
+        "kilde": RD.MANED[idd][0], "en": EN.EN.get(idd, {}),
+        # «se Vinduer» viser til arket i regnearket; i kartet heter det «Hendelser».
+        "m": [list(x[:5]) + [x[5].replace("se Vinduer", "se hendelser")] for x in RD.MANED[idd][1]]})
     e = EN.EN.get(idd, {})
     if len(e.get("m", [])) != 12: hull.append(idd + ": månedstekster")
     for felt, verdi in (("sted", sted), ("merknad", data["dest"][-1]["merknad"]), ("kategori", data["dest"][-1]["kategori"])):
