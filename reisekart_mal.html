@@ -48,9 +48,18 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .smuler { margin:0 0 12px; font-size:11px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--dempet);
   display:flex; flex-wrap:wrap; align-items:baseline; }
 .smuler a { color:var(--dempet); text-decoration:none; }
-.smuler a:hover { color:var(--aksent); }
+@media (hover: hover) and (pointer: fine) { .smuler a:hover { color:var(--aksent); } }
 .smuler [aria-current] { color:var(--tekst); }
 .smule-skille { margin:0 8px; color:var(--kant); font-weight:400; }
+/* Språkvalg NO / EN til høyre i brødsmulene (samme som byguidene og stam.pe) */
+.smuler:has(.sprakvalg) { position:relative; padding-right:72px; row-gap:6px; }
+.sprakvalg { position:absolute; top:-3px; right:0; display:inline-flex; align-items:baseline; white-space:nowrap; }
+.sprakvalg .smule-skille { margin:0 2px; }
+.sprakvalg button { font:inherit; letter-spacing:inherit; text-transform:inherit; color:var(--dempet); background:none; border:0;
+  border-bottom:1px solid transparent; padding:2px 3px 1px; cursor:pointer; }
+@media (hover: hover) and (pointer: fine) { .sprakvalg button:hover { color:var(--aksent); } }
+.sprakvalg button[aria-pressed="true"] { color:var(--tekst); border-bottom-color:var(--aksent); }
+.sprakvalg button:focus-visible { outline:1px solid var(--aksent); outline-offset:2px; }
 .offline-status { margin:3px 0 0; font-size:14px; color:var(--aksent); }
 .tittel { margin:0; font-family:'Playfair Display', Georgia, serif; font-weight:700; font-size:40px; line-height:1.08; letter-spacing:-.01em; text-wrap:balance; }
 .ingress { margin:10px 0 0; font-size:14px; line-height:1.5; color:var(--dempet); max-width:36ch; }
@@ -168,6 +177,8 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
   .liste { overflow:visible; }
   .kartflate { order:1; flex:none; height:58vh; min-height:340px; }
   .sidebar-head { padding:22px 16px 12px; }
+  .sprakvalg { top:-7px; }
+  .sprakvalg button { padding:6px 5px 3px; }   /* større trykkflate på mobil */
   .tittel { font-size:32px; }
   .filtre, .liste, .sidebar-fot { padding-left:16px; padding-right:16px; }
   .teller-rad { margin-left:16px; margin-right:16px; }
@@ -181,25 +192,26 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
 <div class="app">
   <aside class="sidebar">
     <div class="sidebar-head">
-      <nav class="smuler" aria-label="Du er her">
-        <a href="/">stam.pe</a><span class="smule-skille">/</span><span aria-current="page">Reiseplanlegging</span>
+      <nav class="smuler" data-t-aria="duErHer" aria-label="Du er her">
+        <a href="/" id="hjem">stam.pe</a><span class="smule-skille">/</span><span aria-current="page" data-t="app">Reiseplanlegging</span>
+        <span class="sprakvalg" role="group" data-t-aria="sprak"><button type="button" data-sprak="no" lang="no">NO</button><span class="smule-skille">/</span><button type="button" data-sprak="en" lang="en">EN</button></span>
       </nav>
-      <h1 class="tittel">Hvor er det best i <span id="tittel-mnd">oktober</span>?</h1>
-      <p class="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Samme regler som i regnearket.</p>
+      <h1 class="tittel" id="tittel">Hvor er det best i oktober?</h1>
+      <p class="ingress" data-t="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Samme regler som i regnearket.</p>
       <p class="offline-status" id="offline-status" hidden></p>
     </div>
 
     <div class="filtre">
-      <p class="gruppe-etikett">Måned</p>
-      <div class="maneder" id="maneder" role="group" aria-label="Måned"></div>
-      <p class="gruppe-etikett">År (for høytider og festivaler)</p>
-      <div class="filtergruppe" id="ar" role="group" aria-label="År"></div>
-      <p class="gruppe-etikett">Region</p>
-      <div class="filtergruppe" id="regioner" role="group" aria-label="Region"></div>
+      <p class="gruppe-etikett" data-t="maned">Måned</p>
+      <div class="maneder" id="maneder" role="group" data-t-aria="maned" aria-label="Måned"></div>
+      <p class="gruppe-etikett" data-t="arEtikett">År (for høytider og festivaler)</p>
+      <div class="filtergruppe" id="ar" role="group" data-t-aria="ar" aria-label="År"></div>
+      <p class="gruppe-etikett" data-t="region">Region</p>
+      <div class="filtergruppe" id="regioner" role="group" data-t-aria="region" aria-label="Region"></div>
       <div class="tegnforklaring">
-        <span><i class="prikk" style="background:var(--beste)"></i>≥ 4,4 best</span>
-        <span><i class="prikk" style="background:var(--god)"></i>≥ 4,0 bra</span>
-        <span><i class="prikk" style="background:var(--ellers)"></i>under 4,0</span>
+        <span><i class="prikk" style="background:var(--beste)"></i><span data-t="best">≥ 4,4 best</span></span>
+        <span><i class="prikk" style="background:var(--god)"></i><span data-t="bra">≥ 4,0 bra</span></span>
+        <span><i class="prikk" style="background:var(--ellers)"></i><span data-t="under">under 4,0</span></span>
       </div>
     </div>
 
@@ -208,18 +220,18 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
       <button class="lenkeknapp" id="bare-gronne" type="button" aria-pressed="false">Vis bare grønne</button>
     </div>
     <div class="liste" id="liste"></div>
-    <div class="sidebar-fot">Score = 0,4·klima + 0,4·opplevelse + 0,2·trengsel/pris, snitt av ukene i måneden inkl. høytider og festivaler. Data fra Reisekalender.xlsx per <span id="datadato"></span>.</div>
+    <div class="sidebar-fot"><span data-t="fot">Score = 0,4·klima + 0,4·opplevelse + 0,2·trengsel/pris, snitt av ukene i måneden inkl. høytider og festivaler. Data fra Reisekalender.xlsx per</span> <span id="datadato"></span>.</div>
   </aside>
 
-  <section class="kartflate" aria-label="Kart">
+  <section class="kartflate" data-t-aria="kart" aria-label="Kart">
     <div id="kart"></div>
     <div class="kontroller" id="kontroller" hidden>
       <div class="ktrl-gruppe">
-        <button type="button" id="zoom-inn" title="Zoom inn" aria-label="Zoom inn"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M9 3.75v10.5M3.75 9h10.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
-        <button type="button" id="zoom-ut" title="Zoom ut" aria-label="Zoom ut"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M3.75 9h10.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+        <button type="button" id="zoom-inn" data-t-title="zoomInn" data-t-aria="zoomInn" title="Zoom inn" aria-label="Zoom inn"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M9 3.75v10.5M3.75 9h10.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+        <button type="button" id="zoom-ut" data-t-title="zoomUt" data-t-aria="zoomUt" title="Zoom ut" aria-label="Zoom ut"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M3.75 9h10.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
       </div>
       <div class="ktrl-gruppe">
-        <button type="button" class="ktrl-hjem" id="zoom-hjem" title="Vis hele kartet" aria-label="Vis hele kartet"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M3 6.75V3h3.75M15 6.75V3h-3.75M3 11.25V15h3.75M15 11.25V15h-3.75" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></button>
+        <button type="button" class="ktrl-hjem" id="zoom-hjem" data-t-title="visHele" data-t-aria="visHele" title="Vis hele kartet" aria-label="Vis hele kartet"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M3 6.75V3h3.75M15 6.75V3h-3.75M3 11.25V15h3.75M15 11.25V15h-3.75" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></button>
       </div>
     </div>
     <div class="rute-kort" id="detalj" hidden></div>
@@ -229,11 +241,106 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
 <script>
 const DATA = __DATA__;
 
-const MND = ["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"];
-const MND_LANG = ["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"];
+/* Språk: norsk er standard. Bryteren NO / EN i brødsmulene, eller ?lang=en i adressen (for å dele en
+   engelsk lenke). Valget huskes i nettleseren under samme nøkkel som byguidene og stam.pe, så det følger med.
+   Faste tekster står i TEKST; innholdet har engelsk under d.en og sist i hvert vindu (fra reisedata_en.py).
+   Mangler engelsk, vises norsk. */
+const SPRAK_NOKKEL = "byguider-sprak";
+function lesSprak() {
+  const q = new URLSearchParams(location.search).get("lang");
+  if (q === "en" || q === "no") {
+    try { localStorage.setItem(SPRAK_NOKKEL, q); } catch (e) {}
+    return q;
+  }
+  try { const v = localStorage.getItem(SPRAK_NOKKEL); if (v === "en" || v === "no") return v; } catch (e) {}
+  return "no";
+}
+let SPRAK = lesSprak();
+const TEKST = {
+  no: {
+    tittel: "Reisekart", app: "Reiseplanlegging", duErHer: "Du er her", sprak: "Språk",
+    hvor: m => `Hvor er det best i ${m}?`,
+    ingress: "Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Samme regler som i regnearket.",
+    maned: "Måned", arEtikett: "År (for høytider og festivaler)", ar: "År", region: "Region",
+    best: "≥ 4,4 best", bra: "≥ 4,0 bra", under: "under 4,0",
+    fot: "Score = 0,4·klima + 0,4·opplevelse + 0,2·trengsel/pris, snitt av ukene i måneden inkl. høytider og festivaler. Data fra Reisekalender.xlsx per",
+    kart: "Kart", zoomInn: "Zoom inn", zoomUt: "Zoom ut", visHele: "Vis hele kartet",
+    mnd: ["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"],
+    mndLang: ["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"],
+    alle: "Alle", regioner: {"Asia, Oseania og Midt-Østen":"Asia og Midtøsten"},
+    visAlle: "Vis alle", bareGronne: "Vis bare grønne",
+    teller: (g, n, m) => `${g} av ${n} grønne i ${m}`,
+    tomt: m => `Ingen reisemål over 4,0 i ${m} for dette utvalget.`,
+    hendelse: "Hendelse", hoytid: "Høytid", reiserad: "Sjekk reiseråd", score: "score",
+    bestM: "Best", braM: "Bra", ingenM: "Ingen måneder over 4,0", klikk: "klikk for detaljer",
+    klima: "Klima", opplevelse: "Opplevelse", trengsel: "Trengsel/pris", tmaks: "T maks", nedbor: "nedbør", nedborStor: "Nedbør",
+    manedscore: "Månedsscore", samlet: "samlet", aaret: a => `Året ${a} – klikk en måned`, uker: "Uker", uke: "u", ukeLang: "uke",
+    hendDenne: "Hendelser denne måneden", hendEllers: a => `Hendelser ellers i ${a}`,
+    kilde: "Klimakilde", lukk: "Lukk",
+    lkaO: "Sri Lanka øst", lkaSV: "Sri Lanka sør/vest",
+    offline: "Tilgjengelig offline",
+    kartFeil: m => `Kartet kunne ikke lastes (${m}). Listen til venstre virker som vanlig.`
+  },
+  en: {
+    tittel: "Travel map", app: "Travel planning", duErHer: "You are here", sprak: "Language",
+    hvor: m => `Where is it best in ${m}?`,
+    ingress: "Pick a month. Green means an overall score of 4.0 or more, dark green 4.4 or more. Same rules as in the spreadsheet.",
+    maned: "Month", arEtikett: "Year (for holidays and festivals)", ar: "Year", region: "Region",
+    best: "≥ 4.4 best", bra: "≥ 4.0 good", under: "below 4.0",
+    fot: "Score = 0.4·climate + 0.4·experience + 0.2·crowds/price, average of the weeks in the month incl. holidays and festivals. Data from Reisekalender.xlsx as of",
+    kart: "Map", zoomInn: "Zoom in", zoomUt: "Zoom out", visHele: "Show the whole map",
+    mnd: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+    mndLang: ["January","February","March","April","May","June","July","August","September","October","November","December"],
+    alle: "All", regioner: {"Asia, Oseania og Midt-Østen":"Asia and Middle East","Nord-Amerika":"North America",
+      "Sør- og Mellom-Amerika":"South and Central America","Afrika":"Africa"},
+    visAlle: "Show all", bareGronne: "Show only green",
+    teller: (g, n, m) => `${g} of ${n} green in ${m}`,
+    tomt: m => `No destinations above 4.0 in ${m} for this selection.`,
+    hendelse: "Event", hoytid: "Holiday", reiserad: "Check travel advice", score: "score",
+    bestM: "Best", braM: "Good", ingenM: "No months above 4.0", klikk: "click for details",
+    klima: "Climate", opplevelse: "Experience", trengsel: "Crowds/price", tmaks: "Max temp", nedbor: "rain", nedborStor: "Rain",
+    manedscore: "Month score", samlet: "overall", aaret: a => `${a} – click a month`, uker: "Weeks", uke: "w", ukeLang: "week",
+    hendDenne: "Events this month", hendEllers: a => `Other events in ${a}`,
+    kilde: "Climate source", lukk: "Close",
+    lkaO: "Sri Lanka east", lkaSV: "Sri Lanka south/west",
+    offline: "Available offline",
+    kartFeil: m => `The map could not be loaded (${m}). The list works as usual.`
+  }
+};
+const t = k => TEKST[SPRAK][k] ?? TEKST.no[k];
+// Engelsk innhold med norsk som reserve: tekst(d, "sted"), mndTekst(d, i), vinduTekst(w)
+const tekst = (d, felt) => (SPRAK === "en" && d.en && d.en[felt]) || d[felt];
+const mndTekst = (d, i) => (SPRAK === "en" && d.en && d.en.m && d.en.m[i]) || d.m[i][5];
+const vinduTekst = w => SPRAK === "en" ? w[7] || w[6] : w[6];
+const desimal = s => SPRAK === "en" ? s : s.replace(".", ",");
+
+function oversettDom() {
+  document.documentElement.lang = SPRAK;
+  document.title = t("tittel");
+  document.querySelectorAll("[data-t]").forEach(e => { e.textContent = t(e.dataset.t); });
+  document.querySelectorAll("[data-t-aria]").forEach(e => { e.setAttribute("aria-label", t(e.dataset.tAria)); });
+  document.querySelectorAll("[data-t-title]").forEach(e => { e.title = t(e.dataset.tTitle); });
+  document.querySelectorAll(".sprakvalg [data-sprak]").forEach(b => b.setAttribute("aria-pressed", b.dataset.sprak === SPRAK ? "true" : "false"));
+  document.getElementById("hjem").href = SPRAK === "en" ? "/?lang=en" : "/";
+}
+function byttSprak(ny) {
+  if ((ny !== "no" && ny !== "en") || ny === SPRAK) return;
+  SPRAK = ny;
+  try { localStorage.setItem(SPRAK_NOKKEL, ny); } catch (e) {}
+  const u = new URL(location.href);
+  if (ny === "en") u.searchParams.set("lang", "en"); else u.searchParams.delete("lang");
+  history.replaceState(history.state, "", u);
+  oversettDom(); visOffline(); oppdater();
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest && e.target.closest(".sprakvalg [data-sprak]");
+  if (b) byttSprak(b.dataset.sprak);
+});
+
+const MND = TEKST.no.mnd;   // brukes bare til lengden (12 måneder)
 const GOD = 4.0, BESTE = 4.4, EPS = 1e-3;
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
-const fmt = x => x == null ? "–" : x.toFixed(1).replace(".", ",");
+const fmt = x => x == null ? "–" : desimal(x.toFixed(1));
 const klasse = s => s == null ? "" : s >= BESTE - EPS ? "beste" : s >= GOD - EPS ? "god" : "";
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
@@ -278,8 +385,9 @@ function beregn(d, mnd, ar) {
 function aarsprofil(d, ar) { return MND.map((_, i) => beregn(d, i, ar).snitt); }
 
 const REGIONER = ["Alle", ...new Set(DATA.dest.map(d => d.region))];
-const kortRegion = r => ({"Asia, Oseania og Midt-Østen":"Asia og Midtøsten","Sør- og Mellom-Amerika":"Sør- og Mellom-Amerika"}[r] || r);
-const navn = d => d.sted ? `${d.land} – ${d.sted}` : d.land;
+const kortRegion = r => r === "Alle" ? t("alle") : t("regioner")[r] || r;
+const navn = d => { const land = tekst(d, "land"), sted = tekst(d, "sted"); return sted ? `${land} – ${sted}` : land; };
+const erVarsel = d => /sikkerhet/i.test(d.merknad);
 
 function chip(label, pressed, onclick, extra = "") {
   const b = document.createElement("button");
@@ -291,21 +399,21 @@ function chip(label, pressed, onclick, extra = "") {
 }
 function tegnFiltre() {
   const m = document.getElementById("maneder"); m.innerHTML = "";
-  MND.forEach((x, i) => m.appendChild(chip(x, i === state.mnd, () => { state.mnd = i; oppdater(); }, MND_LANG[i])));
+  t("mnd").forEach((x, i) => m.appendChild(chip(x, i === state.mnd, () => { state.mnd = i; oppdater(); }, t("mndLang")[i])));
   const a = document.getElementById("ar"); a.innerHTML = "";
   AR_VALG.forEach(y => a.appendChild(chip(String(y), y === state.ar, () => { state.ar = y; oppdater(); })));
   const r = document.getElementById("regioner"); r.innerHTML = "";
   REGIONER.forEach(x => r.appendChild(chip(kortRegion(x), x === state.region, () => { state.region = x; oppdater(); })));
   const bg = document.getElementById("bare-gronne");
   bg.setAttribute("aria-pressed", state.bareGronne ? "true" : "false");
-  bg.textContent = state.bareGronne ? "Vis alle" : "Vis bare grønne";
+  bg.textContent = state.bareGronne ? t("visAlle") : t("bareGronne");
 }
 
 function rader() {
   return DATA.dest
     .filter(d => state.region === "Alle" || d.region === state.region)
     .map(d => ({ d, r: beregn(d, state.mnd, state.ar) }))
-    .sort((a, b) => b.r.snitt - a.r.snitt || navn(a.d).localeCompare(navn(b.d), "nb"));
+    .sort((a, b) => b.r.snitt - a.r.snitt || navn(a.d).localeCompare(navn(b.d), SPRAK === "en" ? "en" : "nb"));
 }
 
 function stripHtml(d, knapp) {
@@ -313,57 +421,58 @@ function stripHtml(d, knapp) {
   const celler = p.map((s, i) => {
     const cls = `strip-celle ${klasse(s)} ${i === state.mnd ? "valgt" : ""}`;
     return knapp
-      ? `<button type="button" class="${cls}" data-mnd="${i}" title="${MND_LANG[i]}: ${fmt(s)}">${fmt(s)}</button>`
+      ? `<button type="button" class="${cls}" data-mnd="${i}" title="${t("mndLang")[i]}: ${fmt(s)}">${fmt(s)}</button>`
       : `<div class="${cls}">${fmt(s)}</div>`;
   }).join("");
-  return `<div class="strip">${celler}</div><div class="strip-akse">${MND.map(x => `<span>${x[0]}</span>`).join("")}</div>`;
+  return `<div class="strip">${celler}</div><div class="strip-akse">${t("mnd").map(x => `<span>${x[0]}</span>`).join("")}</div>`;
 }
 const besteManeder = d => {
   const p = aarsprofil(d, state.ar);
-  const b = p.map((s, i) => [s, i]).filter(([s]) => s >= BESTE - EPS).map(([, i]) => MND[i]);
-  const g = p.map((s, i) => [s, i]).filter(([s]) => s >= GOD - EPS).map(([, i]) => MND[i]);
-  return b.length ? `Best: ${b.join(", ")}` : g.length ? `Bra: ${g.join(", ")}` : "Ingen måneder over 4,0";
+  const b = p.map((s, i) => [s, i]).filter(([s]) => s >= BESTE - EPS).map(([, i]) => t("mnd")[i]);
+  const g = p.map((s, i) => [s, i]).filter(([s]) => s >= GOD - EPS).map(([, i]) => t("mnd")[i]);
+  return b.length ? `${t("bestM")}: ${b.join(", ")}` : g.length ? `${t("braM")}: ${g.join(", ")}` : t("ingenM");
 };
 
 function tooltipHtml(d) {
   const r = beregn(d, state.mnd, state.ar);
-  const [k, o, t, T, N, txt] = d.m[state.mnd];
-  const hend = r.hend.map(w => `${w[4] > 0 ? "+" : "−"}${String(Math.abs(w[4])).replace(".", ",")} ${esc(w[6])}`).join("<br>");
+  const [k, o, tp, T, N] = d.m[state.mnd], txt = mndTekst(d, state.mnd);
+  const hend = r.hend.map(w => `${w[4] > 0 ? "+" : "−"}${desimal(String(Math.abs(w[4])))} ${esc(vinduTekst(w))}`).join("<br>");
   return `<div class="tt">
     <p class="tt-navn">${esc(navn(d))}</p>
-    <p class="tt-meta">${esc(d.kategori || kortRegion(d.region))} · ${MND_LANG[state.mnd]} ${state.ar}</p>
+    <p class="tt-meta">${esc(tekst(d, "kategori") || kortRegion(d.region))} · ${t("mndLang")[state.mnd]} ${state.ar}</p>
     <div class="tt-rad"><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span>
-      <span class="tt-deler">Klima <b>${k}</b> · Opplevelse <b>${o}</b> · Trengsel/pris <b>${t}</b><br>${T == null ? "" : `T maks <b>${String(T).replace(".", ",")} °C</b>`}${N == null ? "" : ` · nedbør <b>${Math.round(N)} mm</b>`}</span></div>
+      <span class="tt-deler">${t("klima")} <b>${k}</b> · ${t("opplevelse")} <b>${o}</b> · ${t("trengsel")} <b>${tp}</b><br>${T == null ? "" : `${t("tmaks")} <b>${desimal(String(T))} °C</b>`}${N == null ? "" : ` · ${t("nedbor")} <b>${Math.round(N)} mm</b>`}</span></div>
     <p class="tt-notat">${esc(txt)}</p>
     ${hend ? `<p class="tt-hend">${hend}</p>` : ""}
-    ${/sikkerhet/i.test(d.merknad) ? `<p class="tt-varsel">${esc(d.merknad)}</p>` : ""}
+    ${erVarsel(d) ? `<p class="tt-varsel">${esc(tekst(d, "merknad"))}</p>` : ""}
     ${stripHtml(d, false)}
-    <p class="tt-hint">${besteManeder(d)} · klikk for detaljer</p>
+    <p class="tt-hint">${besteManeder(d)} · ${t("klikk")}</p>
   </div>`;
 }
 
 function detaljHtml(d) {
   const r = beregn(d, state.mnd, state.ar);
-  const [k, o, t, T, N, txt] = d.m[state.mnd];
-  const uker = r.uker.map(x => `<span class="uke ${klasse(x.s)}">u${x.u} ${fmt(x.s)}</span>`).join("");
-  const hend = r.hend.map(w => `<li>${esc(w[6])} <span class="merke">${w[4] > 0 ? "+" : "−"}${String(Math.abs(w[4])).replace(".", ",")}</span></li>`).join("");
+  const [k, o, tp, T, N] = d.m[state.mnd], txt = mndTekst(d, state.mnd), merknad = tekst(d, "merknad");
+  const uker = r.uker.map(x => `<span class="uke ${klasse(x.s)}">${t("uke")}${x.u} ${fmt(x.s)}</span>`).join("");
+  const hend = r.hend.map(w => `<li>${esc(vinduTekst(w))} <span class="merke">${w[4] > 0 ? "+" : "−"}${desimal(String(Math.abs(w[4])))}</span></li>`).join("");
   const alleHend = DATA.win.filter(w => w[0] === d.id && (w[5] == null || w[5] === state.ar));
-  return `<button class="rute-lukk" id="lukk" type="button" aria-label="Lukk">×</button>
-    <p class="rute-kicker">${esc(kortRegion(d.region))}${d.kategori ? " · " + esc(d.kategori) : ""}</p>
+  const kategori = tekst(d, "kategori");
+  return `<button class="rute-lukk" id="lukk" type="button" aria-label="${t("lukk")}">×</button>
+    <p class="rute-kicker">${esc(kortRegion(d.region))}${kategori ? " · " + esc(kategori) : ""}</p>
     <h2 class="rute-navn">${esc(navn(d))}</h2>
-    <div class="seksjon"><p class="seksjon-tittel">Året ${state.ar} – klikk en måned</p>${stripHtml(d, true)}</div>
-    <div class="seksjon"><p class="seksjon-tittel">${MND_LANG[state.mnd]} · samlet ${fmt(r.snitt)}</p>
+    <div class="seksjon"><p class="seksjon-tittel">${t("aaret")(state.ar)}</p>${stripHtml(d, true)}</div>
+    <div class="seksjon"><p class="seksjon-tittel">${t("mndLang")[state.mnd]} · ${t("samlet")} ${fmt(r.snitt)}</p>
       <div class="tall-rad">
-        <div class="tall">Klima<b>${k}</b></div><div class="tall">Opplevelse<b>${o}</b></div><div class="tall">Trengsel/pris<b>${t}</b></div>
-        <div class="tall">T maks<b>${T == null ? "–" : String(T).replace(".", ",") + "°"}</b></div><div class="tall">Nedbør<b>${N == null ? "–" : Math.round(N) + " mm"}</b></div><div class="tall">Månedsscore<b>${fmt(r.base)}</b></div>
+        <div class="tall">${t("klima")}<b>${k}</b></div><div class="tall">${t("opplevelse")}<b>${o}</b></div><div class="tall">${t("trengsel")}<b>${tp}</b></div>
+        <div class="tall">${t("tmaks")}<b>${T == null ? "–" : desimal(String(T)) + "°"}</b></div><div class="tall">${t("nedborStor")}<b>${N == null ? "–" : Math.round(N) + " mm"}</b></div><div class="tall">${t("manedscore")}<b>${fmt(r.base)}</b></div>
       </div>
       <p class="liten" style="margin-top:10px">${esc(txt)}</p>
     </div>
-    <div class="seksjon"><p class="seksjon-tittel">Uker</p><div class="uker">${uker}</div></div>
-    ${hend ? `<div class="seksjon"><p class="seksjon-tittel">Hendelser denne måneden</p><ul class="hend">${hend}</ul></div>` : ""}
-    ${!hend && alleHend.length ? `<div class="seksjon"><p class="seksjon-tittel">Hendelser ellers i ${state.ar}</p><ul class="hend">${alleHend.map(w => `<li>${esc(w[6])} (uke ${w[1]}${w[2] !== w[1] ? "–" + w[2] : ""})</li>`).join("")}</ul></div>` : ""}
-    ${d.merknad ? `<div class="seksjon"><p class="liten" style="color:${/sikkerhet/i.test(d.merknad) ? "var(--varsel)" : "inherit"}">${esc(d.merknad)}</p></div>` : ""}
-    <div class="seksjon"><p class="kilde">Klimakilde: ${esc(d.kilde)}</p></div>`;
+    <div class="seksjon"><p class="seksjon-tittel">${t("uker")}</p><div class="uker">${uker}</div></div>
+    ${hend ? `<div class="seksjon"><p class="seksjon-tittel">${t("hendDenne")}</p><ul class="hend">${hend}</ul></div>` : ""}
+    ${!hend && alleHend.length ? `<div class="seksjon"><p class="seksjon-tittel">${t("hendEllers")(state.ar)}</p><ul class="hend">${alleHend.map(w => `<li>${esc(vinduTekst(w))} (${t("ukeLang")} ${w[1]}${w[2] !== w[1] ? "–" + w[2] : ""})</li>`).join("")}</ul></div>` : ""}
+    ${merknad ? `<div class="seksjon"><p class="liten" style="color:${erVarsel(d) ? "var(--varsel)" : "inherit"}">${esc(merknad)}</p></div>` : ""}
+    <div class="seksjon"><p class="kilde">${t("kilde")}: ${esc(tekst(d, "kilde"))}</p></div>`;
 }
 
 function lukkDetalj() {
@@ -394,14 +503,14 @@ function tegnListe() {
   const rr = rader();
   const vis = state.bareGronne ? rr.filter(x => x.r.snitt >= GOD - EPS) : rr;
   const antG = rr.filter(x => x.r.snitt >= GOD - EPS).length;
-  document.getElementById("teller").textContent = `${antG} av ${rr.length} grønne i ${MND_LANG[state.mnd]}`;
+  document.getElementById("teller").textContent = t("teller")(antG, rr.length, t("mndLang")[state.mnd]);
   const l = document.getElementById("liste");
-  if (!vis.length) { l.innerHTML = `<p class="tomt">Ingen reisemål over 4,0 i ${MND_LANG[state.mnd]} for dette utvalget.</p>`; return; }
+  if (!vis.length) { l.innerHTML = `<p class="tomt">${t("tomt")(t("mndLang")[state.mnd])}</p>`; return; }
   l.innerHTML = vis.map(({ d, r }) => `
-    <div class="oppslag ${state.valgt === d.id ? "er-valgt" : ""}" data-id="${d.id}" tabindex="0" role="button" aria-label="${esc(navn(d))}, score ${fmt(r.snitt)}">
+    <div class="oppslag ${state.valgt === d.id ? "er-valgt" : ""}" data-id="${d.id}" tabindex="0" role="button" aria-label="${esc(navn(d))}, ${t("score")} ${fmt(r.snitt)}">
       <div class="oppslag-topp"><p class="oppslag-navn">${esc(navn(d))}</p><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span></div>
-      <p class="oppslag-meta"><span>${esc(kortRegion(d.region))}</span>${r.hend.length ? `<span class="merke">${r.hend.some(w => w[4] > 0) ? "Hendelse" : "Høytid"}</span>` : ""}${/sikkerhet/i.test(d.merknad) ? `<span class="merke varsel">Sjekk reiseråd</span>` : ""}</p>
-      <p class="oppslag-notat">${esc(d.m[state.mnd][5])}</p>
+      <p class="oppslag-meta"><span>${esc(kortRegion(d.region))}</span>${r.hend.length ? `<span class="merke">${r.hend.some(w => w[4] > 0) ? t("hendelse") : t("hoytid")}</span>` : ""}${erVarsel(d) ? `<span class="merke varsel">${t("reiserad")}</span>` : ""}</p>
+      <p class="oppslag-notat">${esc(mndTekst(d, state.mnd))}</p>
     </div>`).join("");
   l.querySelectorAll(".oppslag").forEach(el => {
     const velg = () => { visDetalj(el.dataset.id); tegnListe(); tegnKart(); fokuser(el.dataset.id);
@@ -428,7 +537,8 @@ function punktData() {
     };
   });
 }
-const navnKort = d => d.sted && d.land.length + d.sted.length < 23 ? `${d.land} – ${d.sted}` : (d.sted && d.land === "Sri Lanka" ? `Sri Lanka ${d.id === "LKA-O" ? "øst" : "sør/vest"}` : d.land);
+const navnKort = d => { const land = tekst(d, "land"), sted = tekst(d, "sted");
+  return sted && land.length + sted.length < 23 ? `${land} – ${sted}` : (sted && d.land === "Sri Lanka" ? t(d.id === "LKA-O" ? "lkaO" : "lkaSV") : land); };
 const DATA_KOORD = DATA.koord;
 
 function tegnKart() {
@@ -455,7 +565,7 @@ function visOffline() {
   const d = v ? new Date(v) : null;
   const el = document.getElementById("offline-status");
   if (!d || isNaN(d)) { el.hidden = true; return; }
-  el.textContent = "Tilgjengelig offline · " + d.getDate() + ". " + "jan feb mar apr mai jun jul aug sep okt nov des".split(" ")[d.getMonth()];
+  el.textContent = t("offline") + " · " + (SPRAK === "en" ? d.getDate() + " " + t("mnd")[d.getMonth()] : d.getDate() + ". " + t("mnd")[d.getMonth()]);
   el.hidden = false;
 }
 if ("serviceWorker" in navigator) {
@@ -503,7 +613,7 @@ async function lastKart() {
 }
 function visKartFeil(e) {
   const el = document.getElementById("kart");
-  el.insertAdjacentHTML("afterend", `<div class="kart-feil">Kartet kunne ikke lastes (${esc(e && e.message || e)}). Listen til venstre virker som vanlig.</div>`);
+  el.insertAdjacentHTML("afterend", `<div class="kart-feil">${t("kartFeil")(esc(e && e.message || e))}</div>`);
 }
 
 // Touch (mobil/nettbrett): ingen hover-tooltip, trykk åpner detaljkortet, egen dempet pinch/pan.
@@ -655,13 +765,14 @@ function touchRoam(el) {
 }
 
 function oppdater() {
-  document.getElementById("tittel-mnd").textContent = MND_LANG[state.mnd];
+  document.getElementById("tittel").textContent = t("hvor")(t("mndLang")[state.mnd]);
   tegnFiltre(); tegnListe(); tegnKart();
   if (state.valgt) visDetalj(state.valgt);
 }
 
 document.getElementById("bare-gronne").addEventListener("click", () => { state.bareGronne = !state.bareGronne; oppdater(); });
 document.getElementById("datadato").textContent = DATA.dato;
+oversettDom();
 oppdater();
 lastKart().then(() => { initKart(); tegnKart(); }).catch(visKartFeil);
 </script>
