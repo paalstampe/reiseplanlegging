@@ -17,6 +17,8 @@ Sist oppdatert: 31. oktober 2026.
   enheten bytter mellom lys og mørk modus (PR #15).
 - 31.10.: egen 404-side (kopi av den på stam.pe, PR #18). Ukjente adresser under stam.pe/reiseplanlegging/ viste før
   GitHubs standardside. Endres 404.html, gjøres det i paalstampe.github.io og kopieres hit.
+- 31.10.: delingskort (PR #19). `deling.png` er en luftpostkonvolutt med klode-frimerke, malen har og:-tagger, og hjemskjermikonet er
+  et frimerke med «r». Lages med `.claude/delingsbilder.sh`.
 - Det finnes ingen åpne grener utenom `main`.
 
 ## Neste steg
@@ -39,6 +41,7 @@ Sist oppdatert: 31. oktober 2026.
 
 ## Beslutningslogg
 
+- 2026-10-31: Delingsbildet er luftpost, i samme postale familie som stam.pe (konvolutt med PS-frimerke) og byguidene (postkort).
 - 2026-09-25: Vektene er 40/40/20, og vetoet er myket opp til et tak på 1,5. Trengsel/pris er én dimensjon.
 - 2026-09-25: `Reise - utenfor Europa.md` er masterlisten over reisemål.
 - 2026-09-25: Sri Lanka er delt i LKA-SV og LKA-O. Stan-landene er slått sammen med Silkeveien (SILK).
