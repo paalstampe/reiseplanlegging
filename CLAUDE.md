@@ -67,6 +67,8 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   `animation:false`. iOS trenger `cursor:pointer` på body for at trykk gir klikk.
 - PC: tooltip etter `HOVER_FORSINKELSE` (400 ms). Treff = nærmeste prikk innen 12 px (PC) / 24 px (touch).
 - Zoomknapper i samme stil som byguidenes MapLibre-kontroller (`zoomKnapper()`).
+- Delingskort (`deling.png`, luftpost) og hjemskjermikon (frimerke med «r») lages med `.claude/delingsbilder.sh`;
+  `delingsbilder.html` er en identisk kopi fra byguider. og:-taggene står i malen.
 - Brødsmuler øverst i sidepanelet: «stam.pe / Reiseplanlegging», stam.pe lenker til landingssiden.
 - Mobil er like viktig som desktop. Hover-effekter bare under (hover: hover) and (pointer: fine).
   Respekter prefers-reduced-motion.
