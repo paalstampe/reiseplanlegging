@@ -5,7 +5,7 @@ Oppdateres ved slutten av hver økt (`/avslutt`).
 
 ## Status nå
 
-Sist oppdatert: 28. oktober 2026.
+Sist oppdatert: 31. oktober 2026.
 
 - Reisekartet er live på https://stam.pe/reiseplanlegging/, og Reisekalender.xlsx bygges fra de samme dataene.
 - Alle 40 reisemål er fylt ut med klimanormaler, delscorer, begrunnelser og 49 vinduer. Vinduene dekker
@@ -15,6 +15,8 @@ Sist oppdatert: 28. oktober 2026.
   og stam.pe. Innholdet er oversatt i `reisedata_en.py`. Ingressen og bunnteksten nevner ikke lenger regnearket,
   og «se Vinduer» vises som «se hendelser» i kartet (PR #13–#14). Kartet bytter farger med en gang når
   enheten bytter mellom lys og mørk modus (PR #15).
+- 31.10.: egen 404-side (kopi av den på stam.pe, PR #18). Ukjente adresser under stam.pe/reiseplanlegging/ viste før
+  GitHubs standardside. Endres 404.html, gjøres det i paalstampe.github.io og kopieres hit.
 - Det finnes ingen åpne grener utenom `main`.
 
 ## Neste steg
