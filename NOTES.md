@@ -5,8 +5,10 @@ Oppdateres ved slutten av hver økt (`/avslutt`).
 
 ## Status nå
 
-Sist oppdatert: 31. oktober 2026.
+Sist oppdatert: 1. november 2026.
 
+- 1.11.: frimerke-ikonet heter nå `ikon-frimerke.png` (PR #20). Med samme filnavn kunne iOS vise det gamle
+  «r»-ikonet ved deling. `apple-touch-icon.png` ligger igjen som kopi for gamle lenker.
 - Reisekartet er live på https://stam.pe/reiseplanlegging/, og Reisekalender.xlsx bygges fra de samme dataene.
 - Alle 40 reisemål er fylt ut med klimanormaler, delscorer, begrunnelser og 49 vinduer. Vinduene dekker
   bevegelige høytider for 2026–28, festivaler og dyrelivshendelser.
@@ -42,6 +44,8 @@ Sist oppdatert: 31. oktober 2026.
 
 ## Beslutningslogg
 
+- 2026-11-01: Et ikon eller delingsbilde som byttes, får nytt filnavn (se HANDOVER). iOS viste det gamle bokstavikonet
+  ved deling, fordi frimerket hadde overtatt samme fil.
 - 2026-10-31: Delingsbildet er luftpost, i samme postale familie som stam.pe (konvolutt med PS-frimerke) og byguidene (postkort).
 - 2026-09-25: Vektene er 40/40/20, og vetoet er myket opp til et tak på 1,5. Trengsel/pris er én dimensjon.
 - 2026-09-25: `Reise - utenfor Europa.md` er masterlisten over reisemål.
