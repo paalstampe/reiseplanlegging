@@ -10,7 +10,7 @@ const VERSJON = 'v1';
 const LAGER = 'reiseplanlegging-' + VERSJON;
 const NETT_FRIST = 4000;
 const OMFANG = new URL('./', self.location).href;
-const FILER = ['./', 'apple-touch-icon.png',
+const FILER = ['./', 'ikon-frimerke.png',
   'https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js',    // samme som KILDER i malen
   'https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js',
   'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Work+Sans:wght@400;500;600&display=swap'];
