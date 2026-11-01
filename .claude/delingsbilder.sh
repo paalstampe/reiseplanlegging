@@ -1,7 +1,7 @@
 #!/bin/bash
 # Lager delingsbildet (og:image, 1200×630) og hjemskjermikonet fra .claude/delingsbilder.html:
 #   deling.png            luftpostkonvolutt med klode-frimerke og «Reiseplanlegging»
-#   apple-touch-icon.png  frimerke med «r» (180×180)
+#   ikon-frimerke.png     frimerke med «r» (180×180)
 # delingsbilder.html er en identisk kopi av den i byguider; endres den, kopier til begge.
 # Bruk: .claude/delingsbilder.sh   (fra roten av repoet; krever Node og Playwright, se skjermbilde.sh)
 set -euo pipefail
@@ -25,7 +25,7 @@ const path = require('path');
   };
   await ta({ motiv: 'luftpost', tittel: 'Reiseplanlegging', kicker: 'stam.pe',
     under: 'Hvor er det best å reise, uke for uke?' }, 'deling.png');
-  await ta({ motiv: 'ikon', bokstav: 'r' }, 'apple-touch-icon.png');
+  await ta({ motiv: 'ikon', bokstav: 'r' }, 'ikon-frimerke.png');
   await nettleser.close();
   for (const f of feil) console.error('Feil: ' + f);
   if (feil.length) process.exit(1);
