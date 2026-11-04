@@ -11,7 +11,7 @@ Sist oppdatert: 4. november 2026.
   før lot Safari 68 pt stå tomt på hver side. Panelet vokser med innfellingen ved Dynamic Island, og detaljkortet
   holdes over hjemlinjen.
 - 4.11.: nettbrett (PR #24). Stående iPad og ⅔ delt skjerm (700–1023 px) har panelet på 340 px ved siden av kartet.
-  Mobilbrytepunktet er flyttet fra 900 til 699 px. Testet i simulatoren (iPad Air 11" stående) og med Playwright.
+  Mobilbrytepunktet er flyttet fra 900 til 699 px. Testet i simulatoren (iPad Air 11" stående, og rotert til liggende og tilbake med siden åpen) og med Playwright.
 - 4.11.: mobil (PR #22). Stående har «Liste ↓» i kartet og fast «Kart ↑» når kartet er rullet bort, som i byguidene.
   Liggende har panelet i en smal kolonne til venstre og kartet i full høyde. Testet i Playwright, ikke på iPhone.
 - 4.11.: kartet går rundt jorda øst–vest og kan ikke dras ut av bildet nord–sør (PR #21). Zoom 1 fyller nå hele
@@ -39,8 +39,7 @@ Sist oppdatert: 4. november 2026.
 - Legg inn nye bevegelige datoer hvert år (Tet/kinesisk nyttår, påske, ramadan, tsechu) i `reisedata.py`, og bygg på nytt.
   Vinduene dekker 2026–28, så 2029 må inn i løpet av 2028.
 - Oppdater miniatyrene på stam.pe når kartet endrer utseende merkbart (CLAUDE.md, Miniatyrer).
-- Kjenn på sveip og pinch (PR #21) på iPhone. Liggende og stående er sjekket i iOS-simulatoren, pinch ikke.
-- iPad: rotasjon med siden åpen er ikke testet (simulatorpanelet trenger tilgang til iPad Air 11").
+- Kjenn på sveip og pinch (PR #21) på en ekte iPhone. I simulatoren virker begge (testet 4.11.), men følelsen må sjekkes på telefonen.
 - Sjekk at delingskortet vises i Meldinger, Slack og e-post (bildet er live, men ikke sett i en app ennå).
 - Nye eller endrede tekster i `reisedata.py` trenger engelsk i `reisedata_en.py`. `lag_reisekart.py` melder hull.
 
