@@ -178,14 +178,24 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
 @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
 
 /* Desktop: hele sidepanelet ruller (ett rullefelt), tellerlinjen blir liggende øverst. */
-@media (min-width: 901px) {
+@media (min-width: 700px) {
   .sidebar { overflow-y:auto; overscroll-behavior:contain; }
   .sidebar > * { flex-shrink:0; }
   .liste { flex:1 0 auto; overflow:visible; }
   .teller-rad { position:sticky; top:0; z-index:2; background:var(--papir); }
 }
 
-@media (max-width: 900px) {
+/* Nettbrett stående og delt skjerm (700–1023 px): panelet ved siden av kartet, men smalere enn på Mac,
+   så kartet får plass. Under 700 px er det mobiloppsettet med kartet over lista. */
+@media (min-width: 700px) and (max-width: 1023px) {
+  :root { --sidebar-bredde:340px; }
+  .sidebar-head { padding:22px 20px 12px; }
+  .tittel { font-size:30px; }
+  .filtre, .liste, .sidebar-fot { padding-left:20px; padding-right:20px; }
+  .teller-rad { margin-left:20px; margin-right:20px; }
+}
+
+@media (max-width: 699px) {
   .app { flex-direction:column; height:auto; min-height:100%; overflow:visible; }
   .sidebar { width:100%; flex:none; border-right:0; border-bottom:1px solid var(--kant); order:2; overflow:visible; }
   .liste { overflow:visible; }
@@ -563,7 +573,7 @@ function tegnListe() {
     </div>`).join("");
   l.querySelectorAll(".oppslag").forEach(el => {
     const velg = () => { visDetalj(el.dataset.id); tegnListe(); tegnKart(); fokuser(el.dataset.id);
-      if (window.matchMedia("(max-width: 900px)").matches && !LIGGENDE.matches) document.querySelector(".kartflate").scrollIntoView({ behavior: "smooth", block: "start" }); };
+      if (window.matchMedia("(max-width: 699px)").matches && !LIGGENDE.matches) document.querySelector(".kartflate").scrollIntoView({ behavior: "smooth", block: "start" }); };
     el.addEventListener("click", velg);
     el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); velg(); } });
     el.addEventListener("mouseenter", () => kart && kart.dispatchAction({ type: "highlight", seriesIndex: 0, name: el.dataset.id }));
