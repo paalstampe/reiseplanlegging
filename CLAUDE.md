@@ -51,6 +51,8 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   Playwright holder for vanlige layoutsjekker og er raskere; simulatoren er sluttsjekken for iPhone. Ikke i skyøkter.
 - Test samspill (hover, klikk, trykk, pinch) med Playwright, også på mobilbredde. zrender krever
   mousedown/mouseup før click.
+- UI-endringer: kjør axe-core i nettleserpanelet før fletting (last https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js
+  med javascript_tool, så `axe.run()`), i lys og mørk modus. Rett brudd; kontrast som krever nye farger tas med Pål.
 - Før fletting av kodeendringer: kjør /code-review (standardnivå) og /simplify på grenen selv, uten at Pål ber om det.
   Rett funnene som holder, nevn kort i PR-beskrivelsen hva som ble funnet og rettet. Gjelder ikke rene data- og tekstendringer.
 - Fletting: Kan du selv verifisere at alt er i orden (skjermbilder mobil + desktop, ingen JS-feil),
