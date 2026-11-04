@@ -536,17 +536,17 @@ function tegnListe() {
 
 let kart = null;
 function punktData() {
-  return rader().map(({ d, r }) => {
+  return rader().flatMap(({ d, r }) => {
     const c = klasse(r.snitt);
     const farge = c === "beste" ? css("--beste") : c === "god" ? css("--god") : css("--ellers");
     const valgt = state.valgt === d.id;
-    return {
-      name: d.id, value: [DATA_KOORD[d.id][1], DATA_KOORD[d.id][0], r.snitt],
+    return KOPIER.map(forskyv => ({
+      name: d.id, value: [DATA_KOORD[d.id][1] + forskyv, DATA_KOORD[d.id][0], r.snitt],
       symbolSize: (c ? 15 : 10) + (valgt ? 6 : 0),
       itemStyle: { color: farge, borderColor: valgt ? css("--tekst") : css("--kort"), borderWidth: valgt ? 2.5 : 1.5, opacity: c || valgt ? 1 : 0.85 },
       z: c === "beste" ? 3 : c ? 2 : 1,
       label: { show: !!c || valgt, formatter: navnKort(d), position: "right", fontSize: 11, color: css("--tekst"), fontFamily: "Work Sans, system-ui, sans-serif", textBorderColor: css("--land"), textBorderWidth: 3 }
-    };
+    }));
   });
 }
 const navnKort = d => { const land = tekst(d, "land"), sted = tekst(d, "sted");
@@ -563,6 +563,7 @@ function fokuser(id) {
   const opt = kart.getOption();
   const zoom = Math.max(opt.geo[0].zoom || 1, 2.2);
   kart.setOption({ geo: { center: [lon, lat], zoom } });
+  holdInnenfor();
   const ut = document.getElementById("zoom-ut"); if (ut) ut.disabled = false;
 }
 
@@ -636,13 +637,60 @@ const PINCH_DEMPING = 0.6;       // <1 = mindre følsom zoom (eksponent på fing
 const ZOOM_MIN = 1, ZOOM_MAX = 12;
 let sisteGestus = 0;             // tidspunkt for siste pan/pinch – undertrykker «klikk» rett etter
 
+// Kartet går rundt jorda øst–vest: verdenskartet og prikkene tegnes tre ganger side om side
+// (lengdegrad −540…540), og midtpunktet flyttes stille 360° tilbake når det passerer ±180°.
+// Nord–sør stopper kartet ved kanten (80° N / 70° S), så det aldri kan dras ut av bildet.
+const KOPIER = [-360, 0, 360];
+const LAT_TOPP = 80, LAT_BUNN = -70;
+function registrerVerden() {
+  const json = echarts.getMap("world").geoJSON;
+  echarts.parseGeoJSON(json);   // world.js er komprimert; dette pakker ut koordinatene (på stedet)
+  const flytt = (ring, dx) => ring.map(([x, y]) => [x + dx, y]);
+  const features = KOPIER.flatMap(dx => json.features.map(f => {
+    const g = f.geometry;
+    const coordinates = g.type === "Polygon" ? g.coordinates.map(r => flytt(r, dx))
+      : g.coordinates.map(p => p.map(r => flytt(r, dx)));
+    return { type: "Feature", properties: { name: f.properties.name + (dx ? " " + dx : "") }, geometry: { type: g.type, coordinates } };
+  }));
+  echarts.registerMap("verden", { type: "FeatureCollection", features });
+}
+// Normaliserer lengdegraden til ±180° og skyver kartet tilbake hvis kanten i nord eller sør er dratt inn i bildet.
+// Er hele kartet lavere enn flaten, sentreres det.
+function holdInnenfor() {
+  if (!kart) return;
+  const H = kart.getHeight();
+  const g = kart.getOption().geo[0];
+  const c = g.center ? g.center.slice() : kart.convertFromPixel({ geoIndex: 0 }, [kart.getWidth() / 2, H / 2]);
+  const topp = kart.convertToPixel({ geoIndex: 0 }, [c[0], LAT_TOPP])[1];
+  const bunn = kart.convertToPixel({ geoIndex: 0 }, [c[0], LAT_BUNN])[1];
+  const dy = vertikalJustering(topp, bunn, H);
+  const lon = ((c[0] + 180) % 360 + 360) % 360 - 180;
+  const lat = c[1] + dy * (LAT_TOPP - LAT_BUNN) / (bunn - topp);
+  if (Math.abs(dy) < 0.5 && Math.abs(lon - c[0]) < 1e-9) return;
+  kart.setOption({ geo: { center: [lon, lat] } }, { silent: true });
+}
+// Hvor mange piksler kartet må flyttes ned (+) eller opp (−) for at kanten ikke skal synes.
+const vertikalJustering = (topp, bunn, H) =>
+  bunn - topp <= H ? H / 2 - (topp + bunn) / 2 : topp > 0 ? -topp : bunn < H ? H - bunn : 0;
+
+// Kartets størrelse ved zoom 1: hele [-180, 180] × [80°N, 70°S] passer i den synlige flaten
+// (ECharts ville ellers fylle det tre ganger så brede touch-lerretet).
+const KART_FORHOLD = 360 * 0.75 / (LAT_TOPP - LAT_BUNN);   // bredde/høyde med ECharts' aspectScale 0,75
+const kartStorrelse = el => ({ layoutCenter: ["50%", "50%"], layoutSize: Math.min(el.clientWidth, el.clientHeight * KART_FORHOLD) });
+
 function initKart() {
   const el = document.getElementById("kart");
-  kart = echarts.init(el, null, { renderer: "canvas" });
+  registrerVerden();
+  // Touch: kartet tegnes tre skjermbredder bredt (én utenfor på hver side), så det finnes kart å vise
+  // når det dras sideveis med CSS-transform før det tegnes på nytt ved slipp.
+  const lerret = document.createElement("div");
+  lerret.style.cssText = TOUCH ? "position:absolute;top:0;bottom:0;left:-100%;width:300%" : "position:absolute;inset:0";
+  el.appendChild(lerret);
+  kart = echarts.init(lerret, null, { renderer: "canvas" });
   kart.setOption({
     backgroundColor: css("--kartflate"), animation: false,
     geo: {
-      map: "world", roam: TOUCH ? false : true, boundingCoords: [[-180, 80], [180, -70]], scaleLimit: { min: ZOOM_MIN, max: ZOOM_MAX },
+      map: "verden", roam: TOUCH ? false : true, ...kartStorrelse(el), boundingCoords: [[-180, 80], [180, -70]], scaleLimit: { min: ZOOM_MIN, max: ZOOM_MAX },
       itemStyle: { areaColor: css("--land"), borderColor: css("--landkant"), borderWidth: 0.6 },
       emphasis: { disabled: true }, select: { disabled: true }, silent: true, label: { show: false }
     },
@@ -688,6 +736,8 @@ function initKart() {
     zr.on("globalout", () => settHover(null));
     kart.on("georoam", skjulTip);
   }
+  // ECharts tillater ikke setOption midt i en handling, så grensen settes rett etterpå (før neste tegning).
+  kart.on("georoam", () => queueMicrotask(holdInnenfor));
   let ned = null;   // PC: klikk etter at kartet er dratt skal ikke telle
   zr.on("mousedown", e => { ned = [e.offsetX, e.offsetY]; });
   zr.on("click", e => {
@@ -698,7 +748,7 @@ function initKart() {
     skjulTip(); visDetalj(n.name); tegnListe(); tegnKart();
   });
   if (TOUCH) touchRoam(el);
-  new ResizeObserver(() => kart.resize()).observe(el);
+  new ResizeObserver(() => { kart.resize(); kart.setOption({ geo: kartStorrelse(el) }); holdInnenfor(); }).observe(el);
   // Bytter enheten mellom lys og mørk modus, leses fargene på nytt (ECharts tar ikke CSS-variabler selv).
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
     kart.setOption({
@@ -713,7 +763,7 @@ function initKart() {
 
 // +/− zoomer (faktor 2, som ett zoomnivå i byguidene) rundt midten av kartet; «Vis hele kartet» går tilbake til start.
 function zoomKnapper(el, skjulTip) {
-  const midt = () => kart.convertFromPixel({ geoIndex: 0 }, [el.clientWidth / 2, el.clientHeight / 2]);
+  const midt = () => kart.convertFromPixel({ geoIndex: 0 }, [kart.getWidth() / 2, kart.getHeight() / 2]);
   const startSenter = midt();
   const naaZoom = () => kart.getOption().geo[0].zoom || 1;
   const inn = document.getElementById("zoom-inn"), ut = document.getElementById("zoom-ut");
@@ -721,6 +771,7 @@ function zoomKnapper(el, skjulTip) {
   const sett = (zoom, center) => {
     skjulTip();
     kart.setOption({ geo: { zoom: Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, zoom)), center } });
+    holdInnenfor();
     oppdaterKnapper();
   };
   inn.addEventListener("click", () => sett(naaZoom() * 2, midt()));
@@ -736,12 +787,12 @@ function zoomKnapper(el, skjulTip) {
 // (GPU, ingen omtegning); når fingrene slipper tegnes kartet én gang med ny zoom/senter.
 // Geo-kartet er lineært i lon/lat, så zoom rundt et punkt: c' = p + (c − p)·z/z'.
 function touchRoam(el) {
-  const lag = el.firstElementChild;   // ECharts sin container (canvas)
+  const lag = el.firstElementChild;   // lerretet ECharts tegner i (bredere enn flaten, se initKart)
   lag.style.transformOrigin = "0 0";
   let start = null, siste = null, raf = 0;
-  const pkt = t => { const r = el.getBoundingClientRect(); return [t.clientX - r.left, t.clientY - r.top]; };
+  const pkt = t => { const r = el.getBoundingClientRect(); return [t.clientX - r.left - lag.offsetLeft, t.clientY - r.top]; };   // i lerretets koordinater
   const tilGeo = px => kart.convertFromPixel({ geoIndex: 0 }, px);
-  const visning = () => { const g = kart.getOption().geo[0]; return { zoom: g.zoom || 1, center: g.center || tilGeo([el.clientWidth / 2, el.clientHeight / 2]) }; };
+  const visning = () => { const g = kart.getOption().geo[0]; return { zoom: g.zoom || 1, center: g.center || tilGeo([kart.getWidth() / 2, kart.getHeight() / 2]) }; };
   const tilstand = e => {
     const a = pkt(e.touches[0]);
     if (e.touches.length < 2) return { mid: a, dist: 0, n: 1 };
@@ -751,11 +802,17 @@ function touchRoam(el) {
   const nyZoom = t => (t.n === 2 && start.n === 2 && start.dist > 0)
     ? Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, start.zoom * Math.pow(t.dist / start.dist, PINCH_DEMPING)))
     : start.zoom;
-  const begynn = e => { start = { ...tilstand(e), ...visning(), flyttet: false }; start.midGeo = tilGeo(start.mid); siste = null; };
+  const begynn = e => {
+    start = { ...tilstand(e), ...visning(), flyttet: false }; start.midGeo = tilGeo(start.mid); siste = null;
+    start.topp = kart.convertToPixel({ geoIndex: 0 }, [0, LAT_TOPP])[1];
+    start.bunn = kart.convertToPixel({ geoIndex: 0 }, [0, LAT_BUNN])[1];
+  };
   const tegnTransform = () => {
     raf = 0; if (!siste || !start) return;
     const k = nyZoom(siste) / start.zoom;
-    const tx = siste.mid[0] - k * start.mid[0], ty = siste.mid[1] - k * start.mid[1];
+    const tx = siste.mid[0] - k * start.mid[0];
+    let ty = siste.mid[1] - k * start.mid[1];
+    ty += vertikalJustering(ty + k * start.topp, ty + k * start.bunn, el.clientHeight);   // samme grense som ved slipp
     lag.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${k})`;
   };
   const fullfor = () => {   // tegn kartet én gang i ny tilstand og nullstill transformen
@@ -764,6 +821,7 @@ function touchRoam(el) {
       kart.setOption({ geo: { zoom: nyZoom(siste), center: start.center } }, { silent: true });
       const naa = tilGeo(siste.mid), c = kart.getOption().geo[0].center || start.center;
       kart.setOption({ geo: { center: [c[0] + start.midGeo[0] - naa[0], c[1] + start.midGeo[1] - naa[1]] } }, { silent: true });
+      holdInnenfor();
       sisteGestus = Date.now();
     }
     lag.style.transform = "";
