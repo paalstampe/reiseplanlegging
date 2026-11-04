@@ -67,6 +67,10 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   `animation:false`. iOS trenger `cursor:pointer` på body for at trykk gir klikk.
 - PC: tooltip etter `HOVER_FORSINKELSE` (400 ms). Treff = nærmeste prikk innen 12 px (PC) / 24 px (touch).
 - Zoomknapper i samme stil som byguidenes MapLibre-kontroller (`zoomKnapper()`).
+- Kartet går rundt jorda øst–vest (tre kopier, `KOPIER`) og stopper nord–sør (`holdInnenfor()`).
+  Ikke jordklode (besluttet 4.11.). På touch tegnes kartet tre skjermbredder bredt.
+- Mobil: stående har «Liste ↓»/«Kart ↑» (`#til-lista`), liggende har panelet ved siden av kartet (`LIGGENDE`),
+  begge som i byguidene. Test layoutendringer i stående og liggende.
 - Delingskort (`deling.png`, luftpost) og hjemskjermikon (frimerke med «r») lages med `.claude/delingsbilder.sh`;
   `delingsbilder.html` er en identisk kopi fra byguider. og:-taggene står i malen.
 - Ikoner og delingsbilder som byttes, får nytt filnavn (iOS husker gamle bilder etter adresse). Se HANDOVER.

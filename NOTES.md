@@ -11,7 +11,7 @@ Sist oppdatert: 4. november 2026.
   Liggende har panelet i en smal kolonne til venstre og kartet i full høyde. Testet i Playwright, ikke på iPhone.
 - 4.11.: kartet går rundt jorda øst–vest og kan ikke dras ut av bildet nord–sør (PR #21). Zoom 1 fyller nå hele
   bredden av kartflaten (før ca. 80 %). Ekte jordklode ble vurdert og valgt bort, se beslutningsloggen.
-
+  Miniatyrene på stam.pe er tatt på nytt i lys og mørk (paalstampe.github.io).
 - 1.11.: frimerke-ikonet heter nå `ikon-frimerke.png` (PR #20). Med samme filnavn kunne iOS vise det gamle
   «r»-ikonet ved deling. `apple-touch-icon.png` ligger igjen som kopi for gamle lenker.
 - Reisekartet er live på https://stam.pe/reiseplanlegging/, og Reisekalender.xlsx bygges fra de samme dataene.
