@@ -7,6 +7,11 @@ Oppdateres ved slutten av hver økt (`/avslutt`).
 
 Sist oppdatert: 4. november 2026.
 
+- 4.11.: Claude-oppsett. `.claude/launch.json` lar Claude-appen starte serveren i den innebygde nettleseren (8000 byguider,
+  8001 reiseplanlegging, 8002 stam.pe). Hooks: `.claude/oppstart.sh` sjekker ved oppstart om repoet ligger bak eller foran origin
+  (henter selv når det er trygt) og om /avslutt avviker fra claude-oppsett; `.claude/valider.sh` sjekker JSON/GeoJSON/Python
+  etter hver filendring; `.claude/sky-push.sh` holder skyøkter igjen til committede endringer er pushet.
+  Claude kjører /code-review og /simplify selv før fletting av kodeendringer.
 - 4.11.: liggende iPhone testet i iOS-simulatoren. Kartet går nå helt ut til skjermkantene (`viewport-fit=cover`, PR #23);
   før lot Safari 68 pt stå tomt på hver side. Panelet vokser med innfellingen ved Dynamic Island, og detaljkortet
   holdes over hjemlinjen.
@@ -55,6 +60,8 @@ Sist oppdatert: 4. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-04: Claude kjører /code-review og /simplify selv før fletting av kodeendringer, så Pål slipper å be om det.
+- 2026-11-04: Git-sjekk ved oppstart og push-vakt i sky ligger som hooks i repoet (ikke bare som regel), så de virker både lokalt og i skyøkter.
 - 2026-11-04: Nettbrett (700–1023 px) får panelet ved siden av kartet (340 px), som byguidene. Stående iPad fikk
   telefonoppsettet med et høyt kart og lista i full bredde under.
 - 2026-11-04: `viewport-fit=cover` i malen, så kartet går ut til kantene i liggende og safe-area-verdiene virker.
