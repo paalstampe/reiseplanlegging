@@ -43,7 +43,7 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   (kjøringen dukker opp noen sekunder etter push).
 - Sjekk designet selv: .claude/skjermbilde.sh <url> <fil.png> 390 844 (mobil) og 1300 900 (desktop);
   legg til «hel» for hele siden. Tillatt: https://stam.pe/... og http://localhost:<port>/... (eller 127.0.0.1)
-  (kjør python3 -m http.server 8000 --bind 127.0.0.1 i repoet først — gir rask sjekk før push). Virker i skyen og på Macen;
+  (kjør python3 -m http.server 8001 --bind 127.0.0.1 i repoet først — gir rask sjekk før push). Virker i skyen og på Macen;
   på Macen kreves Node og Playwright (installasjon øverst i skriptet). Kartet tegnes med ECharts og krever
   ingen nøkkel, så det virker også fra localhost.
 - iPhone-spesifikt (liggende, notch/Dynamic Island, safe area, Safaris verktøylinje, rotasjon): bruk
@@ -59,8 +59,8 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   åpne PR og flett uten å spørre. Er det noe Pål bør se på (designvalg, smak, scorer, usikkerhet), push grenen,
   oppgi forhåndsvisningen og vent — flett når han sier ok.
 - Lokal økt på Påls Mac: skal Pål se på noe, start serveren selv om den ikke kjører
-  (python3 -m http.server 8000 --bind 127.0.0.1, i bakgrunnen) og åpne siden for ham med
-  open http://localhost:8000/ (generer index.html først). Stopp serveren når han er ferdig. I skyøkter: bruk forhåndsvisningen.
+  (python3 -m http.server 8001 --bind 127.0.0.1, i bakgrunnen) og åpne siden for ham med
+  open http://localhost:8001/ (generer index.html først). Stopp serveren når han er ferdig. I skyøkter: bruk forhåndsvisningen.
 - Desktop-appen: .claude/launch.json starter serveren på port 8001 i appens innebygde nettleser
   (preview_start), der du kan se, klikke og lese konsollen selv. Portene er 8000 byguider, 8001 reiseplanlegging,
   8002 stam.pe, så alle tre kan kjøre samtidig.
@@ -85,7 +85,7 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
 - PC: tooltip etter `HOVER_FORSINKELSE` (400 ms). Treff = nærmeste prikk innen 12 px (PC) / 24 px (touch).
 - Zoomknapper i samme stil som byguidenes MapLibre-kontroller (`zoomKnapper()`).
 - Kartet går rundt jorda øst–vest (tre kopier, `KOPIER`) og stopper nord–sør (`holdInnenfor()`).
-  Ikke jordklode (besluttet 4.11.). På touch tegnes kartet tre skjermbredder bredt.
+  Ikke jordklode (begrunnelse i beslutningsloggen). På touch tegnes kartet tre skjermbredder bredt.
 - Mobil: stående har «Liste ↓»/«Kart ↑» (`#til-lista`), liggende har panelet ved siden av kartet (`LIGGENDE`),
   begge som i byguidene. Mobil er under 700 px; 700–1023 px er nettbrett med panelet ved siden av kartet.
   Test layoutendringer i stående og liggende.
