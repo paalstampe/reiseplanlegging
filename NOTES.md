@@ -5,7 +5,10 @@ Oppdateres ved slutten av hver økt (`/avslutt`).
 
 ## Status nå
 
-Sist oppdatert: 1. november 2026.
+Sist oppdatert: 4. november 2026.
+
+- 4.11.: kartet går rundt jorda øst–vest og kan ikke dras ut av bildet nord–sør (PR #21). Zoom 1 fyller nå hele
+  bredden av kartflaten (før ca. 80 %). Ekte jordklode ble vurdert og valgt bort, se beslutningsloggen.
 
 - 1.11.: frimerke-ikonet heter nå `ikon-frimerke.png` (PR #20). Med samme filnavn kunne iOS vise det gamle
   «r»-ikonet ved deling. `apple-touch-icon.png` ligger igjen som kopi for gamle lenker.
@@ -29,6 +32,7 @@ Sist oppdatert: 1. november 2026.
 - Legg inn nye bevegelige datoer hvert år (Tet/kinesisk nyttår, påske, ramadan, tsechu) i `reisedata.py`, og bygg på nytt.
   Vinduene dekker 2026–28, så 2029 må inn i løpet av 2028.
 - Oppdater miniatyrene på stam.pe når kartet endrer utseende merkbart (CLAUDE.md, Miniatyrer).
+- Kjenn på sveip og pinch på iPhone etter PR #21 (testet bare med Playwright).
 - Sjekk at delingskortet vises i Meldinger, Slack og e-post (bildet er live, men ikke sett i en app ennå).
 - Nye eller endrede tekster i `reisedata.py` trenger engelsk i `reisedata_en.py`. `lag_reisekart.py` melder hull.
 
@@ -43,6 +47,9 @@ Sist oppdatert: 1. november 2026.
 - De engelske tekstene er oversatt av Claude og ikke gjennomlest av Pål.
 
 ## Beslutningslogg
+
+- 2026-11-04: Flatt kart som går rundt jorda øst–vest, ikke jordklode. En klode viser bare halve jorda om gangen
+  (oversikten over alle mål er poenget) og ville krevd echarts-gl eller MapLibre med kartfliser.
 
 - 2026-11-01: Et ikon eller delingsbilde som byttes, får nytt filnavn (se HANDOVER). iOS viste det gamle bokstavikonet
   ved deling, fordi frimerket hadde overtatt samme fil.
