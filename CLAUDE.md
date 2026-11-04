@@ -54,6 +54,9 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
 - Lokal økt på Påls Mac: skal Pål se på noe, start serveren selv om den ikke kjører
   (python3 -m http.server 8000 --bind 127.0.0.1, i bakgrunnen) og åpne siden for ham med
   open http://localhost:8000/ (generer index.html først). Stopp serveren når han er ferdig. I skyøkter: bruk forhåndsvisningen.
+- Desktop-appen: .claude/launch.json starter serveren på port 8001 i appens innebygde nettleser
+  (preview_start), der du kan se, klikke og lese konsollen selv. Portene er 8000 byguider, 8001 reiseplanlegging,
+  8002 stam.pe, så alle tre kan kjøre samtidig.
 - Lokal eller sky velges når Pål starter økta. Kode- og designarbeid går raskest lokalt på Macen;
   data og dokumentasjon går like bra i sky. Får du en kode- eller designoppgave i en skyøkt,
   si fra tidlig at den egner seg bedre lokalt (fortsett hvis Pål vil).
