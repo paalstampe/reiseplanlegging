@@ -7,6 +7,12 @@ Oppdateres ved slutten av hver økt (`/avslutt`).
 
 Sist oppdatert: 4. november 2026.
 
+- 4.11. kveld: verktøyoversikten (claude-oppsett#1). `.claude/valider.sh` sjekker nå også filer endret i Bash
+  (sed, skript): JSON/GeoJSON/Python som git ser som endret siden forrige godkjenning, og melder en ødelagt fil til den er rettet.
+  Stop-hooken `sky-push.sh` har `onFailure: block`. CLAUDE.md: vent med `gh run watch` før skjermbilder av forhåndsvisningen,
+  og kjør axe-core ved UI-endringer. `/doctor prompt-audit` er kjørt på reglene og funnene er rettet. Ferdig flettede lokale grener er slettet.
+  Tilgjengelighet: kartflaten har role=main (PR #29), og «best» i mørk modus er mørkere grønn #23804A (PR #30), så hvit tekst
+  får kontrast 4,9:1 (før 3,88:1). Dokumentasjonen bruker port 8001 for lokal server. Hooks: PR #28.
 - 4.11.: Claude-oppsett. `.claude/launch.json` lar Claude-appen starte serveren i den innebygde nettleseren (8000 byguider,
   8001 reiseplanlegging, 8002 stam.pe). Hooks: `.claude/oppstart.sh` sjekker ved oppstart om repoet ligger bak eller foran origin
   (henter selv når det er trygt) og om /avslutt avviker fra claude-oppsett; `.claude/valider.sh` sjekker JSON/GeoJSON/Python
@@ -60,6 +66,10 @@ Sist oppdatert: 4. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-04: «Best» i mørk modus er #23804A med hvit tekst (variant B). Alternativet med mørk tekst på dagens grønn ble valgt bort:
+  da ble «best» og «bra» for like, og lys modus har hvit tekst.
+- 2026-11-04: valider.sh kjører også etter Bash, siden auto mode ofte endrer filer med sed og skript, som før gikk utenom sjekken.
+- 2026-11-04: UI-endringer sjekkes med axe-core (lys og mørk) før fletting. Brudd som krever nye farger tas med Pål.
 - 2026-11-04: Claude kjører /code-review og /simplify selv før fletting av kodeendringer, så Pål slipper å be om det.
 - 2026-11-04: Git-sjekk ved oppstart og push-vakt i sky ligger som hooks i repoet (ikke bare som regel), så de virker både lokalt og i skyøkter.
 - 2026-11-04: Nettbrett (700–1023 px) får panelet ved siden av kartet (340 px), som byguidene. Stående iPad fikk
