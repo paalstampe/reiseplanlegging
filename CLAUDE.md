@@ -43,6 +43,9 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   (kjør python3 -m http.server 8000 --bind 127.0.0.1 i repoet først — gir rask sjekk før push). Virker i skyen og på Macen;
   på Macen kreves Node og Playwright (installasjon øverst i skriptet). Kartet tegnes med ECharts og krever
   ingen nøkkel, så det virker også fra localhost.
+- iPhone-spesifikt (liggende, notch/Dynamic Island, safe area, Safaris verktøylinje, rotasjon): bruk
+  iOS-simulatoren (Xcode er installert på Macen) via simulatorverktøyet, f.eks. åpne URL i Safari og rotere.
+  Playwright holder for vanlige layoutsjekker og er raskere; simulatoren er sluttsjekken for iPhone. Ikke i skyøkter.
 - Test samspill (hover, klikk, trykk, pinch) med Playwright, også på mobilbredde. zrender krever
   mousedown/mouseup før click.
 - Fletting: Kan du selv verifisere at alt er i orden (skjermbilder mobil + desktop, ingen JS-feil),
