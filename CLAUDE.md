@@ -73,7 +73,8 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
 - Kartet går rundt jorda øst–vest (tre kopier, `KOPIER`) og stopper nord–sør (`holdInnenfor()`).
   Ikke jordklode (besluttet 4.11.). På touch tegnes kartet tre skjermbredder bredt.
 - Mobil: stående har «Liste ↓»/«Kart ↑» (`#til-lista`), liggende har panelet ved siden av kartet (`LIGGENDE`),
-  begge som i byguidene. Test layoutendringer i stående og liggende.
+  begge som i byguidene. Mobil er under 700 px; 700–1023 px er nettbrett med panelet ved siden av kartet.
+  Test layoutendringer i stående og liggende.
 - Delingskort (`deling.png`, luftpost) og hjemskjermikon (frimerke med «r») lages med `.claude/delingsbilder.sh`;
   `delingsbilder.html` er en identisk kopi fra byguider. og:-taggene står i malen.
 - Ikoner og delingsbilder som byttes, får nytt filnavn (iOS husker gamle bilder etter adresse). Se HANDOVER.
