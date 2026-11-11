@@ -18,8 +18,7 @@ for r in alle:
         "kategori": r["kategori"], "merknad": r["merknad"], "kilde": r["kilde"],
         "en": {**en, "m": en_m},  # tom månedstekst = norsk vises for den måneden
         # «se Vinduer» viser til arket i regnearket; i kartet heter det «Hendelser».
-        "m": [[m["klima"], m["opplevelse"], m["trengsel"], m["tmaks"], m["nedbor"], m["no"].replace("se Vinduer", "se hendelser")]
-              for m in r["maneder"]]})
+        "m": [[m[f] for f in reisemal.MANEDSFELT[:-1]] + [m["no"].replace("se Vinduer", "se hendelser")] for m in r["maneder"]]})
     if not all(en_m): hull.append(idd + ": månedstekster")
     for felt in ("sted", "merknad", "kategori"):
         if r[felt] and felt not in en: hull.append(idd + ": " + felt)

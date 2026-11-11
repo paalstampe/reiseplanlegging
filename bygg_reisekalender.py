@@ -103,7 +103,7 @@ r=5
 for x in alle:
     idd=x["id"]
     for mi,mm in enumerate(x["maneder"],1):
-        k,o,t,T,N,txt=(mm[f] for f in ("klima","opplevelse","trengsel","tmaks","nedbor","no"))
+        k,o,t,T,N,txt=(mm[f] for f in reisemal.MANEDSFELT)
         m.cell(r,1,idd).font=BLUE
         m.cell(r,2,f'=IFERROR(INDEX(Destinasjoner!$E$5:$E${DEND},MATCH(A{r},Destinasjoner!$A$5:$A${DEND},0)),"")').font=NORM
         m.cell(r,3,mi).font=BLUE
