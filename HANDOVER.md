@@ -33,7 +33,15 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 Rekkefølgen (regneark, md-liste) er region i `REGIONER`-rekkefølge, så land og sted alfabetisk. Kartlista sorteres på score.
 Før 11.11.2026 lå dataene i `reisedata.py`, `reisedata_en.py` og `dest` i `bygg_reisekalender.py`; omleggingen ga identiske data i `index.html`.
 
-## Besluttet design
+## Ønskeliste og søk (fra 11.11.2026)
+- Alle reisemål vises som standard. Under «Vis» velger «Ønskeliste» bare reisemålene med `onskeliste: true` (motsatt av byguidene,
+  der ønskelisten er skjult i vanlig visning). Gruppen vises bare når lista har både ønskelistesteder og andre (`HAR_ONSKELISTE`).
+- Søkefeltet under filtrene søker i land og sted på norsk og engelsk og i ID, uten å skille på aksenter og store/små bokstaver
+  (`normal()`, `treffer()`). Søket gjelder innenfor valgt region og utvalg; gir det ingen treff der, tilbyr lista
+  «Vis n treff i alle reisemål», som nullstiller region og utvalg. Søket filtrerer både lista og prikkene i kartet.
+- Kartetikettene vises for grønne og valgt reisemål, og ECharts skjuler etiketter som overlapper (`labelLayout.hideOverlap`).
+  Testet med 250 reisemål (oppdiktede kopier): lesbart, men regionknappene tar fem rader med ni regioner.
+
 - **Format:** Excel. Normalisert datamodell + generert visning. (HTML-visning evt. senere, generert fra Excel.)
 - **Enhet:** destinasjon/region, ikke land (f.eks. Vietnam langs ruten, Goa ≠ India, Sri Lanka kan måtte splittes pga. to monsunsystemer).
 - **Oppløsning:** klima per måned (finnes ikke bedre data); ukespresisjon kun via avgrensede *vinduer* (monsunstart, dyrelivshendelser, helligdager som Tet, festivaler, sesongåpning).
