@@ -132,7 +132,7 @@ Oppskrift: viewport 1300×900, deviceScaleFactor 2, beskjær 1200×900 fra venst
 Playwright med `colorScheme: 'light'` og `'dark'`. Ta bildene fra stam.pe etter at endringen er publisert.
 
 ## Data
-- Nye reisemål: ny fil `reisemal/<ID>.json` (ID = ISO3-landkode, med suffiks for deler av land: `IND-GOA`).
+- Nye reisemål: følg skillen `/nytt-reisemal` (`.claude/skills/nytt-reisemal/`). Ny fil `reisemal/<ID>.json` (ID = ISO3-landkode, med suffiks for deler av land: `IND-GOA`).
   Hvilke reisemål som skal finnes, står i `landliste.tsv` (vedtatt 11.11.2026).
   Klimanormaler fra én representativ stasjon (helst WMO/nasjonal met-tjeneste, 1991–2020); oppgi kilde og periode.
   Si fra hvis stasjonen er en proxy eller serien er gammel.
