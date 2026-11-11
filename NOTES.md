@@ -7,19 +7,19 @@ Oppdateres ved slutten av hver økt (`/avslutt`).
 
 Sist oppdatert: 11. november 2026.
 
-- 11.11. kveld: Midtøsten er fylt inn som prøveregion (12 nye: BHR, ARE, JOR, KWT, OMN, QAT, SAU, IRQ, IRN, ISR, PSE, SYR),
-  med `/nytt-reisemal`. Ramadan 2026–28 ligger i `felles_vinduer.json` for 13 reisemål; Iran har Nowruz, Israel pesach.
-  Pål godkjente scorer og tone. Nord-Amerika er fylt inn samme kveld (9 nye: USA-NYC, USA-SOR, USA-FL, USA-SW, USA-RM, USA-AK,
-  CAN-W, CAN-O, CAN-N; alle stasjoner 1991–2020), med Mardi Gras, Jazz Fest, Iditarod og Carnaval de Québec som vinduer.
-  Resten (196 reisemål) ble fylt inn med en workflow (27 agenter etter /nytt-reisemal) samme kveld: alle 257 reisemål er nå på plass.
-  Felles vinduer: ramadan (41 reisemål), påskeuka (58), ortodoks påske (3) og kinesisk nyttår (13), 2026–28, med egne justeringer
-  og positiv tekst der høytiden er en opplevelse. Svakheter agentene meldte (183 av 196) står i `Kildesvakheter.md`.
-  Kvalitetssjekk: ingen måneder over 38 °C med klima ≥ 4, koordinatene i riktig region, alle har engelsk.
-- 11.11.: utvidelse mot alle FN-landene påbegynt. Steg 1 er gjort: dataene ligger i én JSON-fil per reisemål i `reisemal/`
-  (norsk og engelsk side om side), lest av `reisemal.py`. `Reisemål.md` genereres. Alle 40 har `onskeliste: true`.
-  Siden og regnearket har identiske data som før.
-- 11.11.: steg 2 er flettet (PR #39): søkefelt i lista og «Vis: Alle reisemål / Ønskeliste» (skjult til det finnes
-  reisemål utenfor ønskelisten). Testet med 250 oppdiktede reisemål; ni regioner gir fem rader med knapper.
+- 11.11.: **alle FN-land er med – 257 reisemål** (før 40). Slik ble det gjort, i rekkefølge:
+  - Datamodell (PR #38): én JSON-fil per reisemål i `reisemal/`, norsk og engelsk side om side, lest av `reisemal.py`.
+    `Reisemål.md` genereres og erstatter «Reise - utenfor Europa.md» som master.
+  - Søk og «Vis: Alle reisemål / Ønskeliste» (PR #39). Påls 40 er ønskelisten (`onskeliste: true`).
+  - Detaljkortet kan dras etter toppen, som infoboksen i byguidene (PR #40).
+  - Landlista vedtatt (`Landliste.md` / `landliste.tsv`): 195 land, 31 delt, mikrostater i naboen, Hongkong, Taiwan, Grønland
+    og Færøyene som ekstra, krigsland med varsel.
+  - Åtte regioner, `felles_vinduer.json`, `kortnavn` og navnerettelser (USA – Hawaii, Mexico – Mexico City, SILK → UZB) (PR #41).
+  - Skillen `/nytt-reisemal` med `klima.py`, som henter klimaboksen fra Wikipedia (PR #42–#44).
+  - Midtøsten (12) og Nord-Amerika (9) fylt inn her i økta; Pål godkjente nivået. De resterende 196 med en workflow (27 agenter).
+  - Felles vinduer 2026–28: ramadan (41 reisemål), påskeuka (58), ortodoks påske (3) og kinesisk nyttår (13), med justering per
+    reisemål og positiv tekst der høytiden er en opplevelse. Kildesvakheter (183 av 196) står i `Kildesvakheter.md`.
+  - Miniatyrene og forsideteksten på stam.pe er oppdatert, og delingskortet sier «alle land» (PR #45).
 - 5.11.: publiseringen er samlet og gjort robust. Én felles workflow for alle tre repoene (publiser.yml i paalstampe.github.io),
   som hopper over uendret innhold, og dokumentasjon og .claude/ publiseres ikke lenger (`.gitattributes`). Verifisert i alle tre:
   en commit som bare endrer dokumentasjon gir ingen ny publisering. Detaljer under Neste steg og i beslutningsloggen.
@@ -68,12 +68,13 @@ Sist oppdatert: 11. november 2026.
 
 ## Neste steg
 
-- Utvidelse til alle FN-land (avtalt 11.11.; steg 1–2 ferdig, flyttbart kort PR #40): (3) landlista er vedtatt 11.11. (`Landliste.md` / `landliste.tsv`)
-  (257 reisemål, 217 nye, 31 land delt, åtte regioner); regioner, felles vinduer og kortnavn er på plass (PR #41),
-  og skillen `/nytt-reisemal` er oppskriften for datafyllingen;
-  (4) fylle data per region. Regioninndelingen avgjøres med landlista, og da også knapper eller nedtrekksliste for regionene. Standardvalg til Pål sier noe annet: Europa er med, regnearket bygges fortsatt, venners egne
-  ønskelister venter. Felles vinduer (ramadan, påske o.l. for mange land) bør inn i `reisemal.py` før datafyllingen.
-  Kalenderformlene i regnearket (COUNTIFS/SUMIFS/SUMPRODUCT per celle) blir trege ved ~250 reisemål; vurder å regne ukescorene i Python.
+- Stikkprøver av scorene for de 217 nye: Pål tar dem når han bruker kartet og melder tilbake. Opplevelse kan være satt høyt
+  for land få reiser til.
+- Gå gjennom `Kildesvakheter.md` etter hvert (proxy-stasjoner, eldre serier, datoer merket «sjekk dato»).
+- Regnearket har 257 rader; kalenderformlene (COUNTIFS/SUMIFS/SUMPRODUCT per celle) kan bli trege i Excel.
+  Blir det et problem: regn ukescorene i Python og skriv verdier.
+- Mulige forbedringer fra byguidene (ikke avtalt): lenke og «Del» til ett reisemål (`?sted=`, gjerne med måned), kategorifilter,
+  og en jevnlig skyjobb som sjekker UDs reiseråd og oppdaterer sikkerhetsmerknadene. Venners egne ønskelister venter.
 - Publiseringen er felles for alle tre: `pages.yml` kaller `paalstampe/paalstampe.github.io/.github/workflows/publiser.yml@main`
   (paalstampe.github.io #23, byguider #105, reiseplanlegging #35). Endringer gjøres der og gjelder alle tre fra neste kjøring.
   Byguiders delingssider lages av `.github/etter-sammensetting.sh`. Første publisering på stam.pe ble blokkert i rundt 30 min
@@ -87,7 +88,8 @@ Sist oppdatert: 11. november 2026.
   ny publisering. Byguidenes data/*.md publiseres som før. Hvert repo bestemmer selv hva som ikke publiseres, med `export-ignore` i `.gitattributes`
   (byguider #106, reiseplanlegging #36, paalstampe.github.io #28); ny fil som ikke skal på nettsiden legges inn der.
 - Finjuster scorene etter Påls vurdering.
-- Legg inn nye bevegelige datoer hvert år (Tet/kinesisk nyttår, påske, ramadan, tsechu) i `reisemal/<ID>.json`, og bygg på nytt.
+- Legg inn nye bevegelige datoer hvert år: felles høytider (ramadan, påske, ortodoks påske, kinesisk nyttår) i `felles_vinduer.json`,
+  resten (Tet, tsechu, festivaler) i `reisemal/<ID>.json`, og bygg på nytt.
   Vinduene dekker 2026–28, så 2029 må inn i løpet av 2028.
 - Oppdater miniatyrene på stam.pe når kartet endrer utseende merkbart (CLAUDE.md, Miniatyrer).
 - Kjenn på sveip og pinch (PR #21) på en ekte iPhone. I simulatoren virker begge (testet 4.11.), men følelsen må sjekkes på telefonen.
@@ -109,6 +111,14 @@ Sist oppdatert: 11. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-11: Alle 195 FN-land er med (Europa og Norge også). Mikrostatene nevnes i naboen, ikke egne reisemål. Hongkong, Taiwan,
+  Grønland og Færøyene er med som egne reiser. Ett reisemål = én reise med én klimaprofil; land deles der beste reisetid er ulik.
+- 2026-11-11: Åtte regioner (Europa, Midtøsten, Afrika, Asia, Oseania, Nord-Amerika, Mellom-Amerika og Karibia, Sør-Amerika),
+  som knapper som før.
+- 2026-11-11: Ønskelisten vises i egen visning (alle reisemål som standard), motsatt av byguidene der den er skjult.
+- 2026-11-11: Høytider som gjelder mange land står én gang i `felles_vinduer.json`. Ortodoks påske har egne datoer.
+- 2026-11-11: Detaljkortet dras etter toppen også med mus (i byguidene fra hele boksen), så kortet kan rulles og tekst markeres.
+- 2026-11-11: De 196 siste reisemålene ble fylt inn med en workflow etter at Midtøsten og Nord-Amerika var godkjent som mal.
 - 2026-11-11: Land med reiseråd vises som andre land, med varselet «Sjekk reiseråd». De skjules ikke og sorteres ikke lavere,
   selv om de kan havne øverst i lista (Pål valgte dette framfor et filter).
 - 2026-11-11: Dataene ligger i én JSON-fil per reisemål (`reisemal/<ID>.json`), med norsk og engelsk side om side.
