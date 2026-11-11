@@ -1,6 +1,5 @@
 region	id	land	sted	status	merknad
 Europa	ALB	Albania		ny	
-Europa	AND	Andorra		ny	
 Europa	ARM	Armenia		ny	
 Europa	AZE	Aserbajdsjan		ny	
 Europa	BLR	Belarus		ny	Sikkerhet: sjekk UDs reiseråd
@@ -13,25 +12,23 @@ Europa	DNK-FRO	Danmark	Færøyene (ekstra)	ny
 Europa	EST	Estland		ny	
 Europa	FIN	Finland	Helsinki og innsjøene	ny	
 Europa	FIN-LAP	Finland	Lappland (nordlys)	ny	
-Europa	FRA-PAR	Frankrike	Paris	ny	
-Europa	FRA-S	Frankrike	Provence og Rivieraen	ny	
+Europa	FRA-PAR	Frankrike	Paris	ny	FRA-S tar med Monaco
+Europa	FRA-S	Frankrike	Provence og Rivieraen	ny	FRA-S tar med Monaco
 Europa	GEO	Georgia		ny	
 Europa	GRC-ATH	Hellas	Athen og fastlandet	ny	
 Europa	GRC-ISL	Hellas	Kykladene	ny	
 Europa	IRL	Irland		ny	
 Europa	ISL	Island		ny	
-Europa	ITA-ROM	Italia	Roma og Toscana	ny	
-Europa	ITA-S	Italia	Sicilia og Amalfi	ny	
-Europa	ITA-N	Italia	Dolomittene og innsjøene	ny	
+Europa	ITA-ROM	Italia	Roma og Toscana	ny	ITA-ROM tar med Vatikanstaten og San Marino
+Europa	ITA-S	Italia	Sicilia og Amalfi	ny	ITA-ROM tar med Vatikanstaten og San Marino
+Europa	ITA-N	Italia	Dolomittene og innsjøene	ny	ITA-ROM tar med Vatikanstaten og San Marino
 Europa	HRV	Kroatia		ny	
 Europa	CYP	Kypros		ny	
 Europa	LVA	Latvia		ny	
-Europa	LIE	Liechtenstein		ny	
 Europa	LTU	Litauen		ny	
 Europa	LUX	Luxembourg		ny	
 Europa	MLT	Malta		ny	
 Europa	MDA	Moldova		ny	
-Europa	MCO	Monaco		ny	
 Europa	MNE	Montenegro		ny	
 Europa	NLD	Nederland		ny	
 Europa	MKD	Nord-Makedonia		ny	
@@ -45,16 +42,15 @@ Europa	ROU	Romania		ny
 Europa	RUS-W	Russland	Moskva og St. Petersburg	ny	Sikkerhet: sjekk UDs reiseråd
 Europa	RUS-BAJ	Russland	Bajkal	ny	Sikkerhet: sjekk UDs reiseråd
 Europa	RUS-KAM	Russland	Kamtsjatka	ny	Sikkerhet: sjekk UDs reiseråd
-Europa	SMR	San Marino		ny	
 Europa	SRB	Serbia		ny	
 Europa	SVK	Slovakia		ny	
 Europa	SVN	Slovenia		ny	
-Europa	ESP-BCN	Spania	Barcelona og Catalonia	ny	
-Europa	ESP-AND	Spania	Andalucía	ny	
-Europa	ESP-CAN	Spania	Kanariøyene	ny	
+Europa	ESP-BCN	Spania	Barcelona og Catalonia	ny	ESP-BCN tar med Andorra
+Europa	ESP-AND	Spania	Andalucía	ny	ESP-BCN tar med Andorra
+Europa	ESP-CAN	Spania	Kanariøyene	ny	ESP-BCN tar med Andorra
 Europa	GBR	Storbritannia	London og England	ny	
 Europa	GBR-SCO	Storbritannia	Skottland	ny	
-Europa	CHE	Sveits		ny	
+Europa	CHE	Sveits		ny	Tar med Liechtenstein
 Europa	SWE	Sverige		ny	
 Europa	CZE	Tsjekkia		ny	
 Europa	TUR-IST	Tyrkia	Istanbul	ny	
@@ -62,7 +58,6 @@ Europa	TUR-S	Tyrkia	Kappadokia og sørkysten	ny
 Europa	DEU	Tyskland		ny	
 Europa	UKR	Ukraina		ny	Sikkerhet: sjekk UDs reiseråd (krig)
 Europa	HUN	Ungarn		ny	
-Europa	VAT	Vatikanstaten		ny	
 Europa	AUT	Østerrike		ny	
 Midtøsten	BHR	Bahrain		ny	
 Midtøsten	ARE	De forente arabiske emirater		ny	
@@ -178,7 +173,7 @@ Asia	THA-N	Thailand	Bangkok og nord (Chiang Mai)	ny
 Asia	THA-AND	Thailand	Andamanhavet (Phuket, Krabi)	ny	
 Asia	THA-GOT	Thailand	Thailandbukta (Koh Samui)	ny	
 Asia	TKM	Turkmenistan		ny	
-Asia	SILK	Usbekistan	Silkeveien (Samarkand, Bukhara, Khiva) – ID beholdes eller blir UZB	finnes	
+Asia	UZB	Usbekistan	Silkeveien (Samarkand, Bukhara, Khiva)	finnes	Var SILK
 Asia	VNM	Vietnam	Reunification Express + Hue	finnes	
 Asia	TLS	Øst-Timor		finnes	
 Oseania	AUS-SYD	Australia	Sydney og Melbourne	ny	

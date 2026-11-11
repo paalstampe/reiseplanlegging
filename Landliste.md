@@ -1,11 +1,11 @@
-# Landliste – forslag
+# Landliste
 
-Forslag til reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 land, som gir **262 reisemål** (40 finnes, 222 nye). 31 land er delt opp. Ikke vedtatt; grunnlaget for datafyllingen ligger i `landliste.tsv`.
+Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 land, som gir **257 reisemål** (40 finnes, 217 nye). 31 land er delt opp. Vedtatt 11.11.2026; grunnlaget for datafyllingen ligger i `landliste.tsv`.
 
 ## Prinsipper
 
 - **Ett reisemål = én reise med én klimaprofil.** Land deles når beste reisetid er vesentlig ulik (monsun på hver sin kyst, nord/sør på hver sin halvkule, høyfjell mot kyst) eller når delene er helt ulike reiser (Amazonas mot Andes).
-- **Små land og naboland deles ikke**, selv om de kunne vært slått sammen. Hvert land får sitt reisemål, så «alle land» er fullt ut.
+- **Hvert land får sitt reisemål**, unntatt mikrostatene: Andorra (i Spania – Barcelona og Catalonia), Liechtenstein (i Sveits), Monaco (i Frankrike – Provence og Rivieraen), San Marino og Vatikanstaten (i Italia – Roma og Toscana).
 - **Sikkerhet:** land der UD fraråder reiser helt eller delvis får «Sikkerhet: sjekk UDs reiseråd», som gir varselet i kartet. Klimaet vurderes som for andre land.
 - **Ekstra:** noen reisemål er ikke FN-land, men egne reiser: Antarktis, Fransk Polynesia, Hongkong, Taiwan, Grønland og Færøyene.
 
@@ -13,22 +13,18 @@ Forslag til reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palesti
 
 Åtte regioner i stedet for fire: Europa (med Kaukasus og Tyrkia), Midtøsten, Afrika (med Egypt), Asia (med Sentral-Asia), Oseania, Nord-Amerika (USA, Canada, Hawaii), Mellom-Amerika og Karibia (med Mexico) og Sør-Amerika (med Antarktis).
 
-## Spørsmål til Pål
+## Besluttet 11.11.2026
 
-1. **Europa og Norge:** med, som her? Norge er delt i Vestlandet og Nord-Norge.
-2. **Mikrostatene** (Andorra, Liechtenstein, Monaco, San Marino, Vatikanstaten): egne reisemål med naboens klima, eller nevnt i naboen?
-3. **Ekstra** (Hongkong, Taiwan, Grønland, Færøyene): med?
-4. **Land med krig eller sterkt frarådet** (Afghanistan, Syria, Ukraina, Nord-Korea, Somalia, Sør-Sudan, Sudan m.fl.): med varsel, eller utelates?
-5. **Silkeveien (SILK)** blir Usbekistans reisemål; Kasakhstan, Kirgisistan, Tadsjikistan og Turkmenistan får egne. Greit?
-6. **Navn som rettes:** «USA Nordvestkyst», «Hawaii» og «Mexico City» står i dag som land; de blir USA – Nordvestkysten, USA – Hawaii og Mexico – Mexico City.
-7. **Ønskelisten:** bare dagens 40, eller vil du legge til noen fra lista?
+- Europa og Norge er med. Mikrostatene nevnes i naboen. Hongkong, Taiwan, Grønland og Færøyene er med som ekstra.
+- Land i krig eller der UD fraråder reiser er med, med varsel. Silkeveien (SILK) blir Usbekistan (UZB).
+- «USA Nordvestkyst», «Hawaii» og «Mexico City» rettes til USA – Nordvestkysten, USA – Hawaii og Mexico – Mexico City.
+- Ønskelisten er dagens 40.
 
-## Europa (65)
+## Europa (60)
 
 | ID | Land | Del | | Merknad |
 |---|---|---|---|---|
 | ALB | Albania |  |  |  |
-| AND | Andorra |  |  |  |
 | ARM | Armenia |  |  |  |
 | AZE | Aserbajdsjan |  |  |  |
 | BLR | Belarus |  |  | Sikkerhet: sjekk UDs reiseråd |
@@ -41,25 +37,23 @@ Forslag til reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palesti
 | EST | Estland |  |  |  |
 | FIN | Finland | Helsinki og innsjøene |  |  |
 | FIN-LAP | Finland | Lappland (nordlys) |  |  |
-| FRA-PAR | Frankrike | Paris |  |  |
-| FRA-S | Frankrike | Provence og Rivieraen |  |  |
+| FRA-PAR | Frankrike | Paris |  | FRA-S tar med Monaco |
+| FRA-S | Frankrike | Provence og Rivieraen |  | FRA-S tar med Monaco |
 | GEO | Georgia |  |  |  |
 | GRC-ATH | Hellas | Athen og fastlandet |  |  |
 | GRC-ISL | Hellas | Kykladene |  |  |
 | IRL | Irland |  |  |  |
 | ISL | Island |  |  |  |
-| ITA-ROM | Italia | Roma og Toscana |  |  |
-| ITA-S | Italia | Sicilia og Amalfi |  |  |
-| ITA-N | Italia | Dolomittene og innsjøene |  |  |
+| ITA-ROM | Italia | Roma og Toscana |  | ITA-ROM tar med Vatikanstaten og San Marino |
+| ITA-S | Italia | Sicilia og Amalfi |  | ITA-ROM tar med Vatikanstaten og San Marino |
+| ITA-N | Italia | Dolomittene og innsjøene |  | ITA-ROM tar med Vatikanstaten og San Marino |
 | HRV | Kroatia |  |  |  |
 | CYP | Kypros |  |  |  |
 | LVA | Latvia |  |  |  |
-| LIE | Liechtenstein |  |  |  |
 | LTU | Litauen |  |  |  |
 | LUX | Luxembourg |  |  |  |
 | MLT | Malta |  |  |  |
 | MDA | Moldova |  |  |  |
-| MCO | Monaco |  |  |  |
 | MNE | Montenegro |  |  |  |
 | NLD | Nederland |  |  |  |
 | MKD | Nord-Makedonia |  |  |  |
@@ -73,16 +67,15 @@ Forslag til reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palesti
 | RUS-W | Russland | Moskva og St. Petersburg |  | Sikkerhet: sjekk UDs reiseråd |
 | RUS-BAJ | Russland | Bajkal |  | Sikkerhet: sjekk UDs reiseråd |
 | RUS-KAM | Russland | Kamtsjatka |  | Sikkerhet: sjekk UDs reiseråd |
-| SMR | San Marino |  |  |  |
 | SRB | Serbia |  |  |  |
 | SVK | Slovakia |  |  |  |
 | SVN | Slovenia |  |  |  |
-| ESP-BCN | Spania | Barcelona og Catalonia |  |  |
-| ESP-AND | Spania | Andalucía |  |  |
-| ESP-CAN | Spania | Kanariøyene |  |  |
+| ESP-BCN | Spania | Barcelona og Catalonia |  | ESP-BCN tar med Andorra |
+| ESP-AND | Spania | Andalucía |  | ESP-BCN tar med Andorra |
+| ESP-CAN | Spania | Kanariøyene |  | ESP-BCN tar med Andorra |
 | GBR | Storbritannia | London og England |  |  |
 | GBR-SCO | Storbritannia | Skottland |  |  |
-| CHE | Sveits |  |  |  |
+| CHE | Sveits |  |  | Tar med Liechtenstein |
 | SWE | Sverige |  |  |  |
 | CZE | Tsjekkia |  |  |  |
 | TUR-IST | Tyrkia | Istanbul |  |  |
@@ -90,7 +83,6 @@ Forslag til reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palesti
 | DEU | Tyskland |  |  |  |
 | UKR | Ukraina |  |  | Sikkerhet: sjekk UDs reiseråd (krig) |
 | HUN | Ungarn |  |  |  |
-| VAT | Vatikanstaten |  |  |  |
 | AUT | Østerrike |  |  |  |
 
 ## Midtøsten (14)
@@ -221,7 +213,7 @@ Forslag til reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palesti
 | THA-AND | Thailand | Andamanhavet (Phuket, Krabi) |  |  |
 | THA-GOT | Thailand | Thailandbukta (Koh Samui) |  |  |
 | TKM | Turkmenistan |  |  |  |
-| SILK | Usbekistan | Silkeveien (Samarkand, Bukhara, Khiva) – ID beholdes eller blir UZB | finnes |  |
+| UZB | Usbekistan | Silkeveien (Samarkand, Bukhara, Khiva) | finnes | Var SILK |
 | VNM | Vietnam | Reunification Express + Hue | finnes |  |
 | TLS | Øst-Timor |  | finnes |  |
 
