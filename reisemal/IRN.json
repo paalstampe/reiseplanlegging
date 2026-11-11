@@ -1,0 +1,30 @@
+{
+  "id": "IRN",
+  "region": "Midtøsten",
+  "land": "Iran",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / historie",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [32.65, 51.67],
+  "kilde": "Isfahan, NOAA 1991–2020, via Wikipedia. Teheran kaldere om vinteren, Yazd og Shiraz varmere om sommeren",
+  "en": {"land": "Iran", "kategori": "Culture / history", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Isfahan, NOAA 1991–2020, via Wikipedia. Tehran colder in winter, Yazd and Shiraz hotter in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 10.0, "nedbor": 20, "no": "Kaldt (10 °C), kalde netter. Få turister.", "en": "Cold (10 °C), cold nights. Few tourists."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 13.6, "nedbor": 16, "no": "Kjølig (14 °C).", "en": "Cool (14 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 18.0, "nedbor": 27, "no": "Mildt (18 °C). Nowruz: fullt og mye stengt (se Vinduer).", "en": "Mild (18 °C). Nowruz: full and much closed (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.4, "nedbor": 21, "no": "Ideelt (23 °C), hagene blomstrer. Beste måned.", "en": "Ideal (23 °C), gardens in bloom. Best month."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.2, "nedbor": 9, "no": "Varmt (29 °C), fortsatt fint.", "en": "Warm (29 °C), still good."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 35.2, "nedbor": 2, "no": "Varmt (35 °C); Yazd svært varmt.", "en": "Hot (35 °C); Yazd very hot."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 37.6, "nedbor": 1, "no": "Hett (38 °C).", "en": "Very hot (38 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 36.2, "nedbor": 0, "no": "Hett (36 °C).", "en": "Very hot (36 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 32.4, "nedbor": 0, "no": "Varmt (32 °C), avtar.", "en": "Warm (32 °C), easing."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.8, "nedbor": 3, "no": "Ideelt (26 °C), høstfarger. Beste måned.", "en": "Ideal (26 °C), autumn colours. Best month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 17.1, "nedbor": 18, "no": "Kjølig (17 °C), klart.", "en": "Cool (17 °C), clear."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 11.7, "nedbor": 18, "no": "Kaldt (12 °C), av og til snø i fjellene. Yalda 21.12.", "en": "Cold (12 °C), occasional snow in the mountains. Yalda 21 Dec."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 13, "type": "Helligdag", "justering": -0.5, "no": "Nowruz (20.3–2.4): innenlands reising, fullt og mye stengt", "en": "Nowruz (20 Mar–2 Apr): domestic travel, full and much closed"}
+  ]
+}

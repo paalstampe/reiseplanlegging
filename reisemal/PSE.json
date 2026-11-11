@@ -1,0 +1,28 @@
+{
+  "id": "PSE",
+  "region": "Midtøsten",
+  "land": "Palestina",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [31.7, 35.2],
+  "kilde": "Betlehem, Palestinas meteorologiske institutt (periode ikke oppgitt), via Wikipedia. Nedbør: Jerusalem (proxy, 10 km), IMS 1991–2020",
+  "en": {"land": "Palestine", "kategori": "History / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Bethlehem, Palestinian Meteorological Department (period not stated), via Wikipedia. Rain: Jerusalem (proxy, 10 km), IMS 1991–2020"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.5, "nedbor": 137, "no": "Kjølig (16 °C), regn. Ortodoks jul 7.1.", "en": "Cool (16 °C), rain. Orthodox Christmas 7 Jan."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 16.6, "nedbor": 118, "no": "Kjølig, regn. Rolig.", "en": "Cool, rain. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 20.0, "nedbor": 67, "no": "Mildt (20 °C), grønt.", "en": "Mild (20 °C), green."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.9, "nedbor": 22, "no": "Ideelt (25 °C). Påske i Betlehem og Jerusalem: fullt.", "en": "Ideal (25 °C). Easter in Bethlehem and Jerusalem: full."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.3, "nedbor": 7, "no": "Varmt (28 °C), tørt.", "en": "Warm (28 °C), dry."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.0, "nedbor": 0, "no": "Varmt (31 °C); Jeriko svært varmt.", "en": "Hot (31 °C); Jericho very hot."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.8, "nedbor": 0, "no": "Hett (33 °C).", "en": "Very hot (33 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.5, "nedbor": 0, "no": "Hett (33 °C).", "en": "Very hot (33 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.5, "nedbor": 1, "no": "Varmt (31 °C), avtar.", "en": "Warm (31 °C), easing."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.0, "nedbor": 10, "no": "Behagelig (29 °C). Olivenhøst.", "en": "Pleasant (29 °C). Olive harvest."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.5, "nedbor": 51, "no": "Mildt (23 °C), første regn.", "en": "Mild (23 °C), first rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 16.9, "nedbor": 112, "no": "Kjølig (17 °C). Jul i Betlehem; fullt rundt 24.12.", "en": "Cool (17 °C). Christmas in Bethlehem; full around 24 Dec."}
+  ],
+  "vinduer": []
+}

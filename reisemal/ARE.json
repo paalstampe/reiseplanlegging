@@ -1,0 +1,28 @@
+{
+  "id": "ARE",
+  "region": "Midtøsten",
+  "land": "De forente arabiske emirater",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / strand",
+  "merknad": "",
+  "koord": [25.2, 55.27],
+  "kilde": "Dubai International Airport, 1991–2020, via Wikipedia (Climate of Dubai)",
+  "en": {"land": "United Arab Emirates", "kategori": "City / beach", "kilde": "Dubai International Airport, 1991–2020, via Wikipedia (Climate of Dubai)"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.4, "nedbor": 21, "no": "Mildt (24 °C), sol. Høysesong; Dubai Shopping Festival.", "en": "Mild (24 °C), sunny. High season; Dubai Shopping Festival."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.1, "nedbor": 10, "no": "Mildt og solrikt. Toppsesong, dyrt.", "en": "Mild and sunny. Peak season, expensive."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 28.9, "nedbor": 22, "no": "Varmere (29 °C), godt badevær. Enkelte regnbyger.", "en": "Warmer (29 °C), good beach weather. Occasional showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 33.7, "nedbor": 3, "no": "Varmt (34 °C). Strand om morgenen og kvelden.", "en": "Hot (34 °C). Beach in the morning and evening."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 38.2, "nedbor": 0, "no": "Hett (38 °C).", "en": "Very hot (38 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 40.0, "nedbor": 0, "no": "Svært varmt (40 °C), fuktig. Lave hotellpriser.", "en": "Very hot (40 °C), humid. Low hotel prices."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.5, "nedbor": 1, "no": "Hetest (42 °C) og fuktig. Livet foregår innendørs.", "en": "Hottest (42 °C) and humid. Life moves indoors."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.9, "nedbor": 0, "no": "Svært varmt og fuktig. Lavsesong.", "en": "Very hot and humid. Low season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 39.5, "nedbor": 0, "no": "Fortsatt svært varmt (40 °C).", "en": "Still very hot (40 °C)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 35.9, "nedbor": 2, "no": "Varmt (36 °C), avtar. Sesongen åpner.", "en": "Hot (36 °C), easing. The season opens."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.7, "nedbor": 6, "no": "Behagelig (31 °C), varmt hav. Ofte beste måned.", "en": "Pleasant (31 °C), warm sea. Often the best month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 26.5, "nedbor": 15, "no": "Mildt (27 °C). Jul/nyttår: fullt og dyrest.", "en": "Mild (27 °C). Christmas/New Year: full and most expensive."}
+  ],
+  "vinduer": []
+}

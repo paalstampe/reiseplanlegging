@@ -4,7 +4,19 @@ Generert av lag_reisekart.py fra reisemal/. ★ = ønskeliste.
 
 ## Midtøsten
 
+- [ ] Bahrain (BHR)
+- [ ] De forente arabiske emirater (ARE)
+- [ ] Irak (IRQ)
+- [ ] Iran (IRN)
+- [ ] Israel (ISR)
+- [ ] Jordan (JOR)
+- [ ] Kuwait (KWT)
 - [ ] Libanon ★ (LBN)
+- [ ] Oman (OMN)
+- [ ] Palestina (PSE)
+- [ ] Qatar (QAT)
+- [ ] Saudi-Arabia (SAU)
+- [ ] Syria (SYR)
 - [ ] Yemen: Socotra ★ (YEM-SOC)
 
 ## Afrika

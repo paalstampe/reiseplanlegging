@@ -1,0 +1,28 @@
+{
+  "id": "SYR",
+  "region": "Midtøsten",
+  "land": "Syria",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [33.51, 36.29],
+  "kilde": "Damaskus (Damascus International Airport), NOAA 1991–2020, via Wikipedia. Aleppo litt kaldere om vinteren",
+  "en": {"land": "Syria", "kategori": "History / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Damascus (Damascus International Airport), NOAA 1991–2020, via Wikipedia. Aleppo slightly colder in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 13.1, "nedbor": 26, "no": "Kjølig (13 °C), regn og kalde netter.", "en": "Cool (13 °C), rain and cold nights."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.3, "nedbor": 22, "no": "Kjølig (15 °C).", "en": "Cool (15 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.0, "nedbor": 14, "no": "Mildt (20 °C), grønt.", "en": "Mild (20 °C), green."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.3, "nedbor": 6, "no": "Ideelt (25 °C). Beste tid for Damaskus og Aleppo.", "en": "Ideal (25 °C). Best time for Damascus and Aleppo."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.9, "nedbor": 5, "no": "Varmt (31 °C), tørt.", "en": "Warm (31 °C), dry."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 35.3, "nedbor": 0, "no": "Varmt (35 °C); Palmyra svært varmt.", "en": "Hot (35 °C); Palmyra very hot."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 37.8, "nedbor": 0, "no": "Hett (38 °C).", "en": "Very hot (38 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 37.6, "nedbor": 0, "no": "Hett (38 °C).", "en": "Very hot (38 °C)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 34.6, "nedbor": 0, "no": "Varmt (35 °C), avtar.", "en": "Hot (35 °C), easing."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.0, "nedbor": 6, "no": "Behagelig (29 °C). Beste tid.", "en": "Pleasant (29 °C). Best time."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.6, "nedbor": 21, "no": "Mildt (21 °C), første regn.", "en": "Mild (21 °C), first rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 14.8, "nedbor": 24, "no": "Kjølig (15 °C), regn.", "en": "Cool (15 °C), rain."}
+  ],
+  "vinduer": []
+}

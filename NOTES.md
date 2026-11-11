@@ -7,6 +7,9 @@ Oppdateres ved slutten av hver økt (`/avslutt`).
 
 Sist oppdatert: 11. november 2026.
 
+- 11.11. kveld: Midtøsten er fylt inn som prøveregion (12 nye: BHR, ARE, JOR, KWT, OMN, QAT, SAU, IRQ, IRN, ISR, PSE, SYR),
+  med `/nytt-reisemal`. Ramadan 2026–28 ligger i `felles_vinduer.json` for 13 reisemål; Iran har Nowruz, Israel pesach.
+  Venter på Påls vurdering av scorer og tone før resten av regionene.
 - 11.11.: utvidelse mot alle FN-landene påbegynt. Steg 1 er gjort: dataene ligger i én JSON-fil per reisemål i `reisemal/`
   (norsk og engelsk side om side), lest av `reisemal.py`. `Reisemål.md` genereres. Alle 40 har `onskeliste: true`.
   Siden og regnearket har identiske data som før.
@@ -88,6 +91,8 @@ Sist oppdatert: 11. november 2026.
 
 ## Åpne spørsmål
 
+- Midtøsten (11.11.): Palestina bruker Betlehems temperatur (periode ikke oppgitt) og Jerusalems nedbør (proxy, 10 km).
+  Jordan er Amman 1989–2018 (Petra omtrent likt). Saudi-Arabia er Riyadh (AlUla litt kjøligere), Oman er Muscat (Salalah har khareef om sommeren).
 - Svake klimaserier: noen stasjoner har gamle serier (Dili, Beirut, Galápagos, Hwange, São Tomé, Maun 1961–1990),
   og noen er proxy (Rote→Kupang, USA-WC→Vancouver, CRI→Liberia, ZWE→Hwange). Skal de byttes når bedre kilder finnes?
 - Noen festivaldatoer er merket «sjekk dato».

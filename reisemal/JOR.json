@@ -1,0 +1,28 @@
+{
+  "id": "JOR",
+  "region": "Midtøsten",
+  "land": "Jordan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / natur",
+  "merknad": "",
+  "koord": [30.33, 35.44],
+  "kilde": "Amman (Amman Civil Airport, 779 moh), Jordans meteorologiske institutt 1989–2018, via Wikipedia. Petra omtrent som Amman; Wadi Rum, Dødehavet og Aqaba varmere",
+  "en": {"land": "Jordan", "kategori": "History / nature", "kilde": "Amman (Amman Civil Airport, 779 m), Jordan Meteorological Department 1989–2018, via Wikipedia. Petra similar to Amman; Wadi Rum, the Dead Sea and Aqaba hotter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 12.6, "nedbor": 61, "no": "Kaldt i Amman og Petra (13 °C), regn og av og til snø. Kalde netter i Wadi Rum.", "en": "Cold in Amman and Petra (13 °C), rain and occasional snow. Cold nights in Wadi Rum."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 14.2, "nedbor": 58, "no": "Kjølig (14 °C), regn. Få turister.", "en": "Cool (14 °C), rain. Few tourists."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 18.1, "nedbor": 30, "no": "Mildt (18 °C), grønt. Vårsesongen starter.", "en": "Mild (18 °C), green. The spring season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 23.6, "nedbor": 8, "no": "Ideelt (24 °C): Petra, Wadi Rum og Dødehavet. Høysesong.", "en": "Ideal (24 °C): Petra, Wadi Rum and the Dead Sea. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 28.1, "nedbor": 3, "no": "Varmt (28 °C), tørt. Bra, men varmt i Wadi Rum.", "en": "Warm (28 °C), dry. Good, but hot in Wadi Rum."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.1, "nedbor": 0, "no": "Varmt (31 °C); Dødehavet og Aqaba svært varmt.", "en": "Hot (31 °C); the Dead Sea and Aqaba very hot."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.7, "nedbor": 0, "no": "Varmest (33 °C); Petra i sola er tungt.", "en": "Hottest (33 °C); Petra in the sun is hard going."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.8, "nedbor": 0, "no": "Svært varmt. Start tidlig i Petra.", "en": "Very hot. Start early in Petra."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.9, "nedbor": 0, "no": "Varmt (31 °C), avtar.", "en": "Warm (31 °C), easing."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.2, "nedbor": 5, "no": "Ideelt (27 °C). Høysesong.", "en": "Ideal (27 °C). High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 20.3, "nedbor": 21, "no": "Mildt (20 °C), første regn. Klart og fint i Wadi Rum.", "en": "Mild (20 °C), first rain. Clear and fine in Wadi Rum."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.8, "nedbor": 47, "no": "Kjølig (15 °C), regn. Rolig.", "en": "Cool (15 °C), rain. Quiet."}
+  ],
+  "vinduer": []
+}

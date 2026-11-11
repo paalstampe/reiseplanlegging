@@ -1,0 +1,28 @@
+{
+  "id": "IRQ",
+  "region": "Midtøsten",
+  "land": "Irak",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [33.31, 44.36],
+  "kilde": "Bagdad, WMO 1991–2020, via Wikipedia. Kurdistan (Erbil) kjøligere og våtere om vinteren",
+  "en": {"land": "Iraq", "kategori": "History / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Baghdad, WMO 1991–2020, via Wikipedia. Kurdistan (Erbil) cooler and wetter in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 16.2, "nedbor": 25, "no": "Kjølig (16 °C), noe regn. Kaldt i nord (Kurdistan).", "en": "Cool (16 °C), some rain. Cold in the north (Kurdistan)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.3, "nedbor": 17, "no": "Mildt (19 °C).", "en": "Mild (19 °C)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 24.5, "nedbor": 16, "no": "Behagelig (25 °C). Nowruz 21.3 i Kurdistan.", "en": "Pleasant (25 °C). Nowruz 21 Mar in Kurdistan."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.5, "nedbor": 16, "no": "Varmt (31 °C), grønt i nord.", "en": "Warm (31 °C), green in the north."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 37.1, "nedbor": 3, "no": "Hett (37 °C).", "en": "Very hot (37 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 42.2, "nedbor": 0, "no": "Ekstrem hete (42 °C).", "en": "Extreme heat (42 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 44.7, "nedbor": 0, "no": "Ekstrem hete (45 °C).", "en": "Extreme heat (45 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 44.5, "nedbor": 0, "no": "Ekstrem hete (45 °C).", "en": "Extreme heat (45 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 40.3, "nedbor": 0, "no": "Svært varmt (40 °C).", "en": "Very hot (40 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 34.0, "nedbor": 8, "no": "Varmt (34 °C), avtar.", "en": "Warm (34 °C), easing."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 23.9, "nedbor": 24, "no": "Behagelig (24 °C). Beste tid.", "en": "Pleasant (24 °C). Best time."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 18.0, "nedbor": 17, "no": "Kjølig (18 °C), noe regn.", "en": "Cool (18 °C), some rain."}
+  ],
+  "vinduer": []
+}

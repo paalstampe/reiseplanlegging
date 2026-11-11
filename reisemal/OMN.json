@@ -1,0 +1,28 @@
+{
+  "id": "OMN",
+  "region": "Midtøsten",
+  "land": "Oman",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [23.0, 58.2],
+  "kilde": "Muscat (Muscat International Airport), NOAA 1991–2020, via Wikipedia. Innlandet (Nizwa, Wahiba) kaldere netter om vinteren",
+  "en": {"land": "Oman", "kategori": "Nature / culture", "kilde": "Muscat (Muscat International Airport), NOAA 1991–2020, via Wikipedia. Inland (Nizwa, Wahiba) colder nights in winter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.1, "nedbor": 14, "no": "Ideelt (25 °C): Muscat, Nizwa og ørkenen. Høysesong.", "en": "Ideal (25 °C): Muscat, Nizwa and the desert. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.3, "nedbor": 6, "no": "Ideelt og tørt. Høysesong.", "en": "Ideal and dry. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.4, "nedbor": 12, "no": "Varmere (29 °C), fortsatt fint. Varmt hav.", "en": "Warmer (29 °C), still good. Warm sea."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 34.6, "nedbor": 11, "no": "Varmt (35 °C). Svalere i fjellene, der rosene blomstrer (Jebel Akhdar).", "en": "Hot (35 °C). Cooler in the mountains, where the roses bloom (Jebel Akhdar)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 39.5, "nedbor": 2, "no": "Hett (40 °C).", "en": "Very hot (40 °C)."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 5, "tmaks": 39.4, "nedbor": 7, "no": "Hett (39 °C). Skilpaddesesong ved Ras al Jinz.", "en": "Very hot (39 °C). Turtle season at Ras al Jinz."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 5, "tmaks": 37.3, "nedbor": 2, "no": "Hett og fuktig i Muscat. Salalah er grønn og svalere (khareef).", "en": "Hot and humid in Muscat. Salalah is green and cooler (khareef)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 35.9, "nedbor": 1, "no": "Varmt og fuktig. Khareef i Salalah.", "en": "Hot and humid. Khareef in Salalah."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 35.5, "nedbor": 0, "no": "Varmt (36 °C), fuktig.", "en": "Hot (36 °C), humid."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 34.6, "nedbor": 1, "no": "Varmt (35 °C), avtar mot slutten.", "en": "Hot (35 °C), easing towards the end."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.9, "nedbor": 7, "no": "Behagelig (30 °C). Sesongen starter.", "en": "Pleasant (30 °C). The season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.6, "nedbor": 10, "no": "Ideelt (27 °C). Jul/nyttår fullt.", "en": "Ideal (27 °C). Christmas/New Year busy."}
+  ],
+  "vinduer": []
+}

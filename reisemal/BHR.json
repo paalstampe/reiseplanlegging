@@ -1,0 +1,28 @@
+{
+  "id": "BHR",
+  "region": "Midtøsten",
+  "land": "Bahrain",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [26.23, 50.59],
+  "kilde": "Manama (Bahrain International Airport), NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Bahrain", "kategori": "City / culture", "kilde": "Manama (Bahrain International Airport), NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 20.7, "nedbor": 18, "no": "Mildt (21 °C), av og til regn. Behagelig for byen og souqene.", "en": "Mild (21 °C), occasional rain. Pleasant for the city and souqs."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 22.0, "nedbor": 13, "no": "Mildt og tørt. God tid.", "en": "Mild and dry. A good time."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 25.5, "nedbor": 15, "no": "Varmt (26 °C) og tørt. Best for å være ute.", "en": "Warm (26 °C) and dry. Best for being outdoors."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.6, "nedbor": 8, "no": "Varmt (31 °C). Fortsatt greit morgen og kveld.", "en": "Hot (31 °C). Still fine mornings and evenings."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 36.1, "nedbor": 8, "no": "Hett (36 °C).", "en": "Very hot (36 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 38.6, "nedbor": 0, "no": "Svært varmt og fuktig (39 °C). Lavsesong.", "en": "Very hot and humid (39 °C). Low season."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 39.7, "nedbor": 0, "no": "Hetest og fuktigst (40 °C).", "en": "Hottest and most humid (40 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 39.6, "nedbor": 0, "no": "Svært varmt og fuktig.", "en": "Very hot and humid."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 37.7, "nedbor": 0, "no": "Fortsatt svært varmt (38 °C).", "en": "Still very hot (38 °C)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 34.0, "nedbor": 1, "no": "Varmt (34 °C), avtar mot slutten.", "en": "Hot (34 °C), easing towards the end."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.0, "nedbor": 17, "no": "Behagelig (28 °C). Sesongen starter.", "en": "Pleasant (28 °C). The season begins."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 22.9, "nedbor": 15, "no": "Mildt (23 °C) og tørt. Nasjonaldagen 16.12.", "en": "Mild (23 °C) and dry. National Day 16 Dec."}
+  ],
+  "vinduer": []
+}

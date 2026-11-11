@@ -1,0 +1,32 @@
+{
+  "id": "ISR",
+  "region": "Midtøsten",
+  "land": "Israel",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / historie",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [31.78, 35.22],
+  "kilde": "Jerusalem, Israels meteorologiske institutt 1991–2020, via Wikipedia. Tel Aviv mildere om vinteren og fuktigere om sommeren",
+  "en": {"land": "Israel", "kategori": "City / culture / history", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Jerusalem, Israel Meteorological Service 1991–2020, via Wikipedia. Tel Aviv milder in winter and more humid in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 12.7, "nedbor": 137, "no": "Kjølig (13 °C) og regnfullt i Jerusalem; mildere i Tel Aviv.", "en": "Cool (13 °C) and rainy in Jerusalem; milder in Tel Aviv."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.0, "nedbor": 118, "no": "Kjølig (14 °C), regn.", "en": "Cool (14 °C), rain."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 17.4, "nedbor": 67, "no": "Mildt (17 °C), grønt. Ørkenen blomstrer i Negev.", "en": "Mild (17 °C), green. Desert bloom in the Negev."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 22.0, "nedbor": 22, "no": "Ideelt (22 °C). Påske og pesach: fullt (se Vinduer).", "en": "Ideal (22 °C). Easter and Passover: full (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.2, "nedbor": 7, "no": "Varmt (26 °C), tørt. Strandsesongen starter.", "en": "Warm (26 °C), dry. The beach season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.6, "nedbor": 0, "no": "Varmt (29 °C). Strendene i Tel Aviv.", "en": "Warm (29 °C). The Tel Aviv beaches."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 30.0, "nedbor": 0, "no": "Varmt (30 °C), Dødehavet svært varmt. Sommerferie.", "en": "Hot (30 °C), the Dead Sea very hot. Summer holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 30.3, "nedbor": 0, "no": "Varmt, fuktig ved kysten. Sommerferie.", "en": "Hot, humid on the coast. Summer holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.9, "nedbor": 1, "no": "Varmt (29 °C). Høytidene kan stenge alt (jom kippur).", "en": "Warm (29 °C). The High Holidays can close everything (Yom Kippur)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.9, "nedbor": 10, "no": "Ideelt (26 °C).", "en": "Ideal (26 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.9, "nedbor": 51, "no": "Mildt (20 °C), første regn.", "en": "Mild (20 °C), first rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 14.9, "nedbor": 112, "no": "Kjølig (15 °C), regn. Jul i Betlehem i nærheten.", "en": "Cool (15 °C), rain. Christmas in nearby Bethlehem."}
+  ],
+  "vinduer": [
+    {"fra": "2026-04-01", "til": "2026-04-09", "type": "Helligdag", "justering": -0.5, "no": "Pesach (2.–9.4.2026): innenlands ferie, fullt og dyrt", "en": "Passover (2–9 Apr 2026): domestic holidays, full and expensive"},
+    {"fra": "2027-04-21", "til": "2027-04-29", "type": "Helligdag", "justering": -0.5, "no": "Pesach (22.–29.4.2027): innenlands ferie, fullt og dyrt", "en": "Passover (22–29 Apr 2027): domestic holidays, full and expensive"},
+    {"fra": "2028-04-10", "til": "2028-04-18", "type": "Helligdag", "justering": -0.5, "no": "Pesach (11.–18.4.2028): innenlands ferie, fullt og dyrt", "en": "Passover (11–18 Apr 2028): domestic holidays, full and expensive"}
+  ]
+}

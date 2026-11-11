@@ -1,0 +1,28 @@
+{
+  "id": "QAT",
+  "region": "Midtøsten",
+  "land": "Qatar",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [25.29, 51.53],
+  "kilde": "Doha, Qatars meteorologiske institutt 1992–2021, via Wikipedia",
+  "en": {"land": "Qatar", "kategori": "City / culture", "kilde": "Doha, Qatar Meteorology Department 1992–2021, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 22.6, "nedbor": 11, "no": "Mildt (23 °C). Muséer og souq.", "en": "Mild (23 °C). Museums and souq."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 24.0, "nedbor": 11, "no": "Mildt og tørt.", "en": "Mild and dry."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 27.7, "nedbor": 17, "no": "Varmere (28 °C), fortsatt fint.", "en": "Warmer (28 °C), still good."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.2, "nedbor": 6, "no": "Varmt (33 °C).", "en": "Hot (33 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 39.4, "nedbor": 1, "no": "Hett (39 °C).", "en": "Very hot (39 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 42.2, "nedbor": 0, "no": "Ekstrem hete (42 °C), fuktig.", "en": "Extreme heat (42 °C), humid."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 42.4, "nedbor": 0, "no": "Ekstrem hete (42 °C). Livet foregår innendørs.", "en": "Extreme heat (42 °C). Life moves indoors."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.4, "nedbor": 0, "no": "Svært varmt og fuktig.", "en": "Very hot and humid."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 39.2, "nedbor": 0, "no": "Svært varmt (39 °C).", "en": "Very hot (39 °C)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 35.6, "nedbor": 3, "no": "Varmt (36 °C), avtar.", "en": "Hot (36 °C), easing."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 29.7, "nedbor": 11, "no": "Behagelig (30 °C).", "en": "Pleasant (30 °C)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 24.8, "nedbor": 18, "no": "Mildt (25 °C). Nasjonaldagen 18.12.", "en": "Mild (25 °C). National Day 18 Dec."}
+  ],
+  "vinduer": []
+}

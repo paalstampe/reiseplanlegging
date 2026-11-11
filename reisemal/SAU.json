@@ -1,0 +1,28 @@
+{
+  "id": "SAU",
+  "region": "Midtøsten",
+  "land": "Saudi-Arabia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [24.71, 46.68],
+  "kilde": "Riyadh (gamle flyplass), NOAA 1991–2020, via Wikipedia. AlUla: litt kjøligere",
+  "en": {"land": "Saudi Arabia", "kategori": "Culture / nature", "kilde": "Riyadh (old airport), NOAA 1991–2020, via Wikipedia. AlUla: slightly cooler"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 20.1, "nedbor": 15, "no": "Mildt (20 °C), kalde netter. Høysesong i AlUla.", "en": "Mild (20 °C), cold nights. High season in AlUla."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.6, "nedbor": 6, "no": "Mildt (24 °C), tørt. Ideelt for AlUla og Hegra.", "en": "Mild (24 °C), dry. Ideal for AlUla and Hegra."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 27.8, "nedbor": 21, "no": "Varmere (28 °C), enkelte regnbyger.", "en": "Warmer (28 °C), some showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.6, "nedbor": 24, "no": "Varmt (34 °C), støv.", "en": "Hot (34 °C), dust."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 39.4, "nedbor": 5, "no": "Hett (39 °C).", "en": "Very hot (39 °C)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 42.7, "nedbor": 0, "no": "Ekstrem hete (43 °C). Mye stengt i AlUla.", "en": "Extreme heat (43 °C). Much closed in AlUla."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 43.4, "nedbor": 0, "no": "Ekstrem hete (43 °C).", "en": "Extreme heat (43 °C)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 43.6, "nedbor": 0, "no": "Ekstrem hete (44 °C).", "en": "Extreme heat (44 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 40.4, "nedbor": 0, "no": "Svært varmt (40 °C).", "en": "Very hot (40 °C)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 35.2, "nedbor": 1, "no": "Varmt (35 °C), avtar. Sesongen åpner.", "en": "Hot (35 °C), easing. The season opens."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.5, "nedbor": 11, "no": "Behagelig (28 °C). Riyadh Season starter.", "en": "Pleasant (28 °C). Riyadh Season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 22.2, "nedbor": 15, "no": "Mildt (22 °C), kalde netter i ørkenen. Høysesong.", "en": "Mild (22 °C), cold desert nights. High season."}
+  ],
+  "vinduer": []
+}

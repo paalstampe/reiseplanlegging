@@ -1,0 +1,28 @@
+{
+  "id": "KWT",
+  "region": "Midtøsten",
+  "land": "Kuwait",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By",
+  "merknad": "",
+  "koord": [29.38, 47.99],
+  "kilde": "Kuwait City, Météo Climat 1991–2020, via Wikipedia",
+  "en": {"land": "Kuwait", "kategori": "City", "kilde": "Kuwait City, Météo Climat 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 19.6, "nedbor": 30, "no": "Mildt (20 °C), av og til regn.", "en": "Mild (20 °C), occasional rain."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 22.1, "nedbor": 10, "no": "Mildt og fint. Nasjonaldagene 25.–26.2 feires.", "en": "Mild and pleasant. National days 25–26 Feb are celebrated."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 26.5, "nedbor": 18, "no": "Varmere (27 °C), sandstormer kan forekomme.", "en": "Warmer (27 °C), sandstorms possible."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.7, "nedbor": 12, "no": "Varmt (33 °C), støv.", "en": "Hot (33 °C), dust."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 39.9, "nedbor": 0, "no": "Hett (40 °C).", "en": "Very hot (40 °C)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 45.1, "nedbor": 0, "no": "Ekstrem hete (45 °C).", "en": "Extreme heat (45 °C)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 46.6, "nedbor": 0, "no": "Ekstrem hete (47 °C), blant de varmeste stedene på jorda.", "en": "Extreme heat (47 °C), among the hottest places on earth."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 46.4, "nedbor": 0, "no": "Ekstrem hete (46 °C).", "en": "Extreme heat (46 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 43.0, "nedbor": 0, "no": "Svært varmt (43 °C).", "en": "Very hot (43 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 36.1, "nedbor": 1, "no": "Varmt (36 °C), avtar.", "en": "Hot (36 °C), easing."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 27.1, "nedbor": 18, "no": "Behagelig (27 °C).", "en": "Pleasant (27 °C)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 21.6, "nedbor": 26, "no": "Mildt (22 °C), noe regn.", "en": "Mild (22 °C), some rain."}
+  ],
+  "vinduer": []
+}

@@ -1,7 +1,8 @@
 {
   "_om": "Vinduer som gjelder flere reisemål. «gjelder» er en liste med ID-er, eller {\"id\": …} med felter som overstyrer for det reisemålet. Se HANDOVER.md, Datamodell.",
   "vinduer": [
-    {"fra": "2027-02-08", "til": "2027-03-09", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 8.2–9.3.2027): kortere åpningstider", "en": "Ramadan (approx. 8 Feb–9 Mar 2027): shorter opening hours", "gjelder": ["EGY"]},
-    {"fra": "2028-01-28", "til": "2028-02-26", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 28.1–26.2.2028): kortere åpningstider", "en": "Ramadan (approx. 28 Jan–26 Feb 2028): shorter opening hours", "gjelder": ["EGY"]}
+    {"fra": "2026-02-18", "til": "2026-03-19", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 18.2–19.3.2026): kortere åpningstider", "en": "Ramadan (approx. 18 Feb–19 Mar 2026): shorter opening hours", "gjelder": ["EGY", "BHR", "ARE", "JOR", "KWT", "OMN", "QAT", "SAU", "IRQ", "IRN", "PSE", "SYR", "YEM-SOC"]},
+    {"fra": "2027-02-08", "til": "2027-03-09", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 8.2–9.3.2027): kortere åpningstider", "en": "Ramadan (approx. 8 Feb–9 Mar 2027): shorter opening hours", "gjelder": ["EGY", "BHR", "ARE", "JOR", "KWT", "OMN", "QAT", "SAU", "IRQ", "IRN", "PSE", "SYR", "YEM-SOC"]},
+    {"fra": "2028-01-28", "til": "2028-02-26", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 28.1–26.2.2028): kortere åpningstider", "en": "Ramadan (approx. 28 Jan–26 Feb 2028): shorter opening hours", "gjelder": ["EGY", "BHR", "ARE", "JOR", "KWT", "OMN", "QAT", "SAU", "IRQ", "IRN", "PSE", "SYR", "YEM-SOC"]}
   ]
 }
