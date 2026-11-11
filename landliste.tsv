@@ -1,0 +1,263 @@
+region	id	land	sted	status	merknad
+Europa	ALB	Albania		ny	
+Europa	AND	Andorra		ny	
+Europa	ARM	Armenia		ny	
+Europa	AZE	Aserbajdsjan		ny	
+Europa	BLR	Belarus		ny	Sikkerhet: sjekk UDs reiseråd
+Europa	BEL	Belgia		ny	
+Europa	BIH	Bosnia-Hercegovina		ny	
+Europa	BGR	Bulgaria		ny	
+Europa	DNK	Danmark	København	ny	
+Europa	DNK-GRL	Danmark	Grønland (ekstra)	ny	
+Europa	DNK-FRO	Danmark	Færøyene (ekstra)	ny	
+Europa	EST	Estland		ny	
+Europa	FIN	Finland	Helsinki og innsjøene	ny	
+Europa	FIN-LAP	Finland	Lappland (nordlys)	ny	
+Europa	FRA-PAR	Frankrike	Paris	ny	
+Europa	FRA-S	Frankrike	Provence og Rivieraen	ny	
+Europa	GEO	Georgia		ny	
+Europa	GRC-ATH	Hellas	Athen og fastlandet	ny	
+Europa	GRC-ISL	Hellas	Kykladene	ny	
+Europa	IRL	Irland		ny	
+Europa	ISL	Island		ny	
+Europa	ITA-ROM	Italia	Roma og Toscana	ny	
+Europa	ITA-S	Italia	Sicilia og Amalfi	ny	
+Europa	ITA-N	Italia	Dolomittene og innsjøene	ny	
+Europa	HRV	Kroatia		ny	
+Europa	CYP	Kypros		ny	
+Europa	LVA	Latvia		ny	
+Europa	LIE	Liechtenstein		ny	
+Europa	LTU	Litauen		ny	
+Europa	LUX	Luxembourg		ny	
+Europa	MLT	Malta		ny	
+Europa	MDA	Moldova		ny	
+Europa	MCO	Monaco		ny	
+Europa	MNE	Montenegro		ny	
+Europa	NLD	Nederland		ny	
+Europa	MKD	Nord-Makedonia		ny	
+Europa	NOR-V	Norge	Vestlandet og fjordene	ny	
+Europa	NOR-N	Norge	Nord-Norge (Lofoten, nordlys)	ny	
+Europa	POL	Polen		ny	
+Europa	PRT	Portugal	Lisboa og Porto	ny	
+Europa	PRT-MAD	Portugal	Madeira	ny	
+Europa	PRT-AZO	Portugal	Azorene	ny	
+Europa	ROU	Romania		ny	
+Europa	RUS-W	Russland	Moskva og St. Petersburg	ny	Sikkerhet: sjekk UDs reiseråd
+Europa	RUS-BAJ	Russland	Bajkal	ny	Sikkerhet: sjekk UDs reiseråd
+Europa	RUS-KAM	Russland	Kamtsjatka	ny	Sikkerhet: sjekk UDs reiseråd
+Europa	SMR	San Marino		ny	
+Europa	SRB	Serbia		ny	
+Europa	SVK	Slovakia		ny	
+Europa	SVN	Slovenia		ny	
+Europa	ESP-BCN	Spania	Barcelona og Catalonia	ny	
+Europa	ESP-AND	Spania	Andalucía	ny	
+Europa	ESP-CAN	Spania	Kanariøyene	ny	
+Europa	GBR	Storbritannia	London og England	ny	
+Europa	GBR-SCO	Storbritannia	Skottland	ny	
+Europa	CHE	Sveits		ny	
+Europa	SWE	Sverige		ny	
+Europa	CZE	Tsjekkia		ny	
+Europa	TUR-IST	Tyrkia	Istanbul	ny	
+Europa	TUR-S	Tyrkia	Kappadokia og sørkysten	ny	
+Europa	DEU	Tyskland		ny	
+Europa	UKR	Ukraina		ny	Sikkerhet: sjekk UDs reiseråd (krig)
+Europa	HUN	Ungarn		ny	
+Europa	VAT	Vatikanstaten		ny	
+Europa	AUT	Østerrike		ny	
+Midtøsten	BHR	Bahrain		ny	
+Midtøsten	ARE	De forente arabiske emirater		ny	
+Midtøsten	IRQ	Irak		ny	Sikkerhet: sjekk UDs reiseråd
+Midtøsten	IRN	Iran		ny	Sikkerhet: sjekk UDs reiseråd
+Midtøsten	ISR	Israel		ny	Sikkerhet: sjekk UDs reiseråd
+Midtøsten	YEM-SOC	Jemen	Socotra	finnes	Sikkerhet: sjekk UDs reiseråd
+Midtøsten	JOR	Jordan		ny	
+Midtøsten	KWT	Kuwait		ny	
+Midtøsten	LBN	Libanon		finnes	Sikkerhet: sjekk UDs reiseråd
+Midtøsten	OMN	Oman		ny	
+Midtøsten	PSE	Palestina		ny	Sikkerhet: sjekk UDs reiseråd
+Midtøsten	QAT	Qatar		ny	
+Midtøsten	SAU	Saudi-Arabia		ny	
+Midtøsten	SYR	Syria		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	DZA	Algerie		ny	
+Afrika	AGO	Angola		ny	
+Afrika	BEN	Benin		finnes	
+Afrika	BWA	Botswana		finnes	
+Afrika	BFA	Burkina Faso		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	BDI	Burundi		ny	
+Afrika	COD	DR Kongo		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	CAF	Den sentralafrikanske republikk		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	DJI	Djibouti		ny	
+Afrika	EGY	Egypt	Kairo, Luxor	finnes	
+Afrika	EGY-RED	Egypt	Rødehavet (dykking)	ny	
+Afrika	GNQ	Ekvatorial-Guinea		ny	
+Afrika	CIV	Elfenbenskysten		ny	
+Afrika	ERI	Eritrea		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	SWZ	Eswatini		ny	
+Afrika	ETH	Etiopia		finnes	
+Afrika	GAB	Gabon		finnes	
+Afrika	GMB	Gambia		ny	
+Afrika	GHA	Ghana		finnes	
+Afrika	GIN	Guinea		ny	
+Afrika	GNB	Guinea-Bissau		ny	
+Afrika	CMR	Kamerun		ny	
+Afrika	CPV	Kapp Verde		ny	
+Afrika	KEN	Kenya		ny	
+Afrika	COM	Komorene		ny	
+Afrika	COG	Kongo-Brazzaville		ny	
+Afrika	LSO	Lesotho		ny	
+Afrika	LBR	Liberia		ny	
+Afrika	LBY	Libya		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	MDG	Madagaskar		ny	
+Afrika	MWI	Malawi		ny	
+Afrika	MLI	Mali		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	MAR	Marokko		ny	
+Afrika	MRT	Mauritania		ny	
+Afrika	MUS	Mauritius		ny	
+Afrika	MOZ	Mosambik		ny	
+Afrika	NAM	Namibia		ny	
+Afrika	NER	Niger		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	NGA	Nigeria		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	RWA	Rwanda		finnes	
+Afrika	SEN	Senegal		ny	
+Afrika	SYC	Seychellene		ny	
+Afrika	SLE	Sierra Leone		ny	
+Afrika	SOM	Somalia		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	SDN	Sudan		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	STP	São Tomé og Príncipe		finnes	
+Afrika	ZAF-CPT	Sør-Afrika	Cape Town og Garden Route	ny	
+Afrika	ZAF-KRU	Sør-Afrika	Kruger	ny	
+Afrika	SSD	Sør-Sudan		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	TZA	Tanzania	Serengeti og Kilimanjaro	ny	
+Afrika	TZA-ZAN	Tanzania	Zanzibar	ny	
+Afrika	TGO	Togo		finnes	
+Afrika	TCD	Tsjad		ny	Sikkerhet: sjekk UDs reiseråd
+Afrika	TUN	Tunisia		ny	
+Afrika	UGA	Uganda		ny	
+Afrika	ZMB	Zambia		finnes	
+Afrika	ZWE	Zimbabwe		finnes	
+Asia	AFG	Afghanistan		ny	Sikkerhet: sjekk UDs reiseråd
+Asia	BGD	Bangladesh		ny	
+Asia	BTN	Bhutan		finnes	
+Asia	BRN	Brunei		ny	
+Asia	PHL	Filippinene	Palawan	finnes	
+Asia	IND-RAJ	India	Rajasthan og Den gylne trekant	ny	
+Asia	IND-GOA	India	Goa	finnes	
+Asia	IND-KER	India	Kerala	ny	
+Asia	IND-LAD	India	Ladakh	ny	
+Asia	IDN-BAL	Indonesia	Bali og Lombok	ny	
+Asia	IDN-JAV	Indonesia	Java (Yogyakarta)	ny	
+Asia	IDN-KOM	Indonesia	Komodo og Flores	ny	
+Asia	IDN-RAJ	Indonesia	Raja Ampat	ny	
+Asia	IDN-ROT	Indonesia	Rote	finnes	
+Asia	JPN	Japan	Tokyo og Kyoto	ny	
+Asia	JPN-HOK	Japan	Hokkaido	ny	
+Asia	JPN-OKI	Japan	Okinawa	ny	
+Asia	KHM	Kambodsja		ny	
+Asia	KAZ	Kasakhstan		ny	
+Asia	CHN	Kina	Beijing, Shanghai	finnes	
+Asia	CHN-YUN	Kina	Yunnan og Guilin	ny	
+Asia	CHN-TIB	Kina	Tibet	ny	
+Asia	HKG	Kina	Hongkong (ekstra)	ny	
+Asia	KGZ	Kirgisistan		ny	
+Asia	LAO	Laos		finnes	
+Asia	MYS	Malaysia	Halvøya (Kuala Lumpur, Penang)	ny	
+Asia	MYS-BOR	Malaysia	Borneo (Sabah)	ny	
+Asia	MDV	Maldivene		ny	
+Asia	MNG	Mongolia		ny	
+Asia	MMR	Myanmar		finnes	Sikkerhet: sjekk UDs reiseråd
+Asia	NPL	Nepal		finnes	
+Asia	PRK	Nord-Korea		ny	Sikkerhet: sjekk UDs reiseråd
+Asia	PAK-N	Pakistan	Nordområdene (Hunza)	ny	Sikkerhet: sjekk UDs reiseråd
+Asia	SGP	Singapore		finnes	
+Asia	LKA-SV	Sri Lanka	Vest- og sørkysten, høylandet	finnes	
+Asia	LKA-O	Sri Lanka	Østkysten	finnes	
+Asia	KOR	Sør-Korea		ny	
+Asia	TJK	Tadsjikistan		ny	
+Asia	TWN	Taiwan		ny	
+Asia	THA-N	Thailand	Bangkok og nord (Chiang Mai)	ny	
+Asia	THA-AND	Thailand	Andamanhavet (Phuket, Krabi)	ny	
+Asia	THA-GOT	Thailand	Thailandbukta (Koh Samui)	ny	
+Asia	TKM	Turkmenistan		ny	
+Asia	SILK	Usbekistan	Silkeveien (Samarkand, Bukhara, Khiva) – ID beholdes eller blir UZB	finnes	
+Asia	VNM	Vietnam	Reunification Express + Hue	finnes	
+Asia	TLS	Øst-Timor		finnes	
+Oseania	AUS-SYD	Australia	Sydney og Melbourne	ny	
+Oseania	AUS-QLD	Australia	Queensland og Great Barrier Reef	ny	
+Oseania	AUS-NT	Australia	Uluru og Red Centre	ny	
+Oseania	AUS-WA	Australia	Perth og vestkysten	ny	
+Oseania	AUS-TAS	Australia	Tasmania	ny	
+Oseania	FJI	Fiji		ny	
+Oseania	PYF	Fransk Polynesia		finnes	
+Oseania	KIR	Kiribati		ny	
+Oseania	MHL	Marshalløyene		ny	
+Oseania	FSM	Mikronesiaføderasjonen		ny	
+Oseania	NRU	Nauru		ny	
+Oseania	NZL-N	New Zealand	Nordøya	ny	
+Oseania	NZL-S	New Zealand	Sørøya	ny	
+Oseania	PLW	Palau		ny	
+Oseania	PNG	Papua Ny-Guinea		finnes	
+Oseania	SLB	Salomonøyene		ny	
+Oseania	WSM	Samoa		ny	
+Oseania	TON	Tonga		ny	
+Oseania	TUV	Tuvalu		ny	
+Oseania	VUT	Vanuatu		ny	
+Nord-Amerika	CAN-W	Canada	Rockies (Banff, Jasper)	ny	
+Nord-Amerika	CAN-O	Canada	Québec og Ontario	ny	
+Nord-Amerika	CAN-N	Canada	Yukon (nordlys)	ny	
+Nord-Amerika	USA-NYC	USA	New York og nordøst	ny	
+Nord-Amerika	USA-CHS	USA	Savannah-Charleston	finnes	
+Nord-Amerika	USA-SOR	USA	Sørstatene (New Orleans, Memphis, Nashville)	ny	
+Nord-Amerika	USA-FL	USA	Florida	ny	
+Nord-Amerika	USA-SW	USA	Sørvest (Grand Canyon, Utah)	ny	
+Nord-Amerika	USA-RM	USA	Rocky Mountains (Yellowstone)	ny	
+Nord-Amerika	USA-WC	USA	Nordvestkysten (San Francisco til Vancouver)	finnes	
+Nord-Amerika	USA-AK	USA	Alaska	ny	
+Nord-Amerika	USA-HI	USA	Hawaii	finnes	
+Mellom-Amerika og Karibia	ATG	Antigua og Barbuda		ny	
+Mellom-Amerika og Karibia	BHS	Bahamas		ny	
+Mellom-Amerika og Karibia	BRB	Barbados		ny	
+Mellom-Amerika og Karibia	BLZ	Belize		ny	
+Mellom-Amerika og Karibia	CRI	Costa Rica		finnes	
+Mellom-Amerika og Karibia	CUB	Cuba		ny	
+Mellom-Amerika og Karibia	DOM	Den dominikanske republikk		finnes	
+Mellom-Amerika og Karibia	DMA	Dominica		ny	
+Mellom-Amerika og Karibia	SLV	El Salvador		ny	
+Mellom-Amerika og Karibia	GRD	Grenada		ny	
+Mellom-Amerika og Karibia	GTM	Guatemala		ny	
+Mellom-Amerika og Karibia	HTI	Haiti		ny	Sikkerhet: sjekk UDs reiseråd
+Mellom-Amerika og Karibia	HND	Honduras		ny	
+Mellom-Amerika og Karibia	JAM	Jamaica		ny	
+Mellom-Amerika og Karibia	MEX-CDMX	Mexico	Mexico City	finnes	
+Mellom-Amerika og Karibia	MEX-YUC	Mexico	Yucatán	ny	
+Mellom-Amerika og Karibia	MEX-OAX	Mexico	Oaxaca og Chiapas	ny	
+Mellom-Amerika og Karibia	MEX-BCS	Mexico	Baja California Sur	ny	
+Mellom-Amerika og Karibia	NIC	Nicaragua		ny	
+Mellom-Amerika og Karibia	PAN	Panama		finnes	
+Mellom-Amerika og Karibia	KNA	St. Kitts og Nevis		ny	
+Mellom-Amerika og Karibia	LCA	St. Lucia		ny	
+Mellom-Amerika og Karibia	VCT	St. Vincent og Grenadinene		ny	
+Mellom-Amerika og Karibia	TTO	Trinidad og Tobago		ny	
+Sør-Amerika	ATA	Antarktis	Antarktishalvøya (via Ushuaia)	finnes	
+Sør-Amerika	ARG-BA	Argentina	Buenos Aires og Mendoza	ny	
+Sør-Amerika	ARG-PAT	Argentina	Patagonia	ny	
+Sør-Amerika	ARG-NO	Argentina	Salta og Jujuy	ny	
+Sør-Amerika	ARG-IGU	Argentina	Iguazú	ny	
+Sør-Amerika	BOL	Bolivia		ny	
+Sør-Amerika	BRA-NE	Brasil	Rio og nordover	finnes	
+Sør-Amerika	BRA-AMZ	Brasil	Amazonas	ny	
+Sør-Amerika	BRA-PAN	Brasil	Pantanal	ny	
+Sør-Amerika	CHL-ATA	Chile	Atacama	ny	
+Sør-Amerika	CHL-SCL	Chile	Santiago og vindistriktene	ny	
+Sør-Amerika	CHL-PAT	Chile	Patagonia (Torres del Paine)	ny	
+Sør-Amerika	CHL-RAP	Chile	Påskeøya	ny	
+Sør-Amerika	COL	Colombia		finnes	
+Sør-Amerika	ECU	Ecuador	Quito og Andes	ny	
+Sør-Amerika	ECU-GAL	Ecuador	Galápagos	finnes	
+Sør-Amerika	GUY	Guyana		ny	
+Sør-Amerika	PRY	Paraguay		ny	
+Sør-Amerika	PER-CUS	Peru	Cusco og Machu Picchu	ny	
+Sør-Amerika	PER-LIM	Peru	Lima og kysten	ny	
+Sør-Amerika	PER-AMZ	Peru	Amazonas	ny	
+Sør-Amerika	SUR	Surinam		ny	
+Sør-Amerika	URY	Uruguay		ny	
+Sør-Amerika	VEN	Venezuela		ny	Sikkerhet: sjekk UDs reiseråd

@@ -60,7 +60,8 @@ Sist oppdatert: 11. november 2026.
 
 ## Neste steg
 
-- Utvidelse til alle FN-land (avtalt 11.11.; steg 1–2 ferdig): (3) liste over land og oppdeling for Påls godkjenning;
+- Utvidelse til alle FN-land (avtalt 11.11.; steg 1–2 ferdig, flyttbart kort PR #40): (3) forslaget ligger i `Landliste.md` / `landliste.tsv`
+  (262 reisemål, 222 nye, 31 land delt, åtte regioner) og venter på Påls svar på spørsmålene øverst i fila; liste over land og oppdeling for Påls godkjenning;
   (4) fylle data per region. Regioninndelingen avgjøres med landlista, og da også knapper eller nedtrekksliste for regionene. Standardvalg til Pål sier noe annet: Europa er med, regnearket bygges fortsatt, venners egne
   ønskelister venter. Felles vinduer (ramadan, påske o.l. for mange land) bør inn i `reisemal.py` før datafyllingen.
   Kalenderformlene i regnearket (COUNTIFS/SUMIFS/SUMPRODUCT per celle) blir trege ved ~250 reisemål; vurder å regne ukescorene i Python.
