@@ -22,13 +22,18 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 
 ## Datamodell (reisemal/<ID>.json, fra 11.11.2026)
 Én fil per reisemål; filnavnet er ID-en (ISO3-landkode, med suffiks for deler av land: `LKA-SV`, `IND-GOA`). Felter:
-- `id`, `region` (må stå i `REGIONER` i `reisemal.py`), `land`, `sted` (tom = hele landet), `status` (Ikke besøkt/Planlagt/Booket/Besøkt),
+- `id`, `region` (må stå i `REGIONER` i `reisemal.py`, som også har det engelske navnet og rekkefølgen), `land`, `sted` (tom = hele landet), valgfri `kortnavn` (kartetikett når «land – sted»
+  er for langt, f.eks. «Sri Lanka øst»; engelsk i `en.kortnavn`), `status` (Ikke besøkt/Planlagt/Booket/Besøkt),
   `onskeliste` (true = Påls ønskeliste), `kategori`, `merknad` (starter den med «Sikkerhet:», vises reiserådvarsel), valgfri `varighet` (dager),
   `koord` [bredde, lengde], `kilde` (klimastasjon og periode).
-- `en`: engelsk `land`, `sted`, `kategori`, `merknad`, `kilde` (bare de som har verdi).
+- `en`: engelsk `land`, `sted`, `kortnavn`, `kategori`, `merknad`, `kilde` (bare de som har verdi).
 - `maneder`: 12 objekter `{klima, opplevelse, trengsel, tmaks, nedbor, no, en}`.
 - `vinduer`: `{fra, til}` som datoer (bevegelige høytider; uke og år regnes ut) eller `{fra_uke, til_uke, aar?}` (uten `aar` = hvert år),
   pluss `type`, `justering`, `no`, `en`.
+Felles vinduer (`felles_vinduer.json`): vinduer som gjelder mange reisemål (ramadan, påske, kinesisk nyttår) står én gang, med
+`gjelder`: en liste med ID-er, eller `{"id": …, "justering": …}` som overstyrer felter for det reisemålet. `last()` legger dem til
+hvert reisemål (merket `felles`, så `skriv()` ikke lagrer dem i reisemålets fil). Regionene er åtte (fra 11.11.2026): Europa, Midtøsten,
+Afrika, Asia, Oseania, Nord-Amerika, Mellom-Amerika og Karibia, Sør-Amerika. Landlista med oppdelingen står i `Landliste.md` / `landliste.tsv`.
 `reisemal.last()` stopper med feilmelding hvis felter mangler, ID ikke stemmer med filnavnet eller det ikke er 12 måneder.
 Rekkefølgen (regneark, md-liste) er region i `REGIONER`-rekkefølge, så land og sted alfabetisk. Kartlista sorteres på score.
 Før 11.11.2026 lå dataene i `reisedata.py`, `reisedata_en.py` og `dest` i `bygg_reisekalender.py`; omleggingen ga identiske data i `index.html`.
@@ -86,7 +91,7 @@ Se NOTES.md (Status nå og Åpne spørsmål).
 - Vekter 40/40/20 beholdes. Veto myket opp til tak 1,5.
 - Trengsel/pris beholdes som én dimensjon.
 - «Timbuktu» var feil – skal være Katmandu (Nepal: Katmandu, Pokhara).
-- «Stan-land» slått sammen med Silkeveien (ID SILK). Rute avklares ved populering.
+- «Stan-land» slått sammen med Silkeveien (ID SILK). Rute avklares ved populering. (11.11.2026: SILK er blitt Usbekistan, UZB; de andre fire får egne reisemål.)
 - Sri Lanka splittet: LKA-SV (vest/sør + høylandet) og LKA-O (østkysten).
 - Hawaii og Charleston på egne rader (også i .md).
 - Dubletter ryddet i .md (Etiopia, Egypt, São Tomé og Príncipe).
@@ -94,7 +99,8 @@ Se NOTES.md (Status nå og Åpne spørsmål).
 - Filer flyttet til undermappen Reiseplanlegging; «Delt med Claude» og gamle versjoner slettet.
 
 ## Navneendringer (27.09.2026)
-- USA-WC → «USA Nordvestkyst – San Francisco til Vancouver»; USA-HI → «Hawaii»; MEX-CDMX → «Mexico City»; EGY → «Egypt – Kairo, Luxor»; SILK → «Sentral-Asia – Silkeveien»; SGP → «Singapore».
+- USA-WC → «USA Nordvestkyst – San Francisco til Vancouver»; USA-HI → «Hawaii»; MEX-CDMX → «Mexico City» (11.11.2026: land og sted
+  skilt: USA – Nordvestkysten, USA – Hawaii, Mexico – Mexico City); EGY → «Egypt – Kairo, Luxor»; SILK → «Sentral-Asia – Silkeveien»; SGP → «Singapore».
 - USA-CHS → «USA – Savannah-Charleston»: dekker Georgia/South Carolina-kysten generelt; klima = snitt av Charleston og Savannah/Hilton Head (NOAA 1991–2020), koordinat midt mellom byene.
 - Kartetiketter bruker nå tankestrek mellom land og sted (f.eks. «Brasil – Rio og nordover»).
 - Brødsmuler øverst i sidepanelet («stam.pe / Reiseplanlegging», stam.pe lenker til landingssiden) erstatter kickeren «Reisekalender · 40 reisemål» – samme stil som i byguidene.

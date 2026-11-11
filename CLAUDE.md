@@ -3,7 +3,8 @@ Gjeldende status (lastes inn automatisk):
 
 # Reiseplanlegging — arbeidsregler for Claude
 
-Påls reisekart og reisekalender: beste reisetid per reisemål (ca. 40 steder utenfor Europa), ned mot ukenummer.
+Påls reisekart og reisekalender: beste reisetid per reisemål, ned mot ukenummer. Utvides fra 40 reisemål til alle FN-land
+(257 reisemål etter `Landliste.md`).
 Live på https://stam.pe/reiseplanlegging/.
 Løpende status, neste steg, åpne spørsmål og beslutningslogg: NOTES.md (oppdateres ved slutten av hver økt).
 Les HANDOVER.md før større endringer — den har datamodell, scoremodell og kartteknikk.
@@ -22,7 +23,8 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   koordinater, klimakilde, 12 måneder (scorer, T maks, nedbør, begrunnelse) og vinduer. Norsk (`no`) og engelsk (`en`)
   står side om side. Endres en norsk tekst, endre den engelske også. `lag_reisekart.py` skriver «Mangler engelsk: …» for hull.
   Format og felter: HANDOVER.md, Datamodell. Filene skrives med `reisemal.skriv()` (én måned og ett vindu per linje).
-- `reisemal.py` — leser og sjekker filene (`last()`), regner vinduer om til uker (`vindu()`). Brukes av begge skriptene.
+- `reisemal.py` — leser og sjekker filene (`last()`, med vinduene fra `felles_vinduer.json`), regner vinduer om til uker (`vindu()`).
+  Brukes av begge skriptene. Nye regioner legges inn i `REGIONER` der, med engelsk navn.
 - `Reisemål.md` — oversikt over reisemålene, generert av `lag_reisekart.py`. Rediger ikke; endre JSON-filene.
 - `reisekart_mal.html` — malen for kart-appen. `python3 lag_reisekart.py` skriver `index.html` fra mal + data.
 - `index.html` er generert — rediger aldri direkte. Endre malen eller dataene og kjør skriptet.
@@ -131,10 +133,11 @@ Playwright med `colorScheme: 'light'` og `'dark'`. Ta bildene fra stam.pe etter 
 
 ## Data
 - Nye reisemål: ny fil `reisemal/<ID>.json` (ID = ISO3-landkode, med suffiks for deler av land: `IND-GOA`).
-  Ny region legges inn i `REGIONER` i `reisemal.py` og i `TEKST.regioner` i malen.
+  Hvilke reisemål som skal finnes, står i `landliste.tsv` (vedtatt 11.11.2026).
   Klimanormaler fra én representativ stasjon (helst WMO/nasjonal met-tjeneste, 1991–2020); oppgi kilde og periode.
   Si fra hvis stasjonen er en proxy eller serien er gammel.
-- Bevegelige datoer (Tet/kinesisk nyttår, påske, ramadan, tsechu, festivaler) legges inn per år.
+- Bevegelige datoer (Tet/kinesisk nyttår, påske, ramadan, tsechu, festivaler) legges inn per år. Gjelder de mange reisemål,
+  legges de i `felles_vinduer.json` med `gjelder`-liste, ikke i hver fil.
   Merk usikre datoer «sjekk dato».
 
 ## Ikke gjør

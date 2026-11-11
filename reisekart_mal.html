@@ -338,7 +338,7 @@ const TEKST = {
     kart: "Kart", zoomInn: "Zoom inn", zoomUt: "Zoom ut", visHele: "Vis hele kartet",
     mnd: ["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"],
     mndLang: ["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"],
-    alle: "Alle", regioner: {"Asia, Oseania og Midt-Østen":"Asia og Midtøsten"},
+    alle: "Alle",
     utvalg: "Vis", alleReisemal: "Alle reisemål", onskeliste: "Ønskeliste",
     sok: "Søk", sokPlass: "Søk etter land eller sted",
     ingenTreff: q => `Ingen treff på «${q}» i dette utvalget.`,
@@ -352,7 +352,6 @@ const TEKST = {
     manedscore: "Månedsscore", samlet: "samlet", aaret: a => `Året ${a} – klikk en måned`, uker: "Uker", uke: "u", ukeLang: "uke",
     hendDenne: "Hendelser denne måneden", hendEllers: a => `Hendelser ellers i ${a}`,
     kilde: "Klimakilde", lukk: "Lukk",
-    lkaO: "Sri Lanka øst", lkaSV: "Sri Lanka sør/vest",
     offline: "Tilgjengelig offline",
     kartFeil: m => `Kartet kunne ikke lastes (${m}). Listen til venstre virker som vanlig.`
   },
@@ -367,8 +366,7 @@ const TEKST = {
     kart: "Map", zoomInn: "Zoom in", zoomUt: "Zoom out", visHele: "Show the whole map",
     mnd: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     mndLang: ["January","February","March","April","May","June","July","August","September","October","November","December"],
-    alle: "All", regioner: {"Asia, Oseania og Midt-Østen":"Asia and Middle East","Nord-Amerika":"North America",
-      "Sør- og Mellom-Amerika":"South and Central America","Afrika":"Africa"},
+    alle: "All",
     utvalg: "Show", alleReisemal: "All destinations", onskeliste: "Wishlist",
     sok: "Search", sokPlass: "Search for a country or place",
     ingenTreff: q => `No matches for “${q}” in this selection.`,
@@ -382,7 +380,6 @@ const TEKST = {
     manedscore: "Month score", samlet: "overall", aaret: a => `${a} – click a month`, uker: "Weeks", uke: "w", ukeLang: "week",
     hendDenne: "Events this month", hendEllers: a => `Other events in ${a}`,
     kilde: "Climate source", lukk: "Close",
-    lkaO: "Sri Lanka east", lkaSV: "Sri Lanka south/west",
     offline: "Available offline",
     kartFeil: m => `The map could not be loaded (${m}). The list works as usual.`
   }
@@ -467,7 +464,8 @@ function beregn(d, mnd, ar) {
 }
 function aarsprofil(d, ar) { return MND.map((_, i) => beregn(d, i, ar).snitt); }
 
-const REGIONER = ["Alle", ...new Set(DATA.dest.map(d => d.region))];
+// Regionene i rekkefølgen og med de engelske navnene fra reisemal.py (REGIONER); bare de som har reisemål, vises.
+const REGIONER = ["Alle", ...Object.keys(DATA.regioner).filter(r => DATA.dest.some(d => d.region === r))];
 // «Ønskeliste» vises bare når lista har både ønskelistesteder og andre (alle vises som standard).
 const HAR_ONSKELISTE = DATA.dest.some(d => d.onskeliste) && DATA.dest.some(d => !d.onskeliste);
 // Søk på land og sted, norsk og engelsk, uten å skille på aksenter og store/små bokstaver.
@@ -475,7 +473,7 @@ const normal = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g,
 const SOKETEKST = new Map(DATA.dest.map(d => [d.id, normal([d.land, d.sted, d.en.land, d.en.sted, d.id].join(" "))]));
 const treffer = (d, q) => !q || SOKETEKST.get(d.id).includes(q);
 const sokOrd = () => normal(state.sok.trim());
-const kortRegion = r => r === "Alle" ? t("alle") : t("regioner")[r] || r;
+const kortRegion = r => r === "Alle" ? t("alle") : SPRAK === "en" ? DATA.regioner[r] || r : r;
 const navn = d => { const land = tekst(d, "land"), sted = tekst(d, "sted"); return sted ? `${land} – ${sted}` : land; };
 const erVarsel = d => /sikkerhet/i.test(d.merknad);
 
@@ -550,7 +548,7 @@ function detaljHtml(d) {
   const [k, o, tp, T, N] = d.m[state.mnd], txt = mndTekst(d, state.mnd), merknad = tekst(d, "merknad");
   const uker = r.uker.map(x => `<span class="uke ${klasse(x.s)}">${t("uke")}${x.u} ${fmt(x.s)}</span>`).join("");
   const hend = r.hend.map(w => `<li>${esc(vinduTekst(w))} <span class="merke">${w[4] > 0 ? "+" : "−"}${desimal(String(Math.abs(w[4])))}</span></li>`).join("");
-  const alleHend = DATA.win.filter(w => w[0] === d.id && (w[5] == null || w[5] === state.ar));
+  const alleHend = (VINDUER_FOR[d.id] || []).filter(w => w[5] == null || w[5] === state.ar);
   const kategori = tekst(d, "kategori");
   return `<button class="rute-lukk" id="lukk" type="button" aria-label="${t("lukk")}">×</button>
     <p class="rute-kicker">${esc(kortRegion(d.region))}${kategori ? " · " + esc(kategori) : ""}</p>
@@ -679,8 +677,9 @@ function punktData() {
     }));
   });
 }
+// Kartetikett: «land – sted» når det er kort, ellers kortnavnet fra dataene (f.eks. «Sri Lanka øst»), ellers landet.
 const navnKort = d => { const land = tekst(d, "land"), sted = tekst(d, "sted");
-  return sted && land.length + sted.length < 23 ? `${land} – ${sted}` : (sted && d.land === "Sri Lanka" ? t(d.id === "LKA-O" ? "lkaO" : "lkaSV") : land); };
+  return sted && land.length + sted.length < 23 ? `${land} – ${sted}` : tekst(d, "kortnavn") || land; };
 const DATA_KOORD = DATA.koord;
 
 function tegnKart() {
