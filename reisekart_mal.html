@@ -88,6 +88,12 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .chip[aria-pressed="true"] { background:var(--aksent); border-color:var(--aksent); color:var(--papir); }
 .chip[aria-pressed="true"]:hover { background:var(--aksent-hover); border-color:var(--aksent-hover); color:var(--papir); }
 .maneder .chip { padding:0; }
+/* Søk: 16 px på mobil, ellers zoomer iOS inn når feltet får fokus */
+.sok { height:36px; width:100%; padding:0 12px; border:1px solid var(--kant); border-radius:3px; background:var(--kort); color:var(--tekst);
+  font-family:inherit; font-size:14px; }
+.sok::placeholder { color:var(--dempet); opacity:1; }
+.sok:focus-visible { outline:2px solid var(--aksent); outline-offset:2px; }
+@media (hover: none) { .sok { font-size:16px; } }
 
 .tegnforklaring { display:flex; flex-wrap:wrap; gap:14px; font-size:12px; color:var(--dempet); }
 .tegnforklaring span { display:inline-flex; align-items:center; gap:6px; }
@@ -264,6 +270,9 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
       <div class="filtergruppe" id="ar" role="group" data-t-aria="ar" aria-label="År"></div>
       <p class="gruppe-etikett" data-t="region">Region</p>
       <div class="filtergruppe" id="regioner" role="group" data-t-aria="region" aria-label="Region"></div>
+      <p class="gruppe-etikett" data-t="utvalg" id="utvalg-etikett" hidden>Vis</p>
+      <div class="filtergruppe" id="utvalg" role="group" data-t-aria="utvalg" aria-label="Vis" hidden></div>
+      <input type="search" class="sok" id="sok" data-t-aria="sok" data-t-placeholder="sokPlass" aria-label="Søk" placeholder="Søk etter land eller sted" autocomplete="off" spellcheck="false" enterkeyhint="search">
       <div class="tegnforklaring">
         <span><i class="prikk" style="background:var(--beste)"></i><span data-t="best">≥ 4,4 best</span></span>
         <span><i class="prikk" style="background:var(--god)"></i><span data-t="bra">≥ 4,0 bra</span></span>
@@ -326,6 +335,10 @@ const TEKST = {
     mnd: ["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"],
     mndLang: ["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"],
     alle: "Alle", regioner: {"Asia, Oseania og Midt-Østen":"Asia og Midtøsten"},
+    utvalg: "Vis", alleReisemal: "Alle reisemål", onskeliste: "Ønskeliste",
+    sok: "Søk", sokPlass: "Søk etter land eller sted",
+    ingenTreff: q => `Ingen treff på «${q}» i dette utvalget.`,
+    treffAlle: n => `Vis ${n} treff i alle reisemål`,
     visAlle: "Vis alle", bareGronne: "Vis bare grønne",
     teller: (g, n, m) => `${g} av ${n} grønne i ${m}`,
     tomt: m => `Ingen reisemål over 4,0 i ${m} for dette utvalget.`,
@@ -352,6 +365,10 @@ const TEKST = {
     mndLang: ["January","February","March","April","May","June","July","August","September","October","November","December"],
     alle: "All", regioner: {"Asia, Oseania og Midt-Østen":"Asia and Middle East","Nord-Amerika":"North America",
       "Sør- og Mellom-Amerika":"South and Central America","Afrika":"Africa"},
+    utvalg: "Show", alleReisemal: "All destinations", onskeliste: "Wishlist",
+    sok: "Search", sokPlass: "Search for a country or place",
+    ingenTreff: q => `No matches for “${q}” in this selection.`,
+    treffAlle: n => `Show ${n} ${n === 1 ? "match" : "matches"} in all destinations`,
     visAlle: "Show all", bareGronne: "Show only green",
     teller: (g, n, m) => `${g} of ${n} green in ${m}`,
     tomt: m => `No destinations above 4.0 in ${m} for this selection.`,
@@ -379,6 +396,7 @@ function oversettDom() {
   document.querySelectorAll("[data-t]").forEach(e => { e.textContent = t(e.dataset.t); });
   document.querySelectorAll("[data-t-aria]").forEach(e => { e.setAttribute("aria-label", t(e.dataset.tAria)); });
   document.querySelectorAll("[data-t-title]").forEach(e => { e.title = t(e.dataset.tTitle); });
+  document.querySelectorAll("[data-t-placeholder]").forEach(e => { e.placeholder = t(e.dataset.tPlaceholder); });
   document.querySelectorAll(".sprakvalg [data-sprak]").forEach(b => b.setAttribute("aria-pressed", b.dataset.sprak === SPRAK ? "true" : "false"));
   document.getElementById("hjem").href = SPRAK === "en" ? "/?lang=en" : "/";
 }
@@ -421,7 +439,7 @@ function vinduGjelder(w, u, ar) {
   return fra <= til ? (u >= fra && u <= til) : (u >= fra || u <= til);
 }
 
-const state = { mnd: (new Date().getMonth() + 1) % 12, ar: new Date().getFullYear(), region: "Alle", bareGronne: false, valgt: null };
+const state = { mnd: (new Date().getMonth() + 1) % 12, ar: new Date().getFullYear(), region: "Alle", onskeliste: false, sok: "", bareGronne: false, valgt: null };
 if (state.mnd === 0) state.ar += 1;
 const AR_VALG = [2026, 2027, 2028];
 if (!AR_VALG.includes(state.ar)) state.ar = 2026;
@@ -444,6 +462,11 @@ function beregn(d, mnd, ar) {
 function aarsprofil(d, ar) { return MND.map((_, i) => beregn(d, i, ar).snitt); }
 
 const REGIONER = ["Alle", ...new Set(DATA.dest.map(d => d.region))];
+// «Ønskeliste» vises bare når lista har både ønskelistesteder og andre (alle vises som standard).
+const HAR_ONSKELISTE = DATA.dest.some(d => d.onskeliste) && DATA.dest.some(d => !d.onskeliste);
+// Søk på land og sted, norsk og engelsk, uten å skille på aksenter og store/små bokstaver.
+const normal = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const treffer = (d, q) => !q || [d.land, d.sted, d.en && d.en.land, d.en && d.en.sted, d.id].some(x => normal(x).includes(q));
 const kortRegion = r => r === "Alle" ? t("alle") : t("regioner")[r] || r;
 const navn = d => { const land = tekst(d, "land"), sted = tekst(d, "sted"); return sted ? `${land} – ${sted}` : land; };
 const erVarsel = d => /sikkerhet/i.test(d.merknad);
@@ -463,14 +486,20 @@ function tegnFiltre() {
   AR_VALG.forEach(y => a.appendChild(chip(String(y), y === state.ar, () => { state.ar = y; oppdater(); })));
   const r = document.getElementById("regioner"); r.innerHTML = "";
   REGIONER.forEach(x => r.appendChild(chip(kortRegion(x), x === state.region, () => { state.region = x; oppdater(); })));
+  const u = document.getElementById("utvalg"); u.innerHTML = "";
+  u.hidden = document.getElementById("utvalg-etikett").hidden = !HAR_ONSKELISTE;
+  [[false, t("alleReisemal")], [true, t("onskeliste")]].forEach(([v, tekst]) =>
+    u.appendChild(chip(tekst, state.onskeliste === v, () => { state.onskeliste = v; oppdater(); })));
   const bg = document.getElementById("bare-gronne");
   bg.setAttribute("aria-pressed", state.bareGronne ? "true" : "false");
   bg.textContent = state.bareGronne ? t("visAlle") : t("bareGronne");
 }
 
+const iUtvalg = d => (state.region === "Alle" || d.region === state.region) && (!state.onskeliste || d.onskeliste);
 function rader() {
+  const q = normal(state.sok.trim());
   return DATA.dest
-    .filter(d => state.region === "Alle" || d.region === state.region)
+    .filter(d => iUtvalg(d) && treffer(d, q))
     .map(d => ({ d, r: beregn(d, state.mnd, state.ar) }))
     .sort((a, b) => b.r.snitt - a.r.snitt || navn(a.d).localeCompare(navn(b.d), SPRAK === "en" ? "en" : "nb"));
 }
@@ -564,7 +593,15 @@ function tegnListe() {
   const antG = rr.filter(x => x.r.snitt >= GOD - EPS).length;
   document.getElementById("teller").textContent = t("teller")(antG, rr.length, t("mndLang")[state.mnd]);
   const l = document.getElementById("liste");
-  if (!vis.length) { l.innerHTML = `<p class="tomt">${t("tomt")(t("mndLang")[state.mnd])}</p>`; return; }
+  if (!vis.length) {
+    const q = state.sok.trim(), utenfor = q && !rr.length ? DATA.dest.filter(d => !iUtvalg(d) && treffer(d, normal(q))).length : 0;
+    l.innerHTML = q && !rr.length
+      ? `<p class="tomt">${esc(t("ingenTreff")(q))}${utenfor ? ` <button class="lenkeknapp" id="sok-alle" type="button">${t("treffAlle")(utenfor)}</button>` : ""}</p>`
+      : `<p class="tomt">${t("tomt")(t("mndLang")[state.mnd])}</p>`;
+    const alle = document.getElementById("sok-alle");
+    if (alle) alle.addEventListener("click", () => { state.region = "Alle"; state.onskeliste = false; oppdater(); document.getElementById("sok").focus(); });
+    return;
+  }
   l.innerHTML = vis.map(({ d, r }) => `
     <div class="oppslag ${state.valgt === d.id ? "er-valgt" : ""}" data-id="${d.id}" tabindex="0" role="button" aria-label="${esc(navn(d))}, ${t("score")} ${fmt(r.snitt)}">
       <div class="oppslag-topp"><p class="oppslag-navn">${esc(navn(d))}</p><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span></div>
@@ -895,6 +932,8 @@ function oppdater() {
   tegnFiltre(); tegnListe(); tegnKart();
   if (state.valgt) visDetalj(state.valgt);
 }
+
+document.getElementById("sok").addEventListener("input", e => { state.sok = e.target.value; tegnListe(); tegnKart(); });
 
 const LIGGENDE = window.matchMedia("(orientation: landscape) and (max-height: 500px)");
 

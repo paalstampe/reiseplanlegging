@@ -14,7 +14,7 @@ for r in alle:
     data["win"] += [list(reisemal.vindu(r, v)) + [v.get("en") or v["no"]] for v in r["vinduer"]]
     hull += [f"{idd}: vindu «{v['no']}»" for v in r["vinduer"] if not v.get("en")]
     en_m = [m.get("en", "") for m in r["maneder"]]
-    data["dest"].append({"id": idd, "region": r["region"], "land": r["land"], "sted": r["sted"], "status": r["status"],
+    data["dest"].append({"id": idd, "region": r["region"], "land": r["land"], "sted": r["sted"], "status": r["status"], "onskeliste": r["onskeliste"],
         "kategori": r["kategori"], "merknad": r["merknad"], "kilde": r["kilde"],
         "en": {**en, "m": en_m},  # tom månedstekst = norsk vises for den måneden
         # «se Vinduer» viser til arket i regnearket; i kartet heter det «Hendelser».
