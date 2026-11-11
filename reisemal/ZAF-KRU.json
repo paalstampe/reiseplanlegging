@@ -1,0 +1,30 @@
+{
+  "id": "ZAF-KRU",
+  "region": "Afrika",
+  "land": "Sør-Afrika",
+  "sted": "Kruger",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Safari",
+  "merknad": "",
+  "koord": [-24.0, 31.5],
+  "kilde": "Skukuza (271 moh), 1991–2020 (Starlings Roost Weather), via Wikipedia",
+  "en": {"land": "South Africa", "sted": "Kruger", "kategori": "Safari", "kilde": "Skukuza (271 m), 1991–2020 (Starlings Roost Weather), via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 33.2, "nedbor": 111, "no": "Regntid, hett (33 °C), grønt. Vilt spredt, malariarisiko. Skoleferie tidlig i jan.", "en": "Rainy season, hot (33 °C), green. Game dispersed, malaria risk. School holidays early Jan."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 33.1, "nedbor": 109, "no": "Regntid, hett. Fugleliv, lave priser.", "en": "Rainy season, hot. Birdlife, low prices."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.9, "nedbor": 80, "no": "Regnet avtar, høyt gress.", "en": "Rain eases, tall grass."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.8, "nedbor": 40, "no": "Tørrere og behagelig (31 °C). Påskeferie: fulle leire.", "en": "Drier and pleasant (31 °C). Easter holidays: camps full."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 28.4, "nedbor": 16, "no": "Tørketiden starter, behagelig (28 °C). Gresset tynnes ut.", "en": "Dry season begins, pleasant (28 °C). The grass thins out."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.9, "nedbor": 10, "no": "Tørt, kalde morgener. God viltsikt. Skoleferie fra slutten av juni.", "en": "Dry, cold mornings. Good game viewing. School holidays from late June."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.5, "nedbor": 11, "no": "Tørt og mildt (27 °C). Topp safari, skoleferie.", "en": "Dry and mild (27 °C). Top safari, school holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.3, "nedbor": 9, "no": "Tørt. Dyrene samles ved vannet. Høysesong.", "en": "Dry. Animals gather at water. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 30.8, "nedbor": 28, "no": "Varmere (31 °C), svært god viltsikt. Høysesong.", "en": "Warmer (31 °C), excellent game viewing. High season."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 31.6, "nedbor": 40, "no": "Hett og tørt (32 °C), best viltsikt før regnet.", "en": "Hot and dry (32 °C), best game viewing before the rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.8, "nedbor": 86, "no": "Regnet kommer, grønt. Impalaungene fødes (se Vinduer).", "en": "Rain arrives, green. Impala calves born (see events)."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 2, "tmaks": 33.7, "nedbor": 96, "no": "Regntid, hett (34 °C). Jule- og skoleferie, fulle leire.", "en": "Rainy season, hot (34 °C). Christmas and school holidays, camps full."}
+  ],
+  "vinduer": [
+    {"fra_uke": 47, "til_uke": 50, "type": "Dyreliv", "justering": 0.3, "no": "Impalaene får unger (slutten av nov–des), mange rovdyr på jakt", "en": "Impala calving season (late Nov–Dec), lots of predator activity"}
+  ]
+}

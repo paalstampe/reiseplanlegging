@@ -1,0 +1,28 @@
+{
+  "id": "MWI",
+  "region": "Afrika",
+  "land": "Malawi",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-13.95, 34.6],
+  "kilde": "Lilongwe (1050 moh), Météo Climat 1991–2020, via Wikipedia. Malawisjøen (ca. 470 moh) 3–5 °C varmere",
+  "en": {"land": "Malawi", "kategori": "Nature / wildlife", "kilde": "Lilongwe (1,050 m), Météo Climat 1991–2020, via Wikipedia. Lake Malawi (approx. 470 m) 3–5 °C warmer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 26.2, "nedbor": 223, "no": "Regntid, kraftige byger. Grusveier og parker vanskelige.", "en": "Rainy season, heavy showers. Dirt roads and parks difficult."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 26.3, "nedbor": 187, "no": "Regntid, byger. Lite folk.", "en": "Rainy season, showers. Few visitors."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 26.3, "nedbor": 128, "no": "Regnet avtar, grønt landskap.", "en": "Rain easing, green landscape."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 25.9, "nedbor": 44, "no": "Regntiden slutter, grønt og frodig.", "en": "Rainy season ends, green and lush."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 25.5, "nedbor": 12, "no": "Tørt og behagelig (26 °C). Fortsatt grønt; dyrene spredt.", "en": "Dry and pleasant (26 °C). Still green; animals dispersed."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 23.5, "nedbor": 1, "no": "Kjølig tørrsesong, kalde netter i høylandet.", "en": "Cool dry season, cold nights in the highlands."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 22.5, "nedbor": 0, "no": "Kjøligst (23 °C), tørt. Europeisk ferietid.", "en": "Coolest (23 °C), dry. European holiday season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.5, "nedbor": 0, "no": "Tørt, behagelig. God safari i Liwonde, klart vann i sjøen.", "en": "Dry, pleasant. Good safari in Liwonde, clear lake water."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.2, "nedbor": 1, "no": "Varmere, tørt. Toppsesong for dyreliv.", "en": "Warmer, dry. Peak wildlife season."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 29.5, "nedbor": 10, "no": "Varmest (30 °C, hetere ved sjøen). Dyrene samles ved vann.", "en": "Hottest (30 °C, hotter by the lake). Animals gather at water."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.3, "nedbor": 63, "no": "Varmt, regntiden starter.", "en": "Hot, rainy season begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 27.7, "nedbor": 199, "no": "Regntid, byger.", "en": "Rainy season, showers."}
+  ],
+  "vinduer": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "SUR",
+  "region": "Sør-Amerika",
+  "land": "Surinam",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [5.83, -55.17],
+  "kilde": "Paramaribo (Zorg en Hoop), NOAA 1991–2020, via Wikipedia. Innlandet (Raleighvallen, Brownsberg) våtere",
+  "en": {"land": "Suriname", "kategori": "Nature / culture", "kilde": "Paramaribo (Zorg en Hoop), NOAA 1991–2020, via Wikipedia. The interior (Raleighvallen, Brownsberg) is wetter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.2, "nedbor": 173, "no": "Kort regntid (173 mm). Rolig etter nyttår.", "en": "Short rainy season (173 mm). Quiet after New Year."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.4, "nedbor": 146, "no": "Kort tørrtid starter. Bra for innlandsturer.", "en": "Short dry season begins. Good for trips inland."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.7, "nedbor": 131, "no": "Kort tørrtid. Phagwa (se Vinduer).", "en": "Short dry season. Phagwa (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.9, "nedbor": 216, "no": "Regnet kommer. Havskilpadder i Galibi (se Vinduer).", "en": "Rain arrives. Sea turtles at Galibi (see events)."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 5, "tmaks": 30.0, "nedbor": 307, "no": "Våtest (307 mm); elver høye. Skilpadder legger egg.", "en": "Wettest (307 mm); rivers high. Turtles nesting."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.2, "nedbor": 296, "no": "Lang regntid; gjørmete veier i innlandet.", "en": "Long rainy season; muddy roads inland."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 30.7, "nedbor": 234, "no": "Regnet avtar. Keti Koti (se Vinduer); nederlandsk sommerferie.", "en": "Rain easing. Keti Koti (see events); Dutch summer holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 31.5, "nedbor": 148, "no": "Lang tørrtid starter. Skilpaddeunger klekkes. Mange besøkende fra Nederland.", "en": "Long dry season begins. Turtle hatchlings. Many visitors from the Netherlands."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 32.0, "nedbor": 90, "no": "Tørt og varmt (32 °C). Fint i innlandet.", "en": "Dry and hot (32 °C). Good inland."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 32.1, "nedbor": 87, "no": "Tørrest (87 mm). Beste måned for regnskog og elveturer.", "en": "Driest (87 mm). Best month for rainforest and river trips."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.2, "nedbor": 126, "no": "Fortsatt tørt, byger mot slutten.", "en": "Still dry, showers late in the month."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 30.0, "nedbor": 184, "no": "Regnet kommer. Owru Yari-feiring (se Vinduer); fullt rundt jul.", "en": "Rain returns. Owru Yari celebrations (see events); busy around Christmas."}
+  ],
+  "vinduer": [
+    {"fra": "2027-03-21", "til": "2027-03-22", "type": "Hendelse", "justering": 0.3, "no": "Phagwa (hinduistisk vårfest med farger) i Paramaribo, sjekk dato", "en": "Phagwa (Hindu spring festival of colours) in Paramaribo, check date"},
+    {"fra": "2028-03-10", "til": "2028-03-11", "type": "Hendelse", "justering": 0.3, "no": "Phagwa (hinduistisk vårfest med farger) i Paramaribo, sjekk dato", "en": "Phagwa (Hindu spring festival of colours) in Paramaribo, check date"},
+    {"fra_uke": 14, "til_uke": 31, "type": "Dyreliv", "justering": 0.3, "no": "Havlærskilpadder legger egg ved Galibi og Matapica (apr–jul), unger til aug", "en": "Leatherback turtles nesting at Galibi and Matapica (Apr–Jul), hatchlings until Aug"},
+    {"fra_uke": 26, "til_uke": 27, "type": "Hendelse", "justering": 0.3, "no": "Keti Koti 1.7: frigjøringsdagen, fest og kulturprogram i Paramaribo", "en": "Keti Koti 1 July: Emancipation Day, celebrations and culture in Paramaribo"},
+    {"fra_uke": 52, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Owru Yari: nyttårsfeiring med kilometerlange pagara-fyrverkerier i Paramaribo", "en": "Owru Yari: New Year celebrations with mile-long pagara firecrackers in Paramaribo"}
+  ]
+}

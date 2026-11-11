@@ -1,0 +1,28 @@
+{
+  "id": "SSD",
+  "region": "Afrika",
+  "land": "Sør-Sudan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [4.85, 31.58],
+  "kilde": "Juba, WMO 1991–2020, via Wikipedia. Mundari-kvegleirer nær Juba; Boma og Badingilo lenger øst",
+  "en": {"land": "South Sudan", "kategori": "Culture / nature", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Juba, WMO 1991–2020, via Wikipedia. Mundari cattle camps near Juba; Boma and Badingilo further east"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 37.8, "nedbor": 4, "no": "Tørrsesong (38 °C). Kvegleirene samlet, veiene farbare. Beste tid.", "en": "Dry season (38 °C). Cattle camps gathered, roads passable. Best time."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 38.9, "nedbor": 11, "no": "Tørt og svært varmt (39 °C). Kvegleirer fortsatt.", "en": "Dry and very hot (39 °C). Cattle camps still."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 38.9, "nedbor": 36, "no": "Hetest (39 °C), første byger mot slutten.", "en": "Hottest (39 °C), first showers late in the month."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 36.1, "nedbor": 111, "no": "Regntiden starter, veiene blir dårlige.", "en": "Rainy season begins, roads deteriorate."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 33.9, "nedbor": 129, "no": "Regn, mange veier ufarbare.", "en": "Rain, many roads impassable."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.2, "nedbor": 117, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": 31.1, "nedbor": 143, "no": "Regntid; kvegleirene spredt, landeveier stengt.", "en": "Rainy season; cattle camps dispersed, roads closed."},
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": 31.1, "nedbor": 148, "no": "Mye regn; reiser utenfor Juba knapt mulig.", "en": "Heavy rain; travel outside Juba barely possible."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.8, "nedbor": 116, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 33.9, "nedbor": 180, "no": "Mest regn.", "en": "Most rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 35.6, "nedbor": 71, "no": "Regnet avtar, veiene tørker opp.", "en": "Rain eases, roads dry out."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 36.7, "nedbor": 8, "no": "Tørrsesongen starter; kveget samles i leirene. Kob-vandringen i Boma.", "en": "Dry season begins; cattle gather in camps. Kob migration in Boma."}
+  ],
+  "vinduer": []
+}

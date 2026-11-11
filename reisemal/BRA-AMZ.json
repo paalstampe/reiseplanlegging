@@ -1,0 +1,30 @@
+{
+  "id": "BRA-AMZ",
+  "region": "Sør-Amerika",
+  "land": "Brasil",
+  "sted": "Amazonas",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "Gulfebervaksine anbefales",
+  "koord": [-3.1, -60.0],
+  "kilde": "Manaus, INMET 1991–2020, via Wikipedia",
+  "en": {"land": "Brazil", "sted": "Amazon", "kategori": "Nature / wildlife", "merknad": "Yellow fever vaccination recommended", "kilde": "Manaus, INMET 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.3, "nedbor": 306, "no": "Regntid, vannet stiger. Fuktig (31 °C).", "en": "Rainy season, water rising. Humid (31 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.1, "nedbor": 297, "no": "Regntid. Karneval i Manaus.", "en": "Rainy season. Carnival in Manaus."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 31.2, "nedbor": 321, "no": "Mye regn; høyvann gir kanotur i oversvømt skog.", "en": "Lots of rain; high water allows canoeing in flooded forest."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 31.3, "nedbor": 331, "no": "Mest regn (331 mm), høyvann. Kano inn i igapó.", "en": "Most rain (331 mm), high water. Canoe into the igapó."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.5, "nedbor": 233, "no": "Regnet avtar, vannet nær toppen. Godt for kanotur.", "en": "Rain eases, water near its peak. Good for canoeing."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 31.9, "nedbor": 117, "no": "Høyest vannstand, mindre regn. Parintins-festivalen (se Vinduer).", "en": "Highest water, less rain. Parintins festival (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 32.5, "nedbor": 67, "no": "Tørrere, vannet synker. Ferie i Brasil.", "en": "Drier, water falling. Holidays in Brazil."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 33.6, "nedbor": 56, "no": "Tørt og varmt (34 °C); lavere vann og flere stier.", "en": "Dry and hot (34 °C); lower water and more trails."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 34.1, "nedbor": 79, "no": "Varmest; sandbanker, lettere å se dyr.", "en": "Hottest; sandbanks, easier to spot wildlife."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 34.0, "nedbor": 114, "no": "Lavest vann; i tørkeår vanskelig å komme fram med båt.", "en": "Lowest water; in drought years boats struggle to get through."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.0, "nedbor": 188, "no": "Regnet kommer tilbake, vannet stiger.", "en": "Rain returns, water rising."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.0, "nedbor": 254, "no": "Regntid.", "en": "Rainy season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 26, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Boi-Bumbá i Parintins, siste helg i juni (sjekk dato): fullt, båt eller fly fra Manaus", "en": "Boi-Bumbá in Parintins, last weekend of June (check dates): full, boat or flight from Manaus"}
+  ]
+}

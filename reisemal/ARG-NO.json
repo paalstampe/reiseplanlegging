@@ -1,0 +1,34 @@
+{
+  "id": "ARG-NO",
+  "region": "Sør-Amerika",
+  "land": "Argentina",
+  "sted": "Salta og Jujuy",
+  "kortnavn": "Salta og Jujuy",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [-24.2, -65.4],
+  "kilde": "Salta (lufthavn, 1 221 moh), SMN 1991–2020, via Wikipedia. Quebrada de Humahuaca og Puna (2 500–3 500 moh) tørrere, med kalde netter",
+  "en": {"land": "Argentina", "sted": "Salta and Jujuy", "kortnavn": "Salta and Jujuy", "kategori": "Nature / culture", "kilde": "Salta (airport, 1,221 m), SMN 1991–2020, via Wikipedia. Quebrada de Humahuaca and the Puna (2,500–3,500 m) drier, with cold nights"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 27.7, "nedbor": 197, "no": "Regntid (197 mm); ras kan stenge veier. Grønne daler.", "en": "Rainy season (197 mm); landslides can close roads. Green valleys."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 26.5, "nedbor": 147, "no": "Regntid. Karneval i Quebrada de Humahuaca (se Vinduer).", "en": "Rainy season. Carnival in Quebrada de Humahuaca (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 25.1, "nedbor": 107, "no": "Regnet avtar, grønt landskap.", "en": "Rain eases, green landscape."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.9, "nedbor": 42, "no": "Tørrere og klart (23 °C). Fint i Cafayate.", "en": "Drier and clear (23 °C). Lovely in Cafayate."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 20.3, "nedbor": 10, "no": "Tørt og klart (20 °C). Kalde netter i høyden.", "en": "Dry and clear (20 °C). Cold nights at altitude."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.8, "nedbor": 3, "no": "Tørt; frost om natten på Puna. Godt for kjøretur.", "en": "Dry; frost at night on the Puna. Good for a road trip."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 19.9, "nedbor": 3, "no": "Tørt og klart. Argentinsk vinterferie gir mer folk.", "en": "Dry and clear. Argentine winter holidays bring more people."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 22.7, "nedbor": 2, "no": "Tørt, varmere. Pachamama-feiring (se Vinduer). Vind på Puna.", "en": "Dry, warmer. Pachamama celebrations (see events). Wind on the Puna."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 24.7, "nedbor": 6, "no": "Tørt og varmt (25 °C). Godt valg.", "en": "Dry and warm (25 °C). A good choice."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.9, "nedbor": 24, "no": "Varmt og tørt. Fint før regnet.", "en": "Warm and dry. Lovely before the rain."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.6, "nedbor": 59, "no": "Varmt, første byger.", "en": "Warm, first showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 28.4, "nedbor": 138, "no": "Regntiden starter, varmt.", "en": "Rainy season begins, warm."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-14", "til": "2026-02-22", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Quebrada de Humahuaca (Desentierro–Entierro): fest, men fullt", "en": "Carnival in Quebrada de Humahuaca (Desentierro–Entierro): festive, but full"},
+    {"fra": "2027-02-06", "til": "2027-02-14", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Quebrada de Humahuaca", "en": "Carnival in Quebrada de Humahuaca"},
+    {"fra": "2028-02-26", "til": "2028-03-05", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Quebrada de Humahuaca", "en": "Carnival in Quebrada de Humahuaca"},
+    {"fra_uke": 31, "til_uke": 31, "type": "Hendelse", "justering": 0.2, "no": "Pachamama-dagen 1.8: offerseremonier til Moder Jord i Jujuy", "en": "Pachamama Day 1 Aug: offerings to Mother Earth in Jujuy"}
+  ]
+}

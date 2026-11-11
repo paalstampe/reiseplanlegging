@@ -1,0 +1,32 @@
+{
+  "id": "GNB",
+  "region": "Afrika",
+  "land": "Guinea-Bissau",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [11.6, -15.8],
+  "kilde": "Bissau lufthavn, NOAA 1991–2020, via Wikipedia. Bijagós-øyene omtrent som Bissau",
+  "en": {"land": "Guinea-Bissau", "sted": "", "kategori": "Beach / nature", "kilde": "Bissau airport, NOAA 1991–2020, via Wikipedia. The Bijagós islands similar to Bissau"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.4, "nedbor": 0, "no": "Tørt (32 °C). Bijagós-øyene på sitt beste; fiskesesong.", "en": "Dry (32 °C). The Bijagós islands at their best; fishing season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 35.2, "nedbor": 0, "no": "Tørt og varmt. Karneval i Bissau (se Vinduer).", "en": "Dry and hot. Carnival in Bissau (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 36.0, "nedbor": 0, "no": "Hett (36 °C), tørt.", "en": "Hot (36 °C), dry."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 35.3, "nedbor": 0, "no": "Hett og tørt; flodhester på Orango.", "en": "Hot and dry; hippos on Orango."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 34.8, "nedbor": 11, "no": "Fuktig, første regn.", "en": "Humid, first rain."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 33.0, "nedbor": 140, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 31.1, "nedbor": 371, "no": "Mye regn (370 mm), båtturer usikre.", "en": "Heavy rain (370 mm), boat trips unreliable."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 30.4, "nedbor": 468, "no": "Mest regn. Grønne skilpadder hekker på Poilão.", "en": "Most rain. Green turtles nest on Poilão."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 31.3, "nedbor": 364, "no": "Mye regn; skilpaddesesong.", "en": "Heavy rain; turtle season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.3, "nedbor": 167, "no": "Regnet avtar; skilpaddeunger klekkes.", "en": "Rain eases; turtle hatchlings."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.8, "nedbor": 11, "no": "Tørrtiden starter, grønt.", "en": "Dry season begins, green."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 32.6, "nedbor": 0, "no": "Tørt og behagelig. Beste klima.", "en": "Dry and pleasant. Best climate."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-14", "til": "2026-02-17", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Bissau (sjekk dato)", "en": "Carnival in Bissau (check dates)"},
+    {"fra": "2027-02-06", "til": "2027-02-09", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Bissau (sjekk dato)", "en": "Carnival in Bissau (check dates)"},
+    {"fra": "2028-02-26", "til": "2028-02-29", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Bissau (sjekk dato)", "en": "Carnival in Bissau (check dates)"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "AFG",
+  "region": "Asia",
+  "land": "Afghanistan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [34.53, 69.17],
+  "kilde": "Kabul (1 791 moh), NOAA 1991–2020, via Wikipedia. Bamiyan og Band-e-Amir (ca. 2 500–2 900 moh) kaldere",
+  "en": {"land": "Afghanistan", "kategori": "Culture / nature", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Kabul (1,791 m), NOAA 1991–2020, via Wikipedia. Bamiyan and Band-e-Amir (approx. 2,500–2,900 m) colder"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 4.5, "nedbor": 42, "no": "Kaldt (5 °C), snø. Bamiyan nedsnødd.", "en": "Cold (5 °C), snow. Bamiyan snowbound."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 6.4, "nedbor": 64, "no": "Kaldt, snø og sludd. Veiene til høylandet vanskelige.", "en": "Cold, snow and sleet. Roads to the highlands difficult."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 13.0, "nedbor": 79, "no": "Kjølig (13 °C), vått. Nowruz (se Vinduer).", "en": "Cool (13 °C), wet. Nowruz (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 19.3, "nedbor": 68, "no": "Mildt (19 °C), grønt og blomstring. Noen regnbyger.", "en": "Mild (19 °C), green and blossoming. Some showers."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.8, "nedbor": 28, "no": "Varmt (25 °C), tørt. Band-e-Amir åpner. Beste vårmåned.", "en": "Warm (25 °C), dry. Band-e-Amir opens. Best spring month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 1, "no": "Varmt (31 °C) i Kabul, behagelig i Bamiyan.", "en": "Hot (31 °C) in Kabul, pleasant in Bamiyan."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.1, "nedbor": 6, "no": "Varmest (32 °C), støvete. Høylandet best.", "en": "Hottest (32 °C), dusty. The highlands are best."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.8, "nedbor": 3, "no": "Varmt og tørt. Høylandet best.", "en": "Hot and dry. The highlands are best."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.1, "nedbor": 2, "no": "Tørt, klart (28 °C). Høst i Bamiyan.", "en": "Dry, clear (28 °C). Autumn in Bamiyan."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.6, "nedbor": 6, "no": "Klart, behagelig (22 °C), høstfarger. Beste høstmåned.", "en": "Clear, pleasant (22 °C), autumn colours. Best autumn month."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.4, "nedbor": 18, "no": "Kjølig (14 °C), kalde netter i høylandet.", "en": "Cool (14 °C), cold nights in the highlands."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.1, "nedbor": 29, "no": "Kaldt (8 °C), første snø i høylandet.", "en": "Cold (8 °C), first snow in the highlands."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 12, "type": "Hendelse", "justering": 0.3, "no": "Nowruz (persisk nyttår) 21.3: fest og picnic i Kabul og Mazar-i-Sharif", "en": "Nowruz (Persian New Year) 21 Mar: festivities and picnics in Kabul and Mazar-i-Sharif"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "PRY",
+  "region": "Sør-Amerika",
+  "land": "Paraguay",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / historie",
+  "merknad": "",
+  "koord": [-25.28, -57.63],
+  "kilde": "Asunción, WMO 1991–2020, via Wikipedia. Chaco i vest varmere og tørrere; Encarnación og jesuittmisjonene litt kjøligere",
+  "en": {"land": "Paraguay", "kategori": "Culture / history", "kilde": "Asunción, WMO 1991–2020, via Wikipedia. The Chaco to the west hotter and drier; Encarnación and the Jesuit missions slightly cooler"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 34.0, "nedbor": 133, "no": "Hett (34 °C) og fuktig. Karneval i Encarnación (se Vinduer).", "en": "Hot (34 °C) and humid. Carnival in Encarnación (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 33.0, "nedbor": 146, "no": "Hett (33 °C), tordenbyger. Karneval.", "en": "Hot (33 °C), thunderstorms. Carnival."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.9, "nedbor": 131, "no": "Varmt (32 °C), byger.", "en": "Hot (32 °C), showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 29.2, "nedbor": 152, "no": "Varmt (29 °C), mer behagelig.", "en": "Warm (29 °C), more comfortable."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 24.9, "nedbor": 134, "no": "Mildt (25 °C). Uavhengighetsdagen 14.–15.5.", "en": "Mild (25 °C). Independence Day 14–15 May."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 23.5, "nedbor": 71, "no": "Mildt (24 °C), kjølige netter. San Juan-fester 24.6.", "en": "Mild (24 °C), cool nights. San Juan festivities 24 Jun."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.9, "nedbor": 48, "no": "Mildt (22 °C), kalde fronter. Vinterferie.", "en": "Mild (22 °C), cold fronts. Winter holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 26.2, "nedbor": 39, "no": "Tørt (26 °C). Mulig røyk fra branner i Chaco.", "en": "Dry (26 °C). Possible smoke from fires in the Chaco."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 27.9, "nedbor": 79, "no": "Varmt (28 °C), tørt, vår. Mulig røyk.", "en": "Warm (28 °C), dry, spring. Possible smoke."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.1, "nedbor": 158, "no": "Varmt (30 °C), regnet kommer.", "en": "Hot (30 °C), rain returns."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 195, "no": "Varmt (31 °C), mest regn (195 mm).", "en": "Hot (31 °C), wettest (195 mm)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.8, "nedbor": 176, "no": "Hett (33 °C), byger. Jul.", "en": "Hot (33 °C), showers. Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 4, "til_uke": 8, "type": "Hendelse", "justering": 0.3, "no": "Carnaval Encarnaceno i helgene (sjekk dato)", "en": "Carnaval Encarnaceno on weekends (check date)"}
+  ]
+}

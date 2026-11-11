@@ -1,0 +1,28 @@
+{
+  "id": "COG",
+  "region": "Afrika",
+  "land": "Kongo-Brazzaville",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-1.0, 15.0],
+  "kilde": "Brazzaville, NOAA 1991–2020, via Wikipedia (proxy for Odzala). Odzala ved ekvator har tørrere perioder både jun–aug og des–feb",
+  "en": {"land": "Republic of the Congo", "kategori": "Nature / wildlife", "kilde": "Brazzaville, NOAA 1991–2020, via Wikipedia (proxy for Odzala). Odzala on the equator has drier spells both Jun–Aug and Dec–Feb"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.9, "nedbor": 160, "no": "Kortere tørrere periode i Odzala; varmt og fuktig i Brazzaville.", "en": "Shorter drier spell in Odzala; hot and humid in Brazzaville."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 137, "no": "Fortsatt tørrere i nord; gorillasporing i Odzala.", "en": "Still drier in the north; gorilla tracking in Odzala."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.5, "nedbor": 189, "no": "Regntid, 33 °C.", "en": "Rainy season, 33 °C."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.6, "nedbor": 169, "no": "Regntid; gjørmete veier nordover.", "en": "Rainy season; muddy roads to the north."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.4, "nedbor": 132, "no": "Regnet avtar i sør.", "en": "Rain easing in the south."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.9, "nedbor": 9, "no": "Tørrsesong, overskyet og kjøligere.", "en": "Dry season, overcast and cooler."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.1, "nedbor": 3, "no": "Tørt, kjøligst (28 °C). God tid for gorillaer og bais i Odzala.", "en": "Dry, coolest (28 °C). Good time for gorillas and bais in Odzala."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.1, "nedbor": 11, "no": "Tørt. Mest besøkt i Odzala.", "en": "Dry. Busiest time in Odzala."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.9, "nedbor": 43, "no": "Regnet kommer tilbake mot slutten.", "en": "Rain returns late in the month."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 164, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.2, "nedbor": 264, "no": "Mest regn; veiene nordover tunge.", "en": "Most rain; roads north are difficult."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.8, "nedbor": 216, "no": "Vått i sør; tørrere periode starter i nord.", "en": "Wet in the south; drier spell begins in the north."}
+  ],
+  "vinduer": []
+}

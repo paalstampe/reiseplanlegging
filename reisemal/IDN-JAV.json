@@ -1,0 +1,33 @@
+{
+  "id": "IDN-JAV",
+  "region": "Asia",
+  "land": "Indonesia",
+  "sted": "Java (Yogyakarta)",
+  "kortnavn": "Java",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [-7.8, 110.37],
+  "kilde": "Yogyakarta (121 moh), Climate-Data.org (modelldata, uten periode), via Wikipedia. Bromo og Ijen kjøligere",
+  "en": {"land": "Indonesia", "sted": "Java (Yogyakarta)", "kortnavn": "Java", "kategori": "Culture / nature", "kilde": "Yogyakarta (121 m), Climate-Data.org (modelled data, no period), via Wikipedia. Bromo and Ijen cooler"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 29.8, "nedbor": 392, "no": "Regntid (390 mm), kraftige byger.", "en": "Rainy season (390 mm), heavy showers."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.5, "nedbor": 299, "no": "Regntid, tåke ved Borobudur.", "en": "Rainy season, mist at Borobudur."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 363, "no": "Regntid, mye regn.", "en": "Rainy season, lots of rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.5, "nedbor": 149, "no": "Regnet avtar, grønt.", "en": "Rain easing, green."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 31.1, "nedbor": 141, "no": "Tørrere. Waisak ved Borobudur (se Vinduer).", "en": "Drier. Waisak at Borobudur (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.0, "nedbor": 68, "no": "Tørt. Klar soloppgang ved Borobudur og Bromo.", "en": "Dry. Clear sunrises at Borobudur and Bromo."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.3, "nedbor": 29, "no": "Tørt, men indonesisk skoleferie og europeisk sommer.", "en": "Dry, but Indonesian school holidays and European summer."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.7, "nedbor": 16, "no": "Tørrest. Høysesong.", "en": "Driest. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 31.5, "nedbor": 49, "no": "Tørt, færre folk. Beste måned.", "en": "Dry, fewer crowds. Best month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.6, "nedbor": 136, "no": "Regnet starter mot slutten.", "en": "Rain begins towards the end."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.9, "nedbor": 237, "no": "Regntid, ettermiddagsbyger.", "en": "Rainy season, afternoon showers."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 30.1, "nedbor": 278, "no": "Regntid. Indonesisk skoleferie ved nyttår.", "en": "Rainy season. Indonesian school holidays at New Year."}
+  ],
+  "vinduer": [
+    {"fra": "2026-05-30", "til": "2026-05-31", "type": "Hendelse", "justering": 0.5, "no": "Waisak 2026: lyktefest og prosesjon ved Borobudur (sjekk dato)", "en": "Waisak 2026: lantern release and procession at Borobudur (check dates)"},
+    {"fra": "2027-05-19", "til": "2027-05-20", "type": "Hendelse", "justering": 0.5, "no": "Waisak 2027 ved Borobudur (sjekk dato)", "en": "Waisak 2027 at Borobudur (check dates)"},
+    {"fra": "2028-05-08", "til": "2028-05-09", "type": "Hendelse", "justering": 0.5, "no": "Waisak 2028 ved Borobudur (sjekk dato)", "en": "Waisak 2028 at Borobudur (check dates)"}
+  ]
+}

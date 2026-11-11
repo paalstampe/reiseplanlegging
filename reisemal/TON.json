@@ -1,0 +1,30 @@
+{
+  "id": "TON",
+  "region": "Oseania",
+  "land": "Tonga",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / hval",
+  "merknad": "Søndag er lovpålagt hviledag: nesten alt stengt",
+  "koord": [-21.14, -175.2],
+  "kilde": "Nukuʻalofa, Weatherbase (periode ikke oppgitt), via Wikipedia. Vavaʻu (hvalsvømming) litt varmere og våtere",
+  "en": {"land": "Tonga", "kategori": "Beach / whales", "merknad": "Sunday is a legal day of rest: almost everything closed", "kilde": "Nukuʻalofa, Weatherbase (period not stated), via Wikipedia. Vavaʻu (whale swimming) slightly warmer and wetter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 29.4, "nedbor": 174, "no": "Varmt og fuktig, syklonsesong. Diaspora på besøk.", "en": "Hot and humid, cyclone season. Diaspora visiting."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 29.9, "nedbor": 210, "no": "Våtest, syklonrisiko.", "en": "Wettest, cyclone risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 29.6, "nedbor": 206, "no": "Regn og syklonrisiko.", "en": "Rain and cyclone risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 28.5, "nedbor": 165, "no": "Syklonsesongen slutter. Påske (se Vinduer).", "en": "Cyclone season ends. Easter (see events)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 5, "tmaks": 26.8, "nedbor": 111, "no": "Tørrere og mildere (27 °C). Rolig.", "en": "Drier and milder (27 °C). Quiet."},
+    {"klima": 5, "opplevelse": 3, "trengsel": 4, "tmaks": 25.8, "nedbor": 95, "no": "Tørrsesong, behagelig. De første knølhvalene kommer sent i måneden.", "en": "Dry season, pleasant. The first humpbacks arrive late in the month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.9, "nedbor": 95, "no": "Hvalsvømming i Vavaʻu. Heilala-festivalen (se Vinduer).", "en": "Whale swimming in Vavaʻu. Heilala Festival (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.8, "nedbor": 117, "no": "Topp for hval, med kalver. Book hvalturer tidlig.", "en": "Peak whale season, with calves. Book whale tours early."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.3, "nedbor": 122, "no": "Hval og gode seilforhold i Vavaʻu. Høysesong.", "en": "Whales and good sailing in Vavaʻu. High season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 26.4, "nedbor": 128, "no": "Hvalsesongen ebber ut; fint vær.", "en": "Whale season tails off; fine weather."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 27.6, "nedbor": 123, "no": "Varmere, syklonsesongen starter.", "en": "Warmer, cyclone season begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 2, "tmaks": 28.7, "nedbor": 175, "no": "Regn, syklonrisiko. Jul: diaspora hjem, fulle fly.", "en": "Rain, cyclone risk. Christmas: diaspora home, full flights."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 28, "type": "Hendelse", "justering": 0.3, "no": "Heilala-festivalen i Nukuʻalofa (tidlig i juli, sjekk dato)", "en": "Heilala Festival in Nukuʻalofa (early July, check date)"}
+  ]
+}

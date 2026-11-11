@@ -1,0 +1,28 @@
+{
+  "id": "UGA",
+  "region": "Afrika",
+  "land": "Uganda",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / gorilla",
+  "merknad": "",
+  "koord": [-0.2, 30.4],
+  "kilde": "Kampala (Makerere), WMO 1991–2020, via Wikipedia. Bwindi og Rwenzori kjøligere og våtere",
+  "en": {"land": "Uganda", "kategori": "Nature / gorillas", "kilde": "Kampala (Makerere), WMO 1991–2020, via Wikipedia. Bwindi and the Rwenzori cooler and wetter"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 28.3, "nedbor": 46, "no": "Tørrsesong; gode forhold for gorilla- og sjimpansevandring.", "en": "Dry season; good conditions for gorilla and chimpanzee trekking."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 28.6, "nedbor": 61, "no": "Tørrsesong; fint i Murchison og Queen Elizabeth.", "en": "Dry season; good in Murchison and Queen Elizabeth."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 27.8, "nedbor": 131, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 26.2, "nedbor": 169, "no": "Mest regn; glatte stier i Bwindi. Rabatt på permits.", "en": "Most rain; slippery trails in Bwindi. Discounted permits."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 25.8, "nedbor": 138, "no": "Regntid, grønt.", "en": "Rainy season, green."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 25.7, "nedbor": 66, "no": "Tørrsesong starter; beste gorillavandring.", "en": "Dry season begins; best gorilla trekking."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.4, "nedbor": 43, "no": "Tørt; toppsesong – permits utsolgt tidlig.", "en": "Dry; peak season – permits sell out early."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 25.9, "nedbor": 86, "no": "Mest tørt; toppsesong.", "en": "Mostly dry; peak season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 26.8, "nedbor": 108, "no": "Byger kommer tilbake.", "en": "Showers return."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 27.1, "nedbor": 121, "no": "Korte regntiden.", "en": "Short rains."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 26.9, "nedbor": 140, "no": "Regntid, glatte stier.", "en": "Rainy season, slippery trails."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 27.4, "nedbor": 95, "no": "Tørrsesong starter. Jul/nyttår fullt.", "en": "Dry season begins. Christmas/New Year full."}
+  ],
+  "vinduer": []
+}

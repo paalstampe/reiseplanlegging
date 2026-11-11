@@ -1,0 +1,32 @@
+{
+  "id": "PRK",
+  "region": "Asia",
+  "land": "Nord-Korea",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / historie",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [39.03, 125.75],
+  "kilde": "Pyongyang, KMA 1991–2020, via Wikipedia",
+  "en": {"land": "North Korea", "kategori": "Culture / history", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Pyongyang, KMA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -0.4, "nedbor": 10, "no": "Streng kulde (0 °C maks, −13 °C om natta).", "en": "Severe cold (0 °C max, −13 °C at night)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 3.1, "nedbor": 15, "no": "Kaldt og tørt. Merkedag 16.2.", "en": "Cold and dry. Commemoration day 16 Feb."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 9.7, "nedbor": 24, "no": "Kjølig (10 °C), tørt.", "en": "Cool (10 °C), dry."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 17.6, "nedbor": 45, "no": "Vår, blomstring (18 °C). Maraton og 15.4 (se Vinduer).", "en": "Spring, blossom (18 °C). Marathon and 15 Apr (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 23.5, "nedbor": 75, "no": "Varmt og tørt (24 °C). Fint vær.", "en": "Warm and dry (24 °C). Fine weather."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.5, "nedbor": 90, "no": "Varmt (28 °C), regntiden nærmer seg.", "en": "Warm (28 °C), rainy season approaching."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 29.1, "nedbor": 275, "no": "Regntid (275 mm), fuktig. Seiersdagen 27.7.", "en": "Rainy season (275 mm), humid. Victory Day 27 Jul."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 29.6, "nedbor": 210, "no": "Regn og varme, tyfonfare. Tidligere massegymnastikk.", "en": "Rain and heat, typhoon risk. Former Mass Games season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.7, "nedbor": 91, "no": "Tørrere, klart (26 °C). Nasjonaldag 9.9 (se Vinduer).", "en": "Drier, clear (26 °C). National Day 9 Sep (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 18.8, "nedbor": 47, "no": "Høstfarger, klart (19 °C). Partiets dag 10.10 (se Vinduer).", "en": "Autumn colours, clear (19 °C). Party Foundation Day 10 Oct (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 9.7, "nedbor": 38, "no": "Kjølig og grått.", "en": "Cool and grey."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 1.4, "nedbor": 18, "no": "Kaldt, vinter.", "en": "Cold, winter."}
+  ],
+  "vinduer": [
+    {"fra_uke": 14, "til_uke": 16, "type": "Hendelse", "justering": 0.5, "no": "Pyongyang-maraton og Solens dag 15.4 (maraton tidlig i april, sjekk dato)", "en": "Pyongyang Marathon and Day of the Sun 15 Apr (marathon early April, check date)"},
+    {"fra_uke": 37, "til_uke": 37, "type": "Helligdag", "justering": 0.3, "no": "Nasjonaldagen 9.9: parader og feiring i Pyongyang", "en": "National Day 9 Sep: parades and celebrations in Pyongyang"},
+    {"fra_uke": 41, "til_uke": 41, "type": "Helligdag", "justering": 0.3, "no": "Partiets stiftelsesdag 10.10: feiring, mulig parade", "en": "Party Foundation Day 10 Oct: celebrations, possible parade"}
+  ]
+}

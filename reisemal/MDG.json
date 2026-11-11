@@ -1,0 +1,30 @@
+{
+  "id": "MDG",
+  "region": "Afrika",
+  "land": "Madagaskar",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-19.9, 47.0],
+  "kilde": "Antananarivo, NOAA 1991–2020, via Wikipedia. Morondava (vest) varmere og tørr apr–nov; Nosy Be (nord) våt des–mar",
+  "en": {"land": "Madagascar", "kategori": "Nature / wildlife", "kilde": "Antananarivo, NOAA 1991–2020, via Wikipedia. Morondava (west) hotter and dry Apr–Nov; Nosy Be (north) wet Dec–Mar"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 26.4, "nedbor": 312, "no": "Regntid og syklonfare; veier kan stenge.", "en": "Rainy season and cyclone risk; roads may close."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 26.3, "nedbor": 237, "no": "Toppen av syklonsesongen; mange lodger stengt i vest.", "en": "Peak cyclone season; many lodges closed in the west."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 26.2, "nedbor": 156, "no": "Regnet avtar, fortsatt syklonfare.", "en": "Rain easing, still cyclone risk."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.5, "nedbor": 45, "no": "Regnet slutter, grønt landskap. Bra for lemurer og RN7.", "en": "Rains end, green landscape. Good for lemurs and the RN7."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 23.5, "nedbor": 15, "no": "Tørt og behagelig (24 °C). Grønt.", "en": "Dry and pleasant (24 °C). Green."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 21.3, "nedbor": 6, "no": "Tørt; kalde netter i høylandet.", "en": "Dry; cold nights in the highlands."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 20.4, "nedbor": 6, "no": "Tørt og kjølig (20 °C). Hval ved Sainte-Marie (se Vinduer). Fransk ferie.", "en": "Dry and cool (20 °C). Whales off Sainte-Marie (see events). French holidays."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 21.6, "nedbor": 5, "no": "Hval; travel høysesong, book tidlig.", "en": "Whales; busy high season, book early."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.9, "nedbor": 8, "no": "Tørt, varmere. Hval; lemurer får unger.", "en": "Dry, warmer. Whales; lemurs have babies."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.0, "nedbor": 39, "no": "Varmt og tørt; lemurunger, jakaranda. Baobabene i Morondava.", "en": "Warm and dry; baby lemurs, jacaranda. The baobabs at Morondava."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.1, "nedbor": 117, "no": "Varmt (27 °C); regnet starter i høylandet.", "en": "Warm (27 °C); rain begins in the highlands."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 27.1, "nedbor": 226, "no": "Regntiden starter; jul travelt.", "en": "Rainy season begins; Christmas busy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 38, "type": "Dyreliv", "justering": 0.3, "no": "Knølhval ved Île Sainte-Marie (jul–sep)", "en": "Humpback whales off Île Sainte-Marie (Jul–Sep)"}
+  ]
+}

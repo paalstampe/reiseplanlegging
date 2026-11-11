@@ -1,0 +1,30 @@
+{
+  "id": "NRU",
+  "region": "Oseania",
+  "land": "Nauru",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "Visum må søkes på forhånd; få flyruter (Nauru Airlines)",
+  "koord": [-0.53, 166.93],
+  "kilde": "Yaren, Weatherbase (periode ikke oppgitt, avrundet), via Wikipedia. Nedbøren varierer mye med El Niño",
+  "en": {"land": "Nauru", "kategori": "Culture / nature", "merknad": "Visa must be applied for in advance; few flights (Nauru Airlines)", "kilde": "Yaren, Weatherbase (period not stated, rounded), via Wikipedia. Rainfall varies greatly with El Niño"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.0, "nedbor": 280, "no": "Regntid med vestavind. Nasjonaldagen (se Vinduer).", "en": "Rainy season with westerly winds. National day (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.0, "nedbor": 250, "no": "Regntid, fuktig.", "en": "Rainy season, humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.0, "nedbor": 190, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 5, "tmaks": 30.0, "nedbor": 190, "no": "Overgang til tørrere passatvind.", "en": "Transition to drier trade winds."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.0, "nedbor": 120, "no": "Tørrere, passatvind. Fint for fiske og Buada-lagunen.", "en": "Drier, trade winds. Good for fishing and Buada Lagoon."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.0, "nedbor": 110, "no": "Tørt og vindfullt.", "en": "Dry and windy."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.0, "nedbor": 150, "no": "Tørrere periode, enkelte byger.", "en": "Drier period, occasional showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.0, "nedbor": 130, "no": "Tørt; bra for turen rundt øya og WWII-steder.", "en": "Dry; good for the round-island trip and WWII sites."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.0, "nedbor": 120, "no": "Tørt, passatvind.", "en": "Dry, trade winds."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.0, "nedbor": 100, "no": "Tørreste måned. Angam Day 26.10.", "en": "Driest month. Angam Day 26 Oct."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.0, "nedbor": 120, "no": "Fortsatt tørt, varmere.", "en": "Still dry, warmer."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.0, "nedbor": 280, "no": "Regntiden starter.", "en": "Rainy season begins."}
+  ],
+  "vinduer": [
+    {"fra_uke": 5, "til_uke": 5, "type": "Hendelse", "justering": 0.2, "no": "Uavhengighetsdagen 31.1: feiring og idrett", "en": "Independence Day 31 Jan: celebrations and sport"}
+  ]
+}

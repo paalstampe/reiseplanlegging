@@ -1,0 +1,34 @@
+{
+  "id": "NLD",
+  "region": "Europa",
+  "land": "Nederland",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [52.37, 4.9],
+  "kilde": "Amsterdam (Schiphol), KNMI 1991–2020, via Wikipedia",
+  "en": {"land": "Netherlands", "kategori": "City / culture", "kilde": "Amsterdam (Schiphol), KNMI 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 6.2, "nedbor": 67, "no": "Kjølig (6 °C), grått og vått. Museer uten kø.", "en": "Cool (6 °C), grey and wet. Museums without queues."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 6.9, "nedbor": 55, "no": "Kjølig (7 °C), grått. Rolig.", "en": "Cool (7 °C), grey. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 10.1, "nedbor": 52, "no": "Kjølig (10 °C). Keukenhof åpner.", "en": "Cool (10 °C). Keukenhof opens."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 14.3, "nedbor": 40, "no": "Vår (14 °C). Tulipaner og Koningsdag (se Vinduer). Fullt og dyrt.", "en": "Spring (14 °C). Tulips and King's Day (see events). Full and expensive."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 17.8, "nedbor": 54, "no": "Mildt (18 °C). Siste tulipaner. Mye folk.", "en": "Mild (18 °C). Last tulips. Busy."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 2, "tmaks": 20.3, "nedbor": 65, "no": "Behagelig (20 °C), lange dager.", "en": "Pleasant (20 °C), long days."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 1, "tmaks": 22.5, "nedbor": 82, "no": "Varmest (23 °C), byger. Høysesong.", "en": "Warmest (23 °C), showers. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 22.4, "nedbor": 99, "no": "Sommer (22 °C), mest regn. Høysesong.", "en": "Summer (22 °C), wettest. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 19.2, "nedbor": 84, "no": "Mildt (19 °C). Fortsatt mye folk.", "en": "Mild (19 °C). Still busy."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 14.7, "nedbor": 87, "no": "Kjølig (15 °C), vind og regn.", "en": "Cool (15 °C), wind and rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 10.0, "nedbor": 85, "no": "Grått og vått (10 °C). Rolig.", "en": "Grey and wet (10 °C). Quiet."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 6.9, "nedbor": 82, "no": "Kaldt (7 °C). Amsterdam Light Festival (se Vinduer).", "en": "Cold (7 °C). Amsterdam Light Festival (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 15, "til_uke": 17, "type": "Hendelse", "justering": 0.5, "no": "Tulipaner i full blomst (Keukenhof, Bollenstreek)", "en": "Tulips in full bloom (Keukenhof, Bollenstreek)"},
+    {"fra": "2026-04-27", "til": "2026-04-27", "type": "Hendelse", "justering": 0.3, "no": "Koningsdag: oransje gatefest, alt fullt", "en": "King's Day: orange street party, everything full"},
+    {"fra": "2027-04-27", "til": "2027-04-27", "type": "Hendelse", "justering": 0.3, "no": "Koningsdag: oransje gatefest, alt fullt", "en": "King's Day: orange street party, everything full"},
+    {"fra": "2028-04-27", "til": "2028-04-27", "type": "Hendelse", "justering": 0.3, "no": "Koningsdag: oransje gatefest, alt fullt", "en": "King's Day: orange street party, everything full"},
+    {"fra_uke": 49, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Amsterdam Light Festival: lyskunst langs kanalene (til januar)", "en": "Amsterdam Light Festival: light art along the canals (until January)"}
+  ]
+}

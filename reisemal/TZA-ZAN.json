@@ -1,0 +1,30 @@
+{
+  "id": "TZA-ZAN",
+  "region": "Afrika",
+  "land": "Tanzania",
+  "sted": "Zanzibar",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [-6.1, 39.3],
+  "kilde": "Zanzibar by, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Tanzania", "sted": "Zanzibar", "kategori": "Beach / culture", "kilde": "Zanzibar City, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 32.6, "nedbor": 74, "no": "Varmt (33 °C) og stort sett tørt. Fint bad og dykking.", "en": "Hot (33 °C) and mostly dry. Good swimming and diving."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 33.2, "nedbor": 51, "no": "Varmest og tørrest. Sauti za Busara (se Vinduer).", "en": "Hottest and driest. Sauti za Busara (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.5, "nedbor": 177, "no": "Lange regntiden nærmer seg, fuktig.", "en": "Long rains approaching, humid."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 30.6, "nedbor": 409, "no": "Mest regn; mange hoteller stengt.", "en": "Most rain; many hotels closed."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 29.7, "nedbor": 298, "no": "Regntid, lave priser.", "en": "Rainy season, low prices."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 29.3, "nedbor": 52, "no": "Tørrsesong starter, sørøstpassat. Behagelig (29 °C).", "en": "Dry season begins, southeast trade wind. Pleasant (29 °C)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.0, "nedbor": 31, "no": "Tørt og behagelig. Høysesong (europeisk sommerferie).", "en": "Dry and pleasant. High season (European summer holidays)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 29.4, "nedbor": 38, "no": "Tørt og behagelig. Toppsesong, fullt.", "en": "Dry and pleasant. Peak season, full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.4, "nedbor": 37, "no": "Tørt, klart vann for dykking.", "en": "Dry, clear water for diving."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.2, "nedbor": 116, "no": "Mest tørt; korte regntiden nærmer seg.", "en": "Mostly dry; short rains approaching."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.0, "nedbor": 201, "no": "Korte regntiden, byger.", "en": "Short rains, showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 31.8, "nedbor": 168, "no": "Byger tidlig i måneden. Jul/nyttår fullt og dyrt.", "en": "Showers early in the month. Christmas/New Year full and expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 7, "til_uke": 7, "type": "Hendelse", "justering": 0.3, "no": "Sauti za Busara: afrikansk musikkfestival i Stone Town (februar, sjekk dato)", "en": "Sauti za Busara: African music festival in Stone Town (February, check date)"}
+  ]
+}

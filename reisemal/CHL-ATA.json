@@ -1,0 +1,30 @@
+{
+  "id": "CHL-ATA",
+  "region": "Sør-Amerika",
+  "land": "Chile",
+  "sted": "Atacama",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / roadtrip",
+  "merknad": "",
+  "koord": [-22.91, -68.2],
+  "kilde": "San Pedro de Atacama (2 400 moh), Atlas Agroclimático de Chile (temperatur 1958–1989, nedbør 1960–2015), via Wikipedia. Gamle serier; Calama (DMC 1991–2020) like tørt. El Tatio og lagunene (4 000+ moh) mye kaldere",
+  "en": {"land": "Chile", "sted": "Atacama", "kategori": "Nature / road trip", "kilde": "San Pedro de Atacama (2,400 m), Atlas Agroclimático de Chile (temperature 1958–1989, precipitation 1960–2015), via Wikipedia. Old series; Calama (DMC 1991–2020) equally dry. El Tatio and the lagoons (4,000+ m) much colder"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 28.0, "nedbor": 4, "no": "Varmt (28 °C), sommerferie. Uvær i høyden kan stenge turer.", "en": "Hot (28 °C), summer holidays. Storms at altitude can cancel tours."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 2, "tmaks": 28.0, "nedbor": 21, "no": "«Bolivisk vinter»: tordenbyger kan stenge veier til lagunene. Ferie.", "en": "“Bolivian winter”: thunderstorms can close roads to the lagoons. Holidays."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 27.0, "nedbor": 7, "no": "Varmt på dagen, klart. Godt for stjernekikking.", "en": "Warm by day, clear. Good for stargazing."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 25.0, "nedbor": 0, "no": "Tørt og klart (25 °C). Godt valg.", "en": "Dry and clear (25 °C). A good choice."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 21.8, "nedbor": 1, "no": "Klart og stille, kalde netter. Få folk.", "en": "Clear and calm, cold nights. Few people."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 18.9, "nedbor": 2, "no": "Vinter: mildt på dagen, kraftig frost ved El Tatio. Klarest himmel.", "en": "Winter: mild by day, hard frost at El Tatio. Clearest skies."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 19.3, "nedbor": 0, "no": "Kaldt om natten, mulig snø i høyden. Vinterferie i Chile.", "en": "Cold at night, possible snow at altitude. Winter holidays in Chile."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 21.5, "nedbor": 1, "no": "Kalde netter, vind. Klar stjernehimmel.", "en": "Cold nights, wind. Clear starry skies."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.4, "nedbor": 1, "no": "Tørt og klart. Fiestas Patrias (se Vinduer).", "en": "Dry and clear. Fiestas Patrias (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 25.7, "nedbor": 0, "no": "Varmt og klart. Godt valg.", "en": "Warm and clear. A good choice."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 27.3, "nedbor": 1, "no": "Varmt og tørt. Rolig før sommeren.", "en": "Warm and dry. Quiet before summer."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 28.0, "nedbor": 0, "no": "Varmt. Jul og sommerferie: fullt.", "en": "Hot. Christmas and summer holidays: full."}
+  ],
+  "vinduer": [
+    {"fra_uke": 38, "til_uke": 38, "type": "Helligdag", "justering": -0.3, "no": "Fiestas Patrias (18.–19.9): chilenske turister, fullt i San Pedro", "en": "Fiestas Patrias (18–19 Sep): Chilean tourists, San Pedro full"}
+  ]
+}

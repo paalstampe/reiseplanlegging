@@ -1,0 +1,28 @@
+{
+  "id": "CHL-PAT",
+  "region": "Sør-Amerika",
+  "land": "Chile",
+  "sted": "Patagonia (Torres del Paine)",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / trekking",
+  "merknad": "",
+  "koord": [-50.94, -73.41],
+  "kilde": "Puerto Natales, Dirección Meteorológica de Chile 1991–2020, via Wikipedia. I nasjonalparken kaldere og mer vind",
+  "en": {"land": "Chile", "sted": "Patagonia (Torres del Paine)", "kortnavn": "Torres del Paine", "kategori": "Nature / trekking", "kilde": "Puerto Natales, Dirección Meteorológica de Chile 1991–2020, via Wikipedia. Colder and windier in the national park"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 18.8, "nedbor": 147, "no": "Sommer (19 °C), lange dager, sterk vind. Fullt; book refugios tidlig.", "en": "Summer (19 °C), long days, strong wind. Full; book refuges early."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 18.1, "nedbor": 120, "no": "Sommer (18 °C), vind. Høysesong, fullt.", "en": "Summer (18 °C), wind. High season, full."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 18.1, "nedbor": 145, "no": "Mildt (18 °C), mindre vind. Fint for W-ruten.", "en": "Mild (18 °C), less wind. Good for the W Trek."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 4, "tmaks": 14.3, "nedbor": 154, "no": "Kjølig (14 °C), høstfarger, roligere vind. Siste måned med alt åpent.", "en": "Cool (14 °C), autumn colours, calmer wind. Last month with everything open."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 10.9, "nedbor": 119, "no": "Kaldt (11 °C), korte dager. Mange refugios stenger.", "en": "Cold (11 °C), short days. Many refuges close."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.9, "nedbor": 105, "no": "Vinter (7 °C), korte dager. Bare dagsturer, gjerne med guide.", "en": "Winter (7 °C), short days. Day hikes only, preferably guided."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.7, "nedbor": 104, "no": "Vinter (8 °C), snø. Stille og vindstille.", "en": "Winter (8 °C), snow. Quiet and calm."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.9, "nedbor": 107, "no": "Kaldt (9 °C), korte dager.", "en": "Cold (9 °C), short days."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 12.2, "nedbor": 103, "no": "Kjølig (12 °C), vår. Begrenset åpent.", "en": "Cool (12 °C), spring. Limited services."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 14.0, "nedbor": 127, "no": "Kjølig (14 °C), vinden øker. Sesongen åpner.", "en": "Cool (14 °C), wind picking up. The season opens."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 15.6, "nedbor": 154, "no": "Mildt (16 °C), mye vind. Bra før høysesongen.", "en": "Mild (16 °C), very windy. Good before peak season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 17.2, "nedbor": 155, "no": "Sommer (17 °C), lyse kvelder, vind. Fullt i jula.", "en": "Summer (17 °C), light evenings, wind. Full over Christmas."}
+  ],
+  "vinduer": []
+}

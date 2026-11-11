@@ -1,0 +1,33 @@
+{
+  "id": "MLT",
+  "region": "Europa",
+  "land": "Malta",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [35.9, 14.45],
+  "kilde": "Luqa (Malta lufthavn), 1991–2020, via Wikipedia",
+  "en": {"land": "Malta", "kategori": "Beach / culture", "kilde": "Luqa (Malta Airport), 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.7, "nedbor": 79, "no": "Mildt (16 °C), vind og byger. Rolig, lave priser.", "en": "Mild (16 °C), wind and showers. Quiet, low prices."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.7, "nedbor": 73, "no": "Mildt, byger. Karneval (se Vinduer).", "en": "Mild, showers. Carnival (see events)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 17.4, "nedbor": 45, "no": "Vår (17 °C). Fint for byvandring og turer på Gozo.", "en": "Spring (17 °C). Good for sightseeing and walks on Gozo."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 20.0, "nedbor": 21, "no": "Behagelig (20 °C), tørrere. Sjøen kjølig.", "en": "Pleasant (20 °C), drier. The sea cool."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.2, "nedbor": 11, "no": "Varmt og tørt (24 °C). Badesesongen starter.", "en": "Warm and dry (24 °C). Swimming season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.7, "nedbor": 6, "no": "Varmt (29 °C). Festa-sesongen starter (se Vinduer).", "en": "Hot (29 °C). Festa season begins (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 31.7, "nedbor": 0, "no": "Hett (32 °C). Høysesong, fullt.", "en": "Hot (32 °C). High season, crowded."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 32.0, "nedbor": 17, "no": "Hetest (32 °C). Høysesong, landsbyfester.", "en": "Hottest (32 °C). High season, village feasts."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 28.6, "nedbor": 61, "no": "Varmt (29 °C), varmest sjø. Første byger.", "en": "Hot (29 °C), warmest sea. First showers."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 25.0, "nedbor": 82, "no": "Ideelt (25 °C), varm sjø, noen kraftige byger.", "en": "Ideal (25 °C), warm sea, some heavy showers."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 20.8, "nedbor": 91, "no": "Mildt (21 °C), regnfullt. Rolig.", "en": "Mild (21 °C), rainy. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 17.2, "nedbor": 94, "no": "Mildt (17 °C), vått. Julekrybber i landsbyene.", "en": "Mild (17 °C), wet. Nativity cribs in the villages."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-12", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Valletta og Nadur (Gozo)", "en": "Carnival in Valletta and Nadur (Gozo)"},
+    {"fra": "2027-02-04", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Valletta og Nadur (Gozo)", "en": "Carnival in Valletta and Nadur (Gozo)"},
+    {"fra": "2028-02-24", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Valletta og Nadur (Gozo)", "en": "Carnival in Valletta and Nadur (Gozo)"},
+    {"fra_uke": 23, "til_uke": 37, "type": "Hendelse", "justering": 0.3, "no": "Festa-sesong: landsbyfester med prosesjoner og fyrverkeri hver helg", "en": "Festa season: village feasts with processions and fireworks every weekend"}
+  ]
+}

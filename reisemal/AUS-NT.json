@@ -1,0 +1,29 @@
+{
+  "id": "AUS-NT",
+  "region": "Oseania",
+  "land": "Australia",
+  "sted": "Uluru og Red Centre",
+  "kortnavn": "Uluru",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [-25.34, 131.04],
+  "kilde": "Alice Springs lufthavn, Bureau of Meteorology 1991–2020, via Wikipedia. Proxy: Uluru (Yulara) ligger 335 km unna og har omtrent samme klima",
+  "en": {"land": "Australia", "sted": "Uluru and the Red Centre", "kortnavn": "Uluru", "kategori": "Nature / culture", "kilde": "Alice Springs Airport, Bureau of Meteorology 1991–2020, via Wikipedia. Proxy: Uluru (Yulara) is 335 km away with a similar climate"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 37.1, "nedbor": 49, "no": "Svært hett (37 °C), fluer. Turer stenges ved hete.", "en": "Very hot (37 °C), flies. Walks close in extreme heat."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 35.8, "nedbor": 41, "no": "Hett (36 °C), tordenbyger.", "en": "Hot (36 °C), thunderstorms."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.5, "nedbor": 20, "no": "Varmt, avtar. Gå tidlig.", "en": "Warm, easing. Walk early."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.3, "nedbor": 20, "no": "Varmt (29 °C), fint. Påskeferie.", "en": "Warm (29 °C), fine. Easter holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.6, "nedbor": 18, "no": "Ideelt (24 °C) for vandring, kjølige netter.", "en": "Ideal (24 °C) for hiking, cool nights."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 20.1, "nedbor": 10, "no": "Klare dager (20 °C), netter under null.", "en": "Clear days (20 °C), nights below freezing."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 20.7, "nedbor": 13, "no": "Klart og kjølig, frost om natta. Skoleferie, fullt.", "en": "Clear and cool, frost at night. School holidays, full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.5, "nedbor": 4, "no": "Tørt, behagelig (24 °C). Høysesong.", "en": "Dry, pleasant (24 °C). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.8, "nedbor": 8, "no": "Varmt (29 °C), villblomster etter regn.", "en": "Warm (29 °C), wildflowers after rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.9, "nedbor": 19, "no": "Hett (32 °C). Start før soloppgang.", "en": "Hot (32 °C). Start before sunrise."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 34.4, "nedbor": 33, "no": "Hett (34 °C), fluer.", "en": "Hot (34 °C), flies."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 35.7, "nedbor": 41, "no": "Hett (36 °C), tordenbyger. Lite folk.", "en": "Hot (36 °C), thunderstorms. Few visitors."}
+  ],
+  "vinduer": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "NZL-N",
+  "region": "Oseania",
+  "land": "New Zealand",
+  "sted": "Nordøya",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [-38.14, 176.25],
+  "kilde": "Auckland lufthavn, NIWA 1991–2020, via Wikipedia. Rotorua og Taupō kjøligere om vinteren; Northland litt varmere",
+  "en": {"land": "New Zealand", "sted": "North Island", "kategori": "Nature / culture", "kilde": "Auckland Airport, NIWA 1991–2020, via Wikipedia. Rotorua and Taupō cooler in winter; Northland slightly warmer"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 23.9, "nedbor": 58, "no": "Sommer (24 °C). Skoleferie: fullt på strender og campingplasser.", "en": "Summer (24 °C). School holidays: beaches and campsites full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.4, "nedbor": 63, "no": "Varmest og stabilt. Tongariro Crossing på sitt beste. Waitangi Day (se Vinduer).", "en": "Warmest and settled. Tongariro Crossing at its best. Waitangi Day (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.9, "nedbor": 75, "no": "Fortsatt sommer, færre folk. Ofte beste balanse.", "en": "Still summer, fewer people. Often the best balance."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 20.4, "nedbor": 87, "no": "Mild høst (20 °C). Påskeferie (se Vinduer).", "en": "Mild autumn (20 °C). Easter holidays (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 17.7, "nedbor": 120, "no": "Kjøligere og våtere. Rolig.", "en": "Cooler and wetter. Quiet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 15.5, "nedbor": 119, "no": "Vinter, regn. Geotermisk Rotorua fint uansett.", "en": "Winter, rain. Geothermal Rotorua good regardless."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 14.6, "nedbor": 137, "no": "Våtest (15 °C). Skoleferie, ski på Ruapehu.", "en": "Wettest (15 °C). School holidays, skiing on Ruapehu."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 15.2, "nedbor": 117, "no": "Vinter, regn. Lite folk.", "en": "Winter, rain. Few people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 16.5, "nedbor": 100, "no": "Vår, ustabilt.", "en": "Spring, changeable."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 17.9, "nedbor": 92, "no": "Vår, lam og blomstring. Skoleferie tidlig i måneden.", "en": "Spring, lambs and blossom. School holidays early in the month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.6, "nedbor": 69, "no": "Varmere og tørrere. God tid før sommeren.", "en": "Warmer and drier. Good time before summer."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 22.0, "nedbor": 82, "no": "Sommeren starter; jul og skoleferie fra midten av måneden.", "en": "Summer begins; Christmas and school holidays from mid-month."}
+  ],
+  "vinduer": [
+    {"fra_uke": 6, "til_uke": 6, "type": "Hendelse", "justering": 0.2, "no": "Waitangi Day 6.2: seremonier på Waitangi Treaty Grounds", "en": "Waitangi Day 6 Feb: ceremonies at the Waitangi Treaty Grounds"}
+  ]
+}

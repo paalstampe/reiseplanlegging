@@ -1,0 +1,33 @@
+{
+  "id": "CPV",
+  "region": "Afrika",
+  "land": "Kapp Verde",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [16.0, -24.0],
+  "kilde": "Sal (Amílcar Cabral lufthavn), NOAA 1991–2020, via Wikipedia. Praia (Santiago) litt varmere og våtere aug–sep; fjellene på Santo Antão kjøligere og grønnere",
+  "en": {"land": "Cape Verde", "kategori": "Beach / nature", "kilde": "Sal (Amílcar Cabral International Airport), NOAA 1991–2020, via Wikipedia. Praia (Santiago) slightly hotter and wetter Aug–Sep; the mountains of Santo Antão cooler and greener"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 25.0, "nedbor": 3, "no": "Tørt, 25 °C, mye vind (kiting). Høysesong.", "en": "Dry, 25 °C, lots of wind (kitesurfing). High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 24.9, "nedbor": 1, "no": "Tørt og vindfullt. Karneval i Mindelo (se Vinduer).", "en": "Dry and windy. Carnival in Mindelo (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 25.2, "nedbor": 1, "no": "Tørt, vind; havet kjøligst (22 °C). Høysesong.", "en": "Dry, windy; sea at its coolest (22 °C). High season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 25.5, "nedbor": 1, "no": "Tørt, 26 °C, vinden avtar. God tid for fotturer på Santo Antão.", "en": "Dry, 26 °C, wind easing. Good time for hiking on Santo Antão."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 26.1, "nedbor": 1, "no": "Tørt og solrikt, roligere. Lavsesong.", "en": "Dry and sunny, quieter. Low season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 27.0, "nedbor": 0, "no": "Tørt, 27 °C, lite vind. Rolig.", "en": "Dry, 27 °C, little wind. Quiet."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 28.1, "nedbor": 2, "no": "Varmere (28 °C), varmt hav. Havskilpadder (se Vinduer).", "en": "Warmer (28 °C), warm sea. Sea turtles (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 29.6, "nedbor": 13, "no": "Varmt og fuktig, første regnbyger. Europeisk sommerferie.", "en": "Hot and humid, first showers. European summer holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.1, "nedbor": 35, "no": "Varmest og fuktigst (30 °C), mest regn; tropiske stormer mulig.", "en": "Hottest and most humid (30 °C), most rain; tropical storms possible."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.6, "nedbor": 16, "no": "Varmt, havet varmest. Skilpaddeunger klekkes.", "en": "Hot, sea at its warmest. Turtle hatchlings emerge."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 28.1, "nedbor": 1, "no": "Tørt, 28 °C. Sesongen starter.", "en": "Dry, 28 °C. The season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 26.1, "nedbor": 3, "no": "Tørt, vinden tar seg opp. Jul/nyttår dyrt.", "en": "Dry, wind picking up. Christmas/New Year expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-14", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Mindelo (São Vicente): parader, fullt i byen", "en": "Carnival in Mindelo (São Vicente): parades, the town is full"},
+    {"fra": "2027-02-06", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Mindelo (São Vicente): parader, fullt i byen", "en": "Carnival in Mindelo (São Vicente): parades, the town is full"},
+    {"fra": "2028-02-26", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Mindelo (São Vicente): parader, fullt i byen", "en": "Carnival in Mindelo (São Vicente): parades, the town is full"},
+    {"fra_uke": 27, "til_uke": 44, "type": "Dyreliv", "justering": 0.3, "no": "Havskilpadder legger egg (jul–okt) og klekkes (sep–nov) på Boa Vista og Sal", "en": "Sea turtles nest (Jul–Oct) and hatch (Sep–Nov) on Boa Vista and Sal"}
+  ]
+}

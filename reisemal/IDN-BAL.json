@@ -1,0 +1,34 @@
+{
+  "id": "IDN-BAL",
+  "region": "Asia",
+  "land": "Indonesia",
+  "sted": "Bali og Lombok",
+  "kortnavn": "Bali og Lombok",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [-8.55, 115.6],
+  "kilde": "Denpasar (Ngurah Rai lufthavn), 1991–2020 (Starlings Roost Weather), via Wikipedia. Lombok har samme mønster",
+  "en": {"land": "Indonesia", "sted": "Bali and Lombok", "kortnavn": "Bali and Lombok", "kategori": "Beach / culture", "kilde": "Denpasar (Ngurah Rai Airport), 1991–2020 (Starlings Roost Weather), via Wikipedia. Lombok has the same pattern"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 30.9, "nedbor": 388, "no": "Regntid (390 mm), fuktig. Rinjani stengt.", "en": "Rainy season (390 mm), humid. Rinjani closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.9, "nedbor": 299, "no": "Regntid, byger. Rinjani stengt.", "en": "Rainy season, showers. Rinjani closed."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.0, "nedbor": 214, "no": "Regnet avtar. Nyepi (se Vinduer).", "en": "Rain easing. Nyepi (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 31.0, "nedbor": 115, "no": "Tørrsesongen starter, grønt. Rinjani åpner.", "en": "Dry season begins, green. Rinjani opens."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 30.5, "nedbor": 73, "no": "Tørt, lite folk. Beste måned.", "en": "Dry, few crowds. Best month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.8, "nedbor": 51, "no": "Tørt, behagelig (30 °C). Fint for Rinjani og Gili.", "en": "Dry, pleasant (30 °C). Good for Rinjani and the Gilis."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 29.0, "nedbor": 30, "no": "Tørt. Toppsesong, fullt og dyrt.", "en": "Dry. Peak season, full and expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 29.1, "nedbor": 16, "no": "Tørrest. Toppsesong.", "en": "Driest. Peak season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.0, "nedbor": 41, "no": "Tørt, færre folk. Godt for dykking.", "en": "Dry, fewer crowds. Good for diving."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.0, "nedbor": 68, "no": "Fortsatt stort sett tørt.", "en": "Still mostly dry."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.6, "nedbor": 149, "no": "Regntiden starter, byger.", "en": "Rainy season begins, showers."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 30.8, "nedbor": 299, "no": "Regntid, men jul/nyttår gir fullt.", "en": "Rainy season, but Christmas/New Year fills up."}
+  ],
+  "vinduer": [
+    {"fra": "2026-03-18", "til": "2026-03-19", "type": "Helligdag", "justering": -0.5, "no": "Nyepi 2026: ogoh-ogoh-parader kvelden før, så stille dag med flyplass stengt", "en": "Nyepi 2026: ogoh-ogoh parades the night before, then a day of silence with the airport closed"},
+    {"fra": "2027-03-08", "til": "2027-03-09", "type": "Helligdag", "justering": -0.5, "no": "Nyepi 2027: stille dag, flyplass stengt (sjekk dato)", "en": "Nyepi 2027: day of silence, airport closed (check dates)"},
+    {"fra": "2028-03-25", "til": "2028-03-26", "type": "Helligdag", "justering": -0.5, "no": "Nyepi 2028: stille dag, flyplass stengt (sjekk dato)", "en": "Nyepi 2028: day of silence, airport closed (check dates)"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Annet", "justering": -0.5, "no": "Jul/nyttår: toppriser, fullt", "en": "Christmas/New Year: peak prices, full"}
+  ]
+}

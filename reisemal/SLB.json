@@ -1,0 +1,30 @@
+{
+  "id": "SLB",
+  "region": "Oseania",
+  "land": "Salomonøyene",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dykking",
+  "merknad": "Malaria; enkel infrastruktur utenfor Honiara",
+  "koord": [-9.43, 159.95],
+  "kilde": "Honiara lufthavn, NOAA 1991–2020, via Wikipedia. Marovo-lagunen (Vestprovinsen) våtere",
+  "en": {"land": "Solomon Islands", "kategori": "Nature / diving", "merknad": "Malaria; basic infrastructure outside Honiara", "kilde": "Honiara Airport, NOAA 1991–2020, via Wikipedia. Marovo Lagoon (Western Province) wetter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.6, "nedbor": 239, "no": "Regntid og syklonsesong.", "en": "Rainy season and cyclone season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.5, "nedbor": 290, "no": "Våtest, syklonrisiko.", "en": "Wettest, cyclone risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.4, "nedbor": 285, "no": "Regntid, syklonrisiko.", "en": "Rainy season, cyclone risk."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 31.5, "nedbor": 190, "no": "Regnet avtar; syklonsesongen slutter.", "en": "Rain eases; cyclone season ends."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.6, "nedbor": 112, "no": "Tørrere, passatvind.", "en": "Drier, trade winds."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 31.3, "nedbor": 86, "no": "Tørrest. God tid for dykking og vrak ved Iron Bottom Sound.", "en": "Driest. Good time for diving and wrecks in Iron Bottom Sound."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 31.3, "nedbor": 100, "no": "Tørt. Uavhengighetsdagen (se Vinduer).", "en": "Dry. Independence Day (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 31.2, "nedbor": 95, "no": "Tørt, god sikt i Marovo-lagunen.", "en": "Dry, good visibility in Marovo Lagoon."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 31.6, "nedbor": 90, "no": "Tørt, rolig sjø.", "en": "Dry, calm seas."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 5, "tmaks": 31.6, "nedbor": 118, "no": "Fortsatt fint, lite folk.", "en": "Still good, few people."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 31.7, "nedbor": 145, "no": "Regnet øker; syklonsesongen starter.", "en": "Rain increases; cyclone season begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.7, "nedbor": 211, "no": "Regntid, syklonrisiko. Jul.", "en": "Rainy season, cyclone risk. Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 28, "til_uke": 28, "type": "Hendelse", "justering": 0.2, "no": "Uavhengighetsdagen 7.7: feiring i Honiara", "en": "Independence Day 7 Jul: celebrations in Honiara"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "AUS-TAS",
+  "region": "Oseania",
+  "land": "Australia",
+  "sted": "Tasmania",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / roadtrip",
+  "merknad": "",
+  "koord": [-42.0, 146.6],
+  "kilde": "Hobart (Battery Point), Bureau of Meteorology 1991–2020, via Wikipedia. Vestkysten og Cradle Mountain kjøligere og mye våtere",
+  "en": {"land": "Australia", "sted": "Tasmania", "kategori": "Nature / road trip", "kilde": "Hobart (Battery Point), Bureau of Meteorology 1991–2020, via Wikipedia. The west coast and Cradle Mountain cooler and much wetter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 22.7, "nedbor": 44, "no": "Sommer (23 °C), lange dager, lavendel i blomst. Skoleferie, fullt.", "en": "Summer (23 °C), long days, lavender in bloom. School holidays, full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.2, "nedbor": 38, "no": "Varmt og stabilt. Beste tid for vandring.", "en": "Warm and settled. Best time for hiking."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 20.7, "nedbor": 37, "no": "Behagelig (21 °C), høstlys. Færre folk.", "en": "Pleasant (21 °C), autumn light. Fewer visitors."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 17.9, "nedbor": 43, "no": "Kjølig (18 °C). Fagus blir gull ved Cradle Mountain. Påske.", "en": "Cool (18 °C). The fagus turns gold at Cradle Mountain. Easter."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 15.3, "nedbor": 39, "no": "Kjølig (15 °C), rolig. Sørlys mulig.", "en": "Cool (15 °C), quiet. Aurora australis possible."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 12.7, "nedbor": 46, "no": "Vinter (13 °C), korte dager. Dark Mofo (se Vinduer).", "en": "Winter (13 °C), short days. Dark Mofo (see events)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 12.6, "nedbor": 45, "no": "Kaldt (13 °C), snø i fjellet. Stille.", "en": "Cold (13 °C), snow in the mountains. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 13.7, "nedbor": 63, "no": "Kaldt og vått. Stille.", "en": "Cold and wet. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.7, "nedbor": 56, "no": "Kjølig vår, ustabilt vær.", "en": "Cool spring, changeable weather."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 17.6, "nedbor": 53, "no": "Våren kommer (18 °C), tulipaner og lam.", "en": "Spring arrives (18 °C), tulips and lambs."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.1, "nedbor": 51, "no": "Mildt (19 °C). Vandresesongen starter.", "en": "Mild (19 °C). Hiking season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.0, "nedbor": 53, "no": "Sommer (21 °C). Sydney–Hobart-regattaen og Taste of Tasmania.", "en": "Summer (21 °C). Sydney–Hobart race and Taste of Tasmania."}
+  ],
+  "vinduer": [
+    {"fra_uke": 24, "til_uke": 25, "type": "Hendelse", "justering": 0.3, "no": "Dark Mofo i Hobart: vinterfestival med kunst, lys og vinterbad (sjekk dato)", "en": "Dark Mofo in Hobart: winter festival of art, light and a midwinter swim (check dates)"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Hendelse", "justering": 0.3, "no": "Sydney–Hobart-regattaen ankommer og Taste of Tasmania (27.–31.12): festlig, men fullt", "en": "Sydney–Hobart yachts arrive and Taste of Tasmania (27–31 Dec): festive, but full"}
+  ]
+}

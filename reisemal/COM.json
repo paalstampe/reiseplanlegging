@@ -1,0 +1,30 @@
+{
+  "id": "COM",
+  "region": "Afrika",
+  "land": "Komorene",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / strand",
+  "merknad": "",
+  "koord": [-11.9, 43.6],
+  "kilde": "Moroni (Grande Comore), WMO (periode ikke oppgitt), via Wikipedia. Mohéli og Anjouan har samme sesongmønster",
+  "en": {"land": "Comoros", "kategori": "Nature / beach", "kilde": "Moroni (Grande Comore), WMO (period not stated), via Wikipedia. Mohéli and Anjouan have the same seasonal pattern"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.4, "nedbor": 364, "no": "Regntid, varmt og fuktig; syklonfare.", "en": "Rainy season, hot and humid; cyclone risk."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.4, "nedbor": 293, "no": "Regntid, syklonfare.", "en": "Rainy season, cyclone risk."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.8, "nedbor": 279, "no": "Regntid, syklonfare.", "en": "Rainy season, cyclone risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.4, "nedbor": 316, "no": "Fortsatt vått; syklonfaren avtar.", "en": "Still wet; cyclone risk easing."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 29.5, "nedbor": 256, "no": "Regnet avtar, fortsatt byger.", "en": "Rain easing, still showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.4, "nedbor": 266, "no": "Tørrere og kjøligere (28 °C).", "en": "Drier and cooler (28 °C)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.7, "nedbor": 244, "no": "Kjølig tørrsesong. Knølhval (se Vinduer). Diasporaen hjemme: dyre fly.", "en": "Cool dry season. Humpback whales (see events). Diaspora home: expensive flights."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 27.7, "nedbor": 150, "no": "Hval; bryllupssesong (grand mariage). Fly fra Paris dyre.", "en": "Whales; wedding season (grand mariage). Flights from Paris expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 28.1, "nedbor": 108, "no": "Tørrest. Hval; god tid for Karthala-vulkanen.", "en": "Driest. Whales; good time for the Karthala volcano."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 29.1, "nedbor": 97, "no": "Tørt, varmere. Hval ut måneden.", "en": "Dry, warmer. Whales until the end of the month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.3, "nedbor": 108, "no": "Varmt; regnet nærmer seg.", "en": "Hot; the rains are approaching."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.8, "nedbor": 219, "no": "Regntiden starter, fuktig.", "en": "Rainy season begins, humid."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 43, "type": "Dyreliv", "justering": 0.3, "no": "Knølhval rundt øyene (jul–okt), best ved Mohéli", "en": "Humpback whales around the islands (Jul–Oct), best off Mohéli"}
+  ]
+}

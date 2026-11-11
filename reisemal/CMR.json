@@ -1,0 +1,31 @@
+{
+  "id": "CMR",
+  "region": "Afrika",
+  "land": "Kamerun",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [4.05, 9.77],
+  "kilde": "Douala, WMO 1991–2020, via Wikipedia. Yaoundé har mindre regn jul–aug; Limbe og Mount Cameroon våtere",
+  "en": {"land": "Cameroon", "sted": "", "kategori": "Culture / nature", "kilde": "Douala, WMO 1991–2020, via Wikipedia. Yaoundé has less rain Jul–Aug; Limbe and Mount Cameroon wetter"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 32.8, "nedbor": 36, "no": "Tørrtid: Kribi, de vestlige høylandene og Mount Cameroon.", "en": "Dry season: Kribi, the western highlands and Mount Cameroon."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 33.3, "nedbor": 56, "no": "Tørt og varmt (33 °C). Race of Hope på Mount Cameroon (se Vinduer).", "en": "Dry and hot (33 °C). Race of Hope on Mount Cameroon (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.8, "nedbor": 155, "no": "Regnet kommer, fuktig.", "en": "Rains arrive, humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.2, "nedbor": 239, "no": "Byger, varmt.", "en": "Showers, hot."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.2, "nedbor": 274, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.6, "nedbor": 356, "no": "Mye regn ved kysten.", "en": "Heavy rain on the coast."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 28.3, "nedbor": 681, "no": "Mest regn (680 mm) i Douala; Yaoundé tørrere.", "en": "Most rain (680 mm) in Douala; Yaoundé drier."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 28.3, "nedbor": 691, "no": "Svært vått ved kysten.", "en": "Very wet on the coast."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 29.4, "nedbor": 559, "no": "Mye regn; dårlige veier.", "en": "Heavy rain; poor roads."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.6, "nedbor": 404, "no": "Regnet avtar ved kysten, mest regn i Yaoundé.", "en": "Rain easing on the coast, wettest in Yaoundé."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.1, "nedbor": 124, "no": "Tørrtiden starter.", "en": "Dry season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.2, "nedbor": 30, "no": "Tørt og klart. Ngondo-festivalen i Douala (se Vinduer).", "en": "Dry and clear. Ngondo festival in Douala (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 7, "til_uke": 8, "type": "Hendelse", "justering": 0.3, "no": "Race of Hope, løp opp Mount Cameroon (feb, sjekk dato)", "en": "Race of Hope up Mount Cameroon (Feb, check dates)"},
+    {"fra_uke": 49, "til_uke": 49, "type": "Hendelse", "justering": 0.3, "no": "Ngondo, Sawa-folkets festival ved Wouri-elva i Douala (start des, sjekk dato)", "en": "Ngondo, the Sawa festival on the Wouri river in Douala (early Dec, check dates)"}
+  ]
+}

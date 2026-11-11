@@ -1,0 +1,30 @@
+{
+  "id": "KIR",
+  "region": "Oseania",
+  "land": "Kiribati",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / ekspedisjon",
+  "merknad": "Få fly (Nadi, Brisbane); regn varierer mye fra år til år",
+  "koord": [1.35, 173.0],
+  "kilde": "Tarawa lufthavn (Sør-Tarawa), Deutscher Wetterdienst (periode ikke oppgitt, trolig eldre serie), via Wikipedia. Regnet varierer mye med El Niño",
+  "en": {"land": "Kiribati", "kategori": "Culture / expedition", "merknad": "Few flights (Nadi, Brisbane); rainfall varies widely from year to year", "kilde": "Tarawa Airport (South Tarawa), Deutscher Wetterdienst (period not stated, likely older series), via Wikipedia. Rainfall varies widely with El Niño"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.7, "nedbor": 271, "no": "Vestavind og mest regn (31 °C). Fly kan bli innstilt.", "en": "Westerlies and most rain (31 °C). Flights may be cancelled."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.6, "nedbor": 218, "no": "Varmt, byger. Få besøkende.", "en": "Hot, showers. Few visitors."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.7, "nedbor": 204, "no": "Varmt, byger.", "en": "Hot, showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.7, "nedbor": 184, "no": "Litt tørrere. Passatvinden tar over.", "en": "Slightly drier. The trade winds take over."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.8, "nedbor": 158, "no": "Passatvind, mindre regn.", "en": "Trade winds, less rain."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.8, "nedbor": 155, "no": "Passatvind, behagelig på lagunen.", "en": "Trade winds, pleasant on the lagoon."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 5, "tmaks": 30.9, "nedbor": 168, "no": "Passatvind. Uavhengighetsdagen (se Vinduer).", "en": "Trade winds. Independence Day (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.0, "nedbor": 138, "no": "Tørrere, rolig.", "en": "Drier, calm."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 31.1, "nedbor": 120, "no": "Tørreste tid, rolig sjø. Beste tid.", "en": "Driest time, calm seas. Best time."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 31.2, "nedbor": 110, "no": "Tørrest (110 mm).", "en": "Driest (110 mm)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 31.3, "nedbor": 115, "no": "Tørt og varmt.", "en": "Dry and hot."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.9, "nedbor": 212, "no": "Regnet kommer. Jul: fly fulle av hjemreisende.", "en": "Rain returns. Christmas: flights full of returning islanders."}
+  ],
+  "vinduer": [
+    {"fra_uke": 28, "til_uke": 28, "type": "Helligdag", "justering": 0.3, "no": "Uavhengighetsdagen 12.7: dans, kanoløp og feiring i Tarawa", "en": "Independence Day 12 Jul: dancing, canoe races and celebrations in Tarawa"}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CHN-TIB",
+  "region": "Asia",
+  "land": "Kina",
+  "sted": "Tibet",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "Krever Tibet-tillatelse og organisert tur; stenges ofte for utlendinger feb–mar",
+  "koord": [29.65, 91.13],
+  "kilde": "Lhasa (3649 moh), CMA 1991–2020, via Wikipedia. Everest-området (Shigatse, Tingri) kaldere og mer vind",
+  "en": {"land": "China", "sted": "Tibet", "kategori": "Culture / nature", "merknad": "Requires a Tibet permit and an organised tour; often closed to foreigners Feb–Mar", "kilde": "Lhasa (3,649 m), CMA 1991–2020, via Wikipedia. The Everest area (Shigatse, Tingri) colder and windier"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 8.3, "nedbor": 1, "no": "Kaldt (8 °C), sol og frost om natta. Pilegrimer i Lhasa, få turister.", "en": "Cold (8 °C), sunny, frost at night. Pilgrims in Lhasa, few tourists."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 10.4, "nedbor": 2, "no": "Tørt og kaldt. Losar; ofte stengt for utlendinger (se Vinduer).", "en": "Dry and cold. Losar; often closed to foreigners (see events)."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 13.4, "nedbor": 4, "no": "Mildere (13 °C). Ofte stengt for utlendinger (se Vinduer).", "en": "Milder (13 °C). Often closed to foreigners (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.5, "nedbor": 8, "no": "Tørt og klart (17 °C). Åpner igjen; Everest-leiren åpner.", "en": "Dry and clear (17 °C). Reopens; Everest base camp opens."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 20.5, "nedbor": 31, "no": "Beste måned: 21 °C, klar sikt mot Everest.", "en": "Best month: 21 °C, clear views of Everest."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 23.9, "nedbor": 84, "no": "Varmest (24 °C), regnet starter. Saga Dawa (se Vinduer).", "en": "Warmest (24 °C), rain begins. Saga Dawa (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 2, "tmaks": 23.3, "nedbor": 141, "no": "Regntid, mest nattregn; Everest ofte i skyer. Kinesisk sommerferie.", "en": "Rainy season, mostly at night; Everest often clouded. Chinese summer holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 22.3, "nedbor": 130, "no": "Regn, grønt. Shoton-festivalen i Lhasa (se Vinduer). Fullt.", "en": "Rain, green. Shoton festival in Lhasa (see events). Busy."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 21.1, "nedbor": 65, "no": "Regnet avtar, klarere. Fine forhold.", "en": "Rain eases, clearer. Good conditions."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 17.9, "nedbor": 7, "no": "Tørt, krystallklart (18 °C). Unngå Golden Week (se Vinduer).", "en": "Dry, crystal clear (18 °C). Avoid Golden Week (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 13.3, "nedbor": 1, "no": "Kjølig (13 °C), klart. Kalde netter, få turister.", "en": "Cool (13 °C), clear. Cold nights, few tourists."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 9.7, "nedbor": 1, "no": "Kaldt, men sol. Rolig i Lhasa.", "en": "Cold, but sunny. Quiet in Lhasa."}
+  ],
+  "vinduer": [
+    {"fra_uke": 9, "til_uke": 13, "type": "Annet", "justering": -1, "no": "Tibet ofte stengt for utlendinger rundt Losar og mars (sjekk tillatelser)", "en": "Tibet often closed to foreigners around Losar and March (check permits)"},
+    {"fra": "2026-05-30", "til": "2026-06-01", "type": "Hendelse", "justering": 0.3, "no": "Saga Dawa (31.5.2026, sjekk dato): pilegrimer rundt Barkhor og Potala", "en": "Saga Dawa (31 May 2026, check date): pilgrims around the Barkhor and Potala"},
+    {"fra": "2027-05-19", "til": "2027-05-21", "type": "Hendelse", "justering": 0.3, "no": "Saga Dawa (ca. 20.5.2027, sjekk dato)", "en": "Saga Dawa (approx. 20 May 2027, check date)"},
+    {"fra": "2028-06-05", "til": "2028-06-07", "type": "Hendelse", "justering": 0.3, "no": "Saga Dawa (ca. 6.6.2028, sjekk dato)", "en": "Saga Dawa (approx. 6 Jun 2028, check date)"},
+    {"fra_uke": 33, "til_uke": 35, "type": "Hendelse", "justering": 0.3, "no": "Shoton-festivalen i Lhasa: thangka-avduking ved Drepung, tibetansk opera (sjekk dato)", "en": "Shoton festival in Lhasa: thangka unveiling at Drepung, Tibetan opera (check date)"},
+    {"fra": "2026-10-01", "til": "2026-10-07", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: fullt med kinesiske turister, høye priser", "en": "Golden Week: packed with Chinese tourists, high prices"},
+    {"fra": "2027-10-01", "til": "2027-10-07", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: fullt med kinesiske turister, høye priser", "en": "Golden Week: packed with Chinese tourists, high prices"},
+    {"fra": "2028-10-01", "til": "2028-10-07", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: fullt med kinesiske turister, høye priser", "en": "Golden Week: packed with Chinese tourists, high prices"}
+  ]
+}

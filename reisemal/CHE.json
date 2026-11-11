@@ -1,0 +1,36 @@
+{
+  "id": "CHE",
+  "region": "Europa",
+  "land": "Sveits",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / fjell",
+  "merknad": "Inkluderer Liechtenstein",
+  "koord": [46.69, 7.86],
+  "kilde": "Zürich (Fluntern, 556 moh), MeteoSwiss 1991–2020 via NOAA og Wikipedia. Alpene langt kaldere med snø nov–apr; Ticino varmere",
+  "en": {"land": "Switzerland", "kategori": "Nature / mountains", "merknad": "Includes Liechtenstein", "kilde": "Zurich (Fluntern, 556 m), MeteoSwiss 1991–2020 via NOAA and Wikipedia. The Alps much colder with snow Nov–Apr; Ticino warmer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 3.5, "nedbor": 63, "no": "Kaldt (4 °C) i lavlandet, skisesong i Alpene.", "en": "Cold (4 °C) in the lowlands, ski season in the Alps."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 2, "tmaks": 5.2, "nedbor": 60, "no": "Kaldt. Beste snø; sportsferie gjør skistedene fulle. Fasnacht i Basel (se Vinduer).", "en": "Cold. Best snow; school ski holidays fill the resorts. Basel Fasnacht (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 10.2, "nedbor": 71, "no": "Kjølig (10 °C), vårski med sol.", "en": "Cool (10 °C), spring skiing in the sun."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.8, "nedbor": 80, "no": "Mildt (15 °C) i lavlandet; skisesongen slutter etter påske.", "en": "Mild (15 °C) in the lowlands; ski season ends after Easter."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 18.8, "nedbor": 128, "no": "Grønt, men vått (128 mm); høye pass og mange fjellbaner stengt.", "en": "Green but wet (128 mm); high passes and many mountain railways closed."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.4, "nedbor": 128, "no": "Varmt (22 °C), fjellpassene åpner. Blomstrende fjellenger.", "en": "Warm (22 °C), the mountain passes open. Alpine meadows in bloom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.3, "nedbor": 126, "no": "Varmt (24 °C), toppsesong for fotturer. Montreux Jazz (se Vinduer).", "en": "Warm (24 °C), peak hiking season. Montreux Jazz (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 23.9, "nedbor": 119, "no": "Varmt (24 °C), fotturer. Nasjonaldagen 1.8 (se Vinduer). Fullt.", "en": "Warm (24 °C), hiking. National Day on 1 Aug (see events). Busy."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 19.1, "nedbor": 87, "no": "Behagelig (19 °C), klar sikt, færre folk. Kuene drives ned (se Vinduer).", "en": "Pleasant (19 °C), clear views, fewer people. Cattle come down (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 13.8, "nedbor": 85, "no": "Mildt (14 °C), høstfarger; noen fjellbaner stenger.", "en": "Mild (14 °C), autumn colours; some mountain railways close."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.6, "nedbor": 76, "no": "Grått og kjølig, mellomsesong: mange fjellsteder stengt.", "en": "Grey and cool, off-season: many mountain resorts closed."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 2, "tmaks": 4.0, "nedbor": 83, "no": "Kaldt, skisesongen starter. Julemarkeder (se Vinduer). Jul dyrt.", "en": "Cold, ski season begins. Christmas markets (see events). Christmas expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-23", "til": "2026-02-25", "type": "Hendelse", "justering": 0.3, "no": "Basler Fasnacht: tre døgn med trommer, piccolo og masker fra kl. 04 mandag", "en": "Basel Fasnacht: three days of drums, piccolos and masks from 4 am on Monday"},
+    {"fra": "2027-02-15", "til": "2027-02-17", "type": "Hendelse", "justering": 0.3, "no": "Basler Fasnacht: tre døgn med trommer, piccolo og masker fra kl. 04 mandag", "en": "Basel Fasnacht: three days of drums, piccolos and masks from 4 am on Monday"},
+    {"fra": "2028-03-06", "til": "2028-03-08", "type": "Hendelse", "justering": 0.3, "no": "Basler Fasnacht: tre døgn med trommer, piccolo og masker fra kl. 04 mandag", "en": "Basel Fasnacht: three days of drums, piccolos and masks from 4 am on Monday"},
+    {"fra_uke": 27, "til_uke": 28, "type": "Hendelse", "justering": 0.3, "no": "Montreux Jazz Festival (første halvdel av juli)", "en": "Montreux Jazz Festival (first half of July)"},
+    {"fra_uke": 31, "til_uke": 31, "type": "Helligdag", "justering": 0.3, "no": "Nasjonaldagen 1.8: bål og fyrverkeri", "en": "National Day, 1 Aug: bonfires and fireworks"},
+    {"fra_uke": 38, "til_uke": 40, "type": "Hendelse", "justering": 0.3, "no": "Alpabzug: pyntede kuer drives ned fra fjellet, med fest i landsbyene", "en": "Alpabzug: decorated cattle come down from the mountains, with village festivals"},
+    {"fra_uke": 48, "til_uke": 51, "type": "Hendelse", "justering": 0.3, "no": "Julemarkeder i Zürich, Basel, Bern og Montreux", "en": "Christmas markets in Zurich, Basel, Bern and Montreux"}
+  ]
+}

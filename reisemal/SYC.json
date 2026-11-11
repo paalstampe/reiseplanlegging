@@ -1,0 +1,31 @@
+{
+  "id": "SYC",
+  "region": "Afrika",
+  "land": "Seychellene",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [-4.62, 55.45],
+  "kilde": "Victoria (Seychelles International Airport, Mahé), WMO 1991–2020, via Wikipedia. Praslin og La Digue tilsvarende",
+  "en": {"land": "Seychelles", "kategori": "Beach / nature", "kilde": "Victoria (Seychelles International Airport, Mahé), WMO 1991–2020, via Wikipedia. Praslin and La Digue similar"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 30.1, "nedbor": 427, "no": "Mest regn (430 mm), nordvestmonsun, fuktig. Juleferie, dyrt.", "en": "Wettest (430 mm), northwest monsoon, humid. Holiday season, expensive."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 251, "no": "Regnbyger, varmt (31 °C). Rolig sjø på sørøstsiden.", "en": "Showers, hot (31 °C). Calm sea on the southeast side."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.3, "nedbor": 204, "no": "Mindre regn, varmt. Godt for snorkling.", "en": "Less rain, hot. Good for snorkelling."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.7, "nedbor": 196, "no": "Mellomsesong: stille vind, klart vann, best for dykking.", "en": "Inter-monsoon: light winds, clear water, best for diving."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 30.9, "nedbor": 171, "no": "Stille før passaten. Klart vann, fine strender.", "en": "Calm before the trade winds. Clear water, fine beaches."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.5, "nedbor": 122, "no": "Sørøstpassaten: tørrere, frisk vind, tang på enkelte strender.", "en": "Southeast trades: drier, fresh wind, seaweed on some beaches."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.7, "nedbor": 80, "no": "Tørrest, vindfullt, høyere sjø. Europeisk sommerferie.", "en": "Driest, windy, rougher sea. European summer holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 28.8, "nedbor": 115, "no": "Tørt og vindfullt. Høysesong (sommerferie).", "en": "Dry and windy. High season (summer holidays)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.4, "nedbor": 184, "no": "Vinden avtar. Hvalhaier ved Mahé (se Vinduer).", "en": "Wind easing. Whale sharks off Mahé (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.1, "nedbor": 191, "no": "Mellomsesong: stille, klart vann. Festival Kreol (se Vinduer).", "en": "Inter-monsoon: calm, clear water. Festival Kreol (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 30.4, "nedbor": 215, "no": "Varmt, stille, noe mer regn. Skilpadder legger egg.", "en": "Warm, calm, a bit more rain. Turtles nesting."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 2, "tmaks": 30.5, "nedbor": 298, "no": "Regntiden starter, fuktig. Jul og nyttår fullbooket.", "en": "Rainy season begins, humid. Christmas and New Year fully booked."}
+  ],
+  "vinduer": [
+    {"fra_uke": 36, "til_uke": 46, "type": "Dyreliv", "justering": 0.3, "no": "Hvalhaier utenfor Mahé (sep–nov), varierer fra år til år", "en": "Whale sharks off Mahé (Sep–Nov), varies from year to year"},
+    {"fra_uke": 43, "til_uke": 44, "type": "Hendelse", "justering": 0.3, "no": "Festival Kreol: kreolsk musikk, mat og kultur (slutten av oktober)", "en": "Festival Kreol: Creole music, food and culture (late October)"}
+  ]
+}

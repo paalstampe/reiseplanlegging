@@ -1,0 +1,28 @@
+{
+  "id": "MHL",
+  "region": "Oseania",
+  "land": "Marshalløyene",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / dykking",
+  "merknad": "Få fly (United Island Hopper, Nauru Airlines)",
+  "koord": [7.09, 171.38],
+  "kilde": "Majuro (Marshall Islands International Airport), NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Marshall Islands", "kategori": "Beach / diving", "merknad": "Few flights (United Island Hopper, Nauru Airlines)", "kilde": "Majuro (Marshall Islands International Airport), NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 29.8, "nedbor": 209, "no": "Tørrsesong, sterk passatvind (30 °C). Urolig sjø ytterst.", "en": "Dry season, strong trade winds (30 °C). Choppy on the outside."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 29.9, "nedbor": 194, "no": "Tørrest, passatvind. God tid.", "en": "Driest, trade winds. A good time."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 30.0, "nedbor": 220, "no": "Tørrsesong, god sikt i lagunen.", "en": "Dry season, good visibility in the lagoon."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.1, "nedbor": 282, "no": "Passaten avtar, flere byger.", "en": "Trade winds easing, more showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.2, "nedbor": 272, "no": "Varmt, byger, roligere sjø.", "en": "Hot, showers, calmer seas."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.2, "nedbor": 282, "no": "Regntid, rolig sjø for dykking.", "en": "Wet season, calm seas for diving."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.3, "nedbor": 278, "no": "Regntid, rolig sjø.", "en": "Wet season, calm seas."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.4, "nedbor": 284, "no": "Regntid, lite vind.", "en": "Wet season, little wind."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.5, "nedbor": 320, "no": "Mye regn, fuktig.", "en": "Lots of rain, humid."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.4, "nedbor": 350, "no": "Mest regn, stille og fuktig.", "en": "Wettest, still and humid."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.0, "nedbor": 341, "no": "Mye regn; tyfoner kan dannes i El Niño-år.", "en": "Lots of rain; typhoons can form in El Niño years."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.3, "nedbor": 302, "no": "Passaten kommer tilbake. Jul: fly fulle.", "en": "Trade winds return. Christmas: flights full."}
+  ],
+  "vinduer": []
+}

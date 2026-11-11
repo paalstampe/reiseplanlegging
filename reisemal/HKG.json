@@ -1,0 +1,39 @@
+{
+  "id": "HKG",
+  "region": "Asia",
+  "land": "Hongkong",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [22.3, 114.17],
+  "kilde": "Hongkong Observatory, HKO 1991–2020, via Wikipedia",
+  "en": {"land": "Hong Kong", "kategori": "City / culture / food", "kilde": "Hong Kong Observatory, HKO 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 18.7, "nedbor": 33, "no": "Kjølig og tørt (19 °C). Fint for fotturer.", "en": "Cool and dry (19 °C). Good for hiking."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 19.4, "nedbor": 39, "no": "Kjølig, av og til tåke. Kinesisk nyttår jan/feb.", "en": "Cool, some fog. Chinese New Year Jan/Feb."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 21.9, "nedbor": 75, "no": "Fuktig, yr og tåke. Art Basel og Rugby Sevens (se Vinduer).", "en": "Humid, drizzle and fog. Art Basel and Rugby Sevens (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 25.6, "nedbor": 153, "no": "Varmt og fuktig (26 °C), første tordenbyger.", "en": "Warm and humid (26 °C), first thunderstorms."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 28.8, "nedbor": 291, "no": "Regntid starter, kraftige byger.", "en": "Rainy season begins, heavy showers."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.7, "nedbor": 492, "no": "Våtest, tyfonsesong. Dragebåtfestival (se Vinduer).", "en": "Wettest, typhoon season. Dragon Boat Festival (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 31.6, "nedbor": 386, "no": "Hett og klamt (32 °C), tyfonfare. Skoleferie.", "en": "Hot and sticky (32 °C), typhoon risk. School holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 31.3, "nedbor": 453, "no": "Hett, mye regn, tyfonfare.", "en": "Hot, heavy rain, typhoon risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.5, "nedbor": 321, "no": "Fortsatt tyfonfare. Midthøstfest med lykter (se Vinduer).", "en": "Still typhoon risk. Mid-Autumn lanterns (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 28.1, "nedbor": 120, "no": "Tørrere, klar luft (28 °C). Golden Week gir fullt (se Vinduer).", "en": "Drier, clear air (28 °C). Golden Week crowds (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.5, "nedbor": 39, "no": "Beste måned: tørt, 25 °C, klar utsikt. Høysesong.", "en": "Best month: dry, 25 °C, clear views. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 20.4, "nedbor": 29, "no": "Tørt og behagelig (20 °C). Julelys, fullt.", "en": "Dry and pleasant (20 °C). Christmas lights, busy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 13, "type": "Hendelse", "justering": 0.3, "no": "Art Basel Hong Kong og Rugby Sevens (slutten av mars, sjekk dato): fullt på hotellene", "en": "Art Basel Hong Kong and the Rugby Sevens (late March, check date): hotels full"},
+    {"fra": "2026-06-19", "til": "2026-06-19", "type": "Hendelse", "justering": 0.3, "no": "Dragebåtfestival 19.6.2026: kappløp i Aberdeen og Stanley", "en": "Dragon Boat Festival 19 Jun 2026: races in Aberdeen and Stanley"},
+    {"fra": "2027-06-09", "til": "2027-06-09", "type": "Hendelse", "justering": 0.3, "no": "Dragebåtfestival 9.6.2027", "en": "Dragon Boat Festival 9 Jun 2027"},
+    {"fra": "2028-05-28", "til": "2028-05-28", "type": "Hendelse", "justering": 0.3, "no": "Dragebåtfestival 28.5.2028", "en": "Dragon Boat Festival 28 May 2028"},
+    {"fra": "2026-09-24", "til": "2026-09-26", "type": "Hendelse", "justering": 0.3, "no": "Midthøstfest 25.9.2026: lykter i Victoria Park, ilddragedans i Tai Hang", "en": "Mid-Autumn Festival 25 Sep 2026: lanterns in Victoria Park, fire dragon dance in Tai Hang"},
+    {"fra": "2027-09-14", "til": "2027-09-16", "type": "Hendelse", "justering": 0.3, "no": "Midthøstfest 15.9.2027", "en": "Mid-Autumn Festival 15 Sep 2027"},
+    {"fra": "2028-10-02", "til": "2028-10-04", "type": "Hendelse", "justering": 0.3, "no": "Midthøstfest 3.10.2028", "en": "Mid-Autumn Festival 3 Oct 2028"},
+    {"fra": "2026-10-01", "til": "2026-10-07", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: mange fastlandsturister, fullt i sentrum", "en": "Golden Week: many mainland visitors, central areas packed"},
+    {"fra": "2027-10-01", "til": "2027-10-07", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: mange fastlandsturister, fullt i sentrum", "en": "Golden Week: many mainland visitors, central areas packed"},
+    {"fra": "2028-10-01", "til": "2028-10-07", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: mange fastlandsturister, fullt i sentrum", "en": "Golden Week: many mainland visitors, central areas packed"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ZAF-CPT",
+  "region": "Afrika",
+  "land": "Sør-Afrika",
+  "sted": "Cape Town og Garden Route",
+  "kortnavn": "Cape Town/Garden Route",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Roadtrip / natur",
+  "merknad": "",
+  "koord": [-34.0, 20.5],
+  "kilde": "Cape Town (flyplassen), SAWS/NOAA 1991–2020, via Wikipedia. Garden Route (George, Knysna) har regn hele året og mildere vinter",
+  "en": {"land": "South Africa", "sted": "Cape Town and the Garden Route", "kortnavn": "Cape Town/Garden Route", "kategori": "Road trip / nature", "kilde": "Cape Town (airport), SAWS/NOAA 1991–2020, via Wikipedia. The Garden Route (George, Knysna) has rain all year and milder winters"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 27.0, "nedbor": 9, "no": "Sommer, tørt og varmt (27 °C), sterk sørøstvind. Skoleferie, dyrt.", "en": "Summer, dry and warm (27 °C), strong southeast wind. School holidays, expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.3, "nedbor": 10, "no": "Tørt og varmt. Vinhøst i Winelands.", "en": "Dry and warm. Grape harvest in the Winelands."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.0, "nedbor": 12, "no": "Varmt, mindre vind. Fin tid for Garden Route.", "en": "Warm, less wind. A fine time for the Garden Route."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 23.6, "nedbor": 40, "no": "Mildt (24 °C), første regn. Påskeferie.", "en": "Mild (24 °C), first rain. Easter holidays."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 20.6, "nedbor": 61, "no": "Kjøligere (21 °C), regn kommer. Lavsesong.", "en": "Cooler (21 °C), rain arrives. Low season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 18.2, "nedbor": 92, "no": "Vinter, mest regn og storm. Lave priser.", "en": "Winter, most rain and storms. Low prices."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 17.9, "nedbor": 85, "no": "Kaldt og vått (18 °C). Hvalene ankommer.", "en": "Cold and wet (18 °C). Whales arrive."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 18.0, "nedbor": 72, "no": "Vått, men flere hvaler i Hermanus.", "en": "Wet, but more whales in Hermanus."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 19.6, "nedbor": 44, "no": "Mildere. Hvalfestival i Hermanus (se Vinduer), vårblomster.", "en": "Milder. Hermanus Whale Festival (see events), spring flowers."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 22.2, "nedbor": 28, "no": "Mildt og tørrere (22 °C). Hvaler, fynbos i blomst.", "en": "Mild and drier (22 °C). Whales, fynbos in bloom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.7, "nedbor": 25, "no": "Varmt og tørt. Godt før høysesongen.", "en": "Warm and dry. Good before the high season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 25.8, "nedbor": 13, "no": "Sommer (26 °C). Jul og skoleferie, maks høysesong.", "en": "Summer (26 °C). Christmas and school holidays, peak season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 46, "type": "Dyreliv", "justering": 0.3, "no": "Sørkapere ved Hermanus og langs kysten (jul–nov, best sep–okt)", "en": "Southern right whales at Hermanus and along the coast (Jul–Nov, best Sep–Oct)"},
+    {"fra_uke": 39, "til_uke": 39, "type": "Hendelse", "justering": 0.3, "no": "Hermanus Whale Festival (slutten av september) – sjekk dato", "en": "Hermanus Whale Festival (late September) – check dates"}
+  ]
+}

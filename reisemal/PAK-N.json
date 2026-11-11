@@ -1,0 +1,33 @@
+{
+  "id": "PAK-N",
+  "region": "Asia",
+  "land": "Pakistan",
+  "sted": "Nordområdene (Hunza)",
+  "kortnavn": "Hunza, Pakistan",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / fjell",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [36.32, 74.66],
+  "kilde": "Gilgit (1 500 moh), Pakistans meteorologiske institutt, periode ikke oppgitt, via Wikipedia. Karimabad (2 400 moh) ca. 5 °C kjøligere",
+  "en": {"land": "Pakistan", "sted": "Northern Areas (Hunza)", "kortnavn": "Hunza, Pakistan", "kategori": "Nature / mountains", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Gilgit (1,500 m), Pakistan Meteorological Department, period not stated, via Wikipedia. Karimabad (2,400 m) approx. 5 °C cooler"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.6, "nedbor": 5, "no": "Kaldt i Hunza, minusgrader om natta. Khunjerab-passet stengt.", "en": "Cold in Hunza, sub-zero nights. Khunjerab Pass closed."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 12.6, "nedbor": 7, "no": "Kaldt og stille. Flyene til Gilgit innstilles ofte.", "en": "Cold and quiet. Flights to Gilgit often cancelled."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 18.4, "nedbor": 12, "no": "Mildere. Blomstringen starter i slutten av måneden.", "en": "Milder. Blossom starts at the end of the month."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 24.2, "nedbor": 24, "no": "Aprikos- og kirsebærblomstring (se Vinduer).", "en": "Apricot and cherry blossom (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.0, "nedbor": 25, "no": "Behagelig, grønt. Khunjerab-passet åpner 1.5.", "en": "Pleasant, green. Khunjerab Pass opens 1 May."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 34.2, "nedbor": 9, "no": "Varmt i Gilgit, behagelig i Hunza. Mange innenlandsturister.", "en": "Hot in Gilgit, pleasant in Hunza. Many domestic tourists."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 36.2, "nedbor": 15, "no": "Varmest i dalbunnen; ras kan stenge Karakoram Highway. Skoleferie.", "en": "Hottest in the valleys; landslides can close the Karakoram Highway. School holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 35.3, "nedbor": 15, "no": "Som juli. Trekking til basecamper.", "en": "As July. Trekking to base camps."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.8, "nedbor": 8, "no": "Klart og stabilt; høsthøsting.", "en": "Clear and settled; autumn harvest."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.6, "nedbor": 6, "no": "Klart, kjølig. Høstfarger sent i måneden (se Vinduer).", "en": "Clear, cool. Autumn colours late in the month (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 18.4, "nedbor": 2, "no": "Kaldt om natta. Khunjerab stenger 30.11.", "en": "Cold at night. Khunjerab closes 30 Nov."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 11.6, "nedbor": 5, "no": "Vinter, mye stengt.", "en": "Winter, much closed."}
+  ],
+  "vinduer": [
+    {"fra_uke": 13, "til_uke": 15, "type": "Hendelse", "justering": 0.5, "no": "Aprikos- og kirsebærblomstring i Hunza (sjekk dato)", "en": "Apricot and cherry blossom in Hunza (check dates)"},
+    {"fra_uke": 27, "til_uke": 27, "type": "Hendelse", "justering": 0.2, "no": "Shandur polofestival ca. 7.–9.7 (sjekk dato)", "en": "Shandur Polo Festival approx. 7–9 Jul (check dates)"},
+    {"fra_uke": 43, "til_uke": 45, "type": "Hendelse", "justering": 0.3, "no": "Høstfarger i Hunza: gule poppler og aprikostrær", "en": "Autumn colours in Hunza: yellow poplars and apricot trees"}
+  ]
+}

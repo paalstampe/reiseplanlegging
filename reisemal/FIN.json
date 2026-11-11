@@ -1,0 +1,33 @@
+{
+  "id": "FIN",
+  "region": "Europa",
+  "land": "Finland",
+  "sted": "Helsinki og innsjøene",
+  "kortnavn": "Helsinki og innsjøene",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / natur",
+  "merknad": "",
+  "koord": [60.8, 25.8],
+  "kilde": "Helsinki (Kaisaniemi), FMI 1991–2020, via Wikipedia. Innsjøområdet (Saimaa) kaldere om vinteren",
+  "en": {"land": "Finland", "sted": "Helsinki and the lakes", "kortnavn": "Helsinki and the lakes", "kategori": "City / culture / nature", "kilde": "Helsinki (Kaisaniemi), FMI 1991–2020, via Wikipedia. The Lakeland (Saimaa) colder in winter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": -0.7, "nedbor": 53, "no": "Kaldt (−1 °C) og mørkt. Badstu og isbading.", "en": "Cold (−1 °C) and dark. Sauna and ice swimming."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": -1.3, "nedbor": 38, "no": "Kaldest. Frosne sjøer, skøyter og ski.", "en": "Coldest. Frozen lakes, skating and skiing."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 2.3, "nedbor": 34, "no": "Kaldt, men sol og snø på sjøene.", "en": "Cold, but sun and snow on the lakes."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 8.1, "nedbor": 34, "no": "Snøsmelting og slaps. Mellomsesong.", "en": "Snowmelt and slush. Shoulder season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 14.6, "nedbor": 38, "no": "Mildt (15 °C), tørt, lange dager.", "en": "Mild (15 °C), dry, long days."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 18.8, "nedbor": 60, "no": "Lyse netter, 19 °C. Juhannus (se Vinduer).", "en": "White nights, 19 °C. Juhannus (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.9, "nedbor": 57, "no": "Varmest (22 °C). Hytte, badstu og bading i sjøene. Finsk ferie, fullt ved sjøene.", "en": "Warmest (22 °C). Cabins, sauna and lake swimming. Finnish holidays, lakes busy."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 20.5, "nedbor": 81, "no": "Varmt, noen byger. Fortsatt badetemperatur.", "en": "Warm, some showers. Still swimming weather."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 15.4, "nedbor": 56, "no": "Mildt (15 °C), høstfarger. Rolig.", "en": "Mild (15 °C), autumn colours. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 9.2, "nedbor": 73, "no": "Kjølig og vått. Lite folk.", "en": "Cool and wet. Few people."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.4, "nedbor": 69, "no": "Mørkt, grått og vått.", "en": "Dark, grey and wet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 1.4, "nedbor": 58, "no": "Mørkt, men julemarked i Helsinki.", "en": "Dark, but Christmas market in Helsinki."}
+  ],
+  "vinduer": [
+    {"fra": "2026-06-19", "til": "2026-06-21", "type": "Helligdag", "justering": -0.3, "no": "Juhannus (midtsommer): Helsinki tom og mye stengt, fest ved sjøene", "en": "Juhannus (Midsummer): Helsinki empty and much closed, parties at the lakes"},
+    {"fra": "2027-06-25", "til": "2027-06-27", "type": "Helligdag", "justering": -0.3, "no": "Juhannus (midtsommer): Helsinki tom og mye stengt, fest ved sjøene", "en": "Juhannus (Midsummer): Helsinki empty and much closed, parties at the lakes"},
+    {"fra": "2028-06-23", "til": "2028-06-25", "type": "Helligdag", "justering": -0.3, "no": "Juhannus (midtsommer): Helsinki tom og mye stengt, fest ved sjøene", "en": "Juhannus (Midsummer): Helsinki empty and much closed, parties at the lakes"}
+  ]
+}

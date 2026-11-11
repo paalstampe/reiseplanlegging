@@ -1,0 +1,35 @@
+{
+  "id": "BGR",
+  "region": "Europa",
+  "land": "Bulgaria",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [42.7, 24.5],
+  "kilde": "Sofia (NIMH), NOAA/WMO 1991–2020, via Wikipedia. Plovdiv 3–4 °C varmere; Svartehavskysten mildere om vinteren",
+  "en": {"land": "Bulgaria", "kategori": "Culture / nature", "kilde": "Sofia (NIMH), NOAA/WMO 1991–2020, via Wikipedia. Plovdiv 3–4 °C warmer; the Black Sea coast milder in winter"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 3, "trengsel": 4, "tmaks": 3.5, "nedbor": 36, "no": "Kaldt (4 °C), snø. Ski i Bansko; Kukeri (se Vinduer).", "en": "Cold (4 °C), snow. Skiing in Bansko; Kukeri (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 6.5, "nedbor": 36, "no": "Kaldt (7 °C). Skisesong.", "en": "Cold (7 °C). Ski season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 11.4, "nedbor": 45, "no": "Kjølig (11 °C). Martenitsa 1.3.", "en": "Cool (11 °C). Martenitsa on 1 Mar."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.7, "nedbor": 52, "no": "Vår (17 °C). Fint i Plovdiv og Veliko Tarnovo.", "en": "Spring (17 °C). Good in Plovdiv and Veliko Tarnovo."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 21.4, "nedbor": 73, "no": "Fint (21 °C), byger. Rosedalen blomstrer.", "en": "Pleasant (21 °C), showers. The Rose Valley blooms."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 25.2, "nedbor": 82, "no": "Varmt (25 °C), tordenbyger. Rosefestival (se Vinduer); Rila åpner.", "en": "Warm (25 °C), thunderstorms. Rose Festival (see events); Rila opens."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 27.8, "nedbor": 65, "no": "Varmt (28 °C). Svartehavskysten full.", "en": "Warm (28 °C). The Black Sea coast packed."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 28.3, "nedbor": 53, "no": "Varmt (28 °C), Plovdiv hett. Høysesong ved kysten.", "en": "Warm (28 °C), Plovdiv hot. High season on the coast."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 23.3, "nedbor": 52, "no": "Ideelt (23 °C), varmt hav, vinhøst.", "en": "Ideal (23 °C), warm sea, wine harvest."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 17.6, "nedbor": 54, "no": "Mildt (18 °C), høstfarger i Rila og Pirin.", "en": "Mild (18 °C), autumn colours in Rila and Pirin."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.7, "nedbor": 38, "no": "Kjølig (11 °C), grått.", "en": "Cool (11 °C), grey."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 4, "tmaks": 4.6, "nedbor": 40, "no": "Kaldt (5 °C). Skisesongen starter.", "en": "Cold (5 °C). Ski season begins."}
+  ],
+  "vinduer": [
+    {"fra": "2026-01-30", "til": "2026-02-01", "type": "Hendelse", "justering": 0.3, "no": "Surva-festivalen i Pernik: kukeri i masker (sjekk dato)", "en": "Surva festival in Pernik: masked kukeri (check date)"},
+    {"fra": "2027-01-29", "til": "2027-01-31", "type": "Hendelse", "justering": 0.3, "no": "Surva-festivalen i Pernik (sjekk dato)", "en": "Surva festival in Pernik (check date)"},
+    {"fra": "2028-01-28", "til": "2028-01-30", "type": "Hendelse", "justering": 0.3, "no": "Surva-festivalen i Pernik (sjekk dato)", "en": "Surva festival in Pernik (check date)"},
+    {"fra": "2026-06-05", "til": "2026-06-07", "type": "Hendelse", "justering": 0.3, "no": "Rosefestivalen i Kazanlak, første helg i juni", "en": "Rose Festival in Kazanlak, first weekend of June"},
+    {"fra": "2027-06-04", "til": "2027-06-06", "type": "Hendelse", "justering": 0.3, "no": "Rosefestivalen i Kazanlak (sjekk dato)", "en": "Rose Festival in Kazanlak (check date)"},
+    {"fra": "2028-06-02", "til": "2028-06-04", "type": "Hendelse", "justering": 0.3, "no": "Rosefestivalen i Kazanlak (sjekk dato)", "en": "Rose Festival in Kazanlak (check date)"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "MOZ",
+  "region": "Afrika",
+  "land": "Mosambik",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / dykking",
+  "merknad": "",
+  "koord": [-22.0, 35.32],
+  "kilde": "Maputo lufthavn, 1991–2020 (nedbør DWD 1961–1990), via Wikipedia (proxy). Vilankulo/Bazaruto og Tofo litt varmere, mer regn jan–mar og syklonfare",
+  "en": {"land": "Mozambique", "kategori": "Beach / diving", "kilde": "Maputo Airport, 1991–2020 (precipitation DWD 1961–1990), via Wikipedia (proxy). Vilankulo/Bazaruto and Tofo slightly warmer, more rain Jan–Mar and cyclone risk"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.8, "nedbor": 171, "no": "Varmt, fuktig regntid; syklonfare. Hvalhaier ved Tofo.", "en": "Hot, humid rainy season; cyclone risk. Whale sharks off Tofo."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.4, "nedbor": 131, "no": "Varmest, byger, syklonfare.", "en": "Hottest, showers, cyclone risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.8, "nedbor": 126, "no": "Fortsatt regn, syklonfaren avtar.", "en": "Still rainy, cyclone risk easing."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.7, "nedbor": 60, "no": "Regnet avtar, varmt hav.", "en": "Rain easing, warm sea."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 28.2, "nedbor": 32, "no": "Tørt, behagelig (28 °C). Gode priser.", "en": "Dry, pleasant (28 °C). Good prices."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.5, "nedbor": 18, "no": "Tørr vinter, mildt (27 °C), kjølige netter. Klart vann.", "en": "Dry winter, mild (27 °C), cool nights. Clear water."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.1, "nedbor": 20, "no": "Tørt, mildt. Knølhvalene kommer (se Vinduer). Sørafrikansk skoleferie.", "en": "Dry, mild. Humpback whales arrive (see events). South African school holidays."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 26.7, "nedbor": 15, "no": "Tørt, mildt. Hvalsesong, god sikt for dykking.", "en": "Dry, mild. Whale season, good visibility for diving."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 28.3, "nedbor": 44, "no": "Tørt, behagelig. Hval og manta. Bra tid.", "en": "Dry, pleasant. Whales and mantas. Good time."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 27.8, "nedbor": 60, "no": "Varmt, lite regn. Siste hvaler; hvalhaisesongen starter.", "en": "Warm, little rain. Last whales; whale shark season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.9, "nedbor": 82, "no": "Varmere, første byger.", "en": "Warmer, first showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 30.7, "nedbor": 85, "no": "Varmt, byger. Jul: sørafrikanere fyller kysten.", "en": "Hot, showers. Christmas: South Africans fill the coast."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 43, "type": "Dyreliv", "justering": 0.3, "no": "Knølhval langs kysten (Tofo, Bazaruto) jul–okt", "en": "Humpback whales along the coast (Tofo, Bazaruto) Jul–Oct"}
+  ]
+}

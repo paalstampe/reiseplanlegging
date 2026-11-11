@@ -1,0 +1,30 @@
+{
+  "id": "TUV",
+  "region": "Oseania",
+  "land": "Tuvalu",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "Få fly: Fiji Airways fra Suva 2–3 ganger i uka",
+  "koord": [-8.52, 179.2],
+  "kilde": "Funafuti lufthavn, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Tuvalu", "kategori": "Beach / nature", "merknad": "Few flights: Fiji Airways from Suva 2–3 times a week", "kilde": "Funafuti Airport, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.1, "nedbor": 414, "no": "Våtest (410 mm), vestlige vinder; syklonrisiko.", "en": "Wettest (410 mm), westerly winds; cyclone risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 351, "no": "Regntid; springflo kan oversvømme Funafuti.", "en": "Rainy season; king tides can flood Funafuti."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 354, "no": "Regntid, springflo, syklonrisiko.", "en": "Rainy season, king tides, cyclone risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.6, "nedbor": 275, "no": "Regnet avtar, syklonsesongen slutter.", "en": "Rain eases, cyclone season ends."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.6, "nedbor": 241, "no": "Passatvind, roligere vær. Fint i lagunen.", "en": "Trade winds, calmer weather. Good in the lagoon."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.4, "nedbor": 215, "no": "Tørrere periode, stabilt. Nesten ingen turister.", "en": "Drier spell, settled. Hardly any tourists."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.1, "nedbor": 243, "no": "Passatvind, byger. Rolig.", "en": "Trade winds, showers. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.1, "nedbor": 254, "no": "Passatvind, byger.", "en": "Trade winds, showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.4, "nedbor": 207, "no": "Minst regn; god sikt for snorkling.", "en": "Least rain; good visibility for snorkelling."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 5, "tmaks": 31.6, "nedbor": 254, "no": "Fint vær. Nasjonaldagen 1.10 (se Vinduer).", "en": "Good weather. National Day 1 Oct (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.7, "nedbor": 256, "no": "Regntiden starter, syklonsesongen åpner.", "en": "Rainy season begins, cyclone season opens."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.6, "nedbor": 333, "no": "Regnfullt; utvandrede tuvaluere hjem til jul.", "en": "Rainy; Tuvaluans abroad come home for Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 40, "til_uke": 40, "type": "Hendelse", "justering": 0.3, "no": "Nasjonaldagen 1.10: fatele-dans og feiring i Funafuti", "en": "National Day 1 Oct: fatele dancing and celebrations in Funafuti"}
+  ]
+}

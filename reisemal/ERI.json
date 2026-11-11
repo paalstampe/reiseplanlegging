@@ -1,0 +1,31 @@
+{
+  "id": "ERI",
+  "region": "Afrika",
+  "land": "Eritrea",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / historie",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [15.32, 38.93],
+  "kilde": "Asmara (2 325 moh), NOAA 1961–1990, via Wikipedia. Massawa ved kysten svært varm mai–sep (37–41 °C)",
+  "en": {"land": "Eritrea", "sted": "", "kategori": "City / culture / history", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Asmara (2,325 m), NOAA 1961–1990, via Wikipedia. Massawa on the coast very hot May–Sep (37–41 °C)"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.3, "nedbor": 4, "no": "Tørt og solrikt (22 °C), kalde netter. Massawa behagelig (29 °C).", "en": "Dry and sunny (22 °C), cold nights. Massawa pleasant (29 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 23.8, "nedbor": 2, "no": "Tørt, klart. Godt for Massawa og Dahlak-øyene.", "en": "Dry, clear. Good for Massawa and the Dahlak islands."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 25.1, "nedbor": 15, "no": "Varmt og tørt (25 °C) i Asmara.", "en": "Warm and dry (25 °C) in Asmara."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 25.1, "nedbor": 33, "no": "Behagelig (25 °C), lite regn.", "en": "Pleasant (25 °C), little rain."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 25.0, "nedbor": 41, "no": "Små regnbyger. Uavhengighetsdagen 24.5 (se Vinduer).", "en": "Light showers. Independence Day 24 May (see events)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 24.9, "nedbor": 38, "no": "Fint i Asmara; Massawa ekstremt varmt (40 °C).", "en": "Fine in Asmara; Massawa extremely hot (40 °C)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 21.6, "nedbor": 175, "no": "Storregntid i høylandet; Massawa 41 °C.", "en": "Main rainy season in the highlands; Massawa 41 °C."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 21.5, "nedbor": 156, "no": "Regntid, tåke og byger på veien til Massawa.", "en": "Rainy season, fog and showers on the road to Massawa."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.9, "nedbor": 16, "no": "Regnet slutter, grønt. Meskel 27.9 (se Vinduer).", "en": "Rain ends, green. Meskel 27 Sep (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 21.7, "nedbor": 15, "no": "Tørt og klart (22 °C).", "en": "Dry and clear (22 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.5, "nedbor": 20, "no": "Mildt, litt regn. Massawa blir behagelig.", "en": "Mild, a little rain. Massawa becomes pleasant."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.5, "nedbor": 3, "no": "Tørt, kalde netter. Strandsesong i Massawa.", "en": "Dry, cold nights. Beach season in Massawa."}
+  ],
+  "vinduer": [
+    {"fra_uke": 21, "til_uke": 21, "type": "Hendelse", "justering": 0.3, "no": "Uavhengighetsdagen 24.5: parader og fest i Asmara, mange fra diasporaen", "en": "Independence Day 24 May: parades and celebrations in Asmara, many diaspora visitors"},
+    {"fra_uke": 39, "til_uke": 39, "type": "Hendelse", "justering": 0.3, "no": "Meskel 27.9: bål og prosesjoner i Asmara", "en": "Meskel 27 Sep: bonfires and processions in Asmara"}
+  ]
+}

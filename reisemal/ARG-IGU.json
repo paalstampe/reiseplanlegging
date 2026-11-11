@@ -1,0 +1,30 @@
+{
+  "id": "ARG-IGU",
+  "region": "Sør-Amerika",
+  "land": "Argentina",
+  "sted": "Iguazú",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-25.69, -54.44],
+  "kilde": "Puerto Iguazú (lufthavn), SMN 1991–2020, via Wikipedia. Brasilsiden (Foz do Iguaçu) omtrent likt",
+  "en": {"land": "Argentina", "sted": "Iguazú", "kategori": "Nature / wildlife", "kilde": "Puerto Iguazú (airport), SMN 1991–2020, via Wikipedia. The Brazilian side (Foz do Iguaçu) similar"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 4, "trengsel": 2, "tmaks": 32.0, "nedbor": 180, "no": "Hett og fuktig (32 °C), byger, mye vann. Sommerferie, fullt.", "en": "Hot and humid (32 °C), showers, lots of water. Summer holidays, full."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 31.5, "nedbor": 150, "no": "Hett, byger; mektige fosser.", "en": "Hot, showers; mighty falls."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 30.6, "nedbor": 153, "no": "Varmt; fortsatt mye vann.", "en": "Hot; still lots of water."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.8, "nedbor": 161, "no": "Mindre hete (28 °C), mye vann. Godt valg.", "en": "Less heat (28 °C), lots of water. A good choice."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 23.5, "nedbor": 186, "no": "Behagelig (24 °C), men regnfullt. Få folk.", "en": "Pleasant (24 °C), but rainy. Few people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 22.2, "nedbor": 146, "no": "Mildt (22 °C). Rolig.", "en": "Mild (22 °C). Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.5, "nedbor": 107, "no": "Mildt og tørrere. Vinterferie (se Vinduer).", "en": "Mild and drier. Winter holidays (see events)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 25.2, "nedbor": 84, "no": "Tørreste måned; mindre vann i fossene.", "en": "Driest month; less water in the falls."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.8, "nedbor": 155, "no": "Varmt (27 °C), mange sommerfugler. Rolig.", "en": "Warm (27 °C), lots of butterflies. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 28.7, "nedbor": 247, "no": "Mest regn (247 mm), mye vann i fossene.", "en": "Most rain (247 mm), lots of water in the falls."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.1, "nedbor": 172, "no": "Varmt, byger. Grønt og frodig.", "en": "Hot, showers. Green and lush."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 31.3, "nedbor": 219, "no": "Hett og vått. Ferie fra jul.", "en": "Hot and wet. Holidays from Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 29, "til_uke": 30, "type": "Annet", "justering": -0.3, "no": "Argentinsk vinterferie: fullt ved fossene (sjekk dato)", "en": "Argentine winter holidays: busy at the falls (check dates)"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "NGA",
+  "region": "Afrika",
+  "land": "Nigeria",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [6.45, 3.4],
+  "kilde": "Lagos Island, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Nigeria", "kategori": "City / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Lagos Island, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.5, "nedbor": 10, "no": "Tørt, varmt (32 °C), harmattan-dis. Kunst- og musikksesong i Lagos.", "en": "Dry, hot (32 °C), harmattan haze. Art and music season in Lagos."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.1, "nedbor": 41, "no": "Tørt og varmt. Lite regn, god tid for Lagos og Abeokuta.", "en": "Dry and hot. Little rain, a good time for Lagos and Abeokuta."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.2, "nedbor": 68, "no": "Svært fuktig og varmt (32 °C). Første byger.", "en": "Very humid and hot (32 °C). First showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.6, "nedbor": 146, "no": "Regntiden starter, tordenbyger.", "en": "Rainy season begins, thunderstorms."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.9, "nedbor": 236, "no": "Mye regn, oversvømte gater i Lagos.", "en": "Heavy rain, flooded streets in Lagos."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 29.4, "nedbor": 434, "no": "Mest regn (430 mm), flom og trafikkaos.", "en": "Wettest (430 mm), floods and traffic chaos."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 28.4, "nedbor": 209, "no": "Regntid, men noe roligere.", "en": "Rainy season, but somewhat calmer."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 28.2, "nedbor": 91, "no": "Lite tørt opphold («August break»). Osun-Osogbo (se Vinduer).", "en": "Short dry spell (August break). Osun-Osogbo (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 29.1, "nedbor": 218, "no": "Regnet tar seg opp igjen.", "en": "Rain picks up again."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.1, "nedbor": 189, "no": "Regnet avtar. Felabration i Lagos (se Vinduer).", "en": "Rain eases. Felabration in Lagos (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.4, "nedbor": 52, "no": "Tørrere og varmt (31 °C). Gode måneder starter.", "en": "Drier and hot (31 °C). The good months begin."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 31.6, "nedbor": 10, "no": "Tørt. «Detty December»: konserter og fester, høye priser i Lagos.", "en": "Dry. Detty December: concerts and parties, high prices in Lagos."}
+  ],
+  "vinduer": [
+    {"fra_uke": 33, "til_uke": 34, "type": "Hendelse", "justering": 0.3, "no": "Osun-Osogbo-festivalen (UNESCO-lund i Osogbo), avslutning i august – sjekk dato", "en": "Osun-Osogbo festival (UNESCO sacred grove in Osogbo), finale in August – check dates"},
+    {"fra_uke": 42, "til_uke": 42, "type": "Hendelse", "justering": 0.3, "no": "Felabration: musikkfestival til minne om Fela Kuti i Lagos (rundt 15.10)", "en": "Felabration: music festival honouring Fela Kuti in Lagos (around 15 Oct)"}
+  ]
+}

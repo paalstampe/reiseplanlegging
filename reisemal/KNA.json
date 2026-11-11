@@ -1,0 +1,32 @@
+{
+  "id": "KNA",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "St. Kitts og Nevis",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [17.25, -62.68],
+  "kilde": "Basseterre (Robert L. Bradshaw International Airport), NOAA 1991–2020, via Wikipedia (avrundede nedbørstall)",
+  "en": {"land": "Saint Kitts and Nevis", "kategori": "Beach / nature", "kilde": "Basseterre (Robert L. Bradshaw International Airport), NOAA 1991–2020, via Wikipedia (rounded rainfall figures)"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 2, "tmaks": 28.7, "nedbor": 50, "no": "Tørt, passatvind, 29 °C. Høysesong.", "en": "Dry, trade winds, 29 °C. High season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 2, "tmaks": 28.8, "nedbor": 40, "no": "Tørt og behagelig. Høysesong.", "en": "Dry and pleasant. High season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 2, "tmaks": 29.1, "nedbor": 40, "no": "Tørrest. Godt for fotturer på Mount Liamuiga.", "en": "Driest. Good for hiking Mount Liamuiga."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 30.1, "nedbor": 55, "no": "Tørt og varmere. Høysesongen ebber ut.", "en": "Dry and warmer. High season winding down."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.0, "nedbor": 75, "no": "Varmt, litt mer regn. Rolig og rimeligere.", "en": "Warm, a little more rain. Quiet and cheaper."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.0, "nedbor": 70, "no": "Varmt; orkansesongen starter. Musikkfestival (se Vinduer).", "en": "Hot; hurricane season begins. Music festival (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.0, "nedbor": 85, "no": "Varmt, byger. Culturama på Nevis (se Vinduer).", "en": "Hot, showers. Culturama on Nevis (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 100, "no": "Orkanrisiko, fuktig.", "en": "Hurricane risk, humid."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.1, "nedbor": 120, "no": "Orkansesongens topp; mange steder stengt.", "en": "Peak hurricane season; many places closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 115, "no": "Orkanrisiko, mest regn.", "en": "Hurricane risk, most rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.3, "nedbor": 90, "no": "Regnet avtar, orkanfaren ebber ut.", "en": "Rain eases, hurricane risk fading."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 29.3, "nedbor": 60, "no": "Tørrere. Sugar Mas-karneval i jula (se Vinduer).", "en": "Drier. Sugar Mas carnival over Christmas (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 26, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "St. Kitts Music Festival i Basseterre (siste helg i juni, sjekk dato)", "en": "St. Kitts Music Festival in Basseterre (last weekend of June, check dates)"},
+    {"fra_uke": 31, "til_uke": 31, "type": "Hendelse", "justering": 0.3, "no": "Culturama på Nevis (slutten av juli til første mandag i august)", "en": "Culturama on Nevis (late July to the first Monday of August)"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Hendelse", "justering": 0.3, "no": "Sugar Mas: karnevalsparader 26.12–2.1, festlig, men fullt", "en": "Sugar Mas: carnival parades 26 Dec–2 Jan, festive, but full"}
+  ]
+}

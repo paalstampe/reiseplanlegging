@@ -1,0 +1,32 @@
+{
+  "id": "ESP-CAN",
+  "region": "Europa",
+  "land": "Spania",
+  "sted": "Kanariøyene",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [27.96, -15.59],
+  "kilde": "Las Palmas de Gran Canaria (Gran Canaria lufthavn), AEMET, trolig 1991–2020, via Wikipedia. Sørsiden av øyene tørrere og solrikere, nordsiden og fjellene kjøligere",
+  "en": {"land": "Spain", "sted": "Canary Islands", "kategori": "Beach / nature", "kilde": "Las Palmas de Gran Canaria (Gran Canaria Airport), AEMET, probably 1991–2020, via Wikipedia. The southern sides of the islands drier and sunnier, the north and the mountains cooler"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 21.1, "nedbor": 23, "no": "Mildt (21 °C), noe regn, kjølig hav (19 °C). Høysesong for nordmenn.", "en": "Mild (21 °C), some rain, cool sea (19 °C). High season for Scandinavians."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 21.3, "nedbor": 20, "no": "Mildt (21 °C), tørrere. Karneval (se Vinduer). Fullt.", "en": "Mild (21 °C), drier. Carnival (see events). Busy."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.2, "nedbor": 12, "no": "Mildt (22 °C), fint for fotturer på Tenerife og La Palma.", "en": "Mild (22 °C), good for hiking on Tenerife and La Palma."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.9, "nedbor": 5, "no": "Behagelig (23 °C), tørt. Fint for fotturer.", "en": "Pleasant (23 °C), dry. Good for hiking."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 24.0, "nedbor": 1, "no": "Ideelt (24 °C), tørt og sol. Rolig.", "en": "Ideal (24 °C), dry and sunny. Quiet."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 25.6, "nedbor": 0, "no": "Varmt (26 °C), tørt, skydekke i nord. Rolig før ferien.", "en": "Warm (26 °C), dry, cloud in the north. Quiet before the holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 27.2, "nedbor": 0, "no": "Varmt (27 °C), passatvind, av og til calima (støv fra Sahara).", "en": "Warm (27 °C), trade winds, occasional calima (Saharan dust)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 27.8, "nedbor": 1, "no": "Varmest (28 °C). Spansk fellesferie, fullt.", "en": "Hottest (28 °C). Spanish holidays, busy."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.2, "nedbor": 5, "no": "Varmt (27 °C), varmest hav (23 °C). Beste badetid.", "en": "Warm (27 °C), warmest sea (23 °C). Best for swimming."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.3, "nedbor": 21, "no": "Varmt (26 °C), varmt hav. Vintersesongen starter.", "en": "Warm (26 °C), warm sea. The winter season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 24.3, "nedbor": 17, "no": "Mildt (24 °C), noe regn. Godt badevann.", "en": "Mild (24 °C), some rain. Warm sea."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 22.3, "nedbor": 29, "no": "Mildt (22 °C), mest regn. Jul og nyttår fullt og dyrt.", "en": "Mild (22 °C), wettest month. Christmas and New Year full and expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-11", "til": "2026-02-22", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Santa Cruz de Tenerife og Las Palmas (sjekk dato)", "en": "Carnival in Santa Cruz de Tenerife and Las Palmas (check dates)"},
+    {"fra": "2027-02-03", "til": "2027-02-14", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Santa Cruz de Tenerife og Las Palmas (sjekk dato)", "en": "Carnival in Santa Cruz de Tenerife and Las Palmas (check dates)"},
+    {"fra": "2028-02-23", "til": "2028-03-05", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Santa Cruz de Tenerife og Las Palmas (sjekk dato)", "en": "Carnival in Santa Cruz de Tenerife and Las Palmas (check dates)"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "MAR",
+  "region": "Afrika",
+  "land": "Marokko",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [31.63, -7.99],
+  "kilde": "Marrakech (Menara lufthavn), NOAA 1991–2020, via Wikipedia. Fès og kysten kjøligere om sommeren; Sahara (Merzouga) svært varm om sommeren og kald om natta om vinteren",
+  "en": {"land": "Morocco", "kategori": "Culture / nature", "kilde": "Marrakesh (Menara Airport), NOAA 1991–2020, via Wikipedia. Fez and the coast cooler in summer; the Sahara (Merzouga) very hot in summer and cold at night in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 19.1, "nedbor": 25, "no": "Mildt på dagen (19 °C), kalde netter. Snø i Atlas. Rolig.", "en": "Mild by day (19 °C), cold nights. Snow in the Atlas. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.7, "nedbor": 26, "no": "Mildt; mandeltrærne blomstrer.", "en": "Mild; almond trees in bloom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.6, "nedbor": 35, "no": "Behagelig (24 °C), grønt. Fin tid i ørkenen.", "en": "Pleasant (24 °C), green. Good time in the desert."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.7, "nedbor": 26, "no": "Ideelt (26 °C). Høysesong.", "en": "Ideal (26 °C). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.4, "nedbor": 11, "no": "Varmt, tørt. Rosefestival i Dadès (se Vinduer).", "en": "Warm, dry. Rose festival in the Dadès (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 33.6, "nedbor": 3, "no": "Varmt (34 °C); Atlas og kysten svalere.", "en": "Hot (34 °C); the Atlas and the coast cooler."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 37.7, "nedbor": 2, "no": "Svært varmt (38 °C), ørkenen over 40 °C. Kyst og fjell OK.", "en": "Very hot (38 °C), desert above 40 °C. Coast and mountains OK."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 37.4, "nedbor": 5, "no": "Svært varmt. Ferietid, mange tilreisende.", "en": "Very hot. Holiday season, many visitors."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 32.5, "nedbor": 15, "no": "Varmt (33 °C), avtar.", "en": "Warm (33 °C), easing."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.5, "nedbor": 19, "no": "Ideelt (29 °C). Høysesong.", "en": "Ideal (29 °C). High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 23.1, "nedbor": 30, "no": "Mildt (23 °C). Fint i ørkenen og Atlas.", "en": "Mild (23 °C). Fine in the desert and the Atlas."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 20.1, "nedbor": 24, "no": "Mildt på dagen, kalde netter. Juleturister.", "en": "Mild by day, cold nights. Christmas tourists."}
+  ],
+  "vinduer": [
+    {"fra_uke": 19, "til_uke": 20, "type": "Hendelse", "justering": 0.3, "no": "Rosefestivalen i Kelaat M'Gouna (mai, sjekk dato)", "en": "Rose festival in Kelaat M'Gouna (May, check date)"},
+    {"fra_uke": 22, "til_uke": 23, "type": "Hendelse", "justering": 0.3, "no": "Festival for hellig musikk i Fès (slutten av mai/juni, sjekk dato)", "en": "Fes Festival of World Sacred Music (late May/June, check date)"}
+  ]
+}

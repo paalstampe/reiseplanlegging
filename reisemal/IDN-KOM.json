@@ -1,0 +1,29 @@
+{
+  "id": "IDN-KOM",
+  "region": "Asia",
+  "land": "Indonesia",
+  "sted": "Komodo og Flores",
+  "kortnavn": "Komodo og Flores",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-8.55, 119.7],
+  "kilde": "Labuan Bajo, Climate-Data.org (modellerte data, periode ikke oppgitt), via Wikipedia. Bima (Sumbawa) og Maumere (Øst-Flores), 1991–2020, har samme mønster: tørt jun–okt",
+  "en": {"land": "Indonesia", "sted": "Komodo and Flores", "kortnavn": "Komodo and Flores", "kategori": "Nature / wildlife", "kilde": "Labuan Bajo, Climate-Data.org (modelled data, period not stated), via Wikipedia. Bima (Sumbawa) and Maumere (eastern Flores), 1991–2020, have the same pattern: dry Jun–Oct"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.4, "nedbor": 291, "no": "Regntid; grov sjø kan stoppe båtturene. Få turister.", "en": "Rainy season; rough seas can stop boat trips. Few tourists."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 29.8, "nedbor": 274, "no": "Regntid, frodig. Båtturer kan bli innstilt.", "en": "Rainy season, lush. Boat trips may be cancelled."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.5, "nedbor": 196, "no": "Regnet avtar, grønne åser. Rolig.", "en": "Rain easing, green hills. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.0, "nedbor": 103, "no": "Tørrtiden starter, grønt landskap. God sikt under vann.", "en": "Dry season begins, green landscape. Good underwater visibility."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.8, "nedbor": 80, "no": "Tørt, rolig sjø, fortsatt grønt. En av de beste månedene.", "en": "Dry, calm seas, still green. One of the best months."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.4, "nedbor": 42, "no": "Tørt og behagelig. Båtturer og dykking på sitt beste.", "en": "Dry and pleasant. Boat trips and diving at their best."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 30.4, "nedbor": 25, "no": "Tørt. Høysesong med indonesisk skoleferie; bestill båt tidlig.", "en": "Dry. High season with Indonesian school holidays; book boats early."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 30.9, "nedbor": 24, "no": "Tørt, brunere landskap. Høysesong, travelt i Labuan Bajo.", "en": "Dry, browner landscape. High season, busy in Labuan Bajo."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.5, "nedbor": 21, "no": "Tørt og varmt. Fortsatt høysesong.", "en": "Dry and warm. Still high season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.9, "nedbor": 46, "no": "Varmest (32 °C), stort sett tørt. Færre folk.", "en": "Hottest (32 °C), mostly dry. Fewer people."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.5, "nedbor": 118, "no": "Regnet starter. Mantasesongen begynner.", "en": "Rain begins. Manta season starts."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 30.7, "nedbor": 205, "no": "Regntid; jul og nyttår fylles opp.", "en": "Rainy season; Christmas and New Year fill up."}
+  ],
+  "vinduer": []
+}

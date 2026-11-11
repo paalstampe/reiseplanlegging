@@ -1,0 +1,30 @@
+{
+  "id": "MDV",
+  "region": "Asia",
+  "land": "Maldivene",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / dykking",
+  "merknad": "",
+  "koord": [3.2, 73.22],
+  "kilde": "Malé (Velana lufthavn), WMO 1991–2020, via Wikipedia",
+  "en": {"land": "Maldives", "kategori": "Beach / diving", "kilde": "Malé (Velana International Airport), WMO 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.6, "nedbor": 87, "no": "Tørt, rolig hav og god sikt. Høysesong.", "en": "Dry, calm sea and good visibility. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.0, "nedbor": 38, "no": "Tørrest. Topp for dykking. Høysesong, dyrt.", "en": "Driest. Peak diving. High season, expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.6, "nedbor": 49, "no": "Tørt og solrikt, krystallklart vann.", "en": "Dry and sunny, crystal-clear water."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 31.9, "nedbor": 127, "no": "Varmest, stille. God sikt under vann.", "en": "Hottest, calm. Good underwater visibility."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.5, "nedbor": 238, "no": "Sørvestmonsunen starter: storm og regn. Lave priser.", "en": "Southwest monsoon begins: storms and rain. Low prices."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 31.1, "nedbor": 146, "no": "Byger og vind; mantaer i Baa-atollen (se Vinduer).", "en": "Showers and wind; mantas in Baa Atoll (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 198, "no": "Monsun med solgløtt. Mantaer og hvalhaier. Sommerferie.", "en": "Monsoon with sunny spells. Mantas and whale sharks. Summer holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.7, "nedbor": 193, "no": "Monsun, topp i Hanifaru Bay (se Vinduer).", "en": "Monsoon, peak at Hanifaru Bay (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.5, "nedbor": 214, "no": "Regn og vind, rimelig.", "en": "Rain and wind, affordable."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.5, "nedbor": 245, "no": "Våtest; skiftende vær.", "en": "Wettest; changeable weather."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.4, "nedbor": 236, "no": "Monsunen snur, bedre sikt mot slutten.", "en": "Monsoon turns, better visibility towards the end."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 30.4, "nedbor": 212, "no": "Tørrere fra midten av måneden. Jul og nyttår, fullt og dyrt.", "en": "Drier from mid-month. Christmas and New Year, full and expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 26, "til_uke": 44, "type": "Dyreliv", "justering": 0.3, "no": "Mantaer og hvalhaier samles i Hanifaru Bay, Baa-atollen (topp jul–okt)", "en": "Mantas and whale sharks gather at Hanifaru Bay, Baa Atoll (peak Jul–Oct)"}
+  ]
+}

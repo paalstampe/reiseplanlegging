@@ -1,0 +1,36 @@
+{
+  "id": "IND-KER",
+  "region": "Asia",
+  "land": "India",
+  "sted": "Kerala",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [9.6, 76.4],
+  "kilde": "Kochi (Cochin lufthavn), IMD 1991–2020, via Wikipedia (nedbør = regn). Munnar (1 500 moh) kjøligere",
+  "en": {"land": "India", "sted": "Kerala", "kategori": "Nature / culture", "kilde": "Kochi (Cochin Airport), IMD 1991–2020, via Wikipedia (precipitation = rainfall). Munnar (1,500 m) cooler"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 33.7, "nedbor": 2, "no": "Tørt og solrikt. Backwaters og strand. Høysesong.", "en": "Dry and sunny. Backwaters and beaches. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 34.6, "nedbor": 15, "no": "Tørt, varmt (35 °C). Godt overalt.", "en": "Dry, hot (35 °C). Good everywhere."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 34.8, "nedbor": 40, "no": "Varmt og fuktig. Fint i Munnar.", "en": "Hot and humid. Pleasant in Munnar."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 34.4, "nedbor": 116, "no": "Fuktig, tordenbyger. Thrissur Pooram (april/mai).", "en": "Humid, thunderstorms. Thrissur Pooram (April/May)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 33.2, "nedbor": 225, "no": "Fuktig, førmonsunsbyger.", "en": "Humid, pre-monsoon showers."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 30.7, "nedbor": 596, "no": "Monsun (600 mm): grov sjø, strendene stengt. Ayurveda-sesong.", "en": "Monsoon (600 mm): rough seas, beaches closed. Ayurveda season."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 30.0, "nedbor": 571, "no": "Monsun. Regnsesongpriser.", "en": "Monsoon. Rainy-season prices."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.2, "nedbor": 458, "no": "Monsun, avtar. Båtrace og Onam (se Vinduer).", "en": "Monsoon, easing. Boat race and Onam (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.9, "nedbor": 359, "no": "Byger, frodig. Onam (se Vinduer).", "en": "Showers, lush. Onam (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.8, "nedbor": 343, "no": "Nordøstmonsunen, kraftige ettermiddagsbyger.", "en": "Northeast monsoon, heavy afternoon showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 32.6, "nedbor": 176, "no": "Regnet avtar, grønt. Sesongen starter.", "en": "Rain easing, green. The season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 32.9, "nedbor": 53, "no": "Tørt, ideelt. Topp: jul og nyttår, fullt.", "en": "Dry, ideal. Peak: Christmas and New Year, full."}
+  ],
+  "vinduer": [
+    {"fra": "2026-08-08", "til": "2026-08-08", "type": "Hendelse", "justering": 0.3, "no": "Nehru Trophy-båtrace i Alappuzha 2026 (andre lørdag i august)", "en": "Nehru Trophy Boat Race in Alappuzha 2026 (second Saturday of August)"},
+    {"fra": "2027-08-14", "til": "2027-08-14", "type": "Hendelse", "justering": 0.3, "no": "Nehru Trophy-båtrace i Alappuzha 2027", "en": "Nehru Trophy Boat Race in Alappuzha 2027"},
+    {"fra": "2028-08-12", "til": "2028-08-12", "type": "Hendelse", "justering": 0.3, "no": "Nehru Trophy-båtrace i Alappuzha 2028", "en": "Nehru Trophy Boat Race in Alappuzha 2028"},
+    {"fra": "2026-08-22", "til": "2026-08-26", "type": "Hendelse", "justering": 0.3, "no": "Onam 2026: høstfest med blomstertepper og fester", "en": "Onam 2026: harvest festival with flower carpets and feasts"},
+    {"fra": "2027-09-08", "til": "2027-09-12", "type": "Hendelse", "justering": 0.3, "no": "Onam 2027 (sjekk dato)", "en": "Onam 2027 (check dates)"},
+    {"fra": "2028-08-28", "til": "2028-09-01", "type": "Hendelse", "justering": 0.3, "no": "Onam 2028 (sjekk dato)", "en": "Onam 2028 (check dates)"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Annet", "justering": -0.5, "no": "Jul/nyttår: toppriser, fullt", "en": "Christmas/New Year: peak prices, full"}
+  ]
+}

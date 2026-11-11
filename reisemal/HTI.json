@@ -1,0 +1,34 @@
+{
+  "id": "HTI",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Haiti",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [18.54, -72.34],
+  "kilde": "Port-au-Prince, Climate & Temperature 1991–2020, via Wikipedia. Nordkysten (Cap-Haïtien, Citadelle) får mer regn okt–jan",
+  "en": {"land": "Haiti", "kategori": "Culture / nature", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Port-au-Prince, Climate & Temperature 1991–2020, via Wikipedia. The north coast (Cap-Haïtien, Citadelle) gets more rain Oct–Jan"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 25, "no": "Tørt og varmt (31 °C). Beste tid.", "en": "Dry and warm (31 °C). Best time."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 30.8, "nedbor": 33, "no": "Tørt. Kanaval i Jacmel og Port-au-Prince (se Vinduer).", "en": "Dry. Kanaval in Jacmel and Port-au-Prince (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 58, "no": "Mest tørt, varmere (32 °C).", "en": "Mostly dry, warmer (32 °C)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.2, "nedbor": 121, "no": "Første regntid starter.", "en": "First rainy season begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.8, "nedbor": 214, "no": "Mest regn i vårregntiden (214 mm).", "en": "Wettest month of the spring rains (214 mm)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.9, "nedbor": 111, "no": "Varmt; orkansesongen starter.", "en": "Hot; hurricane season begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 34.4, "nedbor": 122, "no": "Varmest (34 °C). Pilegrimsferd til Saut-d'Eau (se Vinduer).", "en": "Hottest (34 °C). Pilgrimage to Saut-d'Eau (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 34.2, "nedbor": 155, "no": "Varmt, orkanrisiko.", "en": "Hot, hurricane risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 33.3, "nedbor": 188, "no": "Orkansesongens topp.", "en": "Peak of the hurricane season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.5, "nedbor": 165, "no": "Regn og orkanrisiko.", "en": "Rain and hurricane risk."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 71, "no": "Tørrere. Fête Gede 1.–2.11 (se Vinduer).", "en": "Drier. Fête Gede 1–2 Nov (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 31.1, "nedbor": 32, "no": "Tørt og behagelig. Diasporaen kommer hjem til jul.", "en": "Dry and pleasant. The diaspora comes home for Christmas."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-08", "til": "2026-02-17", "type": "Hendelse", "justering": 0.5, "no": "Kanaval: Jacmel (papirmâché-masker) søndagen før, Port-au-Prince søn–tir (sjekk dato)", "en": "Kanaval: Jacmel (papier-mâché masks) the Sunday before, Port-au-Prince Sun–Tue (check dates)"},
+    {"fra": "2027-01-31", "til": "2027-02-09", "type": "Hendelse", "justering": 0.5, "no": "Kanaval: Jacmel (papirmâché-masker) søndagen før, Port-au-Prince søn–tir (sjekk dato)", "en": "Kanaval: Jacmel (papier-mâché masks) the Sunday before, Port-au-Prince Sun–Tue (check dates)"},
+    {"fra": "2028-02-20", "til": "2028-02-29", "type": "Hendelse", "justering": 0.5, "no": "Kanaval: Jacmel (papirmâché-masker) søndagen før, Port-au-Prince søn–tir (sjekk dato)", "en": "Kanaval: Jacmel (papier-mâché masks) the Sunday before, Port-au-Prince Sun–Tue (check dates)"},
+    {"fra_uke": 29, "til_uke": 29, "type": "Hendelse", "justering": 0.3, "no": "Saut-d'Eau (rundt 16.7): vodou- og katolsk pilegrimsferd til fossen", "en": "Saut-d'Eau (around 16 Jul): Vodou and Catholic pilgrimage to the waterfall"},
+    {"fra_uke": 44, "til_uke": 44, "type": "Hendelse", "justering": 0.3, "no": "Fête Gede (1.–2.11): vodou-feiring av de døde på kirkegårdene", "en": "Fête Gede (1–2 Nov): Vodou celebration of the dead in the cemeteries"}
+  ]
+}

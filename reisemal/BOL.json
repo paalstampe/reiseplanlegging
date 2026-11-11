@@ -1,0 +1,35 @@
+{
+  "id": "BOL",
+  "region": "Sør-Amerika",
+  "land": "Bolivia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "Høyde: La Paz og Uyuni over 3 600 moh – sett av dager til akklimatisering",
+  "koord": [-18.5, -67.5],
+  "kilde": "La Paz (Laikakota, 3 650 moh), SENAMHI 1981–2010, via Wikipedia. Uyuni (3 680 moh, 1981–2010): tørrere, frost om natten jun–aug",
+  "en": {"land": "Bolivia", "kategori": "Nature / culture", "merknad": "Altitude: La Paz and Uyuni above 3,600 m – allow days to acclimatise", "kilde": "La Paz (Laikakota, 3,650 m), SENAMHI 1981–2010, via Wikipedia. Uyuni (3,680 m, 1981–2010): drier, frost at night Jun–Aug"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 18.5, "nedbor": 126, "no": "Regntid: byger og ras på veiene. Speileffekt på Salar de Uyuni kan starte.", "en": "Rainy season: showers and landslides on roads. Mirror effect on Salar de Uyuni may begin."},
+    {"klima": 2, "opplevelse": 5, "trengsel": 2, "tmaks": 18.7, "nedbor": 81, "no": "Regntid, speil på saltsletta. Karneval i Oruro (se Vinduer).", "en": "Rainy season, mirror on the salt flat. Carnival in Oruro (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 18.9, "nedbor": 68, "no": "Regnet avtar; fortsatt vann på saltsletta.", "en": "Rain eases; still water on the salt flat."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.2, "nedbor": 27, "no": "Tørrere og klart. Saltsletta tørker.", "en": "Drier and clear. The salt flat dries out."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 19.1, "nedbor": 9, "no": "Tørt og klart, kalde netter. Gran Poder i La Paz (se Vinduer).", "en": "Dry and clear, cold nights. Gran Poder in La Paz (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 17.8, "nedbor": 8, "no": "Tørt, klar luft; frost om natten på altiplano. Høysesongen starter.", "en": "Dry, clear air; frost at night on the altiplano. High season begins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 17.4, "nedbor": 5, "no": "Tørt og klart, kaldest om natten. Høysesong.", "en": "Dry and clear, coldest at night. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 18.4, "nedbor": 12, "no": "Tørt, vind. Høysesong.", "en": "Dry, windy. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 19.0, "nedbor": 25, "no": "Tørt, mildere netter. Godt valg.", "en": "Dry, milder nights. A good choice."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 19.8, "nedbor": 38, "no": "Varmere, mest tørt. Flamingoer i lagunene sør for Uyuni.", "en": "Warmer, mostly dry. Flamingos in the lagoons south of Uyuni."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.4, "nedbor": 44, "no": "Varmt på dagen, første byger.", "en": "Warm by day, first showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 20.0, "nedbor": 82, "no": "Regntiden starter.", "en": "Rainy season begins."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-14", "til": "2026-02-16", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Oruro (UNESCO): storslått, men dyrt og fullt", "en": "Carnival in Oruro (UNESCO): spectacular, but expensive and full"},
+    {"fra": "2027-02-06", "til": "2027-02-08", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Oruro", "en": "Carnival in Oruro"},
+    {"fra": "2028-02-26", "til": "2028-02-28", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Oruro", "en": "Carnival in Oruro"},
+    {"fra": "2026-05-30", "til": "2026-05-30", "type": "Hendelse", "justering": 0.3, "no": "Gran Poder i La Paz: dansefestival, lørdagen før trefoldighetssøndag", "en": "Gran Poder in La Paz: dance festival, the Saturday before Trinity Sunday"},
+    {"fra": "2027-05-22", "til": "2027-05-22", "type": "Hendelse", "justering": 0.3, "no": "Gran Poder i La Paz", "en": "Gran Poder in La Paz"},
+    {"fra": "2028-06-10", "til": "2028-06-10", "type": "Hendelse", "justering": 0.3, "no": "Gran Poder i La Paz", "en": "Gran Poder in La Paz"}
+  ]
+}

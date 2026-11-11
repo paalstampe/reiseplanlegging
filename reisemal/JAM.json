@@ -1,0 +1,31 @@
+{
+  "id": "JAM",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Jamaica",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [18.47, -77.92],
+  "kilde": "Montego Bay, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Jamaica", "kategori": "Beach / culture", "kilde": "Montego Bay, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.8, "nedbor": 77, "no": "Tørt og behagelig (30 °C). Høysesong.", "en": "Dry and pleasant (30 °C). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.0, "nedbor": 42, "no": "Tørreste måned. Høysesong.", "en": "Driest month. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.5, "nedbor": 59, "no": "Tørt og solrikt. Spring break.", "en": "Dry and sunny. Spring break."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.4, "nedbor": 64, "no": "Tørt; høysesongen slutter etter påske.", "en": "Dry; high season ends after Easter."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.0, "nedbor": 150, "no": "Varmere, første regnbyger. Lavere priser.", "en": "Warmer, first showers. Lower prices."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 33.0, "nedbor": 86, "no": "Varmt (33 °C); orkansesongen starter.", "en": "Hot (33 °C); hurricane season begins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 33.3, "nedbor": 66, "no": "Varmt og tørrere. Reggae Sumfest (se Vinduer).", "en": "Hot and drier. Reggae Sumfest (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.4, "nedbor": 94, "no": "Varmest (33 °C), orkanrisiko.", "en": "Hottest (33 °C), hurricane risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 33.0, "nedbor": 135, "no": "Orkansesongens topp.", "en": "Peak of the hurricane season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.2, "nedbor": 159, "no": "Mest regn (160 mm), orkanrisiko.", "en": "Wettest (160 mm), hurricane risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.1, "nedbor": 107, "no": "Regnet avtar; rolig før høysesongen.", "en": "Rain eases; quiet before the high season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 2, "tmaks": 30.2, "nedbor": 81, "no": "Tørt; høysesong, dyrt i jula.", "en": "Dry; high season, expensive at Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 1, "til_uke": 1, "type": "Hendelse", "justering": 0.3, "no": "Accompong Maroon-festivalen 6.1: trommer, mat og seremonier", "en": "Accompong Maroon Festival, 6 Jan: drumming, food and ceremonies"},
+    {"fra_uke": 29, "til_uke": 30, "type": "Hendelse", "justering": 0.5, "no": "Reggae Sumfest i Montego Bay (sjekk dato)", "en": "Reggae Sumfest in Montego Bay (check dates)"}
+  ]
+}

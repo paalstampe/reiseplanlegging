@@ -1,0 +1,30 @@
+{
+  "id": "MLI",
+  "region": "Afrika",
+  "land": "Mali",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [13.91, -4.55],
+  "kilde": "Bamako, WMO 1991–2020, via Wikipedia. Mopti, Djenné og Dogonlandet varmere og tørrere",
+  "en": {"land": "Mali", "kategori": "Culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Bamako, WMO 1991–2020, via Wikipedia. Mopti, Djenné and Dogon Country hotter and drier"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.6, "nedbor": 2, "no": "Tørt og behagelig (33 °C), harmattan-dis. Beste tid.", "en": "Dry and pleasant (33 °C), harmattan haze. Best time."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 35.7, "nedbor": 1, "no": "Varmere (36 °C), tørt, dis.", "en": "Warmer (36 °C), dry, hazy."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 38.3, "nedbor": 4, "no": "Varmt (38 °C).", "en": "Hot (38 °C)."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 5, "tmaks": 39.5, "nedbor": 18, "no": "Hetest (40 °C, mer i Dogon). Crépissage i Djenné (se Vinduer).", "en": "Hottest (40 °C, more in Dogon). Crépissage in Djenné (see events)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 37.9, "nedbor": 71, "no": "Svært varmt, første regn.", "en": "Very hot, first rain."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 34.8, "nedbor": 130, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.6, "nedbor": 227, "no": "Regntid, veier vanskelige.", "en": "Rainy season, difficult roads."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 30.6, "nedbor": 264, "no": "Mest regn; flom og stengte veier.", "en": "Most rain; floods and closed roads."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.9, "nedbor": 176, "no": "Regntid, Nigerdeltaet fylles.", "en": "Rainy season, the Niger delta fills."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 34.5, "nedbor": 53, "no": "Regnet slutter, grønt. Høy vannstand i Niger.", "en": "Rain ends, green. High water on the Niger."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 35.4, "nedbor": 2, "no": "Tørt, varmt (35 °C). Båter på Niger, god tid for Dogon.", "en": "Dry, hot (35 °C). Boats on the Niger, good time for Dogon."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 33.3, "nedbor": 0, "no": "Tørt, behagelig, kjølige netter. Beste tid.", "en": "Dry, pleasant, cool nights. Best time."}
+  ],
+  "vinduer": [
+    {"fra_uke": 15, "til_uke": 17, "type": "Hendelse", "justering": 0.3, "no": "Crépissage: ny leirpuss på Den store moskeen i Djenné (april, sjekk dato)", "en": "Crépissage: replastering of the Great Mosque of Djenné (April, check date)"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "DNK",
+  "region": "Europa",
+  "land": "Danmark",
+  "sted": "København",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [55.68, 12.57],
+  "kilde": "København (Kastrup lufthavn), DMI 1991–2020 (nedbør 1971–2000), via Wikipedia",
+  "en": {"land": "Denmark", "sted": "Copenhagen", "kategori": "City / culture / food", "kilde": "Copenhagen (Kastrup Airport), DMI 1991–2020 (precipitation 1971–2000), via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 3.3, "nedbor": 37, "no": "Kaldt (3 °C), mørkt. Museer og restauranter.", "en": "Cold (3 °C), dark. Museums and restaurants."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 3.4, "nedbor": 23, "no": "Kaldt (3 °C), grått. Lave hotellpriser.", "en": "Cold (3 °C), grey. Low hotel prices."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 6.3, "nedbor": 35, "no": "Kjølig (6 °C), lysere.", "en": "Cool (6 °C), lighter."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 11.3, "nedbor": 32, "no": "Vår (11 °C). Tivoli åpner.", "en": "Spring (11 °C). Tivoli opens."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 15.8, "nedbor": 40, "no": "Fint (16 °C), lange dager. Uteliv på Nyhavn.", "en": "Pleasant (16 °C), long days. Outdoor life on Nyhavn."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 19.2, "nedbor": 50, "no": "Ideelt (19 °C). Havnebad og sankthans.", "en": "Ideal (19 °C). Harbour baths and Midsummer."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 22.7, "nedbor": 51, "no": "Varmest (23 °C). Jazzfestival (se Vinduer). Mye turister.", "en": "Warmest (23 °C). Jazz festival (see events). Many tourists."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 21.4, "nedbor": 50, "no": "Varmt (21 °C). Høysesong, Copenhagen Cooking.", "en": "Warm (21 °C). High season, Copenhagen Cooking."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 17.4, "nedbor": 59, "no": "Mildt (17 °C), byger.", "en": "Mild (17 °C), showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 12.2, "nedbor": 50, "no": "Kjølig (12 °C). Kulturnatten.", "en": "Cool (12 °C). Culture Night."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 7.6, "nedbor": 48, "no": "Kaldt (8 °C), mørkt. Julen starter på Tivoli.", "en": "Cold (8 °C), dark. Christmas begins at Tivoli."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 4.6, "nedbor": 46, "no": "Kaldt (5 °C). Julemarkeder og hygge (se Vinduer).", "en": "Cold (5 °C). Christmas markets and hygge (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 47, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Jul i Tivoli og julemarkeder", "en": "Christmas at Tivoli and Christmas markets"},
+    {"fra": "2026-07-03", "til": "2026-07-12", "type": "Hendelse", "justering": 0.3, "no": "Copenhagen Jazz Festival (sjekk dato)", "en": "Copenhagen Jazz Festival (check date)"},
+    {"fra": "2027-07-02", "til": "2027-07-11", "type": "Hendelse", "justering": 0.3, "no": "Copenhagen Jazz Festival (sjekk dato)", "en": "Copenhagen Jazz Festival (check date)"},
+    {"fra": "2028-06-30", "til": "2028-07-09", "type": "Hendelse", "justering": 0.3, "no": "Copenhagen Jazz Festival (sjekk dato)", "en": "Copenhagen Jazz Festival (check date)"}
+  ]
+}

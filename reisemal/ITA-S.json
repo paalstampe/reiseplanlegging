@@ -1,0 +1,32 @@
+{
+  "id": "ITA-S",
+  "region": "Europa",
+  "land": "Italia",
+  "sted": "Sicilia og Amalfi",
+  "kortnavn": "Sicilia og Amalfi",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [37.6, 14.0],
+  "kilde": "Palermo-Boccadifalco, Servizio Meteorologico 1991–2020, via Wikipedia. Amalfikysten våtere om vinteren",
+  "en": {"land": "Italy", "sted": "Sicily and Amalfi", "kortnavn": "Sicily and Amalfi", "kategori": "Beach / culture", "kilde": "Palermo-Boccadifalco, Servizio Meteorologico 1991–2020, via Wikipedia. The Amalfi Coast is wetter in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 15.1, "nedbor": 71, "no": "Mildt (15 °C), regn. Amalfikysten stort sett stengt.", "en": "Mild (15 °C), rain. The Amalfi Coast mostly closed."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.3, "nedbor": 65, "no": "Mildt (15 °C). Mandelblomstring; Sant’Agata i Catania (se Vinduer).", "en": "Mild (15 °C). Almond blossom; Sant’Agata in Catania (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 16.7, "nedbor": 59, "no": "Mildt (17 °C), grønt. Amalfi åpner gradvis.", "en": "Mild (17 °C), green. Amalfi gradually opens."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.8, "nedbor": 44, "no": "Behagelig (20 °C), blomster. Fint for vandring og Etna.", "en": "Pleasant (20 °C), flowers. Good for hiking and Etna."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.0, "nedbor": 26, "no": "Varmt (24 °C). Alt åpent; ideelt for Sentiero degli Dei.", "en": "Warm (24 °C). Everything open; ideal for the Path of the Gods."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.1, "nedbor": 12, "no": "Varmt (28 °C), badevær. Høysesong.", "en": "Hot (28 °C), beach weather. High season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 30.9, "nedbor": 5, "no": "Hett (31 °C). Amalfi fullt og dyrt. Santa Rosalia (se Vinduer).", "en": "Very hot (31 °C). Amalfi full and expensive. Santa Rosalia (see events)."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 1, "tmaks": 31.4, "nedbor": 13, "no": "Hetest (31 °C), scirocco. Ferragosto: alt fullt.", "en": "Hottest (31 °C), scirocco. Ferragosto: everything full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.9, "nedbor": 42, "no": "Varmt (28 °C), varmt hav. Beste måned.", "en": "Warm (28 °C), warm sea. Best month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 24.3, "nedbor": 77, "no": "Mildt (24 °C), fortsatt bading. Færre folk.", "en": "Mild (24 °C), still swimming. Fewer people."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 19.8, "nedbor": 94, "no": "Regnfullt. Amalfi stenger.", "en": "Rainy. Amalfi closes."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 16.3, "nedbor": 81, "no": "Mildt (16 °C), regn. Amalfi stort sett stengt.", "en": "Mild (16 °C), rain. Amalfi mostly closed."}
+  ],
+  "vinduer": [
+    {"fra_uke": 5, "til_uke": 6, "type": "Hendelse", "justering": 0.3, "no": "Sant’Agata i Catania 3.–5.2: en av Italias største religiøse fester", "en": "Sant’Agata in Catania 3–5 Feb: one of Italy’s largest religious festivals"},
+    {"fra_uke": 28, "til_uke": 29, "type": "Hendelse", "justering": 0.3, "no": "Festino di Santa Rosalia i Palermo 14.–15.7: prosesjon og fyrverkeri", "en": "Festino di Santa Rosalia in Palermo 14–15 Jul: procession and fireworks"}
+  ]
+}

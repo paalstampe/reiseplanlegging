@@ -1,0 +1,28 @@
+{
+  "id": "NAM",
+  "region": "Afrika",
+  "land": "Namibia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / roadtrip",
+  "merknad": "",
+  "koord": [-21.5, 16.5],
+  "kilde": "Windhoek (Eros lufthavn), DWD 1991–2020, via Wikipedia. Sossusvlei og Etosha varmere om sommeren; kysten (Swakopmund) kjølig og tåkete hele året",
+  "en": {"land": "Namibia", "kategori": "Nature / road trip", "kilde": "Windhoek (Eros Airport), DWD 1991–2020, via Wikipedia. Sossusvlei and Etosha hotter in summer; the coast (Swakopmund) cool and foggy all year"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.5, "nedbor": 91, "no": "Varmt, tordenbyger. Grønt, men dyrene spredt.", "en": "Hot, thunderstorms. Green, but animals dispersed."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 29.1, "nedbor": 96, "no": "Mest regn, byger på ettermiddagen. Lite folk.", "en": "Most rain, afternoon showers. Few visitors."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 27.8, "nedbor": 79, "no": "Regnet avtar, grønt landskap.", "en": "Rain easing, green landscape."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.2, "nedbor": 19, "no": "Tørt, behagelig (26 °C), fortsatt grønt.", "en": "Dry, pleasant (26 °C), still green."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 23.4, "nedbor": 3, "no": "Tørt, klart, behagelig. Gode priser.", "en": "Dry, clear, pleasant. Good prices."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 21.0, "nedbor": 1, "no": "Tørr vinter, kalde netter (nær 0 °C). Dyrene samles ved vannhull.", "en": "Dry winter, cold nights (near 0 °C). Animals gather at waterholes."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 21.3, "nedbor": 0, "no": "Tørt, kalde netter. God safari i Etosha. Høysesong.", "en": "Dry, cold nights. Good safari in Etosha. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 24.2, "nedbor": 0, "no": "Tørt, behagelig. Toppsesong i Etosha; bestill tidlig.", "en": "Dry, pleasant. Peak season in Etosha; book early."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.5, "nedbor": 2, "no": "Tørt, varmt. Svært god dyreobservasjon.", "en": "Dry, warm. Excellent wildlife viewing."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 30.4, "nedbor": 11, "no": "Varmt (30 °C; hett i Etosha og ørkenen). Dyrelivet på topp.", "en": "Hot (30 °C; hotter in Etosha and the desert). Wildlife at its best."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.9, "nedbor": 27, "no": "Varmt, første byger.", "en": "Hot, first showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 31.3, "nedbor": 47, "no": "Varmt, byger. Lokal ferie, campingplasser fulle.", "en": "Hot, showers. Local holidays, campsites full."}
+  ],
+  "vinduer": []
+}

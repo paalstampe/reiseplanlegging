@@ -1,0 +1,32 @@
+{
+  "id": "TWN",
+  "region": "Asia",
+  "land": "Taiwan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / natur",
+  "merknad": "",
+  "koord": [24.5, 121.2],
+  "kilde": "Taipei, CWB 1991–2020, via Wikipedia. Sør (Kaohsiung) tørrere om vinteren",
+  "en": {"land": "Taiwan", "kategori": "City / culture / nature", "kilde": "Taipei, CWB 1991–2020, via Wikipedia. The south (Kaohsiung) drier in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 19.4, "nedbor": 94, "no": "Kjølig og grått i Taipei (19 °C), yr. Sør tørt og fint.", "en": "Cool and grey in Taipei (19 °C), drizzle. South dry and fine."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 20.3, "nedbor": 102, "no": "Kjølig. Lyktefestivalen (se Vinduer).", "en": "Cool. Lantern Festival (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.7, "nedbor": 108, "no": "Mildere (23 °C). Kirsebær i Alishan.", "en": "Milder (23 °C). Cherry blossom in Alishan."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.4, "nedbor": 101, "no": "Behagelig (26 °C). Gravfesten tidlig i april: fulle tog.", "en": "Pleasant (26 °C). Tomb Sweeping early April: full trains."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.7, "nedbor": 225, "no": "Plommeregnet starter, varmt og fuktig.", "en": "Plum rains begin, warm and humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.7, "nedbor": 235, "no": "Regn og varme (33 °C). Dragebåtfestival.", "en": "Rain and heat (33 °C). Dragon Boat Festival."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 34.8, "nedbor": 214, "no": "Varmest (35 °C), tyfonrisiko. Skoleferie.", "en": "Hottest (35 °C), typhoon risk. School holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 34.2, "nedbor": 237, "no": "Varmt, tyfonrisiko.", "en": "Hot, typhoon risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.5, "nedbor": 237, "no": "Fortsatt tyfonrisiko, avtar mot slutten.", "en": "Still typhoon risk, easing towards the end."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.6, "nedbor": 163, "no": "Behagelig (28 °C). Nasjonaldagen 10.10.", "en": "Pleasant (28 °C). National Day 10 Oct."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 24.8, "nedbor": 89, "no": "Tørt i sør, mildt (25 °C). Fint for fjell og Taroko.", "en": "Dry in the south, mild (25 °C). Good for mountains and Taroko."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.0, "nedbor": 97, "no": "Mildt, noe yr i Taipei.", "en": "Mild, some drizzle in Taipei."}
+  ],
+  "vinduer": [
+    {"fra": "2026-03-01", "til": "2026-03-03", "type": "Hendelse", "justering": 0.3, "no": "Lyktefestivalen (3.3.2026): himmellykter i Pingxi", "en": "Lantern Festival (3 Mar 2026): sky lanterns in Pingxi"},
+    {"fra": "2027-02-18", "til": "2027-02-20", "type": "Hendelse", "justering": 0.3, "no": "Lyktefestivalen (20.2.2027): himmellykter i Pingxi", "en": "Lantern Festival (20 Feb 2027): sky lanterns in Pingxi"},
+    {"fra": "2028-02-07", "til": "2028-02-09", "type": "Hendelse", "justering": 0.3, "no": "Lyktefestivalen (9.2.2028): himmellykter i Pingxi", "en": "Lantern Festival (9 Feb 2028): sky lanterns in Pingxi"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "GBR-SCO",
+  "region": "Europa",
+  "land": "Storbritannia",
+  "sted": "Skottland",
+  "kortnavn": "Skottland",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [56.5, -4.2],
+  "kilde": "Edinburgh (Royal Botanic Garden, 23 moh), Met Office 1991–2020, via Wikipedia. Høylandet og vestkysten kaldere og langt våtere",
+  "en": {"land": "United Kingdom", "sted": "Scotland", "kortnavn": "Scotland", "kategori": "Nature / culture", "kilde": "Edinburgh (Royal Botanic Garden, 23 m), Met Office 1991–2020, via Wikipedia. The Highlands and the west coast colder and much wetter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.3, "nedbor": 65, "no": "Kaldt (7 °C), mørkt og vått. Snø i Høylandet.", "en": "Cold (7 °C), dark and wet. Snow in the Highlands."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.0, "nedbor": 53, "no": "Kaldt, korte dager. Rolig.", "en": "Cold, short days. Quiet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 9.7, "nedbor": 48, "no": "Kjølig (10 °C), lengre dager. Lite folk.", "en": "Cool (10 °C), longer days. Few people."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 12.2, "nedbor": 41, "no": "Kjølig (12 °C), relativt tørt. Lam og påskeliljer.", "en": "Cool (12 °C), fairly dry. Lambs and daffodils."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 14.9, "nedbor": 48, "no": "Tørrest og lyst (15 °C), før knottene. Beste måned i Høylandet.", "en": "Driest and bright (15 °C), before the midges. Best month in the Highlands."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 17.4, "nedbor": 66, "no": "Mildt (17 °C), lange lyse kvelder; knott i Høylandet.", "en": "Mild (17 °C), long light evenings; midges in the Highlands."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 19.3, "nedbor": 72, "no": "Varmest (19 °C), knott. Skoleferie.", "en": "Warmest (19 °C), midges. School holidays."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 1, "tmaks": 19.1, "nedbor": 72, "no": "Mildt (19 °C), regn. Festivalene i Edinburgh (se Vinduer): fullt og dyrt.", "en": "Mild (19 °C), rain. The Edinburgh festivals (see events): full and expensive."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 16.9, "nedbor": 55, "no": "Mildt (17 °C), lyng og færre knott. Godt for Høylandet.", "en": "Mild (17 °C), heather and fewer midges. Good for the Highlands."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 13.4, "nedbor": 76, "no": "Kjølig (13 °C), høstfarger, våtere.", "en": "Cool (13 °C), autumn colours, wetter."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.9, "nedbor": 65, "no": "Kaldt og vått, korte dager. Rolig.", "en": "Cold and wet, short days. Quiet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 7.3, "nedbor": 67, "no": "Kaldt (7 °C), mørkt. Julemarked og Hogmanay (se Vinduer).", "en": "Cold (7 °C), dark. Christmas market and Hogmanay (see events)."}
+  ],
+  "vinduer": [
+    {"fra": "2026-08-07", "til": "2026-08-31", "type": "Hendelse", "justering": 0.3, "no": "Edinburgh Festival Fringe og Military Tattoo: alt fullt", "en": "Edinburgh Festival Fringe and Military Tattoo: everything full"},
+    {"fra": "2027-08-06", "til": "2027-08-30", "type": "Hendelse", "justering": 0.3, "no": "Edinburgh Festival Fringe og Military Tattoo: alt fullt (sjekk dato)", "en": "Edinburgh Festival Fringe and Military Tattoo: everything full (check dates)"},
+    {"fra": "2028-08-04", "til": "2028-08-28", "type": "Hendelse", "justering": 0.3, "no": "Edinburgh Festival Fringe og Military Tattoo: alt fullt (sjekk dato)", "en": "Edinburgh Festival Fringe and Military Tattoo: everything full (check dates)"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Hendelse", "justering": 0.3, "no": "Hogmanay i Edinburgh (30.12–1.1): fakkeltog, gatefest og fyrverkeri", "en": "Hogmanay in Edinburgh (30 Dec–1 Jan): torchlight procession, street party and fireworks"}
+  ]
+}

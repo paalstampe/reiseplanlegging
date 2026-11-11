@@ -1,0 +1,34 @@
+{
+  "id": "MNG",
+  "region": "Asia",
+  "land": "Mongolia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [46.86, 103.84],
+  "kilde": "Ulaanbaatar (1303 moh), Pogoda.ru.net 1991–2020, via Wikipedia. Gobi varmere og tørrere om sommeren",
+  "en": {"land": "Mongolia", "kategori": "Nature / culture", "kilde": "Ulaanbaatar (1,303 m), Pogoda.ru.net 1991–2020, via Wikipedia. The Gobi hotter and drier in summer"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -15.5, "nedbor": 2, "no": "Ekstrem kulde (maks −16 °C, −25 °C om natta).", "en": "Extreme cold (max −16 °C, −25 °C at night)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -9.4, "nedbor": 3, "no": "Svært kaldt. Tsagaan Sar (månenyttår), mye stengt.", "en": "Very cold. Tsagaan Sar (lunar new year), much closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": -0.2, "nedbor": 5, "no": "Kaldt. Isfestival på Khövsgöl (se Vinduer).", "en": "Cold. Ice festival on Khövsgöl (see events)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.4, "nedbor": 8, "no": "Vind og støv, ustabilt vær.", "en": "Wind and dust, unsettled weather."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 17.8, "nedbor": 22, "no": "Mildere (18 °C), men vind og sandstorm i Gobi.", "en": "Milder (18 °C), but wind and sandstorms in the Gobi."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 23.1, "nedbor": 47, "no": "Grønne stepper, behagelig (23 °C). Jurtleirene åpner.", "en": "Green steppe, pleasant (23 °C). Ger camps open."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 25.2, "nedbor": 75, "no": "Naadam (se Vinduer). Varmest, byger. Fullt.", "en": "Naadam (see events). Warmest, showers. Fully booked."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 23.0, "nedbor": 65, "no": "Grønt, byger. Høysesong.", "en": "Green, showers. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 17.2, "nedbor": 28, "no": "Gyllen høst, kalde netter. Færre turister.", "en": "Golden autumn, cold nights. Fewer tourists."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 7.7, "nedbor": 9, "no": "Kaldt (8 °C), frost. Ørnefestival i vest (se Vinduer).", "en": "Cold (8 °C), frost. Eagle festival in the west (see events)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -4.8, "nedbor": 6, "no": "Vinter setter inn, sterk kulde.", "en": "Winter sets in, severe cold."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -13.7, "nedbor": 4, "no": "Ekstrem kulde, smog i Ulaanbaatar.", "en": "Extreme cold, smog in Ulaanbaatar."}
+  ],
+  "vinduer": [
+    {"fra_uke": 9, "til_uke": 10, "type": "Hendelse", "justering": 0.3, "no": "Isfestival på Khövsgöl-sjøen (begynnelsen av mars, sjekk dato)", "en": "Ice festival on Lake Khövsgöl (early March, check date)"},
+    {"fra_uke": 28, "til_uke": 29, "type": "Hendelse", "justering": 0.5, "no": "Naadam 11.–15.7: bryting, hesteløp og bueskyting; fullbooket", "en": "Naadam 11–15 Jul: wrestling, horse racing and archery; fully booked"},
+    {"fra": "2026-10-03", "til": "2026-10-04", "type": "Hendelse", "justering": 0.5, "no": "Ørnefestivalen i Ölgii (3.–4.10.2026, sjekk dato)", "en": "Golden Eagle Festival in Ölgii (3–4 Oct 2026, check date)"},
+    {"fra": "2027-10-02", "til": "2027-10-03", "type": "Hendelse", "justering": 0.5, "no": "Ørnefestivalen i Ölgii (2.–3.10.2027, sjekk dato)", "en": "Golden Eagle Festival in Ölgii (2–3 Oct 2027, check date)"},
+    {"fra": "2028-10-07", "til": "2028-10-08", "type": "Hendelse", "justering": 0.5, "no": "Ørnefestivalen i Ölgii (7.–8.10.2028, sjekk dato)", "en": "Golden Eagle Festival in Ölgii (7–8 Oct 2028, check date)"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "NIC",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Nicaragua",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [11.93, -85.96],
+  "kilde": "Managua (Augusto C. Sandino), DWD 1991–2020, via Wikipedia. Granada og León omtrent like; Karibia-kysten mye våtere",
+  "en": {"land": "Nicaragua", "kategori": "Culture / nature", "kilde": "Managua (Augusto C. Sandino), DWD 1991–2020, via Wikipedia. Granada and León similar; the Caribbean coast much wetter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.8, "nedbor": 1, "no": "Tørt og varmt (32 °C), vind på Nicaraguasjøen. Høysesong.", "en": "Dry and hot (32 °C), wind on Lake Nicaragua. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.9, "nedbor": 2, "no": "Tørt. Fint for vulkaner og surfing.", "en": "Dry. Good for volcanoes and surfing."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 34.3, "nedbor": 4, "no": "Varmt (34 °C), tørt og støvete.", "en": "Hot (34 °C), dry and dusty."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 35.1, "nedbor": 5, "no": "Hetest (35 °C). Semana Santa: strendene fulle.", "en": "Hottest (35 °C). Semana Santa: beaches full."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 34.1, "nedbor": 85, "no": "Regnet starter, fortsatt varmt.", "en": "Rain begins, still hot."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.3, "nedbor": 208, "no": "Grønn sesong, kraftige byger.", "en": "Green season, heavy showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.1, "nedbor": 126, "no": "Tørrere periode (canícula), grønt. Gode surfebølger.", "en": "Drier spell (canícula), green. Good surf."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.4, "nedbor": 135, "no": "Byger. Skilpadder legger egg (se Vinduer).", "en": "Showers. Turtles nesting (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.1, "nedbor": 245, "no": "Mye regn (245 mm).", "en": "Heavy rain (245 mm)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.6, "nedbor": 282, "no": "Våtest (280 mm), orkanrisiko på Karibia-siden.", "en": "Wettest (280 mm), hurricane risk on the Caribbean side."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.4, "nedbor": 48, "no": "Tørrsesongen starter, grønt og frodig.", "en": "Dry season begins, green and lush."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.4, "nedbor": 8, "no": "Tørt. La Gritería 7.12 (se Vinduer); jula gir folk.", "en": "Dry. La Gritería on 7 Dec (see events); crowds at Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 30, "til_uke": 50, "type": "Dyreliv", "justering": 0.3, "no": "Havskilpadder (olive ridley) legger egg ved La Flor og Chacocente, arribadas jul–des", "en": "Olive ridley turtles nesting at La Flor and Chacocente, arribadas Jul–Dec"},
+    {"fra_uke": 49, "til_uke": 50, "type": "Hendelse", "justering": 0.3, "no": "La Purísima og La Gritería (7.12): altere og fest i gatene, særlig i León", "en": "La Purísima and La Gritería (7 Dec): altars and street festivities, especially in León"}
+  ]
+}

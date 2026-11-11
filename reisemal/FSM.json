@@ -1,0 +1,30 @@
+{
+  "id": "FSM",
+  "region": "Oseania",
+  "land": "Mikronesiaføderasjonen",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dykking",
+  "merknad": "",
+  "koord": [6.96, 158.21],
+  "kilde": "Pohnpei (Kolonia), Weatherbase (periode ikke oppgitt, avrundet), via Wikipedia. Yap og Chuuk tørrere jan–apr (Yap: NOAA 1991–2020)",
+  "en": {"land": "Federated States of Micronesia", "kategori": "Nature / diving", "kilde": "Pohnpei (Kolonia), Weatherbase (period not stated, rounded), via Wikipedia. Yap and Chuuk drier Jan–Apr (Yap: NOAA 1991–2020)"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 30.0, "nedbor": 310, "no": "Tørreste periode, passatvind. Manta i Yap, god sikt i Chuuk.", "en": "Driest period, trade winds. Mantas in Yap, good visibility in Chuuk."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 30.0, "nedbor": 260, "no": "Minst regn, roligst sjø. Beste dykkeperiode.", "en": "Least rain, calmest seas. Best diving period."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 30.0, "nedbor": 360, "no": "Fortsatt tørt i Yap og Chuuk. Yap Day (se Vinduer).", "en": "Still dry in Yap and Chuuk. Yap Day (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.0, "nedbor": 450, "no": "Mer regn på Pohnpei; Yap fortsatt bra.", "en": "More rain on Pohnpei; Yap still good."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.0, "nedbor": 490, "no": "Våtest på Pohnpei (490 mm). Få besøkende.", "en": "Wettest on Pohnpei (490 mm). Few visitors."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.0, "nedbor": 420, "no": "Regnfullt, fuktig. Fossene på Pohnpei fulle.", "en": "Rainy, humid. Pohnpei's waterfalls in full flow."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.0, "nedbor": 440, "no": "Regnfullt; byger mest om ettermiddagen.", "en": "Rainy; showers mostly in the afternoon."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.0, "nedbor": 410, "no": "Regnfullt; tyfonrisiko for Yap og Chuuk.", "en": "Rainy; typhoon risk for Yap and Chuuk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.0, "nedbor": 400, "no": "Regn og tyfonrisiko. Lite folk.", "en": "Rain and typhoon risk. Few people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.0, "nedbor": 410, "no": "Regn og tyfonrisiko. Rolig.", "en": "Rain and typhoon risk. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 31.0, "nedbor": 400, "no": "Regnet avtar i Yap og Chuuk; sikten bedres.", "en": "Rain eases in Yap and Chuuk; visibility improves."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.0, "nedbor": 420, "no": "Tørrere periode starter i vest. Manta-sesong i Yap.", "en": "Drier period starts in the west. Manta season in Yap."}
+  ],
+  "vinduer": [
+    {"fra_uke": 9, "til_uke": 9, "type": "Hendelse", "justering": 0.3, "no": "Yap Day 1.3: tradisjonell dans og kultur i Colonia", "en": "Yap Day 1 Mar: traditional dance and culture in Colonia"}
+  ]
+}

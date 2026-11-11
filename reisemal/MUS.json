@@ -1,0 +1,28 @@
+{
+  "id": "MUS",
+  "region": "Afrika",
+  "land": "Mauritius",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [-20.25, 57.55],
+  "kilde": "Port Louis, WMO (periode ikke oppgitt), via Wikipedia. Øst- og sørkysten vindigere og våtere; platået (Curepipe) kjøligere og mye våtere",
+  "en": {"land": "Mauritius", "kategori": "Beach / nature", "kilde": "Port Louis, WMO (period not stated), via Wikipedia. The east and south coasts windier and wetter; the plateau (Curepipe) cooler and much wetter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 31.5, "nedbor": 131, "no": "Varmt, fuktig. Syklonsesong (jan–mar).", "en": "Hot, humid. Cyclone season (Jan–Mar)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.4, "nedbor": 160, "no": "Mest regn; syklonfare.", "en": "Most rain; cyclone risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.5, "nedbor": 83, "no": "Syklonfaren avtar, fortsatt varmt.", "en": "Cyclone risk easing, still hot."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.7, "nedbor": 87, "no": "Varmt, mindre fuktig. Gode priser.", "en": "Warm, less humid. Good prices."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 29.3, "nedbor": 48, "no": "Behagelig (29 °C), tørrere. Gode priser.", "en": "Pleasant (29 °C), drier. Good prices."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.6, "nedbor": 24, "no": "Vinter: mildt (28 °C), vind på østkysten.", "en": "Winter: mild (28 °C), wind on the east coast."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 26.7, "nedbor": 18, "no": "Kjøligst, vind (kitesurfing). Europeisk ferie.", "en": "Coolest, windy (kitesurfing). European holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 26.8, "nedbor": 19, "no": "Mildt, vind. Europeisk ferie.", "en": "Mild, windy. European holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 27.7, "nedbor": 17, "no": "Tørt, behagelig, klart vann. Bra tid.", "en": "Dry, pleasant, clear water. Good time."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.8, "nedbor": 15, "no": "Tørt, varmt (29 °C). God tid for dykking.", "en": "Dry, warm (29 °C). Good time for diving."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.2, "nedbor": 24, "no": "Varmt og tørt. Høysesong.", "en": "Warm and dry. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 31.1, "nedbor": 85, "no": "Varmt, flere byger. Jul og nyttår: dyrt og fullt.", "en": "Hot, more showers. Christmas and New Year: pricey and full."}
+  ],
+  "vinduer": []
+}

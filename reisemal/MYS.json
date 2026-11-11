@@ -1,0 +1,33 @@
+{
+  "id": "MYS",
+  "region": "Asia",
+  "land": "Malaysia",
+  "sted": "Halvøya (Kuala Lumpur, Penang)",
+  "kortnavn": "Malaysia halvøya",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [4.2, 101.3],
+  "kilde": "Kuala Lumpur (Subang lufthavn), WMO 1991–2020, via Wikipedia. Penang tørrest des–feb, våtest sep–okt",
+  "en": {"land": "Malaysia", "sted": "Peninsula (Kuala Lumpur, Penang)", "kortnavn": "Peninsular Malaysia", "kategori": "City / culture / food", "kilde": "Kuala Lumpur (Subang Airport), WMO 1991–2020, via Wikipedia. Penang driest Dec–Feb, wettest Sep–Oct"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 32.6, "nedbor": 227, "no": "Tørt i Penang, byger i KL (33 °C). Thaipusam (se Vinduer).", "en": "Dry in Penang, showers in KL (33 °C). Thaipusam (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 33.3, "nedbor": 193, "no": "Tørrest totalt sett. Thaipusam ved Batu Caves (se Vinduer).", "en": "Driest overall. Thaipusam at Batu Caves (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 33.7, "nedbor": 270, "no": "Varmt, ettermiddagsbyger i KL.", "en": "Hot, afternoon showers in KL."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 33.7, "nedbor": 302, "no": "Tordenbyger på ettermiddagen.", "en": "Afternoon thunderstorms."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 33.6, "nedbor": 230, "no": "Varmt og fuktig, byger.", "en": "Hot and humid, showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 33.3, "nedbor": 146, "no": "Tørrest i KL. Skoleferie gir mer folk.", "en": "Driest in KL. School holidays bring more visitors."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 32.8, "nedbor": 165, "no": "Relativt tørt, mange arabiske turister.", "en": "Fairly dry, many Middle Eastern visitors."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 32.8, "nedbor": 174, "no": "Mulig røykdis fra skogbranner. Merdeka 31.8.", "en": "Possible haze from forest fires. Merdeka 31 Aug."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.7, "nedbor": 220, "no": "Dis mulig, Penang blir våtere.", "en": "Haze possible, Penang getting wetter."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.6, "nedbor": 284, "no": "Våtest i Penang, kraftige byger.", "en": "Wettest in Penang, heavy downpours."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.3, "nedbor": 356, "no": "Mest regn i KL. Deepavali.", "en": "Most rain in KL. Deepavali."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 32.0, "nedbor": 281, "no": "Penang tørker opp. Skoleferie og jul, fullt.", "en": "Penang drying out. School holidays and Christmas, busy."}
+  ],
+  "vinduer": [
+    {"fra": "2026-01-31", "til": "2026-02-01", "type": "Hendelse", "justering": 0.5, "no": "Thaipusam ved Batu Caves 1.2.2026: prosesjon med kavadi-bærere", "en": "Thaipusam at Batu Caves 1 Feb 2026: procession with kavadi bearers"},
+    {"fra": "2027-01-21", "til": "2027-01-22", "type": "Hendelse", "justering": 0.5, "no": "Thaipusam ved Batu Caves (ca. 22.1.2027, sjekk dato)", "en": "Thaipusam at Batu Caves (approx. 22 Jan 2027, check date)"},
+    {"fra": "2028-02-09", "til": "2028-02-10", "type": "Hendelse", "justering": 0.5, "no": "Thaipusam ved Batu Caves (ca. 10.2.2028, sjekk dato)", "en": "Thaipusam at Batu Caves (approx. 10 Feb 2028, check date)"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "SWE",
+  "region": "Europa",
+  "land": "Sverige",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / natur",
+  "merknad": "",
+  "koord": [59.33, 18.07],
+  "kilde": "Stockholm (Observatorielunden), SMHI 1991–2020, via Wikipedia. Nord-Sverige langt kaldere",
+  "en": {"land": "Sweden", "kategori": "City / culture / nature", "kilde": "Stockholm (Observatorielunden), SMHI 1991–2020, via Wikipedia. Northern Sweden much colder"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 1.0, "nedbor": 37, "no": "Kaldt (1 °C) og mørkt. Rolig.", "en": "Cold (1 °C) and dark. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 1.2, "nedbor": 29, "no": "Kaldt, kanskje is på innsjøene. Rolig.", "en": "Cold, perhaps ice on the lakes. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.7, "nedbor": 27, "no": "Kaldt (5 °C), lysere. Lite folk.", "en": "Cold (5 °C), lighter. Few people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 10.7, "nedbor": 29, "no": "Kjølig (11 °C), våren kommer. Valborg (se Vinduer).", "en": "Cool (11 °C), spring arrives. Walpurgis Night (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.5, "nedbor": 34, "no": "Behagelig (17 °C), tørt og lyst. Skjærgården våkner.", "en": "Pleasant (17 °C), dry and light. The archipelago wakes up."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 20.8, "nedbor": 62, "no": "Varmt (21 °C), lyse netter. Midtsommer (se Vinduer).", "en": "Warm (21 °C), light nights. Midsummer (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 23.6, "nedbor": 62, "no": "Varmest (24 °C), skjærgård og bading. Svensk fellesferie.", "en": "Warmest (24 °C), archipelago and swimming. Swedish holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.1, "nedbor": 66, "no": "Varmt (22 °C), bading, kreftskiva.", "en": "Warm (22 °C), swimming, crayfish parties."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.6, "nedbor": 53, "no": "Mildt (17 °C), høstfarger. Færre turister.", "en": "Mild (17 °C), autumn colours. Fewer tourists."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 10.1, "nedbor": 51, "no": "Kjølig (10 °C), grått. Rolig.", "en": "Cool (10 °C), grey. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 5.4, "nedbor": 48, "no": "Kaldt, mørkt og vått. Rolig.", "en": "Cold, dark and wet. Quiet."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 2.5, "nedbor": 48, "no": "Kaldt (3 °C), mørkt, men julemarkeder og Lucia (se Vinduer).", "en": "Cold (3 °C), dark, but Christmas markets and Lucia (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 18, "til_uke": 18, "type": "Hendelse", "justering": 0.3, "no": "Valborgsmässoafton 30.4: bål og vårsang", "en": "Walpurgis Night, 30 Apr: bonfires and spring songs"},
+    {"fra": "2026-06-19", "til": "2026-06-20", "type": "Helligdag", "justering": 0.3, "no": "Midtsommer: fest med majstang på landet, byene stenger og tømmes", "en": "Midsummer: maypole festivities in the countryside, cities close and empty"},
+    {"fra": "2027-06-25", "til": "2027-06-26", "type": "Helligdag", "justering": 0.3, "no": "Midtsommer: fest med majstang på landet, byene stenger og tømmes", "en": "Midsummer: maypole festivities in the countryside, cities close and empty"},
+    {"fra": "2028-06-23", "til": "2028-06-24", "type": "Helligdag", "justering": 0.3, "no": "Midtsommer: fest med majstang på landet, byene stenger og tømmes", "en": "Midsummer: maypole festivities in the countryside, cities close and empty"},
+    {"fra_uke": 48, "til_uke": 51, "type": "Hendelse", "justering": 0.3, "no": "Julemarkeder (Skansen, Gamla stan); Lucia 13.12", "en": "Christmas markets (Skansen, Gamla stan); Lucia on 13 Dec"}
+  ]
+}

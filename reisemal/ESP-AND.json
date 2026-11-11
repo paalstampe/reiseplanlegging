@@ -1,0 +1,33 @@
+{
+  "id": "ESP-AND",
+  "region": "Europa",
+  "land": "Spania",
+  "sted": "Andalucía",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "",
+  "koord": [37.4, -5.0],
+  "kilde": "Sevilla lufthavn, AEMET 1991–2020, via Wikipedia. Granada kjøligere; kysten mildere om sommeren",
+  "en": {"land": "Spain", "sted": "Andalusia", "kategori": "History / culture", "kilde": "Seville Airport, AEMET 1991–2020, via Wikipedia. Granada cooler; the coast milder in summer"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 16.3, "nedbor": 56, "no": "Mildt (16 °C), kalde netter. Snø i Sierra Nevada.", "en": "Mild (16 °C), cold nights. Snow in the Sierra Nevada."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 18.3, "nedbor": 46, "no": "Mildt (18 °C). Mandeltrær i blomst, karneval i Cádiz.", "en": "Mild (18 °C). Almond blossom, carnival in Cádiz."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.6, "nedbor": 47, "no": "Behagelig (22 °C), appelsinblomstring.", "en": "Pleasant (22 °C), orange blossom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.0, "nedbor": 52, "no": "Ideelt (24 °C). Feria de Abril i Sevilla (se Vinduer). Høysesong.", "en": "Ideal (24 °C). Seville April Fair (see events). High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 28.2, "nedbor": 34, "no": "Varmt (28 °C). Patios-festivalen i Córdoba (se Vinduer).", "en": "Warm (28 °C). Córdoba Patios Festival (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.9, "nedbor": 6, "no": "Hett (33 °C) i innlandet; kysten bedre.", "en": "Hot (33 °C) inland; the coast is better."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 3, "tmaks": 36.3, "nedbor": 1, "no": "Svært hett (36 °C, ofte over 40 °C) i Sevilla og Córdoba.", "en": "Very hot (36 °C, often above 40 °C) in Seville and Córdoba."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 2, "tmaks": 36.2, "nedbor": 2, "no": "Svært hett i innlandet; fullt på kysten.", "en": "Very hot inland; the coast is full."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 31.6, "nedbor": 33, "no": "Varmt (32 °C), avtar. Varmt badevann.", "en": "Hot (32 °C), easing. Warm sea."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.3, "nedbor": 75, "no": "Behagelig (26 °C). Beste høstmåned.", "en": "Pleasant (26 °C). Best autumn month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.3, "nedbor": 73, "no": "Mildt (20 °C), noe regn. Lite folk.", "en": "Mild (20 °C), some rain. Few people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 16.9, "nedbor": 77, "no": "Mildt (17 °C), regn. Julemarkeder.", "en": "Mild (17 °C), rain. Christmas markets."}
+  ],
+  "vinduer": [
+    {"fra": "2026-04-19", "til": "2026-04-26", "type": "Hendelse", "justering": 0.5, "no": "Feria de Abril i Sevilla: flamenco og hester, men fullt og dyrt", "en": "Seville April Fair: flamenco and horses, but full and expensive"},
+    {"fra": "2027-04-11", "til": "2027-04-18", "type": "Hendelse", "justering": 0.5, "no": "Feria de Abril i Sevilla (sjekk dato)", "en": "Seville April Fair (check dates)"},
+    {"fra": "2028-04-30", "til": "2028-05-07", "type": "Hendelse", "justering": 0.5, "no": "Feria de Abril i Sevilla (sjekk dato)", "en": "Seville April Fair (check dates)"},
+    {"fra_uke": 19, "til_uke": 20, "type": "Hendelse", "justering": 0.3, "no": "Patios-festivalen i Córdoba, første halvdel av mai (sjekk dato)", "en": "Córdoba Patios Festival, first half of May (check dates)"}
+  ]
+}

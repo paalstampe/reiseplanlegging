@@ -1,0 +1,32 @@
+{
+  "id": "SVN",
+  "region": "Europa",
+  "land": "Slovenia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [46.2, 14.3],
+  "kilde": "Ljubljana (Bežigrad), Slovenias miljøbyrå 1991–2020, via Wikipedia. Bled omtrent likt; kysten mildere og tørrere",
+  "en": {"land": "Slovenia", "kategori": "Nature / culture", "kilde": "Ljubljana (Bežigrad), Slovenian Environment Agency 1991–2020, via Wikipedia. Bled similar; the coast milder and drier"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 4.1, "nedbor": 67, "no": "Kaldt (4 °C), tåke. Ski i Kranjska Gora.", "en": "Cold (4 °C), fog. Skiing in Kranjska Gora."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 7.0, "nedbor": 84, "no": "Kaldt (7 °C). Kurentovanje i Ptuj (se Vinduer).", "en": "Cold (7 °C). Kurentovanje in Ptuj (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 12.3, "nedbor": 83, "no": "Kjølig (12 °C). Rolig.", "en": "Cool (12 °C). Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 17.2, "nedbor": 97, "no": "Mildt (17 °C). Fossene på sitt beste.", "en": "Mild (17 °C). Waterfalls at their best."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 21.8, "nedbor": 114, "no": "Mildt (22 °C), grønt. Bled og Bohinj uten kø.", "en": "Mild (22 °C), green. Bled and Bohinj without queues."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 25.8, "nedbor": 125, "no": "Varmt (26 °C), byger. Bading i Bohinj, fjellstiene åpner.", "en": "Warm (26 °C), showers. Swimming in Bohinj, mountain trails open."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 27.9, "nedbor": 122, "no": "Varmt (28 °C), tordenbyger. Fullt ved Bled og på kysten.", "en": "Warm (28 °C), thunderstorms. Bled and the coast full."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 27.6, "nedbor": 124, "no": "Varmt (28 °C), tordenbyger. Høysesong.", "en": "Warm (28 °C), thunderstorms. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 21.8, "nedbor": 160, "no": "Behagelig (22 °C), mer regn. Fjell og Soča-dalen uten kø.", "en": "Pleasant (22 °C), more rain. Mountains and Soča valley without crowds."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 16.1, "nedbor": 150, "no": "Mildt (16 °C), regn. Høstfarger i Soča-dalen.", "en": "Mild (16 °C), rain. Autumn colours in the Soča valley."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.6, "nedbor": 138, "no": "Vått og grått (10 °C). Ny vin rundt Martinsdagen 11.11.", "en": "Wet and grey (10 °C). New wine around St Martin's Day, 11 Nov."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 4.2, "nedbor": 104, "no": "Kaldt (4 °C). Julemarked og lys i Ljubljana.", "en": "Cold (4 °C). Christmas market and lights in Ljubljana."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-07", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Kurentovanje: karneval i Ptuj (sjekk dato)", "en": "Kurentovanje: carnival in Ptuj (check dates)"},
+    {"fra": "2027-01-30", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Kurentovanje: karneval i Ptuj (sjekk dato)", "en": "Kurentovanje: carnival in Ptuj (check dates)"},
+    {"fra": "2028-02-19", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Kurentovanje: karneval i Ptuj (sjekk dato)", "en": "Kurentovanje: carnival in Ptuj (check dates)"}
+  ]
+}

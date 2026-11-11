@@ -1,0 +1,38 @@
+{
+  "id": "KHM",
+  "region": "Asia",
+  "land": "Kambodsja",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "",
+  "koord": [13.36, 103.86],
+  "kilde": "Siem Reap, DWD 1997–2010, via Wikipedia. Phnom Penh (1988–2013) har samme mønster",
+  "en": {"land": "Cambodia", "sted": "", "kategori": "History / culture", "kilde": "Siem Reap, DWD 1997–2010, via Wikipedia. Phnom Penh (1988–2013) has the same pattern"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.7, "nedbor": 4, "no": "Tørt og behagelig (32 °C). Høysesong ved Angkor.", "en": "Dry and pleasant (32 °C). High season at Angkor."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 33.5, "nedbor": 5, "no": "Tørt, varmere (34 °C).", "en": "Dry, warmer (34 °C)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 34.9, "nedbor": 29, "no": "Varmt (35 °C), tørt. Jevndøgn ved Angkor Wat (se Vinduer).", "en": "Hot (35 °C), dry. Equinox at Angkor Wat (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 35.8, "nedbor": 57, "no": "Hetest (36 °C). Khmer nyttår (se Vinduer).", "en": "Hottest (36 °C). Khmer New Year (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 34.8, "nedbor": 150, "no": "Hett og fuktig; regntiden starter.", "en": "Hot and humid; rainy season begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.6, "nedbor": 214, "no": "Regntid, ettermiddagsbyger. Grønt, få turister.", "en": "Rainy season, afternoon showers. Green, few tourists."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 32.9, "nedbor": 193, "no": "Regntid; grønne templer og fulle vollgraver. Lave priser.", "en": "Rainy season; green temples and full moats. Low prices."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 32.4, "nedbor": 209, "no": "Byger, frodig. Rolig ved templene.", "en": "Showers, lush. Quiet at the temples."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.7, "nedbor": 288, "no": "Mest regn; flom mulig rundt Tonlé Sap.", "en": "Most rain; flooding possible around Tonlé Sap."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.5, "nedbor": 200, "no": "Regnet avtar, høyt vann på Tonlé Sap.", "en": "Rain easing, high water on Tonlé Sap."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 31.2, "nedbor": 51, "no": "Tørrtiden starter, grønt. Vannfestival i Phnom Penh (se Vinduer).", "en": "Dry season begins, green. Water Festival in Phnom Penh (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.6, "nedbor": 7, "no": "Tørt og behagelig (31 °C). Høysesong.", "en": "Dry and pleasant (31 °C). High season."}
+  ],
+  "vinduer": [
+    {"fra": "2026-03-19", "til": "2026-03-21", "type": "Hendelse", "justering": 0.3, "no": "Vårjevndøgn: sola står opp over midttårnet på Angkor Wat", "en": "Spring equinox: the sun rises over the central tower of Angkor Wat"},
+    {"fra": "2027-03-19", "til": "2027-03-21", "type": "Hendelse", "justering": 0.3, "no": "Vårjevndøgn ved Angkor Wat", "en": "Spring equinox at Angkor Wat"},
+    {"fra": "2028-03-18", "til": "2028-03-20", "type": "Hendelse", "justering": 0.3, "no": "Vårjevndøgn ved Angkor Wat", "en": "Spring equinox at Angkor Wat"},
+    {"fra": "2026-04-14", "til": "2026-04-16", "type": "Helligdag", "justering": 0.3, "no": "Khmer nyttår: vannkasting og Angkor Sankranta i Siem Reap, fullt", "en": "Khmer New Year: water throwing and Angkor Sankranta in Siem Reap, full"},
+    {"fra": "2027-04-14", "til": "2027-04-16", "type": "Helligdag", "justering": 0.3, "no": "Khmer nyttår: festlig i Siem Reap, fullt", "en": "Khmer New Year: festive in Siem Reap, full"},
+    {"fra": "2028-04-13", "til": "2028-04-16", "type": "Helligdag", "justering": 0.3, "no": "Khmer nyttår: festlig i Siem Reap, fullt (sjekk dato)", "en": "Khmer New Year: festive in Siem Reap, full (check dates)"},
+    {"fra": "2026-11-23", "til": "2026-11-25", "type": "Hendelse", "justering": 0.3, "no": "Vannfestivalen (Bon Om Touk) i Phnom Penh: båtrace, overfylt", "en": "Water Festival (Bon Om Touk) in Phnom Penh: boat races, packed"},
+    {"fra": "2027-11-12", "til": "2027-11-14", "type": "Hendelse", "justering": 0.3, "no": "Vannfestivalen i Phnom Penh (sjekk dato)", "en": "Water Festival in Phnom Penh (check dates)"},
+    {"fra": "2028-10-31", "til": "2028-11-02", "type": "Hendelse", "justering": 0.3, "no": "Vannfestivalen i Phnom Penh (sjekk dato)", "en": "Water Festival in Phnom Penh (check dates)"}
+  ]
+}

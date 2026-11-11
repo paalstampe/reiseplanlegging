@@ -1,0 +1,33 @@
+{
+  "id": "TUR-IST",
+  "region": "Europa",
+  "land": "Tyrkia",
+  "sted": "Istanbul",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / historie",
+  "merknad": "",
+  "koord": [41.01, 28.98],
+  "kilde": "Istanbul (Kireçburnu, Bosporos), Tyrkias meteorologiske institutt 1991–2020, via Wikipedia",
+  "en": {"land": "Turkey", "sted": "Istanbul", "kategori": "City / culture / history", "kilde": "Istanbul (Kireçburnu, Bosphorus), Turkish State Meteorological Service 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 8.8, "nedbor": 96, "no": "Kjølig (9 °C), regn og vind. Lite folk, lave priser.", "en": "Cool (9 °C), rain and wind. Few people, low prices."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 9.4, "nedbor": 88, "no": "Kjølig, regn, av og til snø. Rolig.", "en": "Cool, rain, occasional snow. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 12.0, "nedbor": 70, "no": "Kjølig (12 °C), våren kommer.", "en": "Cool (12 °C), spring arrives."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 16.1, "nedbor": 45, "no": "Mildt (16 °C). Tulipanfestivalen (se Vinduer).", "en": "Mild (16 °C). Tulip Festival (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.0, "nedbor": 37, "no": "Ideelt (21 °C), tørt. Judastrær i blomst langs Bosporos.", "en": "Ideal (21 °C), dry. Judas trees in bloom along the Bosphorus."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 25.7, "nedbor": 45, "no": "Varmt (26 °C). Høysesong.", "en": "Warm (26 °C). High season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 28.0, "nedbor": 36, "no": "Varmt og fuktig (28 °C). Fullt; bading ved Svartehavet.", "en": "Hot and humid (28 °C). Busy; swimming on the Black Sea."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 28.2, "nedbor": 44, "no": "Varmt og fuktig (28 °C). Fullt.", "en": "Hot and humid (28 °C). Busy."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.6, "nedbor": 81, "no": "Ideelt (25 °C), varmt hav.", "en": "Ideal (25 °C), warm sea."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 19.9, "nedbor": 98, "no": "Mildt (20 °C), regnet kommer tilbake.", "en": "Mild (20 °C), the rain returns."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.0, "nedbor": 100, "no": "Kjølig (15 °C), vått. Rolig.", "en": "Cool (15 °C), wet. Quiet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 10.7, "nedbor": 125, "no": "Kjølig (11 °C), mest regn. Rolig.", "en": "Cool (11 °C), wettest month. Quiet."}
+  ],
+  "vinduer": [
+    {"fra_uke": 14, "til_uke": 17, "type": "Hendelse", "justering": 0.3, "no": "Tulipanfestivalen: millioner av tulipaner i Emirgan og Gülhane", "en": "Tulip Festival: millions of tulips in Emirgan and Gülhane parks"},
+    {"fra": "2026-05-26", "til": "2026-05-30", "type": "Helligdag", "justering": -0.3, "no": "Kurban Bayramı: Grand Bazaar og mange butikker stengt, tyrkere på reise", "en": "Eid al-Adha: Grand Bazaar and many shops closed, Turks travelling"},
+    {"fra": "2027-05-15", "til": "2027-05-19", "type": "Helligdag", "justering": -0.3, "no": "Kurban Bayramı (sjekk dato): Grand Bazaar og mange butikker stengt, tyrkere på reise", "en": "Eid al-Adha (check dates): Grand Bazaar and many shops closed, Turks travelling"},
+    {"fra": "2028-05-04", "til": "2028-05-08", "type": "Helligdag", "justering": -0.3, "no": "Kurban Bayramı (sjekk dato): Grand Bazaar og mange butikker stengt, tyrkere på reise", "en": "Eid al-Adha (check dates): Grand Bazaar and many shops closed, Turks travelling"}
+  ]
+}

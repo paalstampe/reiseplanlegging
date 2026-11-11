@@ -1,0 +1,31 @@
+{
+  "id": "CIV",
+  "region": "Afrika",
+  "land": "Elfenbenskysten",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [5.32, -4.02],
+  "kilde": "Abidjan, Deutscher Wetterdienst 1991–2020, via Wikipedia. Yamoussoukro i innlandet tørrere og varmere",
+  "en": {"land": "Côte d'Ivoire", "sted": "", "kategori": "Beach / culture", "kilde": "Abidjan, Deutscher Wetterdienst 1991–2020, via Wikipedia. Yamoussoukro inland drier and hotter"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.9, "nedbor": 25, "no": "Tørt, men harmattan-dis. Strand i Grand-Bassam og Assinie.", "en": "Dry, but harmattan haze. Beaches at Grand-Bassam and Assinie."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.4, "nedbor": 41, "no": "Tørt og varmt (32 °C), harmattan.", "en": "Dry and hot (32 °C), harmattan."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.4, "nedbor": 88, "no": "Hetest og fuktig.", "en": "Hottest and humid."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.3, "nedbor": 161, "no": "Regntiden starter. FEMUA-festivalen i Abidjan (se Vinduer).", "en": "Rainy season begins. FEMUA festival in Abidjan (see events)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.5, "nedbor": 268, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 29.6, "nedbor": 441, "no": "Mest regn (440 mm), flom i Abidjan.", "en": "Most rain (440 mm), flooding in Abidjan."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 28.6, "nedbor": 134, "no": "Regnet avtar, overskyet.", "en": "Rain eases, overcast."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 28.1, "nedbor": 26, "no": "Kort tørrperiode, kjøligst (28 °C), ofte grått.", "en": "Short dry spell, coolest (28 °C), often grey."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 28.8, "nedbor": 75, "no": "Noe regn.", "en": "Some rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.3, "nedbor": 204, "no": "Liten regntid. Abissa i Grand-Bassam i slutten av måneden.", "en": "Minor rainy season. Abissa in Grand-Bassam at month end."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.5, "nedbor": 170, "no": "Regnet avtar. Abissa-festivalen (se Vinduer).", "en": "Rain eases. Abissa festival (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 31.3, "nedbor": 58, "no": "Beste klima: tørt og klart før harmattan. Fullt i Assinie i jula.", "en": "Best climate: dry and clear before the harmattan. Assinie full at Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 16, "til_uke": 17, "type": "Hendelse", "justering": 0.3, "no": "FEMUA, musikkfestival i Abidjan (april, sjekk dato)", "en": "FEMUA music festival in Abidjan (April, check dates)"},
+    {"fra_uke": 44, "til_uke": 44, "type": "Hendelse", "justering": 0.5, "no": "Abissa, N'zima-festival i Grand-Bassam (slutten av okt/start nov, sjekk dato)", "en": "Abissa, N'zima festival in Grand-Bassam (late Oct/early Nov, check dates)"}
+  ]
+}

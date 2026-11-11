@@ -1,0 +1,31 @@
+{
+  "id": "GRC-ATH",
+  "region": "Europa",
+  "land": "Hellas",
+  "sted": "Athen og fastlandet",
+  "kortnavn": "Hellas fastland",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "",
+  "koord": [37.98, 23.73],
+  "kilde": "Athen sentrum, Nasjonalobservatoriet i Athen 1991–2020, via Wikipedia. Delfi og Meteora kaldere om vinteren",
+  "en": {"land": "Greece", "sted": "Athens and the mainland", "kortnavn": "Greek mainland", "kategori": "History / culture", "kilde": "Downtown Athens, National Observatory of Athens 1991–2020, via Wikipedia. Delphi and Meteora colder in winter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 13.3, "nedbor": 56, "no": "Kjølig (13 °C), regn. Museer uten kø; Delfi og Meteora kalde.", "en": "Cool (13 °C), rain. Museums without queues; Delphi and Meteora cold."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 14.2, "nedbor": 44, "no": "Kjølig (14 °C), mandeltrærne blomstrer. Rolig.", "en": "Cool (14 °C), almond trees in bloom. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 17.0, "nedbor": 46, "no": "Mildt (17 °C), grønt. Få turister.", "en": "Mild (17 °C), green. Few tourists."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.1, "nedbor": 28, "no": "Ideelt (21 °C), blomster. Gresk påske faller ofte i april.", "en": "Ideal (21 °C), flowers. Greek Easter often falls in April."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.5, "nedbor": 21, "no": "Varmt (27 °C), tørt. Beste måned for Akropolis og Peloponnes.", "en": "Warm (27 °C), dry. Best month for the Acropolis and the Peloponnese."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 31.6, "nedbor": 12, "no": "Hett (32 °C). Athen-festivalen starter (se Vinduer). Høysesong.", "en": "Hot (32 °C). The Athens Festival begins (see events). High season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 34.3, "nedbor": 11, "no": "Svært varmt (34 °C), hetebølger; Akropolis kan stenge midt på dagen.", "en": "Very hot (34 °C), heatwaves; the Acropolis may close at midday."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 34.3, "nedbor": 5, "no": "Svært varmt (34 °C). Athen tømmes rundt 15.8.", "en": "Very hot (34 °C). Athens empties around 15 Aug."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.6, "nedbor": 26, "no": "Varmt (30 °C), tørt. Fortsatt sommer, færre folk.", "en": "Warm (30 °C), dry. Still summer, fewer people."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 24.4, "nedbor": 39, "no": "Behagelig (24 °C). Ideelt for rundreise. Lite folk.", "en": "Pleasant (24 °C). Ideal for touring. Few people."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 18.9, "nedbor": 71, "no": "Mildt (19 °C), mer regn. Rolig.", "en": "Mild (19 °C), more rain. Quiet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 14.4, "nedbor": 76, "no": "Kjølig (14 °C), regnfullt. Julestemning i Athen.", "en": "Cool (14 °C), rainy. Christmas atmosphere in Athens."}
+  ],
+  "vinduer": [
+    {"fra_uke": 23, "til_uke": 34, "type": "Hendelse", "justering": 0.3, "no": "Athen- og Epidauros-festivalen (juni–august): teater i Herodes Atticus og Epidauros", "en": "Athens & Epidaurus Festival (June–August): theatre at the Odeon of Herodes Atticus and Epidaurus"}
+  ]
+}

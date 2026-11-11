@@ -1,0 +1,28 @@
+{
+  "id": "GIN",
+  "region": "Afrika",
+  "land": "Guinea",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / trekking",
+  "merknad": "",
+  "koord": [9.54, -13.68],
+  "kilde": "Conakry, NOAA 1991–2020, via Wikipedia. Fouta Djallon (Dalaba, Labé) kjøligere og tørrere",
+  "en": {"land": "Guinea", "sted": "", "kategori": "Nature / trekking", "kilde": "Conakry, NOAA 1991–2020, via Wikipedia. Fouta Djallon (Dalaba, Labé) cooler and drier"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 31.6, "nedbor": 2, "no": "Tørt, harmattan-dis. Beste trekking i Fouta Djallon.", "en": "Dry, harmattan haze. Best trekking in Fouta Djallon."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 31.9, "nedbor": 1, "no": "Tørt og varmt; kjølige netter i høylandet.", "en": "Dry and hot; cool nights in the highlands."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.2, "nedbor": 3, "no": "Tørt, hetere; fossene minker.", "en": "Dry, hotter; waterfalls shrinking."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.3, "nedbor": 18, "no": "Hetest i innlandet, fuktig.", "en": "Hottest inland, humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.9, "nedbor": 112, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.3, "nedbor": 434, "no": "Regntid (430 mm), veiene blir dårlige.", "en": "Rainy season (430 mm), roads deteriorate."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 28.8, "nedbor": 1083, "no": "Ekstremt mye regn (1 100 mm). Frarådes.", "en": "Extreme rain (1,100 mm). Not advised."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 28.4, "nedbor": 1142, "no": "Mest regn. Mange veier ufremkommelige.", "en": "Most rain. Many roads impassable."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 29.5, "nedbor": 555, "no": "Mye regn (550 mm).", "en": "Heavy rain (550 mm)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.4, "nedbor": 293, "no": "Regnet avtar, grønt.", "en": "Rain eases, green."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.4, "nedbor": 80, "no": "Tørrtiden starter, grønt og fulle fosser.", "en": "Dry season begins, green with full waterfalls."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 31.8, "nedbor": 6, "no": "Tørt og klart før harmattan. Beste måned.", "en": "Dry and clear before the harmattan. Best month."}
+  ],
+  "vinduer": []
+}

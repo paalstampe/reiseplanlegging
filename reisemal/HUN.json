@@ -1,0 +1,34 @@
+{
+  "id": "HUN",
+  "region": "Europa",
+  "land": "Ungarn",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [47.5, 19.04],
+  "kilde": "Budapest (WMO 12840), NCEI 1991–2020, via Wikipedia. Balaton omtrent likt",
+  "en": {"land": "Hungary", "kategori": "City / culture", "kilde": "Budapest (WMO 12840), NCEI 1991–2020, via Wikipedia. Lake Balaton similar"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 4.7, "nedbor": 33, "no": "Kaldt (5 °C). Termalbad i Budapest.", "en": "Cold (5 °C). Thermal baths in Budapest."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 7.1, "nedbor": 30, "no": "Kaldt (7 °C), tørt. Lave priser.", "en": "Cold (7 °C), dry. Low prices."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 12.3, "nedbor": 31, "no": "Kjølig (12 °C), våren kommer.", "en": "Cool (12 °C), spring arrives."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 18.8, "nedbor": 33, "no": "Mildt (19 °C), tørt. Blomstring.", "en": "Mild (19 °C), dry. Blossom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.1, "nedbor": 57, "no": "Ideelt (23 °C). Uteliv langs Donau.", "en": "Ideal (23 °C). Outdoor life along the Danube."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.8, "nedbor": 60, "no": "Varmt (27 °C), lange dager. Balaton-sesongen starter.", "en": "Warm (27 °C), long days. Lake Balaton season begins."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 28.8, "nedbor": 54, "no": "Hett (29 °C), hetebølger. Fullt ved Balaton.", "en": "Hot (29 °C), heatwaves. Lake Balaton busy."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 28.9, "nedbor": 54, "no": "Hett (29 °C). Sziget og 20. august (se Vinduer).", "en": "Hot (29 °C). Sziget and 20 August (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.1, "nedbor": 46, "no": "Ideelt (23 °C). Vinhøst og vinfestival i Budapest.", "en": "Ideal (23 °C). Grape harvest and Budapest wine festival."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 17.2, "nedbor": 44, "no": "Mildt (17 °C), høstfarger i Tokaj og Eger.", "en": "Mild (17 °C), autumn colours in Tokaj and Eger."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.6, "nedbor": 46, "no": "Kjølig (11 °C), grått og tåke.", "en": "Cool (11 °C), grey and foggy."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 5.1, "nedbor": 38, "no": "Kaldt (5 °C). Julemarkeder i Budapest (se Vinduer).", "en": "Cold (5 °C). Christmas markets in Budapest (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 47, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Julemarkeder på Vörösmarty tér og ved Basilikaen", "en": "Christmas markets on Vörösmarty Square and at the Basilica"},
+    {"fra_uke": 34, "til_uke": 34, "type": "Hendelse", "justering": 0.3, "no": "Stefansdagen 20.8: fyrverkeri over Donau, fullt i Budapest", "en": "St Stephen's Day, 20 Aug: fireworks over the Danube, Budapest busy"},
+    {"fra": "2026-08-11", "til": "2026-08-15", "type": "Hendelse", "justering": 0.3, "no": "Sziget-festivalen, Budapest (sjekk dato)", "en": "Sziget Festival, Budapest (check date)"},
+    {"fra": "2027-08-10", "til": "2027-08-16", "type": "Hendelse", "justering": 0.3, "no": "Sziget-festivalen, Budapest (sjekk dato)", "en": "Sziget Festival, Budapest (check date)"},
+    {"fra": "2028-08-08", "til": "2028-08-14", "type": "Hendelse", "justering": 0.3, "no": "Sziget-festivalen, Budapest (sjekk dato)", "en": "Sziget Festival, Budapest (check date)"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "GEO",
+  "region": "Europa",
+  "land": "Georgia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [41.9, 44.3],
+  "kilde": "Tbilisi, 1991–2020 (pogoda.ru.net), via Wikipedia. Kaukasus (Kazbegi, Svaneti) mye kaldere, snø okt–mai",
+  "en": {"land": "Georgia", "kategori": "Culture / nature", "kilde": "Tbilisi, 1991–2020 (pogoda.ru.net), via Wikipedia. The Caucasus (Kazbegi, Svaneti) much colder, snow Oct–May"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.9, "nedbor": 16, "no": "Kaldt (7 °C) i Tbilisi, snø i fjellene. Ski i Gudauri.", "en": "Cold (7 °C) in Tbilisi, snow in the mountains. Skiing in Gudauri."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.4, "nedbor": 18, "no": "Kaldt. Fjellveier kan være stengt.", "en": "Cold. Mountain roads may be closed."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 13.2, "nedbor": 29, "no": "Mildere (13 °C) i lavlandet. Lite folk.", "en": "Milder (13 °C) in the lowlands. Few people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 18.6, "nedbor": 64, "no": "Vår (19 °C), grønt og blomstring. Fjellene fortsatt snødekte.", "en": "Spring (19 °C), green and blossoming. Mountains still snow-covered."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 23.7, "nedbor": 83, "no": "Behagelig (24 °C), noen byger. Høyfjellet åpner sent.", "en": "Pleasant (24 °C), some showers. High mountains open late."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 28.5, "nedbor": 84, "no": "Varmt i Tbilisi, fjellene åpner: Kazbegi og Svaneti.", "en": "Warm in Tbilisi, mountains open: Kazbegi and Svaneti."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 2, "tmaks": 31.5, "nedbor": 42, "no": "Hett i Tbilisi (32 °C), ideelt i fjellene. Høysesong.", "en": "Hot in Tbilisi (32 °C), ideal in the mountains. High season."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 2, "tmaks": 31.9, "nedbor": 39, "no": "Hetest i lavlandet, best tid for fotturer i fjellet.", "en": "Hottest in the lowlands, best time for mountain hikes."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.2, "nedbor": 35, "no": "Varmt (26 °C), klart i fjellet. Rtveli starter (se Vinduer).", "en": "Warm (26 °C), clear in the mountains. Rtveli begins (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 20.0, "nedbor": 46, "no": "Mildt (20 °C), høstfarger og vinhøst i Kakheti.", "en": "Mild (20 °C), autumn colours and grape harvest in Kakheti."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 12.6, "nedbor": 34, "no": "Kjølig, snø i fjellene. Rolig.", "en": "Cool, snow in the mountains. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.1, "nedbor": 21, "no": "Kaldt og grått. Rolig.", "en": "Cold and grey. Quiet."}
+  ],
+  "vinduer": [
+    {"fra_uke": 38, "til_uke": 41, "type": "Hendelse", "justering": 0.3, "no": "Rtveli: vinhøst i Kakheti, mange vingårder tar imot gjester", "en": "Rtveli: grape harvest in Kakheti, many wineries welcome visitors"}
+  ]
+}

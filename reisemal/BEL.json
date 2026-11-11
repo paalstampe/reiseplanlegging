@@ -1,0 +1,35 @@
+{
+  "id": "BEL",
+  "region": "Europa",
+  "land": "Belgia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [50.85, 4.35],
+  "kilde": "Uccle (Brussel), KMI 1991–2020, via Wikipedia. Brugge og Gent omtrent likt",
+  "en": {"land": "Belgium", "kategori": "City / culture / food", "kilde": "Uccle (Brussels), Royal Meteorological Institute 1991–2020, via Wikipedia. Bruges and Ghent similar"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 6.1, "nedbor": 76, "no": "Kaldt (6 °C), grått. Museer og øl innendørs.", "en": "Cold (6 °C), grey. Museums and beer indoors."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 7.1, "nedbor": 65, "no": "Kaldt (7 °C). Karneval i Binche (se Vinduer).", "en": "Cold (7 °C). Binche carnival (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 10.9, "nedbor": 59, "no": "Kjølig (11 °C), byger.", "en": "Cool (11 °C), showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 15.0, "nedbor": 47, "no": "Mildt (15 °C), tørrest. Blomstring; påskeferie.", "en": "Mild (15 °C), driest. Blossom; Easter holidays."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 18.4, "nedbor": 60, "no": "Fint (18 °C). Uteserveringer i Brugge og Gent.", "en": "Pleasant (18 °C). Outdoor cafés in Bruges and Ghent."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.2, "nedbor": 71, "no": "Ideelt (21 °C), lange dager.", "en": "Ideal (21 °C), long days."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 23.2, "nedbor": 77, "no": "Varmt (23 °C), byger. Brugge fullt av turister.", "en": "Warm (23 °C), showers. Bruges crowded."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 23.0, "nedbor": 86, "no": "Varmt (23 °C), våtest. Blomsterteppet partallsår (se Vinduer).", "en": "Warm (23 °C), wettest. Flower Carpet in even years (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 19.5, "nedbor": 65, "no": "Mildt (20 °C). Færre turister.", "en": "Mild (20 °C). Fewer tourists."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.9, "nedbor": 68, "no": "Kjølig (15 °C), regn. Viltsesong.", "en": "Cool (15 °C), rain. Game season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.9, "nedbor": 76, "no": "Kaldt (10 °C), grått og vått.", "en": "Cold (10 °C), grey and wet."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 6.6, "nedbor": 87, "no": "Kaldt (7 °C). Julemarkeder (se Vinduer).", "en": "Cold (7 °C). Christmas markets (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 48, "til_uke": 1, "type": "Hendelse", "justering": 0.3, "no": "Julemarkeder i Brussel (Winter Wonders), Brugge og Gent", "en": "Christmas markets in Brussels (Winter Wonders), Bruges and Ghent"},
+    {"fra": "2026-02-15", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Karnevalet i Binche (UNESCO), gilles på fetetirsdag", "en": "Binche carnival (UNESCO), Gilles on Shrove Tuesday"},
+    {"fra": "2027-02-07", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Karnevalet i Binche (UNESCO)", "en": "Binche carnival (UNESCO)"},
+    {"fra": "2028-02-27", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Karnevalet i Binche (UNESCO)", "en": "Binche carnival (UNESCO)"},
+    {"fra": "2026-08-14", "til": "2026-08-16", "type": "Hendelse", "justering": 0.3, "no": "Blomsterteppet på Grand-Place (sjekk dato)", "en": "Flower Carpet on the Grand-Place (check date)"},
+    {"fra": "2028-08-12", "til": "2028-08-15", "type": "Hendelse", "justering": 0.3, "no": "Blomsterteppet på Grand-Place (sjekk dato)", "en": "Flower Carpet on the Grand-Place (check date)"}
+  ]
+}

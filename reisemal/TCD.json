@@ -1,0 +1,28 @@
+{
+  "id": "TCD",
+  "region": "Afrika",
+  "land": "Tsjad",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [10.85, 19.65],
+  "kilde": "N'Djamena, Météo Climat 1991–2020, via Wikipedia. Zakouma (sør) våtere i regntiden; Ennedi (nord) tørrere og kjøligere om natta",
+  "en": {"land": "Chad", "kategori": "Nature / wildlife", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "N'Djamena, Météo Climat 1991–2020, via Wikipedia. Zakouma (south) wetter in the rainy season; Ennedi (north) drier and cooler at night"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 32.7, "nedbor": 0, "no": "Tørt og behagelig (33 °C). Zakouma åpen, Ennedi på sitt beste.", "en": "Dry and pleasant (33 °C). Zakouma open, Ennedi at its best."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 36.1, "nedbor": 0, "no": "Tørt, varmere (36 °C). Dyrene samles ved vannhullene i Zakouma.", "en": "Dry, warmer (36 °C). Animals gather at Zakouma's waterholes."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 39.9, "nedbor": 0, "no": "Varmt (40 °C); best dyreliv i Zakouma, store bøffelflokker.", "en": "Hot (40 °C); best wildlife in Zakouma, large buffalo herds."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 42.0, "nedbor": 10, "no": "Hetest (42 °C). Fortsatt godt dyreliv tidlig om morgenen.", "en": "Hottest (42 °C). Still good wildlife early in the morning."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 41.2, "nedbor": 26, "no": "Svært varmt, første byger.", "en": "Very hot, first showers."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 38.2, "nedbor": 51, "no": "Regnet starter; Zakouma stenger.", "en": "Rain begins; Zakouma closes."},
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": 34.1, "nedbor": 144, "no": "Regntid; parkene stengt, veier ufarbare.", "en": "Rainy season; parks closed, roads impassable."},
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": 31.8, "nedbor": 174, "no": "Mest regn.", "en": "Most rain."},
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": 34.0, "nedbor": 84, "no": "Regntid, varmt og fuktig.", "en": "Rainy season, hot and humid."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 37.6, "nedbor": 20, "no": "Regnet slutter, varmt (38 °C).", "en": "Rain ends, hot (38 °C)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 37.1, "nedbor": 0, "no": "Tørt; Zakouma åpner igjen, høyt gress.", "en": "Dry; Zakouma reopens, tall grass."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 33.8, "nedbor": 0, "no": "Tørt og behagelig. Ennedi fint.", "en": "Dry and pleasant. Ennedi fine."}
+  ],
+  "vinduer": []
+}

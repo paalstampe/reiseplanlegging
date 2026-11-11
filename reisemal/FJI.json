@@ -1,0 +1,30 @@
+{
+  "id": "FJI",
+  "region": "Oseania",
+  "land": "Fiji",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / øyhopping",
+  "merknad": "",
+  "koord": [-17.75, 177.3],
+  "kilde": "Nadi lufthavn, WMO 1991–2020, via Wikipedia. Suva og østsiden våtere hele året",
+  "en": {"land": "Fiji", "kategori": "Beach / island hopping", "kilde": "Nadi International Airport, WMO 1991–2020, via Wikipedia. Suva and the east side wetter year-round"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 31.4, "nedbor": 365, "no": "Regntid, syklonfare. Australske og NZ-ferier.", "en": "Wet season, cyclone risk. Australian and NZ holidays."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.5, "nedbor": 336, "no": "Mest regn og høyest syklonfare. Lavsesong.", "en": "Wettest, peak cyclone risk. Low season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 351, "no": "Regntid, syklonfare. Billig.", "en": "Wet season, cyclone risk. Cheap."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 188, "no": "Regnet avtar. Påskeferie fra Australia/NZ.", "en": "Rain easing. Easter holidays from Australia/NZ."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.7, "nedbor": 92, "no": "Tørrere, behagelig. God skulder.", "en": "Drier, pleasant. Good shoulder month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.0, "nedbor": 57, "no": "Tørrsesong (29 °C), god sikt for dykking.", "en": "Dry season (29 °C), good diving visibility."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.5, "nedbor": 51, "no": "Tørt og behagelig. Skoleferie i Australia/NZ, høysesong.", "en": "Dry and pleasant. Australian/NZ school holidays, high season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.6, "nedbor": 65, "no": "Tørt. Høysesong.", "en": "Dry. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.2, "nedbor": 72, "no": "Tørt, rolig sjø. Ofte beste måned.", "en": "Dry, calm seas. Often the best month."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 30.1, "nedbor": 87, "no": "Varmere, fortsatt tørt. Skoleferie i Australia/NZ.", "en": "Warmer, still dry. Australian/NZ school holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 127, "no": "Regntiden og syklonsesongen starter.", "en": "Wet season and cyclone season begin."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 31.4, "nedbor": 210, "no": "Regn, syklonfare. Jul fullt og dyrt.", "en": "Rain, cyclone risk. Christmas full and expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 28, "til_uke": 29, "type": "Hendelse", "justering": 0.2, "no": "Bula Festival i Nadi: parade, musikk og marked (sjekk dato)", "en": "Bula Festival in Nadi: parade, music and market (check dates)"}
+  ]
+}

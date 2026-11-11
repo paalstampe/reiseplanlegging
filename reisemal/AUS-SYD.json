@@ -1,0 +1,35 @@
+{
+  "id": "AUS-SYD",
+  "region": "Oseania",
+  "land": "Australia",
+  "sted": "Sydney og Melbourne",
+  "kortnavn": "Sydney/Melbourne",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / strand",
+  "merknad": "",
+  "koord": [-33.87, 151.21],
+  "kilde": "Sydney (Observatory Hill), Bureau of Meteorology 1991–2020, via Wikipedia. Melbourne 2–5 °C kjøligere om vinteren og tørrere",
+  "en": {"land": "Australia", "sted": "Sydney and Melbourne", "kortnavn": "Sydney/Melbourne", "kategori": "City / culture / beach", "kilde": "Sydney (Observatory Hill), Bureau of Meteorology 1991–2020, via Wikipedia. Melbourne 2–5 °C cooler in winter and drier"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 27.0, "nedbor": 91, "no": "Sommer (27 °C), strandliv. Australian Open (se Vinduer). Skoleferie, fullt.", "en": "Summer (27 °C), beach life. Australian Open (see events). School holidays, full."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.8, "nedbor": 132, "no": "Varmt, fuktig, tordenbyger. Skoleferien er over.", "en": "Warm, humid, thunderstorms. School holidays are over."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.7, "nedbor": 118, "no": "Varmt (26 °C), havet på det varmeste. Fint i begge byer.", "en": "Warm (26 °C), sea at its warmest. Good in both cities."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 23.6, "nedbor": 114, "no": "Behagelig (24 °C), høst i Melbourne. Påske og skoleferie.", "en": "Pleasant (24 °C), autumn in Melbourne. Easter and school holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.9, "nedbor": 101, "no": "Mildt (21 °C). Vivid Sydney starter (se Vinduer).", "en": "Mild (21 °C). Vivid Sydney begins (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 18.3, "nedbor": 142, "no": "Kjølig (18 °C), mest regn i Sydney. Vivid (se Vinduer).", "en": "Cool (18 °C), wettest month in Sydney. Vivid (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 17.9, "nedbor": 80, "no": "Vinter: 18 °C i Sydney, 13 °C og grått i Melbourne.", "en": "Winter: 18 °C in Sydney, 13 °C and grey in Melbourne."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 19.3, "nedbor": 75, "no": "Kjølig, tørrere. Hvalsafari utenfor Sydney.", "en": "Cool, drier. Whale watching off Sydney."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.6, "nedbor": 63, "no": "Vår (22 °C), lite regn. Rolig.", "en": "Spring (22 °C), little rain. Quiet."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.2, "nedbor": 68, "no": "Behagelig (23 °C), tørt. God tid for begge byer.", "en": "Pleasant (23 °C), dry. A good time for both cities."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.2, "nedbor": 91, "no": "Varmt (24 °C). Melbourne Cup første tirsdag i november.", "en": "Warm (24 °C). Melbourne Cup on the first Tuesday of November."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 25.7, "nedbor": 73, "no": "Sommer (26 °C). Nyttårsfyrverkeri i Sydney; skoleferie fra midten av måneden.", "en": "Summer (26 °C). New Year fireworks in Sydney; school holidays from mid-month."}
+  ],
+  "vinduer": [
+    {"fra_uke": 3, "til_uke": 5, "type": "Hendelse", "justering": 0.3, "no": "Australian Open i Melbourne (andre halvdel av januar): stemning, men dyre hotell", "en": "Australian Open in Melbourne (second half of January): great buzz, but pricey hotels"},
+    {"fra": "2026-05-22", "til": "2026-06-13", "type": "Hendelse", "justering": 0.3, "no": "Vivid Sydney: lysfestival rundt havna", "en": "Vivid Sydney: light festival around the harbour"},
+    {"fra": "2027-05-21", "til": "2027-06-12", "type": "Hendelse", "justering": 0.3, "no": "Vivid Sydney: lysfestival rundt havna (sjekk dato)", "en": "Vivid Sydney: light festival around the harbour (check dates)"},
+    {"fra": "2028-05-26", "til": "2028-06-17", "type": "Hendelse", "justering": 0.3, "no": "Vivid Sydney: lysfestival rundt havna (sjekk dato)", "en": "Vivid Sydney: light festival around the harbour (check dates)"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Hendelse", "justering": 0.3, "no": "Nyttårsfyrverkeri over Sydney Harbour: spektakulært, men fullt og dyrt", "en": "New Year fireworks over Sydney Harbour: spectacular, but full and expensive"}
+  ]
+}

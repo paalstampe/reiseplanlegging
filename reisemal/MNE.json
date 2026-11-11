@@ -1,0 +1,31 @@
+{
+  "id": "MNE",
+  "region": "Europa",
+  "land": "Montenegro",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [42.42, 18.77],
+  "kilde": "Herceg Novi (ved Kotorbukta), Montenegros hydrometeorologiske tjeneste 1991–2020, via Wikipedia. Podgorica varmere om sommeren, Durmitor kjølig",
+  "en": {"land": "Montenegro", "kategori": "Beach / nature", "kilde": "Herceg Novi (Bay of Kotor), Hydrometeorological Service of Montenegro 1991–2020, via Wikipedia. Podgorica hotter in summer, Durmitor cool"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 13.0, "nedbor": 231, "no": "Mildt (13 °C), men svært regnfullt. Mye stengt.", "en": "Mild (13 °C), but very wet. Much is closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 13.7, "nedbor": 195, "no": "Regnfullt. Mimosafestival i Herceg Novi (se Vinduer).", "en": "Wet. Mimosa Festival in Herceg Novi (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.9, "nedbor": 199, "no": "Vår (16 °C), fortsatt mye regn.", "en": "Spring (16 °C), still a lot of rain."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 19.3, "nedbor": 159, "no": "Mildt (19 °C), byger. Rolig i Kotor.", "en": "Mild (19 °C), showers. Quiet in Kotor."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 23.8, "nedbor": 104, "no": "Varmt (24 °C), grønt. Fint for Kotor og fotturer.", "en": "Warm (24 °C), green. Good for Kotor and hiking."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.3, "nedbor": 64, "no": "Varmt (28 °C), badesesong. Durmitor åpner.", "en": "Hot (28 °C), swimming season. Durmitor opens."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 31.3, "nedbor": 47, "no": "Hett (31 °C). Høysesong, cruiseskip i Kotor.", "en": "Hot (31 °C). High season, cruise ships in Kotor."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 31.7, "nedbor": 88, "no": "Hetest (32 °C). Høysesong. Bokeljska noć (se Vinduer).", "en": "Hottest (32 °C). High season. Boka Night (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.9, "nedbor": 152, "no": "Varmt (27 °C), varm sjø. Færre folk.", "en": "Warm (27 °C), warm sea. Fewer people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.5, "nedbor": 199, "no": "Mildt (23 °C), regnet øker. Høstfarger i fjellet.", "en": "Mild (23 °C), rain increasing. Autumn colours in the mountains."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 17.9, "nedbor": 256, "no": "Mest regn. Lavsesong.", "en": "Wettest. Low season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 14.0, "nedbor": 236, "no": "Mildt (14 °C), vått. Mye stengt.", "en": "Mild (14 °C), wet. Much is closed."}
+  ],
+  "vinduer": [
+    {"fra_uke": 5, "til_uke": 7, "type": "Hendelse", "justering": 0.3, "no": "Mimosafestival i Herceg Novi (sjekk dato)", "en": "Mimosa Festival in Herceg Novi (check dates)"},
+    {"fra_uke": 33, "til_uke": 33, "type": "Hendelse", "justering": 0.3, "no": "Bokeljska noć: båtparade i Kotor (sjekk dato)", "en": "Boka Night: boat parade in Kotor (check dates)"}
+  ]
+}

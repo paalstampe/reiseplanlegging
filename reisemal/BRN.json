@@ -1,0 +1,30 @@
+{
+  "id": "BRN",
+  "region": "Asia",
+  "land": "Brunei",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [4.89, 114.94],
+  "kilde": "Bandar Seri Begawan (Brunei lufthavn), WMO 1991–2020, via Wikipedia",
+  "en": {"land": "Brunei", "kategori": "Nature / culture", "kilde": "Bandar Seri Begawan (Brunei Airport), WMO 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.0, "nedbor": 321, "no": "Regntid (320 mm), korte kraftige byger.", "en": "Rainy season (320 mm), short heavy showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 33.4, "nedbor": 163, "no": "Tørrere. Godt for Ulu Temburong.", "en": "Drier. Good for Ulu Temburong."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 5, "tmaks": 34.3, "nedbor": 143, "no": "Tørrest. Beste måned for regnskog og vannlandsbyen.", "en": "Driest. Best month for rainforest and the water village."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 34.5, "nedbor": 242, "no": "Varmt (35 °C), ettermiddagsbyger.", "en": "Hot (35 °C), afternoon showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 34.8, "nedbor": 260, "no": "Varmt og fuktig, byger.", "en": "Hot and humid, showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 34.5, "nedbor": 238, "no": "Varmt og fuktig, byger.", "en": "Hot and humid, showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 34.7, "nedbor": 242, "no": "Varmt, byger. Sultanens fødselsdag (se Vinduer).", "en": "Hot, showers. Sultan's birthday (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 35.1, "nedbor": 232, "no": "Varmest (35 °C), noe tørrere perioder.", "en": "Hottest (35 °C), some drier spells."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 34.6, "nedbor": 235, "no": "Varmt, byger.", "en": "Hot, showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.9, "nedbor": 314, "no": "Mer regn.", "en": "More rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.6, "nedbor": 323, "no": "Regntid, kraftige byger.", "en": "Rainy season, heavy showers."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 33.5, "nedbor": 359, "no": "Mest regn (360 mm). Flom mulig i Temburong.", "en": "Most rain (360 mm). Floods possible in Temburong."}
+  ],
+  "vinduer": [
+    {"fra_uke": 29, "til_uke": 29, "type": "Hendelse", "justering": 0.3, "no": "Sultanens fødselsdag 15.7: festligheter og opptog i Bandar Seri Begawan", "en": "Sultan's birthday 15 Jul: celebrations and parades in Bandar Seri Begawan"}
+  ]
+}

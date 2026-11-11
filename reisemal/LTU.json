@@ -1,0 +1,32 @@
+{
+  "id": "LTU",
+  "region": "Europa",
+  "land": "Litauen",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [54.69, 25.28],
+  "kilde": "Vilnius, Litauens hydrometeorologiske tjeneste 1991–2020, via Wikipedia. Kysten (Kuršių nerija) mildere om vinteren",
+  "en": {"land": "Lithuania", "kategori": "City / culture", "kilde": "Vilnius, Lithuanian Hydrometeorological Service 1991–2020, via Wikipedia. The coast (Curonian Spit) milder in winter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -1.5, "nedbor": 48, "no": "Kaldt (−2 °C), snø og mørkt. Få turister.", "en": "Cold (−2 °C), snow and dark. Few tourists."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -0.4, "nedbor": 42, "no": "Kaldt, snø. Rolig og billig.", "en": "Cold, snow. Quiet and cheap."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 4.5, "nedbor": 41, "no": "Kjølig (5 °C), snøsmelting. Kaziuko-markedet (se Vinduer).", "en": "Chilly (5 °C), snowmelt. Kaziukas Fair (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 12.7, "nedbor": 43, "no": "Vår (13 °C), lysere dager. Rolig.", "en": "Spring (13 °C), longer days. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 18.5, "nedbor": 56, "no": "Mildt (19 °C), grønt. Fint i gamlebyen.", "en": "Mild (19 °C), green. Lovely in the Old Town."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.8, "nedbor": 65, "no": "Lyse netter (22 °C). Joninės midtsommer (se Vinduer).", "en": "White nights (22 °C). Joninės midsummer (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 23.8, "nedbor": 92, "no": "Varmest (24 °C), byger. Bad på Kuršių nerija. Høysesong.", "en": "Warmest (24 °C), showers. Beaches on the Curonian Spit. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 23.1, "nedbor": 76, "no": "Sommer (23 °C). Høysesong ved kysten.", "en": "Summer (23 °C). High season on the coast."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 17.4, "nedbor": 57, "no": "Mildt (17 °C), høstfarger på vei. Færre folk.", "en": "Mild (17 °C), autumn colours coming. Fewer people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 10.3, "nedbor": 60, "no": "Kjølig (10 °C), regn, høstfarger.", "en": "Cool (10 °C), rain, autumn colours."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 3.9, "nedbor": 47, "no": "Grått og mørkt (4 °C). Lavsesong.", "en": "Grey and dark (4 °C). Low season."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": -0.1, "nedbor": 51, "no": "Kaldt (0 °C). Julemarked på Katedralplassen (se Vinduer).", "en": "Cold (0 °C). Christmas market on Cathedral Square (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 10, "til_uke": 10, "type": "Hendelse", "justering": 0.3, "no": "Kaziuko mugė: stort håndverksmarked i Vilnius (rundt 4.3)", "en": "Kaziukas Fair: large crafts fair in Vilnius (around 4 Mar)"},
+    {"fra_uke": 25, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Joninės (23.–24.6): midtsommerfest", "en": "Joninės (23–24 Jun): midsummer festival"},
+    {"fra_uke": 48, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Julemarked og juletre på Katedralplassen i Vilnius", "en": "Christmas market and tree on Cathedral Square in Vilnius"}
+  ]
+}

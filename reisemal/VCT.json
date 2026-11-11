@@ -1,0 +1,32 @@
+{
+  "id": "VCT",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "St. Vincent og Grenadinene",
+  "sted": "",
+  "kortnavn": "St. Vincent",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / øyhopping",
+  "merknad": "",
+  "koord": [13.0, -61.24],
+  "kilde": "Kingstown, ukjent institusjon 1991–2021, via Wikipedia (temperaturen virker lav mot nabostasjoner)",
+  "en": {"land": "Saint Vincent and the Grenadines", "kortnavn": "St Vincent", "kategori": "Beach / island hopping", "kilde": "Kingstown, unknown institution 1991–2021, via Wikipedia (temperatures look low compared with neighbouring stations)"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.7, "nedbor": 49, "no": "Tørrsesong, passatvind. God seiling i Grenadinene. Høysesong.", "en": "Dry season, trade winds. Good sailing in the Grenadines. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.7, "nedbor": 32, "no": "Tørt og behagelig. Høysesong.", "en": "Dry and pleasant. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.1, "nedbor": 34, "no": "Tørrest. Fint for La Soufrière-turen.", "en": "Driest. Good for the La Soufrière hike."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.7, "nedbor": 45, "no": "Tørt. Påskeregatta på Bequia.", "en": "Dry. Easter regatta on Bequia."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.3, "nedbor": 62, "no": "Varmt, fortsatt lite regn. Rolig.", "en": "Warm, still little rain. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 27.3, "nedbor": 105, "no": "Regntiden og orkansesongen starter.", "en": "Rainy season and hurricane season begin."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 27.2, "nedbor": 132, "no": "Byger. Vincy Mas-karneval (se Vinduer).", "en": "Showers. Vincy Mas carnival (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 27.4, "nedbor": 155, "no": "Orkanrisiko, fuktig.", "en": "Hurricane risk, humid."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 27.7, "nedbor": 152, "no": "Orkansesongens topp; mye stengt i Grenadinene.", "en": "Peak hurricane season; much closed in the Grenadines."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 27.4, "nedbor": 162, "no": "Mest regn, orkanrisiko.", "en": "Most rain, hurricane risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 26.9, "nedbor": 147, "no": "Regnfullt, orkanfaren avtar.", "en": "Rainy, hurricane risk fading."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.3, "nedbor": 67, "no": "Tørrere. Nine Mornings før jul (se Vinduer).", "en": "Drier. Nine Mornings before Christmas (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 28, "type": "Hendelse", "justering": 0.3, "no": "Vincy Mas: karnevalsparader mandag–tirsdag tidlig i juli (sjekk dato)", "en": "Vincy Mas: carnival parades Monday–Tuesday in early July (check dates)"},
+    {"fra_uke": 51, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Nine Mornings (16.–24.12): gatefester og musikk i Kingstown om morgenen", "en": "Nine Mornings (16–24 Dec): early-morning street parties and music in Kingstown"}
+  ]
+}

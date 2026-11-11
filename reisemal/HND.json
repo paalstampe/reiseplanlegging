@@ -1,0 +1,30 @@
+{
+  "id": "HND",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Honduras",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / dykking",
+  "merknad": "",
+  "koord": [16.33, -86.53],
+  "kilde": "La Ceiba (Golosón), NOAA 1970–1990, via Wikipedia (Climate of Honduras). Proxy for Bay Islands (Roatán, Utila); Copán har regntid mai–okt i stedet",
+  "en": {"land": "Honduras", "kategori": "Beach / diving", "kilde": "La Ceiba (Golosón), NOAA 1970–1990, via Wikipedia (Climate of Honduras). Proxy for the Bay Islands (Roatán, Utila); Copán has its rainy season May–Oct instead"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 27.0, "nedbor": 305, "no": "Nordfronter gir mye regn på kysten (300 mm). Copán tørt.", "en": "Northers bring heavy rain on the coast (300 mm). Copán dry."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 27.6, "nedbor": 330, "no": "Fortsatt byger på øyene, bedre mot slutten.", "en": "Still showers on the islands, better towards the end."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.0, "nedbor": 225, "no": "Tørrere, god sikt. Hvalhaier ved Utila (se Vinduer).", "en": "Drier, good visibility. Whale sharks off Utila (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.1, "nedbor": 121, "no": "Tørt og varmt (30 °C), best dykking. Semana Santa: fullt.", "en": "Dry and warm (30 °C), best diving. Semana Santa: full."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 31.3, "nedbor": 77, "no": "Tørreste måned på kysten, rolig hav.", "en": "Driest month on the coast, calm seas."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.3, "nedbor": 155, "no": "Varmt, korte byger. Orkansesongen starter.", "en": "Hot, brief showers. Hurricane season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.8, "nedbor": 175, "no": "Varmt, byger; god dykking. Sommerferie.", "en": "Hot, showers; good diving. Summer holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.9, "nedbor": 197, "no": "Byger, orkanrisiko. Hvalhaier igjen ved Utila.", "en": "Showers, hurricane risk. Whale sharks back off Utila."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.6, "nedbor": 203, "no": "Orkansesongens topp.", "en": "Peak of the hurricane season."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 29.5, "nedbor": 424, "no": "Mye regn (420 mm) og orkanrisiko.", "en": "Heavy rain (420 mm) and hurricane risk."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 28.2, "nedbor": 540, "no": "Våtest (540 mm), nordfronter. Dårlig sikt for dykking.", "en": "Wettest (540 mm), northers. Poor visibility for diving."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 27.3, "nedbor": 479, "no": "Mye regn (480 mm); jula gir noe folk.", "en": "Heavy rain (480 mm); some crowds at Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 10, "til_uke": 16, "type": "Dyreliv", "justering": 0.5, "no": "Hvalhaier ved Utila (mars–april, også aug–sep)", "en": "Whale sharks off Utila (Mar–Apr, also Aug–Sep)"}
+  ]
+}

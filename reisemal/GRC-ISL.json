@@ -1,0 +1,30 @@
+{
+  "id": "GRC-ISL",
+  "region": "Europa",
+  "land": "Hellas",
+  "sted": "Kykladene",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / øyhopping",
+  "merknad": "",
+  "koord": [37.05, 25.2],
+  "kilde": "Naxos by, Hellas’ meteorologiske institutt (periode ikke oppgitt), via Wikipedia. Santorini og Mykonos tilsvarende",
+  "en": {"land": "Greece", "sted": "Cyclades", "kategori": "Beach / island hopping", "kilde": "Naxos town, Hellenic National Meteorological Service (period not stated), via Wikipedia. Santorini and Mykonos similar"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": 14.4, "nedbor": 68, "no": "Kjølig (14 °C), vind. Hoteller og ferger stort sett stengt.", "en": "Cool (14 °C), windy. Hotels and ferries mostly closed."},
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": 14.6, "nedbor": 56, "no": "Kjølig (15 °C), vind. Stengt.", "en": "Cool (15 °C), windy. Closed."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 15.8, "nedbor": 46, "no": "Kjølig (16 °C). Lite åpent ennå.", "en": "Cool (16 °C). Little open yet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 18.7, "nedbor": 18, "no": "Mildt (19 °C), kaldt hav. Sesongen åpner.", "en": "Mild (19 °C), cold sea. The season opens."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 22.1, "nedbor": 11, "no": "Varmt (22 °C), grønt. Alt åpent, lite folk.", "en": "Warm (22 °C), green. Everything open, few people."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.9, "nedbor": 2, "no": "Ideelt (26 °C), badevær. Før fellesferien.", "en": "Ideal (26 °C), beach weather. Before the summer holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 27.1, "nedbor": 1, "no": "Varmt (27 °C), meltemi-vind kan stoppe ferger. Høysesong, dyrt.", "en": "Warm (27 °C), meltemi winds may stop ferries. High season, expensive."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 27.0, "nedbor": 2, "no": "Varmt, meltemi. Fullest rundt 15.8 (se Vinduer).", "en": "Warm, meltemi. Busiest around 15 Aug (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.1, "nedbor": 8, "no": "Varmt (25 °C), varmt hav. Beste måned.", "en": "Warm (25 °C), warm sea. Best month."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 21.9, "nedbor": 39, "no": "Mildt (22 °C). Sesongen slutter; mange steder stenger.", "en": "Mild (22 °C). The season ends; many places close."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 18.8, "nedbor": 52, "no": "Regn og vind. Det meste stengt.", "en": "Rain and wind. Most things closed."},
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": 15.9, "nedbor": 69, "no": "Kjølig, vind. Stengt.", "en": "Cool, windy. Closed."}
+  ],
+  "vinduer": [
+    {"fra_uke": 33, "til_uke": 33, "type": "Helligdag", "justering": -0.5, "no": "Marias himmelfart 15.8: grekere på ferie, fulle ferger (fest på Tinos og Paros)", "en": "Assumption Day 15 Aug: Greeks on holiday, full ferries (festivities on Tinos and Paros)"}
+  ]
+}

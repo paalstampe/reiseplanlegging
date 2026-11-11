@@ -1,0 +1,30 @@
+{
+  "id": "BGD",
+  "region": "Asia",
+  "land": "Bangladesh",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [23.81, 90.41],
+  "kilde": "Dhaka, NOAA 1991–2020, via Wikipedia. Sundarbans og Sylhet har samme mønster; Sylhet mer regn",
+  "en": {"land": "Bangladesh", "kategori": "Culture / nature", "kilde": "Dhaka, NOAA 1991–2020, via Wikipedia. The Sundarbans and Sylhet share the pattern; Sylhet wetter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.6, "nedbor": 7, "no": "Tørt, behagelig (25 °C), tåke om morgenen. Høysesong.", "en": "Dry, pleasant (25 °C), morning fog. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.3, "nedbor": 21, "no": "Tørt og varmere. Godt for Sundarbans.", "en": "Dry and warmer. Good for the Sundarbans."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.4, "nedbor": 48, "no": "Varmt (32 °C), fuktigheten stiger.", "en": "Hot (32 °C), humidity rising."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 33.9, "nedbor": 128, "no": "Hetest, tordenvær. Pohela Boishakh (se Vinduer).", "en": "Hottest, thunderstorms. Pohela Boishakh (see events)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 33.6, "nedbor": 272, "no": "Fuktig og varmt, syklonfare før monsunen.", "en": "Humid and hot, cyclone risk before the monsoon."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.8, "nedbor": 317, "no": "Monsunen kommer, flom mulig.", "en": "Monsoon arrives, floods possible."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 32.1, "nedbor": 391, "no": "Monsun, mest regn. Flom og trafikkaos.", "en": "Monsoon, most rain. Floods and traffic chaos."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.3, "nedbor": 315, "no": "Monsun, frodig. Elvene fulle.", "en": "Monsoon, lush. Rivers full."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.4, "nedbor": 285, "no": "Monsunen avtar, fortsatt vått.", "en": "Monsoon easing, still wet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.9, "nedbor": 174, "no": "Overgang; syklonfare. Durga Puja.", "en": "Transition; cyclone risk. Durga Puja."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 29.7, "nedbor": 21, "no": "Tørrere og klarere (30 °C). Sesongen starter.", "en": "Drier and clearer (30 °C). The season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.1, "nedbor": 11, "no": "Tørt, behagelig (26 °C). Høysesong.", "en": "Dry, pleasant (26 °C). High season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 16, "til_uke": 16, "type": "Hendelse", "justering": 0.3, "no": "Pohela Boishakh (bengalsk nyttår) 14.4: fargerike opptog i Dhaka", "en": "Pohela Boishakh (Bengali New Year) 14 Apr: colourful processions in Dhaka"}
+  ]
+}

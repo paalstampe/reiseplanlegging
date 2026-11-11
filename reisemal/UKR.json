@@ -1,0 +1,28 @@
+{
+  "id": "UKR",
+  "region": "Europa",
+  "land": "Ukraina",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd (krig)",
+  "koord": [50.45, 30.52],
+  "kilde": "Kyiv, Pogoda.ru.net 1991–2020, via Wikipedia. Lviv litt kjøligere og våtere, Odesa mildere",
+  "en": {"land": "Ukraine", "kategori": "City / culture", "merknad": "Safety: check Norwegian MFA travel advice (war)", "kilde": "Kyiv, Pogoda.ru.net 1991–2020, via Wikipedia. Lviv slightly cooler and wetter, Odesa milder"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -0.8, "nedbor": 38, "no": "Kaldt (−1 °C), snø. Luftalarmer og strømbrudd.", "en": "Cold (−1 °C), snow. Air-raid alerts and power cuts."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 0.7, "nedbor": 40, "no": "Kaldt (1 °C), snø.", "en": "Cold (1 °C), snow."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.5, "nedbor": 40, "no": "Kjølig (7 °C), snøsmelting.", "en": "Cool (7 °C), thaw."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.0, "nedbor": 42, "no": "Mildt (15 °C), våren kommer.", "en": "Mild (15 °C), spring arrives."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 21.1, "nedbor": 65, "no": "Ideelt (21 °C). Kastanjeblomstring i Kyiv.", "en": "Ideal (21 °C). Chestnut blossom in Kyiv."},
+    {"klima": 5, "opplevelse": 3, "trengsel": 5, "tmaks": 24.6, "nedbor": 73, "no": "Varmt (25 °C), lange dager, tordenbyger.", "en": "Warm (25 °C), long days, thunderstorms."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 5, "tmaks": 26.5, "nedbor": 68, "no": "Varmest (27 °C), byger.", "en": "Warmest (27 °C), showers."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 5, "tmaks": 25.9, "nedbor": 56, "no": "Varmt (26 °C). Uavhengighetsdagen 24.8.", "en": "Warm (26 °C). Independence Day, 24 Aug."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 20.0, "nedbor": 57, "no": "Mildt (20 °C), tørt og klart. Høstfarger i Lviv.", "en": "Mild (20 °C), dry and clear. Autumn colours in Lviv."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 12.9, "nedbor": 46, "no": "Kjølig (13 °C), høstfarger.", "en": "Cool (13 °C), autumn colours."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 5.3, "nedbor": 46, "no": "Kaldt (5 °C), grått.", "en": "Cold (5 °C), grey."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 0.5, "nedbor": 47, "no": "Kaldt (1 °C), snø. Julemarked i Lviv.", "en": "Cold (1 °C), snow. Christmas market in Lviv."}
+  ],
+  "vinduer": []
+}

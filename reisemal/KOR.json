@@ -1,0 +1,35 @@
+{
+  "id": "KOR",
+  "region": "Asia",
+  "land": "Sør-Korea",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [37.57, 126.98],
+  "kilde": "Seoul, KMA 1991–2020, via Wikipedia",
+  "en": {"land": "South Korea", "kategori": "City / culture / food", "kilde": "Seoul, KMA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 2.1, "nedbor": 17, "no": "Kaldt (2 °C), tørt og klart. Ski i Gangwon.", "en": "Cold (2 °C), dry and clear. Skiing in Gangwon."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 5.1, "nedbor": 28, "no": "Kaldt (5 °C). Seollal (koreansk nyttår).", "en": "Cold (5 °C). Seollal (Lunar New Year)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 11.0, "nedbor": 37, "no": "Kjølig (11 °C); gult støv fra Kina kan komme.", "en": "Cool (11 °C); yellow dust from China possible."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 17.9, "nedbor": 73, "no": "Kirsebærblomstring tidlig i april. Populært.", "en": "Cherry blossom in early April. Popular."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.6, "nedbor": 104, "no": "Behagelig (24 °C), grønt. Lyktefestival (se Vinduer).", "en": "Pleasant (24 °C), green. Lantern festival (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 27.6, "nedbor": 130, "no": "Varmt; regntiden jangma starter i slutten av juni.", "en": "Warm; the jangma rainy season starts late June."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 29.0, "nedbor": 414, "no": "Jangma: mest regn, fuktig. Koreansk sommerferie.", "en": "Jangma: most rain, humid. Korean summer holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 30.0, "nedbor": 348, "no": "Varmt og fuktig (30 °C), tyfonrisiko.", "en": "Hot and humid (30 °C), typhoon risk."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.2, "nedbor": 142, "no": "Varmt, tørrere. Chuseok (se Vinduer).", "en": "Warm, drier. Chuseok (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 20.2, "nedbor": 52, "no": "Klart og behagelig (20 °C). Høstfarger i fjellene.", "en": "Clear and pleasant (20 °C). Autumn colours in the mountains."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 11.9, "nedbor": 51, "no": "Høstfarger i Seoul tidlig i måneden, så kaldere.", "en": "Autumn colours in Seoul early in the month, then colder."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 4.2, "nedbor": 23, "no": "Kaldt (4 °C), julelys.", "en": "Cold (4 °C), Christmas lights."}
+  ],
+  "vinduer": [
+    {"fra": "2026-05-16", "til": "2026-05-24", "type": "Hendelse", "justering": 0.2, "no": "Lyktefestival før Buddhas fødselsdag (24.5.2026), sjekk dato", "en": "Lantern festival before Buddha's Birthday (24 May 2026), check dates"},
+    {"fra": "2027-05-08", "til": "2027-05-13", "type": "Hendelse", "justering": 0.2, "no": "Lyktefestival før Buddhas fødselsdag (13.5.2027), sjekk dato", "en": "Lantern festival before Buddha's Birthday (13 May 2027), check dates"},
+    {"fra": "2028-04-26", "til": "2028-05-02", "type": "Hendelse", "justering": 0.2, "no": "Lyktefestival før Buddhas fødselsdag (2.5.2028), sjekk dato", "en": "Lantern festival before Buddha's Birthday (2 May 2028), check dates"},
+    {"fra": "2026-09-24", "til": "2026-09-26", "type": "Helligdag", "justering": -0.5, "no": "Chuseok (25.9.2026): fulle tog, mye stengt", "en": "Chuseok (25 Sep 2026): full trains, much closed"},
+    {"fra": "2027-09-14", "til": "2027-09-16", "type": "Helligdag", "justering": -0.5, "no": "Chuseok (15.9.2027): fulle tog, mye stengt", "en": "Chuseok (15 Sep 2027): full trains, much closed"},
+    {"fra": "2028-10-02", "til": "2028-10-04", "type": "Helligdag", "justering": -0.5, "no": "Chuseok (3.10.2028): fulle tog, mye stengt", "en": "Chuseok (3 Oct 2028): full trains, much closed"}
+  ]
+}

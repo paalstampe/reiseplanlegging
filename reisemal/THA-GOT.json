@@ -1,0 +1,31 @@
+{
+  "id": "THA-GOT",
+  "region": "Asia",
+  "land": "Thailand",
+  "sted": "Thailandbukta (Koh Samui)",
+  "kortnavn": "Koh Samui",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "Omvendt monsun av Phuket: våtest oktober–desember",
+  "koord": [9.51, 100.01],
+  "kilde": "Ko Samui, WMO 1991–2020, via Wikipedia. Koh Phangan og Koh Tao har samme mønster",
+  "en": {"land": "Thailand", "sted": "Gulf of Thailand (Koh Samui)", "kortnavn": "Koh Samui", "kategori": "Beach / nature", "merknad": "Opposite monsoon to Phuket: wettest October–December", "kilde": "Ko Samui, WMO 1991–2020, via Wikipedia. Koh Phangan and Koh Tao have the same pattern"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 29.0, "nedbor": 127, "no": "Regnet slipper tidlig i måneden. Høysesong.", "en": "Rain clears early in the month. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.4, "nedbor": 64, "no": "Tørt og solrikt. Høysesong.", "en": "Dry and sunny. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.4, "nedbor": 116, "no": "Tørt, rolig hav. God sikt ved Koh Tao.", "en": "Dry, calm sea. Good visibility at Koh Tao."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.8, "nedbor": 83, "no": "Varmt og tørt. Songkran (se Vinduer).", "en": "Hot and dry. Songkran (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.9, "nedbor": 132, "no": "Varmt (33 °C), noen byger.", "en": "Hot (33 °C), some showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.7, "nedbor": 134, "no": "Varmt, kortvarige byger. Rolig.", "en": "Hot, brief showers. Quiet."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 32.3, "nedbor": 117, "no": "Fint mens Phuket har monsun. Europeisk ferie.", "en": "Fine while Phuket has the monsoon. European holidays."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 32.4, "nedbor": 102, "no": "Som juli; populært.", "en": "As July; popular."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.9, "nedbor": 118, "no": "Fortsatt bra, lite folk.", "en": "Still good, few people."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.6, "nedbor": 295, "no": "Nordøstmonsunen starter, mye regn.", "en": "Northeast monsoon begins, heavy rain."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 29.7, "nedbor": 445, "no": "Mest regn, flomfare og grov sjø.", "en": "Most rain, flood risk and rough sea."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 29.3, "nedbor": 263, "no": "Regnfullt første halvdel. Jul dyrt.", "en": "Rainy first half. Christmas expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 15, "til_uke": 16, "type": "Hendelse", "justering": 0.3, "no": "Songkran (thai nyttår) 13.–15.4: vannkrig og fest, men fullt", "en": "Songkran (Thai New Year) 13–15 Apr: water fights and parties, but full"}
+  ]
+}

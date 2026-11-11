@@ -1,0 +1,30 @@
+{
+  "id": "NZL-S",
+  "region": "Oseania",
+  "land": "New Zealand",
+  "sted": "Sørøya",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / roadtrip",
+  "merknad": "",
+  "koord": [-45.03, 168.66],
+  "kilde": "Queenstown lufthavn, NIWA 1991–2020, via Wikipedia. Vestkysten og Fiordland langt våtere (Milford Sound ca. 6700 mm/år); Christchurch tørrere",
+  "en": {"land": "New Zealand", "sted": "South Island", "kategori": "Nature / road trip", "kilde": "Queenstown Airport, NIWA 1991–2020, via Wikipedia. The West Coast and Fiordland much wetter (Milford Sound approx. 6,700 mm/yr); Christchurch drier"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 22.0, "nedbor": 72, "no": "Sommer (22 °C). Great Walks åpne. Skoleferie: alt fullt og dyrt.", "en": "Summer (22 °C). Great Walks open. School holidays: everything full and expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.8, "nedbor": 51, "no": "Stabilt og tørt. Høysesong.", "en": "Settled and dry. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 19.1, "nedbor": 49, "no": "Fortsatt fint, færre folk. Ofte beste balanse.", "en": "Still fine, fewer people. Often the best balance."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 15.2, "nedbor": 58, "no": "Høstfarger i Arrowtown og Wanaka. Påskeferie (se Vinduer).", "en": "Autumn colours in Arrowtown and Wanaka. Easter holidays (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 11.9, "nedbor": 75, "no": "Kjølig (12 °C). Great Walks stengt med hytteservice. Rolig.", "en": "Cool (12 °C). Great Walks closed for hut service. Quiet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 8.6, "nedbor": 62, "no": "Vinter. Skisesongen starter midt i måneden. Winter Festival (se Vinduer).", "en": "Winter. Ski season starts mid-month. Winter Festival (see events)."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 2, "tmaks": 8.2, "nedbor": 56, "no": "Kaldest (8 °C). Ski; skoleferie i NZ og Australia: fullt.", "en": "Coldest (8 °C). Skiing; school holidays in NZ and Australia: full."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 10.2, "nedbor": 53, "no": "Vinter, beste snø. Klare dager i Milford Sound.", "en": "Winter, best snow. Clear days in Milford Sound."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 13.0, "nedbor": 62, "no": "Vår, skisesongen går mot slutten.", "en": "Spring, ski season winding down."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.4, "nedbor": 62, "no": "Vår, ustabilt. Great Walks åpner sist i måneden.", "en": "Spring, changeable. Great Walks open at the end of the month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 17.5, "nedbor": 61, "no": "Varmere, lupiner fra slutten av måneden. Før sommerrushet.", "en": "Warmer, lupins from the end of the month. Before the summer rush."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 20.2, "nedbor": 60, "no": "Sommeren starter, lange dager. Jul og skoleferie.", "en": "Summer begins, long days. Christmas and school holidays."}
+  ],
+  "vinduer": [
+    {"fra_uke": 25, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Queenstown Winter Festival (sist i juni, sjekk dato)", "en": "Queenstown Winter Festival (late June, check date)"}
+  ]
+}

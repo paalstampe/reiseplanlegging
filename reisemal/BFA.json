@@ -1,0 +1,32 @@
+{
+  "id": "BFA",
+  "region": "Afrika",
+  "land": "Burkina Faso",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [12.37, -1.52],
+  "kilde": "Ouagadougou, WMO 1991–2020, via Wikipedia",
+  "en": {"land": "Burkina Faso", "kategori": "Culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Ouagadougou, WMO 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 33.5, "nedbor": 0, "no": "Tørt (34 °C), harmattan-støv. Kjølige netter.", "en": "Dry (34 °C), Harmattan dust. Cool nights."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 36.5, "nedbor": 0, "no": "Varmere (37 °C), støvete. FESPACO i oddetallsår (se Vinduer).", "en": "Hotter (37 °C), dusty. FESPACO in odd years (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 39.3, "nedbor": 5, "no": "Hett (39 °C).", "en": "Very hot (39 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 40.0, "nedbor": 44, "no": "Hetest (40 °C).", "en": "Hottest (40 °C)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 38.4, "nedbor": 70, "no": "Hett, første regnbyger.", "en": "Very hot, first showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 35.6, "nedbor": 83, "no": "Regntiden starter, litt svalere.", "en": "Rainy season begins, slightly cooler."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.9, "nedbor": 202, "no": "Regntid, grønt; gjørmete veier.", "en": "Rainy season, green; muddy roads."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.6, "nedbor": 232, "no": "Mest regn (232 mm).", "en": "Wettest (232 mm)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.1, "nedbor": 143, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 36.0, "nedbor": 32, "no": "Tørt og varmt (36 °C). SIAO i partallsår (se Vinduer).", "en": "Dry and hot (36 °C). SIAO in even years (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 36.7, "nedbor": 7, "no": "Tørt, grønt etter regntiden.", "en": "Dry, green after the rains."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 5, "tmaks": 34.4, "nedbor": 0, "no": "Tørt og kjøligst. Beste reisetid.", "en": "Dry and coolest. Best time to visit."}
+  ],
+  "vinduer": [
+    {"fra": "2027-02-27", "til": "2027-03-06", "type": "Hendelse", "justering": 0.5, "no": "FESPACO, Afrikas største filmfestival, i Ouagadougou (sjekk dato)", "en": "FESPACO, Africa's largest film festival, in Ouagadougou (check date)"},
+    {"fra": "2026-10-30", "til": "2026-11-08", "type": "Hendelse", "justering": 0.3, "no": "SIAO, stor håndverksmesse i Ouagadougou (sjekk dato)", "en": "SIAO, large crafts fair in Ouagadougou (check date)"},
+    {"fra": "2028-10-27", "til": "2028-11-05", "type": "Hendelse", "justering": 0.3, "no": "SIAO, håndverksmesse i Ouagadougou (sjekk dato)", "en": "SIAO, crafts fair in Ouagadougou (check date)"}
+  ]
+}

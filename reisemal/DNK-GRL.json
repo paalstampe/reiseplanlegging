@@ -1,0 +1,30 @@
+{
+  "id": "DNK-GRL",
+  "region": "Europa",
+  "land": "Grønland",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / ekspedisjon",
+  "merknad": "",
+  "koord": [64.18, -51.72],
+  "kilde": "Nuuk, DMI 1991–2020, via Wikipedia. Ilulissat (Diskobukta) kaldere om vinteren og tørrere",
+  "en": {"land": "Greenland", "kategori": "Nature / expedition", "kilde": "Nuuk, DMI 1991–2020, via Wikipedia. Ilulissat (Disko Bay) colder in winter and drier"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -5.0, "nedbor": 67, "no": "Kaldt (−5 °C) og mørkt. Nordlys, men korte dager.", "en": "Cold (−5 °C) and dark. Northern lights, but short days."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": -6.0, "nedbor": 51, "no": "Kaldest. Hundeslede og nordlys, dagene blir lengre.", "en": "Coldest. Dog sledding and northern lights, days getting longer."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": -5.1, "nedbor": 59, "no": "Kaldt, men lyst og stabilt. God sesong for hundeslede og nordlys.", "en": "Cold, but bright and stable. Good season for dog sledding and northern lights."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": -0.7, "nedbor": 53, "no": "Lange, lyse dager med snø. Hundeslede i Ilulissat og Sisimiut.", "en": "Long, bright days with snow. Dog sledding in Ilulissat and Sisimiut."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 3.9, "nedbor": 57, "no": "Snøsmelting, mellomsesong. Isen bryter opp.", "en": "Snowmelt, shoulder season. The ice breaks up."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 8.4, "nedbor": 62, "no": "Midnattssol, isfjell og hval. Nasjonaldag (se Vinduer).", "en": "Midnight sun, icebergs and whales. National Day (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 11.1, "nedbor": 69, "no": "Varmest (11 °C). Fotturer, båt til isfjord og hval. Høysesong.", "en": "Warmest (11 °C). Hiking, boat trips to the ice fjord and whales. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 10.2, "nedbor": 91, "no": "Mildt, fortsatt lyst. Hval og fotturer. Høysesong.", "en": "Mild, still light. Whales and hiking. High season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 6.5, "nedbor": 105, "no": "Høstfarger og første nordlys, men mest regn.", "en": "Autumn colours and first northern lights, but the most rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 2.3, "nedbor": 81, "no": "Kjølig og mørkere. Nordlys, få båtturer.", "en": "Cool and darker. Northern lights, few boat trips."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -1.1, "nedbor": 79, "no": "Mørkt og vått. Lite å gjøre.", "en": "Dark and wet. Little to do."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -3.2, "nedbor": 75, "no": "Mørketid i nord. Rolig.", "en": "Polar night in the north. Quiet."}
+  ],
+  "vinduer": [
+    {"fra_uke": 25, "til_uke": 25, "type": "Hendelse", "justering": 0.3, "no": "Grønlands nasjonaldag 21.6: feiring i alle byer", "en": "Greenland National Day 21 Jun: celebrations in every town"}
+  ]
+}

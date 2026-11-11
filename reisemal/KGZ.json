@@ -1,0 +1,30 @@
+{
+  "id": "KGZ",
+  "region": "Asia",
+  "land": "Kirgisistan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / fjell",
+  "merknad": "Jurtleirer (Song-Kul) åpne ca. midten av juni–september; fjellet mye kaldere enn Bishkek",
+  "koord": [41.83, 75.12],
+  "kilde": "Bishkek (800 moh), Pogoda.ru.net 1991–2020, via Wikipedia (proxy). Song-Kul (3016 moh) 15–18 °C og Karakol rundt 25 °C om sommeren",
+  "en": {"land": "Kyrgyzstan", "kategori": "Nature / mountains", "merknad": "Yurt camps (Song-Kul) open approx. mid-June–September; the mountains are much colder than Bishkek", "kilde": "Bishkek (800 m), Pogoda.ru.net 1991–2020, via Wikipedia (proxy). Song-Kul (3,016 m) 15–18 °C and Karakol around 25 °C in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 2.9, "nedbor": 28, "no": "Kaldt (3 °C i Bishkek), streng kulde i fjellet. Ski i Karakol.", "en": "Cold (3 °C in Bishkek), severe cold in the mountains. Skiing in Karakol."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 5.1, "nedbor": 36, "no": "Kaldt, snø i fjellet. Få turister.", "en": "Cold, snow in the mountains. Few tourists."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 12.1, "nedbor": 48, "no": "Kjølig, snøsmelting. Nooruz 21.3 (se Vinduer).", "en": "Cool, snowmelt. Nooruz 21 Mar (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 18.7, "nedbor": 71, "no": "Vår i lavlandet (19 °C); fjellpass fortsatt snødekt.", "en": "Spring in the lowlands (19 °C); mountain passes still snowbound."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 24.1, "nedbor": 59, "no": "Grønt og blomstrende. Høyfjellet åpner sent i mai.", "en": "Green and in bloom. The high mountains open late May."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 29.5, "nedbor": 34, "no": "Jurtleirene åpner; grønne sommerbeiter.", "en": "Yurt camps open; green summer pastures."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 32.4, "nedbor": 19, "no": "Toppsesong: Song-Kul og Ala-Archa, 32 °C i Bishkek. Høysesong.", "en": "Peak season: Song-Kul and Ala-Archa, 32 °C in Bishkek. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.4, "nedbor": 15, "no": "Tørt, ideelt i fjellet. Høysesong.", "en": "Dry, ideal in the mountains. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.6, "nedbor": 18, "no": "Høstfarger, kalde netter. Gjeterne trekker ned sent i september.", "en": "Autumn colours, cold nights. Herders move down late September."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 18.5, "nedbor": 37, "no": "Jurtleirene stengt, snø i fjellet.", "en": "Yurt camps closed, snow in the mountains."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.3, "nedbor": 45, "no": "Kaldt og grått.", "en": "Cold and grey."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.6, "nedbor": 37, "no": "Kaldt, vinter.", "en": "Cold, winter."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 12, "type": "Hendelse", "justering": 0.3, "no": "Nooruz 21.3: nyttårsfeiring med hestespill og kok-boru", "en": "Nooruz 21 Mar: New Year celebrations with horse games and kok-boru"}
+  ]
+}

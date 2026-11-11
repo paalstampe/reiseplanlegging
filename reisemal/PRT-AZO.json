@@ -1,0 +1,33 @@
+{
+  "id": "PRT-AZO",
+  "region": "Europa",
+  "land": "Portugal",
+  "sted": "Azorene",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [37.78, -25.5],
+  "kilde": "Ponta Delgada (Afonso Chaves-observatoriet, São Miguel), IPMA 1991–2020, via Wikipedia. Været skifter raskt; vind og skyer hele året",
+  "en": {"land": "Portugal", "sted": "Azores", "kategori": "Nature / wildlife", "kilde": "Ponta Delgada (Afonso Chaves Observatory, São Miguel), IPMA 1991–2020, via Wikipedia. Weather changes fast; wind and cloud all year"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 17.5, "nedbor": 102, "no": "Mildt (18 °C), men vind, regn og skyer. Turer innstilles ofte.", "en": "Mild (18 °C), but wind, rain and cloud. Tours often cancelled."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 17.4, "nedbor": 87, "no": "Vått og blåsende. Lite folk.", "en": "Wet and windy. Few people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 17.9, "nedbor": 97, "no": "Ustabilt, 18 °C. Hvalene kommer.", "en": "Unsettled, 18 °C. The whales arrive."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 18.8, "nedbor": 80, "no": "Blåhval og finnhval på trekk (se Vinduer). Skiftende vær.", "en": "Blue and fin whales migrating (see events). Changeable weather."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 20.2, "nedbor": 61, "no": "Tørrere (61 mm), grønt. Hval og Santo Cristo-festen (se Vinduer).", "en": "Drier (61 mm), green. Whales and the Santo Cristo festival (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 22.4, "nedbor": 44, "no": "Hortensiaene blomstrer, 22 °C. Fine turforhold.", "en": "Hydrangeas in bloom, 22 °C. Good hiking conditions."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.7, "nedbor": 26, "no": "Tørrest (26 mm), 25 °C. Høysesong.", "en": "Driest (26 mm), 25 °C. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 26.0, "nedbor": 46, "no": "Varmest (26 °C), havet rundt 23 °C. Fullt og dyrt.", "en": "Warmest (26 °C), sea around 23 °C. Full and expensive."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 25.0, "nedbor": 78, "no": "Varmt, havet varmt. Hval og delfiner.", "en": "Warm, sea warm. Whales and dolphins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 22.6, "nedbor": 118, "no": "Regnet kommer tilbake (118 mm).", "en": "The rain returns (118 mm)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 19.9, "nedbor": 95, "no": "Vått og blåsende.", "en": "Wet and windy."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 18.3, "nedbor": 153, "no": "Mest regn (153 mm) og stormer.", "en": "Wettest (153 mm) and stormy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 14, "til_uke": 21, "type": "Dyreliv", "justering": 0.5, "no": "Blåhval, finnhval og seihval på vårtrekk forbi Azorene", "en": "Blue, fin and sei whales on spring migration past the Azores"},
+    {"fra": "2026-05-08", "til": "2026-05-11", "type": "Hendelse", "justering": 0.3, "no": "Senhor Santo Cristo dos Milagres i Ponta Delgada, prosesjon søndag 10.5: fullt på São Miguel", "en": "Senhor Santo Cristo dos Milagres in Ponta Delgada, procession Sunday 10 May: São Miguel full"},
+    {"fra": "2027-04-30", "til": "2027-05-03", "type": "Hendelse", "justering": 0.3, "no": "Senhor Santo Cristo dos Milagres i Ponta Delgada, prosesjon søndag 2.5: fullt på São Miguel", "en": "Senhor Santo Cristo dos Milagres in Ponta Delgada, procession Sunday 2 May: São Miguel full"},
+    {"fra": "2028-05-19", "til": "2028-05-22", "type": "Hendelse", "justering": 0.3, "no": "Senhor Santo Cristo dos Milagres i Ponta Delgada, prosesjon søndag 21.5: fullt på São Miguel", "en": "Senhor Santo Cristo dos Milagres in Ponta Delgada, procession Sunday 21 May: São Miguel full"}
+  ]
+}

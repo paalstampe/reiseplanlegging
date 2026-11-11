@@ -1,0 +1,32 @@
+{
+  "id": "BIH",
+  "region": "Europa",
+  "land": "Bosnia-Hercegovina",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / natur",
+  "merknad": "",
+  "koord": [43.86, 18.41],
+  "kilde": "Sarajevo, WMO 1991–2020, via Wikipedia. Mostar 5–7 °C varmere om sommeren (over 35 °C i juli–august)",
+  "en": {"land": "Bosnia and Herzegovina", "kategori": "City / culture / nature", "kilde": "Sarajevo, WMO 1991–2020, via Wikipedia. Mostar 5–7 °C hotter in summer (above 35 °C in July–August)"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 4.1, "nedbor": 68, "no": "Kaldt (4 °C), snø og smog i Sarajevo. Ski på Jahorina.", "en": "Cold (4 °C), snow and smog in Sarajevo. Skiing on Jahorina."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.6, "nedbor": 67, "no": "Kaldt (7 °C), snø i fjellet.", "en": "Cold (7 °C), snow in the mountains."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 11.5, "nedbor": 67, "no": "Kjølig (12 °C). Mostar mildere.", "en": "Cool (12 °C). Mostar milder."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.5, "nedbor": 78, "no": "Vår (17 °C), byger. Fint i Mostar.", "en": "Spring (17 °C), showers. Pleasant in Mostar."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 21.4, "nedbor": 89, "no": "Fint (21 °C), grønt. Elver og fosser (Kravica) fulle.", "en": "Pleasant (21 °C), green. Rivers and waterfalls (Kravica) full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.4, "nedbor": 88, "no": "Ideelt (25 °C) i Sarajevo; varmt i Mostar. Rafting på Tara/Neretva.", "en": "Ideal (25 °C) in Sarajevo; hot in Mostar. Rafting on the Tara/Neretva."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 27.8, "nedbor": 75, "no": "Varmt (28 °C); Mostar svært hett og fullt av dagsturister.", "en": "Warm (28 °C); Mostar very hot and full of day-trippers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 28.3, "nedbor": 63, "no": "Varmt (28 °C). Sarajevo filmfestival (se Vinduer).", "en": "Warm (28 °C). Sarajevo Film Festival (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 22.5, "nedbor": 89, "no": "Ideelt (23 °C), færre folk.", "en": "Ideal (23 °C), fewer people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 17.3, "nedbor": 91, "no": "Mildt (17 °C), høstfarger.", "en": "Mild (17 °C), autumn colours."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.6, "nedbor": 85, "no": "Kjølig (11 °C), regn.", "en": "Cool (11 °C), rain."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 4.3, "nedbor": 89, "no": "Kaldt (4 °C), vått og smog.", "en": "Cold (4 °C), wet and smog."}
+  ],
+  "vinduer": [
+    {"fra": "2026-08-14", "til": "2026-08-21", "type": "Hendelse", "justering": 0.3, "no": "Sarajevo filmfestival (sjekk dato)", "en": "Sarajevo Film Festival (check date)"},
+    {"fra": "2027-08-13", "til": "2027-08-20", "type": "Hendelse", "justering": 0.3, "no": "Sarajevo filmfestival (sjekk dato)", "en": "Sarajevo Film Festival (check date)"},
+    {"fra": "2028-08-11", "til": "2028-08-18", "type": "Hendelse", "justering": 0.3, "no": "Sarajevo filmfestival (sjekk dato)", "en": "Sarajevo Film Festival (check date)"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "LCA",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "St. Lucia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [13.91, -60.98],
+  "kilde": "Castries (George F. L. Charles Airport), NOAA 1991–2020, via Wikipedia. Regnskogen og Soufrière våtere",
+  "en": {"land": "Saint Lucia", "kategori": "Beach / nature", "kilde": "Castries (George F. L. Charles Airport), NOAA 1991–2020, via Wikipedia. The rainforest and Soufrière are wetter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.0, "nedbor": 105, "no": "Tørrsesong, passatvind, korte byger. Høysesong.", "en": "Dry season, trade winds, brief showers. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.1, "nedbor": 72, "no": "Tørt og behagelig. Pitons-turer fine.", "en": "Dry and pleasant. Good for hiking the Pitons."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.7, "nedbor": 66, "no": "Tørrest. Høysesong.", "en": "Driest. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.5, "nedbor": 86, "no": "Tørt og varmt. Skilpadder legger egg på Grande Anse.", "en": "Dry and warm. Turtles nest at Grande Anse."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 31.1, "nedbor": 105, "no": "Varmt; jazzfestival (se Vinduer). Rimeligere.", "en": "Hot; jazz festival (see events). Cheaper."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 157, "no": "Regntiden starter; orkansesongen begynner.", "en": "Rainy season begins; hurricane season starts."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.9, "nedbor": 199, "no": "Fuktig, byger. Karneval (se Vinduer).", "en": "Humid, showers. Carnival (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 218, "no": "Orkanrisiko, mye regn.", "en": "Hurricane risk, lots of rain."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.5, "nedbor": 206, "no": "Orkansesongens topp; noen hoteller stengt.", "en": "Peak hurricane season; some hotels closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 251, "no": "Mest regn, orkanrisiko.", "en": "Most rain, hurricane risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.4, "nedbor": 234, "no": "Regnfullt, men orkanfaren avtar.", "en": "Rainy, but hurricane risk fading."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 29.6, "nedbor": 130, "no": "Tørrere. Seilere fra ARC i Rodney Bay; jul dyrt.", "en": "Drier. ARC sailors in Rodney Bay; Christmas expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 18, "til_uke": 19, "type": "Hendelse", "justering": 0.3, "no": "Saint Lucia Jazz & Arts Festival (tidlig i mai, sjekk dato)", "en": "Saint Lucia Jazz & Arts Festival (early May, check dates)"},
+    {"fra_uke": 29, "til_uke": 30, "type": "Hendelse", "justering": 0.3, "no": "Lucian Carnival med parader mandag–tirsdag midt i juli (sjekk dato)", "en": "Lucian Carnival with parades Monday–Tuesday in mid-July (check dates)"},
+    {"fra_uke": 48, "til_uke": 50, "type": "Hendelse", "justering": 0.0, "no": "ARC-regattaen fra Kanariøyene ankommer Rodney Bay: livlig marina, fullt i Gros Islet", "en": "The ARC rally from the Canaries arrives in Rodney Bay: lively marina, Gros Islet full"}
+  ]
+}

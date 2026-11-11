@@ -1,0 +1,33 @@
+{
+  "id": "ATG",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Antigua og Barbuda",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [17.07, -61.8],
+  "kilde": "St. John's (V. C. Bird International Airport), Antigua/Barbuda Meteorological Services (periode ikke oppgitt), via Wikipedia",
+  "en": {"land": "Antigua and Barbuda", "kategori": "Beach / nature", "kilde": "St. John's (V. C. Bird International Airport), Antigua/Barbuda Meteorological Services (period not stated), via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.3, "nedbor": 57, "no": "Tørt, passatvind. Høysesong, dyrt.", "en": "Dry, trade winds. High season, expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.4, "nedbor": 45, "no": "Tørrest og behagelig. Høysesong.", "en": "Driest and pleasant. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.8, "nedbor": 46, "no": "Tørt og sol. Høysesong.", "en": "Dry and sunny. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.4, "nedbor": 72, "no": "Tørt. Sailing Week i English Harbour (se Vinduer).", "en": "Dry. Sailing Week in English Harbour (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.2, "nedbor": 90, "no": "Varmere, enkelte byger. Lavere priser.", "en": "Warmer, some showers. Lower prices."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 62, "no": "Varmt; orkansesongen starter. Rolig.", "en": "Hot; hurricane season begins. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 30.9, "nedbor": 87, "no": "Varmt, byger. Karneval i St. John's (se Vinduer).", "en": "Hot, showers. Carnival in St. John's (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.2, "nedbor": 99, "no": "Varmt; økende orkanrisiko.", "en": "Hot; rising hurricane risk."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.1, "nedbor": 132, "no": "Orkansesongens topp; mange hoteller stengt.", "en": "Peak hurricane season; many hotels closed."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.6, "nedbor": 142, "no": "Orkanrisiko, mest regn. Mye stengt.", "en": "Hurricane risk, wettest. Much closed."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.8, "nedbor": 135, "no": "Regnet avtar; sesongen åpner.", "en": "Rain eases; the season opens."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 28.8, "nedbor": 83, "no": "Tørrere; jul og nyttår dyrt.", "en": "Drier; Christmas and New Year expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2026-04-25", "til": "2026-05-01", "type": "Hendelse", "justering": 0.3, "no": "Antigua Sailing Week: regattaer og fest i English Harbour", "en": "Antigua Sailing Week: regattas and parties in English Harbour"},
+    {"fra": "2027-04-24", "til": "2027-04-30", "type": "Hendelse", "justering": 0.3, "no": "Antigua Sailing Week i English Harbour (sjekk dato)", "en": "Antigua Sailing Week in English Harbour (check date)"},
+    {"fra": "2028-04-29", "til": "2028-05-05", "type": "Hendelse", "justering": 0.3, "no": "Antigua Sailing Week i English Harbour (sjekk dato)", "en": "Antigua Sailing Week in English Harbour (check date)"},
+    {"fra_uke": 30, "til_uke": 31, "type": "Hendelse", "justering": 0.3, "no": "Antigua Carnival: parader og calypso i St. John's, til første tirsdag i august", "en": "Antigua Carnival: parades and calypso in St. John's, until the first Tuesday of August"}
+  ]
+}

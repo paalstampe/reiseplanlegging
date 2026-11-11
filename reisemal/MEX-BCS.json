@@ -1,0 +1,32 @@
+{
+  "id": "MEX-BCS",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Mexico",
+  "sted": "Baja California Sur",
+  "kortnavn": "Baja California Sur",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / hval",
+  "merknad": "",
+  "koord": [23.6, -110.3],
+  "kilde": "La Paz, SMN 1991–2020, via Wikipedia. Cabo San Lucas mildere om sommeren (34–35 °C), men mer regn i sep (110 mm)",
+  "en": {"land": "Mexico", "kortnavn": "Baja California Sur", "sted": "Baja California Sur", "kategori": "Beach / whales", "kilde": "La Paz, SMN 1991–2020, via Wikipedia. Cabo San Lucas milder in summer (34–35 °C), but more rain in Sep (110 mm)"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 25.4, "nedbor": 9, "no": "Mildt (25 °C), tørt. Gråhval i lagunene, knølhval ved Cabo.", "en": "Mild (25 °C), dry. Grey whales in the lagoons, humpbacks off Cabo."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.5, "nedbor": 6, "no": "Toppsesong for gråhval (se Vinduer). Høysesong.", "en": "Peak grey whale season (see events). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.3, "nedbor": 1, "no": "Tørt og varmt (29 °C). Gråhvalen fortsatt i lagunene.", "en": "Dry and warm (29 °C). Grey whales still in the lagoons."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 32.2, "nedbor": 0, "no": "Tørt og varmt; hvalene drar. Semana Santa: fullt.", "en": "Dry and warm; the whales leave. Semana Santa: full."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 35.3, "nedbor": 0, "no": "Varmt (35 °C) og tørt; god dykking og sikt.", "en": "Hot (35 °C) and dry; good diving and visibility."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 37.4, "nedbor": 1, "no": "Svært varmt i La Paz (37 °C); kysten litt kjøligere.", "en": "Very hot in La Paz (37 °C); the coast a bit cooler."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 38.2, "nedbor": 12, "no": "Hetest (38 °C), fuktig. Sommerferie.", "en": "Hottest (38 °C), humid. Summer holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 37.8, "nedbor": 46, "no": "Hete og orkanrisiko.", "en": "Heat and hurricane risk."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 35.9, "nedbor": 81, "no": "Orkansesongens topp, mest regn.", "en": "Peak of the hurricane season, wettest."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 34.0, "nedbor": 17, "no": "Varmt; orkanrisiko til midten av måneden.", "en": "Hot; hurricane risk until mid-month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.8, "nedbor": 6, "no": "Tørt og behagelig (30 °C). Hvalhaier i La Paz-bukta.", "en": "Dry and pleasant (30 °C). Whale sharks in La Paz Bay."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 25.5, "nedbor": 7, "no": "Mildt; knølhval og hvalhaier. Dyrt i jula.", "en": "Mild; humpbacks and whale sharks. Expensive at Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 2, "til_uke": 13, "type": "Dyreliv", "justering": 0.5, "no": "Gråhval med kalver i Magdalena-bukta og San Ignacio-lagunen (jan–mars)", "en": "Grey whales with calves in Magdalena Bay and San Ignacio Lagoon (Jan–Mar)"},
+    {"fra_uke": 44, "til_uke": 15, "type": "Dyreliv", "justering": 0.3, "no": "Snorkling med hvalhaier i La Paz-bukta (nov–april)", "en": "Snorkelling with whale sharks in La Paz Bay (Nov–Apr)"}
+  ]
+}

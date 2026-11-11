@@ -1,0 +1,30 @@
+{
+  "id": "SLV",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "El Salvador",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [13.6, -89.2],
+  "kilde": "San Salvador (Ilopango), MARN 1991–2020, via Wikipedia. Kysten (El Tunco) varmere",
+  "en": {"land": "El Salvador", "kategori": "Nature / culture", "kilde": "San Salvador (Ilopango), MARN 1991–2020, via Wikipedia. The coast (El Tunco) hotter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.3, "nedbor": 2, "no": "Tørrsesong, sol. Vulkaner og Ruta de las Flores.", "en": "Dry season, sunny. Volcanoes and Ruta de las Flores."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.5, "nedbor": 1, "no": "Tørt og varmt. Fint for vulkanturer.", "en": "Dry and warm. Good for volcano hikes."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 33.2, "nedbor": 11, "no": "Tørt, varmest. Surfesongen starter.", "en": "Dry, hottest. The surf season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 33.0, "nedbor": 42, "no": "Varmt og tørt; regnet kan starte mot slutten.", "en": "Hot and dry; rain may begin towards the end."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.3, "nedbor": 193, "no": "Regntiden starter; store bølger i El Tunco.", "en": "Rainy season begins; big waves at El Tunco."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 30.3, "nedbor": 265, "no": "Kraftige ettermiddagsbyger. God surf.", "en": "Heavy afternoon showers. Good surf."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 302, "no": "Byger; ofte tørrere periode (canícula).", "en": "Showers; often a drier spell (canícula)."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 30.7, "nedbor": 319, "no": "Byger. Fiestas Agostinas i San Salvador (se Vinduer).", "en": "Showers. Fiestas Agostinas in San Salvador (see events)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 29.8, "nedbor": 332, "no": "Mest regn; ras og flom mulig.", "en": "Wettest; landslides and floods possible."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 29.7, "nedbor": 245, "no": "Mye regn, tropiske stormer.", "en": "Lots of rain, tropical storms."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.1, "nedbor": 65, "no": "Tørrsesongen starter; grønt og fint.", "en": "Dry season begins; green and fine."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.7, "nedbor": 6, "no": "Tørt og fint; jul gir mer folk.", "en": "Dry and fine; Christmas brings more people."}
+  ],
+  "vinduer": [
+    {"fra_uke": 31, "til_uke": 32, "type": "Hendelse", "justering": 0.3, "no": "Fiestas Agostinas 1.–6.8: fest i San Salvador; mange har ferie", "en": "Fiestas Agostinas, 1–6 Aug: festivities in San Salvador; many on holiday"}
+  ]
+}

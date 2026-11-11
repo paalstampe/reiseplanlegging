@@ -1,0 +1,32 @@
+{
+  "id": "GRD",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Grenada",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [12.12, -61.68],
+  "kilde": "St. George's (Maurice Bishop International Airport), NOAA 1991–2020, via Wikipedia. Innlandet (Grand Etang) våtere",
+  "en": {"land": "Grenada", "kategori": "Beach / nature", "kilde": "St. George's (Maurice Bishop International Airport), NOAA 1991–2020, via Wikipedia. The interior (Grand Etang) wetter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.7, "nedbor": 64, "no": "Tørrsesong, passatvind. Høysesong.", "en": "Dry season, trade winds. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.7, "nedbor": 39, "no": "Tørt. Høysesong.", "en": "Dry. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.0, "nedbor": 26, "no": "Tørrest. Høysesong.", "en": "Driest. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.5, "nedbor": 36, "no": "Tørt og fint; Carriacou Regatta-tid. Prisene faller.", "en": "Dry and fine; Carriacou regatta time. Prices fall."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 53, "no": "Varmt og stort sett tørt. Lavsesong.", "en": "Hot and mostly dry. Low season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 127, "no": "Regntiden starter. Rolig.", "en": "Rainy season begins. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 123, "no": "Byger; skilpadder legger egg på Levera.", "en": "Showers; turtles nesting at Levera."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 31.0, "nedbor": 143, "no": "Byger. Spicemas (se Vinduer).", "en": "Showers. Spicemas (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 122, "no": "Byger; lavere orkanrisiko enn lenger nord.", "en": "Showers; lower hurricane risk than further north."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.1, "nedbor": 150, "no": "Regnfullt, noe orkanrisiko. Lite folk.", "en": "Rainy, some hurricane risk. Few people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.7, "nedbor": 164, "no": "Mest regn; avtar mot slutten.", "en": "Wettest; easing towards the end."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 30.2, "nedbor": 105, "no": "Tørrere; jul og nyttår dyrt.", "en": "Drier; Christmas and New Year expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2026-08-10", "til": "2026-08-11", "type": "Hendelse", "justering": 0.5, "no": "Spicemas: J'ouvert og karnevalsparade i St. George's", "en": "Spicemas: J'ouvert and carnival parade in St. George's"},
+    {"fra": "2027-08-09", "til": "2027-08-10", "type": "Hendelse", "justering": 0.5, "no": "Spicemas: J'ouvert og karnevalsparade i St. George's", "en": "Spicemas: J'ouvert and carnival parade in St. George's"},
+    {"fra": "2028-08-14", "til": "2028-08-15", "type": "Hendelse", "justering": 0.5, "no": "Spicemas: J'ouvert og karnevalsparade i St. George's", "en": "Spicemas: J'ouvert and carnival parade in St. George's"}
+  ]
+}

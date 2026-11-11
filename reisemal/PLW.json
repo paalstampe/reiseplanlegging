@@ -1,0 +1,28 @@
+{
+  "id": "PLW",
+  "region": "Oseania",
+  "land": "Palau",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dykking",
+  "merknad": "",
+  "koord": [7.34, 134.48],
+  "kilde": "Koror, NOAA 1981–2010, via Wikipedia",
+  "en": {"land": "Palau", "kategori": "Nature / diving", "kilde": "Koror, NOAA 1981–2010, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 30.3, "nedbor": 282, "no": "Tørrere periode, rolig sjø. God sikt ved Blue Corner.", "en": "Drier period, calm seas. Good visibility at Blue Corner."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.2, "nedbor": 242, "no": "Tørreste tid. Mange asiatiske turister rundt kinesisk nyttår.", "en": "Driest time. Many Asian tourists around Chinese New Year."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.6, "nedbor": 210, "no": "Tørt, rolig sjø. Ideelt for dykking og Rock Islands.", "en": "Dry, calm seas. Ideal for diving and the Rock Islands."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.0, "nedbor": 208, "no": "Minst regn. Gyting av fisk ved Ulong og German Channel.", "en": "Least rain. Fish spawning at Ulong and German Channel."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.9, "nedbor": 318, "no": "Regnet øker.", "en": "Rain increases."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.4, "nedbor": 457, "no": "Regntid (460 mm), mer vind og bølger.", "en": "Rainy season (460 mm), more wind and swell."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.1, "nedbor": 460, "no": "Våtest; enkelte dykkesteder utilgjengelige.", "en": "Wettest; some dive sites inaccessible."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.0, "nedbor": 354, "no": "Regnfullt; tyfonrisiko (lav).", "en": "Rainy; typhoon risk (low)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.3, "nedbor": 307, "no": "Regnet avtar. Lite folk.", "en": "Rain eases. Few people."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 306, "no": "Byger, bedre sikt.", "en": "Showers, better visibility."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.0, "nedbor": 302, "no": "Overgang til tørrere sesong.", "en": "Transition to the drier season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 30.7, "nedbor": 303, "no": "Tørrere, rolig sjø. Jul: fullt og dyrt.", "en": "Drier, calm seas. Christmas: full and expensive."}
+  ],
+  "vinduer": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "THA-N",
+  "region": "Asia",
+  "land": "Thailand",
+  "sted": "Bangkok og nord (Chiang Mai)",
+  "kortnavn": "Nord-Thailand",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [18.79, 98.98],
+  "kilde": "Chiang Mai, WMO 1991–2020, via Wikipedia. Bangkok (NOAA 1991–2020) varmere og våtest i september–oktober",
+  "en": {"land": "Thailand", "sted": "Bangkok and the north (Chiang Mai)", "kortnavn": "Northern Thailand", "kategori": "Culture / nature", "kilde": "Chiang Mai, WMO 1991–2020, via Wikipedia. Bangkok (NOAA 1991–2020) hotter and wettest in September–October"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.0, "nedbor": 11, "no": "Tørt, kjølige morgener i nord. Høysesong.", "en": "Dry, cool mornings in the north. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 32.9, "nedbor": 10, "no": "Varmere; røykdis fra svedjebruk begynner.", "en": "Warmer; haze from slash-and-burn begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 35.4, "nedbor": 20, "no": "Røyk fra svedjebruk i nord, dårlig luft. Bangkok 35 °C.", "en": "Smoke from slash-and-burn in the north, poor air. Bangkok 35 °C."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 36.7, "nedbor": 54, "no": "Hetest (37 °C), fortsatt røyk. Songkran (se Vinduer).", "en": "Hottest (37 °C), still smoky. Songkran (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 34.7, "nedbor": 168, "no": "Regnet starter og rydder luften.", "en": "Rain begins and clears the air."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.2, "nedbor": 118, "no": "Regntid, grønt. Lavsesong.", "en": "Rainy season, green. Low season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.1, "nedbor": 149, "no": "Regntid, byger. Europeisk ferie.", "en": "Rainy season, showers. European holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.6, "nedbor": 223, "no": "Mye regn, gjørmete stier.", "en": "Heavy rain, muddy trails."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.0, "nedbor": 207, "no": "Mye regn; flomfare i Bangkok (336 mm).", "en": "Heavy rain; flood risk in Bangkok (336 mm)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 124, "no": "Regnet avtar, grønt landskap.", "en": "Rain eases, green landscape."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.8, "nedbor": 41, "no": "Tørt og klart. Yi Peng (se Vinduer).", "en": "Dry and clear. Yi Peng (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.2, "nedbor": 14, "no": "Tørt, kjølige morgener. Høysesong, jul dyrt.", "en": "Dry, cool mornings. High season, Christmas expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 15, "til_uke": 16, "type": "Hendelse", "justering": 0.3, "no": "Songkran (thai nyttår) 13.–15.4: vannkrig og fest, men fullt", "en": "Songkran (Thai New Year) 13–15 Apr: water fights and parties, but full"},
+    {"fra": "2026-11-23", "til": "2026-11-25", "type": "Hendelse", "justering": 0.3, "no": "Yi Peng og Loy Krathong i Chiang Mai (24.11.2026, sjekk dato): lykter, men fullt", "en": "Yi Peng and Loy Krathong in Chiang Mai (24 Nov 2026, check dates): lanterns, but full"},
+    {"fra": "2027-11-12", "til": "2027-11-14", "type": "Hendelse", "justering": 0.3, "no": "Yi Peng og Loy Krathong i Chiang Mai (13.11.2027, sjekk dato): lykter, men fullt", "en": "Yi Peng and Loy Krathong in Chiang Mai (13 Nov 2027, check dates): lanterns, but full"},
+    {"fra": "2028-11-01", "til": "2028-11-03", "type": "Hendelse", "justering": 0.3, "no": "Yi Peng og Loy Krathong i Chiang Mai (2.11.2028, sjekk dato): lykter, men fullt", "en": "Yi Peng and Loy Krathong in Chiang Mai (2 Nov 2028, check dates): lanterns, but full"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "BRB",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Barbados",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [13.17, -59.55],
+  "kilde": "Bridgetown (Grantley Adams International Airport), Barbados Meteorological Services 1991–2020, via Wikipedia",
+  "en": {"land": "Barbados", "kategori": "Beach / culture", "kilde": "Bridgetown (Grantley Adams International Airport), Barbados Meteorological Services 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.1, "nedbor": 68, "no": "Tørrsesong, passatvind. Høysesong.", "en": "Dry season, trade winds. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.2, "nedbor": 42, "no": "Tørt. Holetown Festival (se Vinduer). Høysesong.", "en": "Dry. Holetown Festival (see events). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.7, "nedbor": 39, "no": "Tørrest. Høysesong, cricket og britiske turister.", "en": "Driest. High season, cricket and British visitors."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.2, "nedbor": 58, "no": "Tørt og fint; prisene faller etter påske.", "en": "Dry and fine; prices fall after Easter."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 74, "no": "Varmt, enkelte byger. Lavsesong starter.", "en": "Hot, some showers. Low season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.7, "nedbor": 101, "no": "Byger; orkansesongen starter. Rolig.", "en": "Showers; hurricane season begins. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.7, "nedbor": 122, "no": "Byger. Crop Over-festivalen bygger seg opp.", "en": "Showers. The Crop Over festival builds up."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 30.9, "nedbor": 151, "no": "Crop Over-finalen, Kadooment Day (se Vinduer).", "en": "Crop Over finale, Kadooment Day (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.0, "nedbor": 163, "no": "Regntid, noe orkanrisiko. Lite folk.", "en": "Rainy season, some hurricane risk. Few people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.8, "nedbor": 180, "no": "Mest regn, noe orkanrisiko. Billig.", "en": "Wettest, some hurricane risk. Cheap."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.3, "nedbor": 173, "no": "Regnfullt, avtar mot slutten.", "en": "Rainy, easing towards the end."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 29.6, "nedbor": 91, "no": "Tørrere; jul og nyttår dyrt.", "en": "Drier; Christmas and New Year expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 7, "til_uke": 8, "type": "Hendelse", "justering": 0.3, "no": "Holetown Festival: markedsuke og musikk på vestkysten", "en": "Holetown Festival: market week and music on the west coast"},
+    {"fra": "2026-07-31", "til": "2026-08-03", "type": "Hendelse", "justering": 0.5, "no": "Crop Over-finalen: Foreday Morning og Grand Kadooment Day (3.8)", "en": "Crop Over finale: Foreday Morning and Grand Kadooment Day (3 Aug)"},
+    {"fra": "2027-07-30", "til": "2027-08-02", "type": "Hendelse", "justering": 0.5, "no": "Crop Over-finalen: Foreday Morning og Grand Kadooment Day (2.8)", "en": "Crop Over finale: Foreday Morning and Grand Kadooment Day (2 Aug)"},
+    {"fra": "2028-08-04", "til": "2028-08-07", "type": "Hendelse", "justering": 0.5, "no": "Crop Over-finalen: Foreday Morning og Grand Kadooment Day (7.8)", "en": "Crop Over finale: Foreday Morning and Grand Kadooment Day (7 Aug)"}
+  ]
+}

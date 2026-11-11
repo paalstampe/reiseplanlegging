@@ -1,0 +1,32 @@
+{
+  "id": "AUS-WA",
+  "region": "Oseania",
+  "land": "Australia",
+  "sted": "Perth og vestkysten",
+  "kortnavn": "Western Australia",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / strand",
+  "merknad": "",
+  "koord": [-31.95, 115.86],
+  "kilde": "Perth Metro, Bureau of Meteorology 1993–2023, via Wikipedia. Ningaloo og Exmouth lenger nord er varmere og tørrere om vinteren",
+  "en": {"land": "Australia", "sted": "Perth and the west coast", "kortnavn": "Western Australia", "kategori": "Nature / beach", "kilde": "Perth Metro, Bureau of Meteorology 1993–2023, via Wikipedia. Ningaloo and Exmouth further north are warmer and drier in winter"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 31.4, "nedbor": 17, "no": "Sommer (31 °C), tørt, strandliv. Skoleferie; syklonfare i nord.", "en": "Summer (31 °C), dry, beach life. School holidays; cyclone risk up north."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 13, "no": "Varmest (32 °C), tørt. Skolene i gang.", "en": "Hottest (32 °C), dry. Schools are back."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 29.7, "nedbor": 20, "no": "Varmt (30 °C), stabilt. Hvalhaier starter (se Vinduer).", "en": "Warm (30 °C), settled. Whale sharks begin (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.0, "nedbor": 36, "no": "Behagelig (26 °C). Hvalhaier ved Ningaloo. Påskeferie.", "en": "Pleasant (26 °C). Whale sharks at Ningaloo. Easter holidays."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 22.4, "nedbor": 86, "no": "Mildt (22 °C), første regn i Perth. Hvalhaier.", "en": "Mild (22 °C), first rain in Perth. Whale sharks."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 19.5, "nedbor": 127, "no": "Kjølig og vått i Perth; fint ved Ningaloo.", "en": "Cool and wet in Perth; fine at Ningaloo."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 18.5, "nedbor": 147, "no": "Mest regn i Perth (19 °C). Reis heller nordover.", "en": "Wettest month in Perth (19 °C). Head north instead."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 19.2, "nedbor": 123, "no": "Vått, men villblomstene starter (se Vinduer).", "en": "Wet, but the wildflowers begin (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 20.6, "nedbor": 79, "no": "Vår (21 °C), villblomster på topp. Knølhval.", "en": "Spring (21 °C), wildflowers at their peak. Humpback whales."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 23.5, "nedbor": 40, "no": "Behagelig (24 °C), tørrere. Villblomster i sør.", "en": "Pleasant (24 °C), drier. Wildflowers in the south."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 26.8, "nedbor": 24, "no": "Varmt (27 °C), tørt. Fint i Margaret River.", "en": "Warm (27 °C), dry. Good in Margaret River."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 29.6, "nedbor": 9, "no": "Sommer (30 °C), tørt. Jul og skoleferie.", "en": "Summer (30 °C), dry. Christmas and school holidays."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 30, "type": "Dyreliv", "justering": 0.5, "no": "Hvalhaier ved Ningaloo Reef (mars–juli), best april–mai", "en": "Whale sharks at Ningaloo Reef (Mar–Jul), best Apr–May"},
+    {"fra_uke": 32, "til_uke": 43, "type": "Annet", "justering": 0.3, "no": "Villblomstsesong (aug–okt), fra nord mot sør", "en": "Wildflower season (Aug–Oct), from north to south"}
+  ]
+}

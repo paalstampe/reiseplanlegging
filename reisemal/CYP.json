@@ -1,0 +1,36 @@
+{
+  "id": "CYP",
+  "region": "Europa",
+  "land": "Kypros",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [34.68, 33.04],
+  "kilde": "Limassol, Kypros' meteorologiske tjeneste 1991–2020, via Wikipedia. Larnaca omtrent likt",
+  "en": {"land": "Cyprus", "kategori": "Beach / culture", "kilde": "Limassol, Cyprus Meteorological Service 1991–2020, via Wikipedia. Larnaca similar"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 17.9, "nedbor": 87, "no": "Mildt (18 °C), men regnfullt. Rolig, lave priser.", "en": "Mild (18 °C), but rainy. Quiet, low prices."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 18.1, "nedbor": 67, "no": "Mildt, byger. Mandelblomstring, karneval i Limassol (se Vinduer).", "en": "Mild, showers. Almond blossom, Limassol carnival (see events)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 20.3, "nedbor": 36, "no": "Vår (20 °C), grønt. Fint for fotturer i Troodos.", "en": "Spring (20 °C), green. Good for hiking in Troodos."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 23.4, "nedbor": 18, "no": "Behagelig (23 °C), blomster. Sjøen fortsatt kjølig.", "en": "Pleasant (23 °C), flowers. The sea still cool."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.2, "nedbor": 5, "no": "Varmt og tørt (27 °C). Badesesongen starter.", "en": "Warm and dry (27 °C). Swimming season begins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 31.1, "nedbor": 1, "no": "Varmt (31 °C), tørt. Kataklysmos (se Vinduer).", "en": "Hot (31 °C), dry. Kataklysmos (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 33.5, "nedbor": 0, "no": "Hett (34 °C). Høysesong, fullt på strendene.", "en": "Hot (34 °C). High season, crowded beaches."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 33.7, "nedbor": 0, "no": "Hetest (34 °C). Høysesong. Vinfestival i Limassol (se Vinduer).", "en": "Hottest (34 °C). High season. Limassol Wine Festival (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 31.4, "nedbor": 3, "no": "Varmt (31 °C), varm sjø. Fortsatt mye folk.", "en": "Hot (31 °C), warm sea. Still busy."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.2, "nedbor": 13, "no": "Ideelt (28 °C), varm sjø. Færre turister.", "en": "Ideal (28 °C), warm sea. Fewer tourists."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 23.6, "nedbor": 78, "no": "Mildt (24 °C), første regn. Rolig.", "en": "Mild (24 °C), first rain. Quiet."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 4, "tmaks": 19.3, "nedbor": 100, "no": "Mildt (19 °C), mest regn. Jul på hotellene.", "en": "Mild (19 °C), wettest. Christmas at the hotels."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-19", "til": "2026-02-22", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Limassol, med parade siste søndag", "en": "Limassol Carnival, with parade on the final Sunday"},
+    {"fra": "2027-03-11", "til": "2027-03-14", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Limassol, med parade siste søndag", "en": "Limassol Carnival, with parade on the final Sunday"},
+    {"fra": "2028-02-24", "til": "2028-02-27", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Limassol, med parade siste søndag", "en": "Limassol Carnival, with parade on the final Sunday"},
+    {"fra": "2026-05-30", "til": "2026-06-01", "type": "Hendelse", "justering": 0.3, "no": "Kataklysmos (ortodoks pinse): fest langs kysten", "en": "Kataklysmos (Orthodox Pentecost): festivities along the coast"},
+    {"fra": "2027-06-19", "til": "2027-06-21", "type": "Hendelse", "justering": 0.3, "no": "Kataklysmos (ortodoks pinse): fest langs kysten", "en": "Kataklysmos (Orthodox Pentecost): festivities along the coast"},
+    {"fra": "2028-06-03", "til": "2028-06-05", "type": "Hendelse", "justering": 0.3, "no": "Kataklysmos (ortodoks pinse): fest langs kysten", "en": "Kataklysmos (Orthodox Pentecost): festivities along the coast"},
+    {"fra_uke": 35, "til_uke": 36, "type": "Hendelse", "justering": 0.3, "no": "Vinfestival i Limassol (sjekk dato)", "en": "Limassol Wine Festival (check dates)"}
+  ]
+}

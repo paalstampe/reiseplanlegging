@@ -1,0 +1,31 @@
+{
+  "id": "FIN-LAP",
+  "region": "Europa",
+  "land": "Finland",
+  "sted": "Lappland (nordlys)",
+  "kortnavn": "Finsk Lappland",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / nordlys",
+  "merknad": "",
+  "koord": [66.5, 25.73],
+  "kilde": "Rovaniemi lufthavn (196 moh), FMI 1991–2020, via Wikipedia. Saariselkä og Levi lenger nord er kaldere",
+  "en": {"land": "Finland", "sted": "Lapland (northern lights)", "kortnavn": "Finnish Lapland", "kategori": "Nature / northern lights", "kilde": "Rovaniemi airport (196 m), FMI 1991–2020, via Wikipedia. Saariselkä and Levi further north are colder"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": -7.3, "nedbor": 46, "no": "Kaldt (−7 °C, ofte −20), snø og nordlys. Korte dager.", "en": "Cold (−7 °C, often −20), snow and northern lights. Short days."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": -7.3, "nedbor": 37, "no": "Kaldt, god snø. Hundeslede, nordlys og lengre dager.", "en": "Cold, good snow. Dog sledding, northern lights and longer days."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": -1.9, "nedbor": 37, "no": "Lyst, best snø og fortsatt nordlys. Vinterferie, travelt.", "en": "Bright, best snow and still northern lights. Winter holidays, busy."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 4.1, "nedbor": 34, "no": "Vårskiløping i sol, nordlyset tar slutt.", "en": "Spring skiing in sunshine, northern lights end."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 11.0, "nedbor": 48, "no": "Snøsmelting og gjørme. Mye stengt.", "en": "Snowmelt and mud. Much closed."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 17.0, "nedbor": 64, "no": "Midnattssol, men mygg.", "en": "Midnight sun, but mosquitoes."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 20.1, "nedbor": 81, "no": "Varmest (20 °C). Midnattssol, fotturer og padling.", "en": "Warmest (20 °C). Midnight sun, hiking and paddling."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 17.2, "nedbor": 68, "no": "Mildt, færre mygg. Nordlyset kommer tilbake mot slutten.", "en": "Mild, fewer mosquitoes. Northern lights return towards the end."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 11.1, "nedbor": 60, "no": "Ruska (se Vinduer) og nordlys over vann uten snø.", "en": "Ruska (see events) and northern lights over open water."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 3.1, "nedbor": 54, "no": "Mørkt og grått, lite snø. Nordlys mellom skyene.", "en": "Dark and grey, little snow. Northern lights between the clouds."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": -2.1, "nedbor": 55, "no": "Snøen kommer, mørketid nærmer seg.", "en": "The snow arrives, polar night approaching."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 1, "tmaks": -4.9, "nedbor": 51, "no": "Mørketid, snø og julenisse i Rovaniemi. Dyrt og fullt.", "en": "Polar night, snow and Santa in Rovaniemi. Expensive and full."}
+  ],
+  "vinduer": [
+    {"fra_uke": 36, "til_uke": 38, "type": "Hendelse", "justering": 0.3, "no": "Ruska: høstfarger på fjellet (start til midten av sep)", "en": "Ruska: autumn colours on the fells (early to mid-Sep)"}
+  ]
+}

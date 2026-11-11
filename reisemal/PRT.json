@@ -1,0 +1,31 @@
+{
+  "id": "PRT",
+  "region": "Europa",
+  "land": "Portugal",
+  "sted": "Lisboa og Porto",
+  "kortnavn": "Lisboa og Porto",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [39.94, -8.88],
+  "kilde": "Lisboa (Instituto Geofísico), IPMA 1991–2020, via Wikipedia. Porto 2–4 °C kjøligere om sommeren og våtere om vinteren",
+  "en": {"land": "Portugal", "sted": "Lisbon and Porto", "kortnavn": "Lisbon and Porto", "kategori": "City / culture / food", "kilde": "Lisbon (Instituto Geofísico), IPMA 1991–2020, via Wikipedia. Porto 2–4 °C cooler in summer and wetter in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.1, "nedbor": 104, "no": "Mildt (15 °C), regnfullt (104 mm). Rolig og billig.", "en": "Mild (15 °C), rainy (104 mm). Quiet and cheap."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 16.4, "nedbor": 78, "no": "Mildt (16 °C). Få turister.", "en": "Mild (16 °C). Few tourists."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 18.9, "nedbor": 69, "no": "Behagelig (19 °C), tørrere.", "en": "Pleasant (19 °C), drier."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 20.4, "nedbor": 72, "no": "Vår (20 °C). Porto fortsatt regnfullt.", "en": "Spring (20 °C). Porto still rainy."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.1, "nedbor": 58, "no": "Ideelt (23 °C), lite regn.", "en": "Ideal (23 °C), little rain."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.1, "nedbor": 14, "no": "Varmt (26 °C), tørt. Santos Populares (se Vinduer).", "en": "Warm (26 °C), dry. Santos Populares (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 28.2, "nedbor": 3, "no": "Varmt (28 °C), tørt. Høysesong, fullt og dyrt.", "en": "Hot (28 °C), dry. High season, full and expensive."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 28.8, "nedbor": 5, "no": "Varmest (29 °C), mest turister. Portugisisk ferie.", "en": "Hottest (29 °C), most tourists. Portuguese holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.6, "nedbor": 39, "no": "Varmt (27 °C). Vinhøst i Douro-dalen.", "en": "Warm (27 °C). Grape harvest in the Douro Valley."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.8, "nedbor": 111, "no": "Mildt (23 °C); regnet kommer tilbake.", "en": "Mild (23 °C); the rain returns."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 18.1, "nedbor": 134, "no": "Mest regn (134 mm), 18 °C. Lavsesong.", "en": "Wettest (134 mm), 18 °C. Low season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.4, "nedbor": 109, "no": "Mildt (15 °C), regn. Julelys i gatene.", "en": "Mild (15 °C), rain. Christmas lights in the streets."}
+  ],
+  "vinduer": [
+    {"fra_uke": 24, "til_uke": 26, "type": "Hendelse", "justering": 0.5, "no": "Santos Populares: Santo António i Lisboa 12.–13.6 og São João i Porto 23.–24.6 – gatefest, fullt", "en": "Santos Populares: Santo António in Lisbon 12–13 Jun and São João in Porto 23–24 Jun – street parties, full"}
+  ]
+}

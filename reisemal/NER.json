@@ -1,0 +1,30 @@
+{
+  "id": "NER",
+  "region": "Afrika",
+  "land": "Niger",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / ekspedisjon",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [16.97, 7.99],
+  "kilde": "Niamey lufthavn, WMO 1991–2020, via Wikipedia (proxy). Agadez og Aïr tørrere, kaldere netter om vinteren, like hett om våren",
+  "en": {"land": "Niger", "kategori": "Culture / expedition", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Niamey Airport, WMO 1991–2020, via Wikipedia (proxy). Agadez and the Aïr drier, colder nights in winter, just as hot in spring"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 32.4, "nedbor": 0, "no": "Tørt, behagelig (32 °C), harmattan-dis. Beste tid.", "en": "Dry, pleasant (32 °C), harmattan haze. Best time."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 35.8, "nedbor": 0, "no": "Tørt, varmere, dis.", "en": "Dry, warmer, hazy."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 39.5, "nedbor": 0, "no": "Hett (40 °C).", "en": "Hot (40 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.6, "nedbor": 10, "no": "Hetest (42 °C).", "en": "Hottest (42 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 40.7, "nedbor": 25, "no": "Ekstrem hete, sandstormer.", "en": "Extreme heat, sandstorms."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 37.9, "nedbor": 79, "no": "Hett, regntiden starter.", "en": "Hot, rainy season begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 34.6, "nedbor": 146, "no": "Regntid, veier vanskelige.", "en": "Rainy season, difficult roads."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.8, "nedbor": 193, "no": "Mest regn, flom mulig.", "en": "Most rain, floods possible."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 34.9, "nedbor": 85, "no": "Regnet avtar. Cure Salée i Ingall (se Vinduer).", "en": "Rain easing. Cure Salée in Ingall (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 38.0, "nedbor": 17, "no": "Varmt (38 °C), tørt.", "en": "Hot (38 °C), dry."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 37.1, "nedbor": 0, "no": "Tørt, avtar. Sesongen starter.", "en": "Dry, easing. The season begins."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 33.6, "nedbor": 0, "no": "Tørt, behagelig, kalde netter i Aïr. Beste tid.", "en": "Dry, pleasant, cold nights in the Aïr. Best time."}
+  ],
+  "vinduer": [
+    {"fra_uke": 37, "til_uke": 38, "type": "Hendelse", "justering": 0.3, "no": "Cure Salée i Ingall: nomadefestival for tuareger og wodaabe (sep, sjekk dato)", "en": "Cure Salée in Ingall: Tuareg and Wodaabe nomad festival (Sep, check date)"}
+  ]
+}

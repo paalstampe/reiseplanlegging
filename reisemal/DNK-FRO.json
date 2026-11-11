@@ -1,0 +1,30 @@
+{
+  "id": "DNK-FRO",
+  "region": "Europa",
+  "land": "Færøyene",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / roadtrip",
+  "merknad": "",
+  "koord": [62.01, -6.77],
+  "kilde": "Tórshavn, DMI 1991–2020, via Wikipedia",
+  "en": {"land": "Faroe Islands", "kategori": "Nature / road trip", "kilde": "Tórshavn, DMI 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.2, "nedbor": 167, "no": "Stormfullt og vått, korte dager.", "en": "Stormy and wet, short days."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.0, "nedbor": 131, "no": "Vind og regn. Få turister.", "en": "Wind and rain. Few tourists."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.4, "nedbor": 130, "no": "Vått og vindfullt. Mange fotturer er uaktuelle.", "en": "Wet and windy. Many hikes not feasible."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 7.6, "nedbor": 95, "no": "Lysere og tørrere. Lite folk.", "en": "Brighter and drier. Few people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 9.3, "nedbor": 70, "no": "Tørrere, lange dager. Lundefuglen kommer.", "en": "Drier, long days. The puffins arrive."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 11.3, "nedbor": 63, "no": "Tørreste måned, nesten døgnlyst. Lunde på Mykines.", "en": "Driest month, almost 24-hour daylight. Puffins on Mykines."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 12.9, "nedbor": 71, "no": "Mildest (13 °C). Fotturer, lunde. Ólavsøka (se Vinduer). Høysesong.", "en": "Mildest (13 °C). Hiking, puffins. Ólavsøka (see events). High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 13.3, "nedbor": 93, "no": "Mildt, lunden drar mot slutten. Høysesong.", "en": "Mild, puffins leave towards the end. High season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 11.9, "nedbor": 118, "no": "Mer regn og vind. Rolig.", "en": "More rain and wind. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.6, "nedbor": 147, "no": "Høststormer, vått.", "en": "Autumn storms, wet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.6, "nedbor": 155, "no": "Vått, mørkt og stormfullt.", "en": "Wet, dark and stormy."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.5, "nedbor": 158, "no": "Mørkest og våtest. Lite å gjøre ute.", "en": "Darkest and wettest. Little to do outdoors."}
+  ],
+  "vinduer": [
+    {"fra_uke": 31, "til_uke": 31, "type": "Hendelse", "justering": 0.3, "no": "Ólavsøka 28.–29.7 i Tórshavn: nasjonaldag med kappróing og ringdans", "en": "Ólavsøka 28–29 Jul in Tórshavn: national holiday with rowing races and chain dancing"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "IRL",
+  "region": "Europa",
+  "land": "Irland",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [53.3, -8.0],
+  "kilde": "Dublin lufthavn, Met Éireann 1991–2020, via Wikipedia. Vestkysten (Galway, Kerry) våtere",
+  "en": {"land": "Ireland", "kategori": "Culture / nature", "kilde": "Dublin Airport, Met Éireann 1991–2020, via Wikipedia. The west coast (Galway, Kerry) is wetter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.0, "nedbor": 62, "no": "Kaldt og vått (8 °C), korte dager.", "en": "Cold and wet (8 °C), short days."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.5, "nedbor": 52, "no": "Kaldt (9 °C), vind og regn.", "en": "Cold (9 °C), wind and rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 10.1, "nedbor": 51, "no": "Kjølig (10 °C). St. Patrick’s Day (se Vinduer).", "en": "Cool (10 °C). St Patrick’s Day (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 12.3, "nedbor": 55, "no": "Kjølig (12 °C), lengre dager, grønt.", "en": "Cool (12 °C), longer days, green."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 14.8, "nedbor": 57, "no": "Mildt (15 °C), ofte tørrest. Fint på kysten.", "en": "Mild (15 °C), often driest. Good on the coast."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 17.7, "nedbor": 64, "no": "Mildt (18 °C), lange lyse kvelder. Beste måned.", "en": "Mild (18 °C), long light evenings. Best month."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 19.5, "nedbor": 61, "no": "Varmest (20 °C). Høysesong, fullt i Kerry og Galway.", "en": "Warmest (20 °C). High season, busy in Kerry and Galway."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 19.1, "nedbor": 73, "no": "Mildt (19 °C), mer regn. Høysesong.", "en": "Mild (19 °C), more rain. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.9, "nedbor": 63, "no": "Mildt (17 °C), færre folk.", "en": "Mild (17 °C), fewer people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 13.6, "nedbor": 78, "no": "Kjølig (14 °C), regn og høststormer.", "en": "Cool (14 °C), rain and autumn storms."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.3, "nedbor": 83, "no": "Vått og mørkt.", "en": "Wet and dark."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 8.3, "nedbor": 72, "no": "Kaldt og vått. Julestemning på pubene i Dublin.", "en": "Cold and wet. Christmas atmosphere in Dublin pubs."}
+  ],
+  "vinduer": [
+    {"fra_uke": 11, "til_uke": 12, "type": "Hendelse", "justering": 0.3, "no": "St. Patrick’s Day 17.3: parade og fest, men fullt i Dublin", "en": "St Patrick’s Day 17 Mar: parade and festivities, but Dublin is full"}
+  ]
+}

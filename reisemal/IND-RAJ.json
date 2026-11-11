@@ -1,0 +1,39 @@
+{
+  "id": "IND-RAJ",
+  "region": "Asia",
+  "land": "India",
+  "sted": "Rajasthan og Den gylne trekant",
+  "kortnavn": "Rajasthan",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / historie",
+  "merknad": "",
+  "koord": [26.91, 75.79],
+  "kilde": "Jaipur (lufthavn), IMD 1991–2020, via Wikipedia (nedbør = regn). Delhi og Agra omtrent som Jaipur; Jaisalmer tørrere",
+  "en": {"land": "India", "sted": "Rajasthan and the Golden Triangle", "kortnavn": "Rajasthan", "kategori": "Culture / history", "kilde": "Jaipur (airport), IMD 1991–2020, via Wikipedia (precipitation = rainfall). Delhi and Agra similar to Jaipur; Jaisalmer drier"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 22.5, "nedbor": 6, "no": "Solrikt (23 °C), kalde netter og tåke i Delhi og Agra. Høysesong.", "en": "Sunny (23 °C), cold nights and fog in Delhi and Agra. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.1, "nedbor": 10, "no": "Tørt, behagelig (26 °C). Ørkenfestival i Jaisalmer.", "en": "Dry, pleasant (26 °C). Desert festival in Jaisalmer."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 32.0, "nedbor": 4, "no": "Varmere (32 °C). Holi (se Vinduer).", "en": "Warmer (32 °C). Holi (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 37.6, "nedbor": 7, "no": "Hett (38 °C). Turistsesongen ebber ut.", "en": "Hot (38 °C). The tourist season tails off."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.1, "nedbor": 12, "no": "Ekstrem hete (41 °C), 45 °C i ørkenen.", "en": "Extreme heat (41 °C), 45 °C in the desert."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 39.7, "nedbor": 62, "no": "Ekstrem hete og fuktighet før monsunen.", "en": "Extreme heat and humidity before the monsoon."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 34.8, "nedbor": 191, "no": "Monsun, grønt. Udaipur vakker, men fuktig.", "en": "Monsoon, green. Udaipur beautiful, but humid."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.7, "nedbor": 203, "no": "Monsun, mest regn.", "en": "Monsoon, most rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 34.2, "nedbor": 80, "no": "Monsunen avtar, fortsatt fuktig.", "en": "Monsoon easing, still humid."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 34.1, "nedbor": 19, "no": "Tørt, varmt (34 °C). Sesongen starter.", "en": "Dry, warm (34 °C). The season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.6, "nedbor": 2, "no": "Ideelt (30 °C). Diwali og kamelmarked i Pushkar (se Vinduer).", "en": "Ideal (30 °C). Diwali and the Pushkar camel fair (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 25.1, "nedbor": 4, "no": "Ideelt (25 °C), kjølige netter. Topp: jul og nyttår, fullt.", "en": "Ideal (25 °C), cool nights. Peak: Christmas and New Year, full."}
+  ],
+  "vinduer": [
+    {"fra": "2026-11-08", "til": "2026-11-08", "type": "Hendelse", "justering": 0.3, "no": "Diwali 2026: lys og fyrverkeri, men fullt og dyrt", "en": "Diwali 2026: lights and fireworks, but full and expensive"},
+    {"fra": "2027-10-29", "til": "2027-10-29", "type": "Hendelse", "justering": 0.3, "no": "Diwali 2027: lys og fyrverkeri, men fullt og dyrt", "en": "Diwali 2027: lights and fireworks, but full and expensive"},
+    {"fra": "2028-10-17", "til": "2028-10-17", "type": "Hendelse", "justering": 0.3, "no": "Diwali 2028: lys og fyrverkeri, men fullt og dyrt", "en": "Diwali 2028: lights and fireworks, but full and expensive"},
+    {"fra": "2026-11-17", "til": "2026-11-24", "type": "Hendelse", "justering": 0.5, "no": "Kamelmarked i Pushkar 2026 (sjekk dato)", "en": "Pushkar Camel Fair 2026 (check dates)"},
+    {"fra": "2027-11-07", "til": "2027-11-14", "type": "Hendelse", "justering": 0.5, "no": "Kamelmarked i Pushkar 2027 (sjekk dato)", "en": "Pushkar Camel Fair 2027 (check dates)"},
+    {"fra": "2028-10-26", "til": "2028-11-02", "type": "Hendelse", "justering": 0.5, "no": "Kamelmarked i Pushkar 2028 (sjekk dato)", "en": "Pushkar Camel Fair 2028 (check dates)"},
+    {"fra": "2027-03-21", "til": "2027-03-22", "type": "Hendelse", "justering": 0.5, "no": "Holi 2027: fargefest, livligst i Jaipur, Pushkar og Mathura", "en": "Holi 2027: festival of colours, liveliest in Jaipur, Pushkar and Mathura"},
+    {"fra": "2028-03-10", "til": "2028-03-11", "type": "Hendelse", "justering": 0.5, "no": "Holi 2028: fargefest (sjekk dato)", "en": "Holi 2028: festival of colours (check dates)"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Annet", "justering": -0.5, "no": "Jul/nyttår: toppriser, fullt", "en": "Christmas/New Year: peak prices, full"}
+  ]
+}

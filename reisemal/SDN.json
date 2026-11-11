@@ -1,0 +1,28 @@
+{
+  "id": "SDN",
+  "region": "Afrika",
+  "land": "Sudan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [16.94, 33.75],
+  "kilde": "Khartoum, WMO 1991–2020, via Wikipedia. Meroë og Nubia omtrent like varmt, tørrere",
+  "en": {"land": "Sudan", "kategori": "History / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Khartoum, WMO 1991–2020, via Wikipedia. Meroë and Nubia similarly hot, drier"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 31.0, "nedbor": 0, "no": "Tørt og varmt (31 °C), kjølige netter i ørkenen. Beste tid for Meroë.", "en": "Dry and warm (31 °C), cool desert nights. Best time for Meroë."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 33.7, "nedbor": 0, "no": "Tørt, 34 °C. Fortsatt godt for pyramidene.", "en": "Dry, 34 °C. Still good for the pyramids."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 37.0, "nedbor": 0, "no": "Hett (37 °C), tørt.", "en": "Hot (37 °C), dry."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 40.6, "nedbor": 0, "no": "Svært hett (41 °C).", "en": "Very hot (41 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 42.1, "nedbor": 5, "no": "Hetest (42 °C), sandstormer (haboob). Frarådes.", "en": "Hottest (42 °C), sandstorms (haboob). Not advised."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.5, "nedbor": 3, "no": "Ekstrem hete (42 °C), haboob.", "en": "Extreme heat (42 °C), haboob."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 38.8, "nedbor": 25, "no": "Hett, fuktig, regnbyger og sandstormer.", "en": "Hot, humid, rain showers and sandstorms."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 36.9, "nedbor": 53, "no": "Mest regn, flom langs Nilen.", "en": "Most rain, Nile flooding."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 38.9, "nedbor": 24, "no": "Hett (39 °C), regnet avtar.", "en": "Hot (39 °C), rain easing."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 39.5, "nedbor": 9, "no": "Fortsatt hett (40 °C), tørt.", "en": "Still hot (40 °C), dry."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 35.6, "nedbor": 0, "no": "Varmt (36 °C), avtar. Sesongen starter.", "en": "Warm (36 °C), easing. The season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 32.1, "nedbor": 0, "no": "Tørt og behagelig (32 °C). Beste tid.", "en": "Dry and pleasant (32 °C). Best time."}
+  ],
+  "vinduer": []
+}

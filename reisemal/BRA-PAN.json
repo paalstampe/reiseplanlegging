@@ -1,0 +1,28 @@
+{
+  "id": "BRA-PAN",
+  "region": "Sør-Amerika",
+  "land": "Brasil",
+  "sted": "Pantanal",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-17.0, -56.8],
+  "kilde": "Corumbá, INMET 1981–2010, via Wikipedia. Cuiabá (porten til nordlige Pantanal, 1991–2020) våtere des–mar (230–260 mm)",
+  "en": {"land": "Brazil", "sted": "Pantanal", "kategori": "Nature / wildlife", "kilde": "Corumbá, INMET 1981–2010, via Wikipedia. Cuiabá (gateway to the northern Pantanal, 1991–2020) wetter Dec–Mar (230–260 mm)"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 33.7, "nedbor": 155, "no": "Regntid og flom; Transpantaneira delvis ufremkommelig.", "en": "Rainy season and floods; the Transpantaneira partly impassable."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 33.3, "nedbor": 134, "no": "Regntid og flom. Mange lodger stengt eller tomme.", "en": "Rainy season and floods. Many lodges closed or empty."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 33.0, "nedbor": 127, "no": "Høyvann; fugler, men vanskelig å finne jaguar.", "en": "High water; birds, but hard to find jaguars."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.8, "nedbor": 66, "no": "Regnet avtar, vannet står fortsatt høyt.", "en": "Rain eases, water still high."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.9, "nedbor": 50, "no": "Tørrsesongen starter; vannet trekker seg tilbake.", "en": "Dry season begins; the water recedes."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.0, "nedbor": 17, "no": "Tørt og behagelig; kalde fronter (friagem) mulig.", "en": "Dry and pleasant; cold fronts (friagem) possible."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.6, "nedbor": 23, "no": "Tørt. Jaguarsesongen ved Porto Jofre starter. Høysesong.", "en": "Dry. Jaguar season at Porto Jofre begins. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.5, "nedbor": 27, "no": "Tørt, dyrene samles ved vannet. Topp for jaguar.", "en": "Dry, animals gather at the water. Peak for jaguars."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 32.3, "nedbor": 40, "no": "Varmt og tørt, mulig røyk fra branner. Topp for jaguar.", "en": "Hot and dry, possible smoke from fires. Peak for jaguars."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 34.1, "nedbor": 86, "no": "Hett (34 °C), første regn. Fortsatt god jaguarsesong.", "en": "Hot (34 °C), first rain. Still good jaguar season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 34.0, "nedbor": 118, "no": "Hett, regnet starter; jaguarene sprer seg.", "en": "Hot, rain begins; the jaguars disperse."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 34.2, "nedbor": 155, "no": "Regntid, vannet stiger.", "en": "Rainy season, water rising."}
+  ],
+  "vinduer": []
+}

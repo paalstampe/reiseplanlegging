@@ -1,0 +1,32 @@
+{
+  "id": "NOR-N",
+  "region": "Europa",
+  "land": "Norge",
+  "sted": "Nord-Norge (Lofoten, nordlys)",
+  "kortnavn": "Nord-Norge",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / nordlys",
+  "merknad": "",
+  "koord": [68.9, 16.5],
+  "kilde": "Tromsø (Vervarslinga, 100 moh), Meteorologisk institutt 1991–2020, via Wikipedia. Lofoten (Svolvær) er mildere om vinteren og våtere om høsten",
+  "en": {"land": "Norway", "sted": "Northern Norway (Lofoten, northern lights)", "kortnavn": "Northern Norway", "kategori": "Nature / northern lights", "kilde": "Tromsø (Vervarslinga, 100 m), Norwegian Meteorological Institute 1991–2020, via Wikipedia. Lofoten (Svolvær) is milder in winter and wetter in autumn"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": -1.0, "nedbor": 108, "no": "Mørketid til midten av januar, −1 °C. Nordlys og spekkhoggere (se Vinduer).", "en": "Polar night until mid-January, −1 °C. Northern lights and orcas (see events)."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": -1.2, "nedbor": 97, "no": "Snø, sola er tilbake, nordlys. Skreisesongen starter (se Vinduer).", "en": "Snow, the sun is back, northern lights. Skrei cod season begins (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 0.6, "nedbor": 97, "no": "Lange dager, mye snø, nordlys. Beste vintermåned.", "en": "Long days, plenty of snow, northern lights. Best winter month."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 4.1, "nedbor": 71, "no": "Snøen smelter i lavlandet; nordlyset forsvinner. Toppturer i Lyngen.", "en": "Snow melts in the lowlands; the northern lights fade. Ski touring in Lyngen."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 8.8, "nedbor": 57, "no": "Kjølig (9 °C), midnattssol fra 20.5. Mellomsesong.", "en": "Cool (9 °C), midnight sun from 20 May. Shoulder season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 13.0, "nedbor": 58, "no": "Midnattssol, 13 °C. Fjellturer i Lofoten.", "en": "Midnight sun, 13 °C. Mountain hikes in Lofoten."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 16.3, "nedbor": 73, "no": "Varmest (16 °C). Lofoten fullt: bobiler og fullbookede rorbuer.", "en": "Warmest (16 °C). Lofoten full: camper vans and booked-out fishing cabins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 15.0, "nedbor": 88, "no": "Fint turvær; mørke netter fra slutten av måneden.", "en": "Good hiking weather; dark nights from late in the month."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 10.9, "nedbor": 111, "no": "Høstfarger, nordlyssesongen starter. Kjølig (11 °C).", "en": "Autumn colours, aurora season begins. Cool (11 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 5.2, "nedbor": 127, "no": "Vått (127 mm) og ustabilt. Nordlys, men mye skyer.", "en": "Wet (127 mm) and unsettled. Northern lights, but often cloudy."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 2.1, "nedbor": 94, "no": "Mørketid fra slutten av måneden. Nordlys; spekkhoggere kommer.", "en": "Polar night from late in the month. Northern lights; orcas arrive."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 0.3, "nedbor": 110, "no": "Mørketid og jul. Nordlys og spekkhoggere.", "en": "Polar night and Christmas. Northern lights and orcas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 46, "til_uke": 4, "type": "Dyreliv", "justering": 0.5, "no": "Spekkhoggere og knølhval ved Skjervøy og Kvaløya (sjekk sesong, varierer fra år til år)", "en": "Orcas and humpback whales off Skjervøy and Kvaløya (check season, varies by year)"},
+    {"fra_uke": 9, "til_uke": 14, "type": "Dyreliv", "justering": 0.3, "no": "Lofotfisket: skrei, tørrfiskhjeller og VM i skreifiske i Svolvær", "en": "Lofoten cod fishery: skrei, drying racks and the World Cod Fishing Championship in Svolvær"}
+  ]
+}

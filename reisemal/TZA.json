@@ -1,0 +1,32 @@
+{
+  "id": "TZA",
+  "region": "Afrika",
+  "land": "Tanzania",
+  "sted": "Serengeti og Kilimanjaro",
+  "kortnavn": "Tanzania safari",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Safari",
+  "merknad": "",
+  "koord": [-3.0, 35.5],
+  "kilde": "Arusha, Weatherbase (avrundet, periode ukjent), via Wikipedia. Serengeti (Musoma, NOAA) har samme regntider; Kilimanjaro kaldt på toppen",
+  "en": {"land": "Tanzania", "sted": "Serengeti and Kilimanjaro", "kortnavn": "Tanzania safari", "kategori": "Safari", "kilde": "Arusha, Weatherbase (rounded, period unknown), via Wikipedia. Serengeti (Musoma, NOAA) has the same rainy seasons; Kilimanjaro cold at the summit"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 28, "nedbor": 50, "no": "Kort tørrperiode. Kalvingssesong i sørlige Serengeti (se Vinduer). Kilimanjaro bra.", "en": "Short dry spell. Calving season in southern Serengeti (see events). Kilimanjaro good."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 28, "nedbor": 80, "no": "Toppen av kalvingen ved Ndutu, mye rovdyr. Kilimanjaro bra.", "en": "Peak calving at Ndutu, lots of predators. Kilimanjaro good."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 27, "nedbor": 170, "no": "Lange regntiden starter. Grønt, færre turister.", "en": "Long rains begin. Green, fewer tourists."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 25, "nedbor": 360, "no": "Mest regn; mange leirer stengt, gjørmete stier på Kilimanjaro.", "en": "Most rain; many camps closed, muddy trails on Kilimanjaro."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 22, "nedbor": 210, "no": "Regntid, lave priser. Gnuene trekker vestover.", "en": "Rainy season, low prices. Wildebeest move west."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21, "nedbor": 30, "no": "Tørrsesong, kjølig (21 °C). Migrasjonen i vestkorridoren (Grumeti).", "en": "Dry season, cool (21 °C). Migration in the western corridor (Grumeti)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 20, "nedbor": 10, "no": "Tørt; elvekrysninger i Mara starter (se Vinduer). Toppsesong.", "en": "Dry; Mara river crossings begin (see events). Peak season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 22, "nedbor": 10, "no": "Tørt; elvekrysninger i nordlige Serengeti. Utsolgt tidlig.", "en": "Dry; river crossings in northern Serengeti. Sells out early."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24, "nedbor": 20, "no": "Tørt og fint; krysninger fortsetter. Klar sikt på Kilimanjaro.", "en": "Dry and fine; crossings continue. Clear views on Kilimanjaro."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 26, "nedbor": 30, "no": "Fortsatt tørt; gnuene snur sørover.", "en": "Still dry; wildebeest turn south."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 27, "nedbor": 110, "no": "Korte regntiden, byger. Migrasjonen på vei sørover.", "en": "Short rains, showers. Migration heading south."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 27, "nedbor": 100, "no": "Grønt; gnuene ankommer sørlige Serengeti. Jul/nyttår dyrt.", "en": "Green; wildebeest arrive in southern Serengeti. Christmas/New Year expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 5, "til_uke": 9, "type": "Dyreliv", "justering": 0.5, "no": "Kalvingssesong ved Ndutu (sørlige Serengeti): tusenvis av gnukalver og rovdyr", "en": "Calving season at Ndutu (southern Serengeti): thousands of wildebeest calves and predators"},
+    {"fra_uke": 28, "til_uke": 39, "type": "Dyreliv", "justering": 0.3, "no": "Gnu-migrasjonen krysser Mara-elva i nordlige Serengeti", "en": "The wildebeest migration crosses the Mara River in northern Serengeti"}
+  ]
+}

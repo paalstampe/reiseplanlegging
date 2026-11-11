@@ -1,0 +1,28 @@
+{
+  "id": "SVK",
+  "region": "Europa",
+  "land": "Slovakia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [48.9, 19.7],
+  "kilde": "Bratislava lufthavn, WMO 1991–2020, via Wikipedia. Høye Tatra (Poprad, 700 moh) 5–7 °C kaldere",
+  "en": {"land": "Slovakia", "kategori": "Culture / nature", "kilde": "Bratislava Airport, WMO 1991–2020, via Wikipedia. High Tatras (Poprad, 700 m) 5–7 °C colder"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 3.1, "nedbor": 37, "no": "Kaldt (3 °C). Skisesong i Tatra.", "en": "Cold (3 °C). Ski season in the Tatras."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 5.8, "nedbor": 33, "no": "Kaldt (6 °C). Skisesong og vinterferie.", "en": "Cold (6 °C). Ski season and winter holidays."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 11.1, "nedbor": 37, "no": "Kjølig (11 °C), sludd i fjellet. Mellomsesong.", "en": "Cool (11 °C), sleet in the mountains. Shoulder season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 17.5, "nedbor": 36, "no": "Mildt (18 °C) i lavlandet, snø i Tatra.", "en": "Mild (18 °C) in the lowlands, snow in the Tatras."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.7, "nedbor": 59, "no": "Mildt (22 °C), grønt. Borger og vinmarker; høyfjellsstiene stengt.", "en": "Mild (22 °C), green. Castles and vineyards; high trails closed."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.6, "nedbor": 59, "no": "Varmt (26 °C). Stiene i Høye Tatra åpner 16. juni.", "en": "Warm (26 °C). High Tatras trails open on 16 June."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 28.0, "nedbor": 62, "no": "Varmt (28 °C), tordenbyger i fjellet. Høysesong i Tatra.", "en": "Warm (28 °C), mountain thunderstorms. High season in the Tatras."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 27.9, "nedbor": 60, "no": "Varmt (28 °C). Fullt på hyttene i Tatra.", "en": "Warm (28 °C). Tatras huts full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 21.9, "nedbor": 59, "no": "Behagelig (22 °C), stabilt. Beste måned for fjelltur.", "en": "Pleasant (22 °C), settled. Best month for hiking."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 15.6, "nedbor": 44, "no": "Mildt (16 °C), høstfarger. Høyfjellsstiene stenger 1. november.", "en": "Mild (16 °C), autumn colours. High trails close on 1 November."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.3, "nedbor": 46, "no": "Grått og kaldt (9 °C). Høyfjellsstiene stengt.", "en": "Grey and cold (9 °C). High trails closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 3.7, "nedbor": 43, "no": "Kaldt (4 °C). Julemarked i Bratislava; skisesongen starter.", "en": "Cold (4 °C). Christmas market in Bratislava; ski season begins."}
+  ],
+  "vinduer": []
+}

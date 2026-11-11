@@ -1,0 +1,30 @@
+{
+  "id": "ALB",
+  "region": "Europa",
+  "land": "Albania",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [40.8, 19.9],
+  "kilde": "Tirana lufthavn (WMO 13615), WMO 1991–2020, via Wikipedia. Kysten (Sarandë) mildere om vinteren; Alpene (Theth) kaldere og snø nov–apr",
+  "en": {"land": "Albania", "kategori": "Culture / nature", "kilde": "Tirana Airport (WMO 13615), WMO 1991–2020, via Wikipedia. The coast (Sarandë) milder in winter; the Alps (Theth) colder, snow Nov–Apr"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 12.8, "nedbor": 106, "no": "Kjølig (13 °C) og vått. Fjellene snødekt. Svært rolig.", "en": "Cool (13 °C) and wet. Mountains snow-covered. Very quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 13.9, "nedbor": 118, "no": "Kjølig (14 °C), regn. Lave priser.", "en": "Cool (14 °C), rain. Low prices."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 17.2, "nedbor": 102, "no": "Mildt (17 °C), byger. Berat og Gjirokastër uten folk.", "en": "Mild (17 °C), showers. Berat and Gjirokastër empty."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.6, "nedbor": 90, "no": "Vår (21 °C), grønt. Fint for byer og ruiner (Butrint).", "en": "Spring (21 °C), green. Good for towns and ruins (Butrint)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 25.0, "nedbor": 89, "no": "Ideelt (25 °C). Kysten åpner, lite folk.", "en": "Ideal (25 °C). The coast opens, few people."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.4, "nedbor": 64, "no": "Varmt (29 °C), badetemperatur. Theth–Valbona åpner.", "en": "Warm (29 °C), swimming weather. Theth–Valbona opens."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 32.2, "nedbor": 42, "no": "Hett i innlandet (32 °C). Rivieraen full av ferierende.", "en": "Hot inland (32 °C). The Riviera packed with holidaymakers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 32.8, "nedbor": 40, "no": "Hett (33 °C). Maks høysesong på kysten.", "en": "Hot (33 °C). Peak season on the coast."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.3, "nedbor": 99, "no": "Ideelt (28 °C), varmt hav, færre folk. Fjelltur fortsatt mulig.", "en": "Ideal (28 °C), warm sea, fewer people. Mountain hiking still possible."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 23.3, "nedbor": 112, "no": "Mildt (23 °C), regnet kommer. Fint for byer og vin.", "en": "Mild (23 °C), rain arrives. Good for towns and wine."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 18.3, "nedbor": 151, "no": "Våtest (150 mm), 18 °C. Mye stengt på kysten.", "en": "Wettest (150 mm), 18 °C. Much closed on the coast."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 13.0, "nedbor": 139, "no": "Kjølig og vått. Rolig.", "en": "Cool and wet. Quiet."}
+  ],
+  "vinduer": [
+    {"fra_uke": 11, "til_uke": 11, "type": "Hendelse", "justering": 0.3, "no": "Dita e Verës (sommerdagen) 14.3: folkefest, særlig i Elbasan", "en": "Dita e Verës (Summer Day), 14 Mar: folk festival, especially in Elbasan"}
+  ]
+}

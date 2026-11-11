@@ -1,0 +1,31 @@
+{
+  "id": "PER-AMZ",
+  "region": "Sør-Amerika",
+  "land": "Peru",
+  "sted": "Amazonas",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "Gulfebervaksine anbefales",
+  "koord": [-3.75, -73.25],
+  "kilde": "Iquitos, NOAA 1991–2020, via Wikipedia. Tambopata (Puerto Maldonado, sør) har tydeligere tørrtid jun–sep",
+  "en": {"land": "Peru", "sted": "Amazon", "kategori": "Nature / wildlife", "merknad": "Yellow fever vaccination recommended", "kilde": "Iquitos, NOAA 1991–2020, via Wikipedia. Tambopata (Puerto Maldonado, south) has a clearer dry season Jun–Sep"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.0, "nedbor": 283, "no": "Vått (283 mm). Elva stiger; kanoturer inn i oversvømt skog.", "en": "Wet (283 mm). River rising; canoe trips into flooded forest."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 31.8, "nedbor": 264, "no": "Vått, høyvann. Rosa delfiner og kanoturer. Få turister.", "en": "Wet, high water. Pink dolphins and canoe trips. Few tourists."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.9, "nedbor": 299, "no": "Våtest (299 mm). Gjørmete stier, mest båt.", "en": "Wettest (299 mm). Muddy trails, mostly by boat."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 31.6, "nedbor": 275, "no": "Vått, høyeste vannstand nærmer seg. Rolig.", "en": "Wet, peak water level approaching. Quiet."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 4, "tmaks": 31.4, "nedbor": 254, "no": "Høyvann: best for kano i Pacaya-Samiria. Regnet avtar.", "en": "High water: best for canoeing in Pacaya-Samiria. Rain easing."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 31.2, "nedbor": 201, "no": "Mindre regn, elva synker. San Juan i Iquitos (se Vinduer).", "en": "Less rain, river falling. San Juan in Iquitos (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 31.3, "nedbor": 170, "no": "Tørrest (170 mm). Lavvann gir flere stier. Fiestas Patrias (se Vinduer).", "en": "Driest (170 mm). Low water opens more trails. Fiestas Patrias (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 32.1, "nedbor": 172, "no": "Tørt og lavvann: gode dyreobservasjoner, også i Tambopata. Høysesong.", "en": "Dry and low water: good wildlife spotting, also in Tambopata. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 32.6, "nedbor": 203, "no": "Lavest vann, sandbanker og mye fugl. Varmt.", "en": "Lowest water, sandbanks and many birds. Hot."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.7, "nedbor": 246, "no": "Varmest (33 °C), regnet kommer tilbake.", "en": "Hottest (33 °C), rain returning."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.4, "nedbor": 266, "no": "Regntida tar seg opp, elva stiger.", "en": "Rainy season picking up, river rising."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.1, "nedbor": 282, "no": "Vått. Juleferie for peruanere.", "en": "Wet. Christmas holidays for Peruvians."}
+  ],
+  "vinduer": [
+    {"fra_uke": 26, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "San Juan 24.6: Amazonas' største fest i Iquitos, fullt", "en": "San Juan 24 June: the Amazon's biggest festival in Iquitos, busy"},
+    {"fra_uke": 30, "til_uke": 31, "type": "Helligdag", "justering": -0.3, "no": "Fiestas Patrias 28.–29.7: innenlands ferie, fly og lodger fulle", "en": "Fiestas Patrias 28–29 July: domestic holidays, flights and lodges full"}
+  ]
+}

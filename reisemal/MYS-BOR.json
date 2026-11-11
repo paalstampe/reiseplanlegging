@@ -1,0 +1,32 @@
+{
+  "id": "MYS-BOR",
+  "region": "Asia",
+  "land": "Malaysia",
+  "sted": "Borneo (Sabah)",
+  "kortnavn": "Sabah (Borneo)",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "Book Kinabalu-bestigning og Sipadan-tillatelse måneder i forveien",
+  "koord": [5.8, 117.0],
+  "kilde": "Kota Kinabalu, WMO 1991–2020, via Wikipedia. Sandakan og Kinabatangan (øst) våtest nov–feb",
+  "en": {"land": "Malaysia", "sted": "Borneo (Sabah)", "kortnavn": "Sabah (Borneo)", "kategori": "Nature / wildlife", "merknad": "Book the Kinabalu climb and Sipadan permits months ahead", "kilde": "Kota Kinabalu, WMO 1991–2020, via Wikipedia. Sandakan and Kinabatangan (east) wettest Nov–Feb"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.3, "nedbor": 141, "no": "Nordøstmonsun: regn på østkysten (Sandakan).", "en": "Northeast monsoon: rain on the east coast (Sandakan)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.4, "nedbor": 78, "no": "Tørrere i vest. Monsunen avtar.", "en": "Drier in the west. Monsoon easing."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 32.1, "nedbor": 93, "no": "Tørt og klart. Kinabalu med god sikt.", "en": "Dry and clear. Kinabalu with good views."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 33.0, "nedbor": 123, "no": "Beste måned: tørt, orangutanger og elvesafari i Kinabatangan.", "en": "Best month: dry, orangutans and river safaris on the Kinabatangan."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 33.1, "nedbor": 212, "no": "Varmt, god dykking ved Sipadan. Kaamatan (se Vinduer).", "en": "Hot, good diving at Sipadan. Kaamatan (see events)."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 32.6, "nedbor": 284, "no": "Byger, men god dyreliv- og dykkesesong. Skilpadder (se Vinduer).", "en": "Showers, but good wildlife and diving season. Turtles (see events)."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 2, "tmaks": 32.3, "nedbor": 288, "no": "Byger. Skilpaddetopp. Høysesong, Kinabalu fullbooket.", "en": "Showers. Turtle peak. High season, Kinabalu fully booked."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 2, "tmaks": 32.4, "nedbor": 279, "no": "Byger, høysesong for europeere.", "en": "Showers, high season for Europeans."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 32.2, "nedbor": 287, "no": "Mer regn, fortsatt fint dyreliv.", "en": "More rain, still good wildlife."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.8, "nedbor": 387, "no": "Våtest; gjørmete stier.", "en": "Wettest; muddy trails."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.9, "nedbor": 283, "no": "Regntid, monsunen starter i øst.", "en": "Rainy season, monsoon starts in the east."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.7, "nedbor": 262, "no": "Vått, særlig på østkysten. Juleferie.", "en": "Wet, especially on the east coast. Christmas holidays."}
+  ],
+  "vinduer": [
+    {"fra_uke": 22, "til_uke": 22, "type": "Hendelse", "justering": 0.3, "no": "Kaamatan (høstfest) 30.–31.5: tradisjonell dans og musikk i Kota Kinabalu", "en": "Kaamatan (harvest festival) 30–31 May: traditional dance and music in Kota Kinabalu"},
+    {"fra_uke": 27, "til_uke": 43, "type": "Dyreliv", "justering": 0.3, "no": "Havskilpadder legger egg på Turtle Islands (topp jul–okt)", "en": "Sea turtles nesting on the Turtle Islands (peak Jul–Oct)"}
+  ]
+}

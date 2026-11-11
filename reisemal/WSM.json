@@ -1,0 +1,31 @@
+{
+  "id": "WSM",
+  "region": "Oseania",
+  "land": "Samoa",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "Søndag er hviledag: mye stengt",
+  "koord": [-13.83, -171.76],
+  "kilde": "Apia, WMO 1991–2020, via Wikipedia. Savaiʻi omtrent som Apia",
+  "en": {"land": "Samoa", "kategori": "Beach / culture", "merknad": "Sunday is a day of rest: much is closed", "kilde": "Apia, WMO 1991–2020, via Wikipedia. Savaiʻi similar to Apia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 30.6, "nedbor": 483, "no": "Våtest (480 mm), syklonsesong. Diaspora hjemme på ferie.", "en": "Wettest (480 mm), cyclone season. Diaspora home on holiday."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.8, "nedbor": 406, "no": "Regntid, syklonrisiko.", "en": "Rainy season, cyclone risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.9, "nedbor": 302, "no": "Regntid avtar.", "en": "Rainy season eases."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.1, "nedbor": 232, "no": "Overgang, færre byger. Påske (se Vinduer).", "en": "Transition, fewer showers. Easter (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.6, "nedbor": 245, "no": "Tørrere, rolig. Godt kjøp.", "en": "Drier, quiet. Good value."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 30.2, "nedbor": 139, "no": "Tørrsesong, passatvind. Nasjonaldagen (se Vinduer).", "en": "Dry season, trade winds. National day (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.8, "nedbor": 133, "no": "Tørt. Skoleferie i NZ og Australia: fullt på strandfalene.", "en": "Dry. School holidays in NZ and Australia: beach fales full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.8, "nedbor": 112, "no": "Tørrest. Høysesong.", "en": "Driest. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.0, "nedbor": 143, "no": "Tørt. Teuila-festivalen (se Vinduer).", "en": "Dry. Teuila Festival (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.2, "nedbor": 221, "no": "Fortsatt fint, mer regn. White Sunday andre søndag.", "en": "Still good, more rain. White Sunday on the second Sunday."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 30.5, "nedbor": 261, "no": "Regntiden starter. Lite folk.", "en": "Rainy season begins. Few people."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 30.7, "nedbor": 414, "no": "Regntid, syklonrisiko. Jul: diaspora hjem, fulle fly.", "en": "Rainy season, cyclone risk. Christmas: diaspora home, full flights."}
+  ],
+  "vinduer": [
+    {"fra_uke": 22, "til_uke": 23, "type": "Hendelse", "justering": 0.2, "no": "Uavhengighetsdagen 1.6: parade og fautasi-kapproing i Apia", "en": "Independence Day 1 Jun: parade and fautasi longboat races in Apia"},
+    {"fra_uke": 36, "til_uke": 36, "type": "Hendelse", "justering": 0.3, "no": "Teuila-festivalen i Apia (tidlig i september, sjekk dato)", "en": "Teuila Festival in Apia (early September, check date)"}
+  ]
+}

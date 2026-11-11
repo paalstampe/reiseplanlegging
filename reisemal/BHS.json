@@ -1,0 +1,30 @@
+{
+  "id": "BHS",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Bahamas",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / øyhopping",
+  "merknad": "",
+  "koord": [24.7, -77.0],
+  "kilde": "Nassau (Lynden Pindling International Airport), Bahamas Department of Meteorology 1991–2020, via Wikipedia. Exuma og Out Islands omtrent som Nassau",
+  "en": {"land": "Bahamas", "kategori": "Beach / island hopping", "kilde": "Nassau (Lynden Pindling International Airport), Bahamas Department of Meteorology 1991–2020, via Wikipedia. Exuma and the Out Islands similar to Nassau"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.1, "nedbor": 45, "no": "Tørt og mildt (26 °C); sjøen kjølig for noen. Høysesong.", "en": "Dry and mild (26 °C); the sea cool for some. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.6, "nedbor": 48, "no": "Tørt og mildt. Høysesong.", "en": "Dry and mild. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 27.2, "nedbor": 54, "no": "Tørt, sol. Spring break, fullt og dyrt.", "en": "Dry, sunny. Spring break, full and expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.7, "nedbor": 74, "no": "Ideelt: varmt og tørt. Høysesong.", "en": "Ideal: warm and dry. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.2, "nedbor": 139, "no": "Varmt, sjøen varm. Prisene faller.", "en": "Warm, warm sea. Prices fall."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.8, "nedbor": 220, "no": "Regntid og orkansesong starter.", "en": "Rainy season and hurricane season begin."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.7, "nedbor": 158, "no": "Varmt, byger. Rolig.", "en": "Hot, showers. Quiet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.8, "nedbor": 211, "no": "Varmt, fuktig; økende orkanrisiko.", "en": "Hot, humid; rising hurricane risk."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.2, "nedbor": 196, "no": "Orkansesongens topp; mye stengt på Out Islands.", "en": "Peak hurricane season; much closed in the Out Islands."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.6, "nedbor": 151, "no": "Orkanrisiko, men lite folk.", "en": "Hurricane risk, but few people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.3, "nedbor": 87, "no": "Tørrere, behagelig. Sesongen starter.", "en": "Drier, pleasant. The season begins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.8, "nedbor": 43, "no": "Tørt og mildt. Junkanoo 26.12 (se Vinduer).", "en": "Dry and mild. Junkanoo 26 Dec (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 52, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Junkanoo: parade i Nassau natt til 26.12 og 1.1", "en": "Junkanoo: street parade in Nassau on the night of 26 Dec and 1 Jan"}
+  ]
+}

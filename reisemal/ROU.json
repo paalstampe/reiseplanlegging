@@ -1,0 +1,31 @@
+{
+  "id": "ROU",
+  "region": "Europa",
+  "land": "Romania",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [45.8, 24.6],
+  "kilde": "Sibiu, NOAA 1991–2020, via Wikipedia. Bucuresti 3–4 °C varmere om sommeren (31 °C i juli–august)",
+  "en": {"land": "Romania", "kategori": "Culture / nature", "kilde": "Sibiu, NOAA 1991–2020, via Wikipedia. Bucharest 3–4 °C warmer in summer (31 °C in July–August)"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 2.3, "nedbor": 26, "no": "Kaldt (2 °C), snø. Ski i Poiana Brașov.", "en": "Cold (2 °C), snow. Skiing in Poiana Brașov."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 5.5, "nedbor": 23, "no": "Kaldt (6 °C). Rolig.", "en": "Cold (6 °C). Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 10.7, "nedbor": 35, "no": "Kjølig (11 °C), snøsmelting.", "en": "Cool (11 °C), snowmelt."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.7, "nedbor": 54, "no": "Mildt (17 °C), våren i Transilvania.", "en": "Mild (17 °C), spring in Transylvania."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 21.4, "nedbor": 77, "no": "Ideelt (21 °C), blomstrende enger. Lite folk.", "en": "Ideal (21 °C), meadows in bloom. Few people."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 25.1, "nedbor": 97, "no": "Varmt (25 °C), tordenbyger. Teaterfestival i Sibiu (se Vinduer).", "en": "Warm (25 °C), thunderstorms. Theatre festival in Sibiu (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.9, "nedbor": 95, "no": "Varmt (27 °C), Transfăgărășan åpen. Høysesong.", "en": "Warm (27 °C), Transfăgărășan open. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 27.1, "nedbor": 71, "no": "Varmt; Bucuresti hett (31 °C). Sommerferie.", "en": "Warm; Bucharest hot (31 °C). Summer holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 21.8, "nedbor": 56, "no": "Behagelig (22 °C), vinhøst.", "en": "Pleasant (22 °C), grape harvest."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.6, "nedbor": 47, "no": "Høstfarger i Karpatene, 17 °C. Transfăgărășan stenger 1.11.", "en": "Autumn colours in the Carpathians, 17 °C. Transfăgărășan closes 1 Nov."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.1, "nedbor": 33, "no": "Kjølig og grått (10 °C). Fjellveiene stengt.", "en": "Cool and grey (10 °C). Mountain roads closed."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 3.4, "nedbor": 31, "no": "Kaldt (3 °C). Julemarkeder i Sibiu og Brașov (se Vinduer).", "en": "Cold (3 °C). Christmas markets in Sibiu and Brașov (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 25, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Sibiu internasjonale teaterfestival (FITS), slutten av juni (sjekk dato)", "en": "Sibiu International Theatre Festival (FITS), late June (check date)"},
+    {"fra_uke": 47, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Julemarkeder i Sibiu og Brașov", "en": "Christmas markets in Sibiu and Brașov"}
+  ]
+}

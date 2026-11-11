@@ -1,0 +1,30 @@
+{
+  "id": "ISL",
+  "region": "Europa",
+  "land": "Island",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / roadtrip",
+  "merknad": "",
+  "koord": [64.9, -18.6],
+  "kilde": "Reykjavík, Islands meteorologiske institutt 1991–2020, via Wikipedia. Nord og innland kaldere om vinteren, sør våtere",
+  "en": {"land": "Iceland", "kategori": "Nature / road trip", "kilde": "Reykjavík, Icelandic Met Office 1991–2020, via Wikipedia. The north and interior colder in winter, the south wetter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 3.2, "nedbor": 87, "no": "Kaldt (3 °C), storm, 4–5 timer dagslys. Nordlys og isgrotter.", "en": "Cold (3 °C), storms, 4–5 hours of daylight. Northern lights and ice caves."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 3.3, "nedbor": 91, "no": "Kaldt, storm. Nordlys, isgrotter, lengre dager.", "en": "Cold, storms. Northern lights, ice caves, longer days."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 4.2, "nedbor": 81, "no": "Kaldt (4 °C). Nordlys og mer dagslys.", "en": "Cold (4 °C). Northern lights and more daylight."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 6.9, "nedbor": 59, "no": "Kjølig (7 °C), skiftende vær; høylandet stengt.", "en": "Cool (7 °C), changeable weather; the highlands closed."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 10.1, "nedbor": 53, "no": "Kjølig (10 °C), tørrere og lyst. Lundefuglen kommer (se Vinduer).", "en": "Cool (10 °C), drier and light. Puffins arrive (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 13.0, "nedbor": 43, "no": "Mildt (13 °C), midnattssol. Høylandsveiene åpner i slutten av juni.", "en": "Mild (13 °C), midnight sun. Highland roads open in late June."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 14.9, "nedbor": 50, "no": "Mildest (15 °C), alt åpent, også høylandet. Høysesong, dyrt.", "en": "Mildest (15 °C), everything open, including the highlands. High season, expensive."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 14.1, "nedbor": 65, "no": "Mildt (14 °C), alt åpent. Fullt.", "en": "Mild (14 °C), everything open. Full."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 11.4, "nedbor": 87, "no": "Kjølig (11 °C), høstfarger, første nordlys. Høylandet stenger.", "en": "Cool (11 °C), autumn colours, first northern lights. The highlands close."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 7.6, "nedbor": 80, "no": "Kjølig (8 °C), storm og regn. Nordlys.", "en": "Cool (8 °C), storms and rain. Northern lights."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 4.7, "nedbor": 87, "no": "Kaldt, mørkt (5–6 timer lys). Nordlys; isgrotter åpner.", "en": "Cold, dark (5–6 hours of light). Northern lights; ice caves open."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 3.3, "nedbor": 95, "no": "Mørkest (4–5 timer lys), storm. Jul/nyttår dyrt.", "en": "Darkest (4–5 hours of light), storms. Christmas/New Year expensive."}
+  ],
+  "vinduer": [
+    {"fra_uke": 20, "til_uke": 32, "type": "Dyreliv", "justering": 0.3, "no": "Lundefugl i fuglefjellene (midten av mai til midten av august)", "en": "Puffins on the bird cliffs (mid-May to mid-August)"}
+  ]
+}

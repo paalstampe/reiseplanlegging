@@ -1,0 +1,38 @@
+{
+  "id": "CHN-YUN",
+  "region": "Asia",
+  "land": "Kina",
+  "sted": "Yunnan og Guilin",
+  "kortnavn": "Yunnan og Guilin",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [25.04, 102.71],
+  "kilde": "Guilin, CMA 1991–2020, via Wikipedia. Yunnan (Kunming 1888 moh, Lijiang 2381 moh) mildere om sommeren og tørt nov–apr; regntid jun–sep",
+  "en": {"land": "China", "sted": "Yunnan and Guilin", "kortnavn": "Yunnan and Guilin", "kategori": "Culture / nature", "kilde": "Guilin, CMA 1991–2020, via Wikipedia. Yunnan (Kunming 1,888 m, Lijiang 2,381 m) milder in summer and dry Nov–Apr; rainy season Jun–Sep"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 11.7, "nedbor": 69, "no": "Kjølig og grått i Guilin (12 °C); Yunnan tørt og solrikt (16 °C).", "en": "Cool and grey in Guilin (12 °C); Yunnan dry and sunny (16 °C)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 14.2, "nedbor": 84, "no": "Kjølig; kinesisk nyttår gir fulle tog.", "en": "Cool; Chinese New Year means full trains."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 17.5, "nedbor": 153, "no": "Vår: rapsblomstring i Luoping, mildt i Yunnan. Mer regn i Guilin.", "en": "Spring: rapeseed in bloom at Luoping, mild in Yunnan. More rain in Guilin."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 23.7, "nedbor": 227, "no": "Grønt, men regnfullt i Guilin. Vannfestival i Xishuangbanna (se Vinduer).", "en": "Green, but rainy in Guilin. Water festival in Xishuangbanna (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 27.9, "nedbor": 321, "no": "Mye regn i Guilin. 1. mai-ferie (se Vinduer).", "en": "Lots of rain in Guilin. 1 May holiday (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.5, "nedbor": 449, "no": "Mest regn i Guilin, flom på Li-elva mulig. Regntiden starter i Yunnan.", "en": "Most rain in Guilin, Li River floods possible. Rainy season begins in Yunnan."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 32.8, "nedbor": 266, "no": "Hett i Guilin (33 °C), regntid i Yunnan. Kinesisk sommerferie.", "en": "Hot in Guilin (33 °C), rainy season in Yunnan. Chinese summer holidays."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 33.2, "nedbor": 148, "no": "Varmt; mindre regn i Guilin, regn i Lijiang. Fakkelfest (se Vinduer).", "en": "Hot; less rain in Guilin, rain in Lijiang. Torch Festival (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 81, "no": "Varmt (31 °C), tørrere. Regnet avtar i Yunnan.", "en": "Warm (31 °C), drier. Rain easing in Yunnan."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.3, "nedbor": 55, "no": "Tørt og klart (26 °C), rishøst. Golden Week (se Vinduer).", "en": "Dry and clear (26 °C), rice harvest. Golden Week (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 20.8, "nedbor": 82, "no": "Tørt og behagelig (21 °C); klar utsikt mot Jadedragefjellet.", "en": "Dry and pleasant (21 °C); clear views of Jade Dragon Snow Mountain."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 14.9, "nedbor": 54, "no": "Kjølig (15 °C) i Guilin, solrikt i Yunnan. Rolig.", "en": "Cool (15 °C) in Guilin, sunny in Yunnan. Quiet."}
+  ],
+  "vinduer": [
+    {"fra_uke": 15, "til_uke": 16, "type": "Hendelse", "justering": 0.3, "no": "Vannsprutefestival (Dai-nyttår, 13.–15.4) i Xishuangbanna", "en": "Water-Splashing Festival (Dai New Year, 13–15 Apr) in Xishuangbanna"},
+    {"fra_uke": 18, "til_uke": 18, "type": "Helligdag", "justering": -0.5, "no": "1.–5. mai-ferie: fullt på severdigheter (uka kan forskyves ett nr.)", "en": "1–5 May holiday: sights packed (the week may shift by one)"},
+    {"fra": "2026-08-06", "til": "2026-08-08", "type": "Hendelse", "justering": 0.3, "no": "Fakkelfestivalen (Yi og Bai) i Yunnan: bål og dans (sjekk dato)", "en": "Torch Festival (Yi and Bai) in Yunnan: bonfires and dancing (check dates)"},
+    {"fra": "2027-07-27", "til": "2027-07-29", "type": "Hendelse", "justering": 0.3, "no": "Fakkelfestivalen i Yunnan (sjekk dato)", "en": "Torch Festival in Yunnan (check dates)"},
+    {"fra": "2028-08-14", "til": "2028-08-16", "type": "Hendelse", "justering": 0.3, "no": "Fakkelfestivalen i Yunnan (sjekk dato)", "en": "Torch Festival in Yunnan (check dates)"},
+    {"fra": "2026-10-01", "til": "2026-10-07", "type": "Helligdag", "justering": -1, "no": "Golden Week (1.–7.10): overfylt, høye priser", "en": "Golden Week (1–7 Oct): overcrowded, high prices"},
+    {"fra": "2027-10-01", "til": "2027-10-07", "type": "Helligdag", "justering": -1, "no": "Golden Week (1.–7.10): overfylt, høye priser", "en": "Golden Week (1–7 Oct): overcrowded, high prices"},
+    {"fra": "2028-10-01", "til": "2028-10-07", "type": "Helligdag", "justering": -1, "no": "Golden Week (1.–7.10): overfylt, høye priser", "en": "Golden Week (1–7 Oct): overcrowded, high prices"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "TUR-S",
+  "region": "Europa",
+  "land": "Tyrkia",
+  "sted": "Kappadokia og sørkysten",
+  "kortnavn": "Kappadokia + kyst",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [37.8, 32.8],
+  "kilde": "Antalya, Tyrkias meteorologiske institutt 1991–2020, via Wikipedia. Kappadokia (Nevşehir, 1 260 moh) kjøligere: 4 °C i januar, 29 °C i juli, snø om vinteren",
+  "en": {"land": "Turkey", "sted": "Cappadocia and the south coast", "kortnavn": "Cappadocia + coast", "kategori": "Culture / nature", "kilde": "Antalya, Turkish State Meteorological Service 1991–2020, via Wikipedia. Cappadocia (Nevşehir, 1,260 m) cooler: 4 °C in January, 29 °C in July, snow in winter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 15.0, "nedbor": 211, "no": "Mye regn på kysten (15 °C); snø og kulde i Kappadokia. Ballonger kan bli innstilt.", "en": "Very wet on the coast (15 °C); snow and cold in Cappadocia. Balloons may be cancelled."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 15.9, "nedbor": 113, "no": "Regn på kysten, kaldt i Kappadokia. Rolig.", "en": "Rain on the coast, cold in Cappadocia. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 18.4, "nedbor": 94, "no": "Mildt (18 °C) på kysten, kjølig i Kappadokia.", "en": "Mild (18 °C) on the coast, cool in Cappadocia."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.8, "nedbor": 63, "no": "Behagelig (22 °C), blomstring. Godt for fotturer på Lykiastien.", "en": "Pleasant (22 °C), blossom. Good for hiking the Lycian Way."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.4, "nedbor": 37, "no": "Ideelt (26 °C), tørt. Ballonger og fotturer i Kappadokia.", "en": "Ideal (26 °C), dry. Balloons and hiking in Cappadocia."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 31.6, "nedbor": 10, "no": "Varmt (32 °C) på kysten, fint i Kappadokia. Badesesong.", "en": "Hot (32 °C) on the coast, fine in Cappadocia. Swimming season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 34.9, "nedbor": 4, "no": "Svært varmt (35 °C) på kysten. Fullt.", "en": "Very hot (35 °C) on the coast. Full."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 34.9, "nedbor": 5, "no": "Svært varmt (35 °C). Fullt og dyrt.", "en": "Very hot (35 °C). Full and expensive."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 31.7, "nedbor": 22, "no": "Varmt (32 °C), varmest hav. Høysesong.", "en": "Hot (32 °C), warmest sea. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.3, "nedbor": 77, "no": "Ideelt (27 °C), varmt hav, klare ballongmorgener.", "en": "Ideal (27 °C), warm sea, clear balloon mornings."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 21.6, "nedbor": 152, "no": "Mildt (22 °C) men regnet kommer; kjølig i Kappadokia.", "en": "Mild (22 °C) but the rain arrives; cool in Cappadocia."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 16.7, "nedbor": 262, "no": "Mest regn på kysten, kaldt i Kappadokia. Sema i Konya (se Vinduer).", "en": "Wettest on the coast, cold in Cappadocia. Sema in Konya (see events)."}
+  ],
+  "vinduer": [
+    {"fra": "2026-05-26", "til": "2026-05-30", "type": "Helligdag", "justering": -0.3, "no": "Kurban Bayramı: tyrkere fyller kystbyene", "en": "Eid al-Adha: Turks fill the coastal resorts"},
+    {"fra": "2027-05-15", "til": "2027-05-19", "type": "Helligdag", "justering": -0.3, "no": "Kurban Bayramı (sjekk dato): tyrkere fyller kystbyene", "en": "Eid al-Adha (check dates): Turks fill the coastal resorts"},
+    {"fra": "2028-05-04", "til": "2028-05-08", "type": "Helligdag", "justering": -0.3, "no": "Kurban Bayramı (sjekk dato): tyrkere fyller kystbyene", "en": "Eid al-Adha (check dates): Turks fill the coastal resorts"},
+    {"fra_uke": 50, "til_uke": 51, "type": "Hendelse", "justering": 0.3, "no": "Şeb-i Arus i Konya (10.–17.12): virvlende dervisjer til minne om Rumi", "en": "Şeb-i Arus in Konya (10–17 Dec): whirling dervishes commemorating Rumi"}
+  ]
+}

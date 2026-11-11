@@ -1,0 +1,36 @@
+{
+  "id": "DEU",
+  "region": "Europa",
+  "land": "Tyskland",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [52.52, 13.4],
+  "kilde": "Berlin (Brandenburg), DWD 1991–2020, via Wikipedia. München og Sør-Tyskland varmere om sommeren, kaldere om vinteren",
+  "en": {"land": "Germany", "kategori": "City / culture / food", "kilde": "Berlin (Brandenburg), Deutscher Wetterdienst 1991–2020, via Wikipedia. Munich and southern Germany warmer in summer, colder in winter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 3.2, "nedbor": 42, "no": "Kaldt (3 °C), grått og mørkt. Museer og ølhaller.", "en": "Cold (3 °C), grey and dark. Museums and beer halls."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 4.9, "nedbor": 30, "no": "Kaldt (5 °C). Karneval i Köln og Rhinland (se Vinduer).", "en": "Cold (5 °C). Carnival in Cologne and the Rhineland (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 9.0, "nedbor": 36, "no": "Kjølig (9 °C), våren nærmer seg.", "en": "Cool (9 °C), spring approaching."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 15.1, "nedbor": 28, "no": "Mildt (15 °C), tørt. Blomstring; påskeferie.", "en": "Mild (15 °C), dry. Blossom; Easter holidays."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 19.6, "nedbor": 53, "no": "Fint (20 °C). Ølhager åpner, aspargessesong.", "en": "Pleasant (20 °C). Beer gardens open, asparagus season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.9, "nedbor": 60, "no": "Ideelt (23 °C), lange dager. Rhindalen og Bayern.", "en": "Ideal (23 °C), long days. Rhine valley and Bavaria."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 25.0, "nedbor": 70, "no": "Varmest (25 °C), tordenbyger. Sommerferie, mye folk.", "en": "Warmest (25 °C), thunderstorms. Summer holidays, busy."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 24.8, "nedbor": 52, "no": "Varmt (25 °C). Høysesong ved sjøer og i Alpene.", "en": "Warm (25 °C). High season at lakes and in the Alps."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 19.8, "nedbor": 44, "no": "Mildt (20 °C). Vinhøst; Oktoberfest i München (se Vinduer).", "en": "Mild (20 °C). Wine harvest; Oktoberfest in Munich (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 13.9, "nedbor": 40, "no": "Kjølig (14 °C), høstfarger.", "en": "Cool (14 °C), autumn colours."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.7, "nedbor": 39, "no": "Kaldt (8 °C), grått og vått.", "en": "Cold (8 °C), grey and wet."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 4.1, "nedbor": 39, "no": "Kaldt (4 °C). Julemarkeder (se Vinduer).", "en": "Cold (4 °C). Christmas markets (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 48, "til_uke": 52, "type": "Hendelse", "justering": 0.5, "no": "Julemarkeder (Nürnberg, Dresden, Köln, München)", "en": "Christmas markets (Nuremberg, Dresden, Cologne, Munich)"},
+    {"fra": "2026-02-12", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Köln, Düsseldorf og Mainz (Rosenmontag 16.2)", "en": "Carnival in Cologne, Düsseldorf and Mainz (Rose Monday 16 Feb)"},
+    {"fra": "2027-02-04", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Köln, Düsseldorf og Mainz (Rosenmontag 8.2)", "en": "Carnival in Cologne, Düsseldorf and Mainz (Rose Monday 8 Feb)"},
+    {"fra": "2028-02-24", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Köln, Düsseldorf og Mainz (Rosenmontag 28.2)", "en": "Carnival in Cologne, Düsseldorf and Mainz (Rose Monday 28 Feb)"},
+    {"fra": "2026-09-19", "til": "2026-10-04", "type": "Hendelse", "justering": 0.3, "no": "Oktoberfest i München; hotellene fulle", "en": "Oktoberfest in Munich; hotels full"},
+    {"fra": "2027-09-18", "til": "2027-10-03", "type": "Hendelse", "justering": 0.3, "no": "Oktoberfest i München; hotellene fulle", "en": "Oktoberfest in Munich; hotels full"},
+    {"fra": "2028-09-16", "til": "2028-10-03", "type": "Hendelse", "justering": 0.3, "no": "Oktoberfest i München; hotellene fulle", "en": "Oktoberfest in Munich; hotels full"}
+  ]
+}

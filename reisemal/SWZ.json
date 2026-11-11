@@ -1,0 +1,30 @@
+{
+  "id": "SWZ",
+  "region": "Afrika",
+  "land": "Eswatini",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-26.5, 31.45],
+  "kilde": "Mbabane (høylandet), WMO 1991–2020, via Wikipedia. Lavlandet (Hlane, Mkhaya) 3–5 °C varmere",
+  "en": {"land": "Eswatini", "sted": "", "kategori": "Nature / wildlife", "kilde": "Mbabane (highveld), WMO 1991–2020, via Wikipedia. Lowveld (Hlane, Mkhaya) 3–5 °C warmer"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 25.6, "nedbor": 205, "no": "Varmt og regnfullt (26 °C), frodig. Tett gress gjør dyr vanskelige å se.", "en": "Warm and wet (26 °C), lush. Tall grass makes game hard to spot."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 25.2, "nedbor": 161, "no": "Regntid, tordenbyger.", "en": "Rainy season, thunderstorms."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 24.8, "nedbor": 118, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 23.1, "nedbor": 64, "no": "Mildt (23 °C), tørrere.", "en": "Mild (23 °C), drier."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 21.2, "nedbor": 21, "no": "Tørt og mildt (21 °C).", "en": "Dry and mild (21 °C)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 19.3, "nedbor": 15, "no": "Vinter: kjølige netter, tørt. Godt dyreliv i Hlane.", "en": "Winter: cool nights, dry. Good game viewing in Hlane."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 19.3, "nedbor": 16, "no": "Tørt, kalde netter. Sørafrikansk skoleferie.", "en": "Dry, cold nights. South African school holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.2, "nedbor": 22, "no": "Tørt og klart. Umhlanga-dansen (se Vinduer).", "en": "Dry and clear. Umhlanga reed dance (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.1, "nedbor": 44, "no": "Varmere (23 °C), vår. Umhlanga i starten av måneden.", "en": "Warmer (23 °C), spring. Umhlanga early in the month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 24.0, "nedbor": 93, "no": "Regnet kommer.", "en": "Rains arrive."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 24.4, "nedbor": 139, "no": "Regntid, tordenbyger.", "en": "Rainy season, thunderstorms."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 25.3, "nedbor": 142, "no": "Regntid. Incwala-seremonien; sørafrikansk ferie.", "en": "Rainy season. Incwala ceremony; South African holidays."}
+  ],
+  "vinduer": [
+    {"fra_uke": 35, "til_uke": 36, "type": "Hendelse", "justering": 0.5, "no": "Umhlanga (sivdansen) ved Ludzidzini, slutten av aug/start sep (sjekk dato)", "en": "Umhlanga reed dance at Ludzidzini, late Aug/early Sep (check dates)"}
+  ]
+}

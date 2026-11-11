@@ -1,0 +1,33 @@
+{
+  "id": "FRA-S",
+  "region": "Europa",
+  "land": "Frankrike",
+  "sted": "Provence og Rivieraen",
+  "kortnavn": "Provence og Rivieraen",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "Inkluderer Monaco",
+  "koord": [43.75, 6.0],
+  "kilde": "Nice lufthavn, Météo-France 1991–2020, via Wikipedia. Provence innland (Avignon) varmere om sommeren, kaldere om vinteren, med mistral",
+  "en": {"land": "France", "sted": "Provence and the Riviera", "kortnavn": "Provence and the Riviera", "kategori": "Beach / culture", "merknad": "Includes Monaco", "kilde": "Nice airport, Météo-France 1991–2020, via Wikipedia. Inland Provence (Avignon) hotter in summer, colder in winter, with the mistral"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 13.3, "nedbor": 74, "no": "Mildt ved kysten (13 °C), sol. Mye stengt i Provence.", "en": "Mild on the coast (13 °C), sunny. Much closed in Provence."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 13.5, "nedbor": 54, "no": "Mimosa og sitronfest. Karneval i Nice (se Vinduer).", "en": "Mimosa and lemon festival. Nice Carnival (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.4, "nedbor": 51, "no": "Mildt (15 °C), vår på kysten. Rolig.", "en": "Mild (15 °C), spring on the coast. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 17.4, "nedbor": 69, "no": "Vår (17 °C), blomstring i Provence. Lite folk.", "en": "Spring (17 °C), blossom in Provence. Few people."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.0, "nedbor": 40, "no": "Behagelig (21 °C), tørt. Filmfestivalen i Cannes (se Vinduer).", "en": "Pleasant (21 °C), dry. Cannes Film Festival (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.7, "nedbor": 36, "no": "Varmt (25 °C), havet varmes. Lavendelen begynner. Grand Prix i Monaco (se Vinduer).", "en": "Warm (25 °C), the sea warms up. Lavender begins. Monaco Grand Prix (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 27.5, "nedbor": 14, "no": "Varmt (28 °C), lavendel i full blomst. Strendene fulle, høye priser.", "en": "Hot (28 °C), lavender in full bloom. Beaches packed, high prices."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 27.9, "nedbor": 17, "no": "Varmest, franske ferier. Alt fullt, skogbrannfare.", "en": "Hottest, French holidays. Everything full, wildfire risk."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.8, "nedbor": 81, "no": "Varmt hav, færre folk. Vinhøst.", "en": "Warm sea, fewer people. Grape harvest."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 21.0, "nedbor": 128, "no": "Mildt (21 °C), men kraftige regnskyll.", "en": "Mild (21 °C), but heavy downpours."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 17.0, "nedbor": 138, "no": "Mest regn. Mange hoteller stengt.", "en": "Most rain. Many hotels closed."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 4, "tmaks": 14.1, "nedbor": 90, "no": "Mildt ved kysten (14 °C). Julemarkeder.", "en": "Mild on the coast (14 °C). Christmas markets."}
+  ],
+  "vinduer": [
+    {"fra_uke": 7, "til_uke": 9, "type": "Hendelse", "justering": 0.3, "no": "Karneval i Nice og sitronfest i Menton (feb, følger fastelavn – sjekk dato)", "en": "Nice Carnival and Menton Lemon Festival (Feb, follows Mardi Gras – check date)"},
+    {"fra_uke": 20, "til_uke": 21, "type": "Hendelse", "justering": -0.3, "no": "Filmfestivalen i Cannes (midten av mai, sjekk dato): hotellene langs kysten fulle og dyre", "en": "Cannes Film Festival (mid-May, check date): coastal hotels full and expensive"},
+    {"fra_uke": 22, "til_uke": 23, "type": "Hendelse", "justering": -0.3, "no": "Grand Prix i Monaco (slutten av mai/start juni, sjekk dato; 2026: 5.–7.6): ekstreme priser", "en": "Monaco Grand Prix (late May/early June, check date; 2026: 5–7 Jun): extreme prices"}
+  ]
+}

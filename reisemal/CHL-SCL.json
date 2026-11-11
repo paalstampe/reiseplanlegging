@@ -1,0 +1,32 @@
+{
+  "id": "CHL-SCL",
+  "region": "Sør-Amerika",
+  "land": "Chile",
+  "sted": "Santiago og vindistriktene",
+  "kortnavn": "Chile – Santiago",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [-33.45, -70.67],
+  "kilde": "Santiago (Quinta Normal), Dirección Meteorológica de Chile 1991–2020, via Wikipedia. Colchagua- og Casablanca-dalen omtrent like",
+  "en": {"land": "Chile", "sted": "Santiago and the wine valleys", "kortnavn": "Chile – Santiago", "kategori": "City / culture / food", "kilde": "Santiago (Quinta Normal), Dirección Meteorológica de Chile 1991–2020, via Wikipedia. The Colchagua and Casablanca valleys are similar"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.4, "nedbor": 1, "no": "Varmt (30 °C), tørt. Sommerferie i Chile.", "en": "Hot (30 °C), dry. Summer holidays in Chile."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.7, "nedbor": 1, "no": "Varmt (30 °C). Chilenerne er på kysten; rolig i byen.", "en": "Hot (30 °C). Chileans are at the coast; the city is quiet."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.9, "nedbor": 4, "no": "Varmt (28 °C), tørt. Vinhøst og Vendimia (se Vinduer).", "en": "Warm (28 °C), dry. Grape harvest and Vendimia (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 23.3, "nedbor": 18, "no": "Mildt (23 °C). Vinhøst og høstfarger i vindalene.", "en": "Mild (23 °C). Harvest and autumn colours in the wine valleys."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 19.2, "nedbor": 43, "no": "Kjølig (19 °C), første regn. Smog kan komme.", "en": "Cool (19 °C), first rain. Smog may set in."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 16.0, "nedbor": 80, "no": "Vinter (16 °C), mest regn og smog. Skisesongen starter.", "en": "Winter (16 °C), most rain and smog. Ski season starts."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 15.7, "nedbor": 50, "no": "Kjølig (16 °C), smog. Ski i Andes; vinterferie.", "en": "Cool (16 °C), smog. Skiing in the Andes; winter holidays."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 17.6, "nedbor": 44, "no": "Kjølig (18 °C), klarere luft. Ski.", "en": "Cool (18 °C), clearer air. Skiing."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.1, "nedbor": 25, "no": "Vår (20 °C). Fiestas Patrias (se Vinduer).", "en": "Spring (20 °C). Fiestas Patrias (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 23.1, "nedbor": 12, "no": "Vår (23 °C), klart; snø på Andes.", "en": "Spring (23 °C), clear; snow on the Andes."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.6, "nedbor": 5, "no": "Varmt (27 °C), tørt. Fint i vindalene.", "en": "Warm (27 °C), dry. Lovely in the wine valleys."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 29.0, "nedbor": 3, "no": "Varmt (29 °C). Jul og nyttår.", "en": "Hot (29 °C). Christmas and New Year."}
+  ],
+  "vinduer": [
+    {"fra_uke": 10, "til_uke": 11, "type": "Hendelse", "justering": 0.3, "no": "Fiesta de la Vendimia i Colchagua og Curicó (sjekk dato)", "en": "Fiesta de la Vendimia in Colchagua and Curicó (check date)"},
+    {"fra_uke": 38, "til_uke": 38, "type": "Helligdag", "justering": 0.3, "no": "Fiestas Patrias 18.–19.9: fondas og folkefest, men mye stengt", "en": "Fiestas Patrias 18–19 Sep: fondas and festivities, but much is closed"}
+  ]
+}

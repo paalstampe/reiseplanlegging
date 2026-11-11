@@ -1,0 +1,30 @@
+{
+  "id": "MKD",
+  "region": "Europa",
+  "land": "Nord-Makedonia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [41.6, 21.2],
+  "kilde": "Skopje lufthavn, WMO 1991–2020, via Wikipedia. Ohrid (695 moh) er kjøligere om sommeren",
+  "en": {"land": "North Macedonia", "kategori": "Culture / nature", "kilde": "Skopje International Airport, WMO 1991–2020, via Wikipedia. Ohrid (695 m) is cooler in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.8, "nedbor": 30, "no": "Kaldt (5 °C), tåke og smog i Skopje. Lite åpent ved Ohrid.", "en": "Cold (5 °C), fog and smog in Skopje. Little open at Ohrid."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.0, "nedbor": 29, "no": "Kaldt (9 °C). Rolig.", "en": "Cold (9 °C). Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 14.5, "nedbor": 38, "no": "Kjølig (15 °C), våren kommer.", "en": "Cool (15 °C), spring arriving."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.4, "nedbor": 40, "no": "Mildt (19 °C), grønt. Fint for Skopje og klostrene.", "en": "Mild (19 °C), green. Good for Skopje and the monasteries."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 24.4, "nedbor": 43, "no": "Ideelt (24 °C), blomstrende. Lite folk ved Ohrid.", "en": "Ideal (24 °C), in bloom. Few people at Ohrid."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.2, "nedbor": 54, "no": "Varmt (29 °C). Badesesongen ved Ohrid starter.", "en": "Warm (29 °C). Swimming season at Ohrid begins."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 32.0, "nedbor": 38, "no": "Hett i Skopje (32 °C); Ohrid kjøligere. Ohrid-festivalen (se Vinduer).", "en": "Hot in Skopje (32 °C); Ohrid cooler. Ohrid Summer Festival (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 32.3, "nedbor": 36, "no": "Hett (32 °C). Ohrid fullt av tilreisende fra Balkan.", "en": "Hot (32 °C). Ohrid full of Balkan holidaymakers."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.7, "nedbor": 34, "no": "Varmt (27 °C), innsjøen fortsatt varm. Vinhøst.", "en": "Warm (27 °C), the lake still warm. Grape harvest."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.1, "nedbor": 49, "no": "Mildt (20 °C), høstfarger. Rolig.", "en": "Mild (20 °C), autumn colours. Quiet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 12.5, "nedbor": 45, "no": "Kjølig (13 °C), grått.", "en": "Cool (13 °C), grey."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 5.9, "nedbor": 48, "no": "Kaldt (6 °C), tåke.", "en": "Cold (6 °C), fog."}
+  ],
+  "vinduer": [
+    {"fra_uke": 28, "til_uke": 34, "type": "Hendelse", "justering": 0.3, "no": "Ohrid-festivalen (12.7–20.8): konserter og teater i gamlebyen", "en": "Ohrid Summer Festival (12 Jul–20 Aug): concerts and theatre in the old town"}
+  ]
+}

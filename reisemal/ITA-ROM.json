@@ -1,0 +1,32 @@
+{
+  "id": "ITA-ROM",
+  "region": "Europa",
+  "land": "Italia",
+  "sted": "Roma og Toscana",
+  "kortnavn": "Roma og Toscana",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "Inkluderer Vatikanstaten og San Marino",
+  "koord": [42.8, 11.9],
+  "kilde": "Roma Urbe, 1991–2020, via Wikipedia (nedbøren er den samme som i Ciampino-tabellen). Firenze omtrent som Roma, litt kaldere om vinteren",
+  "en": {"land": "Italy", "sted": "Rome and Tuscany", "kortnavn": "Rome and Tuscany", "kategori": "City / culture / food", "merknad": "Includes Vatican City and San Marino", "kilde": "Rome Urbe, 1991–2020, via Wikipedia (precipitation identical to the Ciampino table). Florence similar to Rome, slightly colder in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 12.6, "nedbor": 66, "no": "Kjølig (13 °C), regn innimellom. Museer uten kø.", "en": "Cool (13 °C), occasional rain. Museums without queues."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 13.8, "nedbor": 63, "no": "Kjølig (14 °C). Rolig og billig.", "en": "Cool (14 °C). Quiet and cheap."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.8, "nedbor": 59, "no": "Mildt (17 °C). Lite folk før påske.", "en": "Mild (17 °C). Few people before Easter."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 20.0, "nedbor": 69, "no": "Ideelt (20 °C), vår i Toscana. Mye folk.", "en": "Ideal (20 °C), spring in Tuscany. Busy."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.8, "nedbor": 57, "no": "Varmt (25 °C), grønt Toscana. Høysesong.", "en": "Warm (25 °C), green Tuscany. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 29.5, "nedbor": 30, "no": "Varmt (30 °C). Høysesong.", "en": "Hot (30 °C). High season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 32.6, "nedbor": 20, "no": "Hett (33 °C) i Roma. Palio i Siena 2.7 (se Vinduer).", "en": "Very hot (33 °C) in Rome. Palio in Siena 2 Jul (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 32.7, "nedbor": 30, "no": "Hett (33 °C). Ferragosto 15.8: mye stengt i Roma. Palio 16.8.", "en": "Very hot (33 °C). Ferragosto 15 Aug: much closed in Rome. Palio 16 Aug."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 27.9, "nedbor": 65, "no": "Varmt (28 °C), vinhøst i Toscana. Høysesong.", "en": "Warm (28 °C), grape harvest in Tuscany. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.8, "nedbor": 88, "no": "Behagelig (23 °C), vinhøst og trøfler.", "en": "Pleasant (23 °C), grape harvest and truffles."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 17.1, "nedbor": 108, "no": "Mildt (17 °C), mest regn.", "en": "Mild (17 °C), wettest month."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 13.2, "nedbor": 98, "no": "Kjølig (13 °C). Jul i Roma og Vatikanet.", "en": "Cool (13 °C). Christmas in Rome and the Vatican."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 27, "type": "Hendelse", "justering": 0.3, "no": "Palio di Siena 2.7: hesteløp på Piazza del Campo, fullt i Siena", "en": "Palio di Siena 2 Jul: horse race on Piazza del Campo, Siena full"},
+    {"fra_uke": 33, "til_uke": 33, "type": "Hendelse", "justering": 0.3, "no": "Palio di Siena 16.8 (samme uke som Ferragosto)", "en": "Palio di Siena 16 Aug (same week as Ferragosto)"}
+  ]
+}

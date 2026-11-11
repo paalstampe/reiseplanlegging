@@ -1,0 +1,30 @@
+{
+  "id": "RUS-BAJ",
+  "region": "Europa",
+  "land": "Russland",
+  "sted": "Bajkal",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [53.0, 107.0],
+  "kilde": "Irkutsk, Pogoda.ru.net 1991–2020, via Wikipedia. Ved sjøen og på Olkhon kjøligere om sommeren og mindre regn",
+  "en": {"land": "Russia", "sted": "Lake Baikal", "kategori": "Nature / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Irkutsk, Pogoda.ru.net 1991–2020, via Wikipedia. By the lake and on Olkhon cooler in summer and drier"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": -12.7, "nedbor": 14, "no": "Svært kaldt (−13 °C, −20 °C om natta). Isen legger seg.", "en": "Very cold (−13 °C, −20 °C at night). The lake freezes over."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": -7.5, "nedbor": 9, "no": "Kaldt (−8 °C), sol. Klar is på Bajkal (se Vinduer).", "en": "Cold (−8 °C), sunny. Clear ice on Baikal (see events)."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 1.2, "nedbor": 12, "no": "Kaldt (1 °C), sol. Isen holder til slutten av mars.", "en": "Cold (1 °C), sunny. The ice holds until late March."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.5, "nedbor": 21, "no": "Isen går opp; Olkhon vanskelig å nå. Grått.", "en": "The ice breaks up; Olkhon hard to reach. Grey."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 18.1, "nedbor": 36, "no": "Mildt (18 °C), kaldt vann. Isfritt fra slutten av mai.", "en": "Mild (18 °C), cold water. Ice-free from late May."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 23.8, "nedbor": 69, "no": "Varmt (24 °C), grønt. Vandring på Great Baikal Trail.", "en": "Warm (24 °C), green. Hiking the Great Baikal Trail."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 25.7, "nedbor": 107, "no": "Varmt (26 °C), mest regn. Høysesong, fullt på Olkhon.", "en": "Warm (26 °C), wettest month. High season, Olkhon full."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 22.9, "nedbor": 96, "no": "Varmt (23 °C), byger. Vannet varmest. Høysesong.", "en": "Warm (23 °C), showers. Warmest water. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.1, "nedbor": 53, "no": "Kjølig (16 °C), klart, høstfarger i taigaen.", "en": "Cool (16 °C), clear, autumn colours in the taiga."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.9, "nedbor": 21, "no": "Kaldt (8 °C), storm på sjøen. Sesongen over.", "en": "Cold (8 °C), storms on the lake. Season over."},
+    {"klima": 2, "opplevelse": 1, "trengsel": 5, "tmaks": -2.7, "nedbor": 20, "no": "Kaldt (−3 °C); ferjene stopper, isen er usikker.", "en": "Cold (−3 °C); ferries stop, the ice is unsafe."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -10.8, "nedbor": 19, "no": "Svært kaldt (−11 °C). Sjøen fryser; Olkhon avskåret.", "en": "Very cold (−11 °C). The lake freezes; Olkhon cut off."}
+  ],
+  "vinduer": [
+    {"fra_uke": 7, "til_uke": 12, "type": "Hendelse", "justering": 0.5, "no": "Klar svart is på Bajkal: isgrotter, skøyter, kjøring til Olkhon", "en": "Clear black ice on Baikal: ice caves, skating, driving to Olkhon"}
+  ]
+}

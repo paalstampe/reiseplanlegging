@@ -1,0 +1,32 @@
+{
+  "id": "ECU",
+  "region": "Sør-Amerika",
+  "land": "Ecuador",
+  "sted": "Quito og Andes",
+  "kortnavn": "Ecuador – Quito",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [-0.22, -78.51],
+  "kilde": "Quito (Mariscal Sucre lufthavn, ca. 2400 moh), WMO 1991–2020, via Wikipedia. Cotopaxi og Quilotoa (3500–4000 moh) mye kaldere",
+  "en": {"land": "Ecuador", "sted": "Quito and the Andes", "kortnavn": "Ecuador – Quito", "kategori": "Nature / culture", "kilde": "Quito (Mariscal Sucre Airport, approx. 2,400 m), WMO 1991–2020, via Wikipedia. Cotopaxi and Quilotoa (3,500–4,000 m) much colder"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 20.3, "nedbor": 81, "no": "Mildt (20 °C), ettermiddagsregn.", "en": "Mild (20 °C), afternoon rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 20.2, "nedbor": 109, "no": "Mildt, regnfullt. Karneval med vannkasting.", "en": "Mild, rainy. Carnival with water fights."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 20.4, "nedbor": 142, "no": "Regnfullt (142 mm), skyer over vulkanene.", "en": "Rainy (142 mm), clouds over the volcanoes."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 20.3, "nedbor": 168, "no": "Mest regn (168 mm). Påskeprosesjon i Quito.", "en": "Wettest (168 mm). Easter procession in Quito."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 20.5, "nedbor": 120, "no": "Regnet avtar, grønt.", "en": "Rain eases, green."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 20.9, "nedbor": 41, "no": "Tørrsesong, klart. Inti Raymi i Otavalo (se Vinduer).", "en": "Dry season, clear. Inti Raymi in Otavalo (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.3, "nedbor": 22, "no": "Tørt og klart; best utsikt mot Cotopaxi. Høysesong.", "en": "Dry and clear; best views of Cotopaxi. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.6, "nedbor": 32, "no": "Tørt, vindfullt. Høysesong.", "en": "Dry, windy. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 21.4, "nedbor": 69, "no": "Tørt, klart. Fint for vandring.", "en": "Dry, clear. Good for hiking."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 20.8, "nedbor": 112, "no": "Regnet kommer tilbake, ettermiddagsbyger.", "en": "Rain returns, afternoon showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 20.1, "nedbor": 108, "no": "Mildt, byger.", "en": "Mild, showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 20.2, "nedbor": 94, "no": "Byger. Fiestas de Quito (se Vinduer) og jul.", "en": "Showers. Fiestas de Quito (see events) and Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 25, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Inti Raymi (solverv) i Otavalo og Cotacachi", "en": "Inti Raymi (solstice festival) in Otavalo and Cotacachi"},
+    {"fra_uke": 49, "til_uke": 49, "type": "Hendelse", "justering": 0.3, "no": "Fiestas de Quito 1.–6.12: konserter og gatefest", "en": "Fiestas de Quito 1–6 Dec: concerts and street parties"}
+  ]
+}

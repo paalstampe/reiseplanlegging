@@ -1,0 +1,35 @@
+{
+  "id": "VEN",
+  "region": "Sør-Amerika",
+  "land": "Venezuela",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / strand",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [10.49, -66.88],
+  "kilde": "Caracas (La Carlota), NOAA 1991–2020, via Wikipedia. Canaima/Salto Ángel (som Ciudad Bolívar) våtest jun–aug; Los Roques tørt hele året",
+  "en": {"land": "Venezuela", "kategori": "Nature / beach", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Caracas (La Carlota), NOAA 1991–2020, via Wikipedia. Canaima/Angel Falls (like Ciudad Bolívar) wettest Jun–Aug; Los Roques dry all year"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 27.1, "nedbor": 56, "no": "Tørrsesong. Los Roques og Andes fine; lite vann i Salto Ángel.", "en": "Dry season. Los Roques and the Andes good; little water at Angel Falls."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 27.6, "nedbor": 43, "no": "Tørt. Karneval, innenlands ferie (se Vinduer).", "en": "Dry. Carnival, domestic holidays (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 28.6, "nedbor": 21, "no": "Tørrest. Klart i Andes; båt til Salto Ángel ofte umulig.", "en": "Driest. Clear in the Andes; boats to Angel Falls often impossible."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.3, "nedbor": 48, "no": "Varmt og tørt. Semana Santa.", "en": "Hot and dry. Semana Santa."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 29.4, "nedbor": 70, "no": "Regnet starter. Diablos Danzantes (se Vinduer).", "en": "Rain begins. Dancing Devils (see events)."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 5, "tmaks": 28.5, "nedbor": 113, "no": "Regntid. Salto Ángel fosser, båtene går fra Canaima.", "en": "Rainy season. Angel Falls in full flow, boats run from Canaima."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 4, "tmaks": 28.0, "nedbor": 121, "no": "Byger. Beste tid for Salto Ángel.", "en": "Showers. Best time for Angel Falls."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 28.3, "nedbor": 133, "no": "Byger. Skoleferie gir travelt i Canaima og på strendene.", "en": "Showers. School holidays make Canaima and the beaches busy."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 28.8, "nedbor": 118, "no": "Byger, fortsatt mye vann i fossen.", "en": "Showers, still plenty of water in the falls."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 28.6, "nedbor": 144, "no": "Mest regn (144 mm), også i Andes.", "en": "Most rain (144 mm), also in the Andes."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 28.1, "nedbor": 130, "no": "Regnet avtar.", "en": "Rain easing."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 27.1, "nedbor": 107, "no": "Tørrere. Jul og nyttår: innenlands høysesong.", "en": "Drier. Christmas and New Year: domestic high season."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-14", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Karneval, bl.a. i El Callao (calypso, UNESCO); strendene fulle", "en": "Carnival, e.g. in El Callao (calypso, UNESCO); beaches full"},
+    {"fra": "2027-02-06", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Karneval, bl.a. i El Callao (calypso, UNESCO); strendene fulle", "en": "Carnival, e.g. in El Callao (calypso, UNESCO); beaches full"},
+    {"fra": "2028-02-26", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Karneval, bl.a. i El Callao (calypso, UNESCO); strendene fulle", "en": "Carnival, e.g. in El Callao (calypso, UNESCO); beaches full"},
+    {"fra": "2026-06-04", "til": "2026-06-04", "type": "Hendelse", "justering": 0.3, "no": "Diablos Danzantes de Yare (Corpus Christi, UNESCO)", "en": "Dancing Devils of Yare (Corpus Christi, UNESCO)"},
+    {"fra": "2027-05-27", "til": "2027-05-27", "type": "Hendelse", "justering": 0.3, "no": "Diablos Danzantes de Yare (Corpus Christi, UNESCO)", "en": "Dancing Devils of Yare (Corpus Christi, UNESCO)"},
+    {"fra": "2028-06-15", "til": "2028-06-15", "type": "Hendelse", "justering": 0.3, "no": "Diablos Danzantes de Yare (Corpus Christi, UNESCO)", "en": "Dancing Devils of Yare (Corpus Christi, UNESCO)"}
+  ]
+}

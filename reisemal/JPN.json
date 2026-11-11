@@ -1,0 +1,39 @@
+{
+  "id": "JPN",
+  "region": "Asia",
+  "land": "Japan",
+  "sted": "Tokyo og Kyoto",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [35.35, 137.73],
+  "kilde": "Kyoto, JMA 1991–2020, via Wikipedia. Tokyo (Kitanomaru) 1–2 °C kjøligere om sommeren og mer regn sep–okt",
+  "en": {"land": "Japan", "sted": "Tokyo and Kyoto", "kategori": "City / culture / food", "kilde": "Kyoto, JMA 1991–2020, via Wikipedia. Tokyo (Kitanomaru) 1–2 °C cooler in summer and wetter Sep–Oct"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 9.1, "nedbor": 53, "no": "Kaldt (9 °C), tørt og klart. Nyttår (se Vinduer), ellers rolig.", "en": "Cold (9 °C), dry and clear. New Year (see events), otherwise quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 10.0, "nedbor": 65, "no": "Kaldt (10 °C), klart. Plommeblomstring, få turister.", "en": "Cold (10 °C), clear. Plum blossom, few tourists."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 14.1, "nedbor": 106, "no": "Mildt (14 °C). Kirsebærblomstring sent i måneden (se Vinduer).", "en": "Mild (14 °C). Cherry blossom late in the month (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 20.1, "nedbor": 117, "no": "Behagelig (20 °C). Kirsebærblomstring tidlig i april; svært travelt.", "en": "Pleasant (20 °C). Cherry blossom in early April; very busy."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.1, "nedbor": 151, "no": "Varmt (25 °C), grønt. Golden Week (se Vinduer), ellers fint.", "en": "Warm (25 °C), green. Golden Week (see events), otherwise good."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 28.1, "nedbor": 200, "no": "Regntid (tsuyu), fuktig (28 °C).", "en": "Rainy season (tsuyu), humid (28 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 32.0, "nedbor": 224, "no": "Regntiden slutter midt i måneden, så hett og fuktig. Gion Matsuri (se Vinduer).", "en": "Rainy season ends mid-month, then hot and humid. Gion Matsuri (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 33.7, "nedbor": 154, "no": "Hetest (34 °C), svært fuktig. Obon (se Vinduer).", "en": "Hottest (34 °C), very humid. Obon (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.2, "nedbor": 179, "no": "Fortsatt varmt (29 °C), tyfonfare.", "en": "Still hot (29 °C), typhoon risk."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 23.4, "nedbor": 143, "no": "Behagelig (23 °C), klart. God måned.", "en": "Pleasant (23 °C), clear. A good month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 17.3, "nedbor": 74, "no": "Kjølig (17 °C), høstløv i Kyoto (se Vinduer). Travelt.", "en": "Cool (17 °C), autumn leaves in Kyoto (see events). Busy."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 11.6, "nedbor": 57, "no": "Kjølig (12 °C), tørt. Høstløv tidlig i måneden; rolig før jul.", "en": "Cool (12 °C), dry. Autumn leaves early in the month; quiet before Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 1, "til_uke": 1, "type": "Helligdag", "justering": -0.3, "no": "Nyttår (shogatsu, 29.12–3.1): mye stengt, fulle tog", "en": "New Year (shogatsu, 29 Dec–3 Jan): much closed, full trains"},
+    {"fra_uke": 13, "til_uke": 14, "type": "Hendelse", "justering": 0.5, "no": "Kirsebærblomstring (sakura): vakkert, men fullt og dyrt (kan variere en uke)", "en": "Cherry blossom (sakura): beautiful, but full and expensive (may vary by a week)"},
+    {"fra": "2026-04-29", "til": "2026-05-06", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: japanerne reiser, fulle tog og hoteller", "en": "Golden Week: Japanese on holiday, full trains and hotels"},
+    {"fra": "2027-04-29", "til": "2027-05-05", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: japanerne reiser, fulle tog og hoteller", "en": "Golden Week: Japanese on holiday, full trains and hotels"},
+    {"fra": "2028-04-29", "til": "2028-05-07", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: japanerne reiser, fulle tog og hoteller", "en": "Golden Week: Japanese on holiday, full trains and hotels"},
+    {"fra": "2026-07-14", "til": "2026-07-17", "type": "Hendelse", "justering": 0.3, "no": "Gion Matsuri i Kyoto: kveldsfest 14.–16.7, opptog 17.7", "en": "Gion Matsuri in Kyoto: evening festivities 14–16 Jul, parade 17 Jul"},
+    {"fra": "2027-07-14", "til": "2027-07-17", "type": "Hendelse", "justering": 0.3, "no": "Gion Matsuri i Kyoto: opptog 17.7", "en": "Gion Matsuri in Kyoto: parade 17 Jul"},
+    {"fra": "2028-07-14", "til": "2028-07-17", "type": "Hendelse", "justering": 0.3, "no": "Gion Matsuri i Kyoto: opptog 17.7", "en": "Gion Matsuri in Kyoto: parade 17 Jul"},
+    {"fra_uke": 33, "til_uke": 33, "type": "Helligdag", "justering": -0.3, "no": "Obon (13.–16.8): japanerne reiser, fulle tog og hoteller", "en": "Obon (13–16 Aug): Japanese travel, full trains and hotels"},
+    {"fra_uke": 47, "til_uke": 48, "type": "Hendelse", "justering": 0.3, "no": "Høstløv (koyo) i Kyoto: vakkert, men travelt", "en": "Autumn leaves (koyo) in Kyoto: beautiful, but busy"}
+  ]
+}

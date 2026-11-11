@@ -1,0 +1,31 @@
+{
+  "id": "PER-LIM",
+  "region": "Sør-Amerika",
+  "land": "Peru",
+  "sted": "Lima og kysten",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [-12.05, -77.04],
+  "kilde": "Lima (Jorge Chávez lufthavn), DWD 1991–2020 (nedbør 1961–1990), via Wikipedia. Paracas og Nazca lenger sør er solrike også om vinteren",
+  "en": {"land": "Peru", "sted": "Lima and the coast", "kategori": "City / culture / food", "kilde": "Lima (Jorge Chávez Airport), DWD 1991–2020 (precipitation 1961–1990), via Wikipedia. Paracas and Nazca further south are sunny in winter too"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.8, "nedbor": 1, "no": "Sommer: sol, 27 °C. Strandsesong og peruansk ferie.", "en": "Summer: sun, 27 °C. Beach season and Peruvian holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.0, "nedbor": 0, "no": "Varmest (28 °C), sol. Fullt på strendene.", "en": "Warmest (28 °C), sunny. Beaches full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.6, "nedbor": 0, "no": "Sol, 28 °C. Ferien slutter.", "en": "Sunny, 28 °C. Holidays end."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.4, "nedbor": 0, "no": "Mildt (25 °C), fortsatt sol.", "en": "Mild (25 °C), still sunny."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 22.8, "nedbor": 0, "no": "Skyene kommer (23 °C).", "en": "Clouds arrive (23 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 20.5, "nedbor": 1, "no": "Grått og fuktig (garúa), 21 °C.", "en": "Grey and damp (garúa), 21 °C."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 19.6, "nedbor": 1, "no": "Grått, 20 °C. Fiestas Patrias (se Vinduer).", "en": "Grey, 20 °C. Fiestas Patrias (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 19.2, "nedbor": 2, "no": "Grått og kjølig (19 °C), yr.", "en": "Grey and cool (19 °C), drizzle."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 19.6, "nedbor": 1, "no": "Grått (20 °C). Rolig.", "en": "Grey (20 °C). Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 20.8, "nedbor": 0, "no": "Grått, men lysere. Señor de los Milagros (se Vinduer).", "en": "Grey but brighter. Señor de los Milagros (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.4, "nedbor": 0, "no": "Sola kommer tilbake (22 °C).", "en": "The sun returns (22 °C)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 24.4, "nedbor": 0, "no": "Sommer (24 °C), sol. Jul.", "en": "Summer (24 °C), sunny. Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 30, "til_uke": 31, "type": "Helligdag", "justering": -0.5, "no": "Fiestas Patrias 28.–29.7: peruanere på ferie, mye fullt", "en": "Fiestas Patrias 28–29 Jul: Peruvians on holiday, much is full"},
+    {"fra_uke": 42, "til_uke": 44, "type": "Hendelse", "justering": 0.3, "no": "Señor de los Milagros: store prosesjoner i Lima (18., 19. og 28.10)", "en": "Señor de los Milagros: large processions in Lima (18, 19 and 28 Oct)"}
+  ]
+}

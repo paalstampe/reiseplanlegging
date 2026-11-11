@@ -1,0 +1,28 @@
+{
+  "id": "SOM",
+  "region": "Afrika",
+  "land": "Somalia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / historie",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [2.05, 45.32],
+  "kilde": "Mogadishu, Deutscher Wetterdienst (periode ikke oppgitt), via Wikipedia. Somaliland (Hargeisa, Laas Geel) kjøligere og tørrere",
+  "en": {"land": "Somalia", "kategori": "Culture / history", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Mogadishu, Deutscher Wetterdienst (period not stated), via Wikipedia. Somaliland (Hargeisa, Laas Geel) cooler and drier"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.2, "nedbor": 0, "no": "Tørt (Jilaal), varmt (30 °C), jevn monsunvind.", "en": "Dry (Jilaal), hot (30 °C), steady monsoon wind."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.2, "nedbor": 0, "no": "Tørt og varmt. Rolig sjø langs kysten.", "en": "Dry and hot. Calm sea along the coast."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.9, "nedbor": 8, "no": "Varmere (31 °C), fortsatt tørt.", "en": "Warmer (31 °C), still dry."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.2, "nedbor": 61, "no": "Varmest (32 °C), Gu-regnet starter.", "en": "Hottest (32 °C), the Gu rains begin."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.2, "nedbor": 61, "no": "Gu-regntid, fuktig.", "en": "Gu rainy season, humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.6, "nedbor": 82, "no": "Regn og sterk sørvestmonsun, høy sjø.", "en": "Rain and strong southwest monsoon, rough sea."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 28.6, "nedbor": 64, "no": "Kjøligst (29 °C), vindfullt, spredte byger.", "en": "Coolest (29 °C), windy, scattered showers."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 28.6, "nedbor": 44, "no": "Tørrere (Xagaa), vindfullt og behagelig.", "en": "Drier (Xagaa), windy and pleasant."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 29.4, "nedbor": 25, "no": "Tørt, behagelig.", "en": "Dry, pleasant."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.2, "nedbor": 32, "no": "Deyr-regnet starter.", "en": "The Deyr rains begin."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.6, "nedbor": 43, "no": "Deyr-regntid, kortvarige byger.", "en": "Deyr rainy season, short showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 9, "no": "Regnet slutter, tørt og varmt.", "en": "Rain ends, dry and hot."}
+  ],
+  "vinduer": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "CHL-RAP",
+  "region": "Sør-Amerika",
+  "land": "Chile",
+  "sted": "Påskeøya",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "Nasjonalparken krever lokal guide",
+  "koord": [-27.12, -109.35],
+  "kilde": "Påskeøya (Mataveri lufthavn), Dirección Meteorológica de Chile 1991–2020, via Wikipedia",
+  "en": {"land": "Chile", "sted": "Easter Island", "kategori": "Culture / nature", "merknad": "The national park requires a local guide", "kilde": "Easter Island (Mataveri Airport), Dirección Meteorológica de Chile 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.9, "nedbor": 81, "no": "Varmt (27 °C), sol og bading på Anakena. Chilensk sommerferie.", "en": "Warm (27 °C), sun and swimming at Anakena. Chilean summer holidays."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 27.5, "nedbor": 69, "no": "Varmest (28 °C). Tapati Rapa Nui (se Vinduer): fullt.", "en": "Warmest (28 °C). Tapati Rapa Nui (see events): full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.9, "nedbor": 87, "no": "Varmt (27 °C), roligere etter ferien.", "en": "Warm (27 °C), quieter after the holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 25.5, "nedbor": 123, "no": "Mildt (26 °C), mer regn.", "en": "Mild (26 °C), more rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 23.4, "nedbor": 117, "no": "Mildt (23 °C), regnbyger. Rolig.", "en": "Mild (23 °C), showers. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 21.9, "nedbor": 109, "no": "Kjøligere (22 °C), regn og vind.", "en": "Cooler (22 °C), rain and wind."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 21.2, "nedbor": 113, "no": "Vinter (21 °C), regn og vind. Chilensk vinterferie.", "en": "Winter (21 °C), rain and wind. Chilean winter holidays."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 21.2, "nedbor": 97, "no": "Kjølig (21 °C), byger. Rolig.", "en": "Cool (21 °C), showers. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 21.6, "nedbor": 97, "no": "Mildt (22 °C), tørrere.", "en": "Mild (22 °C), drier."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.5, "nedbor": 91, "no": "Mildt (23 °C), fint for vandring.", "en": "Mild (23 °C), good for hiking."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 23.8, "nedbor": 75, "no": "Lunt (24 °C), lite regn. Fin skuldersesong.", "en": "Pleasant (24 °C), little rain. Good shoulder season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 25.5, "nedbor": 70, "no": "Varmt (26 °C). Jul og nyttår fyller flyene.", "en": "Warm (26 °C). Christmas and New Year fill the flights."}
+  ],
+  "vinduer": [
+    {"fra_uke": 5, "til_uke": 7, "type": "Hendelse", "justering": 0.3, "no": "Tapati Rapa Nui: dans, sang og konkurranser, men fullt (sjekk dato)", "en": "Tapati Rapa Nui: dance, song and contests, but full (check date)"}
+  ]
+}

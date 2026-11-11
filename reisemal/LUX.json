@@ -1,0 +1,32 @@
+{
+  "id": "LUX",
+  "region": "Europa",
+  "land": "Luxembourg",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / natur",
+  "merknad": "",
+  "koord": [49.61, 6.13],
+  "kilde": "Luxembourg lufthavn (368 moh), Meteolux 1991–2020, via Wikipedia. Mosel-dalen litt varmere",
+  "en": {"land": "Luxembourg", "kategori": "City / culture / nature", "kilde": "Luxembourg Airport (368 m), Meteolux 1991–2020, via Wikipedia. The Moselle valley slightly warmer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 3.8, "nedbor": 72, "no": "Kaldt (4 °C), grått. Få turister.", "en": "Cold (4 °C), grey. Few tourists."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 5.2, "nedbor": 59, "no": "Kaldt, grått. Rolig.", "en": "Cold, grey. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 9.8, "nedbor": 57, "no": "Kjølig (10 °C), våren kommer.", "en": "Cool (10 °C), spring arriving."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.4, "nedbor": 49, "no": "Vår (14 °C), blomstring. Byger.", "en": "Spring (14 °C), blossom. Showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 18.4, "nedbor": 71, "no": "Mildt (18 °C), grønt. Fint for fotturer i Mullerthal.", "en": "Mild (18 °C), green. Good for hiking in Mullerthal."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.7, "nedbor": 76, "no": "Behagelig (22 °C). Nasjonaldagen (se Vinduer).", "en": "Pleasant (22 °C). National Day (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.9, "nedbor": 72, "no": "Varmest (24 °C), byger. Sommerfestivaler.", "en": "Warmest (24 °C), showers. Summer festivals."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 23.5, "nedbor": 72, "no": "Sommer (24 °C). Schueberfouer starter (se Vinduer).", "en": "Summer (24 °C). Schueberfouer begins (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 19.0, "nedbor": 66, "no": "Mildt (19 °C). Vinhøst langs Mosel.", "en": "Mild (19 °C). Wine harvest along the Moselle."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 13.5, "nedbor": 77, "no": "Kjølig (14 °C), høstfarger i Ardennene.", "en": "Cool (14 °C), autumn colours in the Ardennes."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 7.7, "nedbor": 72, "no": "Grått og vått (8 °C). Lavsesong.", "en": "Grey and wet (8 °C). Low season."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 4.5, "nedbor": 89, "no": "Kaldt (5 °C), vått. Winterlights julemarked (se Vinduer).", "en": "Cold (5 °C), wet. Winterlights Christmas market (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 25, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Nasjonaldagen (23.6, feiring kvelden før): fyrverkeri og fest", "en": "National Day (23 Jun, celebrations the evening before): fireworks and festivities"},
+    {"fra_uke": 35, "til_uke": 37, "type": "Hendelse", "justering": 0.3, "no": "Schueberfouer: stor folkefest og tivoli (slutten av aug.–midten av sep.)", "en": "Schueberfouer: large funfair (late Aug–mid Sep)"},
+    {"fra_uke": 48, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Winterlights: julemarkeder i byen", "en": "Winterlights: Christmas markets in the city"}
+  ]
+}

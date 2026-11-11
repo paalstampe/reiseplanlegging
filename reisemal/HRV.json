@@ -1,0 +1,30 @@
+{
+  "id": "HRV",
+  "region": "Europa",
+  "land": "Kroatia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [43.51, 16.44],
+  "kilde": "Split (Marjan), NOAA 1991–2020, via Wikipedia. Dubrovnik tilsvarende, litt våtere; Plitvice og innlandet kaldere",
+  "en": {"land": "Croatia", "kategori": "Beach / culture", "kilde": "Split (Marjan), NOAA 1991–2020, via Wikipedia. Dubrovnik similar, slightly wetter; Plitvice and inland colder"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.7, "nedbor": 73, "no": "Kjølig (11 °C), bora-vind. Øyene stengt.", "en": "Cool (11 °C), bora wind. The islands closed."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 11.5, "nedbor": 64, "no": "Kjølig (12 °C). Rolig.", "en": "Cool (12 °C). Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 14.5, "nedbor": 58, "no": "Mildt (15 °C). Plitvice uten folk.", "en": "Mild (15 °C). Plitvice without crowds."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 18.4, "nedbor": 62, "no": "Behagelig (18 °C). Fossene i Plitvice fulle.", "en": "Pleasant (18 °C). The Plitvice waterfalls in full flow."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 23.4, "nedbor": 58, "no": "Varmt (23 °C), alt åpner. Lite folk.", "en": "Warm (23 °C), everything opens. Few people."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.1, "nedbor": 49, "no": "Varmt (28 °C), havet varmt nok. Før fellesferien.", "en": "Hot (28 °C), sea warm enough. Before the summer holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 31.0, "nedbor": 25, "no": "Hett (31 °C). Fullt; cruiseskip i Dubrovnik.", "en": "Very hot (31 °C). Full; cruise ships in Dubrovnik."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 30.9, "nedbor": 32, "no": "Hett. Toppsesong, dyrt.", "en": "Very hot. Peak season, expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.4, "nedbor": 82, "no": "Varmt (25 °C), havet varmest. Beste måned.", "en": "Warm (25 °C), sea at its warmest. Best month."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 20.5, "nedbor": 80, "no": "Mildt (21 °C), mer regn. Sesongen slutter.", "en": "Mild (21 °C), more rain. The season ends."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 15.6, "nedbor": 120, "no": "Mest regn. Mye stengt på øyene.", "en": "Wettest month. Much closed on the islands."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 11.8, "nedbor": 99, "no": "Kjølig, vind. Adventsmarked i Zagreb.", "en": "Cool, windy. Advent market in Zagreb."}
+  ],
+  "vinduer": [
+    {"fra_uke": 28, "til_uke": 35, "type": "Hendelse", "justering": 0.3, "no": "Dubrovnik sommerfestival (10.7–25.8): teater og konserter i gamlebyen", "en": "Dubrovnik Summer Festival (10 Jul–25 Aug): theatre and concerts in the old town"}
+  ]
+}

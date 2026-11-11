@@ -1,0 +1,30 @@
+{
+  "id": "POL",
+  "region": "Europa",
+  "land": "Polen",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / historie",
+  "merknad": "",
+  "koord": [50.06, 19.94],
+  "kilde": "Kraków lufthavn, IMGW 1991–2020, via Wikipedia. Warszawa omtrent likt; Gdańsk kjøligere om sommeren",
+  "en": {"land": "Poland", "kategori": "City / culture / history", "kilde": "Kraków Airport, IMGW 1991–2020, via Wikipedia. Warsaw similar; Gdańsk cooler in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 1.6, "nedbor": 38, "no": "Kaldt (2 °C), grått. Gamlebyen i Kraków nesten tom.", "en": "Cold (2 °C), grey. Kraków's old town almost empty."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 3.7, "nedbor": 32, "no": "Kaldt, korte dager. Billig.", "en": "Cold, short days. Cheap."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 8.4, "nedbor": 38, "no": "Kjølig (8 °C), våren kommer.", "en": "Cool (8 °C), spring arriving."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 15.1, "nedbor": 46, "no": "Mildt (15 °C). Fint for byvandring.", "en": "Mild (15 °C). Good for city walks."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 19.8, "nedbor": 79, "no": "Behagelig (20 °C), grønt. God sesong.", "en": "Pleasant (20 °C), green. Good season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 23.2, "nedbor": 77, "no": "Varmt (23 °C), tordenbyger. Midtsommerfeiring (Wianki).", "en": "Warm (23 °C), thunderstorms. Midsummer celebrations (Wianki)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 25.3, "nedbor": 98, "no": "Varmest (25 °C) og mest regn (98 mm). Høysesong, fullt i Kraków.", "en": "Warmest (25 °C) and wettest (98 mm). High season, Kraków full."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 25.0, "nedbor": 73, "no": "Varmt, sommerferie. Fullt.", "en": "Warm, summer holidays. Full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 19.5, "nedbor": 66, "no": "Behagelig (20 °C). Gyllen høst.", "en": "Pleasant (20 °C). Golden autumn."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 14.0, "nedbor": 51, "no": "Kjølig (14 °C), høstfarger. Rolig.", "en": "Cool (14 °C), autumn colours. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.6, "nedbor": 41, "no": "Grått og kaldt (8 °C).", "en": "Grey and cold (8 °C)."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 2.7, "nedbor": 33, "no": "Kaldt (3 °C). Julemarkeder (se Vinduer).", "en": "Cold (3 °C). Christmas markets (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 48, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Julemarked på Rynek Główny i Kraków (slutten av november–jul)", "en": "Christmas market on Kraków's Main Square (late November–Christmas)"}
+  ]
+}

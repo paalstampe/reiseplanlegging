@@ -1,0 +1,34 @@
+{
+  "id": "ARG-BA",
+  "region": "Sør-Amerika",
+  "land": "Argentina",
+  "sted": "Buenos Aires og Mendoza",
+  "kortnavn": "Buenos Aires/Mendoza",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [-34.6, -58.38],
+  "kilde": "Buenos Aires (Observatorio Central), SMN 1991–2020, via Wikipedia. Mendoza (lufthavn, SMN 1991–2020): tørrere og varmere om sommeren (33 °C i jan), kaldere om vinteren",
+  "en": {"land": "Argentina", "sted": "Buenos Aires and Mendoza", "kortnavn": "Buenos Aires/Mendoza", "kategori": "City / culture / food", "kilde": "Buenos Aires (Central Observatory), SMN 1991–2020, via Wikipedia. Mendoza (airport, SMN 1991–2020): drier and hotter in summer (33 °C in Jan), colder in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 30.1, "nedbor": 134, "no": "Varmt og fuktig (30 °C); mange porteños på ferie. Mendoza 33 °C.", "en": "Hot and humid (30 °C); many porteños away on holiday. Mendoza 33 °C."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 28.9, "nedbor": 129, "no": "Varmt (29 °C). Vinhøsten starter i Mendoza.", "en": "Hot (29 °C). The grape harvest begins in Mendoza."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.0, "nedbor": 120, "no": "Varmt og behagelig. Vendimia i Mendoza (se Vinduer).", "en": "Warm and pleasant. Vendimia in Mendoza (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 23.2, "nedbor": 130, "no": "Mildt (23 °C), høstfarger i vinmarkene. Godt valg.", "en": "Mild (23 °C), autumn colours in the vineyards. A good choice."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 19.4, "nedbor": 94, "no": "Kjølig høst (19 °C). Rolig.", "en": "Cool autumn (19 °C). Quiet."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 16.4, "nedbor": 62, "no": "Vinter, kjølig (16 °C) og grått. Bare vinmarker. Lavsesong.", "en": "Winter, cool (16 °C) and grey. Bare vineyards. Low season."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 4, "tmaks": 15.5, "nedbor": 74, "no": "Kaldest (16 °C). Vinterferie gir mer folk.", "en": "Coldest (16 °C). Winter holidays bring more people."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 17.9, "nedbor": 70, "no": "Kjølig. Tangofestival i Buenos Aires (se Vinduer).", "en": "Cool. Tango festival in Buenos Aires (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.7, "nedbor": 81, "no": "Vår (20 °C), mildt. Rolig.", "en": "Spring (20 °C), mild. Quiet."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.6, "nedbor": 123, "no": "Mildt (23 °C), jakarandaen blomstrer. Fint i Mendoza.", "en": "Mild (23 °C), jacarandas in bloom. Lovely in Mendoza."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.0, "nedbor": 118, "no": "Varmt (26 °C), jakaranda. Høysesong.", "en": "Warm (26 °C), jacarandas. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 29.0, "nedbor": 123, "no": "Varmt (29 °C). Jul og nyttår, noe dyrere.", "en": "Hot (29 °C). Christmas and New Year, somewhat pricier."}
+  ],
+  "vinduer": [
+    {"fra": "2026-03-05", "til": "2026-03-08", "type": "Hendelse", "justering": 0.3, "no": "Vendimia i Mendoza: vinfestival, første helg i mars (sjekk dato)", "en": "Vendimia in Mendoza: wine festival, first weekend of March (check dates)"},
+    {"fra": "2027-03-04", "til": "2027-03-07", "type": "Hendelse", "justering": 0.3, "no": "Vendimia i Mendoza (sjekk dato)", "en": "Vendimia in Mendoza (check dates)"},
+    {"fra": "2028-03-02", "til": "2028-03-05", "type": "Hendelse", "justering": 0.3, "no": "Vendimia i Mendoza (sjekk dato)", "en": "Vendimia in Mendoza (check dates)"},
+    {"fra_uke": 34, "til_uke": 35, "type": "Hendelse", "justering": 0.3, "no": "Tango BA Festival y Mundial i Buenos Aires, slutten av august (sjekk dato)", "en": "Tango BA Festival and World Cup in Buenos Aires, late August (check dates)"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "AUT",
+  "region": "Europa",
+  "land": "Østerrike",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / natur",
+  "merknad": "",
+  "koord": [47.8, 13.04],
+  "kilde": "Wien (Innere Stadt), GeoSphere Austria (ZAMG) 1991–2020, via Wikipedia. Salzburg og Alpene kjøligere og våtere, med snø om vinteren",
+  "en": {"land": "Austria", "kategori": "City / culture / nature", "kilde": "Vienna (Innere Stadt), GeoSphere Austria (ZAMG) 1991–2020, via Wikipedia. Salzburg and the Alps cooler and wetter, with snow in winter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 4.2, "nedbor": 38, "no": "Kaldt (4 °C) i Wien. Skisesong i Alpene, ballsesong i Wien.", "en": "Cold (4 °C) in Vienna. Ski season in the Alps, ball season in Vienna."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 7.0, "nedbor": 34, "no": "Kaldt (7 °C). God snø; vinterferie fyller skistedene.", "en": "Cold (7 °C). Good snow; winter holidays fill the ski resorts."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 11.0, "nedbor": 46, "no": "Kjølig (11 °C). Vårski i Alpene.", "en": "Cool (11 °C). Spring skiing in the Alps."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 17.4, "nedbor": 40, "no": "Mildt (17 °C). Skisesongen slutter; påskeferie.", "en": "Mild (17 °C). Ski season ends; Easter holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.1, "nedbor": 78, "no": "Fint (21 °C), byger. Wachau i blomst.", "en": "Pleasant (21 °C), showers. Wachau in bloom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.7, "nedbor": 82, "no": "Ideelt (26 °C). Fjellstier og hytter åpner.", "en": "Ideal (26 °C). Mountain trails and huts open."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.9, "nedbor": 80, "no": "Varmt (27 °C), tordenbyger. Salzburgfestivalen (se Vinduer).", "en": "Warm (27 °C), thunderstorms. Salzburg Festival (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.6, "nedbor": 74, "no": "Varmt (27 °C). Høysesong i Alpene og ved sjøene.", "en": "Warm (27 °C). High season in the Alps and at the lakes."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.6, "nedbor": 67, "no": "Ideelt (22 °C). Vinhøst i Wachau, klart i fjellet.", "en": "Ideal (22 °C). Grape harvest in the Wachau, clear in the mountains."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 15.0, "nedbor": 48, "no": "Kjølig (15 °C), høstfarger. Heurigen i Wien.", "en": "Cool (15 °C), autumn colours. Heurigen in Vienna."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.5, "nedbor": 43, "no": "Kaldt (10 °C), grått. Mellomsesong i Alpene.", "en": "Cold (10 °C), grey. Off season in the Alps."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 4.7, "nedbor": 40, "no": "Kaldt (5 °C). Julemarkeder (se Vinduer), skisesongen starter.", "en": "Cold (5 °C). Christmas markets (see events), ski season starts."}
+  ],
+  "vinduer": [
+    {"fra_uke": 47, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Julemarkeder i Wien, Salzburg og Innsbruck", "en": "Christmas markets in Vienna, Salzburg and Innsbruck"},
+    {"fra_uke": 30, "til_uke": 35, "type": "Hendelse", "justering": 0.3, "no": "Salzburgfestivalen (opera og konserter), Salzburg fullt", "en": "Salzburg Festival (opera and concerts), Salzburg full"}
+  ]
+}

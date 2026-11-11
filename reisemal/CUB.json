@@ -1,0 +1,30 @@
+{
+  "id": "CUB",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Cuba",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "Strømbrudd og mangel på drivstoff; sjekk situasjonen før avreise",
+  "koord": [22.6, -81.0],
+  "kilde": "Havanna (Casa Blanca), WMO 1991–2020, via Wikipedia. Trinidad og Viñales omtrent som Havanna; Santiago (øst) varmere og tørrere",
+  "en": {"land": "Cuba", "kategori": "Culture / nature", "merknad": "Power cuts and fuel shortages; check the situation before travelling", "kilde": "Havana (Casa Blanca), WMO 1991–2020, via Wikipedia. Trinidad and Viñales similar to Havana; Santiago (east) hotter and drier"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.5, "nedbor": 56, "no": "Tørt og behagelig (27 °C). Høysesong.", "en": "Dry and pleasant (27 °C). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.2, "nedbor": 59, "no": "Tørt og fint. Høysesong.", "en": "Dry and fine. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.5, "nedbor": 54, "no": "Tørt, varmere. Høysesong.", "en": "Dry, warmer. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.8, "nedbor": 58, "no": "Tørt og varmt. Fint i Viñales og Trinidad.", "en": "Dry and warm. Good in Viñales and Trinidad."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 120, "no": "Regntiden starter, byger på ettermiddagen.", "en": "Rainy season begins, afternoon showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.6, "nedbor": 168, "no": "Varmt og fuktig, byger. Orkansesongen starter.", "en": "Hot and humid, showers. Hurricane season begins."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 32.3, "nedbor": 125, "no": "Varmt. Karneval i Santiago (se Vinduer). Cubansk sommerferie.", "en": "Hot. Carnival in Santiago (see events). Cuban summer holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 32.4, "nedbor": 145, "no": "Svært varmt og fuktig; orkanrisiko. Sommerferie.", "en": "Very hot and humid; hurricane risk. Summer holidays."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.8, "nedbor": 176, "no": "Orkansesongens topp, mest regn.", "en": "Peak hurricane season, wettest."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.5, "nedbor": 140, "no": "Orkanrisiko, byger. Lite folk.", "en": "Hurricane risk, showers. Few people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.6, "nedbor": 83, "no": "Tørrere og behagelig. Sesongen starter.", "en": "Drier and pleasant. The season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.2, "nedbor": 58, "no": "Tørt og fint; jul og nyttår fullt.", "en": "Dry and fine; Christmas and New Year busy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 29, "til_uke": 30, "type": "Hendelse", "justering": 0.3, "no": "Karneval i Santiago de Cuba: parader og conga, rundt 25.7", "en": "Carnival in Santiago de Cuba: parades and conga, around 25 Jul"}
+  ]
+}

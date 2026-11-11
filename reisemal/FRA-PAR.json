@@ -1,0 +1,31 @@
+{
+  "id": "FRA-PAR",
+  "region": "Europa",
+  "land": "Frankrike",
+  "sted": "Paris",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [48.86, 2.35],
+  "kilde": "Paris (Parc Montsouris), Météo-France 1991–2020, via Wikipedia",
+  "en": {"land": "France", "sted": "Paris", "kategori": "City / culture / food", "kilde": "Paris (Parc Montsouris), Météo-France 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 7.6, "nedbor": 48, "no": "Kaldt (8 °C) og grått. Museer uten kø, januarsalg.", "en": "Cold (8 °C) and grey. Museums without queues, January sales."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 8.8, "nedbor": 42, "no": "Kjølig og grått. Rolig.", "en": "Cool and grey. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 12.8, "nedbor": 45, "no": "Mildere (13 °C), byger. Lite folk.", "en": "Milder (13 °C), showers. Few people."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 16.6, "nedbor": 46, "no": "Vår (17 °C), blomstring i parkene.", "en": "Spring (17 °C), blossom in the parks."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 20.2, "nedbor": 69, "no": "Behagelig (20 °C), uteservering. Høysesong.", "en": "Pleasant (20 °C), outdoor cafés. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 23.4, "nedbor": 51, "no": "Varmt, lange kvelder. Fête de la Musique (se Vinduer).", "en": "Warm, long evenings. Fête de la Musique (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 25.7, "nedbor": 59, "no": "Varmt (26 °C), risiko for hetebølge. 14. juli (se Vinduer). Fullt.", "en": "Hot (26 °C), heatwave risk. 14 July (see events). Busy."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 3, "tmaks": 25.6, "nedbor": 58, "no": "Varmt. Mange pariserne på ferie, en del stengt.", "en": "Hot. Many Parisians on holiday, some places closed."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.5, "nedbor": 45, "no": "Behagelig (22 °C), byen våkner etter ferien.", "en": "Pleasant (22 °C), the city wakes up after the holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 16.5, "nedbor": 55, "no": "Mildt (17 °C), høstfarger.", "en": "Mild (17 °C), autumn colours."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 11.1, "nedbor": 54, "no": "Kjølig og vått. Rolig.", "en": "Cool and wet. Quiet."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 8.0, "nedbor": 62, "no": "Kaldt, men julelys og julemarkeder.", "en": "Cold, but Christmas lights and markets."}
+  ],
+  "vinduer": [
+    {"fra_uke": 25, "til_uke": 25, "type": "Hendelse", "justering": 0.3, "no": "Fête de la Musique 21.6: gratiskonserter i hele byen", "en": "Fête de la Musique 21 Jun: free concerts all over the city"},
+    {"fra_uke": 28, "til_uke": 28, "type": "Hendelse", "justering": 0.3, "no": "Nasjonaldagen 14.7: parade på Champs-Élysées og fyrverkeri ved Eiffeltårnet", "en": "Bastille Day 14 Jul: parade on the Champs-Élysées and fireworks at the Eiffel Tower"}
+  ]
+}

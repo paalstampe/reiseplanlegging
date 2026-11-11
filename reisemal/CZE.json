@@ -1,0 +1,32 @@
+{
+  "id": "CZE",
+  "region": "Europa",
+  "land": "Tsjekkia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [50.08, 14.43],
+  "kilde": "Praha (Klementinum, sentrum), ČHMÚ 1991–2020, via Wikipedia. Sentrumsstasjon, litt varmere enn omlandet",
+  "en": {"land": "Czech Republic", "kategori": "City / culture", "kilde": "Prague (Clementinum, city centre), Czech Hydrometeorological Institute 1991–2020, via Wikipedia. City-centre station, slightly warmer than the surroundings"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 3.9, "nedbor": 18, "no": "Kaldt (4 °C), grått. Rolig, lave priser.", "en": "Cold (4 °C), grey. Quiet, low prices."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 5.6, "nedbor": 16, "no": "Kaldt (6 °C). Minst folk.", "en": "Cold (6 °C). Fewest people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 10.0, "nedbor": 26, "no": "Kjølig (10 °C), våren kommer.", "en": "Cool (10 °C), spring arrives."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 16.1, "nedbor": 25, "no": "Mildt (16 °C), blomstring. Påskemarkeder.", "en": "Mild (16 °C), blossom. Easter markets."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 20.9, "nedbor": 58, "no": "Behagelig (21 °C). Pražské jaro-festivalen (se Vinduer). Høysesong.", "en": "Pleasant (21 °C). Prague Spring festival (see events). High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 24.4, "nedbor": 69, "no": "Varmt (24 °C), byger. Uteserveringer og ølhager.", "en": "Warm (24 °C), showers. Outdoor cafés and beer gardens."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 26.5, "nedbor": 67, "no": "Varmt (27 °C), tordenbyger. Fullt på Karlsbroen.", "en": "Warm (27 °C), thunderstorms. Crowded on Charles Bridge."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 25.9, "nedbor": 62, "no": "Varmt (26 °C). Fullt.", "en": "Warm (26 °C). Crowded."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 20.4, "nedbor": 34, "no": "Behagelig (20 °C), tørrere. Vinhøst i Moravia.", "en": "Pleasant (20 °C), drier. Grape harvest in Moravia."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 14.4, "nedbor": 30, "no": "Mildt (14 °C), høstfarger. Signal-lysfestival (se Vinduer).", "en": "Mild (14 °C), autumn colours. Signal light festival (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 8.5, "nedbor": 26, "no": "Kjølig (9 °C), grått. Rolig.", "en": "Cool (9 °C), grey. Quiet."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 2, "tmaks": 4.8, "nedbor": 23, "no": "Kaldt (5 °C), julemarkeder (se Vinduer). Fullt i helgene.", "en": "Cold (5 °C), Christmas markets (see events). Busy at weekends."}
+  ],
+  "vinduer": [
+    {"fra_uke": 20, "til_uke": 22, "type": "Hendelse", "justering": 0.3, "no": "Pražské jaro: klassisk musikkfestival (12.5–begynnelsen av juni)", "en": "Prague Spring: classical music festival (12 May to early June)"},
+    {"fra_uke": 42, "til_uke": 42, "type": "Hendelse", "justering": 0.3, "no": "Signal Festival: lysinstallasjoner i Praha (midten av oktober, sjekk dato)", "en": "Signal Festival: light installations in Prague (mid-October, check dates)"},
+    {"fra_uke": 48, "til_uke": 52, "type": "Hendelse", "justering": 0.5, "no": "Julemarkeder på Gamlebytorget og Václavplassen", "en": "Christmas markets on Old Town Square and Wenceslas Square"}
+  ]
+}

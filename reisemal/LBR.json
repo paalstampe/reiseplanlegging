@@ -1,0 +1,28 @@
+{
+  "id": "LBR",
+  "region": "Afrika",
+  "land": "Liberia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / strand",
+  "merknad": "",
+  "koord": [6.4, -10.4],
+  "kilde": "Roberts International Airport (60 km øst for Monrovia), DWD 1991–2020, via Wikipedia",
+  "en": {"land": "Liberia", "kategori": "Nature / beach", "kilde": "Roberts International Airport (60 km east of Monrovia), DWD 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 30.7, "nedbor": 26, "no": "Tørrsesong, varmt (31 °C). Harmattan-dis.", "en": "Dry season, hot (31 °C). Harmattan haze."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 48, "no": "Tørt, 32 °C. Strand i Robertsport, Sapo nasjonalpark.", "en": "Dry, 32 °C. Beach at Robertsport, Sapo National Park."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.9, "nedbor": 97, "no": "Varmt, enkelte byger.", "en": "Hot, occasional showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.1, "nedbor": 160, "no": "Regnet starter, fuktig.", "en": "Rain begins, humid."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.0, "nedbor": 416, "no": "Regntid, kraftige byger. Gjørmete veier.", "en": "Rainy season, heavy showers. Muddy roads."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 28.9, "nedbor": 818, "no": "Svært vått (over 800 mm).", "en": "Very wet (over 800 mm)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 27.8, "nedbor": 696, "no": "Svært vått; veier ut av Monrovia vanskelige.", "en": "Very wet; roads outside Monrovia difficult."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 27.2, "nedbor": 561, "no": "Kort pause i regnet, fortsatt mye.", "en": "Brief lull in the rain, still a lot."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 28.3, "nedbor": 914, "no": "Mest regn.", "en": "Most rain."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 29.4, "nedbor": 587, "no": "Svært vått.", "en": "Very wet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.3, "nedbor": 190, "no": "Regnet avtar.", "en": "Rain easing."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 48, "no": "Tørrsesongen starter. Strand og regnskog.", "en": "Dry season begins. Beach and rainforest."}
+  ],
+  "vinduer": []
+}

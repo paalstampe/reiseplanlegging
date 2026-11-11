@@ -1,0 +1,34 @@
+{
+  "id": "PRT-MAD",
+  "region": "Europa",
+  "land": "Portugal",
+  "sted": "Madeira",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / trekking",
+  "merknad": "",
+  "koord": [32.75, -16.95],
+  "kilde": "Funchal (observatoriet, 58 moh), IPMA 1991–2020, via Wikipedia. Fjellene (Pico do Arieiro, 1818 moh) er mye kaldere og våtere",
+  "en": {"land": "Portugal", "sted": "Madeira", "kategori": "Nature / trekking", "kilde": "Funchal (Observatory, 58 m), IPMA 1991–2020, via Wikipedia. The mountains (Pico do Arieiro, 1,818 m) are much colder and wetter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 20.0, "nedbor": 67, "no": "Mildt (20 °C) ved kysten, regnbyger i fjellet. Levadaturer mulig.", "en": "Mild (20 °C) on the coast, showers in the mountains. Levada walks possible."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 19.9, "nedbor": 72, "no": "Mildt, skiftende i fjellet. Karneval i Funchal (se Vinduer).", "en": "Mild, changeable in the mountains. Carnival in Funchal (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 20.6, "nedbor": 62, "no": "Mildt (21 °C), grønt. Fine turforhold.", "en": "Mild (21 °C), green. Good hiking conditions."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 21.0, "nedbor": 45, "no": "Blomstring overalt, tørrere.", "en": "Flowers everywhere, drier."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.0, "nedbor": 27, "no": "Tørt og klart (22 °C). Blomsterfestivalen (se Vinduer).", "en": "Dry and clear (22 °C). Flower Festival (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.7, "nedbor": 8, "no": "Varmt (24 °C) og tørt. Beste turvær i fjellet.", "en": "Warm (24 °C) and dry. Best hiking weather in the mountains."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 25.4, "nedbor": 2, "no": "Tørt, 25 °C. Sommerferie, dyrere.", "en": "Dry, 25 °C. Summer holidays, pricier."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 26.8, "nedbor": 1, "no": "Varmest (27 °C); skogbrannfare. Høysesong.", "en": "Warmest (27 °C); wildfire risk. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.6, "nedbor": 23, "no": "Varmt, havet rundt 23 °C. Vinhøst.", "en": "Warm, sea around 23 °C. Grape harvest."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.2, "nedbor": 91, "no": "Varmt (25 °C), første regn. Rolig.", "en": "Warm (25 °C), first rain. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 22.8, "nedbor": 80, "no": "Regn (80 mm), 23 °C. Lavsesong.", "en": "Rain (80 mm), 23 °C. Low season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 21.0, "nedbor": 95, "no": "Mest regn (95 mm), mildt. Jul og nyttårsfyrverkeri (se Vinduer).", "en": "Wettest (95 mm), mild. Christmas and New Year fireworks (see events)."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-13", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Funchal, parade lørdag 14.2", "en": "Carnival in Funchal, parade Saturday 14 Feb"},
+    {"fra": "2027-02-05", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Funchal, parade lørdag 6.2", "en": "Carnival in Funchal, parade Saturday 6 Feb"},
+    {"fra": "2028-02-25", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Funchal, parade lørdag 26.2", "en": "Carnival in Funchal, parade Saturday 26 Feb"},
+    {"fra_uke": 18, "til_uke": 20, "type": "Hendelse", "justering": 0.5, "no": "Festa da Flor (blomsterfestivalen) i Funchal, parade i mai (sjekk dato)", "en": "Festa da Flor (Flower Festival) in Funchal, parade in May (check date)"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Hendelse", "justering": 0.3, "no": "Nyttårsfyrverkeri i Funchal: spektakulært, men fullbooket og dyrt", "en": "New Year fireworks in Funchal: spectacular, but booked out and expensive"}
+  ]
+}

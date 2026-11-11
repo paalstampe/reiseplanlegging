@@ -1,0 +1,29 @@
+{
+  "id": "CAF",
+  "region": "Afrika",
+  "land": "Den sentralafrikanske republikk",
+  "sted": "",
+  "kortnavn": "Sentralafrikanske rep.",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [2.91, 16.29],
+  "kilde": "Bangui (M'poko lufthavn), NOAA 1991–2020, via Wikipedia. Dzanga-Sangha (sørvest) har samme mønster, men mer regn",
+  "en": {"land": "Central African Republic", "kortnavn": "Central African Rep.", "kategori": "Nature / wildlife", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Bangui (M'poko Airport), NOAA 1991–2020, via Wikipedia. Dzanga-Sangha (southwest) has the same pattern, but more rain"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 33.8, "nedbor": 11, "no": "Tørrsesong; gorillaer og skogselefanter i Dzanga-Sangha. Beste tid.", "en": "Dry season; gorillas and forest elephants in Dzanga-Sangha. Best time."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 5, "tmaks": 35.1, "nedbor": 43, "no": "Tørt og varmest (35 °C).", "en": "Dry and hottest (35 °C)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 34.7, "nedbor": 98, "no": "Regnet starter.", "en": "Rain begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.3, "nedbor": 118, "no": "Byger.", "en": "Showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.4, "nedbor": 152, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.1, "nedbor": 161, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.4, "nedbor": 197, "no": "Mye regn.", "en": "Lots of rain."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.5, "nedbor": 218, "no": "Mest regn (218 mm); vanskelige veier.", "en": "Wettest (218 mm); difficult roads."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.3, "nedbor": 176, "no": "Regntid; vanskelige veier.", "en": "Rainy season; difficult roads."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 198, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 32.1, "nedbor": 69, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 32.9, "nedbor": 18, "no": "Tørrsesongen starter. Beste tid.", "en": "Dry season begins. Best time."}
+  ],
+  "vinduer": []
+}

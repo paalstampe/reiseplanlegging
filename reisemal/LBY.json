@@ -1,0 +1,30 @@
+{
+  "id": "LBY",
+  "region": "Afrika",
+  "land": "Libya",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [32.3, 13.2],
+  "kilde": "Tripoli, WMO 1991–2020, via Wikipedia. Leptis Magna og Sabratha som Tripoli; Ghadames og Akakus i ørkenen over 40 °C om sommeren",
+  "en": {"land": "Libya", "kategori": "History / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Tripoli, WMO 1991–2020, via Wikipedia. Leptis Magna and Sabratha similar to Tripoli; Ghadames and the Akakus in the desert above 40 °C in summer"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 18.4, "nedbor": 59, "no": "Kjølig (18 °C), regn i Tripoli. Ørkentur mulig, kalde netter.", "en": "Cool (18 °C), rain in Tripoli. Desert trips possible, cold nights."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 19.5, "nedbor": 33, "no": "Mildt, mindre regn. Fint i ørkenen.", "en": "Mild, less rain. Fine in the desert."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 21.8, "nedbor": 29, "no": "Mildt (22 °C); grønt rundt Leptis Magna. Ghibli-vind kan gi sandstorm.", "en": "Mild (22 °C); green around Leptis Magna. Ghibli wind can bring sandstorms."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 24.9, "nedbor": 14, "no": "Ideelt (25 °C) for ruinene. Fare for ghibli.", "en": "Ideal (25 °C) for the ruins. Risk of ghibli."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 28.5, "nedbor": 5, "no": "Varmt (29 °C); ørkenen blir for varm.", "en": "Warm (29 °C); the desert gets too hot."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.1, "nedbor": 1, "no": "Varmt (32 °C); Ghadames over 39 °C.", "en": "Hot (32 °C); Ghadames above 39 °C."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 33.2, "nedbor": 0, "no": "Hett; ørkenen over 40 °C.", "en": "Hot; the desert above 40 °C."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 34.0, "nedbor": 0, "no": "Hetest (34 °C); Ghadames 41 °C.", "en": "Hottest (34 °C); Ghadames 41 °C."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.4, "nedbor": 11, "no": "Fortsatt varmt, avtar.", "en": "Still hot, easing."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 29.1, "nedbor": 42, "no": "Ideelt (29 °C). Ghadames-festivalen (se Vinduer).", "en": "Ideal (29 °C). Ghadames festival (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 24.0, "nedbor": 57, "no": "Mildt (24 °C); ørkensesong. Første regn.", "en": "Mild (24 °C); desert season. First rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 19.8, "nedbor": 67, "no": "Kjølig, regn ved kysten. Ørkentur mulig.", "en": "Cool, rain on the coast. Desert trips possible."}
+  ],
+  "vinduer": [
+    {"fra_uke": 43, "til_uke": 44, "type": "Hendelse", "justering": 0.3, "no": "Ghadames-festivalen i gamlebyen: musikk og tuareg-kultur (sjekk dato)", "en": "Ghadames festival in the old town: music and Tuareg culture (check date)"}
+  ]
+}

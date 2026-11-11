@@ -1,0 +1,30 @@
+{
+  "id": "KAZ",
+  "region": "Asia",
+  "land": "Kasakhstan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [43.24, 76.95],
+  "kilde": "Almaty, Pogoda.ru 1991–2020, via Wikipedia. Fjellet (Kolsay, Big Almaty Lake) kjøligere; steppen og Astana mye kaldere om vinteren",
+  "en": {"land": "Kazakhstan", "sted": "", "kategori": "Nature / culture", "kilde": "Almaty, Pogoda.ru 1991–2020, via Wikipedia. The mountains (Kolsay, Big Almaty Lake) cooler; the steppe and Astana much colder in winter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 0.5, "nedbor": 35, "no": "Kaldt (1 °C), snø. Ski i Shymbulak, ellers lite å gjøre.", "en": "Cold (1 °C), snow. Skiing at Shymbulak, otherwise little to do."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 2.7, "nedbor": 43, "no": "Kaldt, snø i fjellet. Rolig.", "en": "Cold, snow in the mountains. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 9.9, "nedbor": 72, "no": "Vår i Almaty (10 °C), fjellet snødekt. Nauryz (se Vinduer).", "en": "Spring in Almaty (10 °C), mountains snow-covered. Nauryz (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 17.8, "nedbor": 112, "no": "Mildt (18 °C), regnfullt; tulipaner på steppen.", "en": "Mild (18 °C), rainy; tulips on the steppe."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.9, "nedbor": 99, "no": "Varmt (23 °C), grønt. Fjellstiene åpner gradvis.", "en": "Warm (23 °C), green. Mountain trails gradually open."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.9, "nedbor": 59, "no": "Varmt (28 °C). Kolsay, Kaindy og Charyn-kløfta på sitt beste.", "en": "Warm (28 °C). Kolsay, Kaindy and Charyn Canyon at their best."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 30.5, "nedbor": 43, "no": "Varmt (31 °C) i byen, kjølig i fjellet. Høysesong for fotturer.", "en": "Hot (31 °C) in the city, cool in the mountains. Peak hiking season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.7, "nedbor": 34, "no": "Varmt og tørt. Gode fjellturer.", "en": "Hot and dry. Good mountain hiking."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 24.5, "nedbor": 28, "no": "Behagelig (25 °C), tørt, høstfarger i fjellet. Beste måned.", "en": "Pleasant (25 °C), dry, autumn colours in the mountains. Best month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.9, "nedbor": 50, "no": "Kjølig (17 °C), klart. Gode dagsturer.", "en": "Cool (17 °C), clear. Good day hikes."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.1, "nedbor": 55, "no": "Kaldt (8 °C), grått. Rolig.", "en": "Cold (8 °C), grey. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 2.0, "nedbor": 44, "no": "Kaldt, snø. Skisesongen i Shymbulak starter.", "en": "Cold, snow. Ski season at Shymbulak begins."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 12, "type": "Helligdag", "justering": 0.3, "no": "Nauryz (21.–23.3): vårfest med jurter, mat og konserter", "en": "Nauryz (21–23 Mar): spring festival with yurts, food and concerts"}
+  ]
+}

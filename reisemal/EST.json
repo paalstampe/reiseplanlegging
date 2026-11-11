@@ -1,0 +1,31 @@
+{
+  "id": "EST",
+  "region": "Europa",
+  "land": "Estland",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [59.44, 24.75],
+  "kilde": "Tallinn, Estlands værtjeneste 1991–2020, via Wikipedia",
+  "en": {"land": "Estonia", "kategori": "City / culture", "kilde": "Tallinn, Estonian Weather Service 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": -0.7, "nedbor": 56, "no": "Kaldt (−1 °C), snø og mørkt. Gamlebyen er fin i snø.", "en": "Cold (−1 °C), snow and dark. The Old Town is lovely in snow."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": -1.0, "nedbor": 40, "no": "Kaldest. Isen kan legge seg på havet.", "en": "Coldest. The sea may freeze."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 2.8, "nedbor": 37, "no": "Kaldt og grått, slaps.", "en": "Cold and grey, slush."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 9.5, "nedbor": 35, "no": "Kjølig (10 °C), våren kommer. Lite folk.", "en": "Cool (10 °C), spring arrives. Few people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 15.4, "nedbor": 37, "no": "Mildt (15 °C), tørt, lange dager.", "en": "Mild (15 °C), dry, long days."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 19.2, "nedbor": 68, "no": "Lyse netter, 19 °C. Jaanipäev (se Vinduer).", "en": "White nights, 19 °C. Jaanipäev (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 22.2, "nedbor": 82, "no": "Varmest (22 °C). Strender og øyer. Cruisefolk i gamlebyen.", "en": "Warmest (22 °C). Beaches and islands. Cruise crowds in the Old Town."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.0, "nedbor": 85, "no": "Varmt, noen byger. Høysesong.", "en": "Warm, some showers. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.1, "nedbor": 58, "no": "Mildt (16 °C), roligere. Høstfarger på slutten.", "en": "Mild (16 °C), quieter. Autumn colours towards the end."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 9.5, "nedbor": 78, "no": "Kjølig og vått. Rolig.", "en": "Cool and wet. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.1, "nedbor": 66, "no": "Mørkt, grått og vått.", "en": "Dark, grey and wet."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 1.2, "nedbor": 59, "no": "Kaldt og mørkt, men julemarked i gamlebyen (se Vinduer).", "en": "Cold and dark, but Christmas market in the Old Town (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 26, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Jaanipäev (sankthans) 23.–24.6: bål og fest over hele landet", "en": "Jaanipäev (Midsummer) 23–24 Jun: bonfires and parties across the country"},
+    {"fra_uke": 48, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Julemarked på Rådhusplassen i Tallinn (slutten av nov – start jan)", "en": "Christmas market in Tallinn Town Hall Square (late Nov – early Jan)"}
+  ]
+}

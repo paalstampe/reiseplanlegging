@@ -1,0 +1,30 @@
+{
+  "id": "AZE",
+  "region": "Europa",
+  "land": "Aserbajdsjan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [40.41, 49.87],
+  "kilde": "Baku (Maştağa), NOAA 1991–2020, via Wikipedia. Sjeki og Kaukasus-foten kjøligere og våtere",
+  "en": {"land": "Azerbaijan", "kategori": "City / culture", "kilde": "Baku (Maştağa), NOAA 1991–2020, via Wikipedia. Sheki and the Caucasus foothills cooler and wetter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.3, "nedbor": 32, "no": "Kaldt (7 °C) og vindfullt. Rolig.", "en": "Cold (7 °C) and windy. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.6, "nedbor": 30, "no": "Kaldt (8 °C), sterk vind fra Kaspihavet.", "en": "Cold (8 °C), strong wind off the Caspian."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 10.9, "nedbor": 18, "no": "Kjølig (11 °C). Novruz (se Vinduer).", "en": "Cool (11 °C). Novruz (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.8, "nedbor": 17, "no": "Mildt (17 °C), tørt. Fint for gamlebyen og Gobustan.", "en": "Mild (17 °C), dry. Good for the Old City and Gobustan."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.4, "nedbor": 15, "no": "Ideelt (23 °C). Fint i Baku og Sjeki.", "en": "Ideal (23 °C). Good in Baku and Sheki."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.0, "nedbor": 9, "no": "Varmt (28 °C), tørt.", "en": "Warm (28 °C), dry."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.5, "nedbor": 4, "no": "Varmt (31 °C) og fuktig. Kjøligere i fjellet.", "en": "Hot (31 °C) and humid. Cooler in the mountains."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.6, "nedbor": 8, "no": "Varmt (31 °C). Badesesong ved Kaspihavet.", "en": "Hot (31 °C). Swimming season on the Caspian."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.8, "nedbor": 28, "no": "Ideelt (26 °C). Granateplehøst.", "en": "Ideal (26 °C). Pomegranate harvest."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 19.5, "nedbor": 32, "no": "Mildt (20 °C), høstfarger i Sjeki.", "en": "Mild (20 °C), autumn colours in Sheki."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 13.4, "nedbor": 44, "no": "Kjølig (13 °C), våtest. Rolig.", "en": "Cool (13 °C), wettest. Quiet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.4, "nedbor": 35, "no": "Kaldt (9 °C) og vindfullt.", "en": "Cold (9 °C) and windy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 12, "type": "Helligdag", "justering": 0.5, "no": "Novruz (20.–21.3 og helg): bål, mat og feiring; noe stengt", "en": "Novruz (20–21 Mar and around): bonfires, food and celebrations; some closures"}
+  ]
+}

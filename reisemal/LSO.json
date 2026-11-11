@@ -1,0 +1,28 @@
+{
+  "id": "LSO",
+  "region": "Afrika",
+  "land": "Lesotho",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / fjell",
+  "merknad": "",
+  "koord": [-29.6, 28.2],
+  "kilde": "Maseru (Mejametala), WMO 1991–2020, via Wikipedia. Høylandet (Semonkong, WMO 1981–2010) 5–6 °C kaldere, snø om vinteren",
+  "en": {"land": "Lesotho", "kategori": "Nature / mountains", "kilde": "Maseru (Mejametala), WMO 1991–2020, via Wikipedia. The highlands (Semonkong, WMO 1981–2010) 5–6 °C colder, snow in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 28.3, "nedbor": 147, "no": "Varmt (28 °C), grønt, ettermiddagstorden. Elver kan stenge veier.", "en": "Warm (28 °C), green, afternoon thunderstorms. Rivers can close roads."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 27.2, "nedbor": 121, "no": "Grønt, tordenbyger.", "en": "Green, thunderstorms."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.4, "nedbor": 98, "no": "Mildere, regnet avtar. Grønt høyland.", "en": "Milder, rain easing. Green highlands."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 22.1, "nedbor": 56, "no": "Tørt og klart, 22 °C. Fin ponnitrekking.", "en": "Dry and clear, 22 °C. Fine pony trekking."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 19.3, "nedbor": 28, "no": "Klart og kjølig; kalde netter i høylandet.", "en": "Clear and cool; cold nights in the highlands."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 16.6, "nedbor": 19, "no": "Vinter: frost, snø i fjellet, Sani-passet kan stenge. Ski i Afriski.", "en": "Winter: frost, snow in the mountains, Sani Pass may close. Skiing at Afriski."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 16.8, "nedbor": 12, "no": "Kaldest; snø i høylandet. Sørafrikansk skoleferie.", "en": "Coldest; snow in the highlands. South African school holidays."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 19.9, "nedbor": 17, "no": "Kaldt og tørt, vind.", "en": "Cold and dry, windy."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 24.0, "nedbor": 27, "no": "Våren kommer; tørt og klart.", "en": "Spring arrives; dry and clear."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 25.5, "nedbor": 61, "no": "Mildt (26 °C), blomstring i høylandet. Første torden.", "en": "Mild (26 °C), wildflowers in the highlands. First thunderstorms."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.5, "nedbor": 94, "no": "Varmt, grønt; tordenbyger.", "en": "Warm, green; thunderstorms."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 27.8, "nedbor": 106, "no": "Varmt og vått. Sørafrikansk sommerferie.", "en": "Warm and wet. South African summer holidays."}
+  ],
+  "vinduer": []
+}

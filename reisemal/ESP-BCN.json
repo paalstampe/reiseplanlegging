@@ -1,0 +1,34 @@
+{
+  "id": "ESP-BCN",
+  "region": "Europa",
+  "land": "Spania",
+  "sted": "Barcelona og Catalonia",
+  "kortnavn": "Catalonia",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / strand",
+  "merknad": "Inkluderer Andorra",
+  "koord": [41.39, 2.17],
+  "kilde": "Barcelona lufthavn, AEMET 1991–2020, via Wikipedia. Andorra og Pyreneene langt kaldere, med snø om vinteren",
+  "en": {"land": "Spain", "sted": "Barcelona and Catalonia", "kortnavn": "Catalonia", "kategori": "City / culture / beach", "merknad": "Includes Andorra", "kilde": "Barcelona Airport, AEMET 1991–2020, via Wikipedia. Andorra and the Pyrenees much colder, with snow in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.0, "nedbor": 41, "no": "Mildt (14 °C), sol. Rolig; ski i Andorra.", "en": "Mild (14 °C), sunny. Quiet; skiing in Andorra."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 14.5, "nedbor": 30, "no": "Mildt (15 °C). Lite folk; skisesong i Andorra.", "en": "Mild (15 °C). Few people; ski season in Andorra."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 16.4, "nedbor": 42, "no": "Mildt (16 °C), vår.", "en": "Mild (16 °C), spring."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 18.5, "nedbor": 47, "no": "Behagelig (19 °C). Sant Jordi 23. april (se Vinduer).", "en": "Pleasant (19 °C). Sant Jordi on 23 April (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.7, "nedbor": 42, "no": "Ideelt (22 °C), kaldt badevann. Beste måned.", "en": "Ideal (22 °C), cool sea. Best month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.5, "nedbor": 26, "no": "Varmt (26 °C), bading. Sant Joan-natta (se Vinduer).", "en": "Warm (26 °C), swimming. Sant Joan night (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 28.3, "nedbor": 27, "no": "Varmt og fuktig (28 °C). Fullt overalt.", "en": "Hot and humid (28 °C). Full everywhere."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 1, "tmaks": 28.9, "nedbor": 51, "no": "Varmt og fuktig (29 °C). Fullt; Festa de Gràcia (se Vinduer).", "en": "Hot and humid (29 °C). Full; Festa de Gràcia (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.0, "nedbor": 86, "no": "Varmt (26 °C), varmt hav, noen kraftige byger. La Mercè (se Vinduer).", "en": "Warm (26 °C), warm sea, some heavy showers. La Mercè (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.3, "nedbor": 82, "no": "Mildt (22 °C), noen kraftige regnbyger. Færre turister.", "en": "Mild (22 °C), some heavy downpours. Fewer tourists."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 17.6, "nedbor": 46, "no": "Mildt (18 °C). Rolig.", "en": "Mild (18 °C). Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.5, "nedbor": 37, "no": "Mildt (15 °C), julemarkeder; skisesongen starter i Andorra.", "en": "Mild (15 °C), Christmas markets; ski season starts in Andorra."}
+  ],
+  "vinduer": [
+    {"fra_uke": 17, "til_uke": 17, "type": "Hendelse", "justering": 0.3, "no": "Sant Jordi 23.4: bøker og roser i gatene", "en": "Sant Jordi, 23 Apr: books and roses in the streets"},
+    {"fra_uke": 26, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Sant Joan 23.6: bål og fyrverkeri på strendene", "en": "Sant Joan, 23 Jun: bonfires and fireworks on the beaches"},
+    {"fra_uke": 33, "til_uke": 34, "type": "Hendelse", "justering": 0.3, "no": "Festa de Gràcia: pyntede gater (midten av august)", "en": "Festa de Gràcia: decorated streets (mid-August)"},
+    {"fra_uke": 39, "til_uke": 39, "type": "Hendelse", "justering": 0.5, "no": "La Mercè rundt 24.9: menneskepyramider, ildløp og konserter", "en": "La Mercè around 24 Sep: human towers, fire runs and concerts"}
+  ]
+}

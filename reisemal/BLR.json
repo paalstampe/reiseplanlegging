@@ -1,0 +1,30 @@
+{
+  "id": "BLR",
+  "region": "Europa",
+  "land": "Belarus",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [53.9, 27.57],
+  "kilde": "Minsk, Pogoda.ru.net 1991–2020, via Wikipedia",
+  "en": {"land": "Belarus", "kategori": "City / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Minsk, Pogoda.ru.net 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -2.0, "nedbor": 47, "no": "Kaldt (−2 °C), snø og kort dag.", "en": "Cold (−2 °C), snow and short days."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -0.8, "nedbor": 40, "no": "Kaldt (−1 °C), snø.", "en": "Cold (−1 °C), snow."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.5, "nedbor": 41, "no": "Kjølig (5 °C), snøsmelting.", "en": "Cool (5 °C), thaw."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 12.8, "nedbor": 43, "no": "Mildt (13 °C), våren kommer.", "en": "Mild (13 °C), spring arrives."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 18.9, "nedbor": 66, "no": "Fint (19 °C), grønt i parkene.", "en": "Pleasant (19 °C), green parks."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 22.4, "nedbor": 79, "no": "Ideelt (22 °C), lange dager.", "en": "Ideal (22 °C), long days."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 24.3, "nedbor": 97, "no": "Varmt (24 °C), byger. Kupalle (se Vinduer).", "en": "Warm (24 °C), showers. Kupalle (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 23.6, "nedbor": 71, "no": "Varmt (24 °C). Fint for Mir, Nesvizj og Belovezjskaja Pusjtsja.", "en": "Warm (24 °C). Good for Mir, Nesvizh and Belovezhskaya Pushcha."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 17.5, "nedbor": 51, "no": "Mildt (18 °C), høstfarger.", "en": "Mild (18 °C), autumn colours."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 10.3, "nedbor": 55, "no": "Kjølig (10 °C), grått.", "en": "Cool (10 °C), grey."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 3.6, "nedbor": 49, "no": "Kaldt (4 °C), mørkt.", "en": "Cold (4 °C), dark."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -0.6, "nedbor": 47, "no": "Kaldt (−1 °C), snø. Julemarked i Minsk.", "en": "Cold (−1 °C), snow. Christmas market in Minsk."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 27, "type": "Hendelse", "justering": 0.3, "no": "Kupalle (natt til 7.7): midtsommerfest med bål og blomsterkranser", "en": "Kupalle (night of 6–7 Jul): midsummer festival with bonfires and flower wreaths"}
+  ]
+}

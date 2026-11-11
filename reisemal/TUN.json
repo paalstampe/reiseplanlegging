@@ -1,0 +1,30 @@
+{
+  "id": "TUN",
+  "region": "Afrika",
+  "land": "Tunisia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [35.5, 10.0],
+  "kilde": "Tunis-Kartago lufthavn, INM 1991–2020, via Wikipedia. Sahara (Tozeur, Douz) varmere og tørrere",
+  "en": {"land": "Tunisia", "kategori": "Beach / culture", "kilde": "Tunis–Carthage Airport, INM 1991–2020, via Wikipedia. The Sahara (Tozeur, Douz) hotter and drier"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 16.4, "nedbor": 59, "no": "Kjølig (16 °C) og regn i nord. Sahara mildt om dagen.", "en": "Cool (16 °C) and rain in the north. Sahara mild by day."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 16.8, "nedbor": 55, "no": "Kjølig (17 °C). Bra i Sahara, rolig.", "en": "Cool (17 °C). Good in the Sahara, quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 19.4, "nedbor": 46, "no": "Mildt (19 °C). Fint for ruinene og Sahara.", "en": "Mild (19 °C). Good for ruins and the Sahara."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.3, "nedbor": 38, "no": "Behagelig (22 °C). Kartago, El Jem og ørkenen.", "en": "Pleasant (22 °C). Carthage, El Jem and the desert."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.5, "nedbor": 22, "no": "Varmt (27 °C), tørt. Ideelt for kultur; badesesong starter.", "en": "Warm (27 °C), dry. Ideal for culture; beach season begins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 31.0, "nedbor": 13, "no": "Varmt (31 °C). God strandtid.", "en": "Hot (31 °C). Good beach time."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 34.0, "nedbor": 4, "no": "Varmt (34 °C); Sahara for varmt. Strandhøysesong.", "en": "Hot (34 °C); Sahara too hot. Peak beach season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 1, "tmaks": 34.5, "nedbor": 15, "no": "Varmest (35 °C). Fullt på strendene.", "en": "Hottest (35 °C). Beaches full."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 30.5, "nedbor": 58, "no": "Varmt (31 °C), varmt hav, færre folk.", "en": "Warm (31 °C), warm sea, fewer people."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.7, "nedbor": 55, "no": "Behagelig (27 °C); fint både for strand og ørken.", "en": "Pleasant (27 °C); good for both beach and desert."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 21.5, "nedbor": 53, "no": "Mildt (22 °C), regn i nord. Fint i Sahara.", "en": "Mild (22 °C), rain in the north. Good in the Sahara."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 17.6, "nedbor": 68, "no": "Kjølig (18 °C), regn. Saharafestivalen i Douz (se Vinduer).", "en": "Cool (18 °C), rain. Sahara Festival in Douz (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 52, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Saharafestivalen i Douz: kameler, ryttere og musikk (slutten av desember, sjekk dato)", "en": "Sahara Festival in Douz: camels, horsemen and music (late December, check date)"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "AUS-QLD",
+  "region": "Oseania",
+  "land": "Australia",
+  "sted": "Queensland og Great Barrier Reef",
+  "kortnavn": "Great Barrier Reef",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / dykking",
+  "merknad": "",
+  "koord": [-16.92, 145.77],
+  "kilde": "Cairns, Bureau of Meteorology 1991–2020, via Wikipedia. Whitsundays og Brisbane tørrere og litt kjøligere",
+  "en": {"land": "Australia", "sted": "Queensland and the Great Barrier Reef", "kortnavn": "Great Barrier Reef", "kategori": "Beach / diving", "kilde": "Cairns, Bureau of Meteorology 1991–2020, via Wikipedia. The Whitsundays and Brisbane drier and slightly cooler"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 31.7, "nedbor": 389, "no": "Regntid, varmt og fuktig, syklonfare. Maneter, skoleferie.", "en": "Wet season, hot and humid, cyclone risk. Stingers, school holidays."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 31.5, "nedbor": 476, "no": "Mest regn, syklonfare, dårlig sikt på revet.", "en": "Wettest month, cyclone risk, poor reef visibility."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.9, "nedbor": 367, "no": "Fortsatt regntid og maneter.", "en": "Still wet season and stingers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.6, "nedbor": 178, "no": "Regnet avtar, grønt. Påskeferie.", "en": "Rain easing, green. Easter holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.0, "nedbor": 81, "no": "Tørrere, behagelig (28 °C). Manetsesongen slutter.", "en": "Drier, pleasant (28 °C). Stinger season ends."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.6, "nedbor": 43, "no": "Tørt, 27 °C. Dvergvågehval på revet (se Vinduer).", "en": "Dry, 27 °C. Dwarf minke whales on the reef (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.2, "nedbor": 36, "no": "Tørt og behagelig. Høysesong, skoleferie.", "en": "Dry and pleasant. High season, school holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.0, "nedbor": 27, "no": "Tørt, klart. Høysesong.", "en": "Dry, clear. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.7, "nedbor": 28, "no": "Tørt, rolig sjø, god sikt på revet.", "en": "Dry, calm seas, good reef visibility."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.9, "nedbor": 63, "no": "Varmere, fortsatt god sikt.", "en": "Warmer, still good visibility."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.1, "nedbor": 85, "no": "Varmt og fuktig, maneter. Korallgyting (se Vinduer).", "en": "Hot and humid, stingers. Coral spawning (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 31.8, "nedbor": 186, "no": "Regntiden starter, syklonfare. Skoleferie.", "en": "Wet season begins, cyclone risk. School holidays."}
+  ],
+  "vinduer": [
+    {"fra_uke": 24, "til_uke": 29, "type": "Dyreliv", "justering": 0.3, "no": "Dvergvågehval på det nordlige revet (juni–juli), snorkling med hvalene", "en": "Dwarf minke whales on the northern reef (Jun–Jul), snorkelling with the whales"},
+    {"fra_uke": 46, "til_uke": 49, "type": "Dyreliv", "justering": 0.3, "no": "Korallgyting noen netter etter fullmåne i nov–des (sjekk dato)", "en": "Coral spawning a few nights after the full moon in Nov–Dec (check dates)"},
+    {"fra_uke": 45, "til_uke": 21, "type": "Annet", "justering": -0.3, "no": "Manetsesong (nov–mai): bad bare i stingersuit eller nett", "en": "Stinger season (Nov–May): swim only in a stinger suit or netted areas"}
+  ]
+}

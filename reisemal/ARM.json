@@ -1,0 +1,32 @@
+{
+  "id": "ARM",
+  "region": "Europa",
+  "land": "Armenia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [40.18, 44.51],
+  "kilde": "Jerevan, Pogoda.ru.net 1991–2020, via Wikipedia. Klostrene i fjellet (Dilijan, Tatev) er kjøligere om sommeren og har snø om vinteren",
+  "en": {"land": "Armenia", "kategori": "Culture / nature", "kilde": "Yerevan, Pogoda.ru.net 1991–2020, via Wikipedia. The mountain monasteries (Dilijan, Tatev) are cooler in summer and snowy in winter"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 1.7, "nedbor": 21, "no": "Kaldt (2 °C), snø i fjellet. Ski i Tsaghkadzor.", "en": "Cold (2 °C), snow in the mountains. Skiing in Tsaghkadzor."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.3, "nedbor": 21, "no": "Kaldt (6 °C). Fjellveier kan være stengt.", "en": "Cold (6 °C). Mountain roads may be closed."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 13.7, "nedbor": 60, "no": "Mildt (14 °C), regn. Våren kommer.", "en": "Mild (14 °C), rain. Spring arrives."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.8, "nedbor": 56, "no": "Vår (20 °C), aprikosblomstring, klar sikt mot Ararat.", "en": "Spring (20 °C), apricot blossom, clear views of Ararat."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.1, "nedbor": 47, "no": "Ideelt (25 °C), grønt. Fint for klostre og fjell.", "en": "Ideal (25 °C), green. Good for monasteries and mountains."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 30.9, "nedbor": 24, "no": "Varmt i Jerevan (31 °C), fint i fjellet.", "en": "Hot in Yerevan (31 °C), pleasant in the mountains."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 34.5, "nedbor": 17, "no": "Hett i Jerevan (35 °C). Aprikoser og Vardavar (se Vinduer).", "en": "Hot in Yerevan (35 °C). Apricots and Vardavar (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 34.4, "nedbor": 10, "no": "Hett (34 °C) og tørt. Hold deg i fjellet.", "en": "Hot (34 °C) and dry. Stay in the mountains."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.2, "nedbor": 10, "no": "Varmt (29 °C), tørt. Vinhøst og frukt.", "en": "Warm (29 °C), dry. Wine harvest and fruit."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.6, "nedbor": 51, "no": "Ideelt (22 °C), høstfarger i Dilijan.", "en": "Ideal (22 °C), autumn colours in Dilijan."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 12.8, "nedbor": 25, "no": "Kjølig (13 °C). Rolig og billig.", "en": "Cool (13 °C). Quiet and cheap."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 4.2, "nedbor": 21, "no": "Kaldt (4 °C), snø i fjellet.", "en": "Cold (4 °C), snow in the mountains."}
+  ],
+  "vinduer": [
+    {"fra": "2026-07-12", "til": "2026-07-12", "type": "Hendelse", "justering": 0.3, "no": "Vardavar: alle kaster vann på hverandre (98 dager etter påske)", "en": "Vardavar: everyone throws water at each other (98 days after Easter)"},
+    {"fra": "2027-07-04", "til": "2027-07-04", "type": "Hendelse", "justering": 0.3, "no": "Vardavar: vannkasting i gatene", "en": "Vardavar: water throwing in the streets"},
+    {"fra": "2028-07-23", "til": "2028-07-23", "type": "Hendelse", "justering": 0.3, "no": "Vardavar: vannkasting i gatene", "en": "Vardavar: water throwing in the streets"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "URY",
+  "region": "Sør-Amerika",
+  "land": "Uruguay",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / strand",
+  "merknad": "",
+  "koord": [-34.9, -56.19],
+  "kilde": "Montevideo (Prado), INUMET 1991–2020, via Wikipedia. Punta del Este og Rocha-kysten litt kjøligere om sommeren",
+  "en": {"land": "Uruguay", "kategori": "City / culture / beach", "kilde": "Montevideo (Prado), INUMET 1991–2020, via Wikipedia. Punta del Este and the Rocha coast slightly cooler in summer"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 27.8, "nedbor": 95, "no": "Sommer (28 °C), strandsesong. Punta del Este fullt og dyrt.", "en": "Summer (28 °C), beach season. Punta del Este full and expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.0, "nedbor": 94, "no": "Sommer. Karneval og Llamadas i Montevideo (se Vinduer).", "en": "Summer. Carnival and Llamadas in Montevideo (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 25.3, "nedbor": 106, "no": "Mildt (25 °C), færre folk. Vinhøst. Semana de Turismo.", "en": "Mild (25 °C), fewer people. Grape harvest. Semana de Turismo."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.0, "nedbor": 111, "no": "Høst (22 °C), behagelig i byene.", "en": "Autumn (22 °C), pleasant in the cities."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 18.5, "nedbor": 83, "no": "Kjølig (19 °C). Badebyene stenger.", "en": "Cool (19 °C). Beach towns close."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 15.6, "nedbor": 89, "no": "Vinter (16 °C), fuktig og grått. Kysten stengt.", "en": "Winter (16 °C), damp and grey. Coast closed."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 4, "tmaks": 14.7, "nedbor": 93, "no": "Kaldest (15 °C). Vinterferie.", "en": "Coldest (15 °C). Winter holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 16.7, "nedbor": 90, "no": "Kaldt. Sørkaper ankommer kysten (se Vinduer).", "en": "Cold. Southern right whales arrive on the coast (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 17.9, "nedbor": 92, "no": "Vår (18 °C). Hval ved Punta del Este og Rocha.", "en": "Spring (18 °C). Whales off Punta del Este and Rocha."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.7, "nedbor": 102, "no": "Mildt (21 °C). Hvaltopp, rolig.", "en": "Mild (21 °C). Whale peak, quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 23.7, "nedbor": 96, "no": "Varmt (24 °C). Fint før sesongen.", "en": "Warm (24 °C). Good before the season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 2, "tmaks": 26.4, "nedbor": 91, "no": "Sommer (26 °C). Høysesong fra jul.", "en": "Summer (26 °C). High season from Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 4, "til_uke": 9, "type": "Hendelse", "justering": 0.3, "no": "Karneval i Montevideo (verdens lengste): Llamadas-paraden med candombe tidlig i feb, sjekk dato", "en": "Montevideo Carnival (the world's longest): Llamadas parade with candombe in early Feb, check date"},
+    {"fra_uke": 27, "til_uke": 46, "type": "Dyreliv", "justering": 0.3, "no": "Sørkaper ved kysten (jul–nov, topp sep–okt)", "en": "Southern right whales along the coast (Jul–Nov, peak Sep–Oct)"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "DJI",
+  "region": "Afrika",
+  "land": "Djibouti",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [11.6, 43.0],
+  "kilde": "Djibouti by, Hong Kong Observatory 1991–2020, via Wikipedia. Lac Assal og Lac Abbé varmere",
+  "en": {"land": "Djibouti", "kategori": "Nature / wildlife", "kilde": "Djibouti City, Hong Kong Observatory 1991–2020, via Wikipedia. Lake Assal and Lake Abbé hotter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 29.2, "nedbor": 14, "no": "Behagelig (29 °C). Hvalhaier i Tadjourabukta (se Vinduer).", "en": "Pleasant (29 °C). Whale sharks in the Gulf of Tadjoura (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 29.4, "nedbor": 12, "no": "Behagelig; hvalhaisesongen ebber ut.", "en": "Pleasant; whale shark season tailing off."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.7, "nedbor": 14, "no": "Varmere (31 °C).", "en": "Warmer (31 °C)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 5, "tmaks": 32.5, "nedbor": 29, "no": "Varmt (33 °C).", "en": "Hot (33 °C)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 35.3, "nedbor": 16, "no": "Hett (35 °C) og fuktig.", "en": "Very hot (35 °C) and humid."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 39.5, "nedbor": 2, "no": "Ekstrem hete (40 °C).", "en": "Extreme heat (40 °C)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 42.1, "nedbor": 6, "no": "Ekstrem hete (42 °C), støvstormer (khamsin).", "en": "Extreme heat (42 °C), dust storms (khamsin)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 41.5, "nedbor": 6, "no": "Ekstrem hete.", "en": "Extreme heat."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 38.0, "nedbor": 10, "no": "Fortsatt hett (38 °C).", "en": "Still very hot (38 °C)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.7, "nedbor": 11, "no": "Varmt (34 °C), avtar.", "en": "Hot (34 °C), easing."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 31.2, "nedbor": 22, "no": "Behagelig (31 °C). Hvalhaiene kommer (se Vinduer).", "en": "Pleasant (31 °C). The whale sharks arrive (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 29.7, "nedbor": 15, "no": "Behagelig (30 °C). Toppsesong for hvalhaier.", "en": "Pleasant (30 °C). Peak whale shark season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 45, "til_uke": 6, "type": "Dyreliv", "justering": 0.5, "no": "Hvalhaier i Tadjourabukta (Arta), best desember–januar", "en": "Whale sharks in the Gulf of Tadjoura (Arta), best December–January"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "GNQ",
+  "region": "Afrika",
+  "land": "Ekvatorial-Guinea",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [3.75, 8.78],
+  "kilde": "Malabo (Bioko), Deutscher Wetterdienst (periode ukjent), via Wikipedia. Bata på fastlandet har tørrtid jul–aug",
+  "en": {"land": "Equatorial Guinea", "sted": "", "kategori": "Nature / wildlife", "kilde": "Malabo (Bioko), Deutscher Wetterdienst (period unknown), via Wikipedia. Bata on the mainland is dry Jul–Aug"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 31.1, "nedbor": 29, "no": "Tørrest (31 °C). Havskilpadder hekker ved Ureca på Bioko.", "en": "Driest (31 °C). Sea turtles nest at Ureca on Bioko."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.8, "nedbor": 71, "no": "Tørt, varmt. Siste del av skilpaddesesongen.", "en": "Dry, hot. End of the turtle season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 103, "no": "Regnet øker, fuktig.", "en": "Rain increases, humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 156, "no": "Regntid starter for alvor.", "en": "Rainy season sets in."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.5, "nedbor": 227, "no": "Regntid, gjørmete veier sør på Bioko.", "en": "Rainy season, muddy roads in southern Bioko."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 29.5, "nedbor": 261, "no": "Mye regn og skyer.", "en": "Heavy rain and cloud."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 28.4, "nedbor": 202, "no": "Regntid, overskyet.", "en": "Rainy season, overcast."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 28.0, "nedbor": 177, "no": "Regntid, kjøligst (28 °C).", "en": "Rainy season, coolest (28 °C)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 28.1, "nedbor": 250, "no": "Mye regn.", "en": "Heavy rain."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 28.8, "nedbor": 254, "no": "Mye regn.", "en": "Heavy rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 29.8, "nedbor": 100, "no": "Regnet avtar. Skilpaddesesongen starter.", "en": "Rain eases. Turtle season begins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 30.8, "nedbor": 40, "no": "Tørrtid, skilpaddesesongen på topp ved Ureca.", "en": "Dry season, turtle season peaks at Ureca."}
+  ],
+  "vinduer": []
+}

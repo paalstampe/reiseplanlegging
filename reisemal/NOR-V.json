@@ -1,0 +1,32 @@
+{
+  "id": "NOR-V",
+  "region": "Europa",
+  "land": "Norge",
+  "sted": "Vestlandet og fjordene",
+  "kortnavn": "Vestlandet",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / fjell",
+  "merknad": "",
+  "koord": [60.6, 6.4],
+  "kilde": "Bergen (Florida, 12 moh), Meteorologisk institutt 1991–2020, via Wikipedia. Indre fjordstrøk (Sogn, Hardanger) tørrere og varmere om sommeren",
+  "en": {"land": "Norway", "sted": "Western Norway and the fjords", "kortnavn": "Western Norway", "kategori": "Nature / mountains", "kilde": "Bergen (Florida, 12 m), Norwegian Meteorological Institute 1991–2020, via Wikipedia. The inner fjords (Sogn, Hardanger) are drier and warmer in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.7, "nedbor": 256, "no": "Mørkt og vått (5 °C, 256 mm). Fjellovergangene stengt.", "en": "Dark and wet (5 °C, 256 mm). Mountain passes closed."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.9, "nedbor": 210, "no": "Vått og kaldt. Skisesong på fjellet.", "en": "Wet and cold. Ski season in the mountains."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 6.9, "nedbor": 202, "no": "Kjølig (7 °C), lengre dager. Snø i fjellet.", "en": "Cool (7 °C), longer days. Snow in the mountains."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 11.1, "nedbor": 141, "no": "Kjølig (11 °C), tørrere. Fossene vokser med snøsmeltingen.", "en": "Cool (11 °C), drier. Waterfalls swell with the snowmelt."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 15.0, "nedbor": 109, "no": "Tørrest (109 mm), 15 °C. Fruktblomstring og fulle fosser (se Vinduer).", "en": "Driest (109 mm), 15 °C. Fruit blossom and full waterfalls (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 17.7, "nedbor": 132, "no": "Lyse netter (18 °C), fjellveiene åpne. Trolltunga åpner midt i juni.", "en": "Light nights (18 °C), mountain roads open. Trolltunga opens mid-June."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 19.6, "nedbor": 158, "no": "Varmest (20 °C). Fellesferie og cruiseskip: fullt og dyrt.", "en": "Warmest (20 °C). Norwegian holidays and cruise ships: full and expensive."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 2, "tmaks": 19.4, "nedbor": 208, "no": "Varmt, men mer regn (208 mm). Fortsatt høysesong.", "en": "Warm, but more rain (208 mm). Still high season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 16.1, "nedbor": 248, "no": "Kjølig (16 °C), vått, høstfarger. Rolig, turer fortsatt mulig.", "en": "Cool (16 °C), wet, autumn colours. Quiet, hikes still possible."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 11.7, "nedbor": 268, "no": "Vått (268 mm), mørkere. Mange tilbud stenger.", "en": "Wet (268 mm), darker. Many attractions close."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.6, "nedbor": 275, "no": "Mørkt og vått. Lavsesong.", "en": "Dark and wet. Low season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 5.3, "nedbor": 290, "no": "Mørkt og vått (290 mm). Julestemning i Bergen.", "en": "Dark and wet (290 mm). Christmas atmosphere in Bergen."}
+  ],
+  "vinduer": [
+    {"fra_uke": 20, "til_uke": 21, "type": "Hendelse", "justering": 0.3, "no": "Fruktblomstring i Hardanger (midten av mai, sjekk dato)", "en": "Fruit blossom in Hardanger (mid-May, check date)"},
+    {"fra_uke": 21, "til_uke": 22, "type": "Hendelse", "justering": 0.3, "no": "Festspillene i Bergen (slutten av mai–start juni, sjekk dato)", "en": "Bergen International Festival (late May–early June, check date)"}
+  ]
+}

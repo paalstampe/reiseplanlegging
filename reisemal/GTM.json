@@ -1,0 +1,31 @@
+{
+  "id": "GTM",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Guatemala",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [14.56, -90.73],
+  "kilde": "Guatemala by (La Aurora, 1 489 moh), NOAA 1991–2020, via Wikipedia. Antigua og Atitlán omtrent like; Tikal (Flores) varmere, opptil 36 °C i april–mai",
+  "en": {"land": "Guatemala", "kategori": "Culture / nature", "kilde": "Guatemala City (La Aurora, 1,489 m), NOAA 1991–2020, via Wikipedia. Antigua and Atitlán similar; Tikal (Flores) hotter, up to 36 °C in Apr–May"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.6, "nedbor": 2, "no": "Tørt og solrikt (25 °C), kalde netter i høylandet. Høysesong.", "en": "Dry and sunny (25 °C), cold nights in the highlands. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.5, "nedbor": 4, "no": "Tørt og solrikt. Fint for vulkanturer (Acatenango).", "en": "Dry and sunny. Good for volcano hikes (Acatenango)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.0, "nedbor": 4, "no": "Tørt og varmt (28 °C). Semana Santa i Antigua kan falle nå.", "en": "Dry and warm (28 °C). Semana Santa in Antigua may fall now."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 28.4, "nedbor": 30, "no": "Varmest (28 °C), disig. Semana Santa: prosesjoner i Antigua.", "en": "Warmest (28 °C), hazy. Semana Santa: processions in Antigua."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 27.2, "nedbor": 154, "no": "Regntiden starter, ettermiddagsbyger.", "en": "Rainy season begins, afternoon showers."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 25.1, "nedbor": 279, "no": "Regntid (280 mm): daglige byger, gjørmete stier.", "en": "Rainy season (280 mm): daily showers, muddy trails."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 25.4, "nedbor": 208, "no": "Byger, kort tørrere periode (canícula). Noe sommerferiefolk.", "en": "Showers, short drier spell (canícula). Some summer holiday crowds."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 25.5, "nedbor": 225, "no": "Ettermiddagsbyger, fine formiddager.", "en": "Afternoon showers, fine mornings."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 24.8, "nedbor": 242, "no": "Regnfullt (240 mm), fare for ras. Nasjonaldag 15.9.", "en": "Rainy (240 mm), risk of landslides. National day 15 Sep."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 24.4, "nedbor": 171, "no": "Fortsatt regntid (170 mm), avtar mot slutten.", "en": "Still rainy (170 mm), easing towards the end."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 24.1, "nedbor": 30, "no": "Tørrsesongen starter, grønt. Kjempedrager 1.11 (se Vinduer).", "en": "Dry season begins, green. Giant kites on 1 Nov (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 2, "tmaks": 24.3, "nedbor": 5, "no": "Tørt og klart. Jul og nyttår: fullt i Antigua.", "en": "Dry and clear. Christmas and New Year: Antigua full."}
+  ],
+  "vinduer": [
+    {"fra_uke": 44, "til_uke": 44, "type": "Hendelse", "justering": 0.5, "no": "Barriletes Gigantes 1.11: kjempedrager på kirkegårdene i Sumpango og Santiago Sacatepéquez", "en": "Barriletes Gigantes, 1 Nov: giant kites in the cemeteries of Sumpango and Santiago Sacatepéquez"},
+    {"fra_uke": 50, "til_uke": 51, "type": "Hendelse", "justering": 0.3, "no": "Santo Tomás-festen i Chichicastenango (13.–21.12): danser, prosesjoner, marked", "en": "Santo Tomás festival in Chichicastenango (13–21 Dec): dances, processions, market"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "DMA",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Dominica",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [15.41, -61.37],
+  "kilde": "Roseau (Canefield Airport), Dominica Meteorological Services 1982–2011, via Wikipedia. Innlandet og regnskogen langt våtere",
+  "en": {"land": "Dominica", "kategori": "Nature / wildlife", "kilde": "Roseau (Canefield Airport), Dominica Meteorological Services 1982–2011, via Wikipedia. The interior and rainforest much wetter"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.5, "nedbor": 108, "no": "Byger av og til. Spermhval (se Vinduer). Høysesong.", "en": "Occasional showers. Sperm whales (see events). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.5, "nedbor": 62, "no": "Tørrere; fint for fotturer og hval. Karneval (se Vinduer).", "en": "Drier; good for hiking and whales. Carnival (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.1, "nedbor": 49, "no": "Tørrest; best for Waitukubuli-stien og Boiling Lake.", "en": "Driest; best for the Waitukubuli Trail and Boiling Lake."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.9, "nedbor": 55, "no": "Tørt og fint; hval fortsatt.", "en": "Dry and fine; whales still around."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.8, "nedbor": 92, "no": "Varmt, enkelte byger. Rolig.", "en": "Hot, some showers. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.8, "nedbor": 160, "no": "Regntiden starter; orkansesong.", "en": "Rainy season begins; hurricane season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.5, "nedbor": 251, "no": "Mye regn, glatte stier.", "en": "Lots of rain, slippery trails."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.8, "nedbor": 244, "no": "Mye regn; orkanrisiko.", "en": "Lots of rain; hurricane risk."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.7, "nedbor": 254, "no": "Orkansesongens topp; mye stengt.", "en": "Peak hurricane season; much closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.5, "nedbor": 188, "no": "Orkanrisiko. World Creole Music Festival (se Vinduer).", "en": "Hurricane risk. World Creole Music Festival (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.1, "nedbor": 194, "no": "Regnfullt; hvalsesongen starter.", "en": "Rainy; whale season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.2, "nedbor": 102, "no": "Regnet avtar; hval. Jul fullt.", "en": "Rain eases; whales. Christmas busy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 45, "til_uke": 13, "type": "Dyreliv", "justering": 0.3, "no": "Spermhval utenfor vestkysten, best nov–mar", "en": "Sperm whales off the west coast, best Nov–Mar"},
+    {"fra": "2026-02-16", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Mas Domnik (karneval) i Roseau", "en": "Mas Domnik (carnival) in Roseau"},
+    {"fra": "2027-02-08", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Mas Domnik (karneval) i Roseau", "en": "Mas Domnik (carnival) in Roseau"},
+    {"fra": "2028-02-28", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Mas Domnik (karneval) i Roseau", "en": "Mas Domnik (carnival) in Roseau"},
+    {"fra_uke": 43, "til_uke": 44, "type": "Hendelse", "justering": 0.3, "no": "World Creole Music Festival i Roseau, siste helg i oktober (sjekk dato); Uavhengighetsdagen 3.11", "en": "World Creole Music Festival in Roseau, last weekend of October (check date); Independence Day 3 Nov"}
+  ]
+}

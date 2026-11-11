@@ -1,0 +1,36 @@
+{
+  "id": "GBR",
+  "region": "Europa",
+  "land": "Storbritannia",
+  "sted": "London og England",
+  "kortnavn": "London og England",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [51.51, -0.13],
+  "kilde": "London (Heathrow, 25 moh), Met Office 1991–2020, via Wikipedia. Nord-England litt kjøligere og våtere",
+  "en": {"land": "United Kingdom", "sted": "London and England", "kortnavn": "London and England", "kategori": "City / culture", "kilde": "London (Heathrow, 25 m), Met Office 1991–2020, via Wikipedia. Northern England slightly cooler and wetter"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 8.4, "nedbor": 59, "no": "Kaldt (8 °C) og grått. Museer uten kø, januarsalg.", "en": "Cold (8 °C) and grey. Museums without queues, January sales."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 9.0, "nedbor": 45, "no": "Kjølig (9 °C) og grått. Rolig.", "en": "Cool (9 °C) and grey. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 11.7, "nedbor": 39, "no": "Mildere (12 °C), påskeliljer. Lite folk.", "en": "Milder (12 °C), daffodils. Few people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 15.0, "nedbor": 42, "no": "Vår (15 °C), blomstring i parkene og på landsbygda.", "en": "Spring (15 °C), blossom in the parks and countryside."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 18.4, "nedbor": 46, "no": "Behagelig (18 °C), grønt. Chelsea Flower Show (se Vinduer).", "en": "Pleasant (18 °C), green. Chelsea Flower Show (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.6, "nedbor": 47, "no": "Varmt (22 °C), lange kvelder. Trooping the Colour (se Vinduer).", "en": "Warm (22 °C), long evenings. Trooping the Colour (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 23.9, "nedbor": 46, "no": "Varmest (24 °C). Wimbledon, Proms; skoleferie fra slutten av juli.", "en": "Warmest (24 °C). Wimbledon, the Proms; school holidays from late July."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 1, "tmaks": 23.4, "nedbor": 53, "no": "Varmt (23 °C). Skoleferie, fullt. Notting Hill Carnival (se Vinduer).", "en": "Warm (23 °C). School holidays, busy. Notting Hill Carnival (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 20.2, "nedbor": 50, "no": "Behagelig (20 °C), færre turister. Godt for landsbygda.", "en": "Pleasant (20 °C), fewer tourists. Good for the countryside."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 15.8, "nedbor": 65, "no": "Mildt (16 °C), høstfarger, mer regn.", "en": "Mild (16 °C), autumn colours, more rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 11.5, "nedbor": 67, "no": "Kjølig og vått. Bonfire Night (se Vinduer).", "en": "Cool and wet. Bonfire Night (see events)."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 8.8, "nedbor": 57, "no": "Kaldt (9 °C), men julelys, julemarkeder og teater.", "en": "Cold (9 °C), but Christmas lights, markets and theatre."}
+  ],
+  "vinduer": [
+    {"fra_uke": 21, "til_uke": 21, "type": "Hendelse", "justering": 0.3, "no": "Chelsea Flower Show (slutten av mai)", "en": "Chelsea Flower Show (late May)"},
+    {"fra_uke": 24, "til_uke": 24, "type": "Hendelse", "justering": 0.3, "no": "Trooping the Colour: kongens parade (en lørdag i midten av juni)", "en": "Trooping the Colour: the King's parade (a Saturday in mid-June)"},
+    {"fra": "2026-08-30", "til": "2026-08-31", "type": "Hendelse", "justering": 0.3, "no": "Notting Hill Carnival: Europas største gatekarneval", "en": "Notting Hill Carnival: Europe's largest street carnival"},
+    {"fra": "2027-08-29", "til": "2027-08-30", "type": "Hendelse", "justering": 0.3, "no": "Notting Hill Carnival: Europas største gatekarneval", "en": "Notting Hill Carnival: Europe's largest street carnival"},
+    {"fra": "2028-08-27", "til": "2028-08-28", "type": "Hendelse", "justering": 0.3, "no": "Notting Hill Carnival: Europas største gatekarneval", "en": "Notting Hill Carnival: Europe's largest street carnival"},
+    {"fra_uke": 45, "til_uke": 45, "type": "Hendelse", "justering": 0.3, "no": "Bonfire Night 5.11: bål og fyrverkeri", "en": "Bonfire Night, 5 Nov: bonfires and fireworks"}
+  ]
+}

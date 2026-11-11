@@ -1,0 +1,28 @@
+{
+  "id": "SLE",
+  "region": "Afrika",
+  "land": "Sierra Leone",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [8.48, -13.23],
+  "kilde": "Freetown, NOAA 1961–1990, via Wikipedia (gammel serie)",
+  "en": {"land": "Sierra Leone", "kategori": "Beach / nature", "kilde": "Freetown, NOAA 1961–1990, via Wikipedia (old series)"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.9, "nedbor": 8, "no": "Tørt og varmt (30 °C), harmattan-dis. Fine strender på halvøya.", "en": "Dry and hot (30 °C), harmattan haze. Fine beaches on the peninsula."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 30.3, "nedbor": 6, "no": "Tørt, klarere luft. Godt for Tiwai (sjimpanser, dvergflodhest).", "en": "Dry, clearer air. Good for Tiwai (chimpanzees, pygmy hippo)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 30.9, "nedbor": 28, "no": "Tørt og varmt. Best tid for strender og innlandet.", "en": "Dry and hot. Best time for beaches and the interior."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 31.2, "nedbor": 68, "no": "Varmt (31 °C), fuktig, første byger. Uavhengighetsdag 27.4.", "en": "Hot (31 °C), humid, first showers. Independence Day 27 Apr."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.9, "nedbor": 214, "no": "Regntiden starter, tordenbyger.", "en": "Rainy season begins, thunderstorms."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.1, "nedbor": 522, "no": "Mye regn (520 mm), dårlige veier.", "en": "Heavy rain (520 mm), poor roads."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 28.7, "nedbor": 1190, "no": "Ekstremt regn (1 190 mm), jordskred og flom.", "en": "Extreme rain (1,190 mm), landslides and floods."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 28.4, "nedbor": 1078, "no": "Ekstremt regn (1 080 mm). Frarådes.", "en": "Extreme rain (1,080 mm). Not advised."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 29.0, "nedbor": 800, "no": "Fortsatt mye regn (800 mm).", "en": "Still heavy rain (800 mm)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 29.9, "nedbor": 333, "no": "Regnet avtar, grønt landskap.", "en": "Rain eases, green landscape."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.1, "nedbor": 148, "no": "Overgang til tørketid. Lite folk.", "en": "Transition to dry season. Few visitors."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 29.7, "nedbor": 38, "no": "Tørt og behagelig. Diasporaen hjemme rundt jul.", "en": "Dry and pleasant. The diaspora home for Christmas."}
+  ],
+  "vinduer": []
+}

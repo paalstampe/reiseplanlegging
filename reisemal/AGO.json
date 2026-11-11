@@ -1,0 +1,32 @@
+{
+  "id": "AGO",
+  "region": "Afrika",
+  "land": "Angola",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [-8.84, 13.23],
+  "kilde": "Luanda (Quatro de Fevereiro lufthavn), DWD 2001–2025 (nedbør 1961–1990), via Wikipedia. Innlandet (Malanje, Lubango) har regntid okt–apr",
+  "en": {"land": "Angola", "kategori": "Nature / culture", "kilde": "Luanda (Quatro de Fevereiro Airport), DWD 2001–2025 (precipitation 1961–1990), via Wikipedia. The interior (Malanje, Lubango) has its rainy season Oct–Apr"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.0, "nedbor": 30, "no": "Varmt og fuktig (30 °C); regntid i innlandet.", "en": "Hot and humid (30 °C); rainy season inland."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.6, "nedbor": 36, "no": "Varmt og fuktig. Karneval i Luanda (se Vinduer).", "en": "Hot and humid. Luanda carnival (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.0, "nedbor": 114, "no": "Regn ved kysten; Kalandula-fossene fulle.", "en": "Rain on the coast; Kalandula Falls in full flow."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.6, "nedbor": 136, "no": "Mest regn (136 mm); dårlige veier i innlandet.", "en": "Wettest (136 mm); poor roads inland."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.1, "nedbor": 16, "no": "Regnet slutter, grønt. Tørrsesongen starter.", "en": "Rain ends, green. Dry season begins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.1, "nedbor": 0, "no": "Tørrsesong (cacimbo): grått og kjøligere ved kysten (26 °C).", "en": "Dry season (cacimbo): grey and cooler on the coast (26 °C)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 24.6, "nedbor": 0, "no": "Tørt og kjølig (25 °C). Beste tid for innlandet og Namibe.", "en": "Dry and cool (25 °C). Best time for the interior and Namibe."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 24.6, "nedbor": 1, "no": "Tørt og kjølig. Gode veier, klare dager i innlandet.", "en": "Dry and cool. Good roads, clear days inland."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.0, "nedbor": 2, "no": "Tørt, varmere.", "en": "Dry, warmer."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.7, "nedbor": 7, "no": "Tørt ved kysten; regntiden starter i innlandet.", "en": "Dry on the coast; rainy season begins inland."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 29.0, "nedbor": 32, "no": "Varmt, byger i innlandet.", "en": "Hot, showers inland."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.3, "nedbor": 31, "no": "Varmt og fuktig (29 °C). Jul i Luanda.", "en": "Hot and humid (29 °C). Christmas in Luanda."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-15", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Luanda: parader langs Marginal", "en": "Luanda carnival: parades along the Marginal"},
+    {"fra": "2027-02-07", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Luanda", "en": "Luanda carnival"},
+    {"fra": "2028-02-27", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Karneval i Luanda", "en": "Luanda carnival"}
+  ]
+}

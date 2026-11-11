@@ -1,0 +1,31 @@
+{
+  "id": "BLZ",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Belize",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dykking",
+  "merknad": "",
+  "koord": [17.25, -88.5],
+  "kilde": "Belize City (Philip S. W. Goldson International Airport), National Meteorological Service of Belize 1991–2020, via Wikipedia. Sør (Placencia, Toledo) våtere; innlandet (San Ignacio) varmere",
+  "en": {"land": "Belize", "kategori": "Nature / diving", "kilde": "Belize City (Philip S. W. Goldson International Airport), National Meteorological Service of Belize 1991–2020, via Wikipedia. The south (Placencia, Toledo) wetter; inland (San Ignacio) hotter"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 27.9, "nedbor": 141, "no": "Mildt, nordavind gir enkelte byger. Høysesong.", "en": "Mild, northers bring some showers. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.8, "nedbor": 65, "no": "Tørrsesong starter. Rev, maya-ruiner og jungel. Høysesong.", "en": "Dry season begins. Reef, Maya ruins and jungle. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.8, "nedbor": 41, "no": "Tørt og fint, god sikt på revet. Høysesong.", "en": "Dry and fine, good visibility on the reef. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.2, "nedbor": 58, "no": "Tørrest. Hvalhaier ved Gladden Spit (se Vinduer).", "en": "Driest. Whale sharks at Gladden Spit (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 31.9, "nedbor": 132, "no": "Varmt; hvalhaier. Regnet kommer mot slutten.", "en": "Hot; whale sharks. Rain arrives towards the end."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 236, "no": "Regntid; Lobsterfest på Caye Caulker og i Placencia.", "en": "Rainy season; Lobsterfest on Caye Caulker and in Placencia."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.5, "nedbor": 180, "no": "Byger, varmt. Sommerferie gir noe folk.", "en": "Showers, hot. Summer holidays bring some visitors."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.8, "nedbor": 195, "no": "Byger; orkanrisiko øker.", "en": "Showers; hurricane risk rises."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.8, "nedbor": 230, "no": "Orkansesongens topp; mange steder stengt.", "en": "Peak hurricane season; many places closed."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.6, "nedbor": 306, "no": "Mest regn, orkanrisiko. Mye stengt.", "en": "Wettest, hurricane risk. Much closed."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.2, "nedbor": 236, "no": "Regnet avtar. Garifuna-dagen 19.11 (se Vinduer).", "en": "Rain eases. Garifuna Settlement Day 19 Nov (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 28.3, "nedbor": 151, "no": "Byger av og til; jul og nyttår fullt.", "en": "Occasional showers; Christmas and New Year busy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 14, "til_uke": 24, "type": "Dyreliv", "justering": 0.3, "no": "Hvalhaier ved Gladden Spit (Placencia), rundt fullmåne mars–juni", "en": "Whale sharks at Gladden Spit (Placencia), around the full moon Mar–Jun"},
+    {"fra_uke": 47, "til_uke": 47, "type": "Hendelse", "justering": 0.3, "no": "Garifuna Settlement Day 19.11: trommer og gjenskapt landgang i Dangriga og Hopkins", "en": "Garifuna Settlement Day, 19 Nov: drumming and re-enacted landing in Dangriga and Hopkins"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "RUS-KAM",
+  "region": "Europa",
+  "land": "Russland",
+  "sted": "Kamtsjatka",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [53.02, 158.65],
+  "kilde": "Petropavlovsk-Kamtsjatskij, Pogoda.ru.net 1991–2020, via Wikipedia. Innlandet og vulkanene kaldere",
+  "en": {"land": "Russia", "sted": "Kamchatka", "kategori": "Nature / wildlife", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Petropavlovsk-Kamchatsky, Pogoda.ru.net 1991–2020, via Wikipedia. The interior and volcanoes colder"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -4.0, "nedbor": 110, "no": "Kaldt (−4 °C), mye snø. Lite turisme.", "en": "Cold (−4 °C), heavy snow. Little tourism."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": -3.4, "nedbor": 75, "no": "Kaldt (−3 °C), snørikt. Hundeslede; heliski starter.", "en": "Cold (−3 °C), snowy. Dog sledding; heli-skiing begins."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": -0.3, "nedbor": 103, "no": "Kaldt (0 °C), lange dager. Heliski og hundesledeløpet Beringia.", "en": "Cold (0 °C), long days. Heli-skiing and the Beringia sled race."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 3.6, "nedbor": 88, "no": "Kjølig (4 °C). Heliski og skitur på vulkanene.", "en": "Cool (4 °C). Heli-skiing and ski touring on the volcanoes."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 8.6, "nedbor": 58, "no": "Kjølig (9 °C), snøsmelting; gjørmete veier og stier.", "en": "Cool (9 °C), snowmelt; muddy roads and trails."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 13.7, "nedbor": 57, "no": "Kjølig (14 °C), snø i høyden. Stiene åpner.", "en": "Cool (14 °C), snow up high. Trails open."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 17.0, "nedbor": 66, "no": "Mildest (17 °C). Vulkanvandring; bjørner ved Kurilsjøen (se Vinduer). Høysesong.", "en": "Mildest (17 °C). Volcano hikes; bears at Kurile Lake (see events). High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 17.5, "nedbor": 91, "no": "Mildt (18 °C). Bjørner og laks, helikopter til Geysirdalen. Høysesong.", "en": "Mild (18 °C). Bears and salmon, helicopter to the Valley of Geysers. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 14.7, "nedbor": 105, "no": "Kjølig (15 °C), høstfarger på tundraen; bjørner.", "en": "Cool (15 °C), autumn colours on the tundra; bears."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 8.5, "nedbor": 154, "no": "Kaldt og vått, første snø. Sesongen slutter.", "en": "Cold and wet, first snow. Season ends."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 1.8, "nedbor": 156, "no": "Stormer og mye nedbør. Lite å gjøre.", "en": "Storms and heavy precipitation. Little to do."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -2.6, "nedbor": 115, "no": "Kaldt (−3 °C), mye snø. Lite turisme.", "en": "Cold (−3 °C), heavy snow. Little tourism."}
+  ],
+  "vinduer": [
+    {"fra_uke": 28, "til_uke": 38, "type": "Dyreliv", "justering": 0.5, "no": "Brunbjørn fisker laks ved Kurilsjøen (juli–september)", "en": "Brown bears fishing salmon at Kurile Lake (July–September)"}
+  ]
+}

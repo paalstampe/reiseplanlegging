@@ -1,0 +1,28 @@
+{
+  "id": "IDN-RAJ",
+  "region": "Asia",
+  "land": "Indonesia",
+  "sted": "Raja Ampat",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dykking",
+  "merknad": "",
+  "koord": [-0.43, 130.65],
+  "kilde": "Waisai, Climate-Data.org (modellerte data, periode ikke oppgitt), via Wikipedia. Sorong har samme mønster: regn hele året, mest mai–aug",
+  "en": {"land": "Indonesia", "sted": "Raja Ampat", "kategori": "Nature / diving", "kilde": "Waisai, Climate-Data.org (modelled data, period not stated), via Wikipedia. Sorong has the same pattern: rain all year, most May–Aug"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.3, "nedbor": 177, "no": "Rolig sjø, mantaer. Høysesong for liveaboard.", "en": "Calm seas, mantas. High season for liveaboards."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.1, "nedbor": 187, "no": "Rolig sjø, godt dykkevær. Byger.", "en": "Calm seas, good diving. Showers."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.1, "nedbor": 190, "no": "Rolig sjø, god sikt. Høysesong.", "en": "Calm seas, good visibility. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.3, "nedbor": 223, "no": "Fortsatt bra; mer regn mot slutten.", "en": "Still good; more rain towards the end."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.1, "nedbor": 309, "no": "Mer regn, vinden øker.", "en": "More rain, wind picks up."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 28.5, "nedbor": 326, "no": "Sørøstmonsun: grov sjø og mest regn. Mange liveaboards drar.", "en": "Southeast monsoon: rough seas, most rain. Many liveaboards leave."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 27.9, "nedbor": 287, "no": "Vind og grov sjø; få båter i drift.", "en": "Wind and rough seas; few boats operating."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 28.1, "nedbor": 245, "no": "Vindfullt, grov sjø i sør. Rolig.", "en": "Windy, rough seas in the south. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 28.6, "nedbor": 200, "no": "Vinden avtar, båtene kommer tilbake.", "en": "Wind easing, boats return."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.5, "nedbor": 164, "no": "Rolig sjø, mindre regn. Sesongen starter.", "en": "Calm seas, less rain. The season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.8, "nedbor": 162, "no": "Rolig sjø, minst regn, god sikt. Topp dykking.", "en": "Calm seas, least rain, good visibility. Top diving."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 29.5, "nedbor": 170, "no": "Rolig sjø, mantaer. Jul og nyttår fullt.", "en": "Calm seas, mantas. Christmas and New Year full."}
+  ],
+  "vinduer": []
+}

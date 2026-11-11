@@ -1,0 +1,36 @@
+{
+  "id": "SEN",
+  "region": "Afrika",
+  "land": "Senegal",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [14.69, -17.44],
+  "kilde": "Dakar, NOAA 1991–2020, via Wikipedia. Sine-Saloum og Casamance varmere og våtere i regntiden (jul–okt)",
+  "en": {"land": "Senegal", "kategori": "Culture / nature", "kilde": "Dakar, NOAA 1991–2020, via Wikipedia. Sine-Saloum and Casamance hotter and wetter in the rainy season (Jul–Oct)"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.9, "nedbor": 1, "no": "Tørt og mildt i Dakar (26 °C). Fuglesesong i Djoudj. Høysesong.", "en": "Dry and mild in Dakar (26 °C). Bird season in Djoudj. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.2, "nedbor": 0, "no": "Tørt, behagelig. Fugler i Djoudj og Sine-Saloum.", "en": "Dry, pleasant. Birds in Djoudj and Sine-Saloum."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 25.2, "nedbor": 0, "no": "Tørt, vindfullt ved kysten. Varmere inne i landet.", "en": "Dry, windy on the coast. Hotter inland."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 25.0, "nedbor": 0, "no": "Tørt, 25 °C i Dakar; hett inne i landet.", "en": "Dry, 25 °C in Dakar; hot inland."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.2, "nedbor": 0, "no": "Tørt. Saint-Louis Jazz (se Vinduer).", "en": "Dry. Saint-Louis Jazz (see events)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 28.7, "nedbor": 7, "no": "Varmere og fuktigere. Tabaski (se Vinduer).", "en": "Warmer and more humid. Tabaski (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 30.1, "nedbor": 53, "no": "Regntiden starter, fuktig (30 °C).", "en": "Rainy season begins, humid (30 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.5, "nedbor": 166, "no": "Mest regn, tungt og fuktig. Magal i Touba (se Vinduer).", "en": "Wettest, heavy and humid. Magal in Touba (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.9, "nedbor": 138, "no": "Regntid, varmt og fuktig. Gjørmete veier i Casamance.", "en": "Rainy season, hot and humid. Muddy roads in Casamance."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 26, "no": "Regnet slutter, fortsatt varmt (31 °C).", "en": "Rain ends, still hot (31 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.1, "nedbor": 0, "no": "Tørt og varmt (30 °C), grønt landskap.", "en": "Dry and warm (30 °C), green landscape."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.9, "nedbor": 0, "no": "Tørt og behagelig (28 °C). Høysesong rundt jul.", "en": "Dry and pleasant (28 °C). High season around Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 21, "til_uke": 22, "type": "Hendelse", "justering": 0.3, "no": "Saint-Louis Jazz Festival (slutten av mai/juni) – sjekk dato", "en": "Saint-Louis Jazz Festival (late May/June) – check dates"},
+    {"fra": "2026-05-26", "til": "2026-05-28", "type": "Hendelse", "justering": -0.3, "no": "Tabaski: alle reiser hjem, fulle busser og stengte butikker – sjekk dato", "en": "Tabaski: everyone travels home, full buses and closed shops – check date"},
+    {"fra": "2027-05-15", "til": "2027-05-17", "type": "Hendelse", "justering": -0.3, "no": "Tabaski: fulle busser og stengte butikker – sjekk dato", "en": "Tabaski: full buses and closed shops – check date"},
+    {"fra": "2028-05-04", "til": "2028-05-06", "type": "Hendelse", "justering": -0.3, "no": "Tabaski: fulle busser og stengte butikker – sjekk dato", "en": "Tabaski: full buses and closed shops – check date"},
+    {"fra": "2026-08-01", "til": "2026-08-03", "type": "Hendelse", "justering": -0.3, "no": "Grand Magal i Touba: millioner pilegrimer, veiene fulle – sjekk dato", "en": "Grand Magal in Touba: millions of pilgrims, roads packed – check date"},
+    {"fra": "2027-07-22", "til": "2027-07-24", "type": "Hendelse", "justering": -0.3, "no": "Grand Magal i Touba: veiene fulle – sjekk dato", "en": "Grand Magal in Touba: roads packed – check date"},
+    {"fra": "2028-07-10", "til": "2028-07-12", "type": "Hendelse", "justering": -0.3, "no": "Grand Magal i Touba: veiene fulle – sjekk dato", "en": "Grand Magal in Touba: roads packed – check date"}
+  ]
+}

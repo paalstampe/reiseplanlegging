@@ -1,0 +1,35 @@
+{
+  "id": "MEX-OAX",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Mexico",
+  "sted": "Oaxaca og Chiapas",
+  "kortnavn": "Oaxaca og Chiapas",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [16.9, -94.5],
+  "kilde": "Oaxaca, SMN 1991–2020, via Wikipedia. San Cristóbal (2 200 moh) kjøligere, 21–24 °C; Palenque varmere og våtere",
+  "en": {"land": "Mexico", "kortnavn": "Oaxaca and Chiapas", "sted": "Oaxaca and Chiapas", "kategori": "Culture / nature", "kilde": "Oaxaca, SMN 1991–2020, via Wikipedia. San Cristóbal (2,200 m) cooler, 21–24 °C; Palenque hotter and wetter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 28.9, "nedbor": 2, "no": "Tørt og solrikt (29 °C); kalde netter i San Cristóbal.", "en": "Dry and sunny (29 °C); cold nights in San Cristóbal."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 31.1, "nedbor": 5, "no": "Tørt og varmt (31 °C).", "en": "Dry and warm (31 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 33.3, "nedbor": 18, "no": "Varmt (33 °C), tørt. Semana Santa kan falle nå.", "en": "Hot (33 °C), dry. Semana Santa may fall now."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 34.9, "nedbor": 47, "no": "Varmest (35 °C) i Oaxaca, disig. Semana Santa.", "en": "Hottest (35 °C) in Oaxaca, hazy. Semana Santa."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.8, "nedbor": 98, "no": "Varmt, regnet starter.", "en": "Hot, rain begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.9, "nedbor": 188, "no": "Regntid: ettermiddagsbyger, grønt.", "en": "Rainy season: afternoon showers, green."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 2, "tmaks": 30.1, "nedbor": 119, "no": "Byger. Guelaguetza i Oaxaca (se Vinduer).", "en": "Showers. Guelaguetza in Oaxaca (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.0, "nedbor": 132, "no": "Ettermiddagsbyger.", "en": "Afternoon showers."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 29.1, "nedbor": 164, "no": "Mest regn; ras kan stenge veier i Chiapas.", "en": "Wettest; landslides can close roads in Chiapas."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.3, "nedbor": 63, "no": "Regnet avtar, grønt. Oppkjøring til Día de Muertos.", "en": "Rain eases, green. Build-up to Día de Muertos."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.0, "nedbor": 9, "no": "Tørt. Día de Muertos i Oaxaca (se Vinduer).", "en": "Dry. Día de Muertos in Oaxaca (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 28.9, "nedbor": 9, "no": "Tørt og solrikt. Rábanos-natten 23.12.", "en": "Dry and sunny. Night of the Radishes, 23 Dec."}
+  ],
+  "vinduer": [
+    {"fra": "2026-07-20", "til": "2026-07-27", "type": "Hendelse", "justering": 0.5, "no": "Guelaguetza i Oaxaca: dans fra hele delstaten de to siste mandagene i juli, fullt (sjekk dato)", "en": "Guelaguetza in Oaxaca: dances from across the state on the last two Mondays of July, full (check dates)"},
+    {"fra": "2027-07-19", "til": "2027-07-26", "type": "Hendelse", "justering": 0.5, "no": "Guelaguetza i Oaxaca: dans fra hele delstaten de to siste mandagene i juli, fullt (sjekk dato)", "en": "Guelaguetza in Oaxaca: dances from across the state on the last two Mondays of July, full (check dates)"},
+    {"fra": "2028-07-24", "til": "2028-07-31", "type": "Hendelse", "justering": 0.5, "no": "Guelaguetza i Oaxaca: dans fra hele delstaten de to siste mandagene i juli, fullt (sjekk dato)", "en": "Guelaguetza in Oaxaca: dances from across the state on the last two Mondays of July, full (check dates)"},
+    {"fra_uke": 44, "til_uke": 44, "type": "Hendelse", "justering": 1, "no": "Día de Muertos (31.10–2.11): comparsas, alter og kirkegårder i Oaxaca", "en": "Día de Muertos (31 Oct–2 Nov): comparsas, altars and cemeteries in Oaxaca"},
+    {"fra_uke": 52, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Noche de Rábanos 23.12: utskårne reddiker på zócaloen i Oaxaca", "en": "Noche de Rábanos, 23 Dec: carved radishes on the zócalo in Oaxaca"}
+  ]
+}

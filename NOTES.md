@@ -11,7 +11,10 @@ Sist oppdatert: 11. november 2026.
   med `/nytt-reisemal`. Ramadan 2026–28 ligger i `felles_vinduer.json` for 13 reisemål; Iran har Nowruz, Israel pesach.
   Pål godkjente scorer og tone. Nord-Amerika er fylt inn samme kveld (9 nye: USA-NYC, USA-SOR, USA-FL, USA-SW, USA-RM, USA-AK,
   CAN-W, CAN-O, CAN-N; alle stasjoner 1991–2020), med Mardi Gras, Jazz Fest, Iditarod og Carnaval de Québec som vinduer.
-  Gjenstår: Europa (60), Afrika (46), Asia (32), Sør-Amerika (20), Mellom-Amerika og Karibia (20), Oseania (18).
+  Resten (196 reisemål) ble fylt inn med en workflow (27 agenter etter /nytt-reisemal) samme kveld: alle 257 reisemål er nå på plass.
+  Felles vinduer: ramadan (41 reisemål), påskeuka (58), ortodoks påske (3) og kinesisk nyttår (13), 2026–28, med egne justeringer
+  og positiv tekst der høytiden er en opplevelse. Svakheter agentene meldte (183 av 196) står i `Kildesvakheter.md`.
+  Kvalitetssjekk: ingen måneder over 38 °C med klima ≥ 4, koordinatene i riktig region, alle har engelsk.
 - 11.11.: utvidelse mot alle FN-landene påbegynt. Steg 1 er gjort: dataene ligger i én JSON-fil per reisemål i `reisemal/`
   (norsk og engelsk side om side), lest av `reisemal.py`. `Reisemål.md` genereres. Alle 40 har `onskeliste: true`.
   Siden og regnearket har identiske data som før.
@@ -93,6 +96,9 @@ Sist oppdatert: 11. november 2026.
 
 ## Åpne spørsmål
 
+- Land med reiseråd (Djibouti, Den sentralafrikanske republikk, Mali …) kan havne øverst i lista, siden scoren ikke tar hensyn
+  til sikkerhet. Skal de skjules som standard (filter «Skjul land med reiseråd»), sorteres lavere eller bare beholde varselet?
+- Scorene for de 196 er Claudes vurdering, ikke gjennomgått av Pål. Opplevelse kan være satt høyt for lite besøkte land.
 - Midtøsten (11.11.): Palestina bruker Betlehems temperatur (periode ikke oppgitt) og Jerusalems nedbør (proxy, 10 km).
   Jordan er Amman 1989–2018 (Petra omtrent likt). Saudi-Arabia er Riyadh (AlUla litt kjøligere), Oman er Muscat (Salalah har khareef om sommeren).
 - Svake klimaserier: noen stasjoner har gamle serier (Dili, Beirut, Galápagos, Hwange, São Tomé, Maun 1961–1990),

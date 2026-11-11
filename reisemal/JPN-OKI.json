@@ -1,0 +1,36 @@
+{
+  "id": "JPN-OKI",
+  "region": "Asia",
+  "land": "Japan",
+  "sted": "Okinawa",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [26.5, 127.9],
+  "kilde": "Naha, JMA 1991–2020, via Wikipedia. Ishigaki og Miyako 1–2 °C varmere om vinteren",
+  "en": {"land": "Japan", "sted": "Okinawa", "kategori": "Beach / culture", "kilde": "Naha, JMA 1991–2020, via Wikipedia. Ishigaki and Miyako 1–2 °C warmer in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 19.8, "nedbor": 102, "no": "Mildt (20 °C), for kaldt til bading. Hvalsafari (se Vinduer).", "en": "Mild (20 °C), too cold for swimming. Whale watching (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 20.2, "nedbor": 115, "no": "Mildt, kirsebærblomstring på Okinawa. Hval. Rolig.", "en": "Mild, cherry blossom on Okinawa. Whales. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.9, "nedbor": 143, "no": "Varmere (22 °C), strandsesongen åpner. Hval.", "en": "Warmer (22 °C), beach season opens. Whales."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 24.3, "nedbor": 161, "no": "Behagelig (24 °C), lite folk før Golden Week.", "en": "Pleasant (24 °C), few people before Golden Week."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 2, "tmaks": 27.0, "nedbor": 245, "no": "Golden Week (se Vinduer), så regntid fra ca. 10. mai.", "en": "Golden Week (see events), then rainy season from about 10 May."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.8, "nedbor": 284, "no": "Regntid til ca. 20. juni, så sol og varmt.", "en": "Rainy season until about 20 June, then sun and heat."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 31.9, "nedbor": 188, "no": "Varmt (32 °C), sol og varmt hav. Japansk sommerferie, tyfonfare.", "en": "Hot (32 °C), sun and warm sea. Japanese summer holidays, typhoon risk."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 2, "tmaks": 31.8, "nedbor": 240, "no": "Hett, høysesong og tyfontopp; fly og ferger kan bli innstilt.", "en": "Hot, high season and peak typhoons; flights and ferries may be cancelled."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 275, "no": "Varmt hav, men tyfonfare. Færre folk.", "en": "Warm sea, but typhoon risk. Fewer people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.1, "nedbor": 179, "no": "Varmt (28 °C), fortsatt badetemperatur. Naha-festivalen (se Vinduer).", "en": "Warm (28 °C), still warm enough to swim. Naha Festival (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 25.0, "nedbor": 119, "no": "Behagelig (25 °C), rolig. Bra for kultur og snorkling.", "en": "Pleasant (25 °C), quiet. Good for culture and snorkelling."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 21.5, "nedbor": 110, "no": "Mildt (22 °C), vindfullt. Rolig.", "en": "Mild (22 °C), windy. Quiet."}
+  ],
+  "vinduer": [
+    {"fra_uke": 1, "til_uke": 13, "type": "Hendelse", "justering": 0.3, "no": "Knølhval ved Kerama-øyene (jan–mars): hvalsafari fra Naha", "en": "Humpback whales off the Kerama Islands (Jan–Mar): whale watching from Naha"},
+    {"fra": "2026-04-29", "til": "2026-05-06", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: japanerne reiser, fulle tog og hoteller", "en": "Golden Week: Japanese on holiday, full trains and hotels"},
+    {"fra": "2027-04-29", "til": "2027-05-05", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: japanerne reiser, fulle tog og hoteller", "en": "Golden Week: Japanese on holiday, full trains and hotels"},
+    {"fra": "2028-04-29", "til": "2028-05-07", "type": "Helligdag", "justering": -0.5, "no": "Golden Week: japanerne reiser, fulle tog og hoteller", "en": "Golden Week: Japanese on holiday, full trains and hotels"},
+    {"fra": "2026-10-10", "til": "2026-10-12", "type": "Hendelse", "justering": 0.3, "no": "Naha-festivalen med verdens største tautrekking (søndag 11.10)", "en": "Naha Festival with the world's largest tug-of-war (Sunday 11 Oct)"},
+    {"fra": "2027-10-09", "til": "2027-10-11", "type": "Hendelse", "justering": 0.3, "no": "Naha-festivalen med tautrekking (søndag 10.10)", "en": "Naha Festival with the tug-of-war (Sunday 10 Oct)"},
+    {"fra": "2028-10-07", "til": "2028-10-09", "type": "Hendelse", "justering": 0.3, "no": "Naha-festivalen med tautrekking (søndag 8.10)", "en": "Naha Festival with the tug-of-war (Sunday 8 Oct)"}
+  ]
+}

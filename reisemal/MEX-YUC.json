@@ -1,0 +1,33 @@
+{
+  "id": "MEX-YUC",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Mexico",
+  "sted": "Yucatán",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / kultur",
+  "merknad": "",
+  "koord": [20.68, -88.57],
+  "kilde": "Mérida (Observatorio), SMN 1991–2020, via Wikipedia. Cancún og Tulum kjøligere om våren (32–34 °C), men våtere sep–okt (opptil 240 mm)",
+  "en": {"land": "Mexico", "sted": "Yucatán", "kategori": "Beach / culture", "kilde": "Mérida (Observatorio), SMN 1991–2020, via Wikipedia. Cancún and Tulum cooler in spring (32–34 °C), but wetter Sep–Oct (up to 240 mm)"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.8, "nedbor": 34, "no": "Tørt og behagelig (31 °C). Høysesong.", "en": "Dry and pleasant (31 °C). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 32.1, "nedbor": 27, "no": "Tørt og solrikt. Høysesong.", "en": "Dry and sunny. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 34.5, "nedbor": 26, "no": "Varmt (35 °C i Mérida). Vårjevndøgn i Chichén Itzá (se Vinduer).", "en": "Hot (35 °C in Mérida). Spring equinox at Chichén Itzá (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 36.3, "nedbor": 25, "no": "Svært varmt i innlandet (36 °C). Semana Santa: fullt.", "en": "Very hot inland (36 °C). Semana Santa: full."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 36.7, "nedbor": 67, "no": "Varmest (37 °C) i Mérida; sargassum-tang på kysten.", "en": "Hottest (37 °C) in Mérida; sargassum seaweed on the coast."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 35.1, "nedbor": 152, "no": "Regntiden og orkansesongen starter. Hvalhaier (se Vinduer).", "en": "Rainy and hurricane season begin. Whale sharks (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 35.0, "nedbor": 143, "no": "Varmt, byger. Hvalhaier ved Holbox. Sommerferie.", "en": "Hot, showers. Whale sharks off Holbox. Summer holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 35.1, "nedbor": 152, "no": "Varmt, byger og orkanrisiko. Hvalhaier.", "en": "Hot, showers and hurricane risk. Whale sharks."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 34.2, "nedbor": 184, "no": "Orkansesongens topp, mest regn.", "en": "Peak of the hurricane season, wettest."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.7, "nedbor": 99, "no": "Orkanrisiko; mest regn i Cancún (240 mm).", "en": "Hurricane risk; wettest in Cancún (240 mm)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 31.6, "nedbor": 42, "no": "Tørrere. Hanal Pixán (dødedagene) i Mérida (se Vinduer).", "en": "Drier. Hanal Pixán (Days of the Dead) in Mérida (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.7, "nedbor": 45, "no": "Tørt og behagelig. Høysesong, dyrt i jula.", "en": "Dry and pleasant. High season, expensive at Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 12, "type": "Hendelse", "justering": 0.3, "no": "Vårjevndøgn (20.–21.3): slangeskyggen på pyramiden i Chichén Itzá, mye folk", "en": "Spring equinox (20–21 Mar): the serpent shadow on the pyramid at Chichén Itzá, big crowds"},
+    {"fra_uke": 18, "til_uke": 35, "type": "Annet", "justering": -0.3, "no": "Sargassum-tang på strendene i Quintana Roo (varierer mye, sjekk varsel)", "en": "Sargassum seaweed on the Quintana Roo beaches (varies a lot, check forecast)"},
+    {"fra_uke": 23, "til_uke": 37, "type": "Dyreliv", "justering": 0.5, "no": "Snorkling med hvalhaier ved Holbox og Isla Mujeres (juni–sep)", "en": "Snorkelling with whale sharks off Holbox and Isla Mujeres (Jun–Sep)"},
+    {"fra_uke": 44, "til_uke": 44, "type": "Hendelse", "justering": 0.5, "no": "Hanal Pixán (31.10–2.11): maya-dødedager, alter og parade i Mérida", "en": "Hanal Pixán (31 Oct–2 Nov): Maya Days of the Dead, altars and parade in Mérida"}
+  ]
+}

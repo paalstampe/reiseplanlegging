@@ -1,0 +1,28 @@
+{
+  "id": "COD",
+  "region": "Afrika",
+  "land": "DR Kongo",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / gorilla",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [-1.5, 29.3],
+  "kilde": "Goma (1 531 moh), Climate-Data.org (modelldata, periode ikke oppgitt), via Wikipedia. Gjelder Virunga og Kahuzi-Biega; Kinshasa i vest er 28–33 °C med regntid okt–mai",
+  "en": {"land": "DR Congo", "kategori": "Nature / gorillas", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Goma (1,531 m), Climate-Data.org (model data, period not stated), via Wikipedia. Applies to Virunga and Kahuzi-Biega; Kinshasa in the west is 28–33 °C with a rainy season Oct–May"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 25.6, "nedbor": 94, "no": "Kortere tørrperiode, 26 °C. Gorillasporing i Virunga.", "en": "Short drier spell, 26 °C. Gorilla trekking in Virunga."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 25.7, "nedbor": 84, "no": "Tørrere (84 mm). God tid for gorillaer og Nyiragongo.", "en": "Drier (84 mm). Good time for gorillas and Nyiragongo."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 25.7, "nedbor": 117, "no": "Regntid; gjørmete stier.", "en": "Rainy season; muddy trails."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 25.4, "nedbor": 119, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 25.3, "nedbor": 108, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 25.3, "nedbor": 55, "no": "Tørrsesongen starter. Gorillaer og Nyiragongo-krateret.", "en": "Dry season begins. Gorillas and the Nyiragongo crater."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 25.2, "nedbor": 29, "no": "Tørrest. Beste tid for gorillaer og vulkanen.", "en": "Driest. Best time for gorillas and the volcano."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 25.8, "nedbor": 70, "no": "Fortsatt tørrsesong.", "en": "Still dry season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 25.9, "nedbor": 117, "no": "Regnet kommer tilbake.", "en": "Rain returns."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 25.7, "nedbor": 143, "no": "Mest regn (143 mm); tunge stier.", "en": "Wettest (143 mm); heavy going on trails."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 25.3, "nedbor": 138, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 25.4, "nedbor": 118, "no": "Regnet avtar mot slutten av måneden.", "en": "Rain eases towards the end of the month."}
+  ],
+  "vinduer": []
+}

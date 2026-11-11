@@ -1,0 +1,30 @@
+{
+  "id": "TKM",
+  "region": "Asia",
+  "land": "Turkmenistan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / kultur",
+  "merknad": "Visum krever invitasjonsbrev; i praksis guidet tur",
+  "koord": [37.95, 58.38],
+  "kilde": "Asjkhabad, Pogoda.ru.net 1991–2020, via Wikipedia. Darvaza og Merv i Karakum enda varmere om sommeren",
+  "en": {"land": "Turkmenistan", "kategori": "History / culture", "merknad": "Visa requires a letter of invitation; in practice a guided tour", "kilde": "Ashgabat, Pogoda.ru.net 1991–2020, via Wikipedia. Darvaza and Merv in the Karakum even hotter in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.0, "nedbor": 21, "no": "Kaldt (9 °C), kalde netter ved Darvaza.", "en": "Cold (9 °C), cold nights at Darvaza."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 11.1, "nedbor": 32, "no": "Kjølig, noe regn.", "en": "Cool, some rain."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 17.0, "nedbor": 39, "no": "Mildt (17 °C). Navruz (se Vinduer).", "en": "Mild (17 °C). Navruz (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.9, "nedbor": 28, "no": "Ideelt (24 °C), ørkenen grønn.", "en": "Ideal (24 °C), the desert green."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 30.5, "nedbor": 21, "no": "Varmt (31 °C), tørt. Bra for Merv og Darvaza.", "en": "Hot (31 °C), dry. Good for Merv and Darvaza."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 36.2, "nedbor": 8, "no": "Svært varmt (36 °C).", "en": "Very hot (36 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 38.4, "nedbor": 3, "no": "Ekstrem hete (38 °C, Karakum over 45 °C).", "en": "Extreme heat (38 °C, Karakum above 45 °C)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 37.2, "nedbor": 2, "no": "Fortsatt ekstrem hete.", "en": "Still extreme heat."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.8, "nedbor": 3, "no": "Varmt, avtar. Uavhengighetsdagen 27.9.", "en": "Warm, easing. Independence Day 27 Sep."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.4, "nedbor": 12, "no": "Ideelt (24 °C), klart.", "en": "Ideal (24 °C), clear."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.7, "nedbor": 22, "no": "Kjølig (16 °C), kalde netter i ørkenen.", "en": "Cool (16 °C), cold nights in the desert."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.8, "nedbor": 17, "no": "Kaldt.", "en": "Cold."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 12, "type": "Hendelse", "justering": 0.3, "no": "Navruz 21.3: feiring, offentlig fri", "en": "Navruz 21 Mar: celebrations, public holiday"}
+  ]
+}

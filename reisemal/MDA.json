@@ -1,0 +1,32 @@
+{
+  "id": "MDA",
+  "region": "Europa",
+  "land": "Moldova",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [47.01, 28.86],
+  "kilde": "Chișinău, 1991–2020 (Pogoda.ru.net), via Wikipedia",
+  "en": {"land": "Moldova", "kategori": "City / culture / food", "kilde": "Chișinău, 1991–2020 (Pogoda.ru.net), via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 1.1, "nedbor": 36, "no": "Kaldt (1 °C), grått, av og til snø.", "en": "Cold (1 °C), grey, occasional snow."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 3.4, "nedbor": 31, "no": "Kaldt (3 °C). Rolig.", "en": "Cold (3 °C). Quiet."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 5, "tmaks": 9.2, "nedbor": 35, "no": "Kjølig (9 °C), våren kommer. Mărțișor 1.3.", "en": "Cool (9 °C), spring arriving. Mărțișor 1 Mar."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 5, "tmaks": 16.4, "nedbor": 39, "no": "Vår (16 °C), blomstring.", "en": "Spring (16 °C), blossom."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 22.3, "nedbor": 54, "no": "Behagelig (22 °C), grønt. Fint for vinkjellere og klostre.", "en": "Pleasant (22 °C), green. Good for wine cellars and monasteries."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.1, "nedbor": 65, "no": "Varmt (26 °C), tordenbyger.", "en": "Warm (26 °C), thunderstorms."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.4, "nedbor": 67, "no": "Varmest (28 °C), byger.", "en": "Warmest (28 °C), showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.3, "nedbor": 49, "no": "Varmt (28 °C), tørrere. Uavhengighetsdagen 27.8.", "en": "Warm (28 °C), drier. Independence Day 27 Aug."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 22.3, "nedbor": 48, "no": "Ideelt (22 °C). Vinhøst.", "en": "Ideal (22 °C). Wine harvest."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 15.5, "nedbor": 47, "no": "Mildt (16 °C), høstfarger. Nasjonal vindag (se Vinduer).", "en": "Mild (16 °C), autumn colours. National Wine Day (see events)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.1, "nedbor": 43, "no": "Grått og kjølig (8 °C). Lavsesong.", "en": "Grey and cool (8 °C). Low season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 2.7, "nedbor": 41, "no": "Kaldt (3 °C). Julemarked i Chișinău.", "en": "Cold (3 °C). Christmas market in Chișinău."}
+  ],
+  "vinduer": [
+    {"fra": "2026-10-03", "til": "2026-10-04", "type": "Hendelse", "justering": 0.5, "no": "Nasjonal vindag i Chișinău: vinprodusenter fra hele landet", "en": "National Wine Day in Chișinău: winemakers from across the country"},
+    {"fra": "2027-10-02", "til": "2027-10-03", "type": "Hendelse", "justering": 0.5, "no": "Nasjonal vindag i Chișinău", "en": "National Wine Day in Chișinău"},
+    {"fra": "2028-10-07", "til": "2028-10-08", "type": "Hendelse", "justering": 0.5, "no": "Nasjonal vindag i Chișinău (sjekk dato)", "en": "National Wine Day in Chișinău (check dates)"}
+  ]
+}

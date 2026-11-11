@@ -1,0 +1,33 @@
+{
+  "id": "JPN-HOK",
+  "region": "Asia",
+  "land": "Japan",
+  "sted": "Hokkaido",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / fjell",
+  "merknad": "",
+  "koord": [43.4, 142.5],
+  "kilde": "Sapporo, JMA 1991–2020, via Wikipedia. Nedbøren om vinteren er mest snø; innlandet (Asahikawa, Furano) kaldere om vinteren",
+  "en": {"land": "Japan", "sted": "Hokkaido", "kategori": "Nature / mountains", "kilde": "Sapporo, JMA 1991–2020, via Wikipedia. Winter precipitation is mostly snow; the interior (Asahikawa, Furano) colder in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": -0.4, "nedbor": 108, "no": "Kaldt (0 °C), mye snø. Pudder i Niseko, toppsesong for ski.", "en": "Cold (0 °C), lots of snow. Powder in Niseko, peak ski season."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 2, "tmaks": 0.4, "nedbor": 92, "no": "Kaldt. Snøfestival i Sapporo og drivis i Okhotskhavet (se Vinduer).", "en": "Cold. Sapporo Snow Festival and drift ice in the Sea of Okhotsk (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 4.5, "nedbor": 78, "no": "Fortsatt vinter; god vårski, færre folk.", "en": "Still winter; good spring skiing, fewer people."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 11.7, "nedbor": 55, "no": "Snøsmelting, grått og sølete. Mellomsesong.", "en": "Snowmelt, grey and slushy. Shoulder season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 17.9, "nedbor": 56, "no": "Kjølig (18 °C), kirsebærblomstring i Sapporo tidlig i mai.", "en": "Cool (18 °C), cherry blossom in Sapporo in early May."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 21.8, "nedbor": 60, "no": "Behagelig (22 °C), ingen regntid som ellers i Japan.", "en": "Pleasant (22 °C), no rainy season unlike the rest of Japan."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.4, "nedbor": 91, "no": "Varmt (25 °C). Lavendel i Furano (se Vinduer), fjellturer i Daisetsuzan.", "en": "Warm (25 °C). Lavender in Furano (see events), hiking in Daisetsuzan."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.4, "nedbor": 127, "no": "Varmt (26 °C), gode fjellturer. Obon (se Vinduer).", "en": "Warm (26 °C), good hiking. Obon (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 22.8, "nedbor": 142, "no": "Behagelig (23 °C); høstløv i Daisetsuzan fra midten av måneden.", "en": "Pleasant (23 °C); autumn leaves in Daisetsuzan from mid-month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.4, "nedbor": 110, "no": "Kjølig (16 °C), høstfarger i lavlandet.", "en": "Cool (16 °C), autumn colours in the lowlands."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.7, "nedbor": 114, "no": "Kaldt og grått før skisesongen. Rolig.", "en": "Cold and grey before the ski season. Quiet."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 2.0, "nedbor": 115, "no": "Snø, skisesongen starter. Jul og nyttår travelt.", "en": "Snow, ski season begins. Christmas and New Year busy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 5, "til_uke": 9, "type": "Hendelse", "justering": 0.3, "no": "Drivis ved Abashiri og Shiretoko: isbryterturer (sen jan–tidlig mars)", "en": "Drift ice at Abashiri and Shiretoko: icebreaker cruises (late Jan–early Mar)"},
+    {"fra_uke": 6, "til_uke": 6, "type": "Hendelse", "justering": 0.5, "no": "Sapporo snøfestival (ca. 4.–11.2): snø- og isskulpturer, fulle hoteller (sjekk dato)", "en": "Sapporo Snow Festival (approx. 4–11 Feb): snow and ice sculptures, full hotels (check dates)"},
+    {"fra_uke": 28, "til_uke": 29, "type": "Hendelse", "justering": 0.3, "no": "Lavendelblomstring i Furano: vakkert, men travelt", "en": "Lavender bloom in Furano: beautiful, but busy"},
+    {"fra_uke": 33, "til_uke": 33, "type": "Helligdag", "justering": -0.3, "no": "Obon (13.–16.8): japanerne reiser, fulle hoteller", "en": "Obon (13–16 Aug): Japanese travel, full hotels"}
+  ]
+}

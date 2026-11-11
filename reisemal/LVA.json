@@ -1,0 +1,32 @@
+{
+  "id": "LVA",
+  "region": "Europa",
+  "land": "Latvia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [56.95, 24.11],
+  "kilde": "Riga, Latvias miljø-, geologi- og meteorologisenter 1991–2020, via Wikipedia",
+  "en": {"land": "Latvia", "kategori": "City / culture", "kilde": "Riga, Latvian Environment, Geology and Meteorology Centre 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": -0.1, "nedbor": 47, "no": "Kaldt (0 °C), mørkt, ofte snø. Få turister.", "en": "Cold (0 °C), dark, often snow. Few tourists."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 0.3, "nedbor": 40, "no": "Kaldt, snø. Rolig og billig.", "en": "Cold, snow. Quiet and cheap."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.8, "nedbor": 34, "no": "Kjølig (5 °C), snøsmelting, grått.", "en": "Chilly (5 °C), snowmelt, grey."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 11.9, "nedbor": 35, "no": "Vår (12 °C), lysere dager. Rolig.", "en": "Spring (12 °C), longer days. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 17.8, "nedbor": 48, "no": "Mildt (18 °C), grønt. Fint i gamlebyen.", "en": "Mild (18 °C), green. Lovely in the Old Town."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.3, "nedbor": 65, "no": "Lyse netter (21 °C). Jāņi midtsommer (se Vinduer).", "en": "White nights (21 °C). Jāņi midsummer (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 23.8, "nedbor": 80, "no": "Varmest (24 °C). Bad i Jūrmala. Høysesong.", "en": "Warmest (24 °C). Beaches at Jūrmala. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 22.7, "nedbor": 78, "no": "Sommer (23 °C), noen byger. Høysesong.", "en": "Summer (23 °C), some showers. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 17.3, "nedbor": 67, "no": "Mildt (17 °C), høstfarger på vei. Færre folk.", "en": "Mild (17 °C), autumn colours coming. Fewer people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 10.5, "nedbor": 76, "no": "Kjølig (11 °C), regn, høstfarger.", "en": "Cool (11 °C), rain, autumn colours."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 4.8, "nedbor": 56, "no": "Grått og mørkt (5 °C). Lavsesong.", "en": "Grey and dark (5 °C). Low season."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 1.4, "nedbor": 50, "no": "Kaldt (1 °C). Julemarked i gamlebyen (se Vinduer).", "en": "Cold (1 °C). Christmas market in the Old Town (see events)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 25, "til_uke": 26, "type": "Hendelse", "justering": 0.5, "no": "Jāņi (Līgo, 23.–24.6): midtsommerfest, mange reiser ut av byen", "en": "Jāņi (Līgo, 23–24 Jun): midsummer festival, many leave the city"},
+    {"fra_uke": 48, "til_uke": 52, "type": "Hendelse", "justering": 0.3, "no": "Julemarked i Riga gamleby", "en": "Christmas market in Riga Old Town"},
+    {"fra": "2028-07-01", "til": "2028-07-09", "type": "Hendelse", "justering": 0.5, "no": "Latvisk sang- og dansefestival (hvert 5. år, sjekk dato)", "en": "Latvian Song and Dance Festival (every 5 years, check dates)"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "KEN",
+  "region": "Afrika",
+  "land": "Kenya",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Safari",
+  "merknad": "",
+  "koord": [-1.5, 35.4],
+  "kilde": "Nairobi (Jomo Kenyatta lufthavn, 1 615 moh), DWD 1991–2020, via Wikipedia. Masai Mara har samme regntider, litt mer regn; kysten (Mombasa) varmere",
+  "en": {"land": "Kenya", "kategori": "Safari", "kilde": "Nairobi (Jomo Kenyatta International Airport, 1,615 m), DWD 1991–2020, via Wikipedia. Masai Mara has the same rainy seasons, slightly more rain; the coast (Mombasa) hotter"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.9, "nedbor": 58, "no": "Tørt og varmt. God safari i Masai Mara og Amboseli. Høysesong.", "en": "Dry and warm. Good safari in Masai Mara and Amboseli. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.4, "nedbor": 36, "no": "Tørrest og varmest; klar sikt mot Kilimanjaro fra Amboseli.", "en": "Driest and warmest; clear views of Kilimanjaro from Amboseli."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.0, "nedbor": 75, "no": "Varmt; de lange regnene kan starte mot slutten.", "en": "Warm; the long rains may start late in the month."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 26.2, "nedbor": 130, "no": "Lange regn: gjørmete veier, noen leirer stenger. Lavsesong.", "en": "Long rains: muddy roads, some camps close. Low season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 24.9, "nedbor": 109, "no": "Regnet avtar mot slutten; grønt og billig.", "en": "Rain easing late in the month; green and cheap."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 23.7, "nedbor": 29, "no": "Tørrsesongen starter, kjølig (24 °C). Høyt gress.", "en": "Dry season begins, cool (24 °C). Tall grass."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 23.6, "nedbor": 11, "no": "Tørt og kjølig. Migrasjonen ankommer Mara (se Vinduer). Fullbooket.", "en": "Dry and cool. The migration reaches the Mara (see events). Fully booked."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 24.1, "nedbor": 19, "no": "Elvekrysninger i Mara. Maks høysesong.", "en": "River crossings in the Mara. Peak season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.3, "nedbor": 17, "no": "Tørt, varmere. Migrasjonen fortsatt i Mara.", "en": "Dry, warmer. The migration still in the Mara."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.9, "nedbor": 50, "no": "Varmt; migrasjonen trekker sørover. Roligere.", "en": "Warm; the migration moves south. Quieter."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 25.3, "nedbor": 131, "no": "Korte regn, ettermiddagsbyger. Lavsesong.", "en": "Short rains, afternoon showers. Low season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 25.8, "nedbor": 85, "no": "Bygene avtar, grønt. Jul/nyttår travelt.", "en": "Showers easing, green. Christmas/New Year busy."}
+  ],
+  "vinduer": [
+    {"fra_uke": 28, "til_uke": 41, "type": "Dyreliv", "justering": 0.3, "no": "Den store gnu-migrasjonen i Masai Mara, elvekrysninger aug–sep", "en": "The great wildebeest migration in Masai Mara, river crossings Aug–Sep"}
+  ]
+}

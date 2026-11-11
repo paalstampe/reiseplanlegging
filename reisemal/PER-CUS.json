@@ -1,0 +1,36 @@
+{
+  "id": "PER-CUS",
+  "region": "Sør-Amerika",
+  "land": "Peru",
+  "sted": "Cusco og Machu Picchu",
+  "kortnavn": "Peru – Machu Picchu",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [-13.4, -72.1],
+  "kilde": "Cusco (lufthavn, 3249 moh), NOAA 1991–2020, via Wikipedia. Machu Picchu (2399 moh) like varm, men dobbelt så mye regn",
+  "en": {"land": "Peru", "sted": "Cusco and Machu Picchu", "kortnavn": "Peru – Machu Picchu", "kategori": "Culture / nature", "kilde": "Cusco (airport, 3,249 m), NOAA 1991–2020, via Wikipedia. Machu Picchu (2,399 m) similar temperatures but twice the rain"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 20.5, "nedbor": 153, "no": "Regntid (153 mm), 20 °C. Gjørmete stier.", "en": "Rainy season (153 mm), 20 °C. Muddy trails."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 20.3, "nedbor": 132, "no": "Regntid; Inkastien stengt (se Vinduer).", "en": "Rainy season; the Inca Trail is closed (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 20.5, "nedbor": 106, "no": "Regntid, grønt. Inkastien åpner igjen.", "en": "Rainy season, green. The Inca Trail reopens."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.0, "nedbor": 38, "no": "Regnet avtar, grønt og fint.", "en": "Rain eases, green and pleasant."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.2, "nedbor": 7, "no": "Tørrsesong, klart, fortsatt grønt. Kalde netter.", "en": "Dry season, clear, still green. Cold nights."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 20.8, "nedbor": 3, "no": "Tørt, klart. Corpus Christi og Inti Raymi (se Vinduer). Fullt.", "en": "Dry, clear. Corpus Christi and Inti Raymi (see events). Full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 20.6, "nedbor": 6, "no": "Tørt, frost om natta. Høysesong, fullt.", "en": "Dry, frosty nights. High season, full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 21.5, "nedbor": 7, "no": "Tørt, klart. Høysesong; book Inkastien måneder i forveien.", "en": "Dry, clear. High season; book the Inca Trail months ahead."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 21.7, "nedbor": 18, "no": "Tørt, mildere netter. Litt færre folk.", "en": "Dry, milder nights. Slightly fewer people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 21.9, "nedbor": 54, "no": "Første byger, ellers fint.", "en": "First showers, otherwise fine."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 22.3, "nedbor": 77, "no": "Regnet kommer (77 mm).", "en": "Rain arrives (77 mm)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 21.1, "nedbor": 125, "no": "Regntid (125 mm). Jul.", "en": "Rainy season (125 mm). Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 5, "til_uke": 9, "type": "Annet", "justering": -0.5, "no": "Inkastien stengt hele februar for vedlikehold", "en": "The Inca Trail is closed all February for maintenance"},
+    {"fra": "2026-06-04", "til": "2026-06-04", "type": "Hendelse", "justering": 0.3, "no": "Corpus Christi i Cusco: helgenstatuer i prosesjon", "en": "Corpus Christi in Cusco: saints' statues in procession"},
+    {"fra": "2027-05-27", "til": "2027-05-27", "type": "Hendelse", "justering": 0.3, "no": "Corpus Christi i Cusco: helgenstatuer i prosesjon", "en": "Corpus Christi in Cusco: saints' statues in procession"},
+    {"fra": "2028-06-15", "til": "2028-06-15", "type": "Hendelse", "justering": 0.3, "no": "Corpus Christi i Cusco: helgenstatuer i prosesjon", "en": "Corpus Christi in Cusco: saints' statues in procession"},
+    {"fra_uke": 25, "til_uke": 26, "type": "Hendelse", "justering": 0.3, "no": "Inti Raymi 24.6 i Sacsayhuamán: festlig, men fullbooket", "en": "Inti Raymi 24 Jun at Sacsayhuamán: festive, but fully booked"},
+    {"fra_uke": 30, "til_uke": 31, "type": "Helligdag", "justering": -0.5, "no": "Fiestas Patrias 28.–29.7: peruanere på ferie, alt fullt", "en": "Fiestas Patrias 28–29 Jul: Peruvians on holiday, everything full"}
+  ]
+}

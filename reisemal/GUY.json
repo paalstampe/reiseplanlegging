@@ -1,0 +1,30 @@
+{
+  "id": "GUY",
+  "region": "Sør-Amerika",
+  "land": "Guyana",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [4.5, -59.2],
+  "kilde": "Georgetown (botanisk hage), NOAA 1991–2020, via Wikipedia. Rupununi-savannen har én regntid (mai–aug)",
+  "en": {"land": "Guyana", "kategori": "Nature / wildlife", "kilde": "Georgetown (Botanical Gardens), NOAA 1991–2020, via Wikipedia. The Rupununi savannah has one rainy season (May–Aug)"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.6, "nedbor": 239, "no": "Kort regntid på kysten (239 mm), 30 °C.", "en": "Short rainy season on the coast (239 mm), 30 °C."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.9, "nedbor": 127, "no": "Tørrere. Mashramani (se Vinduer).", "en": "Drier. Mashramani (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.9, "nedbor": 100, "no": "Tørt og varmt. Fint i Rupununi.", "en": "Dry and hot. Good in the Rupununi."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.5, "nedbor": 142, "no": "Varmt, lite regn. Påskerodeo i Lethem.", "en": "Hot, little rain. Easter rodeo in Lethem."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.2, "nedbor": 287, "no": "Regntiden starter (287 mm).", "en": "Rainy season begins (287 mm)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.2, "nedbor": 303, "no": "Mest regn; veiene i innlandet gjørmete.", "en": "Wettest; inland roads muddy."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.2, "nedbor": 282, "no": "Regntid; Kaieteur-fossen på sitt mektigste.", "en": "Rainy season; Kaieteur Falls at their mightiest."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.0, "nedbor": 167, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 31.3, "nedbor": 92, "no": "Tørrsesong; dyrelivet samles ved vannhullene i Rupununi.", "en": "Dry season; wildlife gathers at Rupununi waterholes."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 31.6, "nedbor": 69, "no": "Tørrest (69 mm). Beste tid for dyreliv.", "en": "Driest (69 mm). Best time for wildlife."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.1, "nedbor": 197, "no": "Varmt, byger kommer.", "en": "Hot, showers returning."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.0, "nedbor": 276, "no": "Regntid på kysten (276 mm). Jul.", "en": "Rainy season on the coast (276 mm). Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 8, "til_uke": 9, "type": "Helligdag", "justering": 0.3, "no": "Mashramani (republikkdagen 23.2): karneval i Georgetown", "en": "Mashramani (Republic Day 23 Feb): carnival in Georgetown"}
+  ]
+}

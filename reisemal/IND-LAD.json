@@ -1,0 +1,32 @@
+{
+  "id": "IND-LAD",
+  "region": "Asia",
+  "land": "India",
+  "sted": "Ladakh",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / trekking",
+  "merknad": "",
+  "koord": [34.16, 77.58],
+  "kilde": "Leh (3 513 moh), IMD 1951–2020, via Wikipedia",
+  "en": {"land": "India", "sted": "Ladakh", "kategori": "Nature / trekking", "kilde": "Leh (3,513 m), IMD 1951–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 3, "trengsel": 4, "tmaks": 1.5, "nedbor": 10, "no": "Svært kaldt (−15 °C om natta). Chadar-trek på frossen elv.", "en": "Very cold (−15 °C at night). Chadar trek on the frozen river."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 4, "tmaks": 4.2, "nedbor": 8, "no": "Kaldt. Snøleopardsesong i Hemis nasjonalpark.", "en": "Cold. Snow leopard season in Hemis National Park."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 9.7, "nedbor": 11, "no": "Kaldt, veiene stengt. Losar-feiring.", "en": "Cold, roads closed. Losar celebrations."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.3, "nedbor": 9, "no": "Kjølig (15 °C), kalde netter. Bare fly inn.", "en": "Cool (15 °C), cold nights. Fly in only."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 20.0, "nedbor": 9, "no": "Mildt (20 °C). Srinagar–Leh åpner. Pass kan ha snø.", "en": "Mild (20 °C). Srinagar–Leh road opens. Passes may have snow."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.4, "nedbor": 4, "no": "Klart og tørt. Manali–Leh åpner. Hemis-festival (se Vinduer).", "en": "Clear and dry. Manali–Leh road opens. Hemis festival (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.5, "nedbor": 15, "no": "Varmt (29 °C) og solrikt. Trekking og Pangong. Høysesong.", "en": "Warm (29 °C) and sunny. Trekking and Pangong. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 28.1, "nedbor": 15, "no": "Høysesong. Noen byger kan stenge veier.", "en": "High season. Some showers can close roads."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.4, "nedbor": 9, "no": "Klart, gyllent. Beste trekkingmåned.", "en": "Clear, golden. Best trekking month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.7, "nedbor": 8, "no": "Kjølig (17 °C), kalde netter. Veiene stenger mot slutten.", "en": "Cool (17 °C), cold nights. Roads close towards the end."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.6, "nedbor": 4, "no": "Kaldt, mye stengt.", "en": "Cold, much closed."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 4.5, "nedbor": 5, "no": "Svært kaldt, mest stengt.", "en": "Very cold, mostly closed."}
+  ],
+  "vinduer": [
+    {"fra": "2026-06-24", "til": "2026-06-25", "type": "Hendelse", "justering": 0.5, "no": "Hemis-festivalen 2026: maskedans i klosteret (sjekk dato)", "en": "Hemis Festival 2026: masked dances at the monastery (check dates)"},
+    {"fra": "2027-06-14", "til": "2027-06-15", "type": "Hendelse", "justering": 0.5, "no": "Hemis-festivalen 2027 (sjekk dato)", "en": "Hemis Festival 2027 (check dates)"},
+    {"fra": "2028-07-02", "til": "2028-07-03", "type": "Hendelse", "justering": 0.5, "no": "Hemis-festivalen 2028 (sjekk dato)", "en": "Hemis Festival 2028 (check dates)"}
+  ]
+}

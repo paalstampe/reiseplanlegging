@@ -1,0 +1,30 @@
+{
+  "id": "SRB",
+  "region": "Europa",
+  "land": "Serbia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [44.82, 20.46],
+  "kilde": "Beograd, Serbias hydrometeorologiske institutt 1991–2020, via Wikipedia",
+  "en": {"land": "Serbia", "kategori": "City / culture", "kilde": "Belgrade, Republic Hydrometeorological Service of Serbia 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 5.2, "nedbor": 48, "no": "Kaldt (5 °C), grått. Ortodoks jul 7. januar.", "en": "Cold (5 °C), grey. Orthodox Christmas on 7 January."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 7.8, "nedbor": 44, "no": "Kaldt (8 °C), grått. Rolig.", "en": "Cold (8 °C), grey. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 13.1, "nedbor": 49, "no": "Kjølig (13 °C), våren kommer.", "en": "Cool (13 °C), spring arrives."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 18.9, "nedbor": 52, "no": "Mildt (19 °C), blomstring.", "en": "Mild (19 °C), blossom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.6, "nedbor": 72, "no": "Behagelig (24 °C). Kafeer og elvebåter langs Donau og Sava.", "en": "Pleasant (24 °C). Cafés and river boats along the Danube and Sava."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.1, "nedbor": 96, "no": "Varmt (27 °C), tordenbyger. Lange kvelder på elvebåtene.", "en": "Warm (27 °C), thunderstorms. Long evenings on the river boats."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 29.3, "nedbor": 66, "no": "Hett (29 °C, ofte over 35 °C). Sommerfestivaler.", "en": "Hot (29 °C, often above 35 °C). Summer festivals."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 29.7, "nedbor": 55, "no": "Hett (30 °C). Trompetfestivalen i Guča (se Vinduer).", "en": "Hot (30 °C). Guča Trumpet Festival (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 24.3, "nedbor": 59, "no": "Behagelig (24 °C), vinhøst. Beste måned.", "en": "Pleasant (24 °C), grape harvest. Best month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 18.7, "nedbor": 55, "no": "Mildt (19 °C), høstfarger. Lite folk.", "en": "Mild (19 °C), autumn colours. Few people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 12.2, "nedbor": 50, "no": "Kjølig (12 °C), tåke.", "en": "Cool (12 °C), fog."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 6.1, "nedbor": 55, "no": "Kaldt (6 °C). Julemarked og nyttårsfeiring i Beograd.", "en": "Cold (6 °C). Christmas market and New Year in Belgrade."}
+  ],
+  "vinduer": [
+    {"fra_uke": 32, "til_uke": 32, "type": "Hendelse", "justering": 0.3, "no": "Trompetfestivalen i Guča, tidlig i august (sjekk dato)", "en": "Guča Trumpet Festival, early August (check dates)"}
+  ]
+}

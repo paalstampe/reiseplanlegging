@@ -1,0 +1,32 @@
+{
+  "id": "ITA-N",
+  "region": "Europa",
+  "land": "Italia",
+  "sted": "Dolomittene og innsjøene",
+  "kortnavn": "Nord-Italia",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / fjell",
+  "merknad": "",
+  "koord": [46.2, 10.9],
+  "kilde": "Bolzano (262 moh), ISPRA 1991–2020, via Wikipedia. I Dolomittene (2000 moh) 10–12 °C kaldere; Comosjøen mildere om vinteren og våtere",
+  "en": {"land": "Italy", "sted": "Dolomites and the lakes", "kortnavn": "Northern Italy", "kategori": "Nature / mountains", "kilde": "Bolzano (262 m), ISPRA 1991–2020, via Wikipedia. The Dolomites (2,000 m) are 10–12 °C colder; Lake Como milder in winter and wetter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 6.7, "nedbor": 25, "no": "Kaldt (7 °C i dalen), snø i fjellet. Skisesong; sjøene stille.", "en": "Cold (7 °C in the valley), snow in the mountains. Ski season; the lakes quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 10.1, "nedbor": 20, "no": "Skisesong og vinterferier. Sjøene stille.", "en": "Ski season and winter holidays. The lakes quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.6, "nedbor": 35, "no": "Vår i dalen (16 °C), fortsatt ski i høyden.", "en": "Spring in the valley (16 °C), still skiing up high."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 19.4, "nedbor": 50, "no": "Mildt (19 °C) ved sjøene, blomstring. Heiser stengt i fjellet.", "en": "Mild (19 °C) by the lakes, blossom. Lifts closed in the mountains."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 23.7, "nedbor": 72, "no": "Varmt (24 °C), sjøene på sitt beste. Fjellet er fortsatt snødekt.", "en": "Warm (24 °C), the lakes at their best. The mountains still snowy."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.7, "nedbor": 87, "no": "Hytter og heiser åpner midt i juni. Blomsterenger.", "en": "Huts and lifts open mid-June. Flower meadows."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 29.8, "nedbor": 87, "no": "30 °C i dalen, 15–20 °C i fjellet. Ettermiddagstorden. Høysesong.", "en": "30 °C in the valley, 15–20 °C in the mountains. Afternoon thunderstorms. High season."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 1, "tmaks": 29.3, "nedbor": 88, "no": "Tordenbyger. Ferragosto: fullt i fjellet og ved sjøene (se Vinduer).", "en": "Thunderstorms. Ferragosto: full in the mountains and by the lakes (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 24.0, "nedbor": 70, "no": "Stabilt og klart, ideelt for vandring. Vinhøst i Sør-Tirol.", "en": "Stable and clear, ideal for hiking. Grape harvest in South Tyrol."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 17.9, "nedbor": 82, "no": "Høstfarger (18 °C); hytter og heiser stenger.", "en": "Autumn colours (18 °C); huts and lifts close."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 11.2, "nedbor": 81, "no": "Grått og vått. Mellomsesong, mye stengt.", "en": "Grey and wet. Off-season, much closed."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 6.6, "nedbor": 40, "no": "Kaldt, snø. Julemarkeder (se Vinduer); skisesongen starter.", "en": "Cold, snow. Christmas markets (see events); ski season begins."}
+  ],
+  "vinduer": [
+    {"fra_uke": 48, "til_uke": 1, "type": "Hendelse", "justering": 0.3, "no": "Julemarkeder i Bolzano og Merano (slutten av november til 6.1)", "en": "Christmas markets in Bolzano and Merano (late November to 6 Jan)"},
+    {"fra_uke": 33, "til_uke": 33, "type": "Helligdag", "justering": -0.5, "no": "Ferragosto 15.8: italiensk fellesferie, fullt og dyrt", "en": "Ferragosto 15 Aug: Italian holiday peak, full and expensive"}
+  ]
+}

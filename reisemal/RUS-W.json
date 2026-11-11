@@ -1,0 +1,34 @@
+{
+  "id": "RUS-W",
+  "region": "Europa",
+  "land": "Russland",
+  "sted": "Moskva og St. Petersburg",
+  "kortnavn": "Moskva/St. Petersburg",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [55.76, 37.62],
+  "kilde": "Moskva (VDNKh), Pogoda.ru.net 1991–2020, via Wikipedia. St. Petersburg omtrent likt, litt kjøligere om sommeren",
+  "en": {"land": "Russia", "sted": "Moscow and St Petersburg", "kortnavn": "Moscow/St Petersburg", "kategori": "City / culture", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Moscow (VDNKh), Pogoda.ru.net 1991–2020, via Wikipedia. St Petersburg similar, slightly cooler in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": -3.9, "nedbor": 53, "no": "Kaldt (−4 °C), snø og korte dager. Nyttårsferie første uka.", "en": "Cold (−4 °C), snow and short days. New Year holidays in the first week."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": -3.0, "nedbor": 44, "no": "Kaldt (−3 °C), snø. Maslenitsa (se Vinduer).", "en": "Cold (−3 °C), snow. Maslenitsa (see events)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 3.0, "nedbor": 39, "no": "Kaldt (3 °C), sludd og slaps.", "en": "Cold (3 °C), sleet and slush."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 11.7, "nedbor": 37, "no": "Kjølig (12 °C), våren kommer. Rolig.", "en": "Cool (12 °C), spring arrives. Quiet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 19.0, "nedbor": 61, "no": "Mildt (19 °C), grønt. Seiersdagen 9. mai: parade og stengte gater.", "en": "Mild (19 °C), green. Victory Day 9 May: parade and closed streets."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 22.4, "nedbor": 78, "no": "Behagelig (22 °C). Hvite netter i St. Petersburg (se Vinduer). Høysesong.", "en": "Pleasant (22 °C). White Nights in St Petersburg (see events). High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 24.7, "nedbor": 84, "no": "Varmt (25 °C), byger. Høysesong, fullt i St. Petersburg.", "en": "Warm (25 °C), showers. High season, St Petersburg full."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.7, "nedbor": 78, "no": "Varmt (23 °C), byger. Fontenene i Peterhof går.", "en": "Warm (23 °C), showers. The Peterhof fountains are running."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.4, "nedbor": 66, "no": "Kjølig (16 °C), høstfarger. Færre turister.", "en": "Cool (16 °C), autumn colours. Fewer tourists."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 8.9, "nedbor": 70, "no": "Kjølig (9 °C), regn og korte dager.", "en": "Cool (9 °C), rain and shorter days."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 1.6, "nedbor": 52, "no": "Grått og mørkt (2 °C), sludd.", "en": "Grey and dark (2 °C), sleet."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": -2.3, "nedbor": 51, "no": "Kaldt (−2 °C), snø og julelys. Kort dag.", "en": "Cold (−2 °C), snow and festive lights. Short days."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-16", "til": "2026-02-22", "type": "Hendelse", "justering": 0.3, "no": "Maslenitsa: blini, folkefest og vinterens avslutning", "en": "Maslenitsa: blini, folk festivities and the end of winter"},
+    {"fra": "2027-03-08", "til": "2027-03-14", "type": "Hendelse", "justering": 0.3, "no": "Maslenitsa: blini, folkefest og vinterens avslutning", "en": "Maslenitsa: blini, folk festivities and the end of winter"},
+    {"fra": "2028-02-21", "til": "2028-02-27", "type": "Hendelse", "justering": 0.3, "no": "Maslenitsa: blini, folkefest og vinterens avslutning", "en": "Maslenitsa: blini, folk festivities and the end of winter"},
+    {"fra_uke": 24, "til_uke": 27, "type": "Hendelse", "justering": 0.5, "no": "Hvite netter i St. Petersburg, med Scarlet Sails i slutten av juni", "en": "White Nights in St Petersburg, with Scarlet Sails in late June"}
+  ]
+}

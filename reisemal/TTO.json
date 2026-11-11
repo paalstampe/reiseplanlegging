@@ -1,0 +1,34 @@
+{
+  "id": "TTO",
+  "region": "Mellom-Amerika og Karibia",
+  "land": "Trinidad og Tobago",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Kultur / natur",
+  "merknad": "Karneval og fugleliv på Trinidad, strender på Tobago",
+  "koord": [10.7, -61.2],
+  "kilde": "Port of Spain (Piarco International Airport), NOAA 1991–2020, via Wikipedia. Tobago noe tørrere",
+  "en": {"land": "Trinidad and Tobago", "kategori": "Culture / nature", "merknad": "Carnival and birdlife on Trinidad, beaches on Tobago", "kilde": "Port of Spain (Piarco International Airport), NOAA 1991–2020, via Wikipedia. Tobago somewhat drier"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 31.0, "nedbor": 80, "no": "Tørrsesong, 31 °C. Karnevalsforberedelser, fester.", "en": "Dry season, 31 °C. Carnival build-up, fetes."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.3, "nedbor": 49, "no": "Tørt. Karneval (se Vinduer): alt fullt og dyrt.", "en": "Dry. Carnival (see events): everything full and expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.1, "nedbor": 41, "no": "Tørrest. Lærskilpadder begynner å legge egg (se Vinduer).", "en": "Driest. Leatherback turtles start nesting (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.8, "nedbor": 52, "no": "Tørt og varmt. Skilpadder, fugler på Asa Wright.", "en": "Dry and hot. Turtles, birds at Asa Wright."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 32.7, "nedbor": 109, "no": "Varmt, regnet kan starte. Skilpaddetopp.", "en": "Hot, rain may begin. Peak turtle season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 243, "no": "Regntid, byger. Skilpadder klekker.", "en": "Rainy season, showers. Turtles hatching."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.0, "nedbor": 229, "no": "Regn. Tobago Heritage Festival (se Vinduer).", "en": "Rain. Tobago Heritage Festival (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.6, "nedbor": 255, "no": "Mest regn; utenfor orkanbeltet. Emancipation Day 1.8.", "en": "Most rain; south of the hurricane belt. Emancipation Day 1 Aug."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.0, "nedbor": 179, "no": "Varmt, byger, «petit carême» (tørrere spell).", "en": "Hot, showers, “petit carême” (drier spell)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.6, "nedbor": 193, "no": "Byger. Rolig.", "en": "Showers. Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.9, "nedbor": 223, "no": "Regnfullt. Divali-lys i hindu-områdene.", "en": "Rainy. Divali lights in Hindu areas."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.2, "nedbor": 149, "no": "Regnet avtar. Parang-musikk før jul.", "en": "Rain eases. Parang music before Christmas."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-12", "til": "2026-02-17", "type": "Hendelse", "justering": 0.5, "no": "Trinidad-karnevalet (J'ouvert og parader mandag–tirsdag): fantastisk, men utsolgt", "en": "Trinidad Carnival (J'ouvert and parades Monday–Tuesday): fantastic, but sold out"},
+    {"fra": "2027-02-04", "til": "2027-02-09", "type": "Hendelse", "justering": 0.5, "no": "Trinidad-karnevalet (J'ouvert og parader mandag–tirsdag): fantastisk, men utsolgt", "en": "Trinidad Carnival (J'ouvert and parades Monday–Tuesday): fantastic, but sold out"},
+    {"fra": "2028-02-24", "til": "2028-02-29", "type": "Hendelse", "justering": 0.5, "no": "Trinidad-karnevalet (J'ouvert og parader mandag–tirsdag): fantastisk, men utsolgt", "en": "Trinidad Carnival (J'ouvert and parades Monday–Tuesday): fantastic, but sold out"},
+    {"fra_uke": 10, "til_uke": 35, "type": "Dyreliv", "justering": 0.5, "no": "Lærskilpadder legger egg ved Grande Riviere og Matura (mars–aug), best april–juni", "en": "Leatherback turtles nest at Grande Riviere and Matura (Mar–Aug), best Apr–Jun"},
+    {"fra_uke": 29, "til_uke": 31, "type": "Hendelse", "justering": 0.2, "no": "Tobago Heritage Festival (slutten av juli, sjekk dato)", "en": "Tobago Heritage Festival (late July, check dates)"}
+  ]
+}

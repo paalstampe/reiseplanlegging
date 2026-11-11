@@ -1,0 +1,32 @@
+{
+  "id": "DZA",
+  "region": "Afrika",
+  "land": "Algerie",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Historie / natur",
+  "merknad": "Sahara (Djanet, Tassili n'Ajjer) best nov–feb, kun med lokal guide",
+  "koord": [36.75, 3.06],
+  "kilde": "Alger (Houari Boumediene lufthavn), NOAA 1991–2020, via Wikipedia. Sahara (Djanet): 20–26 °C nov–feb, over 36 °C mai–sep",
+  "en": {"land": "Algeria", "kategori": "History / nature", "merknad": "Sahara (Djanet, Tassili n'Ajjer) best Nov–Feb, only with a local guide", "kilde": "Algiers (Houari Boumediene Airport), NOAA 1991–2020, via Wikipedia. Sahara (Djanet): 20–26 °C Nov–Feb, above 36 °C May–Sep"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 17.1, "nedbor": 84, "no": "Kjølig og regn i nord (17 °C). Fint i Sahara (Djanet 20 °C).", "en": "Cool and rainy in the north (17 °C). Fine in the Sahara (Djanet 20 °C)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 17.5, "nedbor": 72, "no": "Kjølig i nord, behagelig i Sahara. Få turister.", "en": "Cool in the north, pleasant in the Sahara. Few tourists."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 19.7, "nedbor": 59, "no": "Mildt (20 °C), grønt i nord. Fortsatt fint i Sahara.", "en": "Mild (20 °C), green in the north. Still fine in the Sahara."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 21.8, "nedbor": 58, "no": "Behagelig (22 °C); blomstring ved Djemila og Timgad. Sahara blir varm.", "en": "Pleasant (22 °C); flowers at Djemila and Timgad. The Sahara gets hot."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 25.0, "nedbor": 39, "no": "Varmt og tørt (25 °C). Sahara for varmt.", "en": "Warm and dry (25 °C). Too hot in the Sahara."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 29.0, "nedbor": 9, "no": "Varmt (29 °C); strandsesongen starter.", "en": "Hot (29 °C); beach season begins."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 3, "tmaks": 32.1, "nedbor": 2, "no": "Varmt (32 °C), sterk hete i innlandet. Fullt ved kysten.", "en": "Hot (32 °C), intense heat inland. Coast busy."},
+    {"klima": 3, "opplevelse": 2, "trengsel": 3, "tmaks": 32.9, "nedbor": 11, "no": "Varmest (33 °C). Algerisk ferietid – fullt ved kysten.", "en": "Hottest (33 °C). Algerian holidays – coast busy."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.8, "nedbor": 28, "no": "Varmt (30 °C), roligere.", "en": "Warm (30 °C), quieter."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 26.5, "nedbor": 52, "no": "Behagelig (27 °C) i nord; Sahara-sesongen starter.", "en": "Pleasant (27 °C) in the north; Sahara season begins."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 21.2, "nedbor": 103, "no": "Mest regn i nord (103 mm). Fint i Sahara.", "en": "Wettest in the north (103 mm). Fine in the Sahara."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 18.2, "nedbor": 86, "no": "Kjølig og regn i nord. Jul/nyttår i Djanet populært.", "en": "Cool and rainy in the north. Christmas/New Year in Djanet popular."}
+  ],
+  "vinduer": [
+    {"fra": "2026-06-24", "til": "2026-06-26", "type": "Hendelse", "justering": 0.2, "no": "Sebeiba i Djanet (UNESCO), tuareg-dans ved ashura – men svært varmt (sjekk dato)", "en": "Sebeiba in Djanet (UNESCO), Tuareg dance at Ashura – but very hot (check date)"},
+    {"fra": "2027-06-14", "til": "2027-06-16", "type": "Hendelse", "justering": 0.2, "no": "Sebeiba i Djanet ved ashura (sjekk dato)", "en": "Sebeiba in Djanet at Ashura (check date)"},
+    {"fra": "2028-06-02", "til": "2028-06-04", "type": "Hendelse", "justering": 0.2, "no": "Sebeiba i Djanet ved ashura (sjekk dato)", "en": "Sebeiba in Djanet at Ashura (check date)"}
+  ]
+}

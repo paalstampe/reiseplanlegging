@@ -1,0 +1,30 @@
+{
+  "id": "TJK",
+  "region": "Asia",
+  "land": "Tadsjikistan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / roadtrip",
+  "merknad": "Pamir Highway krever GBAO-tillatelse; høyfjellet best juni–september",
+  "koord": [37.49, 71.55],
+  "kilde": "Khorog (2 075 moh, Pamir), Pogoda.ru.net 1991–2020, via Wikipedia. Dushanbe varmere (36 °C i juli), Murghab mye kaldere",
+  "en": {"land": "Tajikistan", "kategori": "Nature / road trip", "merknad": "The Pamir Highway requires a GBAO permit; the high mountains are best June–September", "kilde": "Khorog (2,075 m, Pamir), Pogoda.ru.net 1991–2020, via Wikipedia. Dushanbe hotter (36 °C in July), Murghab much colder"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -1.4, "nedbor": 30, "no": "Vinter i Pamir, pass stengt. Dushanbe mildt (9 °C).", "en": "Winter in the Pamirs, passes closed. Dushanbe mild (9 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 1.2, "nedbor": 32, "no": "Vinter, snø og ras i fjellet.", "en": "Winter, snow and avalanches in the mountains."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 7.6, "nedbor": 32, "no": "Kaldt i Pamir, vår i Dushanbe. Navruz (se Vinduer).", "en": "Cold in the Pamirs, spring in Dushanbe. Navruz (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 16.2, "nedbor": 34, "no": "Grønt i lavlandet; høye pass fortsatt snødekte.", "en": "Green in the lowlands; high passes still snowbound."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.9, "nedbor": 26, "no": "Fann-fjellene åpner; Pamir-passene åpner etter hvert.", "en": "Fann Mountains open; Pamir passes gradually open."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.8, "nedbor": 11, "no": "Tørt og fint. Pamir Highway og Wakhan åpne.", "en": "Dry and fine. Pamir Highway and Wakhan open."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 30.2, "nedbor": 3, "no": "Høysesong i Pamir. Dushanbe svært varmt (36 °C).", "en": "Peak season in the Pamirs. Dushanbe very hot (36 °C)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 30.4, "nedbor": 1, "no": "Som juli; trekking i Fann og Pamir.", "en": "As July; trekking in the Fann and the Pamirs."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.3, "nedbor": 1, "no": "Klart, kjøligere netter. Beste måned.", "en": "Clear, cooler nights. Best month."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 18.3, "nedbor": 11, "no": "Høstfarger i dalene; frost i høyfjellet.", "en": "Autumn colours in the valleys; frost up high."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.3, "nedbor": 18, "no": "Kaldt, passene kan stenge.", "en": "Cold, passes may close."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 2.3, "nedbor": 22, "no": "Vinter.", "en": "Winter."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 12, "type": "Hendelse", "justering": 0.3, "no": "Navruz 21.3: feiring, offentlig fri", "en": "Navruz 21 Mar: celebrations, public holiday"}
+  ]
+}

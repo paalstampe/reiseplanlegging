@@ -1,0 +1,31 @@
+{
+  "id": "EGY-RED",
+  "region": "Afrika",
+  "land": "Egypt",
+  "sted": "Rødehavet (dykking)",
+  "kortnavn": "Rødehavet, Egypt",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / dykking",
+  "merknad": "",
+  "koord": [27.26, 33.81],
+  "kilde": "Hurghada lufthavn, NOAA 1991–2020, via Wikipedia. Sjøen ca. 22 °C i februar, 28 °C i august–september; Marsa Alam lenger sør litt varmere",
+  "en": {"land": "Egypt", "sted": "Red Sea (diving)", "kortnavn": "Red Sea, Egypt", "kategori": "Beach / diving", "kilde": "Hurghada airport, NOAA 1991–2020, via Wikipedia. Sea approx. 22 °C in February, 28 °C in August–September; Marsa Alam further south slightly warmer"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 22.2, "nedbor": 1, "no": "Mildt (22 °C), vind; sjøen 22 °C (tykk våtdrakt). Vintersol.", "en": "Mild (22 °C), windy; sea 22 °C (thick wetsuit). Winter sun."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 23.5, "nedbor": 0, "no": "Kaldeste sjø (21–22 °C). Vinterferie.", "en": "Coldest sea (21–22 °C). Winter half-term."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 26.2, "nedbor": 1, "no": "Behagelig (26 °C), sjøen varmes opp.", "en": "Pleasant (26 °C), the sea warms up."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.9, "nedbor": 0, "no": "Varmt (30 °C), god sikt. Påskeferie gir mye folk.", "en": "Warm (30 °C), good visibility. Easter holidays bring crowds."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 33.7, "nedbor": 0, "no": "Varmt (34 °C), sjøen 25 °C. Godt dykkevær.", "en": "Hot (34 °C), sea 25 °C. Good diving weather."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 4, "tmaks": 36.3, "nedbor": 0, "no": "Hett på land (36 °C), flott under vann.", "en": "Hot on land (36 °C), great underwater."},
+    {"klima": 2, "opplevelse": 5, "trengsel": 2, "tmaks": 37.4, "nedbor": 0, "no": "Hett (37 °C), varm sjø. Sommerferie – fullt.", "en": "Hot (37 °C), warm sea. Summer holidays – full."},
+    {"klima": 2, "opplevelse": 5, "trengsel": 2, "tmaks": 37.5, "nedbor": 0, "no": "Hett; sjøen varmest (28 °C). Fullt.", "en": "Hot; warmest sea (28 °C). Full."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 35.3, "nedbor": 0, "no": "Varmt (35 °C), sjøen 28 °C. Roligere.", "en": "Hot (35 °C), sea 28 °C. Quieter."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.1, "nedbor": 2, "no": "Varm luft og sjø. Oseaniske hvittipphaier (se Vinduer). Høstferie.", "en": "Warm air and sea. Oceanic whitetip sharks (see events). Autumn half-term."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 27.8, "nedbor": 2, "no": "Behagelig (28 °C), sjøen 25 °C.", "en": "Pleasant (28 °C), sea 25 °C."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 23.8, "nedbor": 1, "no": "Mildt (24 °C). Jul/nyttår – dyrt og fullt.", "en": "Mild (24 °C). Christmas/New Year – expensive and full."}
+  ],
+  "vinduer": [
+    {"fra_uke": 40, "til_uke": 49, "type": "Dyreliv", "justering": 0.3, "no": "Oseaniske hvittipphaier ved Brothers, Daedalus og Elphinstone (safaribåt)", "en": "Oceanic whitetip sharks at the Brothers, Daedalus and Elphinstone (liveaboard)"}
+  ]
+}

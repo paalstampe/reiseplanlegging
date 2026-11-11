@@ -1,0 +1,28 @@
+{
+  "id": "BDI",
+  "region": "Afrika",
+  "land": "Burundi",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / kultur",
+  "merknad": "",
+  "koord": [-3.38, 29.36],
+  "kilde": "Bujumbura, WMO 1991–2020, via Wikipedia. Høylandet (Gitega, Kibira) 5–8 °C kjøligere",
+  "en": {"land": "Burundi", "kategori": "Nature / culture", "kilde": "Bujumbura, WMO 1991–2020, via Wikipedia. The highlands (Gitega, Kibira) 5–8 °C cooler"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 28.5, "nedbor": 95, "no": "Regntid (95 mm), varmt ved Tanganyikasjøen.", "en": "Rainy season (95 mm), warm by Lake Tanganyika."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 28.5, "nedbor": 102, "no": "Regntid, av og til tørrere perioder.", "en": "Rainy season, occasional drier spells."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 28.6, "nedbor": 122, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 28.3, "nedbor": 135, "no": "Mest regn (135 mm); gjørmete veier i høylandet.", "en": "Wettest (135 mm); muddy roads in the highlands."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 28.6, "nedbor": 55, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 28.9, "nedbor": 8, "no": "Tørrsesong. Strender ved Tanganyikasjøen, sjimpanser i Kibira.", "en": "Dry season. Lake Tanganyika beaches, chimpanzees in Kibira."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 28.8, "nedbor": 4, "no": "Tørrest. Beste reisetid.", "en": "Driest. Best time to visit."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 29.8, "nedbor": 12, "no": "Tørt og varmt (30 °C).", "en": "Dry and warm (30 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 5, "tmaks": 30.3, "nedbor": 42, "no": "Varmest (30 °C), første regn.", "en": "Warmest (30 °C), first rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 29.7, "nedbor": 90, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 28.3, "nedbor": 142, "no": "Mest regn i høstsesongen (142 mm).", "en": "Wettest month of the autumn rains (142 mm)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 28.2, "nedbor": 115, "no": "Regntid.", "en": "Rainy season."}
+  ],
+  "vinduer": []
+}
