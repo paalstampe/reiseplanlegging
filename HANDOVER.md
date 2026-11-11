@@ -91,7 +91,7 @@ Se NOTES.md (Status nå og Åpne spørsmål).
 - Vekter 40/40/20 beholdes. Veto myket opp til tak 1,5.
 - Trengsel/pris beholdes som én dimensjon.
 - «Timbuktu» var feil – skal være Katmandu (Nepal: Katmandu, Pokhara).
-- «Stan-land» slått sammen med Silkeveien (ID SILK). Rute avklares ved populering.
+- «Stan-land» slått sammen med Silkeveien (ID SILK). Rute avklares ved populering. (11.11.2026: SILK er blitt Usbekistan, UZB; de andre fire får egne reisemål.)
 - Sri Lanka splittet: LKA-SV (vest/sør + høylandet) og LKA-O (østkysten).
 - Hawaii og Charleston på egne rader (også i .md).
 - Dubletter ryddet i .md (Etiopia, Egypt, São Tomé og Príncipe).
@@ -99,7 +99,8 @@ Se NOTES.md (Status nå og Åpne spørsmål).
 - Filer flyttet til undermappen Reiseplanlegging; «Delt med Claude» og gamle versjoner slettet.
 
 ## Navneendringer (27.09.2026)
-- USA-WC → «USA Nordvestkyst – San Francisco til Vancouver»; USA-HI → «Hawaii»; MEX-CDMX → «Mexico City»; EGY → «Egypt – Kairo, Luxor»; SILK → «Sentral-Asia – Silkeveien»; SGP → «Singapore».
+- USA-WC → «USA Nordvestkyst – San Francisco til Vancouver»; USA-HI → «Hawaii»; MEX-CDMX → «Mexico City» (11.11.2026: land og sted
+  skilt: USA – Nordvestkysten, USA – Hawaii, Mexico – Mexico City); EGY → «Egypt – Kairo, Luxor»; SILK → «Sentral-Asia – Silkeveien»; SGP → «Singapore».
 - USA-CHS → «USA – Savannah-Charleston»: dekker Georgia/South Carolina-kysten generelt; klima = snitt av Charleston og Savannah/Hilton Head (NOAA 1991–2020), koordinat midt mellom byene.
 - Kartetiketter bruker nå tankestrek mellom land og sted (f.eks. «Brasil – Rio og nordover»).
 - Brødsmuler øverst i sidepanelet («stam.pe / Reiseplanlegging», stam.pe lenker til landingssiden) erstatter kickeren «Reisekalender · 40 reisemål» – samme stil som i byguidene.

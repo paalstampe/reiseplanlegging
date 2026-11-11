@@ -38,14 +38,18 @@ def leggTilFelles(per_id):
     with open(FELLES, encoding="utf-8") as fil:
         felles = json.load(fil)["vinduer"]
     for i, v in enumerate(felles, 1):
-        for g in v.get("gjelder", []):
+        feil = sjekk_vindu(v, i) + ([] if v.get("gjelder") else [f"vindu {i} mangler gjelder"])
+        if feil:
+            raise SystemExit(f"felles_vinduer.json («{v.get('no', '')}»): " + "; ".join(feil))
+        for g in v["gjelder"]:
             idd, overstyr = (g, {}) if isinstance(g, str) else (g.get("id"), {k: x for k, x in g.items() if k != "id"})
             if idd not in per_id:
-                raise SystemExit(f"felles_vinduer.json: vindu {i} gjelder ukjent reisemål {idd}")
-            per_id[idd]["vinduer"].append({**{k: x for k, x in v.items() if k != "gjelder"}, **overstyr, "felles": True})
-        feil = sjekk_vindu(v, i)
-        if feil or not v.get("gjelder"):
-            raise SystemExit("felles_vinduer.json: " + "; ".join(feil or [f"vindu {i} mangler gjelder"]))
+                raise SystemExit(f"felles_vinduer.json («{v['no']}»): ukjent reisemål {idd}")
+            ny = {**{k: x for k, x in v.items() if k != "gjelder"}, **overstyr, "felles": True}
+            # Samme vindu to ganger (dobbelt i gjelder, eller også i reisemålets egen fil) ville gitt dobbel justering.
+            if any((w.get("fra"), w.get("fra_uke"), w["type"]) == (ny.get("fra"), ny.get("fra_uke"), ny["type"]) for w in per_id[idd]["vinduer"]):
+                raise SystemExit(f"felles_vinduer.json («{v['no']}»): {idd} har allerede et {ny['type'].lower()}svindu med samme start")
+            per_id[idd]["vinduer"].append(ny)
 
 def sjekk_vindu(v, i):
     feil = [f"vindu {i} mangler {f}" for f in VINDUSFELT if f not in v]
