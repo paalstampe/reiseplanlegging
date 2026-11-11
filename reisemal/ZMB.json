@@ -1,0 +1,28 @@
+{
+  "id": "ZMB",
+  "region": "Afrika",
+  "land": "Zambia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Safari",
+  "merknad": "Evt. kombinert med Botswana/Zimbabwe (Victoria Falls)",
+  "koord": [-13.1, 31.8],
+  "kilde": "Livingstone, NOAA 1991–2020, via Wikipedia. South Luangwa: samme mønster, noe hetere okt",
+  "en": {"land": "Zambia", "kategori": "Safari", "merknad": "Possibly combined with Botswana/Zimbabwe (Victoria Falls)", "kilde": "Livingstone, NOAA 1991–2020, via Wikipedia. South Luangwa: same pattern, somewhat hotter in Oct"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.9, "nedbor": 175, "no": "Regntid; mange leire i South Luangwa stengt.", "en": "Rainy season; many camps in South Luangwa closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.7, "nedbor": 133, "no": "Regntid; Victoriafallene stiger.", "en": "Rainy season; Victoria Falls rising."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.1, "nedbor": 83, "no": "Regnet avtar; fallene nær toppen.", "en": "Rain eases; the falls near their peak."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 20, "no": "Tørrere; fallene på topp (mye spray).", "en": "Drier; the falls at their peak (lots of spray)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 29.0, "nedbor": 2, "no": "Tørrsesongen starter; grønt.", "en": "Dry season begins; green."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.5, "nedbor": 0, "no": "Tørt og behagelig; gåsafari starter.", "en": "Dry and pleasant; walking safaris begin."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.1, "nedbor": 0, "no": "Tørt, kjølige netter. Høysesong.", "en": "Dry, cool nights. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.8, "nedbor": 0, "no": "Tørt, viltet samles; Devil's Pool åpner.", "en": "Dry, game gathering; Devil's Pool opens."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 33.6, "nedbor": 1, "no": "Toppvilt, varmere.", "en": "Peak game, warmer."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 35.6, "nedbor": 11, "no": "Hetest (36 °C), men toppvilt ved vannet.", "en": "Hottest (36 °C), but peak game by the water."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 33.9, "nedbor": 78, "no": "Regnet starter; leire stenger.", "en": "Rain begins; camps close."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.5, "nedbor": 142, "no": "Regntid; grønn sesong.", "en": "Rainy season; green season."}
+  ],
+  "vinduer": []
+}

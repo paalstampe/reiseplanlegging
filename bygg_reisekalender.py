@@ -2,7 +2,7 @@
 # Krever openpyxl. Formler beregnes når filen åpnes i Excel.
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import reisedata as RD
+import reisemal
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.formatting.rule import ColorScaleRule, FormulaRule
@@ -23,10 +23,10 @@ wb=Workbook()
 lm=wb.active; lm.title="Les meg"
 rows=[
 ("Reisekalender – beste tid for reisemål",TITLE),
-("Mock-up. Masterliste = «Reise - utenfor Europa.md». Klimatall er omtrentlige og verifiseres ved populering.",f(italic=True)),
+("Mock-up. Data = reisemal/<ID>.json. Klimatall er omtrentlige og verifiseres ved populering.",f(italic=True)),
 ("",None),
 ("Flyt",BOLD),
-("1. Destinasjoner – én rad per reisemål (fra .md-filen). ID brukes som nøkkel i alle andre ark.",NORM),
+("1. Destinasjoner – én rad per reisemål (fra reisemal/). ID brukes som nøkkel i alle andre ark.",NORM),
 ("2. Måned – 12 rader per destinasjon med delscorer, T/N og begrunnelse. Samlet score beregnes.",NORM),
 ("3. Vinduer – ukesavgrensede justeringer (hendelser, dyreliv, helligdager). Legges oppå månedsscoren.",NORM),
 ("4. Kalender – generert heatmap destinasjon × ISO-uke. Marker egne tilgjengelige uker med «x» i rad 7.",NORM),
@@ -63,74 +63,33 @@ lm.sheet_view.showGridLines=False
 
 # ---------------- Destinasjoner ----------------
 d=wb.create_sheet("Destinasjoner")
-d["A1"]="Destinasjoner (master: .md-filen)"; d["A1"].font=TITLE
+d["A1"]="Destinasjoner (fra reisemal/)"; d["A1"].font=TITLE
 hdr=["ID","Region","Land","Sted / fokus","Visningsnavn","Status","Kategori","Varighet (dager)","Data i Måned","Merknad","Klimakilde (stasjon, periode)"]
 for j,h in enumerate(hdr,1):
     c=d.cell(4,j,h); c.font=BOLD; c.fill=HDR
-AS="Asia, Oseania og Midt-Østen"; NA="Nord-Amerika"; SA="Sør- og Mellom-Amerika"; AF="Afrika"
-dest=[
-("BTN",AS,"Bhutan","","","","",""),
-("MMR",AS,"Myanmar","","","","",""),
-("LAO",AS,"Laos","","","","",""),
-("NPL",AS,"Nepal","Katmandu, Pokhara","","","",""),
-("IND-GOA",AS,"India","Goa","","","",""),
-("LKA-SV",AS,"Sri Lanka","Vest- og sørkysten, høylandet","","","","Sørvestmonsun mai–sep; best des–apr"),
-("LKA-O",AS,"Sri Lanka","Østkysten (Trincomalee, Arugam Bay)","","","","Nordøstmonsun okt–jan; best mai–sep"),
-("CHN",AS,"Kina","Beijing, Shanghai","","","",""),
-("PYF",AS,"Fransk Polynesia","","","","",""),
-("YEM-SOC",AS,"Yemen","Socotra","","","",""),
-("VNM",AS,"Vietnam","Reunification Express + Hue","Ikke besøkt","Kultur / by / tog",14,"Hele landet langs ruten; Hue (sentral-Vietnam) er begrensende faktor for klima"),
-("SILK",AS,"Sentral-Asia","Silkeveien","","","","Rute avklares (Usbekistan, Kirgisistan, Kasakhstan, Tadsjikistan, Turkmenistan)"),
-("IDN-ROT",AS,"Indonesia","Rote","","","",""),
-("SGP",AS,"Singapore","","","","",""),
-("PHL",AS,"Filippinene","","","","",""),
-("PNG",AS,"Papua Ny-Guinea","","","","",""),
-("TLS",AS,"Øst-Timor","","","","",""),
-("LBN",AS,"Libanon","","","","",""),
-("USA-WC",NA,"USA Nordvestkyst","San Francisco til Vancouver","","","",""),
-("USA-HI",NA,"Hawaii","","","","",""),
-("USA-CHS",NA,"USA","Savannah-Charleston","","","",""),
-("CRI",SA,"Costa Rica","","","","",""),
-("PAN",SA,"Panama","","","","",""),
-("COL",SA,"Colombia","","","","",""),
-("DOM",SA,"Den dominikanske republikk","","","","",""),
-("BRA-NE",SA,"Brasil","Rio og nordover","","","",""),
-("ECU-GAL",SA,"Ecuador","Galápagos","","","",""),
-("ATA",SA,"Antarktis","Antarktishalvøya (via Ushuaia)","Ikke besøkt","Natur / ekspedisjon",11,"Kun ekspedisjonscruise nov–mars"),
-("MEX-CDMX",SA,"Mexico City","","","","",""),
-("RWA",AF,"Rwanda","","","","",""),
-("GAB",AF,"Gabon","","","","",""),
-("GHA",AF,"Ghana","","","","",""),
-("ETH",AF,"Etiopia","","","","",""),
-("BWA",AF,"Botswana","Okavango, Chobe","Ikke besøkt","Safari",10,"Evt. kombinert med Zambia/Zimbabwe (Victoria Falls)"),
-("ZMB",AF,"Zambia","","","","",""),
-("ZWE",AF,"Zimbabwe","","","","",""),
-("STP",AF,"São Tomé og Príncipe","","","","",""),
-("EGY",AF,"Egypt","Kairo, Luxor","","","",""),
-("BEN",AF,"Benin","","","","",""),
-("TGO",AF,"Togo","","","","",""),
-]
+alle=reisemal.last()
+win=[reisemal.vindu(x,w) for x in alle for w in x["vinduer"]]
+# Formelområdene vokser med dataene (12 rader per reisemål i Måned, ett per vindu i Vinduer), med plass til nye rader.
+MSLUTT=max(2000,5+12*(len(alle)+20)); VSLUTT=max(300,5+len(win)+100)
 r0=5
-for i,row in enumerate(dest):
+for i,x in enumerate(alle):
     r=r0+i
-    idd,reg,land,sted,stat,kat,var,mer=row
-    kat=kat or RD.KATEGORI.get(idd,""); mer=mer or RD.MERKNAD.get(idd,"")
-    kilde=RD.MANED[idd][0] if idd in RD.MANED else None
-    vals={1:idd,2:reg,3:land,4:sted or None,6:stat or "Ikke besøkt",7:kat or None,8:var or None,10:mer or None,11:kilde}
+    vals={1:x["id"],2:x["region"],3:x["land"],4:x["sted"] or None,6:x["status"],7:x["kategori"] or None,
+          8:x.get("varighet"),10:x["merknad"] or None,11:x["kilde"]}
     for col,v in vals.items():
         c=d.cell(r,col,v); c.font=BLUE
     d.cell(r,5,f'=IF(A{r}="","",C{r}&IF(D{r}<>""," – "&D{r},""))').font=NORM
-    d.cell(r,9,f'=IF(A{r}="","",IF(COUNTIF(Måned!$A$5:$A$2000,A{r})>0,"Ja",""))').font=NORM
-last_dest=r0+len(dest)-1
+    d.cell(r,9,f'=IF(A{r}="","",IF(COUNTIF(Måned!$A$5:$A${MSLUTT},A{r})>0,"Ja",""))').font=NORM
+last_dest=r0+len(alle)-1
 for r in range(last_dest+1,last_dest+21):  # spare rows
     d.cell(r,5,f'=IF(A{r}="","",C{r}&IF(D{r}<>""," – "&D{r},""))').font=NORM
-    d.cell(r,9,f'=IF(A{r}="","",IF(COUNTIF(Måned!$A$5:$A$2000,A{r})>0,"Ja",""))').font=NORM
+    d.cell(r,9,f'=IF(A{r}="","",IF(COUNTIF(Måned!$A$5:$A${MSLUTT},A{r})>0,"Ja",""))').font=NORM
 DEND=last_dest+20
 dv=DataValidation(type="list",formula1='"Ikke besøkt,Planlagt,Booket,Besøkt"',allow_blank=True)
 d.add_data_validation(dv); dv.add(f"F5:F{DEND}")
 for col,w in zip("ABCDEFGHIJK",[10,26,24,30,40,12,18,10,10,50,60]): d.column_dimensions[col].width=w
 d.freeze_panes="B5"; d.auto_filter.ref=f"A4:K{DEND}"
-d["A2"]="Legg nye destinasjoner nederst (reserverte rader har formler). ID må være unik.";d["A2"].font=f(italic=True)
+d["A2"]="Generert fra reisemal/<ID>.json av bygg_reisekalender.py. Nye reisemål og endringer gjøres der, ikke her.";d["A2"].font=f(italic=True)
 
 # ---------------- Måned ----------------
 m=wb.create_sheet("Måned")
@@ -141,9 +100,10 @@ for j,h in enumerate(mh,1):
     c=m.cell(4,j,h); c.font=BOLD; c.fill=HDR
 mnames=["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"]
 r=5
-for idd in [x[0] for x in dest if x[0] in RD.MANED]:
-    for mi,row in enumerate(RD.MANED[idd][1],1):
-        k,o,t,T,N,txt=row
+for x in alle:
+    idd=x["id"]
+    for mi,mm in enumerate(x["maneder"],1):
+        k,o,t,T,N,txt=(mm[f] for f in reisemal.MANEDSFELT)
         m.cell(r,1,idd).font=BLUE
         m.cell(r,2,f'=IFERROR(INDEX(Destinasjoner!$E$5:$E${DEND},MATCH(A{r},Destinasjoner!$A$5:$A${DEND},0)),"")').font=NORM
         m.cell(r,3,mi).font=BLUE
@@ -155,8 +115,8 @@ for idd in [x[0] for x in dest if x[0] in RD.MANED]:
         r+=1
 MEND=r-1
 dvs=DataValidation(type="whole",operator="between",formula1="1",formula2="5",allow_blank=True)
-m.add_data_validation(dvs); dvs.add("E5:G2000")
-m.conditional_formatting.add("E5:H2000",ColorScaleRule(start_type="num",start_value=1,start_color="F8696B",mid_type="num",mid_value=3,mid_color="FFEB84",end_type="num",end_value=5,end_color="63BE7B"))
+m.add_data_validation(dvs); dvs.add(f"E5:G{MSLUTT}")
+m.conditional_formatting.add(f"E5:H{MSLUTT}",ColorScaleRule(start_type="num",start_value=1,start_color="F8696B",mid_type="num",mid_value=3,mid_color="FFEB84",end_type="num",end_value=5,end_color="63BE7B"))
 for col,w in zip("ABCDEFGHIJK",[10,40,6,7,8,11,13,9,10,11,70]): m.column_dimensions[col].width=w
 m.freeze_panes="C5"; m.auto_filter.ref=f"A4:K{MEND}"
 
@@ -167,16 +127,15 @@ v["A2"]="Fra > Til = går over nyttår. «Kun år» tom = gjelder hvert år (for
 vh=["ID","Destinasjon","Fra uke","Til uke","Type","Justering (±)","Kun år","Beskrivelse"]
 for j,h in enumerate(vh,1):
     c=v.cell(4,j,h); c.font=BOLD; c.fill=HDR
-win=RD.VINDUER
 for i,row in enumerate(win):
     r=5+i
     for col,val in zip([1,3,4,5,6,7,8],row):
         c=v.cell(r,col,val); c.font=BLUE
     v.cell(r,2,f'=IFERROR(INDEX(Destinasjoner!$E$5:$E${DEND},MATCH(A{r},Destinasjoner!$A$5:$A${DEND},0)),"")').font=NORM
-for r in range(5+len(win),60):
+for r in range(5+len(win),VSLUTT):
     v.cell(r,2,f'=IF(A{r}="","",IFERROR(INDEX(Destinasjoner!$E$5:$E${DEND},MATCH(A{r},Destinasjoner!$A$5:$A${DEND},0)),"?"))').font=NORM
 dvt=DataValidation(type="list",formula1='"Klima,Dyreliv,Hendelse,Helligdag,Stengt,Annet"',allow_blank=True)
-v.add_data_validation(dvt); dvt.add("E5:E300")
+v.add_data_validation(dvt); dvt.add(f"E5:E{VSLUTT}")
 for col,w in zip("ABCDEFGH",[10,40,8,8,12,12,8,80]): v.column_dimensions[col].width=w
 v.freeze_panes="C5"
 
@@ -211,8 +170,8 @@ kh=["ID","Destinasjon","Region","Snitt mine uker","Laveste mine uker"]
 for j,h in enumerate(kh,1):
     c=k.cell(8,j,h); c.font=BOLD; c.fill=HDR; c.alignment=Alignment(wrap_text=True,vertical="center")
 for col in range(FC,LC+1): k.cell(8,col).fill=HDR
-MA=f"Måned!$A$5:$A$2000"; MC=f"Måned!$C$5:$C$2000"; MH=f"Måned!$H$5:$H$2000"
-VA,VC,VD,VF,VG=[f"Vinduer!${c}$5:${c}$300" for c in "ACDFG"]
+MA=f"Måned!$A$5:$A${MSLUTT}"; MC=f"Måned!$C$5:$C${MSLUTT}"; MH=f"Måned!$H$5:$H${MSLUTT}"
+VA,VC,VD,VF,VG=[f"Vinduer!${c}$5:${c}${VSLUTT}" for c in "ACDFG"]
 KR0=9
 nrows=DEND-5+1
 for i in range(nrows):

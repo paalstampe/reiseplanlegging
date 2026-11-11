@@ -1,0 +1,30 @@
+{
+  "id": "LBN",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Libanon",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "By / kultur / mat",
+  "merknad": "Sikkerhet: sjekk UDs reiseråd",
+  "koord": [33.89, 35.5],
+  "kilde": "Beirut lufthavn, via Wikipedia (periode ikke oppgitt)",
+  "en": {"land": "Lebanon", "kategori": "City / culture / food", "merknad": "Safety: check Norwegian MFA travel advice", "kilde": "Beirut airport, via Wikipedia (period not stated)"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 17.4, "nedbor": 154, "no": "Regn og kjølig; ski i fjellene.", "en": "Rain and cool; skiing in the mountains."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 17.5, "nedbor": 127, "no": "Regn; ski.", "en": "Rain; skiing."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 19.6, "nedbor": 84, "no": "Mildere og grønt; ski og by i samme tur.", "en": "Milder and green; skiing and city in the same trip."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 22.6, "nedbor": 31, "no": "Vår og blomstring, behagelig.", "en": "Spring and blossom, pleasant."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 25.4, "nedbor": 11, "no": "Ideelt: varmt og tørt.", "en": "Ideal: warm and dry."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.9, "nedbor": 1, "no": "Varmt; strandsesongen starter.", "en": "Hot; beach season begins."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 30.0, "nedbor": 0, "no": "Varmt og fuktig; diasporaen hjemme – dyrt. Baalbek-festivalen.", "en": "Hot and humid; the diaspora is home – expensive. Baalbek festival."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 30.7, "nedbor": 0, "no": "Varmt og fuktig, høysesong.", "en": "Hot and humid, high season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.8, "nedbor": 5, "no": "Varmt hav, lavere fuktighet.", "en": "Warm sea, lower humidity."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 27.5, "nedbor": 60, "no": "Behagelig; vinhøst i Bekaa.", "en": "Pleasant; grape harvest in the Bekaa."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 23.2, "nedbor": 115, "no": "Første regn.", "en": "First rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 19.4, "nedbor": 141, "no": "Regn og kjølig.", "en": "Rain and cool."}
+  ],
+  "vinduer": [
+    {"fra_uke": 29, "til_uke": 32, "type": "Hendelse", "justering": 0.3, "no": "Baalbek International Festival (juli–aug, sjekk program)", "en": "Baalbek International Festival (Jul–Aug, check programme)"}
+  ]
+}

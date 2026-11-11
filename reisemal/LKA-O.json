@@ -1,0 +1,28 @@
+{
+  "id": "LKA-O",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Sri Lanka",
+  "sted": "Østkysten (Trincomalee, Arugam Bay)",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Strand / surf",
+  "merknad": "Nordøstmonsun okt–jan; best mai–sep",
+  "koord": [8.57, 81.23],
+  "kilde": "Trincomalee, 1991–2020, via Wikipedia",
+  "en": {"land": "Sri Lanka", "sted": "East coast (Trincomalee, Arugam Bay)", "kategori": "Beach / surf", "merknad": "Northeast monsoon Oct–Jan; best May–Sep", "kilde": "Trincomalee, 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 28.9, "nedbor": 152, "no": "Nordøstmonsun, grov sjø.", "en": "Northeast monsoon, rough sea."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.1, "nedbor": 96, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.7, "nedbor": 72, "no": "Tørrere, roligere hav.", "en": "Drier, calmer sea."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 33.4, "nedbor": 55, "no": "Tørt og varmt.", "en": "Dry and hot."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 35.2, "nedbor": 48, "no": "Sesongstart: rolig sjø, snorkling ved Pigeon Island.", "en": "Season starts: calm sea, snorkelling at Pigeon Island."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 35.4, "nedbor": 26, "no": "Tørt og varmt (35 °C). Surfesesong Arugam Bay.", "en": "Dry and hot (35 °C). Surf season at Arugam Bay."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 35.3, "nedbor": 51, "no": "Toppsesong på østkysten.", "en": "Peak season on the east coast."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 35.3, "nedbor": 67, "no": "Toppsesong; surf og hval.", "en": "Peak season; surf and whales."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 34.8, "nedbor": 113, "no": "Fortsatt fint, sesongslutt.", "en": "Still good, end of season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.4, "nedbor": 216, "no": "Monsunen starter.", "en": "Monsoon begins."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 29.8, "nedbor": 376, "no": "Topp regn (376 mm). Mange hoteller stengt.", "en": "Peak rain (376 mm). Many hotels closed."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 28.8, "nedbor": 339, "no": "Monsun.", "en": "Monsoon."}
+  ],
+  "vinduer": []
+}

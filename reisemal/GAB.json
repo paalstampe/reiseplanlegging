@@ -1,0 +1,28 @@
+{
+  "id": "GAB",
+  "region": "Afrika",
+  "land": "Gabon",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-2.3, 9.6],
+  "kilde": "Libreville, NOAA 1991–2020, via Wikipedia. Loango har samme sesongmønster",
+  "en": {"land": "Gabon", "kategori": "Nature / wildlife", "kilde": "Libreville, NOAA 1991–2020, via Wikipedia. Loango has the same seasonal pattern"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 243, "no": "Kortere tørrere periode; havskilpadder legger egg.", "en": "Shorter drier spell; sea turtles nesting."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.1, "nedbor": 236, "no": "Skilpadder; noe regn.", "en": "Turtles; some rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.1, "nedbor": 338, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.1, "nedbor": 344, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.6, "nedbor": 246, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.9, "nedbor": 15, "no": "Tørrsesong, overskyet og kjølig.", "en": "Dry season, overcast and cool."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.8, "nedbor": 5, "no": "Tørt; knølhval utenfor Loango.", "en": "Dry; humpback whales off Loango."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.3, "nedbor": 18, "no": "Tørt; hval, elefanter på stranden.", "en": "Dry; whales, elephants on the beach."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 28.9, "nedbor": 114, "no": "Hval ut måneden; regnet starter.", "en": "Whales until the end of the month; rain begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 29.4, "nedbor": 419, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 5, "tmaks": 29.4, "nedbor": 464, "no": "Mest regn; skilpaddesesongen starter.", "en": "Most rain; turtle season begins."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 30.0, "nedbor": 298, "no": "Vått; skilpadder.", "en": "Wet; turtles."}
+  ],
+  "vinduer": []
+}

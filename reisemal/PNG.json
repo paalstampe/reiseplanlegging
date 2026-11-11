@@ -1,0 +1,31 @@
+{
+  "id": "PNG",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Papua Ny-Guinea",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur / ekspedisjon",
+  "merknad": "Sikkerhet: høy kriminalitet i Port Moresby – organisert tur anbefales",
+  "koord": [-6.1, 145.4],
+  "kilde": "Port Moresby, WMO/DWD 1961–1990, via Wikipedia. Høylandet: kjøligere og regn hele året",
+  "en": {"land": "Papua New Guinea", "kategori": "Culture / expedition", "merknad": "Safety: high crime in Port Moresby – organised tour recommended", "kilde": "Port Moresby, WMO/DWD 1961–1990, via Wikipedia. Highlands: cooler, rain all year"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.1, "nedbor": 192, "no": "Regntid, fuktig.", "en": "Rainy season, humid."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.6, "nedbor": 141, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.4, "nedbor": 190, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.3, "nedbor": 105, "no": "Overgang.", "en": "Transition."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 31.0, "nedbor": 56, "no": "Tørrsesongen starter.", "en": "Dry season begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.3, "nedbor": 22, "no": "Tørt, behagelig.", "en": "Dry, pleasant."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 29.9, "nedbor": 14, "no": "Tørt; god dykking.", "en": "Dry; good diving."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.3, "nedbor": 12, "no": "Mount Hagen Show (se Vinduer).", "en": "Mount Hagen Show (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.0, "nedbor": 14, "no": "Goroka Show rundt uavhengighetsdagen 16.9 (se Vinduer).", "en": "Goroka Show around Independence Day 16 Sep (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.0, "nedbor": 15, "no": "Tørt og varmt, god dykking.", "en": "Dry and hot, good diving."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.5, "nedbor": 40, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.4, "nedbor": 98, "no": "Regntid.", "en": "Rainy season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 33, "til_uke": 33, "type": "Hendelse", "justering": 1, "no": "Mount Hagen Cultural Show (ca. midten av aug, sjekk dato)", "en": "Mount Hagen Cultural Show (around mid-August, check date)"},
+    {"fra_uke": 37, "til_uke": 38, "type": "Hendelse", "justering": 1, "no": "Goroka Show (helgen rundt 16.9, sjekk dato)", "en": "Goroka Show (the weekend around 16 Sep, check date)"}
+  ]
+}

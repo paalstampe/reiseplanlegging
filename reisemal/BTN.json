@@ -1,0 +1,34 @@
+{
+  "id": "BTN",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Bhutan",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [27.43, 89.65],
+  "kilde": "Paro (2406 moh), NCHM Bhutan 1996–2017, via Wikipedia",
+  "en": {"land": "Bhutan", "kategori": "Culture / nature", "kilde": "Paro (2,406 m), NCHM Bhutan 1996–2017, via Wikipedia"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 13.2, "nedbor": 7, "no": "Kaldt (nattefrost), men klart. Høye pass kan ha snø. Lite turister.", "en": "Cold (night frost) but clear. High passes may have snow. Few tourists."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 5, "tmaks": 15.0, "nedbor": 13, "no": "Kjølig og klart. Punakha-festivaler (se Vinduer).", "en": "Cool and clear. Punakha festivals (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 17.9, "nedbor": 22, "no": "Rhododendron starter, god sikt. Paro Tsechu (se Vinduer).", "en": "Rhododendrons begin, good visibility. Paro Tsechu (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 20.6, "nedbor": 34, "no": "Vår-toppsesong: rhododendron i blomst, mildt.", "en": "Spring peak season: rhododendrons in bloom, mild."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.7, "nedbor": 59, "no": "Varmere, mer skyer/dis mot slutten av måneden.", "en": "Warmer, more cloud/haze towards the end of the month."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 24.6, "nedbor": 81, "no": "Monsun starter; skyer skjuler fjellene.", "en": "Monsoon begins; clouds hide the mountains."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 25.0, "nedbor": 161, "no": "Monsun: regn, jordras på veiene, dårlig fjellutsikt.", "en": "Monsoon: rain, landslides on the roads, poor mountain views."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 24.9, "nedbor": 113, "no": "Monsun. Lavsesong.", "en": "Monsoon. Low season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 23.3, "nedbor": 88, "no": "Monsunen avtar. Thimphu Tsechu (2026: 21.–23.9).", "en": "Monsoon eases. Thimphu Tsechu (2026: 21–23 Sep)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 20.7, "nedbor": 49, "no": "Beste måned: klart, tørt, festivaler. Toppsesong – book tidlig.", "en": "Best month: clear, dry, festivals. Peak season – book early."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 16.9, "nedbor": 2, "no": "Klart og tørt, kjøligere. Svarthalset trane i Phobjikha (se Vinduer).", "en": "Clear and dry, cooler. Black-necked cranes in Phobjikha (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 14.6, "nedbor": 3, "no": "Kaldt, men klart og stille. Lav trengsel.", "en": "Cold, but clear and calm. Few crowds."}
+  ],
+  "vinduer": [
+    {"fra": "2027-02-16", "til": "2027-02-18", "type": "Hendelse", "justering": 0.5, "no": "Punakha Tsechu 16.–18.2.2027 (Punakha Drubchen 13.–15.2)", "en": "Punakha Tsechu 16–18 Feb 2027 (Punakha Drubchen 13–15 Feb)"},
+    {"fra": "2027-03-18", "til": "2027-03-22", "type": "Hendelse", "justering": 0.5, "no": "Paro Tsechu 18.–22.3.2027", "en": "Paro Tsechu 18–22 Mar 2027"},
+    {"fra": "2027-10-10", "til": "2027-10-12", "type": "Hendelse", "justering": 0.5, "no": "Thimphu Tsechu 10.–12.10.2027", "en": "Thimphu Tsechu 10–12 Oct 2027"},
+    {"fra": "2027-11-14", "til": "2027-11-17", "type": "Hendelse", "justering": 0.3, "no": "Jambay Lhakhang Drup (Bumthang) 14.–17.11.2027", "en": "Jambay Lhakhang Drup (Bumthang) 14–17 Nov 2027"},
+    {"fra_uke": 46, "til_uke": 46, "type": "Hendelse", "justering": 0.3, "no": "Svarthalset trane-festival i Gangtey 11.11 hvert år", "en": "Black-necked Crane Festival in Gangtey, 11 Nov every year"}
+  ]
+}

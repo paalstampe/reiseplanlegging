@@ -1,0 +1,30 @@
+{
+  "id": "MMR",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Myanmar",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur",
+  "merknad": "Sikkerhet: borgerkrig – sjekk UDs reiseråd før planlegging",
+  "koord": [21.17, 94.86],
+  "kilde": "Yangon (Kaba-Aye), WMO 1991–2020, via Wikipedia. Mandalay/Bagan: tørrere, men hetere (apr 39 °C)",
+  "en": {"land": "Myanmar", "kategori": "Culture", "merknad": "Safety: civil war – check Norwegian MFA travel advice before planning", "kilde": "Yangon (Kaba-Aye), WMO 1991–2020, via Wikipedia. Mandalay/Bagan: drier but hotter (Apr 39 °C)"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 33.1, "nedbor": 5, "no": "Tørt, behagelig. Ballongsesong i Bagan. Høysesong.", "en": "Dry, comfortable. Balloon season in Bagan. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 35.1, "nedbor": 3, "no": "Tørt, varmere.", "en": "Dry, warmer."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 36.8, "nedbor": 15, "no": "Varmt; Bagan/Mandalay 37 °C, dis.", "en": "Hot; Bagan/Mandalay 37 °C, haze."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 37.7, "nedbor": 38, "no": "Hetest (Mandalay 39 °C). Thingyan-vannfestival (se Vinduer).", "en": "Hottest (Mandalay 39 °C). Thingyan water festival (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 34.5, "nedbor": 334, "no": "Monsun starter, fortsatt svært varmt.", "en": "Monsoon begins, still very hot."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.3, "nedbor": 554, "no": "Monsun (Yangon 554 mm). Bagan i tørrsonen får langt mindre. Ingen ballonger.", "en": "Monsoon (Yangon 554 mm). Bagan in the dry zone gets far less. No balloons."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.6, "nedbor": 625, "no": "Monsun, mest regn i Yangon/Inle.", "en": "Monsoon, most rain in Yangon/Inle."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.3, "nedbor": 562, "no": "Monsun.", "en": "Monsoon."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 427, "no": "Monsun avtar mot slutten.", "en": "Monsoon eases towards the end."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.7, "nedbor": 217, "no": "Regnet avtar, grønt. Ballonger fra oktober. Thadingyut (lysfest).", "en": "Rain eases, green. Balloons from October. Thadingyut (festival of lights)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 33.6, "nedbor": 53, "no": "Tørt og grønt. Tazaungdaing (lysfest, fullmåne).", "en": "Dry and green. Tazaungdaing (festival of lights, full moon)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 32.9, "nedbor": 9, "no": "Tørt, behagelig. Høysesong.", "en": "Dry, comfortable. High season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 15, "til_uke": 16, "type": "Helligdag", "justering": -0.5, "no": "Thingyan 13.–16.4: vannkamp, mye stengt, transport full", "en": "Thingyan 13–16 Apr: water fights, much closed, transport full"}
+  ]
+}

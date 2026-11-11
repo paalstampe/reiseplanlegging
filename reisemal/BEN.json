@@ -1,0 +1,31 @@
+{
+  "id": "BEN",
+  "region": "Afrika",
+  "land": "Benin",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur",
+  "merknad": "Sikkerhet: nordlige områder (inkl. deler av Pendjari) frarådes – sjekk UDs reiseråd",
+  "koord": [6.9, 2.2],
+  "kilde": "Cotonou, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Benin", "kategori": "Culture", "merknad": "Safety: northern areas (incl. parts of Pendjari) advised against – check Norwegian MFA travel advice", "kilde": "Cotonou, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 31.6, "nedbor": 19, "no": "Harmattan-dis. Vodun-festivalen i Ouidah (se Vinduer) er hovedgrunnen til å dra i januar.", "en": "Harmattan haze. The Vodun festival in Ouidah (see events) is the main reason to go in January."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.2, "nedbor": 38, "no": "Tørt og varmt, harmattan.", "en": "Dry and hot, harmattan."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.3, "nedbor": 81, "no": "Hetest og fuktig.", "en": "Hottest and humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.0, "nedbor": 126, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.3, "nedbor": 213, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 29.6, "nedbor": 333, "no": "Mest regn.", "en": "Most rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 28.5, "nedbor": 135, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 28.2, "nedbor": 39, "no": "Kort tørrperiode, kjøligst, ofte overskyet.", "en": "Short dry spell, coolest, often overcast."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.0, "nedbor": 135, "no": "Liten regntid.", "en": "Minor rainy season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.1, "nedbor": 165, "no": "Liten regntid.", "en": "Minor rainy season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 31.6, "nedbor": 44, "no": "Beste klima: tørt og klart etter regntiden, før harmattan.", "en": "Best climate: dry and clear after the rains, before the harmattan."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.9, "nedbor": 12, "no": "Tørt, harmattan starter; god tid for Pendjari i nord.", "en": "Dry, harmattan begins; good time for Pendjari in the north."}
+  ],
+  "vinduer": [
+    {"fra": "2027-01-08", "til": "2027-01-10", "type": "Hendelse", "justering": 1, "no": "Vodun-festivalen (Vodun Days) i Ouidah, 10.1", "en": "Vodun festival (Vodun Days) in Ouidah, 10 Jan"},
+    {"fra": "2028-01-08", "til": "2028-01-10", "type": "Hendelse", "justering": 1, "no": "Vodun-festivalen (Vodun Days) i Ouidah, 10.1", "en": "Vodun festival (Vodun Days) in Ouidah, 10 Jan"}
+  ]
+}

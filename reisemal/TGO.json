@@ -1,0 +1,30 @@
+{
+  "id": "TGO",
+  "region": "Afrika",
+  "land": "Togo",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur",
+  "merknad": "Sikkerhet: nordlige grenseområder frarådes – sjekk UDs reiseråd",
+  "koord": [8.3, 1.0],
+  "kilde": "Lomé lufthavn, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Togo", "kategori": "Culture", "merknad": "Safety: northern border areas advised against – check Norwegian MFA travel advice", "kilde": "Lomé airport, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.8, "nedbor": 13, "no": "Harmattan-dis. Kan kombineres med Vodun-festivalen i Ouidah (Benin).", "en": "Harmattan haze. Can be combined with the Vodun festival in Ouidah (Benin)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.5, "nedbor": 16, "no": "Tørt og varmt, harmattan.", "en": "Dry and hot, harmattan."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.4, "nedbor": 67, "no": "Hetest og fuktig.", "en": "Hottest and humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.1, "nedbor": 97, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.4, "nedbor": 149, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.6, "nedbor": 181, "no": "Mest regn.", "en": "Most rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.3, "nedbor": 74, "no": "Evala-bryting i Kara (se Vinduer).", "en": "Evala wrestling in Kara (see events)."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 28.9, "nedbor": 30, "no": "Tørrere og kjøligere, ofte overskyet.", "en": "Drier and cooler, often overcast."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 29.9, "nedbor": 72, "no": "Liten regntid.", "en": "Minor rainy season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.4, "nedbor": 102, "no": "Liten regntid.", "en": "Minor rainy season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 32.9, "nedbor": 20, "no": "Beste klima: tørt og klart etter regntiden, før harmattan.", "en": "Best climate: dry and clear after the rains, before the harmattan."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 33.2, "nedbor": 8, "no": "Tørt, harmattan starter.", "en": "Dry, harmattan begins."}
+  ],
+  "vinduer": [
+    {"fra_uke": 29, "til_uke": 29, "type": "Hendelse", "justering": 0.3, "no": "Evala-bryting i Kara (juli, sjekk dato)", "en": "Evala wrestling in Kara (July, check date)"}
+  ]
+}

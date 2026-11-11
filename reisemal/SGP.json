@@ -1,0 +1,28 @@
+{
+  "id": "SGP",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Singapore",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "By / long stay",
+  "merknad": "",
+  "koord": [1.35, 103.82],
+  "kilde": "Singapore (Paya Lebar), NEA 1991–2020, via Wikipedia",
+  "en": {"land": "Singapore", "kategori": "City / long stay", "kilde": "Singapore (Paya Lebar), NEA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.6, "nedbor": 222, "no": "Nordøstmonsun, byger, litt kjøligere. Kinesisk nyttår (se Vinduer).", "en": "Northeast monsoon, showers, slightly cooler. Chinese New Year (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 31.5, "nedbor": 105, "no": "Tørreste og mest solrike måned.", "en": "Driest and sunniest month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.2, "nedbor": 152, "no": "Varmt, relativt tørt.", "en": "Hot, fairly dry."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.4, "nedbor": 164, "no": "Varmt, ettermiddagstorden.", "en": "Hot, afternoon thunder."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.3, "nedbor": 164, "no": "Varmt, torden.", "en": "Hot, thunder."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 31.9, "nedbor": 135, "no": "Skoleferie; Great Singapore Sale.", "en": "School holidays; Great Singapore Sale."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.4, "nedbor": 147, "no": "Relativt tørt.", "en": "Fairly dry."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 31.4, "nedbor": 147, "no": "Nasjonaldag 9.8. Risiko for røykdis fra skogbranner i Indonesia.", "en": "National Day 9 Aug. Risk of haze from forest fires in Indonesia."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 31.6, "nedbor": 125, "no": "Røykdis-risiko. F1-helgen gir høye hotellpriser.", "en": "Haze risk. The F1 weekend means high hotel prices."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.8, "nedbor": 168, "no": "Mellommonsun, torden, røykdis-risiko.", "en": "Inter-monsoon, thunder, haze risk."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 31.2, "nedbor": 252, "no": "Våtere.", "en": "Wetter."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": 30.5, "nedbor": 332, "no": "Vått (330 mm); jul og ferie.", "en": "Wet (330 mm); Christmas and holidays."}
+  ],
+  "vinduer": []
+}

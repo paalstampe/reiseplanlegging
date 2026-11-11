@@ -1,0 +1,32 @@
+{
+  "id": "COL",
+  "region": "Sør- og Mellom-Amerika",
+  "land": "Colombia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "By / kultur / strand",
+  "merknad": "",
+  "koord": [10.39, -75.51],
+  "kilde": "Cartagena lufthavn, IDEAM 1991–2020, via Wikipedia. Andes (Bogotá/Medellín): mildt, regn apr–mai og okt–nov",
+  "en": {"land": "Colombia", "kategori": "City / culture / beach", "kilde": "Cartagena airport, IDEAM 1991–2020, via Wikipedia. Andes (Bogotá/Medellín): mild, rain Apr–May and Oct–Nov"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.1, "nedbor": 1, "no": "Tørt, passatvind. Høysesong.", "en": "Dry, trade winds. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.1, "nedbor": 0, "no": "Tørt. Karneval i Barranquilla (se Vinduer).", "en": "Dry. Carnival in Barranquilla (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.2, "nedbor": 3, "no": "Tørt.", "en": "Dry."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.7, "nedbor": 19, "no": "Tørt ved kysten; regn i Andes. Semana Santa.", "en": "Dry on the coast; rain in the Andes. Semana Santa."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.0, "nedbor": 117, "no": "Regnet starter.", "en": "Rain begins."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.3, "nedbor": 93, "no": "Mindre regn («veranillo»).", "en": "Less rain (“veranillo”)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 32.2, "nedbor": 121, "no": "Skoleferie.", "en": "School holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.2, "nedbor": 128, "no": "Byger.", "en": "Showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.1, "nedbor": 133, "no": "Byger.", "en": "Showers."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.7, "nedbor": 237, "no": "Mest regn.", "en": "Most rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.5, "nedbor": 178, "no": "Vått.", "en": "Wet."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 31.4, "nedbor": 45, "no": "Tørt fra midten av måneden; jul/nyttår dyrt og fullt.", "en": "Dry from mid-month; Christmas/New Year expensive and full."}
+  ],
+  "vinduer": [
+    {"fra": "2027-02-06", "til": "2027-02-09", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Barranquilla (2 t fra Cartagena)", "en": "Carnival in Barranquilla (2 h from Cartagena)"},
+    {"fra": "2028-02-26", "til": "2028-02-29", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Barranquilla", "en": "Carnival in Barranquilla"},
+    {"fra": "2027-03-21", "til": "2027-03-28", "type": "Helligdag", "justering": -0.5, "no": "Semana Santa: innenlands høysesong ved kysten", "en": "Semana Santa: domestic high season on the coast"}
+  ]
+}

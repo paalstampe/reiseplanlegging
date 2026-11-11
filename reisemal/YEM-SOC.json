@@ -1,0 +1,28 @@
+{
+  "id": "YEM-SOC",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Yemen",
+  "sted": "Socotra",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / ekspedisjon",
+  "merknad": "Sikkerhet: Yemen – sjekk UDs reiseråd; tilgang via charter fra Abu Dhabi",
+  "koord": [12.5, 53.9],
+  "kilde": "Socotra lufthavn, DWD 1961–1990, via Wikipedia",
+  "en": {"land": "Yemen", "sted": "Socotra", "kategori": "Nature / expedition", "merknad": "Safety: Yemen – check Norwegian MFA travel advice; access by charter from Abu Dhabi", "kilde": "Socotra airport, DWD 1961–1990, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.1, "nedbor": 3, "no": "Tørt, mildt, rolig hav.", "en": "Dry, mild, calm sea."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.8, "nedbor": 3, "no": "Tørt og mildt.", "en": "Dry and mild."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.2, "nedbor": 10, "no": "Tørt, varmere.", "en": "Dry, warmer."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 31.8, "nedbor": 0, "no": "Varmere; rolig hav, god snorkling.", "en": "Warmer; calm sea, good snorkelling."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 34.6, "nedbor": 3, "no": "Varmt (35 °C), sesongslutt.", "en": "Hot (35 °C), end of season."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 33.8, "nedbor": 31, "no": "Sørvestmonsun: storm og høye bølger, fly innstilt.", "en": "Southwest monsoon: storms and high waves, flights cancelled."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 32.3, "nedbor": 0, "no": "Sørvestmonsun, fly innstilt.", "en": "Southwest monsoon, flights cancelled."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 32.4, "nedbor": 0, "no": "Sørvestmonsun, fly innstilt.", "en": "Southwest monsoon, flights cancelled."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 33.2, "nedbor": 3, "no": "Monsunen avtar mot slutten; fly gjenopptas først i oktober.", "en": "Monsoon eases towards the end; flights resume only in October."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.8, "nedbor": 10, "no": "Sesongstart, vinden avtar.", "en": "Season starts, wind drops."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 29.6, "nedbor": 51, "no": "Nordøstmonsun gir regn i fjellene; grønt.", "en": "Northeast monsoon brings rain to the mountains; green."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.3, "nedbor": 81, "no": "Noe regn, grønt.", "en": "Some rain, green."}
+  ],
+  "vinduer": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ATA",
+  "region": "Sør- og Mellom-Amerika",
+  "land": "Antarktis",
+  "sted": "Antarktishalvøya (via Ushuaia)",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / ekspedisjon",
+  "merknad": "Kun ekspedisjonscruise nov–mars",
+  "varighet": 11,
+  "koord": [-64.8, -62.9],
+  "kilde": "Esperanza-basen (Antarktishalvøya), SMN 1991–2020, via Wikipedia. Nedbør mest snø",
+  "en": {"land": "Antarctica", "sted": "Antarctic Peninsula (via Ushuaia)", "kategori": "Nature / expedition", "merknad": "Expedition cruises only Nov–Mar", "kilde": "Esperanza Base (Antarctic Peninsula), SMN 1991–2020, via Wikipedia. Precipitation mostly snow"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 4.3, "nedbor": 56, "no": "Høysesong: pingvinunger, nesten døgnlys. Dyrest.", "en": "High season: penguin chicks, near-constant daylight. Most expensive."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 3.9, "nedbor": 65, "no": "Hval øker, ungene store, mindre is.", "en": "More whales, chicks grown, less ice."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 1.4, "nedbor": 76, "no": "Best for hval, kortere dager, siste avganger.", "en": "Best for whales, shorter days, last departures."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 3, "tmaks": -1.7, "nedbor": 59, "no": "Ingen ordinære ekspedisjoner (vinter).", "en": "No regular expeditions (winter)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 3, "tmaks": -3.2, "nedbor": 54, "no": "Ingen ordinære ekspedisjoner (vinter).", "en": "No regular expeditions (winter)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 3, "tmaks": -6.2, "nedbor": 47, "no": "Ingen ordinære ekspedisjoner (vinter).", "en": "No regular expeditions (winter)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 3, "tmaks": -6.4, "nedbor": 54, "no": "Ingen ordinære ekspedisjoner (vinter).", "en": "No regular expeditions (winter)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 3, "tmaks": -5.1, "nedbor": 72, "no": "Ingen ordinære ekspedisjoner (vinter).", "en": "No regular expeditions (winter)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 3, "tmaks": -2.6, "nedbor": 62, "no": "Ingen ordinære ekspedisjoner (vinter).", "en": "No regular expeditions (winter)."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 3, "tmaks": -0.2, "nedbor": 56, "no": "Ingen ordinære ekspedisjoner (vinter).", "en": "No regular expeditions (winter)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 2.3, "nedbor": 65, "no": "Sesongåpning: uberørt snø, pingvinkurtise, mye is. Noe lavere priser.", "en": "Season opening: pristine snow, penguin courtship, lots of ice. Somewhat lower prices."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 3.8, "nedbor": 59, "no": "Høysesong, lange dager. Klekking starter mot slutten av måneden.", "en": "High season, long days. Hatching begins towards the end of the month."}
+  ],
+  "vinduer": []
+}

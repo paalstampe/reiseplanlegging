@@ -1,0 +1,32 @@
+{
+  "id": "IND-GOA",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "India",
+  "sted": "Goa",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Strand",
+  "merknad": "",
+  "koord": [15.49, 73.83],
+  "kilde": "Panaji (Panjim), IMD / Tokyo Climate Center 1991–2020, via Wikipedia",
+  "en": {"land": "India", "sted": "Goa", "kategori": "Beach", "kilde": "Panaji (Panjim), IMD / Tokyo Climate Center 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 32.5, "nedbor": 1, "no": "Tørt, lav fuktighet. Høysesong.", "en": "Dry, low humidity. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.4, "nedbor": 0, "no": "Tørt, ideelt. Karneval (se Vinduer).", "en": "Dry, ideal. Carnival (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.6, "nedbor": 0, "no": "Varmere og fuktigere, fortsatt tørt.", "en": "Warmer and more humid, still dry."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.4, "nedbor": 5, "no": "Varmt og fuktig.", "en": "Hot and humid."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 33.8, "nedbor": 77, "no": "Svært fuktig før monsunen. Mange strandbarer stenger.", "en": "Very humid before the monsoon. Many beach bars close."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 30.9, "nedbor": 890, "no": "Monsun (890 mm): badeforbud, strandbarer stengt.", "en": "Monsoon (890 mm): swimming banned, beach bars closed."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 29.3, "nedbor": 955, "no": "Monsun.", "en": "Monsoon."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 29.5, "nedbor": 572, "no": "Monsun, grønt innland.", "en": "Monsoon, green inland."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.2, "nedbor": 304, "no": "Monsunen avtar.", "en": "Monsoon eases."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.0, "nedbor": 156, "no": "Overgang; sesongen åpner mot slutten.", "en": "Transition; the season opens towards the end."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 33.5, "nedbor": 21, "no": "Tørt, sesongen i gang.", "en": "Dry, the season under way."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 33.1, "nedbor": 3, "no": "Topp: jul/nyttår og festivaler. Dyrest og fullt (se Vinduer).", "en": "Peak: Christmas/New Year and festivals. Most expensive and full (see events)."}
+  ],
+  "vinduer": [
+    {"fra": "2027-02-06", "til": "2027-02-09", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Goa (før faste) 2027", "en": "Goa Carnival (before Lent) 2027"},
+    {"fra": "2028-02-26", "til": "2028-02-29", "type": "Hendelse", "justering": 0.5, "no": "Karneval i Goa (før faste) 2028", "en": "Goa Carnival (before Lent) 2028"},
+    {"fra_uke": 52, "til_uke": 1, "type": "Annet", "justering": -0.5, "no": "Jul/nyttår: toppriser, fullt", "en": "Christmas/New Year: peak prices, full"}
+  ]
+}

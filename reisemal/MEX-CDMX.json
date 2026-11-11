@@ -1,0 +1,30 @@
+{
+  "id": "MEX-CDMX",
+  "region": "Sør- og Mellom-Amerika",
+  "land": "Mexico City",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "By / kultur / mat",
+  "merknad": "",
+  "koord": [19.43, -99.13],
+  "kilde": "Mexico City (Tacubaya), SMN 1991–2020, via Wikipedia",
+  "en": {"land": "Mexico City", "kategori": "City / culture / food", "kilde": "Mexico City (Tacubaya), SMN 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.4, "nedbor": 12, "no": "Tørt og solrikt; kjølige kvelder.", "en": "Dry and sunny; cool evenings."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 24.3, "nedbor": 6, "no": "Tørt og mildt.", "en": "Dry and mild."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.1, "nedbor": 12, "no": "Tørt; jakarandablomstring.", "en": "Dry; jacaranda blossom."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 27.5, "nedbor": 24, "no": "Varmest; smog kan være ille. Semana Santa: byen tømmes.", "en": "Warmest; smog can be bad. Semana Santa: the city empties."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 27.2, "nedbor": 59, "no": "Varmt og disig; regnet starter mot slutten.", "en": "Warm and hazy; rain begins towards the end."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 25.8, "nedbor": 133, "no": "Regntid: ettermiddagsbyger, fine formiddager.", "en": "Rainy season: afternoon showers, fine mornings."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 24.7, "nedbor": 174, "no": "Daglige byger.", "en": "Daily showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 24.6, "nedbor": 176, "no": "Daglige byger.", "en": "Daily showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 23.7, "nedbor": 158, "no": "Byger; nasjonaldag 15.–16.9.", "en": "Showers; national holiday 15–16 Sep."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 23.5, "nedbor": 71, "no": "Regnet avtar; oppkjøring til Día de Muertos.", "en": "Rain eases; build-up to Día de Muertos."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 22.8, "nedbor": 17, "no": "Tørt; Día de Muertos (se Vinduer).", "en": "Dry; Día de Muertos (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 22.4, "nedbor": 5, "no": "Tørt; jul.", "en": "Dry; Christmas."}
+  ],
+  "vinduer": [
+    {"fra_uke": 44, "til_uke": 44, "type": "Hendelse", "justering": 1, "no": "Día de Muertos (31.10–2.11): parade, altere, Mixquic", "en": "Día de Muertos (31 Oct–2 Nov): parade, altars, Mixquic"}
+  ]
+}
