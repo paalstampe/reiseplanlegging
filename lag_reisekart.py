@@ -16,7 +16,7 @@ for r in alle:
     en_m = [m.get("en", "") for m in r["maneder"]]
     data["dest"].append({"id": idd, "region": r["region"], "land": r["land"], "sted": r["sted"], "status": r["status"],
         "kategori": r["kategori"], "merknad": r["merknad"], "kilde": r["kilde"],
-        "en": {**en, "m": en_m} if all(en_m) else en,
+        "en": {**en, "m": en_m},  # tom månedstekst = norsk vises for den måneden
         # «se Vinduer» viser til arket i regnearket; i kartet heter det «Hendelser».
         "m": [[m["klima"], m["opplevelse"], m["trengsel"], m["tmaks"], m["nedbor"], m["no"].replace("se Vinduer", "se hendelser")]
               for m in r["maneder"]]})

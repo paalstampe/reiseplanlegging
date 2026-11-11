@@ -89,7 +89,7 @@ dv=DataValidation(type="list",formula1='"Ikke besøkt,Planlagt,Booket,Besøkt"',
 d.add_data_validation(dv); dv.add(f"F5:F{DEND}")
 for col,w in zip("ABCDEFGHIJK",[10,26,24,30,40,12,18,10,10,50,60]): d.column_dimensions[col].width=w
 d.freeze_panes="B5"; d.auto_filter.ref=f"A4:K{DEND}"
-d["A2"]="Legg nye destinasjoner nederst (reserverte rader har formler). ID må være unik.";d["A2"].font=f(italic=True)
+d["A2"]="Generert fra reisemal/<ID>.json av bygg_reisekalender.py. Nye reisemål og endringer gjøres der, ikke her.";d["A2"].font=f(italic=True)
 
 # ---------------- Måned ----------------
 m=wb.create_sheet("Måned")
