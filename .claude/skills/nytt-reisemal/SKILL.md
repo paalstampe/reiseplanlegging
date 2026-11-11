@@ -11,6 +11,7 @@ Formatet er beskrevet i HANDOVER.md, Datamodell. Se på to–tre eksisterende fi
 
 ## 1. Klima (12 måneder)
 
+- `python3 -I .claude/skills/nytt-reisemal/klima.py <Wikipedia-side> …` skriver T maks, nedbør og kilde fra klimaboksen.
 - Finn klimanormaler for én representativ stasjon: Wikipedias klimaboks i byens artikkel («Climate» / «Weather box»),
   helst WMO eller nasjonal met-tjeneste 1991–2020.
 - `tmaks` = middel av døgnets maksimum (°C, én desimal). `nedbor` = middel nedbør per måned (mm, heltall).
