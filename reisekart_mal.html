@@ -84,7 +84,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
   font-family:inherit; font-size:12px; font-weight:500; letter-spacing:.01em; cursor:pointer;
   display:inline-flex; align-items:center; justify-content:center; gap:7px; transition:border-color .12s, color .12s, background .12s; }
 .chip:hover { border-color:var(--aksent); color:var(--aksent); }
-.chip:focus-visible, .oppslag:focus-visible, .strip-celle:focus-visible { outline:2px solid var(--aksent); outline-offset:2px; }
+.chip:focus-visible, .oppslag:focus-visible, .strip-celle:focus-visible, .sok:focus-visible { outline:2px solid var(--aksent); outline-offset:2px; }
 .chip[aria-pressed="true"] { background:var(--aksent); border-color:var(--aksent); color:var(--papir); }
 .chip[aria-pressed="true"]:hover { background:var(--aksent-hover); border-color:var(--aksent-hover); color:var(--papir); }
 .maneder .chip { padding:0; }
@@ -92,7 +92,6 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .sok { height:36px; width:100%; padding:0 12px; border:1px solid var(--kant); border-radius:3px; background:var(--kort); color:var(--tekst);
   font-family:inherit; font-size:14px; }
 .sok::placeholder { color:var(--dempet); opacity:1; }
-.sok:focus-visible { outline:2px solid var(--aksent); outline-offset:2px; }
 @media (hover: none) { .sok { font-size:16px; } }
 
 .tegnforklaring { display:flex; flex-wrap:wrap; gap:14px; font-size:12px; color:var(--dempet); }
@@ -444,19 +443,21 @@ if (state.mnd === 0) state.ar += 1;
 const AR_VALG = [2026, 2027, 2028];
 if (!AR_VALG.includes(state.ar)) state.ar = 2026;
 
+const VINDUER_FOR = {};   // vinduene per reisemål, så beregn() slipper å gå gjennom alle
+DATA.win.forEach(w => (VINDUER_FOR[w[0]] ||= []).push(w));
 function beregn(d, mnd, ar) {
   const uker = [];
   for (let u = 1; u <= 52; u++) {
     const th = ukeTorsdag(ar, u);
     if (th.getUTCMonth() !== mnd) continue;
     const base = manedScore(d.m[mnd]);
-    const vs = DATA.win.filter(w => w[0] === d.id && vinduGjelder(w, u, ar));
+    const vs = (VINDUER_FOR[d.id] || []).filter(w => vinduGjelder(w, u, ar));
     const adj = vs.reduce((s, w) => s + w[4], 0);
     uker.push({ u, s: Math.max(1, Math.min(5, Math.round((base + adj) * 10) / 10)) });
   }
   const snitt = uker.length ? Math.round(uker.reduce((s, x) => s + x.s, 0) / uker.length * 10) / 10 : manedScore(d.m[mnd]);
   const ukeSet = new Set(uker.map(x => x.u));
-  const hend = DATA.win.filter(w => w[0] === d.id && [...ukeSet].some(u => vinduGjelder(w, u, ar)));
+  const hend = (VINDUER_FOR[d.id] || []).filter(w => [...ukeSet].some(u => vinduGjelder(w, u, ar)));
   return { snitt, uker, hend, base: manedScore(d.m[mnd]) };
 }
 function aarsprofil(d, ar) { return MND.map((_, i) => beregn(d, i, ar).snitt); }
@@ -466,7 +467,9 @@ const REGIONER = ["Alle", ...new Set(DATA.dest.map(d => d.region))];
 const HAR_ONSKELISTE = DATA.dest.some(d => d.onskeliste) && DATA.dest.some(d => !d.onskeliste);
 // Søk på land og sted, norsk og engelsk, uten å skille på aksenter og store/små bokstaver.
 const normal = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-const treffer = (d, q) => !q || [d.land, d.sted, d.en && d.en.land, d.en && d.en.sted, d.id].some(x => normal(x).includes(q));
+const SOKETEKST = new Map(DATA.dest.map(d => [d.id, normal([d.land, d.sted, d.en.land, d.en.sted, d.id].join(" "))]));
+const treffer = (d, q) => !q || SOKETEKST.get(d.id).includes(q);
+const sokOrd = () => normal(state.sok.trim());
 const kortRegion = r => r === "Alle" ? t("alle") : t("regioner")[r] || r;
 const navn = d => { const land = tekst(d, "land"), sted = tekst(d, "sted"); return sted ? `${land} – ${sted}` : land; };
 const erVarsel = d => /sikkerhet/i.test(d.merknad);
@@ -487,7 +490,6 @@ function tegnFiltre() {
   const r = document.getElementById("regioner"); r.innerHTML = "";
   REGIONER.forEach(x => r.appendChild(chip(kortRegion(x), x === state.region, () => { state.region = x; oppdater(); })));
   const u = document.getElementById("utvalg"); u.innerHTML = "";
-  u.hidden = document.getElementById("utvalg-etikett").hidden = !HAR_ONSKELISTE;
   [[false, t("alleReisemal")], [true, t("onskeliste")]].forEach(([v, tekst]) =>
     u.appendChild(chip(tekst, state.onskeliste === v, () => { state.onskeliste = v; oppdater(); })));
   const bg = document.getElementById("bare-gronne");
@@ -497,7 +499,7 @@ function tegnFiltre() {
 
 const iUtvalg = d => (state.region === "Alle" || d.region === state.region) && (!state.onskeliste || d.onskeliste);
 function rader() {
-  const q = normal(state.sok.trim());
+  const q = sokOrd();
   return DATA.dest
     .filter(d => iUtvalg(d) && treffer(d, q))
     .map(d => ({ d, r: beregn(d, state.mnd, state.ar) }))
@@ -589,12 +591,14 @@ function visDetalj(id) {
 
 function tegnListe() {
   const rr = rader();
+  // Faller det valgte reisemålet ut av utvalget (region, ønskeliste, søk), lukkes kortet.
+  if (state.valgt && !rr.some(x => x.d.id === state.valgt)) { state.valgt = null; document.getElementById("detalj").hidden = true; }
   const vis = state.bareGronne ? rr.filter(x => x.r.snitt >= GOD - EPS) : rr;
   const antG = rr.filter(x => x.r.snitt >= GOD - EPS).length;
-  document.getElementById("teller").textContent = t("teller")(antG, rr.length, t("mndLang")[state.mnd]);
+  document.getElementById("teller").textContent = rr.length ? t("teller")(antG, rr.length, t("mndLang")[state.mnd]) : "";
   const l = document.getElementById("liste");
   if (!vis.length) {
-    const q = state.sok.trim(), utenfor = q && !rr.length ? DATA.dest.filter(d => !iUtvalg(d) && treffer(d, normal(q))).length : 0;
+    const q = state.sok.trim(), utenfor = q && !rr.length ? DATA.dest.filter(d => !iUtvalg(d) && treffer(d, sokOrd())).length : 0;
     l.innerHTML = q && !rr.length
       ? `<p class="tomt">${esc(t("ingenTreff")(q))}${utenfor ? ` <button class="lenkeknapp" id="sok-alle" type="button">${t("treffAlle")(utenfor)}</button>` : ""}</p>`
       : `<p class="tomt">${t("tomt")(t("mndLang")[state.mnd])}</p>`;
@@ -933,7 +937,15 @@ function oppdater() {
   if (state.valgt) visDetalj(state.valgt);
 }
 
-document.getElementById("sok").addEventListener("input", e => { state.sok = e.target.value; tegnListe(); tegnKart(); });
+// Søk: lista oppdateres med en gang, kartet når skrivingen stopper opp (omtegning av alle prikkene er tung på mobil).
+// pageshow fanger tekst nettleseren har gjenopprettet.
+let sokTimer = null;
+function sok() {
+  state.sok = document.getElementById("sok").value;
+  tegnListe(); clearTimeout(sokTimer); sokTimer = setTimeout(tegnKart, 150);
+}
+document.getElementById("sok").addEventListener("input", sok);
+window.addEventListener("pageshow", () => { if (document.getElementById("sok").value !== state.sok) sok(); });
 
 const LIGGENDE = window.matchMedia("(orientation: landscape) and (max-height: 500px)");
 
@@ -961,6 +973,7 @@ const LIGGENDE = window.matchMedia("(orientation: landscape) and (max-height: 50
 document.getElementById("bare-gronne").addEventListener("click", () => { state.bareGronne = !state.bareGronne; oppdater(); });
 document.getElementById("datadato").textContent = DATA.dato;
 oversettDom();
+document.getElementById("utvalg").hidden = document.getElementById("utvalg-etikett").hidden = !HAR_ONSKELISTE;
 oppdater();
 lastKart().then(() => { initKart(); tegnKart(); }).catch(visKartFeil);
 </script>
