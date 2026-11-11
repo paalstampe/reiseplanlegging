@@ -10,6 +10,8 @@ Sist oppdatert: 11. november 2026.
 - 11.11.: utvidelse mot alle FN-landene påbegynt. Steg 1 er gjort: dataene ligger i én JSON-fil per reisemål i `reisemal/`
   (norsk og engelsk side om side), lest av `reisemal.py`. `Reisemål.md` genereres. Alle 40 har `onskeliste: true`.
   Siden og regnearket har identiske data som før.
+- 11.11.: steg 2 er flettet (PR #39): søkefelt i lista og «Vis: Alle reisemål / Ønskeliste» (skjult til det finnes
+  reisemål utenfor ønskelisten). Testet med 250 oppdiktede reisemål; ni regioner gir fem rader med knapper.
 - 5.11.: publiseringen er samlet og gjort robust. Én felles workflow for alle tre repoene (publiser.yml i paalstampe.github.io),
   som hopper over uendret innhold, og dokumentasjon og .claude/ publiseres ikke lenger (`.gitattributes`). Verifisert i alle tre:
   en commit som bare endrer dokumentasjon gir ingen ny publisering. Detaljer under Neste steg og i beslutningsloggen.
@@ -58,9 +60,8 @@ Sist oppdatert: 11. november 2026.
 
 ## Neste steg
 
-- Utvidelse til alle FN-land (avtalt 11.11.): (2) UI-gren med «Ønskeliste»-knapp (alle vises som standard, knappen viser bare
-  ønskelisten), søk i lista, flere regioner og etiketter som ikke overlapper; (3) liste over land og oppdeling for Påls godkjenning;
-  (4) fylle data per region. Standardvalg til Pål sier noe annet: Europa er med, regnearket bygges fortsatt, venners egne
+- Utvidelse til alle FN-land (avtalt 11.11.; steg 1–2 ferdig): (3) liste over land og oppdeling for Påls godkjenning;
+  (4) fylle data per region. Regioninndelingen avgjøres med landlista, og da også knapper eller nedtrekksliste for regionene. Standardvalg til Pål sier noe annet: Europa er med, regnearket bygges fortsatt, venners egne
   ønskelister venter. Felles vinduer (ramadan, påske o.l. for mange land) bør inn i `reisemal.py` før datafyllingen.
   Kalenderformlene i regnearket (COUNTIFS/SUMIFS/SUMPRODUCT per celle) blir trege ved ~250 reisemål; vurder å regne ukescorene i Python.
 - Publiseringen er felles for alle tre: `pages.yml` kaller `paalstampe/paalstampe.github.io/.github/workflows/publiser.yml@main`
