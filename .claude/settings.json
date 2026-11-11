@@ -7,6 +7,11 @@
       "mcp__Claude_Browser__read_console_messages",
       "mcp__Claude_Browser__read_page",
       "mcp__Claude_Browser__tabs_context"
+    ],
+    "deny": [
+      "Read(./index.html)",
+      "Read(./Reisekalender.xlsx)",
+      "Read(./__pycache__/**)"
     ]
   },
   "hooks": {
