@@ -20,13 +20,17 @@ def rens(c): return " ".join(html.unescape(re.sub(r'<[^>]+>', '', c)).split())
 for side in sys.argv[1:]:
     print("===", side)
     for tab in tabeller(side):
-        print(rens(re.search(r'Climate data for.*?</th>', tab, re.S).group(0))[:140])
+        tittel = rens(re.search(r'Climate data for.*?</th>', tab, re.S).group(0))
+        normaler = re.search(r'\d{4}\s*[–−-]\s*\d{4}\)?\s*normals', tittel)
+        print(tittel.split("Climate ID")[0].split("WMO ID")[0][:120], "|", normaler.group(0) if normaler else "periode: se tittel")
         for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', tab, re.S):
             c = [rens(x) for x in re.findall(r'<t[hd][^>]*>(.*?)</t[hd]>', tr, re.S)]
             if len(c) < 13: continue
-            tall = [x.split("(")[0].replace("−", "-").replace(",", "") for x in c[1:13]]
+            # Amerikanske sider har «°F (°C)» og «inches (mm)»: da står °C/mm i parentesen.
+            i_parentes = "°F (°C)" in c[0] or "inches (mm)" in c[0]
+            tall = [(x.split("(")[1].rstrip(")") if i_parentes and "(" in x else x.split("(")[0]).replace("−", "-").replace(",", "") for x in c[1:13]]
             if ("Mean daily maximum" in c[0] or "Average high" in c[0]) and "°C" in c[0]: print("  tmaks ", tall)
             if ("precipitation" in c[0].lower() or "rainfall" in c[0].lower()) and "mm" in c[0] and "days" not in c[0].lower():
-                print("  nedbor", tall)
+                print("  nedbor" if "precipitation" in c[0].lower() else "  regn  ", tall)
         kilde = re.search(r'Source[^<]*?:(.*?)</td>', tab, re.S)
         if kilde: print("  kilde ", rens(kilde.group(1))[:200])
