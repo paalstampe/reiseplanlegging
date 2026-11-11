@@ -96,8 +96,6 @@ Sist oppdatert: 11. november 2026.
 
 ## Åpne spørsmål
 
-- Land med reiseråd (Djibouti, Den sentralafrikanske republikk, Mali …) kan havne øverst i lista, siden scoren ikke tar hensyn
-  til sikkerhet. Skal de skjules som standard (filter «Skjul land med reiseråd»), sorteres lavere eller bare beholde varselet?
 - Scorene for de 196 er Claudes vurdering, ikke gjennomgått av Pål. Opplevelse kan være satt høyt for lite besøkte land.
 - Midtøsten (11.11.): Palestina bruker Betlehems temperatur (periode ikke oppgitt) og Jerusalems nedbør (proxy, 10 km).
   Jordan er Amman 1989–2018 (Petra omtrent likt). Saudi-Arabia er Riyadh (AlUla litt kjøligere), Oman er Muscat (Salalah har khareef om sommeren).
@@ -111,6 +109,8 @@ Sist oppdatert: 11. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-11: Land med reiseråd vises som andre land, med varselet «Sjekk reiseråd». De skjules ikke og sorteres ikke lavere,
+  selv om de kan havne øverst i lista (Pål valgte dette framfor et filter).
 - 2026-11-11: Dataene ligger i én JSON-fil per reisemål (`reisemal/<ID>.json`), med norsk og engelsk side om side.
   Før måtte et reisemål legges inn fem steder, noe som ikke holder når lista skal utvides til alle FN-landene. JSON fordi det ikke krever
   avhengigheter og valideres av hooken. `Reisemål.md` genereres og er ikke lenger master. Alle dagens 40 har `onskeliste: true`.
