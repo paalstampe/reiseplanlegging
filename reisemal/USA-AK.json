@@ -1,0 +1,30 @@
+{
+  "id": "USA-AK",
+  "region": "Nord-Amerika",
+  "land": "USA",
+  "sted": "Alaska",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [62.0, -149.5],
+  "kilde": "Anchorage (Ted Stevens International Airport), NOAA 1991–2020, via Wikipedia. Innlandet (Denali, Fairbanks) kaldere om vinteren, varmere om sommeren",
+  "en": {"land": "USA", "sted": "Alaska", "kategori": "Nature / wildlife", "kilde": "Anchorage (Ted Stevens International Airport), NOAA 1991–2020, via Wikipedia. Interior (Denali, Fairbanks) colder in winter, warmer in summer"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 3, "trengsel": 5, "tmaks": -5.2, "nedbor": 19, "no": "Mørkt og kaldt (−5 °C). Nordlys.", "en": "Dark and cold (−5 °C). Northern lights."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": -2.6, "nedbor": 22, "no": "Kaldt, lengre dager. Fur Rendezvous-festivalen.", "en": "Cold, longer days. Fur Rendezvous festival."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 0.6, "nedbor": 18, "no": "Kaldt (1 °C), lyst. Iditarod starter (se Vinduer). Nordlys.", "en": "Cold (1 °C), bright. The Iditarod starts (see events). Northern lights."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.3, "nedbor": 11, "no": "Kjølig (7 °C), snøsmelting og gjørme.", "en": "Cool (7 °C), thaw and mud season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 13.5, "nedbor": 17, "no": "Mildt (14 °C), lange dager. Sesongen starter.", "en": "Mild (14 °C), long days. The season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 17.4, "nedbor": 26, "no": "Behagelig (17 °C), midnattssol, tørt. Høysesong.", "en": "Pleasant (17 °C), midnight sun, dry. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 19.0, "nedbor": 46, "no": "Varmest (19 °C). Laks og bjørner. Toppsesong.", "en": "Warmest (19 °C). Salmon and bears. Peak season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 17.8, "nedbor": 74, "no": "Mildt (18 °C), mer regn. Bjørner ved elvene.", "en": "Mild (18 °C), more rain. Bears at the rivers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 13.2, "nedbor": 79, "no": "Kjølig (13 °C), regnfullt, høstfarger. Nordlyset kommer tilbake.", "en": "Cool (13 °C), rainy, autumn colours. Northern lights return."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 5.6, "nedbor": 46, "no": "Kaldt og vått. Det meste stenger.", "en": "Cold and wet. Most things close."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -1.7, "nedbor": 30, "no": "Mørkt og kaldt.", "en": "Dark and cold."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -3.9, "nedbor": 29, "no": "Mørkest (−4 °C).", "en": "Darkest (−4 °C)."}
+  ],
+  "vinduer": [
+    {"fra_uke": 10, "til_uke": 10, "type": "Hendelse", "justering": 0.3, "no": "Iditarod: seremoniell start i Anchorage (første lørdag i mars)", "en": "Iditarod: ceremonial start in Anchorage (first Saturday in March)"}
+  ]
+}

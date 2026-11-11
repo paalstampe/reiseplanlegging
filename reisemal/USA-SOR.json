@@ -1,0 +1,34 @@
+{
+  "id": "USA-SOR",
+  "region": "Nord-Amerika",
+  "land": "USA",
+  "sted": "Sørstatene (New Orleans, Memphis, Nashville)",
+  "kortnavn": "USA sørstatene",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / mat / musikk",
+  "merknad": "",
+  "koord": [29.95, -90.07],
+  "kilde": "New Orleans (Louis Armstrong International Airport), NOAA 1991–2020, via Wikipedia. Memphis og Nashville kaldere om vinteren",
+  "en": {"land": "USA", "sted": "Deep South (New Orleans, Memphis, Nashville)", "kortnavn": "US Deep South", "kategori": "City / food / music", "kilde": "New Orleans (Louis Armstrong International Airport), NOAA 1991–2020, via Wikipedia. Memphis and Nashville colder in winter"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 16.9, "nedbor": 132, "no": "Mildt (17 °C), skiftende. Lite folk.", "en": "Mild (17 °C), changeable. Few visitors."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 19.1, "nedbor": 105, "no": "Mildt (19 °C). Mardi Gras (se Vinduer).", "en": "Mild (19 °C). Mardi Gras (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 22.4, "nedbor": 111, "no": "Behagelig (22 °C), azaleaer i blomst.", "en": "Pleasant (22 °C), azaleas in bloom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.8, "nedbor": 133, "no": "Ideelt (26 °C). French Quarter Fest og Jazz Fest (se Vinduer).", "en": "Ideal (26 °C). French Quarter Fest and Jazz Fest (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 29.6, "nedbor": 143, "no": "Varmt (30 °C), økende fuktighet.", "en": "Warm (30 °C), rising humidity."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.2, "nedbor": 194, "no": "Hett og fuktig (32 °C). Orkansesongen starter.", "en": "Hot and humid (32 °C). Hurricane season begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 33.0, "nedbor": 172, "no": "Hett og fuktig (33 °C), tordenbyger.", "en": "Hot and humid (33 °C), thunderstorms."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.9, "nedbor": 176, "no": "Hett og fuktig; orkanfare.", "en": "Hot and humid; hurricane risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.2, "nedbor": 130, "no": "Varmt (31 °C); topp i orkansesongen.", "en": "Hot (31 °C); peak hurricane season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.0, "nedbor": 94, "no": "Behagelig (27 °C), tørrest. Beste høstmåned.", "en": "Pleasant (27 °C), driest. Best autumn month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 21.8, "nedbor": 98, "no": "Mildt (22 °C).", "en": "Mild (22 °C)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 18.2, "nedbor": 122, "no": "Mildt (18 °C). Jul i New Orleans.", "en": "Mild (18 °C). Christmas in New Orleans."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-14", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Mardi Gras (17.2.2026): fantastisk, men fullt og dyrt", "en": "Mardi Gras (17 Feb 2026): fantastic, but full and expensive"},
+    {"fra": "2027-02-06", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Mardi Gras (9.2.2027): fantastisk, men fullt og dyrt", "en": "Mardi Gras (9 Feb 2027): fantastic, but full and expensive"},
+    {"fra": "2028-02-26", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Mardi Gras (29.2.2028): fantastisk, men fullt og dyrt", "en": "Mardi Gras (29 Feb 2028): fantastic, but full and expensive"},
+    {"fra_uke": 17, "til_uke": 18, "type": "Hendelse", "justering": 0.5, "no": "New Orleans Jazz & Heritage Festival (siste helg i april og første i mai)", "en": "New Orleans Jazz & Heritage Festival (last weekend of April and first of May)"}
+  ]
+}

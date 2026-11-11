@@ -1,0 +1,29 @@
+{
+  "id": "USA-RM",
+  "region": "Nord-Amerika",
+  "land": "USA",
+  "sted": "Rocky Mountains (Yellowstone)",
+  "kortnavn": "Yellowstone",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [44.6, -110.5],
+  "kilde": "Yellowstone – Mammoth (1900 moh), NOAA 1991–2020, via Wikipedia. Old Faithful og Yellowstone Lake er kaldere",
+  "en": {"land": "USA", "sted": "Rocky Mountains (Yellowstone)", "kortnavn": "Yellowstone", "kategori": "Nature / wildlife", "kilde": "Yellowstone – Mammoth (1,900 m), NOAA 1991–2020, via Wikipedia. Old Faithful and Yellowstone Lake are colder"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -0.3, "nedbor": 23, "no": "Vinter (0 °C): de fleste veiene stengt, bare snøscooter eller guidet tur.", "en": "Winter (0 °C): most roads closed; snowmobile or guided tours only."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 1.2, "nedbor": 20, "no": "Vinter. Ulver kan sees i Lamar Valley.", "en": "Winter. Wolves can be seen in Lamar Valley."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 5.5, "nedbor": 28, "no": "Kaldt (6 °C). Veiene er stengt for vinteren.", "en": "Cold (6 °C). Roads closed for winter."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.8, "nedbor": 36, "no": "Kjølig (10 °C), snø. De første veiene åpner mot slutten.", "en": "Cool (10 °C), snow. The first roads open late in the month."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 15.3, "nedbor": 46, "no": "Mildt (15 °C), bjørner og kalver. De fleste veiene åpne.", "en": "Mild (15 °C), bears and calves. Most roads open."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 20.8, "nedbor": 47, "no": "Behagelig (21 °C), alt åpent. Høysesong.", "en": "Pleasant (21 °C), everything open. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 27.1, "nedbor": 32, "no": "Varmt (27 °C), tørt. Toppsesong, fullt.", "en": "Warm (27 °C), dry. Peak season, full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 26.6, "nedbor": 27, "no": "Varmt (27 °C). Toppsesong.", "en": "Warm (27 °C). Peak season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 20.4, "nedbor": 31, "no": "Behagelig (20 °C), brunst hos wapitihjorten, færre folk. Beste måned.", "en": "Pleasant (20 °C), elk rut, fewer people. Best month."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 12.0, "nedbor": 34, "no": "Kjølig (12 °C), første snø; veiene stenger fra midten av måneden.", "en": "Cool (12 °C), first snow; roads close from mid-month."},
+    {"klima": 1, "opplevelse": 1, "trengsel": 5, "tmaks": 4.1, "nedbor": 29, "no": "Stengt mellom sesongene.", "en": "Closed between seasons."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": -0.9, "nedbor": 23, "no": "Vintersesongen åpner midt i desember.", "en": "The winter season opens mid-December."}
+  ],
+  "vinduer": []
+}

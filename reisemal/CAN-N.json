@@ -1,0 +1,28 @@
+{
+  "id": "CAN-N",
+  "region": "Nord-Amerika",
+  "land": "Canada",
+  "sted": "Yukon (nordlys)",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / nordlys",
+  "merknad": "",
+  "koord": [60.72, -135.05],
+  "kilde": "Whitehorse (Erik Nielsen International Airport), ECCC 1991–2020, via Wikipedia",
+  "en": {"land": "Canada", "sted": "Yukon (northern lights)", "kategori": "Nature / northern lights", "kilde": "Whitehorse (Erik Nielsen International Airport), ECCC 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 1, "opplevelse": 4, "trengsel": 4, "tmaks": -11.1, "nedbor": 22, "no": "Svært kaldt (−11 °C), mørkt. Nordlys.", "en": "Very cold (−11 °C), dark. Northern lights."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": -7.1, "nedbor": 15, "no": "Kaldt (−7 °C), lengre dager. Nordlys og hundeløpet Yukon Quest.", "en": "Cold (−7 °C), longer days. Northern lights and the Yukon Quest sled dog race."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": -1.1, "nedbor": 12, "no": "Kaldt (−1 °C), lyst. Beste måned for nordlys.", "en": "Cold (−1 °C), bright. Best month for northern lights."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.1, "nedbor": 8, "no": "Kjølig, snøsmelting. Mellomsesong.", "en": "Cool, thaw. Shoulder season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.2, "nedbor": 15, "no": "Mildt (14 °C), lange dager.", "en": "Mild (14 °C), long days."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 19.3, "nedbor": 35, "no": "Behagelig (19 °C), nesten midnattssol.", "en": "Pleasant (19 °C), near-midnight sun."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 20.5, "nedbor": 39, "no": "Varmest (21 °C). Padling på Yukon-elva.", "en": "Warmest (21 °C). Canoeing on the Yukon River."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 18.5, "nedbor": 39, "no": "Mildt (19 °C); nordlyset kommer tilbake mot slutten.", "en": "Mild (19 °C); northern lights return late in the month."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 12.3, "nedbor": 31, "no": "Kjølig (12 °C), høstfarger og nordlys.", "en": "Cool (12 °C), autumn colours and northern lights."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 4.3, "nedbor": 23, "no": "Kaldt (4 °C), første snø.", "en": "Cold (4 °C), first snow."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 5, "tmaks": -5.4, "nedbor": 24, "no": "Kaldt og mørkt.", "en": "Cold and dark."},
+    {"klima": 1, "opplevelse": 3, "trengsel": 5, "tmaks": -9.1, "nedbor": 16, "no": "Svært kaldt (−9 °C) og mørkt.", "en": "Very cold (−9 °C) and dark."}
+  ],
+  "vinduer": []
+}

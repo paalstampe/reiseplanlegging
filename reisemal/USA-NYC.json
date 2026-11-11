@@ -1,0 +1,28 @@
+{
+  "id": "USA-NYC",
+  "region": "Nord-Amerika",
+  "land": "USA",
+  "sted": "New York og nordøst",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [40.71, -74.0],
+  "kilde": "New York (Central Park), NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "USA", "sted": "New York and the Northeast", "kategori": "City / culture", "kilde": "New York (Central Park), NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 4.2, "nedbor": 92, "no": "Kaldt (4 °C), mulig snø. Lave hotellpriser etter nyttår.", "en": "Cold (4 °C), possible snow. Low hotel prices after New Year."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 5.7, "nedbor": 81, "no": "Kaldt (6 °C). Rolig.", "en": "Cold (6 °C). Quiet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 9.9, "nedbor": 109, "no": "Kjølig (10 °C), skiftende.", "en": "Cool (10 °C), changeable."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 16.6, "nedbor": 104, "no": "Mildt (17 °C), kirsebærblomstring.", "en": "Mild (17 °C), cherry blossom."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 21.9, "nedbor": 101, "no": "Behagelig (22 °C). Beste vårmåned.", "en": "Pleasant (22 °C). Best spring month."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.5, "nedbor": 115, "no": "Varmt (27 °C), lange kvelder. Høysesong.", "en": "Warm (27 °C), long evenings. High season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 29.4, "nedbor": 117, "no": "Varmt og fuktig (29 °C), tordenbyger.", "en": "Hot and humid (29 °C), thunderstorms."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 28.5, "nedbor": 116, "no": "Varmt og fuktig. Mange new yorkere er på ferie.", "en": "Hot and humid. Many New Yorkers are away."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.6, "nedbor": 109, "no": "Behagelig (25 °C). Beste tid; tidlig høst i New England.", "en": "Pleasant (25 °C). Best time; early autumn in New England."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 18.1, "nedbor": 111, "no": "Klart og friskt (18 °C). Høstløv i New England.", "en": "Crisp and clear (18 °C). Fall foliage in New England."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 12.2, "nedbor": 91, "no": "Kjølig (12 °C). Thanksgiving: fullt og dyrt.", "en": "Cool (12 °C). Thanksgiving: full and expensive."},
+    {"klima": 2, "opplevelse": 5, "trengsel": 1, "tmaks": 6.8, "nedbor": 111, "no": "Kaldt (7 °C). Julebelysning; fullt og dyrest.", "en": "Cold (7 °C). Christmas lights; full and most expensive."}
+  ],
+  "vinduer": []
+}

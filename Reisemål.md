@@ -57,9 +57,18 @@ Generert av lag_reisekart.py fra reisemal/. ★ = ønskeliste.
 
 ## Nord-Amerika
 
+- [ ] Canada: Québec og Ontario (CAN-O)
+- [ ] Canada: Rockies (Banff, Jasper) (CAN-W)
+- [ ] Canada: Yukon (nordlys) (CAN-N)
+- [ ] USA: Alaska (USA-AK)
+- [ ] USA: Florida (USA-FL)
 - [ ] USA: Hawaii ★ (USA-HI)
+- [ ] USA: New York og nordøst (USA-NYC)
 - [ ] USA: Nordvestkysten (San Francisco til Vancouver) ★ (USA-WC)
+- [ ] USA: Rocky Mountains (Yellowstone) (USA-RM)
 - [ ] USA: Savannah-Charleston ★ (USA-CHS)
+- [ ] USA: Sørstatene (New Orleans, Memphis, Nashville) (USA-SOR)
+- [ ] USA: Sørvest (Grand Canyon, Utah) (USA-SW)
 
 ## Mellom-Amerika og Karibia
 

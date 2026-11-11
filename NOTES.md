@@ -9,7 +9,9 @@ Sist oppdatert: 11. november 2026.
 
 - 11.11. kveld: Midtøsten er fylt inn som prøveregion (12 nye: BHR, ARE, JOR, KWT, OMN, QAT, SAU, IRQ, IRN, ISR, PSE, SYR),
   med `/nytt-reisemal`. Ramadan 2026–28 ligger i `felles_vinduer.json` for 13 reisemål; Iran har Nowruz, Israel pesach.
-  Venter på Påls vurdering av scorer og tone før resten av regionene.
+  Pål godkjente scorer og tone. Nord-Amerika er fylt inn samme kveld (9 nye: USA-NYC, USA-SOR, USA-FL, USA-SW, USA-RM, USA-AK,
+  CAN-W, CAN-O, CAN-N; alle stasjoner 1991–2020), med Mardi Gras, Jazz Fest, Iditarod og Carnaval de Québec som vinduer.
+  Gjenstår: Europa (60), Afrika (46), Asia (32), Sør-Amerika (20), Mellom-Amerika og Karibia (20), Oseania (18).
 - 11.11.: utvidelse mot alle FN-landene påbegynt. Steg 1 er gjort: dataene ligger i én JSON-fil per reisemål i `reisemal/`
   (norsk og engelsk side om side), lest av `reisemal.py`. `Reisemål.md` genereres. Alle 40 har `onskeliste: true`.
   Siden og regnearket har identiske data som før.

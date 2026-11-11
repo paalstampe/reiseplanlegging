@@ -1,0 +1,29 @@
+{
+  "id": "CAN-W",
+  "region": "Nord-Amerika",
+  "land": "Canada",
+  "sted": "Rockies (Banff, Jasper)",
+  "kortnavn": "Banff og Jasper",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / fjell",
+  "merknad": "",
+  "koord": [51.18, -115.57],
+  "kilde": "Banff (1384 moh), ECCC 1991–2020, via Wikipedia",
+  "en": {"land": "Canada", "sted": "Rockies (Banff, Jasper)", "kortnavn": "Banff and Jasper", "kategori": "Nature / mountains", "kilde": "Banff (1,384 m), ECCC 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": -3.5, "nedbor": 19, "no": "Kaldt (−4 °C). Skisesong og islagte innsjøer.", "en": "Cold (−4 °C). Ski season and frozen lakes."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 3, "tmaks": -0.5, "nedbor": 19, "no": "Kaldt, gode skiforhold.", "en": "Cold, good skiing."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 3.7, "nedbor": 29, "no": "Kaldt (4 °C), lange skidager. Vårski.", "en": "Cold (4 °C), long ski days. Spring skiing."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.0, "nedbor": 39, "no": "Mellomsesong: snøsmelting, innsjøene er fortsatt islagt.", "en": "Shoulder season: thaw, lakes still frozen."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.3, "nedbor": 50, "no": "Mildt (14 °C); Lake Louise og Moraine Lake tiner mot slutten.", "en": "Mild (14 °C); Lake Louise and Moraine Lake thaw late in the month."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 17.9, "nedbor": 73, "no": "Behagelig (18 °C), vått. Turkise innsjøer.", "en": "Pleasant (18 °C), wet. Turquoise lakes."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 22.5, "nedbor": 47, "no": "Varmt (23 °C). Toppsesong: fullt, book tidlig.", "en": "Warm (23 °C). Peak season: full, book early."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 22.1, "nedbor": 47, "no": "Varmt (22 °C). Toppsesong. Røyk fra skogbranner kan forekomme.", "en": "Warm (22 °C). Peak season. Wildfire smoke possible."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 16.7, "nedbor": 45, "no": "Behagelig (17 °C), lerkene blir gule. Færre folk.", "en": "Pleasant (17 °C), larches turn golden. Fewer people."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 9.1, "nedbor": 36, "no": "Kjølig (9 °C), første snø. Mye stenger.", "en": "Cool (9 °C), first snow. Much closes."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 0.6, "nedbor": 28, "no": "Kaldt, mellomsesong før skisesongen.", "en": "Cold, shoulder season before skiing."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 2, "tmaks": -4.6, "nedbor": 22, "no": "Kaldt (−5 °C). Skisesong og jul i Banff.", "en": "Cold (−5 °C). Ski season and Christmas in Banff."}
+  ],
+  "vinduer": []
+}

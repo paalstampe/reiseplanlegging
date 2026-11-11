@@ -1,0 +1,28 @@
+{
+  "id": "USA-FL",
+  "region": "Nord-Amerika",
+  "land": "USA",
+  "sted": "Florida",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Strand / by",
+  "merknad": "",
+  "koord": [25.76, -80.19],
+  "kilde": "Miami International Airport, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "USA", "sted": "Florida", "kategori": "Beach / city", "kilde": "Miami International Airport, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.6, "nedbor": 46, "no": "Ideelt (25 °C), tørt. Høysesong.", "en": "Ideal (25 °C), dry. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.7, "nedbor": 55, "no": "Ideelt og tørt. Høysesong.", "en": "Ideal and dry. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 27.0, "nedbor": 62, "no": "Varmt (27 °C). Spring break: fullt og dyrt.", "en": "Warm (27 °C). Spring break: full and expensive."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 28.7, "nedbor": 85, "no": "Varmt (29 °C), fortsatt tørt.", "en": "Warm (29 °C), still dry."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.4, "nedbor": 161, "no": "Varmt (30 °C); regntiden starter mot slutten.", "en": "Warm (30 °C); the rainy season starts towards the end."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.8, "nedbor": 267, "no": "Varmt og fuktig, daglige tordenbyger. Orkansesongen starter.", "en": "Hot and humid, daily thunderstorms. Hurricane season begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 32.6, "nedbor": 187, "no": "Varmt (33 °C), byger. Sommerferie.", "en": "Hot (33 °C), showers. Summer holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.6, "nedbor": 243, "no": "Varmt og vått; orkanfare.", "en": "Hot and wet; hurricane risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.7, "nedbor": 260, "no": "Topp i orkansesongen. Lavsesong.", "en": "Peak hurricane season. Low season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.9, "nedbor": 194, "no": "Varmt (30 °C), fortsatt orkanfare.", "en": "Warm (30 °C), still hurricane risk."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.4, "nedbor": 90, "no": "Behagelig (27 °C), tørrere. God tid.", "en": "Pleasant (27 °C), drier. A good time."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 25.7, "nedbor": 62, "no": "Varmt (26 °C). Jul/nyttår: fullt og dyrt.", "en": "Warm (26 °C). Christmas/New Year: full and expensive."}
+  ],
+  "vinduer": []
+}

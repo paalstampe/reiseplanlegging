@@ -1,0 +1,29 @@
+{
+  "id": "USA-SW",
+  "region": "Nord-Amerika",
+  "land": "USA",
+  "sted": "Sørvest (Grand Canyon, Utah)",
+  "kortnavn": "USA sørvest",
+  "status": "Ikke besøkt",
+  "onskeliste": false,
+  "kategori": "Natur / roadtrip",
+  "merknad": "",
+  "koord": [37.3, -111.5],
+  "kilde": "Moab (Utah, 1220 moh), NOAA 1991–2020, via Wikipedia. Grand Canyons kanter (2100–2500 moh) er 8–10 °C kaldere",
+  "en": {"land": "USA", "sted": "Southwest (Grand Canyon, Utah)", "kortnavn": "US Southwest", "kategori": "Nature / road trip", "kilde": "Moab (Utah, 1,220 m), NOAA 1991–2020, via Wikipedia. The Grand Canyon rims (2,100–2,500 m) are 8–10 °C colder"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 6.4, "nedbor": 17, "no": "Kaldt (6 °C), snø; Grand Canyons nordkant er stengt.", "en": "Cold (6 °C), snow; the Grand Canyon North Rim is closed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 11.2, "nedbor": 17, "no": "Kjølig (11 °C), kalde netter.", "en": "Cool (11 °C), cold nights."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 18.1, "nedbor": 18, "no": "Mildt (18 °C). Spring break i parkene.", "en": "Mild (18 °C). Spring break in the parks."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.4, "nedbor": 20, "no": "Ideelt (22 °C) for vandring.", "en": "Ideal (22 °C) for hiking."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.1, "nedbor": 21, "no": "Varmt (28 °C). Nordkanten åpner midt i mai. Høysesong.", "en": "Warm (28 °C). The North Rim opens mid-May. High season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 34.4, "nedbor": 9, "no": "Hett (34 °C) i dalene; start tidlig.", "en": "Hot (34 °C) in the valleys; start early."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 37.3, "nedbor": 23, "no": "Hett (37 °C), monsunbyger og flomfare i kløftene. Fullt.", "en": "Very hot (37 °C), monsoon storms and flash floods in canyons. Full."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 2, "tmaks": 35.5, "nedbor": 22, "no": "Hett, monsunbyger. Fullt.", "en": "Very hot, monsoon storms. Full."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.9, "nedbor": 23, "no": "Varmt (31 °C), klart. Beste høstmåned.", "en": "Warm (31 °C), clear. Best autumn month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.1, "nedbor": 26, "no": "Ideelt (23 °C), høstfarger.", "en": "Ideal (23 °C), autumn colours."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 13.9, "nedbor": 18, "no": "Kjølig (14 °C). Nordkanten stenger.", "en": "Cool (14 °C). The North Rim closes."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 6.6, "nedbor": 19, "no": "Kaldt (7 °C), snø på kantene av kløftene.", "en": "Cold (7 °C), snow on the canyon rims."}
+  ],
+  "vinduer": []
+}
