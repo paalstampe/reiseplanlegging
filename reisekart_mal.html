@@ -586,54 +586,47 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") lukkDetalj()
 
 /* Detaljkortet kan dras unna prikkene, med mus og touch (samme løsning som infoboksen i byguidene).
    Forskyvningen er en transform, og kortet holdes innenfor kartflaten. Det dras etter toppen (region og navn),
-   så resten av kortet kan rulles og teksten markeres. */
-function nullstillFlytt(el) { el.style.transform = ""; el.dataset.flytt = "0,0"; }
-// Skyver et flyttet kort tilbake inn i kartflaten (ny høyde etter månedsbytte, mindre vindu).
-function holdKortInne(el) {
-  if (el.hidden || !el.dataset.flytt || el.dataset.flytt === "0,0") return;
-  const b = el.getBoundingClientRect(), k = document.querySelector(".kartflate").getBoundingClientRect();
+   så resten av kortet kan rulles og teksten markeres. En ResizeObserver skyver kortet inn igjen når det
+   får ny høyde (månedsbytte) eller kartflaten blir mindre. */
+const KORT = document.getElementById("detalj"), KARTFLATE = document.querySelector(".kartflate");
+let flytt = { x: 0, y: 0 };
+function settFlytt(x, y) { flytt = { x, y }; KORT.style.transform = x || y ? `translate(${x}px,${y}px)` : ""; }
+function holdKortInne() {
+  if (KORT.hidden || (!flytt.x && !flytt.y)) return;
+  const b = KORT.getBoundingClientRect(), k = KARTFLATE.getBoundingClientRect();
   const dx = Math.max(k.left - b.left, Math.min(0, k.right - b.right)), dy = Math.max(k.top - b.top, Math.min(0, k.bottom - b.bottom));
-  if (!dx && !dy) return;
-  const [x, y] = el.dataset.flytt.split(",").map(Number);
-  el.style.transform = `translate(${x + dx}px,${y + dy}px)`; el.dataset.flytt = (x + dx) + "," + (y + dy);
+  if (dx || dy) settFlytt(flytt.x + dx, flytt.y + dy);
 }
 (() => {
-  const kort = document.getElementById("detalj"), flate = document.querySelector(".kartflate");
   let dra = null;
-  kort.addEventListener("pointerdown", e => {
-    if (!e.isPrimary || e.button !== 0 || e.target.closest("a, button")) return;
-    if (!e.target.closest(".rute-kicker, .rute-navn")) return;
-    const [x, y] = (kort.dataset.flytt || "0,0").split(",").map(Number);
-    dra = { id: e.pointerId, x0: e.clientX, y0: e.clientY, x, y, iGang: false,
-            boks: kort.getBoundingClientRect(), kant: flate.getBoundingClientRect() };
+  KORT.addEventListener("pointerdown", e => {
+    if (!e.isPrimary || e.button !== 0 || !e.target.closest(".rute-kicker, .rute-navn")) return;
+    dra = { id: e.pointerId, x0: e.clientX, y0: e.clientY, x: flytt.x, y: flytt.y, iGang: false };
   });
-  kort.addEventListener("pointermove", e => {
+  KORT.addEventListener("pointermove", e => {
     if (!dra || e.pointerId !== dra.id) return;
     const dx = e.clientX - dra.x0, dy = e.clientY - dra.y0;
     if (!dra.iGang) {
       if (Math.hypot(dx, dy) < 5) return;
-      dra.iGang = true; kort.setPointerCapture(e.pointerId); kort.classList.add("drar");
+      dra.iGang = true; KORT.setPointerCapture(e.pointerId); KORT.classList.add("drar");
     }
-    const { boks, kant } = dra;
-    const x = dra.x + Math.min(Math.max(dx, kant.left - boks.left), kant.right - boks.right);
-    const y = dra.y + Math.min(Math.max(dy, kant.top - boks.top), kant.bottom - boks.bottom);
-    kort.style.transform = `translate(${x}px,${y}px)`; kort.dataset.flytt = x + "," + y;
+    settFlytt(dra.x + dx, dra.y + dy); holdKortInne();
     e.preventDefault();
   });
-  const slipp = e => { if (dra && e.pointerId === dra.id) { kort.classList.remove("drar"); dra = null; } };
-  kort.addEventListener("pointerup", slipp);
-  kort.addEventListener("pointercancel", slipp);
-  addEventListener("resize", () => holdKortInne(kort));
+  const slipp = e => { if (dra && e.pointerId === dra.id) { KORT.classList.remove("drar"); dra = null; } };
+  KORT.addEventListener("pointerup", slipp);
+  KORT.addEventListener("pointercancel", slipp);
+  const obs = new ResizeObserver(holdKortInne);
+  obs.observe(KORT); obs.observe(KARTFLATE);
 })();
 
 function visDetalj(id) {
+  const el = KORT;
+  if (el.hidden || state.valgt !== id) settFlytt(0, 0);   // nytt kort starter på vanlig plass
   state.valgt = id;
-  const el = document.getElementById("detalj");
   const d = DATA.dest.find(x => x.id === id);
   if (!d) { el.hidden = true; return; }
-  if (el.hidden || el.dataset.id !== id) nullstillFlytt(el);   // nytt kort starter på vanlig plass
-  el.dataset.id = id;
-  el.innerHTML = detaljHtml(d); el.hidden = false; el.scrollTop = 0; holdKortInne(el);
+  el.innerHTML = detaljHtml(d); el.hidden = false; el.scrollTop = 0;
   el.querySelector("#lukk").addEventListener("click", lukkDetalj);
   el.querySelectorAll("button.strip-celle").forEach(b => b.addEventListener("click", () => { state.mnd = +b.dataset.mnd; oppdater(); }));
 }

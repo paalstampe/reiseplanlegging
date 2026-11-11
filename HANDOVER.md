@@ -35,10 +35,10 @@ Før 11.11.2026 lå dataene i `reisedata.py`, `reisedata_en.py` og `dest` i `byg
 
 ## Flyttbart detaljkort (fra 11.11.2026)
 Detaljkortet kan dras unna prikkene, som infoboksen i byguidene (`flyttbarPopup` der). Forskyvningen er en CSS-transform
-(`dataset.flytt`), holdt innenfor kartflaten. Kortet dras etter toppen (region og navn, `touch-action:none`), med mus og
+(`settFlytt`), holdt innenfor kartflaten. Kortet dras etter toppen (region og navn, `touch-action:none`), med mus og
 touch, så resten kan rulles og teksten markeres (i byguidene drar musen fra hele boksen). Plassen beholdes når måneden byttes,
-og `holdKortInne` skyver kortet inn igjen etter ny høyde eller mindre vindu. Et annet reisemål eller et kort som åpnes på nytt,
-starter på vanlig plass (`nullstillFlytt`).
+og `holdKortInne` (via en ResizeObserver på kortet og kartflaten) skyver det inn igjen etter ny høyde eller mindre flate. Et annet reisemål eller et kort som åpnes på nytt,
+starter på vanlig plass.
 
 ## Ønskeliste og søk (fra 11.11.2026)
 - Alle reisemål vises som standard. Under «Vis» velger «Ønskeliste» bare reisemålene med `onskeliste: true` (motsatt av byguidene,
