@@ -1,15 +1,16 @@
 {
   "id": "LKA-SV",
-  "region": "Asia, Oseania og Midt-Østen",
+  "region": "Asia",
   "land": "Sri Lanka",
   "sted": "Vest- og sørkysten, høylandet",
+  "kortnavn": "Sri Lanka sør/vest",
   "status": "Ikke besøkt",
   "onskeliste": true,
   "kategori": "Strand / kultur",
   "merknad": "Sørvestmonsun mai–sep; best des–apr",
   "koord": [6.4, 80.3],
   "kilde": "Colombo, WMO 1991–2020, via Wikipedia. Høylandet: kjøligere, tilsvarende regnmønster",
-  "en": {"land": "Sri Lanka", "sted": "West and south coast, hill country", "kategori": "Beach / culture", "merknad": "Southwest monsoon May–Sep; best Dec–Apr", "kilde": "Colombo, WMO 1991–2020, via Wikipedia. Hill country: cooler, similar rain pattern"},
+  "en": {"land": "Sri Lanka", "sted": "West and south coast, hill country", "kategori": "Beach / culture", "merknad": "Southwest monsoon May–Sep; best Dec–Apr", "kilde": "Colombo, WMO 1991–2020, via Wikipedia. Hill country: cooler, similar rain pattern", "kortnavn": "Sri Lanka south/west"},
   "maneder": [
     {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.4, "nedbor": 80, "no": "Tørt og solrikt på vest-/sørkysten. Hval ved Mirissa.", "en": "Dry and sunny on the west/south coast. Whales off Mirissa."},
     {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.6, "nedbor": 77, "no": "Tørt. Hval, gode forhold i høylandet.", "en": "Dry. Whales, good conditions in the hill country."},

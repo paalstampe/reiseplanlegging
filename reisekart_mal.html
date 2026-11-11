@@ -338,7 +338,7 @@ const TEKST = {
     kart: "Kart", zoomInn: "Zoom inn", zoomUt: "Zoom ut", visHele: "Vis hele kartet",
     mnd: ["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"],
     mndLang: ["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"],
-    alle: "Alle", regioner: {"Asia, Oseania og Midt-Østen":"Asia og Midtøsten"},
+    alle: "Alle", regioner: {},
     utvalg: "Vis", alleReisemal: "Alle reisemål", onskeliste: "Ønskeliste",
     sok: "Søk", sokPlass: "Søk etter land eller sted",
     ingenTreff: q => `Ingen treff på «${q}» i dette utvalget.`,
@@ -352,7 +352,6 @@ const TEKST = {
     manedscore: "Månedsscore", samlet: "samlet", aaret: a => `Året ${a} – klikk en måned`, uker: "Uker", uke: "u", ukeLang: "uke",
     hendDenne: "Hendelser denne måneden", hendEllers: a => `Hendelser ellers i ${a}`,
     kilde: "Klimakilde", lukk: "Lukk",
-    lkaO: "Sri Lanka øst", lkaSV: "Sri Lanka sør/vest",
     offline: "Tilgjengelig offline",
     kartFeil: m => `Kartet kunne ikke lastes (${m}). Listen til venstre virker som vanlig.`
   },
@@ -367,8 +366,8 @@ const TEKST = {
     kart: "Map", zoomInn: "Zoom in", zoomUt: "Zoom out", visHele: "Show the whole map",
     mnd: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     mndLang: ["January","February","March","April","May","June","July","August","September","October","November","December"],
-    alle: "All", regioner: {"Asia, Oseania og Midt-Østen":"Asia and Middle East","Nord-Amerika":"North America",
-      "Sør- og Mellom-Amerika":"South and Central America","Afrika":"Africa"},
+    alle: "All", regioner: {"Europa":"Europe","Midtøsten":"Middle East","Afrika":"Africa","Asia":"Asia","Oseania":"Oceania",
+      "Nord-Amerika":"North America","Mellom-Amerika og Karibia":"Central America and Caribbean","Sør-Amerika":"South America"},
     utvalg: "Show", alleReisemal: "All destinations", onskeliste: "Wishlist",
     sok: "Search", sokPlass: "Search for a country or place",
     ingenTreff: q => `No matches for “${q}” in this selection.`,
@@ -382,7 +381,6 @@ const TEKST = {
     manedscore: "Month score", samlet: "overall", aaret: a => `${a} – click a month`, uker: "Weeks", uke: "w", ukeLang: "week",
     hendDenne: "Events this month", hendEllers: a => `Other events in ${a}`,
     kilde: "Climate source", lukk: "Close",
-    lkaO: "Sri Lanka east", lkaSV: "Sri Lanka south/west",
     offline: "Available offline",
     kartFeil: m => `The map could not be loaded (${m}). The list works as usual.`
   }
@@ -679,8 +677,9 @@ function punktData() {
     }));
   });
 }
+// Kartetikett: «land – sted» når det er kort, ellers kortnavnet fra dataene (f.eks. «Sri Lanka øst»), ellers landet.
 const navnKort = d => { const land = tekst(d, "land"), sted = tekst(d, "sted");
-  return sted && land.length + sted.length < 23 ? `${land} – ${sted}` : (sted && d.land === "Sri Lanka" ? t(d.id === "LKA-O" ? "lkaO" : "lkaSV") : land); };
+  return sted && land.length + sted.length < 23 ? `${land} – ${sted}` : tekst(d, "kortnavn") || land; };
 const DATA_KOORD = DATA.koord;
 
 function tegnKart() {

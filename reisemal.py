@@ -3,9 +3,12 @@
 import glob, json, os
 from datetime import date
 
-MAPPE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reisemal")
+HER = os.path.dirname(os.path.abspath(__file__))
+MAPPE = os.path.join(HER, "reisemal")
+# Vinduer som gjelder mange reisemål (ramadan, påske, kinesisk nyttår …) står én gang her, med lista over reisemålene.
+FELLES = os.path.join(HER, "felles_vinduer.json")
 # Rekkefølgen regionene vises i (regneark og md-liste). Ny region legges inn her og i TEKST.regioner i malen.
-REGIONER = ["Asia, Oseania og Midt-Østen", "Nord-Amerika", "Sør- og Mellom-Amerika", "Afrika"]
+REGIONER = ["Europa", "Midtøsten", "Afrika", "Asia", "Oseania", "Nord-Amerika", "Mellom-Amerika og Karibia", "Sør-Amerika"]
 FELT = ("id", "region", "land", "sted", "status", "onskeliste", "kategori", "merknad", "koord", "kilde", "en", "maneder", "vinduer")
 MANEDSFELT = ("klima", "opplevelse", "trengsel", "tmaks", "nedbor", "no")
 VINDUSFELT = ("type", "justering", "no")
@@ -24,7 +27,31 @@ def last():
         if feil:
             raise SystemExit(os.path.basename(sti) + ": " + "; ".join(feil))
         alle.append(r)
+    leggTilFelles({r["id"]: r for r in alle})
     return sorted(alle, key=sorteringsnokkel)
+
+def leggTilFelles(per_id):
+    """Legger de felles vinduene til hvert reisemål de gjelder. Et element i «gjelder» er en ID, eller
+    {"id": …} med felter som overstyrer (f.eks. annen justering eller tekst for det reisemålet).
+    Vinduene merkes «felles», så skriv() ikke lagrer dem i reisemålets egen fil."""
+    if not os.path.exists(FELLES): return
+    with open(FELLES, encoding="utf-8") as fil:
+        felles = json.load(fil)["vinduer"]
+    for i, v in enumerate(felles, 1):
+        for g in v.get("gjelder", []):
+            idd, overstyr = (g, {}) if isinstance(g, str) else (g.get("id"), {k: x for k, x in g.items() if k != "id"})
+            if idd not in per_id:
+                raise SystemExit(f"felles_vinduer.json: vindu {i} gjelder ukjent reisemål {idd}")
+            per_id[idd]["vinduer"].append({**{k: x for k, x in v.items() if k != "gjelder"}, **overstyr, "felles": True})
+        feil = sjekk_vindu(v, i)
+        if feil or not v.get("gjelder"):
+            raise SystemExit("felles_vinduer.json: " + "; ".join(feil or [f"vindu {i} mangler gjelder"]))
+
+def sjekk_vindu(v, i):
+    feil = [f"vindu {i} mangler {f}" for f in VINDUSFELT if f not in v]
+    if not ("fra" in v and "til" in v or "fra_uke" in v and "til_uke" in v):
+        feil.append(f"vindu {i} mangler fra/til eller fra_uke/til_uke")
+    return feil
 
 def sjekk(r, navn):
     """Liste over feil i ett reisemål (tom = i orden)."""
@@ -37,9 +64,7 @@ def sjekk(r, navn):
     for i, m in enumerate(r["maneder"], 1):
         feil += [f"måned {i} mangler {f}" for f in MANEDSFELT if f not in m]
     for i, v in enumerate(r["vinduer"], 1):
-        feil += [f"vindu {i} mangler {f}" for f in VINDUSFELT if f not in v]
-        if not ("fra" in v and "til" in v or "fra_uke" in v and "til_uke" in v):
-            feil.append(f"vindu {i} mangler fra/til eller fra_uke/til_uke")
+        feil += sjekk_vindu(v, i)
     return feil
 
 def uke(iso):
@@ -56,6 +81,7 @@ def vindu(r, v):
 def skriv(sti, r):
     """Lagrer ett reisemål med én måned og ett vindu per linje, så endringer er lette å lese i git."""
     linjer = []
+    r = {**r, "vinduer": [v for v in r.get("vinduer", []) if not v.get("felles")]}
     for k, v in r.items():
         if isinstance(v, list) and v and isinstance(v[0], dict):
             verdi = "[\n" + ",\n".join("    " + json.dumps(x, ensure_ascii=False) for x in v) + "\n  ]"

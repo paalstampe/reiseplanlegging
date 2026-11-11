@@ -1,15 +1,15 @@
 {
   "id": "USA-HI",
   "region": "Nord-Amerika",
-  "land": "Hawaii",
-  "sted": "",
+  "land": "USA",
+  "sted": "Hawaii",
   "status": "Ikke besøkt",
   "onskeliste": true,
   "kategori": "Strand / natur",
   "merknad": "",
   "koord": [20.8, -156.9],
   "kilde": "Honolulu lufthavn, NOAA 1991–2020, via Wikipedia",
-  "en": {"land": "Hawaii", "kategori": "Beach / nature", "kilde": "Honolulu airport, NOAA 1991–2020, via Wikipedia"},
+  "en": {"land": "USA", "kategori": "Beach / nature", "kilde": "Honolulu airport, NOAA 1991–2020, via Wikipedia", "sted": "Hawaii"},
   "maneder": [
     {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.9, "nedbor": 47, "no": "Noe regn; knølhval og store bølger på nordkysten.", "en": "Some rain; humpback whales and big waves on the North Shore."},
     {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.9, "nedbor": 49, "no": "Toppsesong for hval.", "en": "Peak whale season."},

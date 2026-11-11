@@ -2,43 +2,10 @@
 
 Generert av lag_reisekart.py fra reisemal/. ★ = ønskeliste.
 
-## Asia, Oseania og Midt-Østen
+## Midtøsten
 
-- [ ] Bhutan ★ (BTN)
-- [ ] Filippinene ★ (PHL)
-- [ ] Fransk Polynesia ★ (PYF)
-- [ ] India: Goa ★ (IND-GOA)
-- [ ] Indonesia: Rote ★ (IDN-ROT)
-- [ ] Kina: Beijing, Shanghai ★ (CHN)
-- [ ] Laos ★ (LAO)
 - [ ] Libanon ★ (LBN)
-- [ ] Myanmar ★ (MMR)
-- [ ] Nepal: Katmandu, Pokhara ★ (NPL)
-- [ ] Papua Ny-Guinea ★ (PNG)
-- [ ] Sentral-Asia: Silkeveien ★ (SILK)
-- [ ] Singapore ★ (SGP)
-- [ ] Sri Lanka: Vest- og sørkysten, høylandet ★ (LKA-SV)
-- [ ] Sri Lanka: Østkysten (Trincomalee, Arugam Bay) ★ (LKA-O)
-- [ ] Vietnam: Reunification Express + Hue ★ (VNM)
 - [ ] Yemen: Socotra ★ (YEM-SOC)
-- [ ] Øst-Timor ★ (TLS)
-
-## Nord-Amerika
-
-- [ ] Hawaii ★ (USA-HI)
-- [ ] USA Nordvestkyst: San Francisco til Vancouver ★ (USA-WC)
-- [ ] USA: Savannah-Charleston ★ (USA-CHS)
-
-## Sør- og Mellom-Amerika
-
-- [ ] Antarktis: Antarktishalvøya (via Ushuaia) ★ (ATA)
-- [ ] Brasil: Rio og nordover ★ (BRA-NE)
-- [ ] Colombia ★ (COL)
-- [ ] Costa Rica ★ (CRI)
-- [ ] Den dominikanske republikk ★ (DOM)
-- [ ] Ecuador: Galápagos ★ (ECU-GAL)
-- [ ] Mexico City ★ (MEX-CDMX)
-- [ ] Panama ★ (PAN)
 
 ## Afrika
 
@@ -53,3 +20,45 @@ Generert av lag_reisekart.py fra reisemal/. ★ = ønskeliste.
 - [ ] Togo ★ (TGO)
 - [ ] Zambia ★ (ZMB)
 - [ ] Zimbabwe ★ (ZWE)
+
+## Asia
+
+- [ ] Bhutan ★ (BTN)
+- [ ] Filippinene ★ (PHL)
+- [ ] India: Goa ★ (IND-GOA)
+- [ ] Indonesia: Rote ★ (IDN-ROT)
+- [ ] Kina: Beijing, Shanghai ★ (CHN)
+- [ ] Laos ★ (LAO)
+- [ ] Myanmar ★ (MMR)
+- [ ] Nepal: Katmandu, Pokhara ★ (NPL)
+- [ ] Singapore ★ (SGP)
+- [ ] Sri Lanka: Vest- og sørkysten, høylandet ★ (LKA-SV)
+- [ ] Sri Lanka: Østkysten (Trincomalee, Arugam Bay) ★ (LKA-O)
+- [ ] Usbekistan: Silkeveien (Samarkand, Bukhara, Khiva) ★ (UZB)
+- [ ] Vietnam: Reunification Express + Hue ★ (VNM)
+- [ ] Øst-Timor ★ (TLS)
+
+## Oseania
+
+- [ ] Fransk Polynesia ★ (PYF)
+- [ ] Papua Ny-Guinea ★ (PNG)
+
+## Nord-Amerika
+
+- [ ] USA: Hawaii ★ (USA-HI)
+- [ ] USA: Nordvestkysten (San Francisco til Vancouver) ★ (USA-WC)
+- [ ] USA: Savannah-Charleston ★ (USA-CHS)
+
+## Mellom-Amerika og Karibia
+
+- [ ] Costa Rica ★ (CRI)
+- [ ] Den dominikanske republikk ★ (DOM)
+- [ ] Mexico: Mexico City ★ (MEX-CDMX)
+- [ ] Panama ★ (PAN)
+
+## Sør-Amerika
+
+- [ ] Antarktis: Antarktishalvøya (via Ushuaia) ★ (ATA)
+- [ ] Brasil: Rio og nordover ★ (BRA-NE)
+- [ ] Colombia ★ (COL)
+- [ ] Ecuador: Galápagos ★ (ECU-GAL)

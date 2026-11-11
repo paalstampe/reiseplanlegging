@@ -1,15 +1,16 @@
 {
   "id": "LKA-O",
-  "region": "Asia, Oseania og Midt-Østen",
+  "region": "Asia",
   "land": "Sri Lanka",
   "sted": "Østkysten (Trincomalee, Arugam Bay)",
+  "kortnavn": "Sri Lanka øst",
   "status": "Ikke besøkt",
   "onskeliste": true,
   "kategori": "Strand / surf",
   "merknad": "Nordøstmonsun okt–jan; best mai–sep",
   "koord": [8.57, 81.23],
   "kilde": "Trincomalee, 1991–2020, via Wikipedia",
-  "en": {"land": "Sri Lanka", "sted": "East coast (Trincomalee, Arugam Bay)", "kategori": "Beach / surf", "merknad": "Northeast monsoon Oct–Jan; best May–Sep", "kilde": "Trincomalee, 1991–2020, via Wikipedia"},
+  "en": {"land": "Sri Lanka", "sted": "East coast (Trincomalee, Arugam Bay)", "kategori": "Beach / surf", "merknad": "Northeast monsoon Oct–Jan; best May–Sep", "kilde": "Trincomalee, 1991–2020, via Wikipedia", "kortnavn": "Sri Lanka east"},
   "maneder": [
     {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 28.9, "nedbor": 152, "no": "Nordøstmonsun, grov sjø.", "en": "Northeast monsoon, rough sea."},
     {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.1, "nedbor": 96, "no": "Regnet avtar.", "en": "Rain eases."},

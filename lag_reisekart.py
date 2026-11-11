@@ -14,14 +14,14 @@ for r in alle:
     data["win"] += [list(reisemal.vindu(r, v)) + [v.get("en") or v["no"]] for v in r["vinduer"]]
     hull += [f"{idd}: vindu «{v['no']}»" for v in r["vinduer"] if not v.get("en")]
     en_m = [m.get("en", "") for m in r["maneder"]]
-    data["dest"].append({"id": idd, "region": r["region"], "land": r["land"], "sted": r["sted"], "status": r["status"], "onskeliste": r["onskeliste"],
+    data["dest"].append({"id": idd, "region": r["region"], "land": r["land"], "sted": r["sted"], "status": r["status"], "onskeliste": r["onskeliste"], "kortnavn": r.get("kortnavn", ""),
         "kategori": r["kategori"], "merknad": r["merknad"], "kilde": r["kilde"],
         "en": {**en, "m": en_m},  # tom månedstekst = norsk vises for den måneden
         # «se Vinduer» viser til arket i regnearket; i kartet heter det «Hendelser».
         "m": [[m[f] for f in reisemal.MANEDSFELT[:-1]] + [m["no"].replace("se Vinduer", "se hendelser")] for m in r["maneder"]]})
     if not all(en_m): hull.append(idd + ": månedstekster")
-    for felt in ("sted", "merknad", "kategori"):
-        if r[felt] and felt not in en: hull.append(idd + ": " + felt)
+    for felt in ("sted", "merknad", "kategori", "kortnavn"):
+        if r.get(felt) and felt not in en: hull.append(idd + ": " + felt)
 for h in hull: print("Mangler engelsk:", h)
 mal = open(os.path.join(HER, "reisekart_mal.html"), encoding="utf-8").read()
 ut = mal.replace("__DATA__", json.dumps(data, ensure_ascii=False))

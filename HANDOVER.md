@@ -22,13 +22,18 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 
 ## Datamodell (reisemal/<ID>.json, fra 11.11.2026)
 Én fil per reisemål; filnavnet er ID-en (ISO3-landkode, med suffiks for deler av land: `LKA-SV`, `IND-GOA`). Felter:
-- `id`, `region` (må stå i `REGIONER` i `reisemal.py`), `land`, `sted` (tom = hele landet), `status` (Ikke besøkt/Planlagt/Booket/Besøkt),
+- `id`, `region` (må stå i `REGIONER` i `reisemal.py`), `land`, `sted` (tom = hele landet), valgfri `kortnavn` (kartetikett når «land – sted»
+  er for langt, f.eks. «Sri Lanka øst»; engelsk i `en.kortnavn`), `status` (Ikke besøkt/Planlagt/Booket/Besøkt),
   `onskeliste` (true = Påls ønskeliste), `kategori`, `merknad` (starter den med «Sikkerhet:», vises reiserådvarsel), valgfri `varighet` (dager),
   `koord` [bredde, lengde], `kilde` (klimastasjon og periode).
-- `en`: engelsk `land`, `sted`, `kategori`, `merknad`, `kilde` (bare de som har verdi).
+- `en`: engelsk `land`, `sted`, `kortnavn`, `kategori`, `merknad`, `kilde` (bare de som har verdi).
 - `maneder`: 12 objekter `{klima, opplevelse, trengsel, tmaks, nedbor, no, en}`.
 - `vinduer`: `{fra, til}` som datoer (bevegelige høytider; uke og år regnes ut) eller `{fra_uke, til_uke, aar?}` (uten `aar` = hvert år),
   pluss `type`, `justering`, `no`, `en`.
+Felles vinduer (`felles_vinduer.json`): vinduer som gjelder mange reisemål (ramadan, påske, kinesisk nyttår) står én gang, med
+`gjelder`: en liste med ID-er, eller `{"id": …, "justering": …}` som overstyrer felter for det reisemålet. `last()` legger dem til
+hvert reisemål (merket `felles`, så `skriv()` ikke lagrer dem i reisemålets fil). Regionene er åtte (fra 11.11.2026): Europa, Midtøsten,
+Afrika, Asia, Oseania, Nord-Amerika, Mellom-Amerika og Karibia, Sør-Amerika. Landlista med oppdelingen står i `Landliste.md` / `landliste.tsv`.
 `reisemal.last()` stopper med feilmelding hvis felter mangler, ID ikke stemmer med filnavnet eller det ikke er 12 måneder.
 Rekkefølgen (regneark, md-liste) er region i `REGIONER`-rekkefølge, så land og sted alfabetisk. Kartlista sorteres på score.
 Før 11.11.2026 lå dataene i `reisedata.py`, `reisedata_en.py` og `dest` i `bygg_reisekalender.py`; omleggingen ga identiske data i `index.html`.

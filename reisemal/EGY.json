@@ -25,8 +25,6 @@
     {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 24.2, "nedbor": 0, "no": "Behagelig; jul/nyttår – dyrest.", "en": "Pleasant; Christmas/New Year – most expensive."}
   ],
   "vinduer": [
-    {"fra": "2027-02-08", "til": "2027-03-09", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 8.2–9.3.2027): kortere åpningstider", "en": "Ramadan (approx. 8 Feb–9 Mar 2027): shorter opening hours"},
-    {"fra": "2028-01-28", "til": "2028-02-26", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 28.1–26.2.2028): kortere åpningstider", "en": "Ramadan (approx. 28 Jan–26 Feb 2028): shorter opening hours"},
     {"fra_uke": 8, "til_uke": 8, "type": "Hendelse", "justering": 0.3, "no": "Abu Simbel-solfenomenet 22.2 (hvis ruten går sør til Aswan)", "en": "Abu Simbel sun festival 22 Feb (if the route goes south to Aswan)"},
     {"fra_uke": 43, "til_uke": 43, "type": "Hendelse", "justering": 0.3, "no": "Abu Simbel-solfenomenet 22.10", "en": "Abu Simbel sun festival 22 Oct"}
   ]
