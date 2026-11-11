@@ -58,6 +58,8 @@ Sist oppdatert: 11. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-11: Kontekst spares ved oppstart: NOTES.md holdes under ca. 10 KB (/avslutt passer på det), eldre status og beslutninger ligger i ARKIV.md. Før lastet reiseplanlegging ca. 27 KB i hver økt.
+- 2026-11-11: `Read` er sperret for `index.html` (~700 KB, generert), `Reisekalender.xlsx` og `__pycache__/` i `.claude/settings.json` (PR #46).
 - 2026-11-11: Alle 195 FN-land er med (Europa og Norge også). Mikrostatene nevnes i naboen, ikke egne reisemål. Hongkong, Taiwan,
   Grønland og Færøyene er med som egne reiser. Ett reisemål = én reise med én klimaprofil; land deles der beste reisetid er ulik.
 - 2026-11-11: Åtte regioner (Europa, Midtøsten, Afrika, Asia, Oseania, Nord-Amerika, Mellom-Amerika og Karibia, Sør-Amerika),
