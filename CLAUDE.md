@@ -9,6 +9,9 @@ Live på https://stam.pe/reiseplanlegging/.
 Løpende status, neste steg, åpne spørsmål og beslutningslogg: NOTES.md (oppdateres ved slutten av hver økt).
 Les HANDOVER.md før større endringer — den har datamodell, scoremodell og kartteknikk.
 Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, navneendringer).
+Spar kontekst: NOTES.md holdes under ca. 10 KB (den lastes i hver økt); eldre status og beslutningslogg ligger i ARKIV.md.
+Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `Reisekalender.xlsx`, `Kildesvakheter.md` (~40 KB),
+`reisekart_mal.html` (~64 KB). Finn stedet med grep og les utsnitt (offset/limit); data leses fra `reisemal/<ID>.json`.
 
 ## Språk
 - Svar Pål på norsk, direkte og konsist. Ikke forklar grunnleggende git- eller webbegreper.
