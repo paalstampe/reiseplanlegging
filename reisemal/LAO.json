@@ -1,0 +1,30 @@
+{
+  "id": "LAO",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Laos",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur / natur",
+  "merknad": "",
+  "koord": [19.89, 102.13],
+  "kilde": "Luang Prabang, WMO 1991–2020, via Wikipedia",
+  "en": {"land": "Laos", "kategori": "Culture / nature", "kilde": "Luang Prabang, WMO 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.4, "nedbor": 17, "no": "Tørt og behagelig; tåke over Mekong om morgenen. Høysesong.", "en": "Dry and comfortable; morning mist over the Mekong. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 31.7, "nedbor": 12, "no": "Varmere; begynnende dis fra svedjebruk.", "en": "Warmer; haze from slash-and-burn starting."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 34.1, "nedbor": 52, "no": "Røyk/dis fra svedjebruk (dårlig luft og utsikt), 34 °C.", "en": "Smoke/haze from slash-and-burn (poor air and views), 34 °C."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 35.2, "nedbor": 102, "no": "Hetest, fortsatt røyk. Pi Mai (se Vinduer).", "en": "Hottest, still smoky. Pi Mai (see events)."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 34.6, "nedbor": 161, "no": "Regnet starter og rydder luften.", "en": "Rain begins and clears the air."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 33.5, "nedbor": 200, "no": "Regntid, grønt, byger. Fossene fulle.", "en": "Rainy season, green, showers. Waterfalls full."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.2, "nedbor": 283, "no": "Regntid, gjørmete stier.", "en": "Rainy season, muddy trails."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.0, "nedbor": 329, "no": "Mest regn.", "en": "Most rain."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.5, "nedbor": 177, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.9, "nedbor": 87, "no": "Regntiden slutter, grønt landskap. Boun Ok Phansa/båtfestival.", "en": "Rainy season ends, green landscape. Boun Ok Phansa/boat festival."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 29.9, "nedbor": 27, "no": "Tørt, klart, behagelig.", "en": "Dry, clear, comfortable."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.4, "nedbor": 26, "no": "Kjølige morgener. Høysesong.", "en": "Cool mornings. High season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 16, "til_uke": 16, "type": "Hendelse", "justering": 0.3, "no": "Pi Mai (lao nyttår) 14.–16.4 i Luang Prabang: festlig, men fullbooket", "en": "Pi Mai (Lao New Year) 14–16 Apr in Luang Prabang: festive, but fully booked"}
+  ]
+}

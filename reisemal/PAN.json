@@ -1,0 +1,28 @@
+{
+  "id": "PAN",
+  "region": "Sør- og Mellom-Amerika",
+  "land": "Panama",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "By / strand",
+  "merknad": "",
+  "koord": [8.98, -79.52],
+  "kilde": "Panama City (Tocumen), WMO 1991–2020, via Wikipedia",
+  "en": {"land": "Panama", "kategori": "City / beach", "kilde": "Panama City (Tocumen), WMO 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.2, "nedbor": 24, "no": "Tørrsesong, passatvind.", "en": "Dry season, trade winds."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.7, "nedbor": 12, "no": "Tørt. Karneval.", "en": "Dry. Carnival."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 33.2, "nedbor": 14, "no": "Tørt.", "en": "Dry."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 33.4, "nedbor": 71, "no": "Varmt; regnet starter mot slutten.", "en": "Hot; rain begins towards the end."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 32.4, "nedbor": 222, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.8, "nedbor": 242, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.8, "nedbor": 190, "no": "Regntid, ofte sol om morgenen.", "en": "Rainy season, often sunny mornings."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.9, "nedbor": 221, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.4, "nedbor": 268, "no": "Vått.", "en": "Wet."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.1, "nedbor": 311, "no": "Mest regn.", "en": "Most rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.1, "nedbor": 259, "no": "Vått.", "en": "Wet."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.7, "nedbor": 125, "no": "Tørrsesongen starter.", "en": "Dry season begins."}
+  ],
+  "vinduer": []
+}

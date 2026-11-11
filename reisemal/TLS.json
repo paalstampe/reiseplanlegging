@@ -1,0 +1,28 @@
+{
+  "id": "TLS",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Øst-Timor",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / dykking",
+  "merknad": "",
+  "koord": [-8.56, 125.57],
+  "kilde": "Dili, DWD 1914–1963, via Wikipedia (gammel serie)",
+  "en": {"land": "Timor-Leste", "kategori": "Nature / diving", "kilde": "Dili, DWD 1914–1963, via Wikipedia (old series)"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.3, "nedbor": 140, "no": "Regntid; veier i innlandet vanskelige.", "en": "Rainy season; inland roads difficult."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.1, "nedbor": 139, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.2, "nedbor": 133, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.5, "nedbor": 104, "no": "Overgang.", "en": "Transition."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.3, "nedbor": 75, "no": "Tørrsesong, grønt.", "en": "Dry season, green."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.7, "nedbor": 58, "no": "Tørt.", "en": "Dry."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 30.2, "nedbor": 20, "no": "Tørt og klart; god dykking ved Atauro.", "en": "Dry and clear; good diving off Atauro."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 30.1, "nedbor": 12, "no": "Tørt.", "en": "Dry."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 30.3, "nedbor": 9, "no": "Tørt.", "en": "Dry."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 30.5, "nedbor": 13, "no": "Tørt; blåhval- og grindhvalvandring.", "en": "Dry; blue whale and pilot whale migration."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 4, "tmaks": 31.4, "nedbor": 61, "no": "Hvalvandring; regnet starter.", "en": "Whale migration; rain begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.1, "nedbor": 145, "no": "Regntid.", "en": "Rainy season."}
+  ],
+  "vinduer": []
+}

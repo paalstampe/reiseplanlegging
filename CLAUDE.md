@@ -15,15 +15,15 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   (f.eks. «Kart: trykk på tomt kart lukker detaljkortet»).
 - Kode: norske navn på variabler og funksjoner, som i resten av koden.
 - Siden finnes på norsk og engelsk (NO / EN i brødsmulene). Faste tekster står i `TEKST` i malen,
-  innholdet i `reisedata_en.py`. Nye UI-tekster og nye data skal alltid ha begge språk.
+  innholdet står med norsk og engelsk side om side i `reisemal/<ID>.json`. Nye UI-tekster og nye data skal alltid ha begge språk.
 
 ## Filer og generering
-- `reisedata.py` — all data: månedsscorer, T maks/nedbør, begrunnelser, klimakilde, kategori, merknader,
-  vinduer (VINDUER) og koordinater (KOORD). Bevegelige datoer angis som datoer og regnes om til ISO-uker.
-- `reisedata_en.py` — engelske tekster (navn, kategori, merknad, kilde, månedsbegrunnelser, vindusbeskrivelser).
-  Endres en norsk tekst, endre den engelske også. `lag_reisekart.py` skriver «Mangler engelsk: …» for hull.
-- Destinasjonslisten (`dest=[...]`) står i `bygg_reisekalender.py` og leses også av `lag_reisekart.py`.
-- `Reise - utenfor Europa.md` — masterliste over reisemål (avkrysning = besøkt). Hold den i takt med `dest`.
+- `reisemal/<ID>.json` — all data, én fil per reisemål: region, land, sted, status, ønskeliste, kategori, merknad,
+  koordinater, klimakilde, 12 måneder (scorer, T maks, nedbør, begrunnelse) og vinduer. Norsk (`no`) og engelsk (`en`)
+  står side om side. Endres en norsk tekst, endre den engelske også. `lag_reisekart.py` skriver «Mangler engelsk: …» for hull.
+  Format og felter: HANDOVER.md, Datamodell. Filene skrives med `reisemal.skriv()` (én måned og ett vindu per linje).
+- `reisemal.py` — leser og sjekker filene (`last()`), regner vinduer om til uker (`vindu()`). Brukes av begge skriptene.
+- `Reisemål.md` — oversikt over reisemålene, generert av `lag_reisekart.py`. Rediger ikke; endre JSON-filene.
 - `reisekart_mal.html` — malen for kart-appen. `python3 lag_reisekart.py` skriver `index.html` fra mal + data.
 - `index.html` er generert — rediger aldri direkte. Endre malen eller dataene og kjør skriptet.
   Generert `index.html` committes alltid sammen med endringen den kommer fra.
@@ -31,10 +31,9 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   dataene endres, og commit den sammen med dataendringen.
 
 ## Arbeidsflyt
-- Endringer som ikke trenger forhåndsvisning — data (`reisedata.py`, destinasjonslisten,
-  `Reise - utenfor Europa.md`) med generert `index.html` og `Reisekalender.xlsx`, og dokumentasjon
+- Endringer som ikke trenger forhåndsvisning — data (`reisemal/`) med generert `Reisemål.md`, `index.html` og `Reisekalender.xlsx`, og dokumentasjon
   (CLAUDE.md, HANDOVER.md, README.md) — pushes rett til main, uten gren og PR.
-- Kodeendringer (`reisekart_mal.html`, `lag_reisekart.py`, `bygg_reisekalender.py`, `.github/`, `.claude/`)
+- Kodeendringer (`reisekart_mal.html`, `lag_reisekart.py`, `bygg_reisekalender.py`, `reisemal.py`, `.github/`, `.claude/`)
   på egen gren. Push grenen; forhåndsvisningen er https://stam.pe/reiseplanlegging/forhandsvisning/<gren>/
   (klar 1–2 min etter push, bygges av .github/workflows/pages.yml). Husk at `index.html` må være generert
   og committet på grenen.
@@ -131,7 +130,8 @@ Oppskrift: viewport 1300×900, deviceScaleFactor 2, beskjær 1200×900 fra venst
 Playwright med `colorScheme: 'light'` og `'dark'`. Ta bildene fra stam.pe etter at endringen er publisert.
 
 ## Data
-- Nye reisemål: legg inn i `dest`, `reisedata.py` (scorer, kilde, KOORD) og masterlisten i .md.
+- Nye reisemål: ny fil `reisemal/<ID>.json` (ID = ISO3-landkode, med suffiks for deler av land: `IND-GOA`).
+  Ny region legges inn i `REGIONER` i `reisemal.py` og i `TEKST.regioner` i malen.
   Klimanormaler fra én representativ stasjon (helst WMO/nasjonal met-tjeneste, 1991–2020); oppgi kilde og periode.
   Si fra hvis stasjonen er en proxy eller serien er gammel.
 - Bevegelige datoer (Tet/kinesisk nyttår, påske, ramadan, tsechu, festivaler) legges inn per år.

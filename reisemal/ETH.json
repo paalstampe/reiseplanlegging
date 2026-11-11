@@ -1,0 +1,32 @@
+{
+  "id": "ETH",
+  "region": "Afrika",
+  "land": "Etiopia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur / historie",
+  "merknad": "Sikkerhet: konflikt i Amhara (Lalibela, Gondar) – sjekk UDs reiseråd",
+  "koord": [12.03, 39.04],
+  "kilde": "Addis Abeba, EMI 1991–2020, via Wikipedia. Lalibela/Gondar: samme sesongmønster",
+  "en": {"land": "Ethiopia", "kategori": "Culture / history", "merknad": "Safety: conflict in Amhara (Lalibela, Gondar) – check Norwegian MFA travel advice", "kilde": "Addis Ababa, EMI 1991–2020, via Wikipedia. Lalibela/Gondar: same seasonal pattern"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 23.9, "nedbor": 13, "no": "Tørt; Genna og Timkat (se Vinduer).", "en": "Dry; Genna and Timkat (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 25.3, "nedbor": 34, "no": "Tørt.", "en": "Dry."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.8, "nedbor": 66, "no": "Småregn (belg) starter.", "en": "Small rains (belg) begin."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.4, "nedbor": 91, "no": "Småregn; Fasika (påske).", "en": "Small rains; Fasika (Easter)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.3, "nedbor": 76, "no": "Varmt i lavlandet; småregn.", "en": "Hot in the lowlands; small rains."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 23.6, "nedbor": 119, "no": "Storregntiden (kiremt) starter.", "en": "Main rainy season (kiremt) begins."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 21.2, "nedbor": 238, "no": "Storregntid, gjørmete veier.", "en": "Main rainy season, muddy roads."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 20.9, "nedbor": 242, "no": "Storregntid.", "en": "Main rainy season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 21.9, "nedbor": 132, "no": "Regnet avtar, grønt; Meskel (se Vinduer).", "en": "Rain eases, green; Meskel (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.3, "nedbor": 32, "no": "Tørt, grønt og blomstrende. Ofte beste måned.", "en": "Dry, green and in bloom. Often the best month."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.3, "nedbor": 5, "no": "Tørt og klart.", "en": "Dry and clear."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 23.1, "nedbor": 8, "no": "Tørt.", "en": "Dry."}
+  ],
+  "vinduer": [
+    {"fra_uke": 1, "til_uke": 1, "type": "Helligdag", "justering": 0.3, "no": "Genna (etiopisk jul 7.1): midnattsmesse i Lalibela", "en": "Genna (Ethiopian Christmas, 7 Jan): midnight mass in Lalibela"},
+    {"fra_uke": 3, "til_uke": 3, "type": "Hendelse", "justering": 1, "no": "Timkat (19./20.1): høydepunktet i Gondar og Lalibela – book tidlig", "en": "Timkat (19/20 Jan): the highlight in Gondar and Lalibela – book early"},
+    {"fra_uke": 39, "til_uke": 39, "type": "Hendelse", "justering": 0.5, "no": "Meskel (27.9): bål og feiring i Addis", "en": "Meskel (27 Sep): bonfires and celebrations in Addis"}
+  ]
+}

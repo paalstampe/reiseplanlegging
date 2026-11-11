@@ -1,0 +1,35 @@
+{
+  "id": "CHN",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Kina",
+  "sted": "Beijing, Shanghai",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "By / kultur",
+  "merknad": "",
+  "koord": [39.9, 116.4],
+  "kilde": "Beijing, CMA 1991–2020, via Wikipedia. Shanghai (Xujiahui): mildere vinter, våtere juni–sep",
+  "en": {"land": "China", "sted": "Beijing, Shanghai", "kategori": "City / culture", "kilde": "Beijing, CMA 1991–2020, via Wikipedia. Shanghai (Xujiahui): milder winter, wetter Jun–Sep"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 2.3, "nedbor": 2, "no": "Beijing kaldt (maks 2 °C), tørt, smogfare. Kinesisk nyttår jan/feb (se Vinduer).", "en": "Beijing cold (max 2 °C), dry, smog risk. Chinese New Year Jan/Feb (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 6.1, "nedbor": 6, "no": "Kaldt. Nyttårsferie.", "en": "Cold. New Year holiday."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 13.2, "nedbor": 9, "no": "Mildere; vårstøv/sandstorm i Beijing.", "en": "Milder; spring dust/sandstorms in Beijing."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.0, "nedbor": 22, "no": "Vår og blomstring, fint i begge byer.", "en": "Spring and blossom, good in both cities."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.2, "nedbor": 36, "no": "Varmt og behagelig. Ferie 1.–5. mai (se Vinduer).", "en": "Warm and pleasant. Holiday 1–5 May (see events)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 30.8, "nedbor": 72, "no": "Varmt; plommeregn (meiyu) i Shanghai (225 mm).", "en": "Warm; plum rains (meiyu) in Shanghai (225 mm)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 31.8, "nedbor": 170, "no": "Hett og fuktig, regntopp i Beijing. Skoleferie.", "en": "Hot and humid, rain peak in Beijing. School holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 30.7, "nedbor": 113, "no": "Hett; tyfonrisiko i Shanghai.", "en": "Hot; typhoon risk in Shanghai."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.5, "nedbor": 54, "no": "Tørrere og behagelig. Høstsesong starter.", "en": "Drier and pleasant. Autumn season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 19.3, "nedbor": 29, "no": "Beste måned – unngå Golden Week 1.–7.10 (se Vinduer).", "en": "Best month – avoid Golden Week 1–7 Oct (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 10.3, "nedbor": 14, "no": "Kjølig og klart, høstfarger.", "en": "Cool and clear, autumn colours."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 3.7, "nedbor": 2, "no": "Kaldt; grått i Shanghai.", "en": "Cold; grey in Shanghai."}
+  ],
+  "vinduer": [
+    {"fra": "2027-02-04", "til": "2027-02-12", "type": "Helligdag", "justering": -1, "no": "Kinesisk nyttår (6.2.2027): enorm innenlandsreising, mye stengt", "en": "Chinese New Year (6 Feb 2027): huge domestic travel, much closed"},
+    {"fra": "2028-01-24", "til": "2028-02-01", "type": "Helligdag", "justering": -1, "no": "Kinesisk nyttår (26.1.2028)", "en": "Chinese New Year (26 Jan 2028)"},
+    {"fra": "2026-10-01", "til": "2026-10-07", "type": "Helligdag", "justering": -1, "no": "Golden Week: overfylt, høye priser", "en": "Golden Week: overcrowded, high prices"},
+    {"fra": "2027-10-01", "til": "2027-10-07", "type": "Helligdag", "justering": -1, "no": "Golden Week: overfylt, høye priser", "en": "Golden Week: overcrowded, high prices"},
+    {"fra": "2028-10-01", "til": "2028-10-07", "type": "Helligdag", "justering": -1, "no": "Golden Week: overfylt, høye priser", "en": "Golden Week: overcrowded, high prices"},
+    {"fra_uke": 18, "til_uke": 18, "type": "Helligdag", "justering": -0.5, "no": "1.–5. mai-ferie: fullt på severdigheter (uka kan forskyves ett nr.)", "en": "1–5 May holiday: sights packed (the week may shift by one)"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "USA-HI",
+  "region": "Nord-Amerika",
+  "land": "Hawaii",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Strand / natur",
+  "merknad": "",
+  "koord": [20.8, -156.9],
+  "kilde": "Honolulu lufthavn, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Hawaii", "kategori": "Beach / nature", "kilde": "Honolulu airport, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.9, "nedbor": 47, "no": "Noe regn; knølhval og store bølger på nordkysten.", "en": "Some rain; humpback whales and big waves on the North Shore."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 26.9, "nedbor": 49, "no": "Toppsesong for hval.", "en": "Peak whale season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.3, "nedbor": 60, "no": "Hval, noe regn.", "en": "Whales, some rain."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 28.4, "nedbor": 20, "no": "Tørrere, hval til midten av måneden. Merrie Monarch (se Vinduer).", "en": "Drier, whales until mid-month. Merrie Monarch (see events)."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 29.3, "nedbor": 21, "no": "Tørt, lite folk.", "en": "Dry, few people."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 30.5, "nedbor": 13, "no": "Tørt, rolig hav på nordkysten.", "en": "Dry, calm sea on the North Shore."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 2, "tmaks": 31.2, "nedbor": 13, "no": "Tørt og varmt. Sommerferie.", "en": "Dry and warm. Summer holidays."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 31.6, "nedbor": 21, "no": "Varmest; lav orkanrisiko.", "en": "Warmest; low hurricane risk."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 31.3, "nedbor": 22, "no": "Varmt, lite folk; lav orkanrisiko.", "en": "Warm, few people; low hurricane risk."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.5, "nedbor": 38, "no": "Tørt, lite folk.", "en": "Dry, few people."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 28.9, "nedbor": 57, "no": "Regntiden starter. Thanksgiving.", "en": "Rainy season begins. Thanksgiving."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 1, "tmaks": 27.7, "nedbor": 55, "no": "Hvalen kommer; jul/nyttår – dyrest.", "en": "The whales arrive; Christmas/New Year – most expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2027-03-28", "til": "2027-04-03", "type": "Hendelse", "justering": 0.3, "no": "Merrie Monarch hula-festival i Hilo (uka etter påske)", "en": "Merrie Monarch hula festival in Hilo (the week after Easter)"},
+    {"fra": "2028-04-16", "til": "2028-04-22", "type": "Hendelse", "justering": 0.3, "no": "Merrie Monarch hula-festival i Hilo", "en": "Merrie Monarch hula festival in Hilo"}
+  ]
+}

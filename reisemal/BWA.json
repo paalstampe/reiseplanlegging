@@ -1,0 +1,31 @@
+{
+  "id": "BWA",
+  "region": "Afrika",
+  "land": "Botswana",
+  "sted": "Okavango, Chobe",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Safari",
+  "merknad": "Evt. kombinert med Zambia/Zimbabwe (Victoria Falls)",
+  "varighet": 10,
+  "koord": [-19.3, 22.9],
+  "kilde": "Maun, DWD 1961–1990, via Wikipedia",
+  "en": {"land": "Botswana", "sted": "Okavango, Chobe", "kategori": "Safari", "merknad": "Possibly combined with Zambia/Zimbabwe (Victoria Falls)", "kilde": "Maun, DWD 1961–1990, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.5, "nedbor": 104, "no": "Regntid, varmt og fuktig. Grønt og fugleliv, vilt spredt. Grønn-sesong-priser.", "en": "Rainy season, hot and humid. Green and birdlife, game dispersed. Green-season prices."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 95, "no": "Regntid. Mange leire har rabatter.", "en": "Rainy season. Many camps offer discounts."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 31.0, "nedbor": 81, "no": "Regnet avtar, vilt fortsatt spredt.", "en": "Rain eases, game still dispersed."},
+    {"klima": 4, "opplevelse": 3, "trengsel": 4, "tmaks": 30.5, "nedbor": 25, "no": "Tørrere og behagelig. Overgang.", "en": "Drier and pleasant. Transition."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 27.9, "nedbor": 5, "no": "Tørketiden starter, kjølige netter. Flomvannet når deltaet.", "en": "Dry season begins, cool nights. The floodwater reaches the delta."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 25.2, "nedbor": 1, "no": "Flomtopp i Okavango. Kalde netter og morgener. Høysesongen starter.", "en": "Flood peak in the Okavango. Cold nights and mornings. High season begins."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 25.4, "nedbor": 1, "no": "Toppsesong: flom og konsentrert vilt. Høyeste priser, book 9–12 mnd frem.", "en": "Peak season: floods and concentrated game. Highest prices, book 9–12 months ahead."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.5, "nedbor": 0, "no": "Toppsesong. Varmere dager, fortsatt vann i deltaet.", "en": "Peak season. Warmer days, still water in the delta."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 32.3, "nedbor": 1, "no": "Svært godt vilt ved vannhull. Varmere.", "en": "Excellent game at waterholes. Warmer."},
+    {"klima": 2, "opplevelse": 4, "trengsel": 4, "tmaks": 34.6, "nedbor": 17, "no": "Hetest (ofte 38–40 °C), støvete. Godt vilt, men krevende.", "en": "Hottest (often 38–40 °C), dusty. Good game, but demanding."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.6, "nedbor": 43, "no": "Regnet starter. Kalvingssesong.", "en": "Rain begins. Calving season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.2, "nedbor": 81, "no": "Regntid, grønn sesong.", "en": "Rainy season, green season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 49, "til_uke": 12, "type": "Dyreliv", "justering": 0.5, "no": "Sebramigrasjon i Makgadikgadi/Nxai Pan i grønn sesong – gjelder hvis ruten inkluderer saltpannene", "en": "Zebra migration in Makgadikgadi/Nxai Pan in the green season – applies if the route includes the salt pans"}
+  ]
+}

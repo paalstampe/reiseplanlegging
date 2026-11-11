@@ -1,0 +1,28 @@
+{
+  "id": "NPL",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Nepal",
+  "sted": "Katmandu, Pokhara",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / trekking",
+  "merknad": "Katmandu + Pokhara; evt. trekking (Annapurna)",
+  "koord": [28.0, 84.6],
+  "kilde": "Pokhara lufthavn (827 moh), WMO/DHM 1991–2020, via Wikipedia. Katmandu: halvparten av nedbøren, ~1 °C kjøligere",
+  "en": {"land": "Nepal", "sted": "Kathmandu, Pokhara", "kategori": "Nature / trekking", "merknad": "Kathmandu + Pokhara; possibly trekking (Annapurna)", "kilde": "Pokhara airport (827 m), WMO/DHM 1991–2020, via Wikipedia. Kathmandu: half the rainfall, ~1 °C cooler"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.9, "nedbor": 22, "no": "Klart og kaldt, gode fjellutsikter. Trekking under ~4000 m.", "en": "Clear and cold, good mountain views. Trekking below ~4,000 m."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 22.7, "nedbor": 35, "no": "Klart, mildere dager.", "en": "Clear, milder days."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.1, "nedbor": 64, "no": "Vår: rhododendron, varmere. Økende dis.", "en": "Spring: rhododendrons, warmer. Increasing haze."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 30.0, "nedbor": 142, "no": "Vår-toppsesong. Mer dis over fjellene, ettermiddagsbyger.", "en": "Spring peak season. More haze over the mountains, afternoon showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.4, "nedbor": 355, "no": "Varmt, dis, pre-monsun byger.", "en": "Hot, hazy, pre-monsoon showers."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 30.8, "nedbor": 648, "no": "Monsun: fjellene skjult, jordras, igler.", "en": "Monsoon: mountains hidden, landslides, leeches."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 30.4, "nedbor": 941, "no": "Monsun (Pokhara 941 mm).", "en": "Monsoon (Pokhara 941 mm)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 30.5, "nedbor": 839, "no": "Monsun.", "en": "Monsoon."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 29.9, "nedbor": 635, "no": "Monsunen avtar mot slutten.", "en": "Monsoon eases towards the end."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 27.9, "nedbor": 159, "no": "Beste sikt, tørt etter første uke. Toppsesong; Dashain/Tihar.", "en": "Best visibility, dry after the first week. Peak season; Dashain/Tihar."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.4, "nedbor": 17, "no": "Krystallklart og tørt, kjøligere.", "en": "Crystal clear and dry, cooler."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.0, "nedbor": 12, "no": "Klart og kaldt. Lav trengsel.", "en": "Clear and cold. Few crowds."}
+  ],
+  "vinduer": []
+}

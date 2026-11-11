@@ -1,0 +1,28 @@
+{
+  "id": "STP",
+  "region": "Afrika",
+  "land": "São Tomé og Príncipe",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / strand",
+  "merknad": "",
+  "koord": [0.33, 6.73],
+  "kilde": "São Tomé lufthavn, DWD 1961–1990, via Wikipedia",
+  "en": {"land": "São Tomé and Príncipe", "kategori": "Nature / beach", "kilde": "São Tomé airport, DWD 1961–1990, via Wikipedia"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.4, "nedbor": 81, "no": "Kort tørrere periode («gravanito»); skilpadder.", "en": "Short drier spell (“gravanito”); turtles."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.9, "nedbor": 84, "no": "Skilpadder, noe regn.", "en": "Turtles, some rain."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.2, "nedbor": 131, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.1, "nedbor": 122, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 29.3, "nedbor": 113, "no": "Regntiden avtar mot slutten.", "en": "Rainy season eases towards the end."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.0, "nedbor": 19, "no": "Tørrsesongen («gravana») starter.", "en": "Dry season (“gravana”) begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.3, "nedbor": 0, "no": "Tørt og kjøligere; hval.", "en": "Dry and cooler; whales."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 27.7, "nedbor": 1, "no": "Tørt; hval. Høysesong.", "en": "Dry; whales. High season."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 28.6, "nedbor": 17, "no": "Tørt; hval.", "en": "Dry; whales."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 28.7, "nedbor": 110, "no": "Regnet kommer; hval.", "en": "Rain arrives; whales."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.0, "nedbor": 99, "no": "Regn; skilpaddesesongen starter.", "en": "Rain; turtle season begins."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 29.1, "nedbor": 108, "no": "Kort tørrere periode; skilpadder. Jul.", "en": "Short drier spell; turtles. Christmas."}
+  ],
+  "vinduer": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "SILK",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Sentral-Asia",
+  "sted": "Silkeveien",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur / rundreise",
+  "merknad": "Rute avklares (Usbekistan, Kirgisistan, Kasakhstan, Tadsjikistan, Turkmenistan)",
+  "koord": [39.65, 66.96],
+  "kilde": "Samarkand, 1991–2020 (pogoda.ru.net), via Wikipedia. Bukhara/Khiva: tørrere og ~3 °C hetere om sommeren",
+  "en": {"land": "Central Asia", "sted": "Silk Road", "kategori": "Culture / tour", "merknad": "Route to be decided (Uzbekistan, Kyrgyzstan, Kazakhstan, Tajikistan, Turkmenistan)", "kilde": "Samarkand, 1991–2020 (pogoda.ru.net), via Wikipedia. Bukhara/Khiva: drier and ~3 °C hotter in summer"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 7.3, "nedbor": 41, "no": "Kaldt, grått, noe snø.", "en": "Cold, grey, some snow."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.5, "nedbor": 52, "no": "Kaldt.", "en": "Cold."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 15.2, "nedbor": 73, "no": "Mildere, noe regn. Navruz 21.3 (se Vinduer).", "en": "Milder, some rain. Navruz 21 Mar (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.4, "nedbor": 63, "no": "Vår, grønt, behagelig.", "en": "Spring, green, pleasant."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 27.0, "nedbor": 40, "no": "Ideelt og varmt. Toppsesong.", "en": "Ideal and warm. Peak season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 32.4, "nedbor": 7, "no": "Varmt (32 °C; ørkenbyene hetere).", "en": "Hot (32 °C; the desert cities hotter)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 34.5, "nedbor": 2, "no": "Hett (35 °C; Bukhara/Khiva opp mot 40 °C).", "en": "Very hot (35 °C; Bukhara/Khiva up to 40 °C)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 33.3, "nedbor": 2, "no": "Hett.", "en": "Very hot."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 28.6, "nedbor": 3, "no": "Tørt og varmt, markeder fulle av frukt. Toppsesong.", "en": "Dry and warm, markets full of fruit. Peak season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.0, "nedbor": 16, "no": "Behagelig, høstfarger.", "en": "Pleasant, autumn colours."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.4, "nedbor": 40, "no": "Kjølig, kortere dager.", "en": "Cool, shorter days."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 9.1, "nedbor": 39, "no": "Kaldt.", "en": "Cold."}
+  ],
+  "vinduer": [
+    {"fra_uke": 12, "til_uke": 12, "type": "Hendelse", "justering": 0.5, "no": "Navruz 21.3: feiring, men offentlig fri", "en": "Navruz 21 Mar: celebrations, but a public holiday"}
+  ]
+}

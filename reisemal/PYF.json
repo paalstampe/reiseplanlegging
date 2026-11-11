@@ -1,0 +1,30 @@
+{
+  "id": "PYF",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Fransk Polynesia",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Strand / dykking",
+  "merknad": "",
+  "koord": [-17.65, -149.43],
+  "kilde": "Papeete, Météo-France 1981–2010, via Wikipedia",
+  "en": {"land": "French Polynesia", "kategori": "Beach / diving", "kilde": "Papeete, Météo-France 1981–2010, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.2, "nedbor": 318, "no": "Regntid, fuktig; syklonrisiko (lav–moderat).", "en": "Rainy season, humid; cyclone risk (low–moderate)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.4, "nedbor": 278, "no": "Regntid, syklonrisiko.", "en": "Rainy season, cyclone risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.9, "nedbor": 240, "no": "Regntid avtar.", "en": "Rainy season eases."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.8, "nedbor": 143, "no": "Overgang, mindre regn.", "en": "Transition, less rain."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 31.1, "nedbor": 150, "no": "Tørrsesongen starter.", "en": "Dry season begins."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 30.3, "nedbor": 81, "no": "Tørt, passatvind, klart.", "en": "Dry, trade winds, clear."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.0, "nedbor": 63, "no": "Tørt. Heiva i Tahiti; knølhval ankommer. Europeisk ferie.", "en": "Dry. Heiva in Tahiti; humpback whales arrive. European holidays."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.0, "nedbor": 66, "no": "Tørt, hval. Høysesong.", "en": "Dry, whales. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.3, "nedbor": 64, "no": "Tørt, hvaltopp. Ofte beste balanse.", "en": "Dry, peak whales. Often the best balance."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 30.5, "nedbor": 121, "no": "Fortsatt fint, hval ut måneden.", "en": "Still good, whales until the end of the month."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.6, "nedbor": 155, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 30.4, "nedbor": 397, "no": "Regnfullt (400 mm). Julesesong.", "en": "Rainy (400 mm). Christmas season."}
+  ],
+  "vinduer": [
+    {"fra_uke": 27, "til_uke": 29, "type": "Hendelse", "justering": 0.5, "no": "Heiva i Tahiti (sen juni–midt juli, sjekk dato)", "en": "Heiva in Tahiti (late June–mid July, check date)"}
+  ]
+}

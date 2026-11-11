@@ -1,0 +1,28 @@
+{
+  "id": "ECU-GAL",
+  "region": "Sør- og Mellom-Amerika",
+  "land": "Ecuador",
+  "sted": "Galápagos",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / dyreliv",
+  "merknad": "",
+  "koord": [-0.74, -90.31],
+  "kilde": "San Cristóbal, WMO/DWD 1961–1990, via Wikipedia",
+  "en": {"land": "Ecuador", "sted": "Galápagos", "kategori": "Nature / wildlife", "kilde": "San Cristóbal, WMO/DWD 1961–1990, via Wikipedia"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.2, "nedbor": 83, "no": "Varm sesong: rolig sjø, varmt vann, grønt.", "en": "Warm season: calm sea, warm water, green."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 30.3, "nedbor": 107, "no": "Varmest; skilpaddeklekking.", "en": "Warmest; tortoise hatching."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 30.5, "nedbor": 106, "no": "Varmt vann, rolig hav.", "en": "Warm water, calm sea."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 4, "tmaks": 30.2, "nedbor": 95, "no": "Varmt vann, rolig hav.", "en": "Warm water, calm sea."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 29.2, "nedbor": 42, "no": "Overgang; albatrosser på Española. Ofte beste måned.", "en": "Transition; albatrosses on Española. Often the best month."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.6, "nedbor": 33, "no": "Garúa-sesong: kjøligere, mer liv i havet.", "en": "Garúa season: cooler, more marine life."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 26.4, "nedbor": 19, "no": "Kaldt vann, mye dyreliv. Sommerferie.", "en": "Cold water, lots of wildlife. Summer holidays."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 2, "tmaks": 25.6, "nedbor": 10, "no": "Kjøligst, grovere sjø; blåfotsuler parer seg.", "en": "Coolest, rougher sea; blue-footed boobies mating."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 25.7, "nedbor": 8, "no": "Grovest sjø; mange båter i dokk.", "en": "Roughest sea; many boats in dry dock."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 26.0, "nedbor": 11, "no": "Kjølig og tørt.", "en": "Cool and dry."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.0, "nedbor": 13, "no": "Roligere hav; sjøløveunger.", "en": "Calmer sea; sea lion pups."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 27.8, "nedbor": 52, "no": "Varmere; jul/nyttår dyrt.", "en": "Warmer; Christmas/New Year expensive."}
+  ],
+  "vinduer": []
+}

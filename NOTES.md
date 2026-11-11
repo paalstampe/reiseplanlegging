@@ -68,12 +68,12 @@ Sist oppdatert: 5. november 2026.
   ny publisering. Byguidenes data/*.md publiseres som før. Hvert repo bestemmer selv hva som ikke publiseres, med `export-ignore` i `.gitattributes`
   (byguider #106, reiseplanlegging #36, paalstampe.github.io #28); ny fil som ikke skal på nettsiden legges inn der.
 - Finjuster scorene etter Påls vurdering.
-- Legg inn nye bevegelige datoer hvert år (Tet/kinesisk nyttår, påske, ramadan, tsechu) i `reisedata.py`, og bygg på nytt.
+- Legg inn nye bevegelige datoer hvert år (Tet/kinesisk nyttår, påske, ramadan, tsechu) i `reisemal/<ID>.json`, og bygg på nytt.
   Vinduene dekker 2026–28, så 2029 må inn i løpet av 2028.
 - Oppdater miniatyrene på stam.pe når kartet endrer utseende merkbart (CLAUDE.md, Miniatyrer).
 - Kjenn på sveip og pinch (PR #21) på en ekte iPhone. I simulatoren virker begge (testet 4.11.), men følelsen må sjekkes på telefonen.
 - Sjekk at delingskortet vises i Meldinger, Slack og e-post (bildet er live, men ikke sett i en app ennå).
-- Nye eller endrede tekster i `reisedata.py` trenger engelsk i `reisedata_en.py`. `lag_reisekart.py` melder hull.
+- Nye eller endrede tekster trenger engelsk (`en` ved siden av `no` i `reisemal/<ID>.json`). `lag_reisekart.py` melder hull.
 
 ## Åpne spørsmål
 
@@ -87,6 +87,9 @@ Sist oppdatert: 5. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-11: Dataene ligger i én JSON-fil per reisemål (`reisemal/<ID>.json`), med norsk og engelsk side om side.
+  Før måtte et reisemål legges inn fem steder, noe som ikke holder når lista skal utvides til alle FN-landene. JSON fordi det ikke krever
+  avhengigheter og valideres av hooken. `Reisemål.md` genereres og er ikke lenger master. Alle dagens 40 har `onskeliste: true`.
 - 2026-11-05: Hva som ikke publiseres, står i hvert repos `.gitattributes` (`export-ignore`), ikke i den felles workflowen.
   git archive respekterer det, også for forhåndsvisningene. Bieffekt: GitHubs «Download ZIP» mangler dokumentasjonen.
 - 2026-11-05: Dokumentasjonen publiseres ikke. Det er ikke for å skjule noe (repoene er offentlige), men så commits som bare
@@ -118,7 +121,7 @@ Sist oppdatert: 5. november 2026.
   ved deling, fordi frimerket hadde overtatt samme fil.
 - 2026-10-31: Delingsbildet er luftpost, i samme postale familie som stam.pe (konvolutt med PS-frimerke) og byguidene (postkort).
 - 2026-09-25: Vektene er 40/40/20, og vetoet er myket opp til et tak på 1,5. Trengsel/pris er én dimensjon.
-- 2026-09-25: `Reise - utenfor Europa.md` er masterlisten over reisemål.
+- 2026-09-25: `Reise - utenfor Europa.md` er masterlisten over reisemål (erstattet 11.11.2026 av `reisemal/`).
 - 2026-09-25: Sri Lanka er delt i LKA-SV og LKA-O. Stan-landene er slått sammen med Silkeveien (SILK).
 - 2026-09-27: Navnene er endret (USA Nordvestkyst, Hawaii, Mexico City, Savannah-Charleston m.fl.), og kartetikettene har tankestrek mellom land og sted.
 - 2026-10-04: Hele sidepanelet ruller på desktop. Varianten med kompakte filtre ble prøvd, men ikke valgt.

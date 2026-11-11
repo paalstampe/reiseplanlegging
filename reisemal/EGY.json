@@ -1,0 +1,33 @@
+{
+  "id": "EGY",
+  "region": "Afrika",
+  "land": "Egypt",
+  "sted": "Kairo, Luxor",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Historie / kultur",
+  "merknad": "",
+  "koord": [25.7, 32.64],
+  "kilde": "Luxor lufthavn, WMO 1991–2020, via Wikipedia. Kairo ca. 4–6 °C kjøligere",
+  "en": {"land": "Egypt", "sted": "Cairo, Luxor", "kategori": "History / culture", "kilde": "Luxor airport, WMO 1991–2020, via Wikipedia. Cairo approx. 4–6 °C cooler"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 22.8, "nedbor": 3, "no": "Behagelig (Luxor 23 °C, Kairo 19 °C). Høysesong.", "en": "Pleasant (Luxor 23 °C, Cairo 19 °C). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.3, "nedbor": 0, "no": "Behagelig; Abu Simbel-solfenomen 22.2 (se Vinduer).", "en": "Pleasant; Abu Simbel sun festival 22 Feb (see events)."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 29.7, "nedbor": 2, "no": "Varmere (30 °C); khamsin-sandstorm mulig.", "en": "Warmer (30 °C); khamsin sandstorms possible."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 35.0, "nedbor": 0, "no": "Varmt (35 °C), khamsin.", "en": "Hot (35 °C), khamsin."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 39.1, "nedbor": 1, "no": "Hett (39 °C).", "en": "Very hot (39 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.2, "nedbor": 0, "no": "Ekstrem hete i Luxor (41 °C).", "en": "Extreme heat in Luxor (41 °C)."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.4, "nedbor": 0, "no": "Ekstrem hete.", "en": "Extreme heat."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 41.2, "nedbor": 0, "no": "Ekstrem hete.", "en": "Extreme heat."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 39.3, "nedbor": 1, "no": "Fortsatt hett (39 °C).", "en": "Still very hot (39 °C)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 35.5, "nedbor": 1, "no": "Varmt (36 °C); Abu Simbel-solfenomen 22.10.", "en": "Hot (36 °C); Abu Simbel sun festival 22 Oct."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 29.1, "nedbor": 1, "no": "Behagelig; sesongen starter.", "en": "Pleasant; the season begins."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 24.2, "nedbor": 0, "no": "Behagelig; jul/nyttår – dyrest.", "en": "Pleasant; Christmas/New Year – most expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2027-02-08", "til": "2027-03-09", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 8.2–9.3.2027): kortere åpningstider", "en": "Ramadan (approx. 8 Feb–9 Mar 2027): shorter opening hours"},
+    {"fra": "2028-01-28", "til": "2028-02-26", "type": "Helligdag", "justering": -0.5, "no": "Ramadan (ca. 28.1–26.2.2028): kortere åpningstider", "en": "Ramadan (approx. 28 Jan–26 Feb 2028): shorter opening hours"},
+    {"fra_uke": 8, "til_uke": 8, "type": "Hendelse", "justering": 0.3, "no": "Abu Simbel-solfenomenet 22.2 (hvis ruten går sør til Aswan)", "en": "Abu Simbel sun festival 22 Feb (if the route goes south to Aswan)"},
+    {"fra_uke": 43, "til_uke": 43, "type": "Hendelse", "justering": 0.3, "no": "Abu Simbel-solfenomenet 22.10", "en": "Abu Simbel sun festival 22 Oct"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "RWA",
+  "region": "Afrika",
+  "land": "Rwanda",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / gorilla",
+  "merknad": "",
+  "koord": [-1.5, 29.6],
+  "kilde": "Kigali lufthavn, NOAA 1991–2020, via Wikipedia. Vulkanområdet (gorillaer) er kjøligere og våtere",
+  "en": {"land": "Rwanda", "kategori": "Nature / gorillas", "kilde": "Kigali airport, NOAA 1991–2020, via Wikipedia. The volcano area (gorillas) is cooler and wetter"},
+  "maneder": [
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.5, "nedbor": 84, "no": "Kort tørrsesong; gode forhold for gorillavandring.", "en": "Short dry season; good conditions for gorilla trekking."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 3, "tmaks": 27.8, "nedbor": 84, "no": "Kort tørrsesong.", "en": "Short dry season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 27.1, "nedbor": 129, "no": "Lang regntid starter.", "en": "Long rainy season begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 26.4, "nedbor": 136, "no": "Mest regn; glatte stier.", "en": "Most rain; slippery trails."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 26.3, "nedbor": 89, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.7, "nedbor": 20, "no": "Tørrsesong: beste gorilla- og sjimpansevandring.", "en": "Dry season: best gorilla and chimpanzee trekking."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 27.4, "nedbor": 10, "no": "Tørt; toppsesong – permits utsolgt tidlig.", "en": "Dry; peak season – permits sell out early."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 1, "tmaks": 28.2, "nedbor": 30, "no": "Tørt; toppsesong. Akagera på sitt beste.", "en": "Dry; peak season. Akagera at its best."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 28.2, "nedbor": 65, "no": "Stort sett tørt. Kwita Izina (navnefest for gorillaunger).", "en": "Mostly dry. Kwita Izina (naming ceremony for baby gorillas)."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 27.4, "nedbor": 109, "no": "Kort regntid.", "en": "Short rainy season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 26.3, "nedbor": 121, "no": "Kort regntid; mindre trengsel.", "en": "Short rainy season; fewer crowds."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 26.8, "nedbor": 76, "no": "Kort tørrsesong starter.", "en": "Short dry season begins."}
+  ],
+  "vinduer": []
+}

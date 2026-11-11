@@ -1,0 +1,33 @@
+{
+  "id": "VNM",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Vietnam",
+  "sted": "Reunification Express + Hue",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur / by / tog",
+  "merknad": "Hele landet langs ruten; Hue (sentral-Vietnam) er begrensende faktor for klima",
+  "varighet": 14,
+  "koord": [16.46, 107.59],
+  "kilde": "Hue, VIBST, via Wikipedia (periode ikke oppgitt). Hanoi (Láng, WMO 1991–2020) i begrunnelse",
+  "en": {"land": "Vietnam", "sted": "Reunification Express + Hue", "kategori": "Culture / city / train", "merknad": "The whole country along the route; Hue (central Vietnam) is the limiting factor for climate", "kilde": "Hue, VIBST, via Wikipedia (period not stated). Hanoi (Láng, WMO 1991–2020) in the notes"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 23.5, "nedbor": 129, "no": "Hue kjølig og regnfull, Hanoi grått (20 °C). Sør tørt.", "en": "Hue cool and rainy, Hanoi grey (20 °C). South dry."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 24.5, "nedbor": 63, "no": "Bedring i sentrum. Tet i jan/feb – se Vinduer.", "en": "Improving in the centre. Tet in Jan/Feb – see events."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 27.5, "nedbor": 51, "no": "Beste balanse langs ruten: Hue tørt, Hanoi mildt.", "en": "Best balance along the route: Hue dry, Hanoi mild."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 31.1, "nedbor": 59, "no": "Varmt og tørt i sentrum, Hanoi behagelig (29 °C).", "en": "Warm and dry in the centre, Hanoi pleasant (29 °C)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 33.5, "nedbor": 111, "no": "Varmt. Sør går inn i regntid.", "en": "Hot. The south enters the rainy season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 34.7, "nedbor": 103, "no": "Svært varmt (Hue og Hanoi 35 °C). Innenlands ferie.", "en": "Very hot (Hue and Hanoi 35 °C). Domestic holidays."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 34.7, "nedbor": 95, "no": "Som juni.", "en": "As June."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 34.2, "nedbor": 139, "no": "Varmt. Regn og tyfonrisiko i nord (Hanoi 274 mm).", "en": "Hot. Rain and typhoon risk in the north (Hanoi 274 mm)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 31.7, "nedbor": 411, "no": "Regntid i sentrum starter, tyfonrisiko.", "en": "Rainy season begins in the centre, typhoon risk."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 29.0, "nedbor": 773, "no": "Topp regn og flom i Hue/Hoi An.", "en": "Peak rain and floods in Hue/Hoi An."},
+    {"klima": 1, "opplevelse": 2, "trengsel": 5, "tmaks": 26.5, "nedbor": 642, "no": "Fortsatt flomrisiko i sentrum.", "en": "Still flood risk in the centre."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 23.8, "nedbor": 350, "no": "Regnfullt i sentrum, nord kjølig, sør tørt.", "en": "Rainy in the centre, north cool, south dry."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-15", "til": "2026-02-22", "type": "Helligdag", "justering": -1, "no": "Tet (17.2.2026): fulle tog/fly, mye stengt", "en": "Tet (17 Feb 2026): full trains/flights, much closed"},
+    {"fra": "2027-02-03", "til": "2027-02-10", "type": "Helligdag", "justering": -1, "no": "Tet (6.2.2027): fulle tog/fly, mye stengt", "en": "Tet (6 Feb 2027): full trains/flights, much closed"},
+    {"fra": "2028-01-24", "til": "2028-01-31", "type": "Helligdag", "justering": -1, "no": "Tet (26.1.2028): fulle tog/fly, mye stengt", "en": "Tet (26 Jan 2028): full trains/flights, much closed"}
+  ]
+}

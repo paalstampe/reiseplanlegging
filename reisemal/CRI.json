@@ -1,0 +1,31 @@
+{
+  "id": "CRI",
+  "region": "Sør- og Mellom-Amerika",
+  "land": "Costa Rica",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / strand",
+  "merknad": "",
+  "koord": [10.3, -84.9],
+  "kilde": "Liberia (Guanacaste), IMN 1957–2013, via Wikipedia. Karibia-siden har omvendt mønster sep–okt",
+  "en": {"land": "Costa Rica", "kategori": "Nature / beach", "kilde": "Liberia (Guanacaste), IMN 1957–2013, via Wikipedia. The Caribbean side has the opposite pattern Sep–Oct"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 33.4, "nedbor": 1, "no": "Tørrsesong, vind på Stillehavssiden. Høysesong.", "en": "Dry season, wind on the Pacific side. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 34.4, "nedbor": 2, "no": "Tørrsesong.", "en": "Dry season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 35.4, "nedbor": 4, "no": "Tørt og varmest. Semana Santa (se Vinduer).", "en": "Dry and hottest. Semana Santa (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 35.9, "nedbor": 24, "no": "Varmt og tørt; regnet kan starte.", "en": "Hot and dry; rain may begin."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.9, "nedbor": 194, "no": "Grønn sesong starter, ettermiddagsbyger.", "en": "Green season begins, afternoon showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.0, "nedbor": 246, "no": "Grønt, byger.", "en": "Green, showers."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 32.1, "nedbor": 153, "no": "«Veranillo» (tørrere periode); skilpadder i Tortuguero.", "en": "“Veranillo” (drier spell); turtles in Tortuguero."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.1, "nedbor": 209, "no": "Byger; hval ved Uvita, skilpadder.", "en": "Showers; whales off Uvita, turtles."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 346, "no": "Mest regn på Stillehavssiden; Karibia-siden fin.", "en": "Most rain on the Pacific side; Caribbean side good."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.9, "nedbor": 310, "no": "Regnfullt; Karibia-siden fin.", "en": "Rainy; Caribbean side good."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.6, "nedbor": 98, "no": "Regnet avtar.", "en": "Rain eases."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 32.5, "nedbor": 12, "no": "Tørrsesongen starter; jul/nyttår dyrt.", "en": "Dry season begins; Christmas/New Year expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2027-03-21", "til": "2027-03-28", "type": "Helligdag", "justering": -0.5, "no": "Semana Santa: alt fullt, alkoholforbud enkelte dager", "en": "Semana Santa: everything full, alcohol ban on some days"},
+    {"fra": "2028-04-09", "til": "2028-04-16", "type": "Helligdag", "justering": -0.5, "no": "Semana Santa: alt fullt", "en": "Semana Santa: everything full"}
+  ]
+}

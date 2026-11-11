@@ -1,0 +1,28 @@
+{
+  "id": "PHL",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Filippinene",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Strand / øyhopping",
+  "merknad": "Klima satt for Palawan (El Nido/Coron). Andre øygrupper kan ha annen sesong",
+  "koord": [10.5, 119.2],
+  "kilde": "Puerto Princesa (Palawan), PAGASA 1991–2020, via Wikipedia. Luzon/Visayas har mer tyfoner",
+  "en": {"land": "Philippines", "kategori": "Beach / island hopping", "merknad": "Climate set for Palawan (El Nido/Coron). Other island groups may have a different season", "kilde": "Puerto Princesa (Palawan), PAGASA 1991–2020, via Wikipedia. Luzon/Visayas get more typhoons"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.9, "nedbor": 56, "no": "Tørt, rolig sjø. Høysesong.", "en": "Dry, calm sea. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.1, "nedbor": 31, "no": "Tørt, rolig sjø.", "en": "Dry, calm sea."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.9, "nedbor": 37, "no": "Tørrest, varmt.", "en": "Driest, hot."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 32.9, "nedbor": 49, "no": "Varmt (33 °C). Påske = innenlands høysesong.", "en": "Hot (33 °C). Easter = domestic high season."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.9, "nedbor": 126, "no": "Varmt, regnet starter mot slutten.", "en": "Hot, rain begins towards the end."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.1, "nedbor": 157, "no": "Sørvestmonsun (habagat), grov sjø i El Nido.", "en": "Southwest monsoon (habagat), rough sea at El Nido."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.5, "nedbor": 170, "no": "Monsun og tyfonrisiko; båtturer kanselleres.", "en": "Monsoon and typhoon risk; boat trips cancelled."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.6, "nedbor": 173, "no": "Monsun og tyfonrisiko.", "en": "Monsoon and typhoon risk."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.7, "nedbor": 172, "no": "Monsun og tyfonrisiko.", "en": "Monsoon and typhoon risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.6, "nedbor": 213, "no": "Tyfonrisiko.", "en": "Typhoon risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.4, "nedbor": 196, "no": "Overgang, fortsatt tyfonrisiko.", "en": "Transition, still typhoon risk."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 31.0, "nedbor": 175, "no": "Tørrere. Jul = innenlands høysesong.", "en": "Drier. Christmas = domestic high season."}
+  ],
+  "vinduer": []
+}

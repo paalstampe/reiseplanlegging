@@ -1,0 +1,30 @@
+{
+  "id": "LKA-SV",
+  "region": "Asia, Oseania og Midt-Østen",
+  "land": "Sri Lanka",
+  "sted": "Vest- og sørkysten, høylandet",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Strand / kultur",
+  "merknad": "Sørvestmonsun mai–sep; best des–apr",
+  "koord": [6.4, 80.3],
+  "kilde": "Colombo, WMO 1991–2020, via Wikipedia. Høylandet: kjøligere, tilsvarende regnmønster",
+  "en": {"land": "Sri Lanka", "sted": "West and south coast, hill country", "kategori": "Beach / culture", "merknad": "Southwest monsoon May–Sep; best Dec–Apr", "kilde": "Colombo, WMO 1991–2020, via Wikipedia. Hill country: cooler, similar rain pattern"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.4, "nedbor": 80, "no": "Tørt og solrikt på vest-/sørkysten. Hval ved Mirissa.", "en": "Dry and sunny on the west/south coast. Whales off Mirissa."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 31.6, "nedbor": 77, "no": "Tørt. Hval, gode forhold i høylandet.", "en": "Dry. Whales, good conditions in the hill country."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.0, "nedbor": 103, "no": "Tørt og varmt. Siste gode hvalmåned.", "en": "Dry and hot. Last good whale month."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 32.0, "nedbor": 249, "no": "Byger øker. Singalesisk/tamilsk nyttår 13.–14.4.", "en": "Showers increase. Sinhala/Tamil New Year 13–14 Apr."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 31.5, "nedbor": 314, "no": "Sørvestmonsun, grov sjø.", "en": "Southwest monsoon, rough sea."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.7, "nedbor": 197, "no": "Monsun; høylandet vått.", "en": "Monsoon; hill country wet."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 30.3, "nedbor": 123, "no": "Moderat regn.", "en": "Moderate rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 30.3, "nedbor": 116, "no": "Moderat regn. Esala Perahera i Kandy (se Vinduer).", "en": "Moderate rain. Esala Perahera in Kandy (see events)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 30.4, "nedbor": 264, "no": "Mellommonsun, økende regn.", "en": "Inter-monsoon, increasing rain."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 30.4, "nedbor": 359, "no": "Mest regn i Colombo (359 mm).", "en": "Most rain in Colombo (359 mm)."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 30.6, "nedbor": 346, "no": "Vått; bedring mot slutten.", "en": "Wet; improving towards the end."},
+    {"klima": 4, "opplevelse": 5, "trengsel": 2, "tmaks": 30.9, "nedbor": 171, "no": "Sesongen starter, noe regn. Jul/nyttår gir trengsel.", "en": "Season begins, some rain. Christmas/New Year brings crowds."}
+  ],
+  "vinduer": [
+    {"fra_uke": 31, "til_uke": 33, "type": "Hendelse", "justering": 0.5, "no": "Esala Perahera i Kandy (juli/aug, følger fullmåne – sjekk dato; 2026: 18.–27.8)", "en": "Esala Perahera in Kandy (Jul/Aug, follows the full moon – check date; 2026: 18–27 Aug)"}
+  ]
+}

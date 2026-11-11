@@ -1,0 +1,28 @@
+{
+  "id": "DOM",
+  "region": "Sør- og Mellom-Amerika",
+  "land": "Den dominikanske republikk",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Strand / hval",
+  "merknad": "",
+  "koord": [18.9, -69.8],
+  "kilde": "Santo Domingo, NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "Dominican Republic", "kategori": "Beach / whales", "kilde": "Santo Domingo, NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.0, "nedbor": 68, "no": "Tørt og behagelig. Hvalsesong i Samaná.", "en": "Dry and pleasant. Whale season in Samaná."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.0, "nedbor": 59, "no": "Hvaltopp; karneval.", "en": "Peak whales; carnival."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.5, "nedbor": 54, "no": "Hval ut mars.", "en": "Whales until the end of March."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 30.9, "nedbor": 86, "no": "Tørt, varmere.", "en": "Dry, warmer."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.3, "nedbor": 151, "no": "Regntiden starter.", "en": "Rainy season begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.9, "nedbor": 119, "no": "Varmt; orkansesongen starter.", "en": "Hot; hurricane season begins."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 3, "tmaks": 32.2, "nedbor": 157, "no": "Varmt; sommerferie.", "en": "Hot; summer holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.3, "nedbor": 195, "no": "Orkanrisiko.", "en": "Hurricane risk."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.4, "nedbor": 192, "no": "Orkansesongens topp.", "en": "Peak of the hurricane season."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.0, "nedbor": 177, "no": "Orkanrisiko.", "en": "Hurricane risk."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.3, "nedbor": 148, "no": "Overgang.", "en": "Transition."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 2, "tmaks": 30.6, "nedbor": 77, "no": "Tørt; høysesongen starter.", "en": "Dry; high season begins."}
+  ],
+  "vinduer": []
+}

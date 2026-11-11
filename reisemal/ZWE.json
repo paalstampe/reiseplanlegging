@@ -1,0 +1,28 @@
+{
+  "id": "ZWE",
+  "region": "Afrika",
+  "land": "Zimbabwe",
+  "sted": "",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Safari",
+  "merknad": "Evt. kombinert med Botswana/Zambia (Victoria Falls)",
+  "koord": [-18.9, 26.8],
+  "kilde": "Hwange, WMO 1961–1990, via Wikipedia",
+  "en": {"land": "Zimbabwe", "kategori": "Safari", "merknad": "Possibly combined with Botswana/Zambia (Victoria Falls)", "kilde": "Hwange, WMO 1961–1990, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 29.2, "nedbor": 145, "no": "Regntid, vilt spredt.", "en": "Rainy season, game dispersed."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 28.9, "nedbor": 129, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 28.8, "nedbor": 57, "no": "Regnet avtar; Victoriafallene stiger.", "en": "Rain eases; Victoria Falls rising."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 27.9, "nedbor": 20, "no": "Tørrere; fallene på topp.", "en": "Drier; the falls at their peak."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.2, "nedbor": 3, "no": "Tørrsesongen starter.", "en": "Dry season begins."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 24.0, "nedbor": 0, "no": "Tørt og kjølig.", "en": "Dry and cool."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 24.1, "nedbor": 0, "no": "Tørt; godt vilt.", "en": "Dry; good game."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 26.9, "nedbor": 1, "no": "Tørt; vilt ved vannhullene i Hwange.", "en": "Dry; game at the waterholes in Hwange."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 30.9, "nedbor": 2, "no": "Toppvilt; Mana Pools på sitt beste.", "en": "Peak game; Mana Pools at its best."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 3, "tmaks": 32.1, "nedbor": 21, "no": "Hett, men svært godt vilt.", "en": "Hot, but excellent game."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 31.7, "nedbor": 56, "no": "Regnet starter.", "en": "Rain begins."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 29.7, "nedbor": 127, "no": "Regntid.", "en": "Rainy season."}
+  ],
+  "vinduer": []
+}
