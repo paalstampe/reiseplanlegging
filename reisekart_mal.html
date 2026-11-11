@@ -162,11 +162,10 @@ button.strip-celle { padding:0; font-family:inherit; cursor:pointer; }
 /* Detaljkort for valgt destinasjon */
 .rute-kort { position:absolute; left:20px; bottom:24px; z-index:5; width:360px; max-height:calc(100% - 48px); overflow-y:auto;
   padding:18px 20px 20px; background:var(--kort); border:1px solid var(--kant); }
-/* Flyttbart kort (som infoboksen i byguidene): mus drar fra hele kortet, touch fra toppen (region og navn),
-   siden resten av kortet ruller. */
+/* Flyttbart kort (som infoboksen i byguidene): dras etter toppen (region og navn), så resten kan rulles og markeres. */
 .rute-kicker, .rute-navn { touch-action:none; }
 .rute-kort.drar { user-select:none; -webkit-user-select:none; }
-@media (hover: hover) and (pointer: fine) { .rute-kort { cursor:grab; } .rute-kort.drar { cursor:grabbing; } }
+@media (hover: hover) and (pointer: fine) { .rute-kicker, .rute-navn { cursor:grab; } .rute-kort.drar, .rute-kort.drar * { cursor:grabbing; } }
 .rute-lukk { position:absolute; top:8px; right:10px; border:0; background:none; font-size:22px; line-height:1; color:var(--dempet); cursor:pointer; padding:2px 6px; }
 .rute-lukk:hover { color:var(--aksent); }
 .rute-kicker { margin:0 0 8px; font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--aksent); }
@@ -586,15 +585,24 @@ document.addEventListener("click", e => {
 document.addEventListener("keydown", e => { if (e.key === "Escape") lukkDetalj(); });
 
 /* Detaljkortet kan dras unna prikkene, med mus og touch (samme løsning som infoboksen i byguidene).
-   Forskyvningen er en transform, og kortet holdes innenfor kartflaten. Knapper og lenker drar ikke.
-   På touch dras det bare fra toppen av kortet, ellers ruller innholdet. */
+   Forskyvningen er en transform, og kortet holdes innenfor kartflaten. Det dras etter toppen (region og navn),
+   så resten av kortet kan rulles og teksten markeres. */
 function nullstillFlytt(el) { el.style.transform = ""; el.dataset.flytt = "0,0"; }
+// Skyver et flyttet kort tilbake inn i kartflaten (ny høyde etter månedsbytte, mindre vindu).
+function holdKortInne(el) {
+  if (el.hidden || !el.dataset.flytt || el.dataset.flytt === "0,0") return;
+  const b = el.getBoundingClientRect(), k = document.querySelector(".kartflate").getBoundingClientRect();
+  const dx = Math.max(k.left - b.left, Math.min(0, k.right - b.right)), dy = Math.max(k.top - b.top, Math.min(0, k.bottom - b.bottom));
+  if (!dx && !dy) return;
+  const [x, y] = el.dataset.flytt.split(",").map(Number);
+  el.style.transform = `translate(${x + dx}px,${y + dy}px)`; el.dataset.flytt = (x + dx) + "," + (y + dy);
+}
 (() => {
   const kort = document.getElementById("detalj"), flate = document.querySelector(".kartflate");
   let dra = null;
   kort.addEventListener("pointerdown", e => {
     if (!e.isPrimary || e.button !== 0 || e.target.closest("a, button")) return;
-    if (e.pointerType !== "mouse" && !e.target.closest(".rute-kicker, .rute-navn")) return;
+    if (!e.target.closest(".rute-kicker, .rute-navn")) return;
     const [x, y] = (kort.dataset.flytt || "0,0").split(",").map(Number);
     dra = { id: e.pointerId, x0: e.clientX, y0: e.clientY, x, y, iGang: false,
             boks: kort.getBoundingClientRect(), kant: flate.getBoundingClientRect() };
@@ -615,8 +623,7 @@ function nullstillFlytt(el) { el.style.transform = ""; el.dataset.flytt = "0,0";
   const slipp = e => { if (dra && e.pointerId === dra.id) { kort.classList.remove("drar"); dra = null; } };
   kort.addEventListener("pointerup", slipp);
   kort.addEventListener("pointercancel", slipp);
-  // Rotasjon: tilbake på plass (ikke ved resize, som Safari sender når verktøylinja skjules under rulling).
-  matchMedia("(orientation: portrait)").addEventListener("change", () => nullstillFlytt(kort));
+  addEventListener("resize", () => holdKortInne(kort));
 })();
 
 function visDetalj(id) {
@@ -626,7 +633,7 @@ function visDetalj(id) {
   if (!d) { el.hidden = true; return; }
   if (el.hidden || el.dataset.id !== id) nullstillFlytt(el);   // nytt kort starter på vanlig plass
   el.dataset.id = id;
-  el.innerHTML = detaljHtml(d); el.hidden = false; el.scrollTop = 0;
+  el.innerHTML = detaljHtml(d); el.hidden = false; el.scrollTop = 0; holdKortInne(el);
   el.querySelector("#lukk").addEventListener("click", lukkDetalj);
   el.querySelectorAll("button.strip-celle").forEach(b => b.addEventListener("click", () => { state.mnd = +b.dataset.mnd; oppdater(); }));
 }
