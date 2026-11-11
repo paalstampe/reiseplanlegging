@@ -162,6 +162,11 @@ button.strip-celle { padding:0; font-family:inherit; cursor:pointer; }
 /* Detaljkort for valgt destinasjon */
 .rute-kort { position:absolute; left:20px; bottom:24px; z-index:5; width:360px; max-height:calc(100% - 48px); overflow-y:auto;
   padding:18px 20px 20px; background:var(--kort); border:1px solid var(--kant); }
+/* Flyttbart kort (som infoboksen i byguidene): mus drar fra hele kortet, touch fra toppen (region og navn),
+   siden resten av kortet ruller. */
+.rute-kicker, .rute-navn { touch-action:none; }
+.rute-kort.drar { user-select:none; -webkit-user-select:none; }
+@media (hover: hover) and (pointer: fine) { .rute-kort { cursor:grab; } .rute-kort.drar { cursor:grabbing; } }
 .rute-lukk { position:absolute; top:8px; right:10px; border:0; background:none; font-size:22px; line-height:1; color:var(--dempet); cursor:pointer; padding:2px 6px; }
 .rute-lukk:hover { color:var(--aksent); }
 .rute-kicker { margin:0 0 8px; font-size:10px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--aksent); }
@@ -580,11 +585,47 @@ document.addEventListener("click", e => {
 });
 document.addEventListener("keydown", e => { if (e.key === "Escape") lukkDetalj(); });
 
+/* Detaljkortet kan dras unna prikkene, med mus og touch (samme løsning som infoboksen i byguidene).
+   Forskyvningen er en transform, og kortet holdes innenfor kartflaten. Knapper og lenker drar ikke.
+   På touch dras det bare fra toppen av kortet, ellers ruller innholdet. */
+function nullstillFlytt(el) { el.style.transform = ""; el.dataset.flytt = "0,0"; }
+(() => {
+  const kort = document.getElementById("detalj"), flate = document.querySelector(".kartflate");
+  let dra = null;
+  kort.addEventListener("pointerdown", e => {
+    if (!e.isPrimary || e.button !== 0 || e.target.closest("a, button")) return;
+    if (e.pointerType !== "mouse" && !e.target.closest(".rute-kicker, .rute-navn")) return;
+    const [x, y] = (kort.dataset.flytt || "0,0").split(",").map(Number);
+    dra = { id: e.pointerId, x0: e.clientX, y0: e.clientY, x, y, iGang: false,
+            boks: kort.getBoundingClientRect(), kant: flate.getBoundingClientRect() };
+  });
+  kort.addEventListener("pointermove", e => {
+    if (!dra || e.pointerId !== dra.id) return;
+    const dx = e.clientX - dra.x0, dy = e.clientY - dra.y0;
+    if (!dra.iGang) {
+      if (Math.hypot(dx, dy) < 5) return;
+      dra.iGang = true; kort.setPointerCapture(e.pointerId); kort.classList.add("drar");
+    }
+    const { boks, kant } = dra;
+    const x = dra.x + Math.min(Math.max(dx, kant.left - boks.left), kant.right - boks.right);
+    const y = dra.y + Math.min(Math.max(dy, kant.top - boks.top), kant.bottom - boks.bottom);
+    kort.style.transform = `translate(${x}px,${y}px)`; kort.dataset.flytt = x + "," + y;
+    e.preventDefault();
+  });
+  const slipp = e => { if (dra && e.pointerId === dra.id) { kort.classList.remove("drar"); dra = null; } };
+  kort.addEventListener("pointerup", slipp);
+  kort.addEventListener("pointercancel", slipp);
+  // Rotasjon: tilbake på plass (ikke ved resize, som Safari sender når verktøylinja skjules under rulling).
+  matchMedia("(orientation: portrait)").addEventListener("change", () => nullstillFlytt(kort));
+})();
+
 function visDetalj(id) {
   state.valgt = id;
   const el = document.getElementById("detalj");
   const d = DATA.dest.find(x => x.id === id);
   if (!d) { el.hidden = true; return; }
+  if (el.hidden || el.dataset.id !== id) nullstillFlytt(el);   // nytt kort starter på vanlig plass
+  el.dataset.id = id;
   el.innerHTML = detaljHtml(d); el.hidden = false; el.scrollTop = 0;
   el.querySelector("#lukk").addEventListener("click", lukkDetalj);
   el.querySelectorAll("button.strip-celle").forEach(b => b.addEventListener("click", () => { state.mnd = +b.dataset.mnd; oppdater(); }));
