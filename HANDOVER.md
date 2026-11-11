@@ -33,6 +33,13 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 Rekkefølgen (regneark, md-liste) er region i `REGIONER`-rekkefølge, så land og sted alfabetisk. Kartlista sorteres på score.
 Før 11.11.2026 lå dataene i `reisedata.py`, `reisedata_en.py` og `dest` i `bygg_reisekalender.py`; omleggingen ga identiske data i `index.html`.
 
+## Flyttbart detaljkort (fra 11.11.2026)
+Detaljkortet kan dras unna prikkene, som infoboksen i byguidene (`flyttbarPopup` der). Forskyvningen er en CSS-transform
+(`settFlytt`), holdt innenfor kartflaten. Kortet dras etter toppen (region og navn, `touch-action:none`), med mus og
+touch, så resten kan rulles og teksten markeres (i byguidene drar musen fra hele boksen). Plassen beholdes når måneden byttes,
+og `holdKortInne` (via en ResizeObserver på kortet og kartflaten) skyver det inn igjen etter ny høyde eller mindre flate. Et annet reisemål eller et kort som åpnes på nytt,
+starter på vanlig plass.
+
 ## Ønskeliste og søk (fra 11.11.2026)
 - Alle reisemål vises som standard. Under «Vis» velger «Ønskeliste» bare reisemålene med `onskeliste: true` (motsatt av byguidene,
   der ønskelisten er skjult i vanlig visning). Gruppen vises bare når lista har både ønskelistesteder og andre (`HAR_ONSKELISTE`).
