@@ -22,7 +22,7 @@ Før Claude sier at en endring er ferdig, tar Claude skjermbilder og ser på dem
 
 ## Datamodell (reisemal/<ID>.json, fra 11.11.2026)
 Én fil per reisemål; filnavnet er ID-en (ISO3-landkode, med suffiks for deler av land: `LKA-SV`, `IND-GOA`). Felter:
-- `id`, `region` (må stå i `REGIONER` i `reisemal.py`), `land`, `sted` (tom = hele landet), valgfri `kortnavn` (kartetikett når «land – sted»
+- `id`, `region` (må stå i `REGIONER` i `reisemal.py`, som også har det engelske navnet og rekkefølgen), `land`, `sted` (tom = hele landet), valgfri `kortnavn` (kartetikett når «land – sted»
   er for langt, f.eks. «Sri Lanka øst»; engelsk i `en.kortnavn`), `status` (Ikke besøkt/Planlagt/Booket/Besøkt),
   `onskeliste` (true = Påls ønskeliste), `kategori`, `merknad` (starter den med «Sikkerhet:», vises reiserådvarsel), valgfri `varighet` (dager),
   `koord` [bredde, lengde], `kilde` (klimastasjon og periode).

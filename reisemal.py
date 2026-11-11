@@ -8,14 +8,16 @@ MAPPE = os.path.join(HER, "reisemal")
 # Vinduer som gjelder mange reisemål (ramadan, påske, kinesisk nyttår …) står én gang her, med lista over reisemålene.
 FELLES = os.path.join(HER, "felles_vinduer.json")
 # Rekkefølgen regionene vises i (regneark og md-liste). Ny region legges inn her og i TEKST.regioner i malen.
-REGIONER = ["Europa", "Midtøsten", "Afrika", "Asia", "Oseania", "Nord-Amerika", "Mellom-Amerika og Karibia", "Sør-Amerika"]
+REGIONER = {"Europa": "Europe", "Midtøsten": "Middle East", "Afrika": "Africa", "Asia": "Asia", "Oseania": "Oceania",
+            "Nord-Amerika": "North America", "Mellom-Amerika og Karibia": "Central America and Caribbean", "Sør-Amerika": "South America"}
 FELT = ("id", "region", "land", "sted", "status", "onskeliste", "kategori", "merknad", "koord", "kilde", "en", "maneder", "vinduer")
+VALGFRIE = ("kortnavn", "varighet")
 MANEDSFELT = ("klima", "opplevelse", "trengsel", "tmaks", "nedbor", "no")
 VINDUSFELT = ("type", "justering", "no")
 NORSK = str.maketrans({"æ": "{", "ø": "|", "å": "}"})  # æ, ø, å sorteres etter z
 
 def sorteringsnokkel(r):
-    return (REGIONER.index(r["region"]), (r["land"] + " " + r["sted"]).casefold().translate(NORSK))
+    return (list(REGIONER).index(r["region"]), (r["land"] + " " + r["sted"]).casefold().translate(NORSK))
 
 def last():
     """Alle reisemål, sortert på region og navn. Stopper med feilmelding hvis en fil er ufullstendig."""
@@ -38,18 +40,18 @@ def leggTilFelles(per_id):
     with open(FELLES, encoding="utf-8") as fil:
         felles = json.load(fil)["vinduer"]
     for i, v in enumerate(felles, 1):
+        def stopp(melding): raise SystemExit(f"{os.path.basename(FELLES)} («{v.get('no', '')}»): {melding}")
         feil = sjekk_vindu(v, i) + ([] if v.get("gjelder") else [f"vindu {i} mangler gjelder"])
-        if feil:
-            raise SystemExit(f"felles_vinduer.json («{v.get('no', '')}»): " + "; ".join(feil))
+        if feil: stopp("; ".join(feil))
         for g in v["gjelder"]:
-            idd, overstyr = (g, {}) if isinstance(g, str) else (g.get("id"), {k: x for k, x in g.items() if k != "id"})
-            if idd not in per_id:
-                raise SystemExit(f"felles_vinduer.json («{v['no']}»): ukjent reisemål {idd}")
-            ny = {**{k: x for k, x in v.items() if k != "gjelder"}, **overstyr, "felles": True}
+            g = {"id": g} if isinstance(g, str) else g
+            if g.get("id") not in per_id: stopp(f"ukjent reisemål {g.get('id')}")
+            ny = {**v, **g, "felles": True}; del ny["gjelder"], ny["id"]
             # Samme vindu to ganger (dobbelt i gjelder, eller også i reisemålets egen fil) ville gitt dobbel justering.
-            if any((w.get("fra"), w.get("fra_uke"), w["type"]) == (ny.get("fra"), ny.get("fra_uke"), ny["type"]) for w in per_id[idd]["vinduer"]):
-                raise SystemExit(f"felles_vinduer.json («{v['no']}»): {idd} har allerede et {ny['type'].lower()}svindu med samme start")
-            per_id[idd]["vinduer"].append(ny)
+            nokkel = lambda w: (w.get("fra"), w.get("fra_uke"), w["type"])
+            if any(nokkel(w) == nokkel(ny) for w in per_id[g["id"]]["vinduer"]):
+                stopp(f"{g['id']} har allerede et {ny['type'].lower()}svindu med samme start")
+            per_id[g["id"]]["vinduer"].append(ny)
 
 def sjekk_vindu(v, i):
     feil = [f"vindu {i} mangler {f}" for f in VINDUSFELT if f not in v]
@@ -59,7 +61,7 @@ def sjekk_vindu(v, i):
 
 def sjekk(r, navn):
     """Liste over feil i ett reisemål (tom = i orden)."""
-    feil = [f"mangler {f}" for f in FELT if f not in r]
+    feil = [f"mangler {f}" for f in FELT if f not in r] + [f"ukjent felt {f}" for f in r if f not in FELT + VALGFRIE]
     if feil: return feil
     if r["id"] + ".json" != navn: feil.append(f"id er {r['id']}")
     if r["region"] not in REGIONER: feil.append(f"ukjent region {r['region']} (legg den inn i REGIONER)")

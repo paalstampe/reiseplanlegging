@@ -24,7 +24,7 @@ Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, n
   står side om side. Endres en norsk tekst, endre den engelske også. `lag_reisekart.py` skriver «Mangler engelsk: …» for hull.
   Format og felter: HANDOVER.md, Datamodell. Filene skrives med `reisemal.skriv()` (én måned og ett vindu per linje).
 - `reisemal.py` — leser og sjekker filene (`last()`, med vinduene fra `felles_vinduer.json`), regner vinduer om til uker (`vindu()`).
-  Brukes av begge skriptene. Nye regioner legges inn i `REGIONER` der og engelsk navn i `TEKST.en.regioner` i malen.
+  Brukes av begge skriptene. Nye regioner legges inn i `REGIONER` der, med engelsk navn.
 - `Reisemål.md` — oversikt over reisemålene, generert av `lag_reisekart.py`. Rediger ikke; endre JSON-filene.
 - `reisekart_mal.html` — malen for kart-appen. `python3 lag_reisekart.py` skriver `index.html` fra mal + data.
 - `index.html` er generert — rediger aldri direkte. Endre malen eller dataene og kjør skriptet.
