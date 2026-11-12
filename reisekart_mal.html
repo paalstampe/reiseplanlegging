@@ -674,9 +674,11 @@ function tegnListe() {
   });
 }
 
-let kart = null;
+let kart = null, punkter = [];   // punkter: siste data til kartet, brukes av plasserEtikett
 function punktData() {
-  return rader().flatMap(({ d, r }) => {
+  // Rekkefølgen er prioriteten i etikettplasseringen: valgt først, så etter score.
+  const rr = rader().slice().sort((a, b) => (b.d.id === state.valgt) - (a.d.id === state.valgt) || (b.r.snitt ?? 0) - (a.r.snitt ?? 0));
+  return punkter = rr.flatMap(({ d, r }) => {
     const c = klasse(r.snitt);
     const farge = c === "beste" ? css("--beste") : c === "god" ? css("--god") : css("--ellers");
     const valgt = state.valgt === d.id;
@@ -693,6 +695,41 @@ function punktData() {
 const navnKort = d => { const land = tekst(d, "land"), sted = tekst(d, "sted");
   return sted && land.length + sted.length < 23 ? `${land} – ${sted}` : tekst(d, "kortnavn") || land; };
 const DATA_KOORD = DATA.koord;
+
+// Etikettplassering: hver etikett prøver høyre, venstre, over og under prikken, så skrått ut fra hjørnene, i prioritert rekkefølge (dataene),
+// og tar første plass som ikke dekker en etikett som allerede er plassert eller en annen merket prikk
+// (grå prikker kan dekkes, ellers forsvinner de fleste navnene i verdensvisningen). Får den ikke plass,
+// skjules den. Erstatter ECharts' hideOverlap, som bare kunne skjule (Ekvatorial-Guinea forsvant ved Kamerun).
+// ECharts kaller funksjonen for alle etiketter i dataenes rekkefølge, én runde per setOption. En ny runde
+// (nye data, ny visning eller dataIndex forfra) begynner med tomt brett.
+let etikettRunde = null;
+function plasserEtikett(p) {
+  const visning = String(kart.convertToPixel({ geoIndex: 0 }, [0, 0]));
+  if (!etikettRunde || etikettRunde.punkter !== punkter || etikettRunde.visning !== visning || p.dataIndex <= etikettRunde.sist) {
+    const prikker = punkter.filter(v => v.label.show).map(v => {
+      const q = kart.convertToPixel({ geoIndex: 0 }, [v.value[0], v.value[1]]), r = v.symbolSize / 2;
+      return { x: q[0] - r, y: q[1] - r, width: 2 * r, height: 2 * r };
+    });
+    etikettRunde = { opptatt: [], prikker, punkter, visning };
+  }
+  etikettRunde.sist = p.dataIndex;
+  const { rect: s } = p, avstand = 5, w = p.labelRect.width, h = p.labelRect.height;
+  const cx = s.x + s.width / 2, cy = s.y + s.height / 2;
+  const forslag = [
+    [s.x + s.width + avstand, cy - h / 2], [s.x - avstand - w, cy - h / 2],
+    [cx - w / 2, s.y - avstand - h], [cx - w / 2, s.y + s.height + avstand],
+    [s.x + s.width, s.y - h], [s.x + s.width, s.y + s.height], [s.x - w, s.y - h], [s.x - w, s.y + s.height]
+  ];
+  const over = (a, b) => a.x < b.x + b.width && b.x < a.x + a.width && a.y < b.y + b.height && b.y < a.y + a.height;
+  const egen = r => Math.abs(r.x + r.width / 2 - cx) < 0.5 && Math.abs(r.y + r.height / 2 - cy) < 0.5;
+  for (const [x, y] of forslag) {
+    const r = { x, y, width: w, height: h };
+    if (etikettRunde.opptatt.some(o => over(r, o)) || etikettRunde.prikker.some(o => !egen(o) && over(r, o))) continue;
+    etikettRunde.opptatt.push(r);
+    return { x, y, align: "left", verticalAlign: "top" };
+  }
+  return { x: -1e5, y: -1e5 };
+}
 
 function tegnKart() {
   if (!kart) return;
@@ -840,7 +877,7 @@ function initKart() {
     },
     series: [{
       type: "scatter", coordinateSystem: "geo", data: punktData(), silent: true,
-      emphasis: { scale: 1.5, label: { show: true } }, labelLayout: { hideOverlap: true }, animationDurationUpdate: 300
+      emphasis: { scale: 1.5, label: { show: true } }, labelLayout: plasserEtikett, animationDurationUpdate: 300
     }]
   });
 

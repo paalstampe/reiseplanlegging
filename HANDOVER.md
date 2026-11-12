@@ -51,7 +51,7 @@ starter på vanlig plass.
 - Søkefeltet under filtrene søker i land og sted på norsk og engelsk og i ID, uten å skille på aksenter og store/små bokstaver
   (`normal()`, `treffer()`). Søket gjelder innenfor valgt region og utvalg; gir det ingen treff der, tilbyr lista
   «Vis n treff i alle reisemål», som nullstiller region og utvalg. Søket filtrerer både lista og prikkene i kartet.
-- Kartetikettene vises for grønne og valgt reisemål, og ECharts skjuler etiketter som overlapper (`labelLayout.hideOverlap`). Overlappen regnes bare på nytt ved `setOption`, ikke ved ECharts' egen roam-zoom (før 12.11.2026 forble f.eks. «Etiopia» skjult også helt innzoomet); derfor går all zoom gjennom `setOption` (`zoomRundt`/`settVisning`), og ECharts får bare panorere.
+- Kartetikettene vises for grønne og valgt reisemål. Egen plassering (`plasserEtikett`, ECharts' `labelLayout`-funksjon, fra 12.11.2026): i prioritert rekkefølge (valgt, så høyest score) prøver hver etikett høyre, venstre, over, under og de fire hjørnene, og tar første plass som ikke dekker en annen etikett eller grønn prikk; ellers skjules den. Grå prikker kan dekkes. Før ble overlappende etiketter bare skjult (`hideOverlap`), så f.eks. Ekvatorial-Guinea ved Kamerun aldri vistes. Plasseringen regnes bare på nytt ved `setOption`, ikke ved ECharts' egen roam-zoom (før 12.11.2026 forble f.eks. «Etiopia» skjult også helt innzoomet); derfor går all zoom gjennom `setOption` (`zoomRundt`/`settVisning`), og ECharts får bare panorere.
   Testet med 250 reisemål (oppdiktede kopier): lesbart, men regionknappene tar fem rader med ni regioner.
 
 - **Format:** Excel. Normalisert datamodell + generert visning. (HTML-visning evt. senere, generert fra Excel.)
