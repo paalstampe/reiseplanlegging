@@ -59,6 +59,7 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
   Playwright holder for vanlige layoutsjekker og er raskere; simulatoren er sluttsjekken for iPhone. Ikke i skyøkter.
   En nyoppstartet simulator kan henge i Safari (openurl gir tidsavbrudd); da er Playwright med WebKit (`devices['iPhone 13']`)
   reserven. Touch-hendelser lages der med `new Event('touchstart')` og `touches` lagt på, siden `new Touch()` ikke finnes.
+- Kartvisning i nettleserpanelet: `settVisning(zoom, [lon, lat])` med javascript_tool hopper rett til et utsnitt (f.eks. `settVisning(12, [6, 6])` for Vest-Afrika på dypeste zoom).
 - Test samspill (hover, klikk, trykk, pinch) med Playwright, også på mobilbredde. zrender krever
   mousedown/mouseup før click.
   Endres kartbevegelsen (touchRoam, hjulZoom, animerZoom, zoomRundt), kjør `.claude/bevegelsestest.sh [url]`: hjul, knapper,

@@ -22,19 +22,7 @@ Sist oppdatert: 12. november 2026.
 - 12.11.: `omorganiser.py` i skillen `/nytt-reisemal` (steg 7) deler, slår sammen og gir ny ID til reisemål og oppdaterer
   felles vinduer, landlista, antallene i CLAUDE.md og alt generert (PR #48). `Landliste.md`-tabellene lages nå fra `landliste.tsv`.
 
-- 11.11.: **alle FN-land er med – 257 reisemål** (før 40). Slik ble det gjort, i rekkefølge:
-  - Datamodell (PR #38): én JSON-fil per reisemål i `reisemal/`, norsk og engelsk side om side, lest av `reisemal.py`.
-    `Reisemål.md` genereres og erstatter «Reise - utenfor Europa.md» som master.
-  - Søk og «Vis: Alle reisemål / Ønskeliste» (PR #39). Påls 40 er ønskelisten (`onskeliste: true`).
-  - Detaljkortet kan dras etter toppen, som infoboksen i byguidene (PR #40).
-  - Landlista vedtatt (`Landliste.md` / `landliste.tsv`): 195 land, 31 delt, mikrostater i naboen, Hongkong, Taiwan, Grønland
-    og Færøyene som ekstra, krigsland med varsel.
-  - Åtte regioner, `felles_vinduer.json`, `kortnavn` og navnerettelser (USA – Hawaii, Mexico – Mexico City, SILK → UZB) (PR #41).
-  - Skillen `/nytt-reisemal` med `klima.py`, som henter klimaboksen fra Wikipedia (PR #42–#44).
-  - Midtøsten (12) og Nord-Amerika (9) fylt inn her i økta; Pål godkjente nivået. De resterende 196 med en workflow (27 agenter).
-  - Felles vinduer 2026–28: ramadan (41 reisemål), påskeuka (58), ortodoks påske (3) og kinesisk nyttår (13), med justering per
-    reisemål og positiv tekst der høytiden er en opplevelse. Kildesvakheter (183 av 196) står i `Kildesvakheter.md`.
-  - Miniatyrene og forsideteksten på stam.pe er oppdatert, og delingskortet sier «alle land» (PR #45).
+- 11.11.: alle FN-land kom med (257 reisemål, nå 259); detaljer i ARKIV.md.
 - Reisekartet er live på https://stam.pe/reiseplanlegging/, og Reisekalender.xlsx bygges fra de samme dataene.
 - Kartet har hjemskjermikon, virker offline (også «Lagre alt» fra stam.pe), har mørk modus og er ikke søkbart.
 - Det finnes ingen åpne grener utenom `main`.
@@ -74,6 +62,7 @@ Sist oppdatert: 12. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-12: Kartnavn plasseres av egen kode (`plasserEtikett`) i stedet for ECharts' `hideOverlap`: navn som kolliderer, flyttes til ledig side og skjules bare når ingen plass er ledig. Grå prikker kan dekkes, ellers ble verdensvisningen for tom.
 - 2026-11-12: Løsninger som finnes i både reisekartet og byguidene, skal være like; lista står i HANDOVER, «Felles med byguidene», med henvisning fra byguidene. Endres én, endres begge. Søkekrysset manglet her selv om byguidene hadde det.
 - 2026-11-12: CLAUDE.md kortet ned til 134 linjer: det som står i HANDOVER eller i lista over felles løsninger, er tatt ut; miniatyroppskriften viser til byguidenes CLAUDE.md.
 - 2026-11-12: All zoom skal gå gjennom `setOption` (`zoomRundt`/`settVisning`), ikke ECharts' egen roam-zoom. Ellers regnes `hideOverlap` ikke på nytt, og navn skjult i verdensvisningen forblir skjult innzoomet.

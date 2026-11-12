@@ -4,6 +4,19 @@ Flyttet ut av NOTES.md 11.11.2026 så den holder seg kort (den lastes inn i hver
 
 ## Status per dato (til 5.11.2026)
 
+- 11.11.: **alle FN-land er med – 257 reisemål** (før 40). Slik ble det gjort, i rekkefølge:
+  - Datamodell (PR #38): én JSON-fil per reisemål i `reisemal/`, norsk og engelsk side om side, lest av `reisemal.py`.
+    `Reisemål.md` genereres og erstatter «Reise - utenfor Europa.md» som master.
+  - Søk og «Vis: Alle reisemål / Ønskeliste» (PR #39). Påls 40 er ønskelisten (`onskeliste: true`).
+  - Detaljkortet kan dras etter toppen, som infoboksen i byguidene (PR #40).
+  - Landlista vedtatt (`Landliste.md` / `landliste.tsv`): 195 land, 31 delt, mikrostater i naboen, Hongkong, Taiwan, Grønland
+    og Færøyene som ekstra, krigsland med varsel.
+  - Åtte regioner, `felles_vinduer.json`, `kortnavn` og navnerettelser (USA – Hawaii, Mexico – Mexico City, SILK → UZB) (PR #41).
+  - Skillen `/nytt-reisemal` med `klima.py`, som henter klimaboksen fra Wikipedia (PR #42–#44).
+  - Midtøsten (12) og Nord-Amerika (9) fylt inn her i økta; Pål godkjente nivået. De resterende 196 med en workflow (27 agenter).
+  - Felles vinduer 2026–28: ramadan (41 reisemål), påskeuka (58), ortodoks påske (3) og kinesisk nyttår (13), med justering per
+    reisemål og positiv tekst der høytiden er en opplevelse. Kildesvakheter (183 av 196) står i `Kildesvakheter.md`.
+  - Miniatyrene og forsideteksten på stam.pe er oppdatert, og delingskortet sier «alle land» (PR #45).
 - 5.11.: publiseringen er samlet og gjort robust. Én felles workflow for alle tre repoene (publiser.yml i paalstampe.github.io),
   som hopper over uendret innhold, og dokumentasjon og .claude/ publiseres ikke lenger (`.gitattributes`). Verifisert i alle tre:
   en commit som bare endrer dokumentasjon gir ingen ny publisering. Detaljer under Neste steg og i beslutningsloggen.
