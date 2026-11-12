@@ -11,6 +11,8 @@ Sist oppdatert: 12. november 2026.
 - 12.11.: ønskelisten følger samme navn og deling som resten: Vietnam delt i tre, Brasil i Rio og Nordøstkysten, USA-vestkysten i
   California og Nordvest; Lowcountry inn i Sørstatene og Rote inn i Nusa Tenggara. 259 reisemål, 44 på ønskelisten (detaljer i HANDOVER, Navneendringer).
   Scorene for de nye delene er Claudes vurdering.
+- 12.11.: `omorganiser.py` i skillen `/nytt-reisemal` (steg 7) deler, slår sammen og gir ny ID til reisemål og oppdaterer
+  felles vinduer, landlista, antallene i CLAUDE.md og alt generert (PR #48). `Landliste.md`-tabellene lages nå fra `landliste.tsv`.
 
 - 11.11.: **alle FN-land er med – 257 reisemål** (før 40). Slik ble det gjort, i rekkefølge:
   - Datamodell (PR #38): én JSON-fil per reisemål i `reisemal/`, norsk og engelsk side om side, lest av `reisemal.py`.
@@ -63,6 +65,7 @@ Sist oppdatert: 12. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-12: `landliste.tsv` er master for landlista; tabellene i `Landliste.md` lages fra den av `omorganiser.py`. Før måtte begge rettes for hånd ved hver deling.
 - 2026-11-12: Ønskelisten følger samme regel som resten: ett reisemål = én klimaprofil, mest generelle navn («X og Y», region med eksempler i parentes). Vietnam og Brasil hadde to–tre klimaprofiler i ett reisemål; Lowcountry og Rote var smalere enn nabodelene med samme beste reisetid. Ønskelisten har derfor 44 reisemål, ikke 40.
 - 2026-11-11: Kontekst spares ved oppstart: NOTES.md holdes under ca. 10 KB (/avslutt passer på det), eldre status og beslutninger ligger i ARKIV.md. Før lastet reiseplanlegging ca. 27 KB i hver økt.
 - 2026-11-11: `Read` er sperret for `index.html` (~700 KB, generert), `Reisekalender.xlsx` og `__pycache__/` i `.claude/settings.json` (PR #46).
