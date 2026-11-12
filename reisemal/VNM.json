@@ -2,7 +2,7 @@
   "id": "VNM",
   "region": "Asia",
   "land": "Vietnam",
-  "sted": "Reunification Express + Hue",
+  "sted": "",
   "status": "Ikke besøkt",
   "onskeliste": true,
   "kategori": "Kultur / by / tog",
@@ -10,7 +10,7 @@
   "varighet": 14,
   "koord": [16.46, 107.59],
   "kilde": "Hue, VIBST, via Wikipedia (periode ikke oppgitt). Hanoi (Láng, WMO 1991–2020) i begrunnelse",
-  "en": {"land": "Vietnam", "sted": "Reunification Express + Hue", "kategori": "Culture / city / train", "merknad": "The whole country along the route; Hue (central Vietnam) is the limiting factor for climate", "kilde": "Hue, VIBST, via Wikipedia (period not stated). Hanoi (Láng, WMO 1991–2020) in the notes"},
+  "en": {"land": "Vietnam", "kategori": "Culture / city / train", "merknad": "The whole country along the route; Hue (central Vietnam) is the limiting factor for climate", "kilde": "Hue, VIBST, via Wikipedia (period not stated). Hanoi (Láng, WMO 1991–2020) in the notes"},
   "maneder": [
     {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 23.5, "nedbor": 129, "no": "Hue kjølig og regnfull, Hanoi grått (20 °C). Sør tørt.", "en": "Hue cool and rainy, Hanoi grey (20 °C). South dry."},
     {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 24.5, "nedbor": 63, "no": "Bedring i sentrum. Tet i jan/feb – se Vinduer.", "en": "Improving in the centre. Tet in Jan/Feb – see events."},

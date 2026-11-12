@@ -2,7 +2,7 @@
   "id": "BWA",
   "region": "Afrika",
   "land": "Botswana",
-  "sted": "Okavango, Chobe",
+  "sted": "Okavango og Chobe",
   "status": "Ikke besøkt",
   "onskeliste": true,
   "kategori": "Safari",
@@ -10,7 +10,7 @@
   "varighet": 10,
   "koord": [-19.3, 22.9],
   "kilde": "Maun, DWD 1961–1990, via Wikipedia",
-  "en": {"land": "Botswana", "sted": "Okavango, Chobe", "kategori": "Safari", "merknad": "Possibly combined with Zambia/Zimbabwe (Victoria Falls)", "kilde": "Maun, DWD 1961–1990, via Wikipedia"},
+  "en": {"land": "Botswana", "sted": "Okavango and Chobe", "kategori": "Safari", "merknad": "Possibly combined with Zambia/Zimbabwe (Victoria Falls)", "kilde": "Maun, DWD 1961–1990, via Wikipedia"},
   "maneder": [
     {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.5, "nedbor": 104, "no": "Regntid, varmt og fuktig. Grønt og fugleliv, vilt spredt. Grønn-sesong-priser.", "en": "Rainy season, hot and humid. Green and birdlife, game dispersed. Green-season prices."},
     {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 31.3, "nedbor": 95, "no": "Regntid. Mange leire har rabatter.", "en": "Rainy season. Many camps offer discounts."},

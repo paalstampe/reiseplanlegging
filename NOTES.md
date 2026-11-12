@@ -6,7 +6,9 @@ Eldre status per dato og eldre beslutninger ligger i ARKIV.md (lastes ikke autom
 
 ## Status nå
 
-Sist oppdatert: 11. november 2026.
+Sist oppdatert: 12. november 2026.
+
+- 12.11.: åtte ønskelistenavn er skrevet om etter stilen til de nye reisemålene (liste i HANDOVER, Navneendringer).
 
 - 11.11.: **alle FN-land er med – 257 reisemål** (før 40). Slik ble det gjort, i rekkefølge:
   - Datamodell (PR #38): én JSON-fil per reisemål i `reisemal/`, norsk og engelsk side om side, lest av `reisemal.py`.

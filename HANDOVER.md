@@ -102,7 +102,10 @@ Se NOTES.md (Status nå og Åpne spørsmål).
 - USA-WC → «USA Nordvestkyst – San Francisco til Vancouver»; USA-HI → «Hawaii»; MEX-CDMX → «Mexico City» (11.11.2026: land og sted
   skilt: USA – Nordvestkysten, USA – Hawaii, Mexico – Mexico City); EGY → «Egypt – Kairo, Luxor»; SILK → «Sentral-Asia – Silkeveien»; SGP → «Singapore».
 - USA-CHS → «USA – Savannah-Charleston»: dekker Georgia/South Carolina-kysten generelt; klima = snitt av Charleston og Savannah/Hilton Head (NOAA 1991–2020), koordinat midt mellom byene.
-- Kartetiketter bruker nå tankestrek mellom land og sted (f.eks. «Brasil – Rio og nordover»).
+- Kartetiketter bruker nå tankestrek mellom land og sted (f.eks. «Brasil – Rio og kysten»).
+- 12.11.2026: ønskelistenavnene følger stilen til resten («X og Y», region med eksempler i parentes): USA-CHS → «Lowcountry (Charleston, Savannah)»,
+  USA-WC → «Vestkysten (San Francisco, Seattle)» (klima fortsatt Vancouver, som proxy for Seattle), VNM → hele landet (var «Reunification Express + Hue»),
+  BRA-NE → «Rio og kysten», og komma → «og» for CHN, EGY, NPL og BWA.
 - Brødsmuler øverst i sidepanelet («stam.pe / Reiseplanlegging», stam.pe lenker til landingssiden) erstatter kickeren «Reisekalender · 40 reisemål» – samme stil som i byguidene.
 - Sidepanelet på desktop (04.10.2026): hele panelet ruller (ett rullefelt, listen har ikke eget), tellerlinjen «N av 40 grønne …» ligger fast øverst. Alternativet med kompakte filtre (månedene på én rad osv.) ble prøvd på grenen `sidepanel-kompakt`, men ikke valgt.
 
