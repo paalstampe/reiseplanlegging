@@ -1,10 +1,11 @@
 #!/bin/bash
+# Originalen til denne filen ligger i claude-oppsett/repo-filer; endre den der og kjør synk-repoer.sh.
 # Tilgjengelighetssjekk med axe-core i lys og mørk modus, via Playwright (samme oppsett som skjermbilde.sh).
 # Erstatter axe i nettleserpanelet, som auto-modus kan avvise.
-# Bruk: .claude/axe.sh <url> [bredde] [høyde] [mnd=1-12] [kort=ID]
-#   kort = åpner detaljkortet for et reisemål (f.eks. kort=JPN-HOK), så også kortet sjekkes.
-#   f.eks. .claude/axe.sh http://localhost:8001/
-#          .claude/axe.sh http://localhost:8001/ 390 844 mnd=1 kort=JPN-HOK
+# Bruk: .claude/axe.sh <url> [bredde] [høyde] [js=<kode>]
+#   js = JavaScript som kjøres på siden før sjekken, f.eks. for å åpne et detaljkort eller en meny.
+#   f.eks. .claude/axe.sh http://localhost:8001/ 390 844
+#          .claude/axe.sh http://localhost:8001/ 1300 900 "js=state.mnd=0; oppdater(); visDetalj('JPN-HOK')"
 # Skriver bruddene per modus og avslutter med kode 1 hvis det finnes noen.
 # Krever Node og Playwright med Chromium (installasjon øverst i skjermbilde.sh).
 # axe-core hentes fra cdnjs; i skyen går det via proxyen, som skjermbilde.sh forklarer.
@@ -13,15 +14,11 @@ set -euo pipefail
 url="${1:?url mangler}"
 bredde="${2:-1300}"
 hoyde="${3:-900}"
-mnd=""
-kort=""
+js=""
 for valg in "${@:4}"; do
   case "$valg" in
-    mnd=*) mnd="${valg#mnd=}"
-      [[ "$mnd" =~ ^([1-9]|1[0-2])$ ]] || { echo "mnd= må være 1–12" >&2; exit 1; } ;;
-    kort=*) kort="${valg#kort=}"
-      [[ "$kort" =~ ^[A-Z0-9-]+$ ]] || { echo "kort= må være en ID som JPN-HOK" >&2; exit 1; } ;;
-    *) echo "Ukjent valg «$valg» (bruk mnd=1-12 og/eller kort=ID)" >&2; exit 1 ;;
+    js=*) js="${valg#js=}" ;;
+    *) echo "Ukjent valg «$valg» (bruk js=<kode>)" >&2; exit 1 ;;
   esac
 done
 
@@ -51,7 +48,7 @@ if [ -n "${HTTPS_PROXY:-}" ] && [ -f "$ca" ]; then
   done | sort -u | paste -sd, -)
 fi
 
-URL="$url" BREDDE="$bredde" HOYDE="$hoyde" MND="$mnd" KORT="$kort" PROXY="$proxy" SPKI="$spki" \
+URL="$url" BREDDE="$bredde" HOYDE="$hoyde" JS="$js" PROXY="$proxy" SPKI="$spki" \
 NODE_PATH="$(npm root -g)" node - <<'JS'
 const { chromium } = require('playwright');
 const AXE = 'https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js';
@@ -68,9 +65,7 @@ const AXE = 'https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js';
     const side = await nettleser.newPage({ viewport: { width: +e.BREDDE, height: +e.HOYDE }, colorScheme: modus });
     await side.goto(e.URL, { waitUntil: 'networkidle', timeout: 60000 });
     await side.waitForTimeout(1500);
-    if (e.MND) await side.evaluate(m => { state.mnd = m - 1; oppdater(); }, +e.MND);
-    if (e.KORT) await side.evaluate(id => visDetalj(id), e.KORT);
-    if (e.MND || e.KORT) await side.waitForTimeout(500);
+    if (e.JS) { await side.evaluate(kode => (0, eval)(kode), e.JS); await side.waitForTimeout(500); }
     await side.addScriptTag({ url: AXE });
     const brudd = await side.evaluate(async () => (await axe.run()).violations.map(v => ({
       id: v.id, inntrykk: v.impact, hjelp: v.help,
