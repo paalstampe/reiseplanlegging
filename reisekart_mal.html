@@ -689,12 +689,7 @@ function tegnKart() {
 function fokuser(id) {
   if (!kart) return;
   const [lat, lon] = DATA_KOORD[id];
-  const opt = kart.getOption();
-  const zoom = Math.max(opt.geo[0].zoom || 1, 2.2);
-  stoppAnimasjon();
-  kart.setOption({ geo: { center: [lon, lat], zoom } });
-  holdInnenfor();
-  oppdaterZoomKnapper();
+  settVisning(Math.max(naaZoom(), 2.2), [lon, lat]);
 }
 
 /* Offline: sw.js lagrer siden, bibliotekene og fontene (se kommentaren der). Det siden har lastet
@@ -792,10 +787,8 @@ function registrerVerden() {
 function holdInnenfor() {
   if (!kart) return;
   const H = kart.getHeight();
-  const g = kart.getOption().geo[0];
-  const c = g.center ? g.center.slice() : kart.convertFromPixel({ geoIndex: 0 }, [kart.getWidth() / 2, H / 2]);
-  const topp = kart.convertToPixel({ geoIndex: 0 }, [c[0], LAT_TOPP])[1];
-  const bunn = kart.convertToPixel({ geoIndex: 0 }, [c[0], LAT_BUNN])[1];
+  const c = naaSenter(kart.getOption().geo[0]);
+  const [topp, bunn] = kantPiksler();
   const dy = vertikalJustering(topp, bunn, H);
   const lon = ((c[0] + 180) % 360 + 360) % 360 - 180;
   const lat = c[1] + dy * (LAT_TOPP - LAT_BUNN) / (bunn - topp);
@@ -891,38 +884,53 @@ function initKart() {
     });
     tegnKart();
   });
-  zoomKnapper(el, skjulTip);
+  zoomKnapper(skjulTip);
 }
 
 const kartMidt = () => [kart.getWidth() / 2, kart.getHeight() / 2];   // i lerretets piksler
 const naaZoom = () => kart.getOption().geo[0].zoom || 1;
 const begrens = z => Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, z));
+const naaSenter = g => g.center || kart.convertFromPixel({ geoIndex: 0 }, kartMidt());
 const myk = t => 1 - (1 - t) ** 3;   // ease-out
-let oppdaterZoomKnapper = () => {};
+const kantPiksler = () => [LAT_TOPP, LAT_BUNN].map(lat => kart.convertToPixel({ geoIndex: 0 }, [0, lat])[1]);
 
-// Zoomer til `zoom` slik at stedet under px (lerretets piksler) blir liggende, og holder kartet innenfor.
-// Geo-kartet er lineært i lon/lat, så det holder å flytte senteret med forskjellen.
-function zoomRundt(px, zoom) {
-  const c = kart.getOption().geo[0].center || kart.convertFromPixel({ geoIndex: 0 }, kartMidt());
-  const foer = kart.convertFromPixel({ geoIndex: 0 }, px);
-  kart.setOption({ geo: { zoom: begrens(zoom), center: c } }, { silent: true });
-  const etter = kart.convertFromPixel({ geoIndex: 0 }, px);
-  kart.setOption({ geo: { center: [c[0] + foer[0] - etter[0], c[1] + foer[1] - etter[1]] } }, { silent: true });
+function oppdaterZoomKnapper(z = naaZoom()) {
+  const inn = document.getElementById("zoom-inn"), ut = document.getElementById("zoom-ut");
+  inn.disabled = z >= ZOOM_MAX - 1e-6; ut.disabled = z <= ZOOM_MIN + 1e-6;
+}
+// Hopper til en visning uten animasjon («Vis hele kartet», valgt reisemål).
+function settVisning(zoom, center) {
+  stoppAnimasjon();
+  kart.setOption({ geo: { zoom, center } });
   holdInnenfor();
-  oppdaterZoomKnapper();
+  oppdaterZoomKnapper(zoom);
+}
+
+// Zoomer til `zoom` slik at stedet under `fra` (lerretets piksler) havner under `til` (standard: blir liggende),
+// og holder kartet innenfor. Geo-kartet er lineært i lon/lat (senteret ligger midt i lerretet), så det nye senteret
+// regnes ut direkte: c' = p − (til − midt)·grader per piksel·z/z'. Returnerer zoomen kartet fikk (etter grensene).
+function zoomRundt(fra, zoom, til = fra) {
+  const z = begrens(zoom), g = kart.getOption().geo[0], z0 = g.zoom || 1;
+  const p = kart.convertFromPixel({ geoIndex: 0 }, fra);
+  const a = kart.convertFromPixel({ geoIndex: 0 }, [0, 0]), b = kart.convertFromPixel({ geoIndex: 0 }, [100, 100]);
+  const m = kartMidt(), f = z0 / z / 100;
+  kart.setOption({ geo: { zoom: z, center: [0, 1].map(i => p[i] - (til[i] - m[i]) * (b[i] - a[i]) * f) } }, { silent: true });
+  holdInnenfor();
+  oppdaterZoomKnapper(z);
+  return z;
 }
 
 // Én animasjon om gangen (zoom eller gli etter slipp). stopp() låser kartet der animasjonen er kommet.
 let animasjon = null;
 const stoppAnimasjon = () => { if (animasjon) animasjon.stopp(); };
-function animer(varighet, steg, slutt) {
+function animer(varighet, steg, slutt, maal) {   // maal: zoomen en zoomanimasjon er på vei til
   stoppAnimasjon();
   const t0 = performance.now();
   let raf = 0, ferdig = false;
-  const avslutt = () => { if (ferdig) return; ferdig = true; cancelAnimationFrame(raf); animasjon = null; slutt(); };
+  const avslutt = () => { if (ferdig) return; ferdig = true; cancelAnimationFrame(raf); animasjon = null; if (slutt) slutt(); };
   const ramme = naa => { const t = Math.min(1, (naa - t0) / varighet); steg(t); if (t < 1) raf = requestAnimationFrame(ramme); else avslutt(); };
   raf = requestAnimationFrame(ramme);
-  return (animasjon = { stopp: avslutt });
+  animasjon = { stopp: avslutt, maal };
 }
 
 // Flytter/skalerer det ferdige kartbildet med CSS-transform (touch): punktet `fra` havner på `til`, skalert k,
@@ -934,7 +942,6 @@ function flyttBilde(fra, til, k, topp, bunn) {
   ty += vertikalJustering(ty + k * topp, ty + k * bunn, lag.clientHeight);
   lag.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${k})`;
 }
-const kantPiksler = () => [LAT_TOPP, LAT_BUNN].map(lat => kart.convertToPixel({ geoIndex: 0 }, [0, lat])[1]);
 
 // Animert zoom rundt px, som i byguidene. PC tegner kartet hver ramme; touch skalerer bildet med CSS
 // (omtegning per ramme er for tregt på iPhone) og tegner én gang til slutt.
@@ -942,33 +949,27 @@ function animerZoom(px, zoom) {
   stoppAnimasjon();
   const z0 = naaZoom(), z1 = begrens(zoom);
   if (Math.abs(z1 - z0) < 1e-6) return;
-  if (REDUSERT.matches) return zoomRundt(px, z1);
+  // Ved utzoom på touch dekker det nedskalerte lerretet ikke hele høyden i 250 ms; feltene får kartflatens farge, som ved pinch.
+  if (REDUSERT.matches) { zoomRundt(px, z1); return; }
   const zoomVed = t => z0 * Math.pow(z1 / z0, myk(t));
   let z = z0;
   if (TOUCH) {
     const [topp, bunn] = kantPiksler();
     animer(ZOOM_TID, t => { z = zoomVed(t); flyttBilde(px, px, z / z0, topp, bunn); },
-      () => { zoomRundt(px, z); kart.getDom().style.transform = ""; });
+      () => { zoomRundt(px, z); kart.getDom().style.transform = ""; }, z1);
   } else {
-    animer(ZOOM_TID, t => { z = zoomVed(t); zoomRundt(px, z); }, () => {});
+    animer(ZOOM_TID, t => { z = zoomVed(t); zoomRundt(px, z); }, null, z1);
   }
-  animasjon.maalZoom = z1;
 }
 // Zoomnivået kartet er på vei til (midt i en animasjon) eller står på.
-const maalZoom = () => (animasjon && animasjon.maalZoom) || naaZoom();
+const maalZoom = () => (animasjon && animasjon.maal) || naaZoom();
 
 // +/− zoomer (faktor 2, som ett zoomnivå i byguidene) rundt midten av kartet; «Vis hele kartet» går tilbake til start.
-function zoomKnapper(el, skjulTip) {
+function zoomKnapper(skjulTip) {
   const startSenter = kart.convertFromPixel({ geoIndex: 0 }, kartMidt());
-  const inn = document.getElementById("zoom-inn"), ut = document.getElementById("zoom-ut");
-  oppdaterZoomKnapper = () => { const z = naaZoom(); inn.disabled = z >= ZOOM_MAX - 1e-6; ut.disabled = z <= ZOOM_MIN + 1e-6; };
-  inn.addEventListener("click", () => { skjulTip(); animerZoom(kartMidt(), maalZoom() * 2); });
-  ut.addEventListener("click", () => { skjulTip(); animerZoom(kartMidt(), maalZoom() / 2); });
-  document.getElementById("zoom-hjem").addEventListener("click", () => {
-    skjulTip(); stoppAnimasjon();
-    kart.setOption({ geo: { zoom: 1, center: startSenter } }); holdInnenfor(); oppdaterZoomKnapper();
-  });
-  kart.on("georoam", oppdaterZoomKnapper);
+  document.getElementById("zoom-inn").addEventListener("click", () => { skjulTip(); animerZoom(kartMidt(), maalZoom() * 2); });
+  document.getElementById("zoom-ut").addEventListener("click", () => { skjulTip(); animerZoom(kartMidt(), maalZoom() / 2); });
+  document.getElementById("zoom-hjem").addEventListener("click", () => { skjulTip(); settVisning(1, startSenter); });
   document.getElementById("kontroller").hidden = false;
   oppdaterZoomKnapper();
 }
@@ -982,8 +983,7 @@ function hjulZoom(el, skjulTip) {
     const z = naaZoom();
     const del = REDUSERT.matches || Math.abs(rest) < 0.002 ? rest : rest * 0.35;
     rest -= del;
-    zoomRundt(px, z * Math.exp(del));
-    if (naaZoom() === z) rest = 0;   // står mot grensen
+    if (zoomRundt(px, z * Math.exp(del)) === z) rest = 0;   // står mot grensen
     raf = rest ? requestAnimationFrame(tegn) : 0;
   };
   const zoom = (e, del) => {
@@ -1010,8 +1010,6 @@ function touchRoam(el) {
   lag.style.transformOrigin = "0 0";
   let start = null, siste = null, raf = 0, spor = [], forrigeTrykk = null;
   const pkt = t => { const r = el.getBoundingClientRect(); return [t.clientX - r.left - lag.offsetLeft, t.clientY - r.top]; };   // i lerretets koordinater
-  const tilGeo = px => kart.convertFromPixel({ geoIndex: 0 }, px);
-  const visning = () => { const g = kart.getOption().geo[0]; return { zoom: g.zoom || 1, center: g.center || tilGeo(kartMidt()) }; };
   const tilstand = e => {
     const a = pkt(e.touches[0]);
     if (e.touches.length < 2) return { mid: a, dist: 0, n: 1 };
@@ -1021,7 +1019,7 @@ function touchRoam(el) {
   const nyZoom = t => (t.n === 2 && start.n === 2 && start.dist > 0) ? begrens(start.zoom * t.dist / start.dist) : start.zoom;
   // fortsatt: fingrene var allerede i gang (1↔2 fingre), så det som følger er ikke et trykk.
   const begynn = (e, fortsatt) => {
-    start = { ...tilstand(e), ...visning(), flyttet: false, fortsatt }; start.midGeo = tilGeo(start.mid); siste = null; spor = [];
+    start = { ...tilstand(e), zoom: naaZoom(), flyttet: false, fortsatt }; siste = null; spor = [];
     [start.topp, start.bunn] = kantPiksler();
   };
   const tegnTransform = () => {
@@ -1031,11 +1029,7 @@ function touchRoam(el) {
   const fullfor = () => {   // tegn kartet én gang i ny tilstand og nullstill transformen
     if (raf) { cancelAnimationFrame(raf); raf = 0; }
     if (start && start.flyttet && siste) {
-      kart.setOption({ geo: { zoom: nyZoom(siste), center: start.center } }, { silent: true });
-      const naa = tilGeo(siste.mid), c = kart.getOption().geo[0].center || start.center;
-      kart.setOption({ geo: { center: [c[0] + start.midGeo[0] - naa[0], c[1] + start.midGeo[1] - naa[1]] } }, { silent: true });
-      holdInnenfor();
-      oppdaterZoomKnapper();
+      zoomRundt(start.mid, nyZoom(siste), siste.mid);   // kartet er ikke tegnet på nytt under gesten, så start.mid gjelder fortsatt
       sisteGestus = Date.now();
     }
     lag.style.transform = "";
@@ -1049,7 +1043,10 @@ function touchRoam(el) {
     let vx = (b.mid[0] - a.mid[0]) / dt, vy = (b.mid[1] - a.mid[1]) / dt;   // px per ms
     const fart = Math.hypot(vx, vy), MAKS = 2.5;
     if (fart < 0.15) return false;
-    if (fart > MAKS) { vx *= MAKS / fart; vy *= MAKS / fart; }
+    // Lerretet går én skjermbredde ut på hver side; glidet bremses så det aldri drar forbi kanten.
+    const rom = el.clientWidth - Math.abs(siste.mid[0] - start.mid[0]);
+    const skala = Math.min(MAKS / fart, 1, Math.max(0, rom) / (Math.abs(vx) * GLI_TID || 1));   // || 1: rett loddrett sveip
+    vx *= skala; vy *= skala;
     const fra = siste.mid, norm = 1 - Math.exp(-4);
     animer(GLI_TID * 4, t => {
       const f = GLI_TID * (1 - Math.exp(-4 * t)) / norm;
@@ -1071,7 +1068,7 @@ function touchRoam(el) {
     const t = tilstand(e);
     if (t.n !== start.n) { fullfor(); begynn(e, true); return; }   // 1↔2 fingre: lås inn og start på nytt
     if (!start.flyttet && Math.hypot(t.mid[0] - start.mid[0], t.mid[1] - start.mid[1]) < 6 && Math.abs(t.dist - start.dist) < 6) return;
-    start.flyttet = true; sisteGestus = Date.now();
+    start.flyttet = true; sisteGestus = Date.now(); forrigeTrykk = null;   // et drag bryter et dobbelttrykk
     e.preventDefault();
     siste = t; if (!raf) raf = requestAnimationFrame(tegnTransform);
     if (t.n === 1) { const naa = performance.now(); spor.push({ t: naa, mid: t.mid }); spor = spor.filter(s => s.t > naa - 150); }
@@ -1080,8 +1077,9 @@ function touchRoam(el) {
   const slutt = e => {
     if (!start) return;
     if (e.touches.length) { fullfor(); begynn(e, true); return; }
-    if (e.type === "touchend" && start.flyttet && start.n === 1 && gli()) return;
-    const varTrykk = e.type === "touchend" && !start.flyttet && !start.fortsatt && start.n === 1, p = start.mid;
+    const enFinger = e.type === "touchend" && start.n === 1;
+    if (enFinger && start.flyttet && gli()) return;
+    const varTrykk = enFinger && !start.flyttet && !start.fortsatt, p = start.mid;
     fullfor(); start = null;
     if (varTrykk) trykk(p);
   };
