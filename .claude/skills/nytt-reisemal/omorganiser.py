@@ -6,7 +6,7 @@ Skriv de nye reisemal/<ID>.json først (med reisemal.skriv), og kjør så fra re
 Flere endringer kan gis i samme kjøring. Skriptet
 - sletter reisemal/<gammel>.json når den gamle ID-en ikke er blant de nye,
 - bytter ID-en i «gjelder» i felles_vinduer.json (overstyringer følger med til hver ny ID),
-- erstatter raden i landliste.tsv med de nye (land og sted fra JSON-filene) og lager tabellene i Landliste.md på nytt,
+- erstatter raden i landliste.tsv med de nye (land og sted fra JSON-filene) og lager tabellene og tallene øverst i Landliste.md på nytt,
 - retter antall reisemål og ønskelistereisemål i CLAUDE.md,
 - bygger index.html, Reisemål.md og Reisekalender.xlsx, og viser hvor de gamle ID-ene ellers står (rett dem for hånd).
 """
@@ -69,8 +69,12 @@ def bytt_landliste(endringer):
     return ut
 
 
-def lag_landliste_md(rader):
+def lag_landliste_md(rader, onske):
     md = open(MD, encoding="utf-8").read()
+    land = [r["land"] for r in rader]
+    delt = len({l for l in land if land.count(l) > 1})
+    md = re.sub(r"Nå: \*\*\d+ reisemål\*\*, \d+ land er delt opp og \d+ er på ønskelisten",
+                f"Nå: **{len(rader)} reisemål**, {delt} land er delt opp og {onske} er på ønskelisten", md)
     regioner = list(dict.fromkeys(r["region"] for r in rader))
     tabeller = []
     for reg in regioner:
@@ -102,10 +106,11 @@ def main(argv):
         if gammel not in nye and os.path.exists(f"reisemal/{gammel}.json"):
             os.remove(f"reisemal/{gammel}.json")
     bytt_felles(endringer)
-    lag_landliste_md(bytt_landliste(endringer))
+    rader = bytt_landliste(endringer)
 
     alle = reisemal.last()
     antall, onske = len(alle), sum(1 for r in alle if r["onskeliste"])
+    lag_landliste_md(rader, onske)
     claude = open("CLAUDE.md", encoding="utf-8").read()
     claude = re.sub(r"\d+ reisemål som dekker", f"{antall} reisemål som dekker", claude)
     claude = re.sub(r"Påls egne \d+ er på ønskelisten", f"Påls egne {onske} er på ønskelisten", claude)

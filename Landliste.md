@@ -1,6 +1,8 @@
 # Landliste
 
-Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 land, som gir **257 reisemål** (40 finnes, 217 nye). 31 land er delt opp. Vedtatt 11.11.2026; grunnlaget for datafyllingen ligger i `landliste.tsv`.
+Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 land.
+Nå: **259 reisemål**, 32 land er delt opp og 44 er på ønskelisten (tallene skrives av `omorganiser.py`).
+Vedtatt 11.11.2026 med 257 reisemål (40 fantes, 217 nye) og 31 delte land; grunnlaget for datafyllingen ligger i `landliste.tsv`.
 
 ## Prinsipper
 
