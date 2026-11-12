@@ -56,6 +56,8 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
 - iPhone-spesifikt (liggende, notch/Dynamic Island, safe area, Safaris verktøylinje, rotasjon): bruk
   iOS-simulatoren (Xcode er installert på Macen) via simulatorverktøyet, f.eks. åpne URL i Safari og rotere.
   Playwright holder for vanlige layoutsjekker og er raskere; simulatoren er sluttsjekken for iPhone. Ikke i skyøkter.
+  En nyoppstartet simulator kan henge i Safari (openurl gir tidsavbrudd); da er Playwright med WebKit (`devices['iPhone 13']`)
+  reserven. Touch-hendelser lages der med `new Event('touchstart')` og `touches` lagt på, siden `new Touch()` ikke finnes.
 - Test samspill (hover, klikk, trykk, pinch) med Playwright, også på mobilbredde. zrender krever
   mousedown/mouseup før click.
 - UI-endringer: kjør axe-core i nettleserpanelet før fletting (last https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js
