@@ -8,6 +8,8 @@ Eldre status per dato og eldre beslutninger ligger i ARKIV.md (lastes ikke autom
 
 Sist oppdatert: 12. november 2026.
 
+- 12.11.: kartnavn som overlapper, flyttes til ledig side (høyre, venstre, over, under, hjørner) i stedet for å skjules (PR #55),
+  så f.eks. Ekvatorial-Guinea ved Kamerun vises på dyp zoom. Ikke sett på ekte iPhone ennå.
 - 12.11.: HANDOVER har lista «Felles med byguidene» over løsninger som skal være like i begge appene.
 - 12.11.: søkefeltet har eget ×-kryss som tømmer søket, likt byguidene (PR #53; nettleserens kryss mangler på iOS).
 - 12.11.: kartet zoomer og panorerer som byguidene (PR #51): pinch 1:1, glid etter sveip, dobbelttrykk zoomer inn, trinnløs
