@@ -65,6 +65,7 @@ Sist oppdatert: 13. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-13: Toppsesong (opplevelse 5, klima ≤ 3, samlet < 4,0) vises med grønn ring, merke og rand i årsstripen i stedet for å endre formelen eller klimascoren: grønt skal fortsatt bety samlet ≥ 4,0 overalt. Kravet klima ≤ 3 holder ute steder som bare trekkes ned av trengsel/pris (sommer i Europa).
 - 2026-11-12: Kartnavn plasseres av egen kode (`plasserEtikett`) i stedet for ECharts' `hideOverlap`: navn som kolliderer, flyttes til ledig side og skjules bare når ingen plass er ledig. Grå prikker kan dekkes, ellers ble verdensvisningen for tom.
 - 2026-11-12: Løsninger som finnes i både reisekartet og byguidene, skal være like; lista står i HANDOVER, «Felles med byguidene», med henvisning fra byguidene. Endres én, endres begge. Søkekrysset manglet her selv om byguidene hadde det.
 - 2026-11-12: CLAUDE.md kortet ned til 134 linjer: det som står i HANDOVER eller i lista over felles løsninger, er tatt ut; miniatyroppskriften viser til byguidenes CLAUDE.md.
