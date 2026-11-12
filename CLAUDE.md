@@ -70,44 +70,28 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
 - Fletting: Kan du selv verifisere at alt er i orden (skjermbilder mobil + desktop, ingen JS-feil),
   åpne PR og flett uten å spørre. Er det noe Pål bør se på (designvalg, smak, scorer, usikkerhet), push grenen,
   oppgi forhåndsvisningen og vent — flett når han sier ok.
-- Lokal økt på Påls Mac: skal Pål se på noe, start serveren selv om den ikke kjører
-  (python3 -m http.server 8001 --bind 127.0.0.1, i bakgrunnen) og åpne siden for ham med
-  open http://localhost:8001/ (generer index.html først). Stopp serveren når han er ferdig. I skyøkter: bruk forhåndsvisningen.
-- Desktop-appen: .claude/launch.json starter serveren på port 8001 i appens innebygde nettleser
-  (preview_start), der du kan se, klikke og lese konsollen selv. Portene er 8000 byguider, 8001 reiseplanlegging,
-  8002 stam.pe, så alle tre kan kjøre samtidig.
-- Hooks i .claude/settings.json: ved oppstart sjekker .claude/oppstart.sh om grenen ligger bak eller foran origin
-  (henter selv med pull --ff-only når det er trygt) og om felles filer avviker fra claude-oppsett — følg det den sier. oppstart.sh, valider.sh, sky-push.sh og /avslutt
-  er kopier: endre originalen i claude-oppsett og kjør synk-repoer.sh der.
-  .claude/valider.sh sjekker JSON/GeoJSON/YAML/Python (også dupliserte nøkler) etter hver Write/Edit, og etter Bash-kommandoer filene git ser som endret.
-  I skyøkter stopper .claude/sky-push.sh ikke før committede endringer er pushet.
-- Lokal eller sky velges når Pål starter økta. Kode- og designarbeid går raskest lokalt på Macen;
-  data og dokumentasjon går like bra i sky. Får du en kode- eller designoppgave i en skyøkt,
-  si fra tidlig at den egner seg bedre lokalt (fortsett hvis Pål vil).
-- GitHub sletter grenen automatisk ved fletting. Sjekk bare at den er borte (git ls-remote --heads origin);
-  slett den selv bare hvis den likevel ligger igjen.
+- Lokalt: generer index.html og start serveren (preview_start i desktop-appen via .claude/launch.json, ellers
+  python3 -m http.server 8001 --bind 127.0.0.1 i bakgrunnen og open http://localhost:8001/). Stopp den når Pål er ferdig.
+  Portene er 8000 byguider, 8001 reiseplanlegging, 8002 stam.pe. I skyøkter: bruk forhåndsvisningen.
+- Hooks (.claude/settings.json): oppstart.sh sjekker grenen mot origin og felles filer mot claude-oppsett — følg det den sier.
+  valider.sh sjekker JSON/YAML/Python etter endringer; sky-push.sh krever push i skyøkter. Hookene og /avslutt er kopier:
+  endre originalen i claude-oppsett og kjør synk-repoer.sh der.
+- Kode- og designoppgaver i en skyøkt: si fra tidlig at de egner seg bedre lokalt (fortsett hvis Pål vil).
+- GitHub sletter grenen ved fletting; slett den selv bare hvis den ligger igjen (git ls-remote --heads origin).
 - Én endring per gren. Små, selvstendige commits.
 
 ## Teknikk (kort — detaljer i HANDOVER.md)
 - Ingen rammeverk, ingen npm. Eneste byggesteg er Python-skriptene over (standardbibliotek + openpyxl).
 - Kart: ECharts 5.5.1 + echarts@4.9.0 world.js fra jsDelivr (cdnjs ga 404), lastes dynamisk med AMD skjult.
 - Malen er et komplett HTML-dokument med doctype og viewport-meta — uten viewport blir alt bitte lite på mobil.
-- Bevegelse skal føles som MapLibre i byguidene. Touch (hover: none): tooltip av, trykk åpner detaljkortet, egen pinch/pan
-  (`touchRoam`) som følger fingrene 1:1, glir videre etter sveip (`GLI_TID`) og zoomer inn ved dobbelttrykk. Under gesten
-  flyttes/skaleres bildet med CSS-transform, og kartet tegnes på nytt ved slipp. PC: trinnløs hjul-/styreflatezoom rundt pekeren
-  (`hjulZoom`), ECharts tar bare panorering. Knappene zoomer animert (`animerZoom`, `ZOOM_TID`).
-  `animation:false`. iOS trenger `cursor:pointer` på body for at trykk gir klikk.
-- PC: tooltip etter `HOVER_FORSINKELSE` (400 ms). Treff = nærmeste prikk innen 12 px (PC) / 24 px (touch).
-- Zoomknapper i samme stil som byguidenes MapLibre-kontroller (`zoomKnapper()`).
+- Bevegelse skal føles som MapLibre i byguidene: egen pinch/pan på touch (`touchRoam`, CSS-transform under gesten, omtegning
+  ved slipp), trinnløs hjulzoom på PC (`hjulZoom`), animerte knapper (`animerZoom`). Detaljer i HANDOVER.
+  iOS trenger `cursor:pointer` på body for at trykk gir klikk. Treff = nærmeste prikk innen 12 px (PC) / 24 px (touch).
 - Kartet går rundt jorda øst–vest (tre kopier, `KOPIER`) og stopper nord–sør (`holdInnenfor()`).
   Ikke jordklode (begrunnelse i beslutningsloggen). På touch tegnes kartet tre skjermbredder bredt.
-- Mobil: stående har «Liste ↓»/«Kart ↑» (`#til-lista`), liggende har panelet ved siden av kartet (`LIGGENDE`),
-  begge som i byguidene. Mobil er under 700 px; 700–1023 px er nettbrett med panelet ved siden av kartet.
-  Test layoutendringer i stående og liggende.
-- Delingskort (`deling.png`, luftpost) og hjemskjermikon (frimerke med «r») lages med `.claude/delingsbilder.sh`;
-  `delingsbilder.html` er en identisk kopi fra byguider. og:-taggene står i malen.
-- Ikoner og delingsbilder som byttes, får nytt filnavn (iOS husker gamle bilder etter adresse). Se HANDOVER.
-- Brødsmuler øverst i sidepanelet: «stam.pe / Reiseplanlegging», stam.pe lenker til landingssiden.
+- Mobil er under 700 px; 700–1023 px er nettbrett med panelet ved siden av kartet. Test layoutendringer i stående og liggende.
+- Delingskort og hjemskjermikon lages med `.claude/delingsbilder.sh` (kopi fra byguider). Bilder som byttes, får nytt filnavn
+  (iOS husker gamle bilder etter adresse).
 - Mobil er like viktig som desktop. Hover-effekter bare under (hover: hover) and (pointer: fine).
   Respekter prefers-reduced-motion.
 
@@ -130,16 +114,9 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
 - Mørk modus følger enheten: @media i reisekart_mal.html (papir #1B1814, tekst #ECE5D8, dempet #A6987F,
   kobber #C99158). Nye farger skal være CSS-variabler i begge utgaver.
 
-## Miniatyrer (gjelder alle tre repoene)
-Småbildene finnes flere steder, alle i en lys og en mørk utgave (`-mork.webp`, vises i mørk modus):
-- stam.pe-forsiden og 404-siden (repo `paalstampe.github.io`): `bilder/byguider(-mork).webp` (tatt av Nice-guiden,
-  `/byguider/nice/`) og `bilder/reiseplanlegging(-mork).webp`.
-- Byguide-forsiden (repo `byguider`): `bilder/<by>(-mork).webp` for hver by, laget med `.claude/miniatyrer.sh`
-  (lager begge utgavene).
-Når et småbilde oppdateres — en app eller by har endret utseende, eller en ny by eller app kommer til —
-oppdater alle bildene som viser den, i alle repoene og i begge utgavene, og sjekk forsidene i lys og mørk modus.
-Oppskrift: viewport 1300×900, deviceScaleFactor 2, beskjær 1200×900 fra venstre, skaler til 360×270 webp,
-Playwright med `colorScheme: 'light'` og `'dark'`. Ta bildene fra stam.pe etter at endringen er publisert.
+## Miniatyrer
+Småbildene av reisekartet på stam.pe (lys og mørk) oppdateres når kartet endrer utseende merkbart.
+Oppskrift og alle stedene de finnes: byguidenes CLAUDE.md, «Miniatyrer (gjelder alle tre repoene)».
 
 ## Data
 - Nye reisemål: følg skillen `/nytt-reisemal` (`.claude/skills/nytt-reisemal/`). Ny fil `reisemal/<ID>.json` (ID = ISO3-landkode, med suffiks for deler av land: `IND-GOA`).
