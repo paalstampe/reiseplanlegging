@@ -81,6 +81,29 @@ Standard er norsk. Lenken «stam.pe» i brødsmulene går til `/?lang=en` på en
 ## Mørk modus
 Følger enhetens innstilling. `@media (prefers-color-scheme: dark)` i `reisekart_mal.html` bytter CSS-variablene til samme mørke palett som stam.pe og byguidene. Kartet (ECharts) leser fargene fra variablene med `css("--…")` når det tegnes, og på nytt når enheten bytter modus (lytter på `prefers-color-scheme` i `initKart()`). Nye farger skal derfor alltid være variabler, ikke faste verdier.
 
+## Felles med byguidene (fra 12.11.2026)
+Reisekartet og byguidene (`~/Developer/byguider`) skal oppføre seg likt der de har samme funksjon. Endres en av disse i det ene
+repoet, endre den i det andre også (eller skriv i NOTES.md hvorfor ikke). Koden er ikke delt; løsningene er skrevet for hver app.
+
+| Løsning | Reiseplanlegging | Byguider |
+|---|---|---|
+| Kartbevegelse: pinch 1:1, glid etter sveip, dobbelttrykk zoomer inn, trinnløs hjulzoom, animerte +/− | `touchRoam`, `hjulZoom`, `animerZoom` (ECharts) | MapLibre gjør det selv |
+| Zoomknapper øverst til venstre (+, −, vis hele) | `zoomKnapper()` | MapLibres kontroller |
+| Detaljkort/infoboks som kan dras unna; lukkes med ×, Escape og trykk på tomt kart | `settFlytt`, `holdKortInne` | `flyttbarPopup` |
+| «Liste ↓» / «Kart ↑» på stående mobil | `#til-lista` | `#til-lista` |
+| Liggende mobil: panelet til venstre, kortet til høyre i kartet | `LIGGENDE` | samme |
+| Søkefelt med eget × (`.sok-tom`) som tømmer og beholder fokus | `#sok-tom` | `#sok-tom` |
+| Språk NO / EN i brødsmulene, nøkkel `byguider-sprak`, `?lang=en` | `TEKST` | `TEKST` i `app.js` |
+| Brødsmuler øverst i panelet | ja | ja |
+| Mørk modus med samme palett som stam.pe | CSS-variabler | CSS-variabler |
+| Offline: `sw.js` med meldingene `lagre`/`lagret`, «Tilgjengelig offline · dato», «Lagre alt» på stam.pe | `sw.js` | `sw.js` |
+| Hjemskjermikon og delingsbilde fra `.claude/delingsbilder.html` | identisk kopi | identisk kopi |
+| `noindex` | malen | sidene |
+| Publisering og forhåndsvisning av grener | `publiser.yml` i paalstampe.github.io | samme |
+
+Bevisst ulikt: ønskelisten vises som standard her, men er skjult i byguidenes vanlige visning; detaljkortet dras etter toppen
+også med mus her (i byguidene fra hele boksen).
+
 ## Ikke søkbar
 `reisekart_mal.html` har `<meta name="robots" content="noindex, nofollow, noarchive">`, så den følger med inn i `index.html`. KI-innsamlere stenges ute av `robots.txt` i `paalstampe.github.io`, som gjelder hele stam.pe.
 
