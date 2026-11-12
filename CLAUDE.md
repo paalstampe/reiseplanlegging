@@ -60,6 +60,8 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
   reserven. Touch-hendelser lages der med `new Event('touchstart')` og `touches` lagt på, siden `new Touch()` ikke finnes.
 - Test samspill (hover, klikk, trykk, pinch) med Playwright, også på mobilbredde. zrender krever
   mousedown/mouseup før click.
+  Endres kartbevegelsen (touchRoam, hjulZoom, animerZoom, zoomRundt), kjør `.claude/bevegelsestest.sh [url]`: hjul, knapper,
+  pinch, glid og dobbelttrykk i Chromium og WebKit, med OK/FEIL per sjekk.
 - UI-endringer: kjør axe-core i nettleserpanelet før fletting (last https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js
   med javascript_tool, så `axe.run()`), i lys og mørk modus. Rett brudd; kontrast som krever nye farger tas med Pål.
 - Før fletting av kodeendringer: kjør /code-review (standardnivå) og /simplify på grenen selv, uten at Pål ber om det.
