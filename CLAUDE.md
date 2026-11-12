@@ -87,8 +87,10 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
 - Ingen rammeverk, ingen npm. Eneste byggesteg er Python-skriptene over (standardbibliotek + openpyxl).
 - Kart: ECharts 5.5.1 + echarts@4.9.0 world.js fra jsDelivr (cdnjs ga 404), lastes dynamisk med AMD skjult.
 - Malen er et komplett HTML-dokument med doctype og viewport-meta — uten viewport blir alt bitte lite på mobil.
-- Touch (hover: none): tooltip av, trykk åpner detaljkortet, egen dempet pinch/pan (`touchRoam`,
-  `PINCH_DEMPING`) som bare flytter/skalerer med CSS-transform under gesten og tegner på nytt ved slipp.
+- Bevegelse skal føles som MapLibre i byguidene. Touch (hover: none): tooltip av, trykk åpner detaljkortet, egen pinch/pan
+  (`touchRoam`) som følger fingrene 1:1, glir videre etter sveip (`GLI_TID`) og zoomer inn ved dobbelttrykk. Under gesten
+  flyttes/skaleres bildet med CSS-transform, og kartet tegnes på nytt ved slipp. PC: trinnløs hjul-/styreflatezoom rundt pekeren
+  (`hjulZoom`), ECharts tar bare panorering. Knappene zoomer animert (`animerZoom`, `ZOOM_TID`).
   `animation:false`. iOS trenger `cursor:pointer` på body for at trykk gir klikk.
 - PC: tooltip etter `HOVER_FORSINKELSE` (400 ms). Treff = nærmeste prikk innen 12 px (PC) / 24 px (touch).
 - Zoomknapper i samme stil som byguidenes MapLibre-kontroller (`zoomKnapper()`).
