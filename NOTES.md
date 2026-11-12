@@ -73,6 +73,7 @@ Sist oppdatert: 12. november 2026.
 ## Beslutningslogg
 
 - 2026-11-12: Løsninger som finnes i både reisekartet og byguidene, skal være like; lista står i HANDOVER, «Felles med byguidene», med henvisning fra byguidene. Endres én, endres begge. Søkekrysset manglet her selv om byguidene hadde det.
+- 2026-11-12: CLAUDE.md kortet ned til 134 linjer: det som står i HANDOVER eller i lista over felles løsninger, er tatt ut; miniatyroppskriften viser til byguidenes CLAUDE.md.
 - 2026-11-12: All zoom skal gå gjennom `setOption` (`zoomRundt`/`settVisning`), ikke ECharts' egen roam-zoom. Ellers regnes `hideOverlap` ikke på nytt, og navn skjult i verdensvisningen forblir skjult innzoomet.
 - 2026-11-12: Kartets bevegelse skal føles som MapLibre i byguidene: pinch følger fingrene 1:1 (dempingen fra PR #21 er fjernet), glid etter sveip, dobbelttrykk zoomer inn, og ECharts' egen hjulzoom er byttet ut med trinnløs zoom. Pål syntes zoomen gikk i for store steg og føltes dårlig på mobil.
 - 2026-11-12: `landliste.tsv` er master for landlista; tabellene i `Landliste.md` lages fra den av `omorganiser.py`. Før måtte begge rettes for hånd ved hver deling.
