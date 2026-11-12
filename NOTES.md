@@ -31,6 +31,7 @@ Sist oppdatert: 12. november 2026.
 
 ## Neste steg
 
+- Se over scorene for de ni nye eller endrede ønskelistereisemålene (VNM-N/C/S, BRA-RIO, BRA-NE, USA-CA, USA-NW, USA-SOR, IDN-KOM).
 - Stikkprøver av scorene for de 217 nye: Pål tar dem når han bruker kartet og melder tilbake. Opplevelse kan være satt høyt
   for land få reiser til.
 - Gå gjennom `Kildesvakheter.md` etter hvert (proxy-stasjoner, eldre serier, datoer merket «sjekk dato»).
@@ -62,6 +63,7 @@ Sist oppdatert: 12. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-12: Ønskelisten følger samme regel som resten: ett reisemål = én klimaprofil, mest generelle navn («X og Y», region med eksempler i parentes). Vietnam og Brasil hadde to–tre klimaprofiler i ett reisemål; Lowcountry og Rote var smalere enn nabodelene med samme beste reisetid. Ønskelisten har derfor 44 reisemål, ikke 40.
 - 2026-11-11: Kontekst spares ved oppstart: NOTES.md holdes under ca. 10 KB (/avslutt passer på det), eldre status og beslutninger ligger i ARKIV.md. Før lastet reiseplanlegging ca. 27 KB i hver økt.
 - 2026-11-11: `Read` er sperret for `index.html` (~700 KB, generert), `Reisekalender.xlsx` og `__pycache__/` i `.claude/settings.json` (PR #46).
 - 2026-11-11: Alle 195 FN-land er med (Europa og Norge også). Mikrostatene nevnes i naboen, ikke egne reisemål. Hongkong, Taiwan,
