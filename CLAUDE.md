@@ -137,6 +137,7 @@ Playwright med `colorScheme: 'light'` og `'dark'`. Ta bildene fra stam.pe etter 
 ## Data
 - Nye reisemål: følg skillen `/nytt-reisemal` (`.claude/skills/nytt-reisemal/`). Ny fil `reisemal/<ID>.json` (ID = ISO3-landkode, med suffiks for deler av land: `IND-GOA`).
   Hvilke reisemål som skal finnes, står i `landliste.tsv` (vedtatt 11.11.2026).
+  Deling, sammenslåing og ny ID: `omorganiser.py` i samme skill (steg 7). `Landliste.md`-tabellene lages fra `landliste.tsv`.
   Klimanormaler fra én representativ stasjon (helst WMO/nasjonal met-tjeneste, 1991–2020); oppgi kilde og periode.
   Si fra hvis stasjonen er en proxy eller serien er gammel.
 - Bevegelige datoer (Tet/kinesisk nyttår, påske, ramadan, tsechu, festivaler) legges inn per år. Gjelder de mange reisemål,
