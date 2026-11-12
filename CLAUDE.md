@@ -65,8 +65,8 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
   mousedown/mouseup før click.
   Endres kartbevegelsen (touchRoam, hjulZoom, animerZoom, zoomRundt), kjør `.claude/bevegelsestest.sh [url]`: hjul, knapper,
   pinch, glid og dobbelttrykk i Chromium og WebKit, med OK/FEIL per sjekk.
-- UI-endringer: kjør `.claude/axe.sh <url> [bredde høyde] [mnd=1–12] [kort=ID]` før fletting (axe-core via Playwright,
-  lys og mørk modus; `kort=` åpner detaljkortet). Rett brudd; kontrast som krever nye farger tas med Pål.
+- UI-endringer: kjør `.claude/axe.sh <url> [bredde høyde] [js=<kode>]` før fletting (axe-core via Playwright, lys og mørk modus).
+  Detaljkortet sjekkes med f.eks. `"js=state.mnd=0; oppdater(); visDetalj('JPN-HOK')"`. Rett brudd; kontrast som krever nye farger tas med Pål.
 - Før fletting av kodeendringer: kjør /code-review (standardnivå) og /simplify på grenen selv, uten at Pål ber om det.
   Rett funnene som holder, nevn kort i PR-beskrivelsen hva som ble funnet og rettet. Gjelder ikke rene data- og tekstendringer.
 - Fletting: Kan du selv verifisere at alt er i orden (skjermbilder mobil + desktop, ingen JS-feil),
