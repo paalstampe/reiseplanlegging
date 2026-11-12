@@ -107,6 +107,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .tegnforklaring { display:flex; flex-wrap:wrap; gap:14px; font-size:12px; color:var(--dempet); }
 .tegnforklaring span { display:inline-flex; align-items:center; gap:6px; }
 .prikk { width:9px; height:9px; border-radius:50%; flex:0 0 9px; display:inline-block; }
+.prikk.ring { box-shadow:0 0 0 2px var(--god); }
 
 .teller-rad { margin:0 32px; padding:12px 0 10px; border-top:1px solid var(--kant-lys); display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
 .teller { font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--dempet); }
@@ -165,6 +166,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .strip-celle.god { background:var(--god); color:#12301d; }
 .strip-celle.beste { background:var(--beste); color:#fff; }
 .strip-celle.valgt { border-color:var(--tekst); }
+.strip-celle.topp { box-shadow:inset 0 0 0 2px var(--god); }
 .strip-akse { display:grid; grid-template-columns:repeat(12, 1fr); gap:2px; font-size:9px; color:var(--dempet); text-align:center; margin-top:2px; text-transform:uppercase; letter-spacing:.04em; }
 button.strip-celle { padding:0; font-family:inherit; cursor:pointer; }
 
@@ -272,7 +274,7 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
         <span class="sprakvalg" role="group" data-t-aria="sprak"><button type="button" data-sprak="no" lang="no">NO</button><span class="smule-skille">/</span><button type="button" data-sprak="en" lang="en">EN</button></span>
       </nav>
       <h1 class="tittel" id="tittel">Hvor er det best i oktober?</h1>
-      <p class="ingress" data-t="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer.</p>
+      <p class="ingress" data-t="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Grønn ring: toppsesong for opplevelsen (5), men været trekker ned.</p>
       <p class="offline-status" id="offline-status" hidden></p>
     </div>
 
@@ -293,6 +295,7 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
         <span><i class="prikk" style="background:var(--beste)"></i><span data-t="best">≥ 4,4 best</span></span>
         <span><i class="prikk" style="background:var(--god)"></i><span data-t="bra">≥ 4,0 bra</span></span>
         <span><i class="prikk" style="background:var(--ellers)"></i><span data-t="under">under 4,0</span></span>
+        <span><i class="prikk ring" style="background:var(--ellers)"></i><span data-t="topp">toppsesong, men under 4,0</span></span>
       </div>
     </div>
 
@@ -342,9 +345,9 @@ const TEKST = {
   no: {
     tittel: "Reisekart", app: "Reiseplanlegging", duErHer: "Du er her", sprak: "Språk",
     hvor: m => `Hvor er det best i ${m}?`,
-    ingress: "Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer.",
+    ingress: "Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Grønn ring: toppsesong for opplevelsen (5), men været trekker ned.",
     maned: "Måned", arEtikett: "År (for høytider og festivaler)", ar: "År", region: "Region",
-    best: "≥ 4,4 best", bra: "≥ 4,0 bra", under: "under 4,0",
+    best: "≥ 4,4 best", bra: "≥ 4,0 bra", under: "under 4,0", topp: "toppsesong, men under 4,0",
     fot: "Score = 0,4·klima + 0,4·opplevelse + 0,2·trengsel/pris, snitt av ukene i måneden inkl. høytider og festivaler. Oppdatert",
     tilLista: "Liste ↓", tilKartet: "Kart ↑",
     kart: "Kart", zoomInn: "Zoom inn", zoomUt: "Zoom ut", visHele: "Vis hele kartet",
@@ -358,7 +361,7 @@ const TEKST = {
     visAlle: "Vis alle", bareGronne: "Vis bare grønne",
     teller: (g, n, m) => `${g} av ${n} grønne i ${m}`,
     tomt: m => `Ingen reisemål over 4,0 i ${m} for dette utvalget.`,
-    hendelse: "Hendelse", hoytid: "Høytid", reiserad: "Sjekk reiseråd", score: "score",
+    hendelse: "Hendelse", hoytid: "Høytid", toppsesong: "Toppsesong", reiserad: "Sjekk reiseråd", score: "score",
     bestM: "Best", braM: "Bra", ingenM: "Ingen måneder over 4,0", klikk: "klikk for detaljer",
     klima: "Klima", opplevelse: "Opplevelse", trengsel: "Trengsel/pris", tmaks: "T maks", nedbor: "nedbør", nedborStor: "Nedbør",
     manedscore: "Månedsscore", samlet: "samlet", aaret: a => `Året ${a} – klikk en måned`, uker: "Uker", uke: "u", ukeLang: "uke",
@@ -370,9 +373,9 @@ const TEKST = {
   en: {
     tittel: "Travel map", app: "Travel planning", duErHer: "You are here", sprak: "Language",
     hvor: m => `Where to go in ${m}?`,
-    ingress: "Pick a month. Green means an overall score of 4.0 or more, dark green 4.4 or more.",
+    ingress: "Pick a month. Green means an overall score of 4.0 or more, dark green 4.4 or more. Green ring: peak season for the experience (5), but the weather pulls it down.",
     maned: "Month", arEtikett: "Year (for holidays and festivals)", ar: "Year", region: "Region",
-    best: "≥ 4.4 best", bra: "≥ 4.0 good", under: "below 4.0",
+    best: "≥ 4.4 best", bra: "≥ 4.0 good", under: "below 4.0", topp: "peak season, but below 4.0",
     fot: "Score = 0.4·climate + 0.4·experience + 0.2·crowds/price, average of the weeks in the month incl. holidays and festivals. Updated",
     tilLista: "List ↓", tilKartet: "Map ↑",
     kart: "Map", zoomInn: "Zoom in", zoomUt: "Zoom out", visHele: "Show the whole map",
@@ -386,7 +389,7 @@ const TEKST = {
     visAlle: "Show all", bareGronne: "Show only green",
     teller: (g, n, m) => `${g} of ${n} green in ${m}`,
     tomt: m => `No destinations above 4.0 in ${m} for this selection.`,
-    hendelse: "Event", hoytid: "Holiday", reiserad: "Check travel advice", score: "score",
+    hendelse: "Event", hoytid: "Holiday", toppsesong: "Peak season", reiserad: "Check travel advice", score: "score",
     bestM: "Best", braM: "Good", ingenM: "No months above 4.0", klikk: "click for details",
     klima: "Climate", opplevelse: "Experience", trengsel: "Crowds/price", tmaks: "Max temp", nedbor: "rain", nedborStor: "Rain",
     manedscore: "Month score", samlet: "overall", aaret: a => `${a} – click a month`, uker: "Weeks", uke: "w", ukeLang: "week",
@@ -432,6 +435,10 @@ const GOD = 4.0, BESTE = 4.4, EPS = 1e-3;
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const fmt = x => x == null ? "–" : desimal(x.toFixed(1));
 const klasse = s => s == null ? "" : s >= BESTE - EPS ? "beste" : s >= GOD - EPS ? "god" : "";
+// Toppsesong: opplevelsen er på topp (5), men været (klima ≤ 3) holder samlet under 4,0 (f.eks. ski på Hokkaido i januar).
+// Vises som grønn ring rundt grå prikk og merket «Toppsesong»; endrer ikke scoren.
+const erToppsesong = (d, s, mnd = state.mnd) => { const [k, o] = d.m[mnd]; return s != null && s < GOD - EPS && o === 5 && k <= 3; };
+const toppMerke = (d, r) => erToppsesong(d, r.snitt) ? ` <span class="merke">${t("toppsesong")}</span>` : "";
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 const [WK, WO, WT] = DATA.weights, CAP = DATA.cap;
@@ -524,7 +531,7 @@ function rader() {
 function stripHtml(d, knapp) {
   const p = aarsprofil(d, state.ar);
   const celler = p.map((s, i) => {
-    const cls = `strip-celle ${klasse(s)} ${i === state.mnd ? "valgt" : ""}`;
+    const cls = `strip-celle ${klasse(s)} ${erToppsesong(d, s, i) ? "topp" : ""} ${i === state.mnd ? "valgt" : ""}`;
     return knapp
       ? `<button type="button" class="${cls}" data-mnd="${i}" title="${t("mndLang")[i]}: ${fmt(s)}">${fmt(s)}</button>`
       : `<div class="${cls}">${fmt(s)}</div>`;
@@ -544,7 +551,7 @@ function tooltipHtml(d) {
   const hend = r.hend.map(w => `${w[4] > 0 ? "+" : "−"}${desimal(String(Math.abs(w[4])))} ${esc(vinduTekst(w))}`).join("<br>");
   return `<div class="tt">
     <p class="tt-navn">${esc(navn(d))}</p>
-    <p class="tt-meta">${esc(tekst(d, "kategori") || kortRegion(d.region))} · ${t("mndLang")[state.mnd]} ${state.ar}</p>
+    <p class="tt-meta">${esc(tekst(d, "kategori") || kortRegion(d.region))} · ${t("mndLang")[state.mnd]} ${state.ar}${toppMerke(d, r)}</p>
     <div class="tt-rad"><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span>
       <span class="tt-deler">${t("klima")} <b>${k}</b> · ${t("opplevelse")} <b>${o}</b> · ${t("trengsel")} <b>${tp}</b><br>${T == null ? "" : `${t("tmaks")} <b>${desimal(String(T))} °C</b>`}${N == null ? "" : ` · ${t("nedbor")} <b>${Math.round(N)} mm</b>`}</span></div>
     <p class="tt-notat">${esc(txt)}</p>
@@ -566,7 +573,7 @@ function detaljHtml(d) {
     <p class="rute-kicker">${esc(kortRegion(d.region))}${kategori ? " · " + esc(kategori) : ""}</p>
     <h2 class="rute-navn">${esc(navn(d))}</h2>
     <div class="seksjon"><p class="seksjon-tittel">${t("aaret")(state.ar)}</p>${stripHtml(d, true)}</div>
-    <div class="seksjon"><p class="seksjon-tittel">${t("mndLang")[state.mnd]} · ${t("samlet")} ${fmt(r.snitt)}</p>
+    <div class="seksjon"><p class="seksjon-tittel">${t("mndLang")[state.mnd]} · ${t("samlet")} ${fmt(r.snitt)}${toppMerke(d, r)}</p>
       <div class="tall-rad">
         <div class="tall">${t("klima")}<b>${k}</b></div><div class="tall">${t("opplevelse")}<b>${o}</b></div><div class="tall">${t("trengsel")}<b>${tp}</b></div>
         <div class="tall">${t("tmaks")}<b>${T == null ? "–" : desimal(String(T)) + "°"}</b></div><div class="tall">${t("nedborStor")}<b>${N == null ? "–" : Math.round(N) + " mm"}</b></div><div class="tall">${t("manedscore")}<b>${fmt(r.base)}</b></div>
@@ -661,7 +668,7 @@ function tegnListe() {
   l.innerHTML = vis.map(({ d, r }) => `
     <div class="oppslag ${state.valgt === d.id ? "er-valgt" : ""}" data-id="${d.id}" tabindex="0" role="button" aria-label="${esc(navn(d))}, ${t("score")} ${fmt(r.snitt)}">
       <div class="oppslag-topp"><p class="oppslag-navn">${esc(navn(d))}</p><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span></div>
-      <p class="oppslag-meta"><span>${esc(kortRegion(d.region))}</span>${r.hend.length ? `<span class="merke">${r.hend.some(w => w[4] > 0) ? t("hendelse") : t("hoytid")}</span>` : ""}${erVarsel(d) ? `<span class="merke varsel">${t("reiserad")}</span>` : ""}</p>
+      <p class="oppslag-meta"><span>${esc(kortRegion(d.region))}</span>${r.hend.length ? `<span class="merke">${r.hend.some(w => w[4] > 0) ? t("hendelse") : t("hoytid")}</span>` : ""}${toppMerke(d, r).trim()}${erVarsel(d) ? `<span class="merke varsel">${t("reiserad")}</span>` : ""}</p>
       <p class="oppslag-notat">${esc(mndTekst(d, state.mnd))}</p>
     </div>`).join("");
   l.querySelectorAll(".oppslag").forEach(el => {
@@ -679,15 +686,15 @@ function punktData() {
   // Rekkefølgen er prioriteten i etikettplasseringen: valgt først, så etter score.
   const rr = rader().slice().sort((a, b) => (b.d.id === state.valgt) - (a.d.id === state.valgt) || (b.r.snitt ?? 0) - (a.r.snitt ?? 0));
   return punkter = rr.flatMap(({ d, r }) => {
-    const c = klasse(r.snitt);
+    const c = klasse(r.snitt), topp = erToppsesong(d, r.snitt);
     const farge = c === "beste" ? css("--beste") : c === "god" ? css("--god") : css("--ellers");
     const valgt = state.valgt === d.id;
     return KOPIER.map(forskyv => ({
       name: d.id, value: [DATA_KOORD[d.id][1] + forskyv, DATA_KOORD[d.id][0], r.snitt],
-      symbolSize: (c ? 15 : 10) + (valgt ? 6 : 0),
-      itemStyle: { color: farge, borderColor: valgt ? css("--tekst") : css("--kort"), borderWidth: valgt ? 2.5 : 1.5, opacity: c || valgt ? 1 : 0.85 },
-      z: c === "beste" ? 3 : c ? 2 : 1,
-      label: { show: !!c || valgt, formatter: navnKort(d), position: "right", fontSize: 11, color: css("--tekst"), fontFamily: "Work Sans, system-ui, sans-serif", textBorderColor: css("--land"), textBorderWidth: 3 }
+      symbolSize: (c ? 15 : topp ? 13 : 10) + (valgt ? 6 : 0),
+      itemStyle: { color: farge, borderColor: valgt ? css("--tekst") : topp ? css("--god") : css("--kort"), borderWidth: valgt ? 2.5 : topp ? 3 : 1.5, opacity: c || topp || valgt ? 1 : 0.85 },
+      z: c === "beste" ? 3 : c || topp ? 2 : 1,
+      label: { show: !!c || topp || valgt, formatter: navnKort(d), position: "right", fontSize: 11, color: css("--tekst"), fontFamily: "Work Sans, system-ui, sans-serif", textBorderColor: css("--land"), textBorderWidth: 3 }
     }));
   });
 }
