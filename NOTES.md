@@ -10,6 +10,8 @@ Sist oppdatert: 12. november 2026.
 
 - 12.11.: kartet zoomer og panorerer som byguidene (PR #51): pinch 1:1, glid etter sveip, dobbelttrykk zoomer inn, trinnløs
   hjul-/styreflatezoom på PC og animerte +/−. Testet i Chromium og WebKit; iOS-simulatoren hang og ble ikke brukt.
+  Dette rettet også at kartnavn skjult i verdensvisningen (f.eks. «Etiopia») forble skjult når man zoomet inn. Gamle
+  appvinduer viser feilen til siden lastes på nytt.
 - 12.11.: ønskelisten følger samme navn og deling som resten: Vietnam delt i tre, Brasil i Rio og Nordøstkysten, USA-vestkysten i
   California og Nordvest; Lowcountry inn i Sørstatene og Rote inn i Nusa Tenggara. 259 reisemål, 44 på ønskelisten (detaljer i HANDOVER, Navneendringer).
   Scorene for de nye delene er Claudes vurdering.
@@ -68,6 +70,7 @@ Sist oppdatert: 12. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-12: All zoom skal gå gjennom `setOption` (`zoomRundt`/`settVisning`), ikke ECharts' egen roam-zoom. Ellers regnes `hideOverlap` ikke på nytt, og navn skjult i verdensvisningen forblir skjult innzoomet.
 - 2026-11-12: Kartets bevegelse skal føles som MapLibre i byguidene: pinch følger fingrene 1:1 (dempingen fra PR #21 er fjernet), glid etter sveip, dobbelttrykk zoomer inn, og ECharts' egen hjulzoom er byttet ut med trinnløs zoom. Pål syntes zoomen gikk i for store steg og føltes dårlig på mobil.
 - 2026-11-12: `landliste.tsv` er master for landlista; tabellene i `Landliste.md` lages fra den av `omorganiser.py`. Før måtte begge rettes for hånd ved hver deling.
 - 2026-11-12: Ønskelisten følger samme regel som resten: ett reisemål = én klimaprofil, mest generelle navn («X og Y», region med eksempler i parentes). Vietnam og Brasil hadde to–tre klimaprofiler i ett reisemål; Lowcountry og Rote var smalere enn nabodelene med samme beste reisetid. Ønskelisten har derfor 44 reisemål, ikke 40.
