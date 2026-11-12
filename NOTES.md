@@ -8,6 +8,7 @@ Eldre status per dato og eldre beslutninger ligger i ARKIV.md (lastes ikke autom
 
 Sist oppdatert: 12. november 2026.
 
+- 12.11.: HANDOVER har lista «Felles med byguidene» over løsninger som skal være like i begge appene.
 - 12.11.: søkefeltet har eget ×-kryss som tømmer søket, likt byguidene (PR #53; nettleserens kryss mangler på iOS).
 - 12.11.: kartet zoomer og panorerer som byguidene (PR #51): pinch 1:1, glid etter sveip, dobbelttrykk zoomer inn, trinnløs
   hjul-/styreflatezoom på PC og animerte +/−. Testet i Chromium og WebKit; iOS-simulatoren hang og ble ikke brukt.
@@ -71,6 +72,7 @@ Sist oppdatert: 12. november 2026.
 
 ## Beslutningslogg
 
+- 2026-11-12: Løsninger som finnes i både reisekartet og byguidene, skal være like; lista står i HANDOVER, «Felles med byguidene», med henvisning fra byguidene. Endres én, endres begge. Søkekrysset manglet her selv om byguidene hadde det.
 - 2026-11-12: All zoom skal gå gjennom `setOption` (`zoomRundt`/`settVisning`), ikke ECharts' egen roam-zoom. Ellers regnes `hideOverlap` ikke på nytt, og navn skjult i verdensvisningen forblir skjult innzoomet.
 - 2026-11-12: Kartets bevegelse skal føles som MapLibre i byguidene: pinch følger fingrene 1:1 (dempingen fra PR #21 er fjernet), glid etter sveip, dobbelttrykk zoomer inn, og ECharts' egen hjulzoom er byttet ut med trinnløs zoom. Pål syntes zoomen gikk i for store steg og føltes dårlig på mobil.
 - 2026-11-12: `landliste.tsv` er master for landlista; tabellene i `Landliste.md` lages fra den av `omorganiser.py`. Før måtte begge rettes for hånd ved hver deling.

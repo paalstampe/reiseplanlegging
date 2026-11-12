@@ -8,6 +8,7 @@ Påls reisekart og reisekalender: beste reisetid per reisemål, ned mot ukenumme
 Live på https://stam.pe/reiseplanlegging/.
 Løpende status, neste steg, åpne spørsmål og beslutningslogg: NOTES.md (oppdateres ved slutten av hver økt).
 Les HANDOVER.md før større endringer — den har datamodell, scoremodell og kartteknikk.
+Løsninger som deles med byguidene (kartbevegelse, søk, detaljkort, språk, offline m.m.) skal være like: se HANDOVER, «Felles med byguidene», og endre begge.
 Hold HANDOVER.md oppdatert når noe vesentlig endres (filer, besluttet design, navneendringer).
 Spar kontekst: NOTES.md holdes under ca. 10 KB (den lastes i hver økt); eldre status og beslutningslogg ligger i ARKIV.md.
 Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `Reisekalender.xlsx`, `Kildesvakheter.md` (~40 KB),
