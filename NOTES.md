@@ -8,6 +8,7 @@ Eldre status per dato og eldre beslutninger ligger i ARKIV.md (lastes ikke autom
 
 Sist oppdatert: 12. november 2026.
 
+- 12.11.: `.claude/skjermbilde.sh` tar kartutsnitt og måned (`kart=zoom,lon,lat`, `mnd=1–12`), så dyp zoom kan sjekkes mot forhåndsvisningen (PR #56).
 - 12.11.: kartnavn som overlapper, flyttes til ledig side (høyre, venstre, over, under, hjørner) i stedet for å skjules (PR #55),
   så f.eks. Ekvatorial-Guinea ved Kamerun vises på dyp zoom. Ikke sett på ekte iPhone ennå.
 - 12.11.: HANDOVER har lista «Felles med byguidene» over løsninger som skal være like i begge appene.
