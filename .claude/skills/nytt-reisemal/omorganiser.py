@@ -35,6 +35,8 @@ def bytt_felles(endringer):
             gid = g["id"] if isinstance(g, dict) else g
             for id in endringer.get(gid, [gid]):
                 if any(id == (x["id"] if isinstance(x, dict) else x) for x in ny):
+                    if isinstance(g, dict):
+                        print(f"Merk: overstyringen for {gid} i «{v['no']}» er ikke flyttet; {id} står der fra før.")
                     continue
                 ny.append({**g, "id": id} if isinstance(g, dict) else id)
         v["gjelder"] = ny
@@ -46,9 +48,6 @@ def bytt_felles(endringer):
 def bytt_landliste(endringer):
     rader = list(csv.DictReader(open(TSV, encoding="utf-8"), delimiter="\t"))
     finnes = {r["id"] for r in rader}
-    for gammel in endringer:
-        if gammel not in finnes:
-            sys.exit(f"{gammel} står ikke i {TSV}.")
     ut = []
     for r in rader:
         if r["id"] not in endringer:
@@ -57,7 +56,7 @@ def bytt_landliste(endringer):
         for id in endringer[r["id"]]:
             if id in finnes and id != r["id"]:
                 continue  # raden står allerede; land og sted oppdateres under
-            ut.append({**r, "id": id, "status": r["status"] if id == r["id"] else "ny"})
+            ut.append({**r, "id": id})
     nye = {id for ids in endringer.values() for id in ids}
     for r in ut:
         if r["id"] in nye:
@@ -84,15 +83,22 @@ def lag_landliste_md(rader):
 
 
 def main(argv):
+    if not argv:
+        sys.exit(__doc__)
     endringer = {}
     for a in argv:
         gammel, _, nye = a.partition("=")
         if not nye:
             sys.exit(__doc__)
         endringer[gammel] = nye.split(",")
+    # Sjekk alt før noe endres, så en feil ikke etterlater et halvt omorganisert repo.
+    i_landliste = {r["id"] for r in csv.DictReader(open(TSV, encoding="utf-8"), delimiter="\t")}
     for gammel, nye in endringer.items():
+        if gammel not in i_landliste:
+            sys.exit(f"{gammel} står ikke i {TSV}.")
         for id in nye:
             les_reisemal(id)
+    for gammel, nye in endringer.items():
         if gammel not in nye and os.path.exists(f"reisemal/{gammel}.json"):
             os.remove(f"reisemal/{gammel}.json")
     bytt_felles(endringer)
@@ -111,7 +117,9 @@ def main(argv):
     borte = [g for g, nye in endringer.items() if g not in nye]
     if borte:
         print("Gamle ID-er som fortsatt står i dokumentasjonen (rett for hånd der det trengs):", flush=True)
-        subprocess.run(["grep", "-nw", "-E", "|".join(borte), "CLAUDE.md", "HANDOVER.md", "NOTES.md",
+        # Bindestrek hører til ID-en (VNM skal ikke treffe VNM-N), så -w holder ikke.
+        monster = r"(^|[^A-Z0-9-])(" + "|".join(borte) + r")([^A-Z0-9-]|$)"
+        subprocess.run(["grep", "-nE", monster, "CLAUDE.md", "HANDOVER.md", "NOTES.md",
                         "Kildesvakheter.md", ".claude/skills/nytt-reisemal/SKILL.md"])
 
 
