@@ -9,7 +9,8 @@ Eldre status per dato og eldre beslutninger ligger i ARKIV.md (lastes ikke autom
 Sist oppdatert: 13. november 2026.
 
 - 13.11.: toppsesong markeres uten å endre scoren (PR #57): opplevelse 5, klima ≤ 3 og samlet under 4,0 gir grønn ring på kartet,
-  «Toppsesong» i lista, tooltip og kort og grønn rand i årsstripen. axe ikke kjørt.
+  «Toppsesong» i lista, tooltip og kort og grønn rand i årsstripen. axe: ingen brudd.
+- 13.11.: `.claude/axe.sh` kjører axe-core via Playwright i lys og mørk modus (axe i nettleserpanelet ble avvist i auto-modus).
 - 12.11.: `.claude/skjermbilde.sh` tar kartutsnitt og måned (`kart=zoom,lon,lat`, `mnd=1–12`), så dyp zoom kan sjekkes mot forhåndsvisningen (PR #56).
 - 12.11.: kartnavn som overlapper, flyttes til ledig side (høyre, venstre, over, under, hjørner) i stedet for å skjules (PR #55),
   så f.eks. Ekvatorial-Guinea ved Kamerun vises på dyp zoom. Ikke sett på ekte iPhone ennå.
