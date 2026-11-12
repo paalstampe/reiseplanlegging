@@ -8,6 +8,7 @@ Eldre status per dato og eldre beslutninger ligger i ARKIV.md (lastes ikke autom
 
 Sist oppdatert: 12. november 2026.
 
+- 12.11.: søkefeltet har eget ×-kryss som tømmer søket, likt byguidene (PR #53; nettleserens kryss mangler på iOS).
 - 12.11.: kartet zoomer og panorerer som byguidene (PR #51): pinch 1:1, glid etter sveip, dobbelttrykk zoomer inn, trinnløs
   hjul-/styreflatezoom på PC og animerte +/−. Testet i Chromium og WebKit; iOS-simulatoren hang og ble ikke brukt.
   Dette rettet også at kartnavn skjult i verdensvisningen (f.eks. «Etiopia») forble skjult når man zoomet inn. Gamle
