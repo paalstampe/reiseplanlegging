@@ -64,6 +64,7 @@ starter på vanlig plass.
   4. *Måned* – 12 rader per destinasjon: Klima, Opplevelse, Trengsel/pris (1–5), Samlet (formel), T maks °C, nedbør mm, begrunnelse.
   5. *Vinduer* – ID, fra uke, til uke, type, justering (±), «kun år» (tom = hvert år), beskrivelse.
 - **Samlet månedsscore** = 0,4·Klima + 0,4·Opplevelse + 0,2·Trengsel/pris (vekter i Les meg). **Veto-tak:** Klima eller Opplevelse = 1 ⇒ samlet = min(1,5; vektet snitt). Taket er input i Les meg.
+- **Toppsesong** (kun visning, endrer ikke scoren): opplevelse = 5, klima ≤ 3 og samlet < 4,0 (f.eks. ski på Hokkaido i januar) ⇒ grå prikk med grønn ring og navn på kartet, merket «Toppsesong» i lista, tooltip og detaljkort, og grønn rand på månedscellen i årsstripen. Regelen står i `erToppsesong()` i malen.
 - **Ukescore** = månedsscore for måneden torsdagen i uken faller i (ISO) + sum vindusjusteringer, begrenset til [1, 5]. Fra > Til = vindu over nyttår. Uke 53 vises ikke.
 - **Konvensjoner:** Arial; blå tekst/gul fylling = input, svart = formel. Bare Excel-2007-funksjoner + `_xlfn.MINIFS` (ingen XLOOKUP/FILTER o.l.).
 
