@@ -273,7 +273,7 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
         <span class="sprakvalg" role="group" data-t-aria="sprak"><button type="button" data-sprak="no" lang="no">NO</button><span class="smule-skille">/</span><button type="button" data-sprak="en" lang="en">EN</button></span>
       </nav>
       <h1 class="tittel" id="tittel">Hvor er det best i oktober?</h1>
-      <p class="ingress" data-t="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Grønn ring: toppsesong for opplevelsen (5), men vær eller pris trekker ned.</p>
+      <p class="ingress" data-t="ingress">Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Grønn ring: toppsesong for opplevelsen (5), men været trekker ned.</p>
       <p class="offline-status" id="offline-status" hidden></p>
     </div>
 
@@ -344,7 +344,7 @@ const TEKST = {
   no: {
     tittel: "Reisekart", app: "Reiseplanlegging", duErHer: "Du er her", sprak: "Språk",
     hvor: m => `Hvor er det best i ${m}?`,
-    ingress: "Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Grønn ring: toppsesong for opplevelsen (5), men vær eller pris trekker ned.",
+    ingress: "Velg måned. Grønt betyr samlet score 4,0 eller mer, mørkegrønt 4,4 eller mer. Grønn ring: toppsesong for opplevelsen (5), men været trekker ned.",
     maned: "Måned", arEtikett: "År (for høytider og festivaler)", ar: "År", region: "Region",
     best: "≥ 4,4 best", bra: "≥ 4,0 bra", under: "under 4,0", topp: "toppsesong, men under 4,0",
     fot: "Score = 0,4·klima + 0,4·opplevelse + 0,2·trengsel/pris, snitt av ukene i måneden inkl. høytider og festivaler. Oppdatert",
@@ -372,7 +372,7 @@ const TEKST = {
   en: {
     tittel: "Travel map", app: "Travel planning", duErHer: "You are here", sprak: "Language",
     hvor: m => `Where to go in ${m}?`,
-    ingress: "Pick a month. Green means an overall score of 4.0 or more, dark green 4.4 or more. Green ring: peak season for the experience (5), but weather or price pull it down.",
+    ingress: "Pick a month. Green means an overall score of 4.0 or more, dark green 4.4 or more. Green ring: peak season for the experience (5), but the weather pulls it down.",
     maned: "Month", arEtikett: "Year (for holidays and festivals)", ar: "Year", region: "Region",
     best: "≥ 4.4 best", bra: "≥ 4.0 good", under: "below 4.0", topp: "peak season, but below 4.0",
     fot: "Score = 0.4·climate + 0.4·experience + 0.2·crowds/price, average of the weeks in the month incl. holidays and festivals. Updated",
@@ -434,9 +434,10 @@ const GOD = 4.0, BESTE = 4.4, EPS = 1e-3;
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const fmt = x => x == null ? "–" : desimal(x.toFixed(1));
 const klasse = s => s == null ? "" : s >= BESTE - EPS ? "beste" : s >= GOD - EPS ? "god" : "";
-// Toppsesong: opplevelsen er på topp (5), men vær eller trengsel/pris holder samlet under 4,0 (f.eks. ski på Hokkaido i januar).
-// Vises som grønn ring rundt grå prikk; endrer ikke scoren.
-const erToppsesong = (d, r) => r.snitt < GOD - EPS && d.m[state.mnd][1] === 5;
+// Toppsesong: opplevelsen er på topp (5), men været (klima ≤ 3) holder samlet under 4,0 (f.eks. ski på Hokkaido i januar).
+// Vises som grønn ring rundt grå prikk og merket «Toppsesong»; endrer ikke scoren.
+const erToppsesong = (d, r) => { const [k, o] = d.m[state.mnd]; return r.snitt < GOD - EPS && o === 5 && k <= 3; };
+const toppMerke = (d, r) => erToppsesong(d, r) ? ` <span class="merke">${t("toppsesong")}</span>` : "";
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 const [WK, WO, WT] = DATA.weights, CAP = DATA.cap;
@@ -549,7 +550,7 @@ function tooltipHtml(d) {
   const hend = r.hend.map(w => `${w[4] > 0 ? "+" : "−"}${desimal(String(Math.abs(w[4])))} ${esc(vinduTekst(w))}`).join("<br>");
   return `<div class="tt">
     <p class="tt-navn">${esc(navn(d))}</p>
-    <p class="tt-meta">${esc(tekst(d, "kategori") || kortRegion(d.region))} · ${t("mndLang")[state.mnd]} ${state.ar}</p>
+    <p class="tt-meta">${esc(tekst(d, "kategori") || kortRegion(d.region))} · ${t("mndLang")[state.mnd]} ${state.ar}${toppMerke(d, r)}</p>
     <div class="tt-rad"><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span>
       <span class="tt-deler">${t("klima")} <b>${k}</b> · ${t("opplevelse")} <b>${o}</b> · ${t("trengsel")} <b>${tp}</b><br>${T == null ? "" : `${t("tmaks")} <b>${desimal(String(T))} °C</b>`}${N == null ? "" : ` · ${t("nedbor")} <b>${Math.round(N)} mm</b>`}</span></div>
     <p class="tt-notat">${esc(txt)}</p>
@@ -571,7 +572,7 @@ function detaljHtml(d) {
     <p class="rute-kicker">${esc(kortRegion(d.region))}${kategori ? " · " + esc(kategori) : ""}</p>
     <h2 class="rute-navn">${esc(navn(d))}</h2>
     <div class="seksjon"><p class="seksjon-tittel">${t("aaret")(state.ar)}</p>${stripHtml(d, true)}</div>
-    <div class="seksjon"><p class="seksjon-tittel">${t("mndLang")[state.mnd]} · ${t("samlet")} ${fmt(r.snitt)}</p>
+    <div class="seksjon"><p class="seksjon-tittel">${t("mndLang")[state.mnd]} · ${t("samlet")} ${fmt(r.snitt)}${toppMerke(d, r)}</p>
       <div class="tall-rad">
         <div class="tall">${t("klima")}<b>${k}</b></div><div class="tall">${t("opplevelse")}<b>${o}</b></div><div class="tall">${t("trengsel")}<b>${tp}</b></div>
         <div class="tall">${t("tmaks")}<b>${T == null ? "–" : desimal(String(T)) + "°"}</b></div><div class="tall">${t("nedborStor")}<b>${N == null ? "–" : Math.round(N) + " mm"}</b></div><div class="tall">${t("manedscore")}<b>${fmt(r.base)}</b></div>
@@ -666,7 +667,7 @@ function tegnListe() {
   l.innerHTML = vis.map(({ d, r }) => `
     <div class="oppslag ${state.valgt === d.id ? "er-valgt" : ""}" data-id="${d.id}" tabindex="0" role="button" aria-label="${esc(navn(d))}, ${t("score")} ${fmt(r.snitt)}">
       <div class="oppslag-topp"><p class="oppslag-navn">${esc(navn(d))}</p><span class="score ${klasse(r.snitt)}">${fmt(r.snitt)}</span></div>
-      <p class="oppslag-meta"><span>${esc(kortRegion(d.region))}</span>${r.hend.length ? `<span class="merke">${r.hend.some(w => w[4] > 0) ? t("hendelse") : t("hoytid")}</span>` : ""}${erToppsesong(d, r) ? `<span class="merke">${t("toppsesong")}</span>` : ""}${erVarsel(d) ? `<span class="merke varsel">${t("reiserad")}</span>` : ""}</p>
+      <p class="oppslag-meta"><span>${esc(kortRegion(d.region))}</span>${r.hend.length ? `<span class="merke">${r.hend.some(w => w[4] > 0) ? t("hendelse") : t("hoytid")}</span>` : ""}${toppMerke(d, r).trim()}${erVarsel(d) ? `<span class="merke varsel">${t("reiserad")}</span>` : ""}</p>
       <p class="oppslag-notat">${esc(mndTekst(d, state.mnd))}</p>
     </div>`).join("");
   l.querySelectorAll(".oppslag").forEach(el => {
