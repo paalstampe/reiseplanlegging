@@ -141,9 +141,8 @@ Asia	IND-KER	India	Kerala	ny
 Asia	IND-LAD	India	Ladakh	ny	
 Asia	IDN-BAL	Indonesia	Bali og Lombok	ny	
 Asia	IDN-JAV	Indonesia	Java (Yogyakarta)	ny	
-Asia	IDN-KOM	Indonesia	Komodo og Flores	ny	
+Asia	IDN-KOM	Indonesia	Nusa Tenggara (Komodo, Flores, Rote)	ny	
 Asia	IDN-RAJ	Indonesia	Raja Ampat	ny	
-Asia	IDN-ROT	Indonesia	Rote	finnes	
 Asia	JPN	Japan	Tokyo og Kyoto	ny	
 Asia	JPN-HOK	Japan	Hokkaido	ny	
 Asia	JPN-OKI	Japan	Okinawa	ny	
@@ -174,7 +173,9 @@ Asia	THA-AND	Thailand	Andamanhavet (Phuket, Krabi)	ny
 Asia	THA-GOT	Thailand	Thailandbukta (Koh Samui)	ny	
 Asia	TKM	Turkmenistan		ny	
 Asia	UZB	Usbekistan	Silkeveien (Samarkand, Bukhara, Khiva)	finnes	Var SILK
-Asia	VNM	Vietnam	Reunification Express + Hue	finnes	
+Asia	VNM-N	Vietnam	Nord (Hanoi, Ha Long, Sapa)	finnes	
+Asia	VNM-C	Vietnam	Sentral (Hue, Hoi An, Da Nang)	finnes	
+Asia	VNM-S	Vietnam	Sør (Saigon, Mekong, Phu Quoc)	finnes	
 Asia	TLS	Øst-Timor		finnes	
 Oseania	AUS-SYD	Australia	Sydney og Melbourne	ny	
 Oseania	AUS-QLD	Australia	Queensland og Great Barrier Reef	ny	
@@ -200,12 +201,12 @@ Nord-Amerika	CAN-W	Canada	Rockies (Banff, Jasper)	ny
 Nord-Amerika	CAN-O	Canada	Québec og Ontario	ny	
 Nord-Amerika	CAN-N	Canada	Yukon (nordlys)	ny	
 Nord-Amerika	USA-NYC	USA	New York og nordøst	ny	
-Nord-Amerika	USA-CHS	USA	Savannah-Charleston	finnes	
-Nord-Amerika	USA-SOR	USA	Sørstatene (New Orleans, Memphis, Nashville)	ny	
+Nord-Amerika	USA-SOR	USA	Sørstatene (New Orleans, Nashville, Charleston, Savannah)	ny	
 Nord-Amerika	USA-FL	USA	Florida	ny	
 Nord-Amerika	USA-SW	USA	Sørvest (Grand Canyon, Utah)	ny	
 Nord-Amerika	USA-RM	USA	Rocky Mountains (Yellowstone)	ny	
-Nord-Amerika	USA-WC	USA	Nordvestkysten (San Francisco til Vancouver)	finnes	
+Nord-Amerika	USA-CA	USA	California (San Francisco, Los Angeles, Yosemite)	finnes	
+Nord-Amerika	USA-NW	USA	Nordvest (Seattle, Olympic, Cascades)	finnes	
 Nord-Amerika	USA-AK	USA	Alaska	ny	
 Nord-Amerika	USA-HI	USA	Hawaii	finnes	
 Mellom-Amerika og Karibia	ATG	Antigua og Barbuda		ny	
@@ -238,7 +239,8 @@ Sør-Amerika	ARG-PAT	Argentina	Patagonia	ny
 Sør-Amerika	ARG-NO	Argentina	Salta og Jujuy	ny	
 Sør-Amerika	ARG-IGU	Argentina	Iguazú	ny	
 Sør-Amerika	BOL	Bolivia		ny	
-Sør-Amerika	BRA-NE	Brasil	Rio og nordover	finnes	
+Sør-Amerika	BRA-RIO	Brasil	Rio de Janeiro	finnes	
+Sør-Amerika	BRA-NE	Brasil	Nordøstkysten (Salvador, Recife)	finnes	
 Sør-Amerika	BRA-AMZ	Brasil	Amazonas	ny	
 Sør-Amerika	BRA-PAN	Brasil	Pantanal	ny	
 Sør-Amerika	CHL-ATA	Chile	Atacama	ny	

@@ -41,7 +41,7 @@ Formatet er beskrevet i HANDOVER.md, Datamodell. Se på to–tre eksisterende fi
 
 ## 4. Resten av feltene
 
-- `status`: «Ikke besøkt». `onskeliste`: false (Påls ønskeliste er de 40 som fantes 11.11.2026).
+- `status`: «Ikke besøkt». `onskeliste`: false (Påls ønskeliste er de 44 som fantes 12.11.2026).
 - `koord`: [bredde, lengde] for et punkt midt i det man reiser til (byen, nasjonalparken, øygruppen), to desimaler.
 - `region`: fra `landliste.tsv`.
 

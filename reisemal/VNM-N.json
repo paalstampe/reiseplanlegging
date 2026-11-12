@@ -1,0 +1,33 @@
+{
+  "id": "VNM-N",
+  "region": "Asia",
+  "land": "Vietnam",
+  "sted": "Nord (Hanoi, Ha Long, Sapa)",
+  "kortnavn": "Nord-Vietnam",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Kultur / natur",
+  "merknad": "Togturen nord–sør (Reunification Express) binder de tre delene sammen",
+  "koord": [21.03, 105.85],
+  "kilde": "Hanoi (Láng), WMO 1991–2020, via Wikipedia. Ha Long likt; Sapa (1500 moh) 8–10 °C kjøligere",
+  "en": {"land": "Vietnam", "sted": "North (Hanoi, Ha Long, Sapa)", "kortnavn": "Northern Vietnam", "kategori": "Culture / nature", "merknad": "The north–south train (Reunification Express) links the three parts", "kilde": "Hanoi (Láng), WMO 1991–2020, via Wikipedia. Ha Long similar; Sapa (1,500 m) 8–10 °C cooler"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 20.2, "nedbor": 20, "no": "Kjølig og grått (20 °C), yr. Kaldt i Sapa.", "en": "Cool and grey (20 °C), drizzle. Cold in Sapa."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 3, "tmaks": 21.7, "nedbor": 20, "no": "Kjølig og fuktig, ofte grått. Tet (se Vinduer).", "en": "Cool and damp, often grey. Tet (see events)."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 25.9, "nedbor": 36, "no": "Mildere (26 °C), fortsatt dis. Rolig.", "en": "Milder (26 °C), still hazy. Quiet."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 28.5, "nedbor": 104, "no": "Varmt og behagelig (29 °C). En av de beste månedene.", "en": "Warm and pleasant (29 °C). One of the best months."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 32.8, "nedbor": 165, "no": "Varmt (33 °C), byger kommer. Fint i Ha Long.", "en": "Hot (33 °C), showers arriving. Good in Ha Long."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 34.9, "nedbor": 264, "no": "Hett og fuktig (35 °C), regntid. Innenlands ferie.", "en": "Hot and humid (35 °C), rainy season. Domestic holidays."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 3, "tmaks": 33.7, "nedbor": 254, "no": "Hett, regn og tyfonrisiko i Ha Long.", "en": "Hot, rain and typhoon risk in Ha Long."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 33.2, "nedbor": 274, "no": "Våtest; tyfoner kan stoppe båtturene i Ha Long.", "en": "Wettest; typhoons can stop boat trips in Ha Long."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.9, "nedbor": 228, "no": "Regnet avtar mot slutten. Gule rismarker i Sapa.", "en": "Rain easing towards the end. Golden rice terraces in Sapa."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 30.4, "nedbor": 155, "no": "Tørrere og behagelig (30 °C). Beste måned. Høysesong.", "en": "Drier and pleasant (30 °C). Best month. High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 26.7, "nedbor": 61, "no": "Tørt og mildt (27 °C), klar luft. Høysesong.", "en": "Dry and mild (27 °C), clear air. High season."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 21.3, "nedbor": 20, "no": "Tørt og kjølig (21 °C). Kaldt i Sapa.", "en": "Dry and cool (21 °C). Cold in Sapa."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-15", "til": "2026-02-22", "type": "Helligdag", "justering": -1, "no": "Tet (17.2.2026): fulle tog/fly, mye stengt", "en": "Tet (17 Feb 2026): full trains/flights, much closed"},
+    {"fra": "2027-02-03", "til": "2027-02-10", "type": "Helligdag", "justering": -1, "no": "Tet (6.2.2027): fulle tog/fly, mye stengt", "en": "Tet (6 Feb 2027): full trains/flights, much closed"},
+    {"fra": "2028-01-24", "til": "2028-01-31", "type": "Helligdag", "justering": -1, "no": "Tet (26.1.2028): fulle tog/fly, mye stengt", "en": "Tet (26 Jan 2028): full trains/flights, much closed"}
+  ]
+}

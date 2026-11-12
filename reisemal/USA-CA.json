@@ -1,0 +1,29 @@
+{
+  "id": "USA-CA",
+  "region": "Nord-Amerika",
+  "land": "USA",
+  "sted": "California (San Francisco, Los Angeles, Yosemite)",
+  "kortnavn": "California",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Roadtrip / natur",
+  "merknad": "",
+  "koord": [36.2, -120.4],
+  "kilde": "San Francisco sentrum, NOAA 1991–2020, via Wikipedia. Los Angeles varmere og tørrere; Tioga Pass til Yosemite stengt ca. nov–mai",
+  "en": {"land": "USA", "sted": "California (San Francisco, Los Angeles, Yosemite)", "kortnavn": "California", "kategori": "Road trip / nature", "kilde": "San Francisco downtown, NOAA 1991–2020, via Wikipedia. Los Angeles warmer and drier; Tioga Pass into Yosemite closed approx. Nov–May"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 14.3, "nedbor": 112, "no": "Mildt (14 °C), regn. Lite folk.", "en": "Mild (14 °C), rain. Few visitors."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 15.8, "nedbor": 111, "no": "Regnperioder, grønne åser.", "en": "Rainy spells, green hills."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 16.7, "nedbor": 80, "no": "Grønt og villblomster. Fossene i Yosemite tiltar.", "en": "Green, wildflowers. Yosemite's waterfalls building."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 17.2, "nedbor": 41, "no": "Tørrere; fossene i Yosemite på topp. Påske travelt.", "en": "Drier; Yosemite's waterfalls at their peak. Busy at Easter."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 17.8, "nedbor": 18, "no": "Tørt; fossene på topp. «May Gray» langs kysten.", "en": "Dry; waterfalls at their peak. “May Gray” on the coast."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 19.2, "nedbor": 5, "no": "Tørt; «June Gloom» ved kysten. Tioga Pass åpner.", "en": "Dry; “June Gloom” on the coast. Tioga Pass opens."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 1, "tmaks": 19.1, "nedbor": 0, "no": "Tørt, tåke i SF, hett innover i landet. Høysesong.", "en": "Dry, fog in SF, hot inland. High season."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 1, "tmaks": 19.9, "nedbor": 2, "no": "Som juli. Skogbrannrøyk mulig.", "en": "As July. Wildfire smoke possible."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 21.2, "nedbor": 3, "no": "Varmest i SF, lite tåke, færre folk. Skogbrannrisiko.", "en": "Warmest in SF, little fog, fewer people. Wildfire risk."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 21.0, "nedbor": 24, "no": "Varmt og klart. Beste måned ved kysten.", "en": "Warm and clear. Best month on the coast."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 17.6, "nedbor": 66, "no": "Regnet kommer. Tioga Pass stenger.", "en": "Rain arrives. Tioga Pass closes."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 14.4, "nedbor": 121, "no": "Mildt og regn. Jul i byene.", "en": "Mild and rainy. Christmas in the cities."}
+  ],
+  "vinduer": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "BRA-RIO",
+  "region": "Sør-Amerika",
+  "land": "Brasil",
+  "sted": "Rio de Janeiro",
+  "kortnavn": "Rio de Janeiro",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "By / strand",
+  "merknad": "",
+  "koord": [-22.9, -43.2],
+  "kilde": "Rio de Janeiro (Saúde), INMET 1981–2010, via Wikipedia",
+  "en": {"land": "Brazil", "sted": "Rio de Janeiro", "kortnavn": "Rio de Janeiro", "kategori": "City / beach", "kilde": "Rio de Janeiro (Saúde), INMET 1981–2010, via Wikipedia"},
+  "maneder": [
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 31.5, "nedbor": 137, "no": "Varmt (32 °C), byger. Sommerferie, travelt.", "en": "Hot (32 °C), showers. Summer holidays, busy."},
+    {"klima": 3, "opplevelse": 5, "trengsel": 1, "tmaks": 32.2, "nedbor": 130, "no": "Varmt. Karneval (se Vinduer) – dyrt og fullt.", "en": "Hot. Carnival (see events) – expensive and full."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 31.2, "nedbor": 136, "no": "Varmt og fuktig, byger. Roligere etter karnevalet.", "en": "Hot and humid, showers. Quieter after Carnival."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 30.0, "nedbor": 95, "no": "Behagelig (30 °C), mindre regn.", "en": "Pleasant (30 °C), less rain."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 27.8, "nedbor": 70, "no": "Tørt og mildt (28 °C). Fint for fotturer.", "en": "Dry and mild (28 °C). Good for hiking."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 26.7, "nedbor": 43, "no": "Tørt, klart og mildt. Festa Junina.", "en": "Dry, clear and mild. Festa Junina."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 26.4, "nedbor": 42, "no": "Tørt og mildt (26 °C). Skoleferie.", "en": "Dry and mild (26 °C). School holidays."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 4, "tmaks": 27.0, "nedbor": 45, "no": "Tørt og klart, god sikt fra Sukkertoppen.", "en": "Dry and clear, good views from Sugarloaf."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 26.7, "nedbor": 54, "no": "Mildt, våren starter.", "en": "Mild, spring begins."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 28.2, "nedbor": 87, "no": "Varmere, litt mer regn.", "en": "Warmer, a little more rain."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 29.4, "nedbor": 98, "no": "Varmt, flere byger.", "en": "Hot, more showers."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 2, "tmaks": 30.3, "nedbor": 134, "no": "Varmt, regn. Nyttår på Copacabana – dyrt.", "en": "Hot, rain. New Year on Copacabana – expensive."}
+  ],
+  "vinduer": [
+    {"fra": "2027-02-05", "til": "2027-02-10", "type": "Hendelse", "justering": 0.5, "no": "Karneval (Rio, Salvador, Recife/Olinda) – fantastisk, men dyrt", "en": "Carnival (Rio, Salvador, Recife/Olinda) – fantastic, but expensive"},
+    {"fra": "2028-02-25", "til": "2028-03-01", "type": "Hendelse", "justering": 0.5, "no": "Karneval", "en": "Carnival"}
+  ]
+}

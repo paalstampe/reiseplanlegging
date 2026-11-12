@@ -3,8 +3,8 @@ Gjeldende status (lastes inn automatisk):
 
 # Reiseplanlegging — arbeidsregler for Claude
 
-Påls reisekart og reisekalender: beste reisetid per reisemål, ned mot ukenummer. 257 reisemål som dekker alle FN-land
-(`Landliste.md`); Påls egne 40 er på ønskelisten. Kjente svakheter i kildene: `Kildesvakheter.md`.
+Påls reisekart og reisekalender: beste reisetid per reisemål, ned mot ukenummer. 259 reisemål som dekker alle FN-land
+(`Landliste.md`); Påls egne 44 er på ønskelisten. Kjente svakheter i kildene: `Kildesvakheter.md`.
 Live på https://stam.pe/reiseplanlegging/.
 Løpende status, neste steg, åpne spørsmål og beslutningslogg: NOTES.md (oppdateres ved slutten av hver økt).
 Les HANDOVER.md før større endringer — den har datamodell, scoremodell og kartteknikk.

@@ -2,19 +2,19 @@
   "id": "USA-SOR",
   "region": "Nord-Amerika",
   "land": "USA",
-  "sted": "Sørstatene (New Orleans, Memphis, Nashville)",
+  "sted": "Sørstatene (New Orleans, Nashville, Charleston, Savannah)",
   "kortnavn": "USA sørstatene",
   "status": "Ikke besøkt",
-  "onskeliste": false,
+  "onskeliste": true,
   "kategori": "By / mat / musikk",
   "merknad": "",
   "koord": [29.95, -90.07],
-  "kilde": "New Orleans (Louis Armstrong International Airport), NOAA 1991–2020, via Wikipedia. Memphis og Nashville kaldere om vinteren",
-  "en": {"land": "USA", "sted": "Deep South (New Orleans, Memphis, Nashville)", "kortnavn": "US Deep South", "kategori": "City / food / music", "kilde": "New Orleans (Louis Armstrong International Airport), NOAA 1991–2020, via Wikipedia. Memphis and Nashville colder in winter"},
+  "kilde": "New Orleans (Louis Armstrong International Airport), NOAA 1991–2020, via Wikipedia. Nashville kaldere om vinteren; Charleston og Savannah (NOAA 1991–2020) litt kjøligere, samme mønster",
+  "en": {"land": "USA", "sted": "Deep South (New Orleans, Nashville, Charleston, Savannah)", "kortnavn": "US Deep South", "kategori": "City / food / music", "kilde": "New Orleans (Louis Armstrong International Airport), NOAA 1991–2020, via Wikipedia. Nashville colder in winter; Charleston and Savannah (NOAA 1991–2020) slightly cooler, same pattern"},
   "maneder": [
     {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 16.9, "nedbor": 132, "no": "Mildt (17 °C), skiftende. Lite folk.", "en": "Mild (17 °C), changeable. Few visitors."},
     {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 19.1, "nedbor": 105, "no": "Mildt (19 °C). Mardi Gras (se Vinduer).", "en": "Mild (19 °C). Mardi Gras (see events)."},
-    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 22.4, "nedbor": 111, "no": "Behagelig (22 °C), azaleaer i blomst.", "en": "Pleasant (22 °C), azaleas in bloom."},
+    {"klima": 5, "opplevelse": 4, "trengsel": 3, "tmaks": 22.4, "nedbor": 111, "no": "Behagelig (22 °C), azaleaer i blomst. St. Patrick's Day i Savannah.", "en": "Pleasant (22 °C), azaleas in bloom. St. Patrick's Day in Savannah."},
     {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.8, "nedbor": 133, "no": "Ideelt (26 °C). French Quarter Fest og Jazz Fest (se Vinduer).", "en": "Ideal (26 °C). French Quarter Fest and Jazz Fest (see events)."},
     {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 29.6, "nedbor": 143, "no": "Varmt (30 °C), økende fuktighet.", "en": "Warm (30 °C), rising humidity."},
     {"klima": 2, "opplevelse": 3, "trengsel": 4, "tmaks": 32.2, "nedbor": 194, "no": "Hett og fuktig (32 °C). Orkansesongen starter.", "en": "Hot and humid (32 °C). Hurricane season begins."},
@@ -29,6 +29,7 @@
     {"fra": "2026-02-14", "til": "2026-02-17", "type": "Hendelse", "justering": 0.3, "no": "Mardi Gras (17.2.2026): fantastisk, men fullt og dyrt", "en": "Mardi Gras (17 Feb 2026): fantastic, but full and expensive"},
     {"fra": "2027-02-06", "til": "2027-02-09", "type": "Hendelse", "justering": 0.3, "no": "Mardi Gras (9.2.2027): fantastisk, men fullt og dyrt", "en": "Mardi Gras (9 Feb 2027): fantastic, but full and expensive"},
     {"fra": "2028-02-26", "til": "2028-02-29", "type": "Hendelse", "justering": 0.3, "no": "Mardi Gras (29.2.2028): fantastisk, men fullt og dyrt", "en": "Mardi Gras (29 Feb 2028): fantastic, but full and expensive"},
-    {"fra_uke": 17, "til_uke": 18, "type": "Hendelse", "justering": 0.5, "no": "New Orleans Jazz & Heritage Festival (siste helg i april og første i mai)", "en": "New Orleans Jazz & Heritage Festival (last weekend of April and first of May)"}
+    {"fra_uke": 17, "til_uke": 18, "type": "Hendelse", "justering": 0.5, "no": "New Orleans Jazz & Heritage Festival (siste helg i april og første i mai)", "en": "New Orleans Jazz & Heritage Festival (last weekend of April and first of May)"},
+    {"fra_uke": 22, "til_uke": 23, "type": "Hendelse", "justering": 0.3, "no": "Spoleto Festival USA (sen mai–tidl. juni)", "en": "Spoleto Festival USA (late May–early June)"}
   ]
 }

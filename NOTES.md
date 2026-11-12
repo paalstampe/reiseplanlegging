@@ -8,7 +8,9 @@ Eldre status per dato og eldre beslutninger ligger i ARKIV.md (lastes ikke autom
 
 Sist oppdatert: 12. november 2026.
 
-- 12.11.: åtte ønskelistenavn er skrevet om etter stilen til de nye reisemålene (liste i HANDOVER, Navneendringer).
+- 12.11.: ønskelisten følger samme navn og deling som resten: Vietnam delt i tre, Brasil i Rio og Nordøstkysten, USA-vestkysten i
+  California og Nordvest; Lowcountry inn i Sørstatene og Rote inn i Nusa Tenggara. 259 reisemål, 44 på ønskelisten (detaljer i HANDOVER, Navneendringer).
+  Scorene for de nye delene er Claudes vurdering.
 
 - 11.11.: **alle FN-land er med – 257 reisemål** (før 40). Slik ble det gjort, i rekkefølge:
   - Datamodell (PR #38): én JSON-fil per reisemål i `reisemal/`, norsk og engelsk side om side, lest av `reisemal.py`.
@@ -32,7 +34,7 @@ Sist oppdatert: 12. november 2026.
 - Stikkprøver av scorene for de 217 nye: Pål tar dem når han bruker kartet og melder tilbake. Opplevelse kan være satt høyt
   for land få reiser til.
 - Gå gjennom `Kildesvakheter.md` etter hvert (proxy-stasjoner, eldre serier, datoer merket «sjekk dato»).
-- Regnearket har 257 rader; kalenderformlene (COUNTIFS/SUMIFS/SUMPRODUCT per celle) kan bli trege i Excel.
+- Regnearket har 259 rader; kalenderformlene (COUNTIFS/SUMIFS/SUMPRODUCT per celle) kan bli trege i Excel.
   Blir det et problem: regn ukescorene i Python og skriv verdier.
 - Mulige forbedringer fra byguidene (ikke avtalt): lenke og «Del» til ett reisemål (`?sted=`, gjerne med måned), kategorifilter,
   og en jevnlig skyjobb som sjekker UDs reiseråd og oppdaterer sikkerhetsmerknadene. Venners egne ønskelister venter.
@@ -50,8 +52,8 @@ Sist oppdatert: 12. november 2026.
 - Scorene for de 196 er Claudes vurdering, ikke gjennomgått av Pål. Opplevelse kan være satt høyt for lite besøkte land.
 - Midtøsten (11.11.): Palestina bruker Betlehems temperatur (periode ikke oppgitt) og Jerusalems nedbør (proxy, 10 km).
   Jordan er Amman 1989–2018 (Petra omtrent likt). Saudi-Arabia er Riyadh (AlUla litt kjøligere), Oman er Muscat (Salalah har khareef om sommeren).
-- Svake klimaserier: noen stasjoner har gamle serier (Dili, Beirut, Galápagos, Hwange, São Tomé, Maun 1961–1990),
-  og noen er proxy (Rote→Kupang, USA-WC→Vancouver, CRI→Liberia, ZWE→Hwange). Skal de byttes når bedre kilder finnes?
+- Svake klimaserier: noen stasjoner har gamle serier (Dili, Rio 1981–2010, Da Nang og Saigon uten oppgitt periode, Beirut, Galápagos, Hwange, São Tomé, Maun 1961–1990),
+  og noen er proxy (Rote→Kupang, CRI→Liberia, ZWE→Hwange). Skal de byttes når bedre kilder finnes?
 - Noen festivaldatoer er merket «sjekk dato».
 - HANDOVER nevner en «HTML-visning generert fra Excel» som mulig neste steg. Er den fortsatt aktuell, nå som reisekartet finnes?
 - Noen merknader er personlige planleggingsnotater («Rute avklares», «Evt. kombinert med …»). Sikkerhetsmerknadene

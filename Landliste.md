@@ -20,6 +20,12 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 - «USA Nordvestkyst», «Hawaii» og «Mexico City» rettes til USA – Nordvestkysten, USA – Hawaii og Mexico – Mexico City.
 - Ønskelisten er dagens 40.
 
+## Endret 12.11.2026
+
+- Ønskelistereisemålene er delt og navngitt etter samme regel som resten: Vietnam i nord, sentral og sør; Brasil – Rio og nordover i
+  Rio de Janeiro og Nordøstkysten; USA – Nordvestkysten i California og Nordvest. Lowcountry (Charleston, Savannah) er slått inn i
+  Sørstatene, og Rote i Nusa Tenggara (Komodo, Flores, Rote). Det gir **259 reisemål**, 32 land delt, og 44 på ønskelisten.
+
 ## Europa (60)
 
 | ID | Land | Del | | Merknad |
@@ -166,7 +172,7 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 | ZMB | Zambia |  | finnes |  |
 | ZWE | Zimbabwe |  | finnes |  |
 
-## Asia (46)
+## Asia (47)
 
 | ID | Land | Del | | Merknad |
 |---|---|---|---|---|
@@ -181,9 +187,8 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 | IND-LAD | India | Ladakh |  |  |
 | IDN-BAL | Indonesia | Bali og Lombok |  |  |
 | IDN-JAV | Indonesia | Java (Yogyakarta) |  |  |
-| IDN-KOM | Indonesia | Komodo og Flores |  |  |
+| IDN-KOM | Indonesia | Nusa Tenggara (Komodo, Flores, Rote) | finnes |  |
 | IDN-RAJ | Indonesia | Raja Ampat |  |  |
-| IDN-ROT | Indonesia | Rote | finnes |  |
 | JPN | Japan | Tokyo og Kyoto |  |  |
 | JPN-HOK | Japan | Hokkaido |  |  |
 | JPN-OKI | Japan | Okinawa |  |  |
@@ -214,7 +219,9 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 | THA-GOT | Thailand | Thailandbukta (Koh Samui) |  |  |
 | TKM | Turkmenistan |  |  |  |
 | UZB | Usbekistan | Silkeveien (Samarkand, Bukhara, Khiva) | finnes | Var SILK |
-| VNM | Vietnam | Reunification Express + Hue | finnes |  |
+| VNM-N | Vietnam | Nord (Hanoi, Ha Long, Sapa) | finnes |  |
+| VNM-C | Vietnam | Sentral (Hue, Hoi An, Da Nang) | finnes |  |
+| VNM-S | Vietnam | Sør (Saigon, Mekong, Phu Quoc) | finnes |  |
 | TLS | Øst-Timor |  | finnes |  |
 
 ## Oseania (20)
@@ -250,12 +257,12 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 | CAN-O | Canada | Québec og Ontario |  |  |
 | CAN-N | Canada | Yukon (nordlys) |  |  |
 | USA-NYC | USA | New York og nordøst |  |  |
-| USA-CHS | USA | Savannah-Charleston | finnes |  |
-| USA-SOR | USA | Sørstatene (New Orleans, Memphis, Nashville) |  |  |
+| USA-SOR | USA | Sørstatene (New Orleans, Nashville, Charleston, Savannah) | finnes |  |
 | USA-FL | USA | Florida |  |  |
 | USA-SW | USA | Sørvest (Grand Canyon, Utah) |  |  |
 | USA-RM | USA | Rocky Mountains (Yellowstone) |  |  |
-| USA-WC | USA | Nordvestkysten (San Francisco til Vancouver) | finnes |  |
+| USA-CA | USA | California (San Francisco, Los Angeles, Yosemite) | finnes |  |
+| USA-NW | USA | Nordvest (Seattle, Olympic, Cascades) | finnes |  |
 | USA-AK | USA | Alaska |  |  |
 | USA-HI | USA | Hawaii | finnes |  |
 
@@ -288,7 +295,7 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 | VCT | St. Vincent og Grenadinene |  |  |  |
 | TTO | Trinidad og Tobago |  |  |  |
 
-## Sør-Amerika (24)
+## Sør-Amerika (25)
 
 | ID | Land | Del | | Merknad |
 |---|---|---|---|---|
@@ -298,7 +305,8 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 | ARG-NO | Argentina | Salta og Jujuy |  |  |
 | ARG-IGU | Argentina | Iguazú |  |  |
 | BOL | Bolivia |  |  |  |
-| BRA-NE | Brasil | Rio og nordover | finnes |  |
+| BRA-RIO | Brasil | Rio de Janeiro | finnes |  |
+| BRA-NE | Brasil | Nordøstkysten (Salvador, Recife) | finnes |  |
 | BRA-AMZ | Brasil | Amazonas |  |  |
 | BRA-PAN | Brasil | Pantanal |  |  |
 | CHL-ATA | Chile | Atacama |  |  |

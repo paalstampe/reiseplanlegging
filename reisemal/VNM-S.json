@@ -1,0 +1,33 @@
+{
+  "id": "VNM-S",
+  "region": "Asia",
+  "land": "Vietnam",
+  "sted": "Sør (Saigon, Mekong, Phu Quoc)",
+  "kortnavn": "Sør-Vietnam",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "By / strand",
+  "merknad": "Togturen nord–sør (Reunification Express) binder de tre delene sammen",
+  "koord": [10.5, 106.4],
+  "kilde": "Ho Chi Minh-byen (Tan Son Nhat), VIBST, via Wikipedia (periode ikke oppgitt). Mekong og Phu Quoc har samme mønster: tørt des–apr",
+  "en": {"land": "Vietnam", "sted": "South (Saigon, Mekong, Phu Quoc)", "kortnavn": "Southern Vietnam", "kategori": "City / beach", "merknad": "The north–south train (Reunification Express) links the three parts", "kilde": "Ho Chi Minh City (Tan Son Nhat), VIBST, via Wikipedia (period not stated). The Mekong and Phu Quoc have the same pattern: dry Dec–Apr"},
+  "maneder": [
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.0, "nedbor": 12, "no": "Tørt og varmt (32 °C). Høysesong.", "en": "Dry and hot (32 °C). High season."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 32.7, "nedbor": 8, "no": "Tørt. Tet (se Vinduer).", "en": "Dry. Tet (see events)."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 4, "tmaks": 33.6, "nedbor": 18, "no": "Tørt, varmere (34 °C). Fin strandtid på Phu Quoc.", "en": "Dry, hotter (34 °C). Good beach time on Phu Quoc."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 34.5, "nedbor": 57, "no": "Hetest (35 °C), fuktig.", "en": "Hottest (35 °C), humid."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 34.9, "nedbor": 202, "no": "Regntiden starter, korte kraftige byger.", "en": "Rainy season begins, short heavy showers."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.5, "nedbor": 224, "no": "Regntid; ettermiddagsbyger. Vått på Phu Quoc.", "en": "Rainy season; afternoon showers. Wet on Phu Quoc."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 33.0, "nedbor": 231, "no": "Regntid, men mye sol innimellom.", "en": "Rainy season, but plenty of sun in between."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 5, "tmaks": 32.9, "nedbor": 219, "no": "Regntid. Frodig i Mekong.", "en": "Rainy season. Lush in the Mekong."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 32.6, "nedbor": 490, "no": "Våtest; flom i Mekong-deltaet.", "en": "Wettest; floods in the Mekong Delta."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 32.3, "nedbor": 340, "no": "Fortsatt vått, høy vannstand i Mekong.", "en": "Still wet, high water in the Mekong."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 32.4, "nedbor": 128, "no": "Regnet avtar. Grønt og fint.", "en": "Rain easing. Green and pleasant."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 31.6, "nedbor": 41, "no": "Tørt og behagelig. Jul og nyttår fylles opp.", "en": "Dry and pleasant. Christmas and New Year fill up."}
+  ],
+  "vinduer": [
+    {"fra": "2026-02-15", "til": "2026-02-22", "type": "Helligdag", "justering": -1, "no": "Tet (17.2.2026): fulle tog/fly, mye stengt", "en": "Tet (17 Feb 2026): full trains/flights, much closed"},
+    {"fra": "2027-02-03", "til": "2027-02-10", "type": "Helligdag", "justering": -1, "no": "Tet (6.2.2027): fulle tog/fly, mye stengt", "en": "Tet (6 Feb 2027): full trains/flights, much closed"},
+    {"fra": "2028-01-24", "til": "2028-01-31", "type": "Helligdag", "justering": -1, "no": "Tet (26.1.2028): fulle tog/fly, mye stengt", "en": "Tet (26 Jan 2028): full trains/flights, much closed"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "USA-NW",
+  "region": "Nord-Amerika",
+  "land": "USA",
+  "sted": "Nordvest (Seattle, Olympic, Cascades)",
+  "kortnavn": "USA nordvest",
+  "status": "Ikke besøkt",
+  "onskeliste": true,
+  "kategori": "Natur / by",
+  "merknad": "",
+  "koord": [47.5, -122.6],
+  "kilde": "Seattle (SeaTac), NOAA 1991–2020, via Wikipedia",
+  "en": {"land": "USA", "sted": "Northwest (Seattle, Olympic, Cascades)", "kortnavn": "US Northwest", "kategori": "Nature / city", "kilde": "Seattle (SeaTac), NOAA 1991–2020, via Wikipedia"},
+  "maneder": [
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.9, "nedbor": 147, "no": "Kjølig og regnfullt (9 °C).", "en": "Cool and rainy (9 °C)."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 10.2, "nedbor": 96, "no": "Regn og grått.", "en": "Rain and grey."},
+    {"klima": 2, "opplevelse": 3, "trengsel": 5, "tmaks": 12.3, "nedbor": 106, "no": "Fortsatt vått; kirsebærblomstring.", "en": "Still wet; cherry blossom."},
+    {"klima": 3, "opplevelse": 3, "trengsel": 4, "tmaks": 15.2, "nedbor": 81, "no": "Mildere, byger. Tulipaner i Skagit Valley.", "en": "Milder, showers. Tulips in Skagit Valley."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 4, "tmaks": 19.1, "nedbor": 48, "no": "Tørrere og grønt.", "en": "Drier and green."},
+    {"klima": 4, "opplevelse": 4, "trengsel": 3, "tmaks": 21.7, "nedbor": 37, "no": "Lange dager; fjellveiene åpner.", "en": "Long days; mountain roads open."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.2, "nedbor": 15, "no": "Tørt og solrikt (25 °C). Toppsesong i nasjonalparkene.", "en": "Dry and sunny (25 °C). Peak season in the national parks."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 2, "tmaks": 25.3, "nedbor": 25, "no": "Tørt; risiko for skogbrannrøyk.", "en": "Dry; risk of wildfire smoke."},
+    {"klima": 5, "opplevelse": 5, "trengsel": 3, "tmaks": 22.0, "nedbor": 41, "no": "Tørt og behagelig, færre folk. Beste balanse.", "en": "Dry and pleasant, fewer people. Best balance."},
+    {"klima": 3, "opplevelse": 4, "trengsel": 4, "tmaks": 15.8, "nedbor": 99, "no": "Høstfarger; regnet kommer.", "en": "Autumn colours; rain arrives."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 11.2, "nedbor": 160, "no": "Regntid.", "en": "Rainy season."},
+    {"klima": 2, "opplevelse": 2, "trengsel": 5, "tmaks": 8.3, "nedbor": 145, "no": "Regntid og mørkt.", "en": "Rainy season and dark."}
+  ],
+  "vinduer": []
+}
