@@ -94,6 +94,15 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
   font-family:inherit; font-size:14px; }
 .sok::placeholder { color:var(--dempet); opacity:1; }
 @media (hover: none) { .sok { font-size:16px; } }
+/* Eget kryss i stedet for nettleserens, som ser ulikt ut (og mangler på iOS) */
+.sok-rad { position:relative; }
+.sok { padding-right:40px; }
+.sok::-webkit-search-cancel-button { -webkit-appearance:none; appearance:none; }
+.sok-tom { position:absolute; top:0; right:0; width:40px; height:36px; border:0; padding:0; background:none;
+  font-size:22px; line-height:1; color:var(--dempet); cursor:pointer; }
+.sok-tom[hidden] { display:none; }
+.sok-tom:focus-visible { outline:2px solid var(--aksent); outline-offset:-2px; }
+@media (hover: hover) and (pointer: fine) { .sok-tom:hover { color:var(--aksent); } }
 
 .tegnforklaring { display:flex; flex-wrap:wrap; gap:14px; font-size:12px; color:var(--dempet); }
 .tegnforklaring span { display:inline-flex; align-items:center; gap:6px; }
@@ -276,7 +285,10 @@ ul.hend { margin:0; padding-left:16px; font-size:13px; line-height:1.45; }
       <div class="filtergruppe" id="regioner" role="group" data-t-aria="region" aria-label="Region"></div>
       <p class="gruppe-etikett" data-t="utvalg" id="utvalg-etikett" hidden>Vis</p>
       <div class="filtergruppe" id="utvalg" role="group" data-t-aria="utvalg" aria-label="Vis" hidden></div>
-      <input type="search" class="sok" id="sok" data-t-aria="sok" data-t-placeholder="sokPlass" aria-label="Søk" placeholder="Søk etter land eller sted" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <div class="sok-rad">
+        <input type="search" class="sok" id="sok" data-t-aria="sok" data-t-placeholder="sokPlass" aria-label="Søk" placeholder="Søk etter land eller sted" autocomplete="off" spellcheck="false" enterkeyhint="search">
+        <button type="button" class="sok-tom" id="sok-tom" data-t-aria="tomSok" aria-label="Tøm søket" hidden>&times;</button>
+      </div>
       <div class="tegnforklaring">
         <span><i class="prikk" style="background:var(--beste)"></i><span data-t="best">≥ 4,4 best</span></span>
         <span><i class="prikk" style="background:var(--god)"></i><span data-t="bra">≥ 4,0 bra</span></span>
@@ -340,7 +352,7 @@ const TEKST = {
     mndLang: ["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"],
     alle: "Alle",
     utvalg: "Vis", alleReisemal: "Alle reisemål", onskeliste: "Ønskeliste",
-    sok: "Søk", sokPlass: "Søk etter land eller sted",
+    sok: "Søk", tomSok: "Tøm søket", sokPlass: "Søk etter land eller sted",
     ingenTreff: q => `Ingen treff på «${q}» i dette utvalget.`,
     treffAlle: n => `Vis ${n} treff i alle reisemål`,
     visAlle: "Vis alle", bareGronne: "Vis bare grønne",
@@ -368,7 +380,7 @@ const TEKST = {
     mndLang: ["January","February","March","April","May","June","July","August","September","October","November","December"],
     alle: "All",
     utvalg: "Show", alleReisemal: "All destinations", onskeliste: "Wishlist",
-    sok: "Search", sokPlass: "Search for a country or place",
+    sok: "Search", tomSok: "Clear search", sokPlass: "Search for a country or place",
     ingenTreff: q => `No matches for “${q}” in this selection.`,
     treffAlle: n => `Show ${n} ${n === 1 ? "match" : "matches"} in all destinations`,
     visAlle: "Show all", bareGronne: "Show only green",
@@ -1100,9 +1112,15 @@ function oppdater() {
 let sokTimer = null;
 function sok() {
   state.sok = document.getElementById("sok").value;
+  document.getElementById("sok-tom").hidden = !state.sok;
   tegnListe(); clearTimeout(sokTimer); sokTimer = setTimeout(tegnKart, 150);
 }
 document.getElementById("sok").addEventListener("input", sok);
+// Krysset tømmer søket og lar fokus bli i feltet, så man kan skrive på nytt med en gang.
+document.getElementById("sok-tom").addEventListener("click", () => {
+  const felt = document.getElementById("sok");
+  felt.value = ""; felt.focus(); sok();
+});
 window.addEventListener("pageshow", () => { if (document.getElementById("sok").value !== state.sok) sok(); });
 
 const LIGGENDE = window.matchMedia("(orientation: landscape) and (max-height: 500px)");
