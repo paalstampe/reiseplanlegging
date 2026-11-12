@@ -691,9 +691,10 @@ function fokuser(id) {
   const [lat, lon] = DATA_KOORD[id];
   const opt = kart.getOption();
   const zoom = Math.max(opt.geo[0].zoom || 1, 2.2);
+  stoppAnimasjon();
   kart.setOption({ geo: { center: [lon, lat], zoom } });
   holdInnenfor();
-  const ut = document.getElementById("zoom-ut"); if (ut) ut.disabled = false;
+  oppdaterZoomKnapper();
 }
 
 /* Offline: sw.js lagrer siden, bibliotekene og fontene (se kommentaren der). Det siden har lastet
@@ -758,12 +759,15 @@ function visKartFeil(e) {
   el.insertAdjacentHTML("afterend", `<div class="kart-feil">${t("kartFeil")(esc(e && e.message || e))}</div>`);
 }
 
-// Touch (mobil/nettbrett): ingen hover-tooltip, trykk åpner detaljkortet, egen dempet pinch/pan.
-// Mus (PC): tooltip etter kort pause i hover, klikk åpner detaljkortet og skjuler tooltip.
+// Touch (mobil/nettbrett): ingen hover-tooltip, trykk åpner detaljkortet, egen pinch/pan med fart etter slipp
+// og dobbelttrykk for å zoome inn – som MapLibre i byguidene.
+// Mus (PC): tooltip etter kort pause i hover, klikk åpner detaljkortet og skjuler tooltip; hjul og styreflate zoomer trinnløst.
 const TOUCH = window.matchMedia("(hover: none) and (pointer: coarse)").matches;
 const HOVER_FORSINKELSE = 400;   // ms før tooltip vises på PC
-const PINCH_DEMPING = 0.6;       // <1 = mindre følsom zoom (eksponent på fingeravstand-forholdet)
 const ZOOM_MIN = 1, ZOOM_MAX = 12;
+const ZOOM_TID = 250;            // ms for animert zoom (knapper, dobbelttrykk)
+const GLI_TID = 325;             // tidskonstant (ms) for farten som dør ut etter at fingeren slipper
+const REDUSERT = window.matchMedia("(prefers-reduced-motion: reduce)");
 let sisteGestus = 0;             // tidspunkt for siste pan/pinch – undertrykker «klikk» rett etter
 
 // Kartet går rundt jorda øst–vest: verdenskartet og prikkene tegnes tre ganger side om side
@@ -819,7 +823,7 @@ function initKart() {
   kart.setOption({
     backgroundColor: css("--kartflate"), animation: false,
     geo: {
-      map: "verden", roam: TOUCH ? false : true, ...kartStorrelse(el), boundingCoords: [[-180, 80], [180, -70]], scaleLimit: { min: ZOOM_MIN, max: ZOOM_MAX },
+      map: "verden", roam: TOUCH ? false : "move", ...kartStorrelse(el), boundingCoords: [[-180, 80], [180, -70]], scaleLimit: { min: ZOOM_MIN, max: ZOOM_MAX },
       itemStyle: { areaColor: css("--land"), borderColor: css("--landkant"), borderWidth: 0.6 },
       emphasis: { disabled: true }, select: { disabled: true }, silent: true, label: { show: false }
     },
@@ -876,7 +880,7 @@ function initKart() {
     if (!n) { skjulTip(); lukkDetalj(); return; }   // trykk på tomt kart lukker kortet
     skjulTip(); visDetalj(n.name); tegnListe(); tegnKart();
   });
-  if (TOUCH) touchRoam(el);
+  if (TOUCH) touchRoam(el); else hjulZoom(el, skjulTip);
   new ResizeObserver(() => { kart.resize(); kart.setOption({ geo: kartStorrelse(el) }); holdInnenfor(); }).observe(el);
   // Bytter enheten mellom lys og mørk modus, leses fargene på nytt (ECharts tar ikke CSS-variabler selv).
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
@@ -890,59 +894,139 @@ function initKart() {
   zoomKnapper(el, skjulTip);
 }
 
+const kartMidt = () => [kart.getWidth() / 2, kart.getHeight() / 2];   // i lerretets piksler
+const naaZoom = () => kart.getOption().geo[0].zoom || 1;
+const begrens = z => Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, z));
+const myk = t => 1 - (1 - t) ** 3;   // ease-out
+let oppdaterZoomKnapper = () => {};
+
+// Zoomer til `zoom` slik at stedet under px (lerretets piksler) blir liggende, og holder kartet innenfor.
+// Geo-kartet er lineært i lon/lat, så det holder å flytte senteret med forskjellen.
+function zoomRundt(px, zoom) {
+  const c = kart.getOption().geo[0].center || kart.convertFromPixel({ geoIndex: 0 }, kartMidt());
+  const foer = kart.convertFromPixel({ geoIndex: 0 }, px);
+  kart.setOption({ geo: { zoom: begrens(zoom), center: c } }, { silent: true });
+  const etter = kart.convertFromPixel({ geoIndex: 0 }, px);
+  kart.setOption({ geo: { center: [c[0] + foer[0] - etter[0], c[1] + foer[1] - etter[1]] } }, { silent: true });
+  holdInnenfor();
+  oppdaterZoomKnapper();
+}
+
+// Én animasjon om gangen (zoom eller gli etter slipp). stopp() låser kartet der animasjonen er kommet.
+let animasjon = null;
+const stoppAnimasjon = () => { if (animasjon) animasjon.stopp(); };
+function animer(varighet, steg, slutt) {
+  stoppAnimasjon();
+  const t0 = performance.now();
+  let raf = 0, ferdig = false;
+  const avslutt = () => { if (ferdig) return; ferdig = true; cancelAnimationFrame(raf); animasjon = null; slutt(); };
+  const ramme = naa => { const t = Math.min(1, (naa - t0) / varighet); steg(t); if (t < 1) raf = requestAnimationFrame(ramme); else avslutt(); };
+  raf = requestAnimationFrame(ramme);
+  return (animasjon = { stopp: avslutt });
+}
+
+// Flytter/skalerer det ferdige kartbildet med CSS-transform (touch): punktet `fra` havner på `til`, skalert k,
+// med samme nord–sør-grense som holdInnenfor() bruker når kartet tegnes på nytt.
+function flyttBilde(fra, til, k, topp, bunn) {
+  const lag = kart.getDom();
+  const tx = til[0] - k * fra[0];
+  let ty = til[1] - k * fra[1];
+  ty += vertikalJustering(ty + k * topp, ty + k * bunn, lag.clientHeight);
+  lag.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${k})`;
+}
+const kantPiksler = () => [LAT_TOPP, LAT_BUNN].map(lat => kart.convertToPixel({ geoIndex: 0 }, [0, lat])[1]);
+
+// Animert zoom rundt px, som i byguidene. PC tegner kartet hver ramme; touch skalerer bildet med CSS
+// (omtegning per ramme er for tregt på iPhone) og tegner én gang til slutt.
+function animerZoom(px, zoom) {
+  stoppAnimasjon();
+  const z0 = naaZoom(), z1 = begrens(zoom);
+  if (Math.abs(z1 - z0) < 1e-6) return;
+  if (REDUSERT.matches) return zoomRundt(px, z1);
+  const zoomVed = t => z0 * Math.pow(z1 / z0, myk(t));
+  let z = z0;
+  if (TOUCH) {
+    const [topp, bunn] = kantPiksler();
+    animer(ZOOM_TID, t => { z = zoomVed(t); flyttBilde(px, px, z / z0, topp, bunn); },
+      () => { zoomRundt(px, z); kart.getDom().style.transform = ""; });
+  } else {
+    animer(ZOOM_TID, t => { z = zoomVed(t); zoomRundt(px, z); }, () => {});
+  }
+  animasjon.maalZoom = z1;
+}
+// Zoomnivået kartet er på vei til (midt i en animasjon) eller står på.
+const maalZoom = () => (animasjon && animasjon.maalZoom) || naaZoom();
+
 // +/− zoomer (faktor 2, som ett zoomnivå i byguidene) rundt midten av kartet; «Vis hele kartet» går tilbake til start.
 function zoomKnapper(el, skjulTip) {
-  const midt = () => kart.convertFromPixel({ geoIndex: 0 }, [kart.getWidth() / 2, kart.getHeight() / 2]);
-  const startSenter = midt();
-  const naaZoom = () => kart.getOption().geo[0].zoom || 1;
+  const startSenter = kart.convertFromPixel({ geoIndex: 0 }, kartMidt());
   const inn = document.getElementById("zoom-inn"), ut = document.getElementById("zoom-ut");
-  const oppdaterKnapper = () => { const z = naaZoom(); inn.disabled = z >= ZOOM_MAX - 1e-6; ut.disabled = z <= ZOOM_MIN + 1e-6; };
-  const sett = (zoom, center) => {
-    skjulTip();
-    kart.setOption({ geo: { zoom: Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, zoom)), center } });
-    holdInnenfor();
-    oppdaterKnapper();
-  };
-  inn.addEventListener("click", () => sett(naaZoom() * 2, midt()));
-  ut.addEventListener("click", () => sett(naaZoom() / 2, midt()));
-  document.getElementById("zoom-hjem").addEventListener("click", () => sett(1, startSenter));
-  kart.on("georoam", oppdaterKnapper);
-  el.addEventListener("touchend", () => setTimeout(oppdaterKnapper, 0), { passive: true });
+  oppdaterZoomKnapper = () => { const z = naaZoom(); inn.disabled = z >= ZOOM_MAX - 1e-6; ut.disabled = z <= ZOOM_MIN + 1e-6; };
+  inn.addEventListener("click", () => { skjulTip(); animerZoom(kartMidt(), maalZoom() * 2); });
+  ut.addEventListener("click", () => { skjulTip(); animerZoom(kartMidt(), maalZoom() / 2); });
+  document.getElementById("zoom-hjem").addEventListener("click", () => {
+    skjulTip(); stoppAnimasjon();
+    kart.setOption({ geo: { zoom: 1, center: startSenter } }); holdInnenfor(); oppdaterZoomKnapper();
+  });
+  kart.on("georoam", oppdaterZoomKnapper);
   document.getElementById("kontroller").hidden = false;
-  oppdaterKnapper();
+  oppdaterZoomKnapper();
+}
+
+// PC: hjul og styreflate zoomer trinnløst rundt pekeren (ECharts' egen hjulzoom hopper 10–40 % per hendelse).
+// Hendelsene samles og kartet glir mot målet over noen rammer, så et musehjul også føles mykt.
+// Knip på styreflaten kommer som hjul med ctrlKey (Chrome, Firefox) eller som gesture-hendelser (Safari).
+function hjulZoom(el, skjulTip) {
+  let rest = 0, px = null, raf = 0;   // rest: zoom (logaritmisk) som gjenstår
+  const tegn = () => {
+    const z = naaZoom();
+    const del = REDUSERT.matches || Math.abs(rest) < 0.002 ? rest : rest * 0.35;
+    rest -= del;
+    zoomRundt(px, z * Math.exp(del));
+    if (naaZoom() === z) rest = 0;   // står mot grensen
+    raf = rest ? requestAnimationFrame(tegn) : 0;
+  };
+  const zoom = (e, del) => {
+    e.preventDefault(); stoppAnimasjon(); skjulTip();
+    const r = el.getBoundingClientRect();
+    px = [e.clientX - r.left, e.clientY - r.top];
+    rest += del;
+    if (!raf) raf = requestAnimationFrame(tegn);
+  };
+  el.addEventListener("wheel", e => {
+    const d = e.deltaY * (e.deltaMode === 1 ? 40 : e.deltaMode === 2 ? 800 : 1);   // linjer/sider → piksler
+    zoom(e, -d * (e.ctrlKey ? 0.01 : 0.003));
+  }, { passive: false });
+  let skala = 1;
+  el.addEventListener("gesturestart", e => { e.preventDefault(); skala = 1; }, { passive: false });
+  el.addEventListener("gesturechange", e => { zoom(e, Math.log(e.scale / skala)); skala = e.scale; }, { passive: false });
 }
 
 // Egen pinch/pan for touch. Under gesten flyttes/skaleres det ferdige kartbildet med CSS-transform
 // (GPU, ingen omtegning); når fingrene slipper tegnes kartet én gang med ny zoom/senter.
-// Geo-kartet er lineært i lon/lat, så zoom rundt et punkt: c' = p + (c − p)·z/z'.
+// Som i MapLibre: kartet følger fingrene 1:1, glir videre og bremser etter et sveip, og dobbelttrykk zoomer inn.
 function touchRoam(el) {
-  const lag = el.firstElementChild;   // lerretet ECharts tegner i (bredere enn flaten, se initKart)
+  const lag = kart.getDom();   // lerretet ECharts tegner i (bredere enn flaten, se initKart)
   lag.style.transformOrigin = "0 0";
-  let start = null, siste = null, raf = 0;
+  let start = null, siste = null, raf = 0, spor = [], forrigeTrykk = null;
   const pkt = t => { const r = el.getBoundingClientRect(); return [t.clientX - r.left - lag.offsetLeft, t.clientY - r.top]; };   // i lerretets koordinater
   const tilGeo = px => kart.convertFromPixel({ geoIndex: 0 }, px);
-  const visning = () => { const g = kart.getOption().geo[0]; return { zoom: g.zoom || 1, center: g.center || tilGeo([kart.getWidth() / 2, kart.getHeight() / 2]) }; };
+  const visning = () => { const g = kart.getOption().geo[0]; return { zoom: g.zoom || 1, center: g.center || tilGeo(kartMidt()) }; };
   const tilstand = e => {
     const a = pkt(e.touches[0]);
     if (e.touches.length < 2) return { mid: a, dist: 0, n: 1 };
     const b = pkt(e.touches[1]);
     return { mid: [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], dist: Math.hypot(a[0] - b[0], a[1] - b[1]), n: 2 };
   };
-  const nyZoom = t => (t.n === 2 && start.n === 2 && start.dist > 0)
-    ? Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, start.zoom * Math.pow(t.dist / start.dist, PINCH_DEMPING)))
-    : start.zoom;
-  const begynn = e => {
-    start = { ...tilstand(e), ...visning(), flyttet: false }; start.midGeo = tilGeo(start.mid); siste = null;
-    start.topp = kart.convertToPixel({ geoIndex: 0 }, [0, LAT_TOPP])[1];
-    start.bunn = kart.convertToPixel({ geoIndex: 0 }, [0, LAT_BUNN])[1];
+  const nyZoom = t => (t.n === 2 && start.n === 2 && start.dist > 0) ? begrens(start.zoom * t.dist / start.dist) : start.zoom;
+  // fortsatt: fingrene var allerede i gang (1↔2 fingre), så det som følger er ikke et trykk.
+  const begynn = (e, fortsatt) => {
+    start = { ...tilstand(e), ...visning(), flyttet: false, fortsatt }; start.midGeo = tilGeo(start.mid); siste = null; spor = [];
+    [start.topp, start.bunn] = kantPiksler();
   };
   const tegnTransform = () => {
     raf = 0; if (!siste || !start) return;
-    const k = nyZoom(siste) / start.zoom;
-    const tx = siste.mid[0] - k * start.mid[0];
-    let ty = siste.mid[1] - k * start.mid[1];
-    ty += vertikalJustering(ty + k * start.topp, ty + k * start.bunn, el.clientHeight);   // samme grense som ved slipp
-    lag.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${k})`;
+    flyttBilde(start.mid, siste.mid, nyZoom(siste) / start.zoom, start.topp, start.bunn);
   };
   const fullfor = () => {   // tegn kartet én gang i ny tilstand og nullstill transformen
     if (raf) { cancelAnimationFrame(raf); raf = 0; }
@@ -951,23 +1035,58 @@ function touchRoam(el) {
       const naa = tilGeo(siste.mid), c = kart.getOption().geo[0].center || start.center;
       kart.setOption({ geo: { center: [c[0] + start.midGeo[0] - naa[0], c[1] + start.midGeo[1] - naa[1]] } }, { silent: true });
       holdInnenfor();
+      oppdaterZoomKnapper();
       sisteGestus = Date.now();
     }
     lag.style.transform = "";
   };
-  el.addEventListener("touchstart", e => { if (start) fullfor(); begynn(e); }, { passive: true });
+  // Etter et sveip med én finger glir kartet videre med farten fingeren hadde og bremser jevnt (eksponentielt).
+  const gli = () => {
+    const b = spor[spor.length - 1];
+    if (!b || REDUSERT.matches || performance.now() - b.t > 60) return false;   // fingeren sto stille før slipp
+    const a = spor.find(s => s.t >= b.t - 100), dt = b.t - a.t;
+    if (dt < 16) return false;
+    let vx = (b.mid[0] - a.mid[0]) / dt, vy = (b.mid[1] - a.mid[1]) / dt;   // px per ms
+    const fart = Math.hypot(vx, vy), MAKS = 2.5;
+    if (fart < 0.15) return false;
+    if (fart > MAKS) { vx *= MAKS / fart; vy *= MAKS / fart; }
+    const fra = siste.mid, norm = 1 - Math.exp(-4);
+    animer(GLI_TID * 4, t => {
+      const f = GLI_TID * (1 - Math.exp(-4 * t)) / norm;
+      siste = { ...siste, mid: [fra[0] + vx * f, fra[1] + vy * f] };
+      tegnTransform();
+    }, () => { fullfor(); start = null; });
+    return true;
+  };
+  const trykk = p => {   // to trykk tett etter hverandre zoomer inn ett nivå rundt trykket
+    const naa = Date.now();
+    if (forrigeTrykk && naa - forrigeTrykk.t < 300 && Math.hypot(p[0] - forrigeTrykk.p[0], p[1] - forrigeTrykk.p[1]) < 30) {
+      forrigeTrykk = null; sisteGestus = naa;   // andre trykk skal ikke også åpne eller lukke detaljkortet
+      animerZoom(p, maalZoom() * 2);
+    } else forrigeTrykk = { t: naa, p };
+  };
+  el.addEventListener("touchstart", e => { stoppAnimasjon(); if (start) fullfor(); begynn(e, false); }, { passive: true });
   el.addEventListener("touchmove", e => {
     if (!start) return;
     const t = tilstand(e);
-    if (t.n !== start.n) { fullfor(); begynn(e); return; }   // 1↔2 fingre: lås inn og start på nytt
+    if (t.n !== start.n) { fullfor(); begynn(e, true); return; }   // 1↔2 fingre: lås inn og start på nytt
     if (!start.flyttet && Math.hypot(t.mid[0] - start.mid[0], t.mid[1] - start.mid[1]) < 6 && Math.abs(t.dist - start.dist) < 6) return;
     start.flyttet = true; sisteGestus = Date.now();
     e.preventDefault();
     siste = t; if (!raf) raf = requestAnimationFrame(tegnTransform);
+    if (t.n === 1) { const naa = performance.now(); spor.push({ t: naa, mid: t.mid }); spor = spor.filter(s => s.t > naa - 150); }
   }, { passive: false });
-  const slutt = e => { fullfor(); if (e.touches.length) begynn(e); else start = null; };
-  el.addEventListener("touchend", slutt, { passive: true });
-  el.addEventListener("touchcancel", slutt, { passive: true });
+  // capture: kjøres før zrender gjør trykket om til klikk, så dobbelttrykk rekker å stoppe klikket.
+  const slutt = e => {
+    if (!start) return;
+    if (e.touches.length) { fullfor(); begynn(e, true); return; }
+    if (e.type === "touchend" && start.flyttet && start.n === 1 && gli()) return;
+    const varTrykk = e.type === "touchend" && !start.flyttet && !start.fortsatt && start.n === 1, p = start.mid;
+    fullfor(); start = null;
+    if (varTrykk) trykk(p);
+  };
+  el.addEventListener("touchend", slutt, { passive: true, capture: true });
+  el.addEventListener("touchcancel", slutt, { passive: true, capture: true });
   // iOS Safari: hindre at hele siden zoomes når man kniper på kartet.
   ["gesturestart", "gesturechange"].forEach(n => el.addEventListener(n, e => e.preventDefault(), { passive: false }));
 }
