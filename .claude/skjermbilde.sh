@@ -1,12 +1,15 @@
 #!/bin/bash
 # Skjermbilde av en side på stam.pe eller en lokal kopi. Virker både i Claude Code-containeren
 # i skyen og lokalt (Mac).
-# Bruk: .claude/skjermbilde.sh <url> <fil.png> [bredde] [høyde] [hel] [mork]
+# Bruk: .claude/skjermbilde.sh <url> <fil.png> [bredde] [høyde] [hel] [mork] [kart=zoom,lon,lat] [mnd=1-12]
 #   hel = hele siden, mork = mørk modus (prefers-color-scheme: dark); i valgfri rekkefølge.
+#   kart = kartutsnitt via settVisning() (zoom 1–12, senter i lengde-/breddegrad), mnd = valgt måned (1 = januar).
 #   f.eks. .claude/skjermbilde.sh https://stam.pe/reiseplanlegging/ kart.png 390 844        (mobil)
 #          .claude/skjermbilde.sh https://stam.pe/reiseplanlegging/ kart.png 1300 900 hel  (hele siden)
 #          .claude/skjermbilde.sh https://stam.pe/reiseplanlegging/ kart-mork.png 390 844 mork  (mørk modus)
 #          .claude/skjermbilde.sh http://localhost:8001/ kart.png 390 844                  (lokalt)
+#          .claude/skjermbilde.sh https://stam.pe/reiseplanlegging/ v-afrika.png 390 844 kart=12,6,6 mnd=12
+#                                                         (Vest-Afrika på dypeste zoom i desember)
 # Lokal kopi: kjør først «python3 lag_reisekart.py» og «python3 -m http.server 8001» i reiseplanlegging/.
 #
 # Krever Node og Playwright med Chromium. I skyen er det ferdig installert. På Macen, én gang:
@@ -29,11 +32,17 @@ bredde="${3:-1300}"
 hoyde="${4:-900}"
 hel=""
 mork=""
+kart=""
+mnd=""
 for valg in "${@:5}"; do
   case "$valg" in
     hel) hel=hel ;;
     mork) mork=mork ;;
-    *) echo "Ukjent valg «$valg» (bruk hel og/eller mork)" >&2; exit 1 ;;
+    kart=*) kart="${valg#kart=}"
+      [[ "$kart" =~ ^[0-9.]+,-?[0-9.]+,-?[0-9.]+$ ]] || { echo "kart= må være zoom,lon,lat (f.eks. kart=12,6,6)" >&2; exit 1; } ;;
+    mnd=*) mnd="${valg#mnd=}"
+      [[ "$mnd" =~ ^([1-9]|1[0-2])$ ]] || { echo "mnd= må være 1–12" >&2; exit 1; } ;;
+    *) echo "Ukjent valg «$valg» (bruk hel, mork, kart=zoom,lon,lat og/eller mnd=1-12)" >&2; exit 1 ;;
   esac
 done
 
@@ -63,7 +72,7 @@ if [ -n "${HTTPS_PROXY:-}" ] && [ -f "$ca" ]; then
   done | sort -u | paste -sd, -)
 fi
 
-URL="$url" FIL="$fil" BREDDE="$bredde" HOYDE="$hoyde" HEL="$hel" MORK="$mork" PROXY="$proxy" SPKI="$spki" \
+URL="$url" FIL="$fil" BREDDE="$bredde" HOYDE="$hoyde" HEL="$hel" MORK="$mork" KART="$kart" MND="$mnd" PROXY="$proxy" SPKI="$spki" \
 NODE_PATH="$(npm root -g)" node - <<'JS'
 const { chromium } = require('playwright');
 (async () => {
@@ -83,6 +92,12 @@ const { chromium } = require('playwright');
   side.on('pageerror', f => feil.push('JS: ' + f.message));
   await side.goto(e.URL, { waitUntil: 'networkidle', timeout: 60000 });
   await side.waitForTimeout(1500);
+  if (e.MND) await side.evaluate(m => { state.mnd = m - 1; oppdater(); }, +e.MND);
+  if (e.KART) {
+    const [zoom, lon, lat] = e.KART.split(',').map(Number);
+    await side.evaluate(([z, c]) => settVisning(z, c), [zoom, [lon, lat]]);
+  }
+  if (e.MND || e.KART) await side.waitForTimeout(500);
   await side.screenshot({ path: e.FIL, fullPage: e.HEL === 'hel' });
   await nettleser.close();
   for (const f of feil) console.error('Feil: ' + f);
