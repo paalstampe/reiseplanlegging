@@ -1,6 +1,6 @@
 ---
 name: nytt-reisemal
-description: Lag ett eller flere nye reisemål i reisemal/<ID>.json (klimanormaler, scorer, begrunnelser på norsk og engelsk, vinduer). Bruk når reisemål fra landliste.tsv skal fylles inn, eller når Pål vil ha et nytt reisemål.
+description: Lag ett eller flere nye reisemål i reisemal/<ID>.json (klimanormaler, scorer, begrunnelser på norsk og engelsk, vinduer), eller del, slå sammen eller gi ny ID til reisemål. Bruk når reisemål fra landliste.tsv skal fylles inn, når Pål vil ha et nytt reisemål, eller når et reisemål skal deles opp eller slås sammen med et annet.
 ---
 
 # Nytt reisemål
@@ -60,3 +60,12 @@ Formatet er beskrevet i HANDOVER.md, Datamodell. Se på to–tre eksisterende fi
 - Kjør `python3 lag_reisekart.py`: ingen feilmelding og ingen «Mangler engelsk». Den oppdaterer også `index.html` og `Reisemål.md`.
 - Bygg regnearket (`python3 bygg_reisekalender.py`, krever openpyxl) og commit alt sammen. Data går rett til main (CLAUDE.md).
 - Si fra om proxy-stasjoner, gamle serier og usikre datoer, og før dem opp under Åpne spørsmål i NOTES.md.
+
+## 7. Dele, slå sammen eller gi ny ID
+
+- Skriv de nye eller endrede `reisemal/<ID>.json` først (steg 1–6; ved sammenslåing: oppdater målet, f.eks. `sted`, kilde,
+  vinduer og `onskeliste`). Hører det gamle reisemålet til ønskelisten, skal de nye også ha `onskeliste: true`.
+- Kjør så `python3 .claude/skills/nytt-reisemal/omorganiser.py GAMMEL=NY1,NY2 …` (deling: `VNM=VNM-N,VNM-C,VNM-S`,
+  sammenslåing eller ny ID: `USA-CHS=USA-SOR`). Skriptet sletter den gamle fila, bytter ID-en i `felles_vinduer.json`,
+  oppdaterer `landliste.tsv` og lager tabellene i `Landliste.md` på nytt, retter antallene i CLAUDE.md og bygger alt.
+- Rett for hånd der skriptet viser at den gamle ID-en fortsatt står, og skriv endringen i HANDOVER.md (Navneendringer).

@@ -213,7 +213,7 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 | LKA-O | Sri Lanka | Østkysten | finnes |  |
 | KOR | Sør-Korea |  |  |  |
 | TJK | Tadsjikistan |  |  |  |
-| TWN | Taiwan |  |  |  Ekstra (ikke FN-land). |
+| TWN | Taiwan |  |  | Ekstra (ikke FN-land). |
 | THA-N | Thailand | Bangkok og nord (Chiang Mai) |  |  |
 | THA-AND | Thailand | Andamanhavet (Phuket, Krabi) |  |  |
 | THA-GOT | Thailand | Thailandbukta (Koh Samui) |  |  |
@@ -234,7 +234,7 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 | AUS-WA | Australia | Perth og vestkysten |  |  |
 | AUS-TAS | Australia | Tasmania |  |  |
 | FJI | Fiji |  |  |  |
-| PYF | Fransk Polynesia |  | finnes |  Ekstra (ikke FN-land). |
+| PYF | Fransk Polynesia |  | finnes | Ekstra (ikke FN-land). |
 | KIR | Kiribati |  |  |  |
 | MHL | Marshalløyene |  |  |  |
 | FSM | Mikronesiaføderasjonen |  |  |  |
@@ -299,7 +299,7 @@ Reisemål for alle FN-land: 193 medlemmer + Vatikanstaten og Palestina = 195 lan
 
 | ID | Land | Del | | Merknad |
 |---|---|---|---|---|
-| ATA | Antarktis | Antarktishalvøya (via Ushuaia) | finnes |  Ekstra (ikke FN-land). |
+| ATA | Antarktis | Antarktishalvøya (via Ushuaia) | finnes | Ekstra (ikke FN-land). |
 | ARG-BA | Argentina | Buenos Aires og Mendoza |  |  |
 | ARG-PAT | Argentina | Patagonia |  |  |
 | ARG-NO | Argentina | Salta og Jujuy |  |  |

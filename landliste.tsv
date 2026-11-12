@@ -141,7 +141,7 @@ Asia	IND-KER	India	Kerala	ny
 Asia	IND-LAD	India	Ladakh	ny	
 Asia	IDN-BAL	Indonesia	Bali og Lombok	ny	
 Asia	IDN-JAV	Indonesia	Java (Yogyakarta)	ny	
-Asia	IDN-KOM	Indonesia	Nusa Tenggara (Komodo, Flores, Rote)	ny	
+Asia	IDN-KOM	Indonesia	Nusa Tenggara (Komodo, Flores, Rote)	finnes	
 Asia	IDN-RAJ	Indonesia	Raja Ampat	ny	
 Asia	JPN	Japan	Tokyo og Kyoto	ny	
 Asia	JPN-HOK	Japan	Hokkaido	ny	
@@ -167,7 +167,7 @@ Asia	LKA-SV	Sri Lanka	Vest- og sørkysten, høylandet	finnes
 Asia	LKA-O	Sri Lanka	Østkysten	finnes	
 Asia	KOR	Sør-Korea		ny	
 Asia	TJK	Tadsjikistan		ny	
-Asia	TWN	Taiwan		ny	
+Asia	TWN	Taiwan		ny	Ekstra (ikke FN-land).
 Asia	THA-N	Thailand	Bangkok og nord (Chiang Mai)	ny	
 Asia	THA-AND	Thailand	Andamanhavet (Phuket, Krabi)	ny	
 Asia	THA-GOT	Thailand	Thailandbukta (Koh Samui)	ny	
@@ -183,7 +183,7 @@ Oseania	AUS-NT	Australia	Uluru og Red Centre	ny
 Oseania	AUS-WA	Australia	Perth og vestkysten	ny	
 Oseania	AUS-TAS	Australia	Tasmania	ny	
 Oseania	FJI	Fiji		ny	
-Oseania	PYF	Fransk Polynesia		finnes	
+Oseania	PYF	Fransk Polynesia		finnes	Ekstra (ikke FN-land).
 Oseania	KIR	Kiribati		ny	
 Oseania	MHL	Marshalløyene		ny	
 Oseania	FSM	Mikronesiaføderasjonen		ny	
@@ -201,7 +201,7 @@ Nord-Amerika	CAN-W	Canada	Rockies (Banff, Jasper)	ny
 Nord-Amerika	CAN-O	Canada	Québec og Ontario	ny	
 Nord-Amerika	CAN-N	Canada	Yukon (nordlys)	ny	
 Nord-Amerika	USA-NYC	USA	New York og nordøst	ny	
-Nord-Amerika	USA-SOR	USA	Sørstatene (New Orleans, Nashville, Charleston, Savannah)	ny	
+Nord-Amerika	USA-SOR	USA	Sørstatene (New Orleans, Nashville, Charleston, Savannah)	finnes	
 Nord-Amerika	USA-FL	USA	Florida	ny	
 Nord-Amerika	USA-SW	USA	Sørvest (Grand Canyon, Utah)	ny	
 Nord-Amerika	USA-RM	USA	Rocky Mountains (Yellowstone)	ny	
@@ -233,7 +233,7 @@ Mellom-Amerika og Karibia	KNA	St. Kitts og Nevis		ny
 Mellom-Amerika og Karibia	LCA	St. Lucia		ny	
 Mellom-Amerika og Karibia	VCT	St. Vincent og Grenadinene		ny	
 Mellom-Amerika og Karibia	TTO	Trinidad og Tobago		ny	
-Sør-Amerika	ATA	Antarktis	Antarktishalvøya (via Ushuaia)	finnes	
+Sør-Amerika	ATA	Antarktis	Antarktishalvøya (via Ushuaia)	finnes	Ekstra (ikke FN-land).
 Sør-Amerika	ARG-BA	Argentina	Buenos Aires og Mendoza	ny	
 Sør-Amerika	ARG-PAT	Argentina	Patagonia	ny	
 Sør-Amerika	ARG-NO	Argentina	Salta og Jujuy	ny	
