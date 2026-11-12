@@ -166,6 +166,7 @@ html, body { margin:0; height:100%; background:var(--papir); color:var(--tekst);
 .strip-celle.god { background:var(--god); color:#12301d; }
 .strip-celle.beste { background:var(--beste); color:#fff; }
 .strip-celle.valgt { border-color:var(--tekst); }
+.strip-celle.topp { box-shadow:inset 0 0 0 2px var(--god); }
 .strip-akse { display:grid; grid-template-columns:repeat(12, 1fr); gap:2px; font-size:9px; color:var(--dempet); text-align:center; margin-top:2px; text-transform:uppercase; letter-spacing:.04em; }
 button.strip-celle { padding:0; font-family:inherit; cursor:pointer; }
 
@@ -436,8 +437,8 @@ const fmt = x => x == null ? "–" : desimal(x.toFixed(1));
 const klasse = s => s == null ? "" : s >= BESTE - EPS ? "beste" : s >= GOD - EPS ? "god" : "";
 // Toppsesong: opplevelsen er på topp (5), men været (klima ≤ 3) holder samlet under 4,0 (f.eks. ski på Hokkaido i januar).
 // Vises som grønn ring rundt grå prikk og merket «Toppsesong»; endrer ikke scoren.
-const erToppsesong = (d, r) => { const [k, o] = d.m[state.mnd]; return r.snitt < GOD - EPS && o === 5 && k <= 3; };
-const toppMerke = (d, r) => erToppsesong(d, r) ? ` <span class="merke">${t("toppsesong")}</span>` : "";
+const erToppsesong = (d, s, mnd = state.mnd) => { const [k, o] = d.m[mnd]; return s != null && s < GOD - EPS && o === 5 && k <= 3; };
+const toppMerke = (d, r) => erToppsesong(d, r.snitt) ? ` <span class="merke">${t("toppsesong")}</span>` : "";
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 const [WK, WO, WT] = DATA.weights, CAP = DATA.cap;
@@ -530,7 +531,7 @@ function rader() {
 function stripHtml(d, knapp) {
   const p = aarsprofil(d, state.ar);
   const celler = p.map((s, i) => {
-    const cls = `strip-celle ${klasse(s)} ${i === state.mnd ? "valgt" : ""}`;
+    const cls = `strip-celle ${klasse(s)} ${erToppsesong(d, s, i) ? "topp" : ""} ${i === state.mnd ? "valgt" : ""}`;
     return knapp
       ? `<button type="button" class="${cls}" data-mnd="${i}" title="${t("mndLang")[i]}: ${fmt(s)}">${fmt(s)}</button>`
       : `<div class="${cls}">${fmt(s)}</div>`;
@@ -685,7 +686,7 @@ function punktData() {
   // Rekkefølgen er prioriteten i etikettplasseringen: valgt først, så etter score.
   const rr = rader().slice().sort((a, b) => (b.d.id === state.valgt) - (a.d.id === state.valgt) || (b.r.snitt ?? 0) - (a.r.snitt ?? 0));
   return punkter = rr.flatMap(({ d, r }) => {
-    const c = klasse(r.snitt), topp = erToppsesong(d, r);
+    const c = klasse(r.snitt), topp = erToppsesong(d, r.snitt);
     const farge = c === "beste" ? css("--beste") : c === "god" ? css("--god") : css("--ellers");
     const valgt = state.valgt === d.id;
     return KOPIER.map(forskyv => ({
