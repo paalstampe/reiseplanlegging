@@ -48,7 +48,6 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
   som henger og prøver tre ganger. Filer som ikke skal på nettsiden (dokumentasjon, .claude/), merkes `export-ignore` i `.gitattributes`.
 - Etter push av en gren: vent på publiseringen før skjermbilder av forhåndsvisningen, i bakgrunnen med
   `.claude/vent-publisering.sh` (venter på alle kjøringene for HEAD og ser bort fra dem som ble avbrutt; gjelder også etter fletting til main)
-  (kjøringen dukker opp noen sekunder etter push).
 - Sjekk designet selv: .claude/skjermbilde.sh <url> <fil.png> 390 844 (mobil) og 1300 900 (desktop);
   legg til «hel» for hele siden, «mork» for mørk modus, «kart=zoom,lon,lat» for et kartutsnitt og «mnd=1–12» for måned
   (f.eks. `kart=12,6,6 mnd=12`: Vest-Afrika på dypeste zoom i desember). Tillatt: https://stam.pe/... og http://localhost:<port>/... (eller 127.0.0.1)
