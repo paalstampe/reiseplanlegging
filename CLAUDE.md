@@ -47,7 +47,7 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
   paalstampe.github.io (endres der, gjelder alle tre). Den hopper over uendret innhold (`publisert.txt`), rydder Pages-publiseringer
   som henger og prøver tre ganger. Filer som ikke skal på nettsiden (dokumentasjon, .claude/), merkes `export-ignore` i `.gitattributes`.
 - Etter push av en gren: vent på publiseringen før skjermbilder av forhåndsvisningen, i bakgrunnen med
-  `gh run watch $(gh run list --commit $(git rev-parse HEAD) -L1 --json databaseId -q '.[0].databaseId') --exit-status`
+  `.claude/vent-publisering.sh` (venter på alle kjøringene for HEAD og ser bort fra dem som ble avbrutt; gjelder også etter fletting til main)
   (kjøringen dukker opp noen sekunder etter push).
 - Sjekk designet selv: .claude/skjermbilde.sh <url> <fil.png> 390 844 (mobil) og 1300 900 (desktop);
   legg til «hel» for hele siden, «mork» for mørk modus, «kart=zoom,lon,lat» for et kartutsnitt og «mnd=1–12» for måned
