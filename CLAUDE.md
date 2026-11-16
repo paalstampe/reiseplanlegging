@@ -57,6 +57,7 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
 - iPhone-spesifikt (liggende, notch/Dynamic Island, safe area, Safaris verktøylinje, rotasjon): bruk
   iOS-simulatoren (Xcode er installert på Macen) via simulatorverktøyet, f.eks. åpne URL i Safari og rotere.
   Playwright holder for vanlige layoutsjekker og er raskere; simulatoren er sluttsjekken for iPhone. Ikke i skyøkter.
+  Starter du simulatoren selv: `xcrun simctl boot` utenfor sandkassen; ser ikke simulatorverktøyet enheten, bruk `xcrun simctl openurl` og `xcrun simctl io <id> screenshot`.
   En nyoppstartet simulator kan henge i Safari (openurl gir tidsavbrudd); da er Playwright med WebKit (`devices['iPhone 13']`)
   reserven. Touch-hendelser lages der med `new Event('touchstart')` og `touches` lagt på, siden `new Touch()` ikke finnes.
 - Kartvisning i nettleserpanelet: `settVisning(zoom, [lon, lat])` med javascript_tool hopper rett til et utsnitt (samme som `kart=` over).
