@@ -605,6 +605,24 @@ document.addEventListener("click", e => {
 });
 document.addEventListener("keydown", e => { if (e.key === "Escape") lukkDetalj(); });
 
+/* Tilbakeknappen (Android, sveip tilbake på iPhone, nettleserens ←) lukker detaljkortet i stedet for å forlate siden:
+   et åpent kort får sitt eget steg i historikken (`kort` i history.state). Lukkes kortet på annen måte, går vi
+   ett steg tilbake så steget forsvinner. Tilstanden sjekkes etter en tur i hendelseskøen, fordi bytte til et annet
+   sted lukker og åpner kortet i samme slag. Kall den returnerte funksjonen hver gang kortet kan ha åpnet eller lukket.
+   Samme løsning som infoboksen i byguidene. */
+function tilbakeLukker(erApent, lukk) {
+  const harSteg = () => !!(history.state && history.state.kort);
+  if (harSteg()) history.replaceState(Object.assign({}, history.state, { kort: false }), "");   // etter omlasting
+  window.addEventListener("popstate", () => { if (!harSteg() && erApent()) lukk(); });
+  return () => setTimeout(() => {
+    if (erApent() && !harSteg()) history.pushState(Object.assign({}, history.state, { kort: true }), "");
+    else if (!erApent() && harSteg()) history.back();
+  }, 0);
+}
+// Kortet skjules flere steder (×, Escape, tomt kart, filter som fjerner stedet), så vi følger hidden-attributtet.
+new MutationObserver(tilbakeLukker(() => !KORT.hidden, lukkDetalj))
+  .observe(document.getElementById("detalj"), { attributes: true, attributeFilter: ["hidden"] });
+
 /* Detaljkortet kan dras unna prikkene, med mus og touch (samme løsning som infoboksen i byguidene).
    Forskyvningen er en transform, og kortet holdes innenfor kartflaten. Det dras etter toppen (region og navn),
    så resten av kortet kan rulles og teksten markeres. En ResizeObserver skyver kortet inn igjen når det
