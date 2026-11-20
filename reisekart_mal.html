@@ -836,6 +836,9 @@ function visKartFeil(e) {
 // og dobbelttrykk for å zoome inn – som MapLibre i byguidene.
 // Mus (PC): tooltip etter kort pause i hover, klikk åpner detaljkortet og skjuler tooltip; hjul og styreflate zoomer trinnløst.
 const TOUCH = window.matchMedia("(hover: none) and (pointer: coarse)").matches;
+// PC med både mus og berøringsskjerm (vanlig på Windows): musen styrer som på PC, men fingrene får samme
+// pinch/pan som på touch. Uten dette zoomet ikke pinch i det hele tatt (ECharts har bare roam: "move").
+const OGSA_TOUCH = !TOUCH && (navigator.maxTouchPoints > 0 || "ontouchstart" in window);
 const HOVER_FORSINKELSE = 400;   // ms før tooltip vises på PC
 const ZOOM_MIN = 1, ZOOM_MAX = 12;
 const ZOOM_TID = 250;            // ms for animert zoom (knapper, dobbelttrykk)
@@ -952,6 +955,7 @@ function initKart() {
     skjulTip(); visDetalj(n.name); tegnListe(); tegnKart();
   });
   if (TOUCH) touchRoam(el); else hjulZoom(el, skjulTip);
+  if (OGSA_TOUCH) touchRoam(el, true);
   new ResizeObserver(() => { kart.resize(); kart.setOption({ geo: kartStorrelse(el) }); holdInnenfor(); }).observe(el);
   // Bytter enheten mellom lys og mørk modus, leses fargene på nytt (ECharts tar ikke CSS-variabler selv).
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
@@ -1083,7 +1087,10 @@ function hjulZoom(el, skjulTip) {
 // Egen pinch/pan for touch. Under gesten flyttes/skaleres det ferdige kartbildet med CSS-transform
 // (GPU, ingen omtegning); når fingrene slipper tegnes kartet én gang med ny zoom/senter.
 // Som i MapLibre: kartet følger fingrene 1:1, glir videre og bremser etter et sveip, og dobbelttrykk zoomer inn.
-function touchRoam(el) {
+// alene: berøringsskjerm på PC. Touch-hendelsene stoppes før ECharts får dem (ellers panorerer ECharts samtidig);
+// trykk når fram til ECharts som museklikk fra nettleseren.
+function touchRoam(el, alene) {
+  const lytt = (navn, f, valg) => el.addEventListener(navn, alene ? e => { e.stopPropagation(); f(e); } : f, alene ? { ...valg, capture: true } : valg);
   const lag = kart.getDom();   // lerretet ECharts tegner i (bredere enn flaten, se initKart)
   lag.style.transformOrigin = "0 0";
   let start = null, siste = null, raf = 0, spor = [], forrigeTrykk = null;
@@ -1140,8 +1147,8 @@ function touchRoam(el) {
       animerZoom(p, maalZoom() * 2);
     } else forrigeTrykk = { t: naa, p };
   };
-  el.addEventListener("touchstart", e => { stoppAnimasjon(); if (start) fullfor(); begynn(e, false); }, { passive: true });
-  el.addEventListener("touchmove", e => {
+  lytt("touchstart", e => { stoppAnimasjon(); if (start) fullfor(); begynn(e, false); }, { passive: true });
+  lytt("touchmove", e => {
     if (!start) return;
     const t = tilstand(e);
     if (t.n !== start.n) { fullfor(); begynn(e, true); return; }   // 1↔2 fingre: lås inn og start på nytt
@@ -1161,8 +1168,8 @@ function touchRoam(el) {
     fullfor(); start = null;
     if (varTrykk) trykk(p);
   };
-  el.addEventListener("touchend", slutt, { passive: true, capture: true });
-  el.addEventListener("touchcancel", slutt, { passive: true, capture: true });
+  lytt("touchend", slutt, { passive: true, capture: true });
+  lytt("touchcancel", slutt, { passive: true, capture: true });
   // iOS Safari: hindre at hele siden zoomes når man kniper på kartet.
   ["gesturestart", "gesturechange"].forEach(n => el.addEventListener(n, e => e.preventDefault(), { passive: false }));
 }
