@@ -91,6 +91,7 @@ repoet, endre den i det andre også (eller skriv i NOTES.md hvorfor ikke). Koden
 | Kartbevegelse: pinch 1:1, glid etter sveip, dobbelttrykk zoomer inn, trinnløs hjulzoom, animerte +/− | `touchRoam`, `hjulZoom`, `animerZoom` (ECharts) | MapLibre gjør det selv |
 | Zoomknapper øverst til venstre (+, −, vis hele) | `zoomKnapper()` | MapLibres kontroller |
 | Detaljkort/infoboks som kan dras unna; lukkes med ×, Escape og trykk på tomt kart | `settFlytt`, `holdKortInne` | `flyttbarPopup` |
+| Tilbakeknappen (Android, sveip tilbake, nettleserens ←) lukker kortet: åpent kort er eget steg i historikken (`kort` i `history.state`) | `tilbakeLukker` + MutationObserver på `hidden` | `tilbakeLukker` + popupens `open`/`close` |
 | «Liste ↓» / «Kart ↑» på stående mobil | `#til-lista` | `#til-lista` |
 | Liggende mobil: panelet til venstre, kortet til høyre i kartet | `LIGGENDE` | samme |
 | Søkefelt med eget × (`.sok-tom`) som tømmer og beholder fokus | `#sok-tom` | `#sok-tom` |
