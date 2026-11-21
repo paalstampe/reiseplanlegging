@@ -43,8 +43,8 @@ Sist oppdatert: 20. november 2026.
 - Sjekk at delingskortet vises i Meldinger, Slack og e-post (bildet er live, men ikke sett i en app ennå).
 - Nye eller endrede tekster trenger engelsk (`en` ved siden av `no` i `reisemal/<ID>.json`). `lag_reisekart.py` melder hull.
 
-- Firefox er aldri testet: Playwrights Firefox (v155) starter ikke på denne Macen («Could not find profile folder», også direkte).
-  Prøv igjen etter en Playwright-oppdatering, eller test på en maskin med Firefox.
+- Firefox testes ikke (Pål droppet det 21.11.): Playwrights Firefox starter ikke («Could not find profile folder»), trolig fordi
+  `~/Library/Application Support/Firefox` mangler og macOS ikke lar Claude lage den. Lages mappa i Terminal.app, kan det prøves igjen.
 - Ikke sett på ekte Android eller Windows (bare simulert 20.11.). Tilbakeknappen og pinch på PC med berøringsskjerm er det som bør kjennes på.
 
 ## Åpne spørsmål
