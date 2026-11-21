@@ -2,6 +2,23 @@
 
 Flyttet ut av NOTES.md 11.11.2026 så den holder seg kort (den lastes inn i hver økt). Les ved behov, gjerne med grep.
 
+## Status 12.11.2026 (flyttet 20.11.)
+
+- 12.11.: `.claude/skjermbilde.sh` tar kartutsnitt og måned (`kart=zoom,lon,lat`, `mnd=1–12`), så dyp zoom kan sjekkes mot forhåndsvisningen (PR #56).
+- 12.11.: kartnavn som overlapper, flyttes til ledig side (høyre, venstre, over, under, hjørner) i stedet for å skjules (PR #55),
+  så f.eks. Ekvatorial-Guinea ved Kamerun vises på dyp zoom. Ikke sett på ekte iPhone ennå.
+- 12.11.: HANDOVER har lista «Felles med byguidene» over løsninger som skal være like i begge appene.
+- 12.11.: søkefeltet har eget ×-kryss som tømmer søket, likt byguidene (PR #53; nettleserens kryss mangler på iOS).
+- 12.11.: kartet zoomer og panorerer som byguidene (PR #51): pinch 1:1, glid etter sveip, dobbelttrykk zoomer inn, trinnløs
+  hjul-/styreflatezoom på PC og animerte +/−. Testet i Chromium og WebKit; iOS-simulatoren hang og ble ikke brukt.
+  Dette rettet også at kartnavn skjult i verdensvisningen (f.eks. «Etiopia») forble skjult når man zoomet inn. Gamle
+  appvinduer viser feilen til siden lastes på nytt.
+- 12.11.: ønskelisten følger samme navn og deling som resten: Vietnam delt i tre, Brasil i Rio og Nordøstkysten, USA-vestkysten i
+  California og Nordvest; Lowcountry inn i Sørstatene og Rote inn i Nusa Tenggara. 259 reisemål, 44 på ønskelisten (detaljer i HANDOVER, Navneendringer).
+  Scorene for de nye delene er Claudes vurdering.
+- 12.11.: `omorganiser.py` i skillen `/nytt-reisemal` (steg 7) deler, slår sammen og gir ny ID til reisemål og oppdaterer
+  felles vinduer, landlista, antallene i CLAUDE.md og alt generert (PR #48). `Landliste.md`-tabellene lages nå fra `landliste.tsv`.
+
 ## Status per dato (til 5.11.2026)
 
 - 11.11.: **alle FN-land er med – 257 reisemål** (før 40). Slik ble det gjort, i rekkefølge:
@@ -74,6 +91,24 @@ Flyttet ut av NOTES.md 11.11.2026 så den holder seg kort (den lastes inn i hver
   lenger, heller ikke i forhåndsvisningene (paalstampe.github.io #27, 5.11.). En commit som bare endrer dokumentasjon gir da ingen
   ny publisering. Byguidenes data/*.md publiseres som før. Hvert repo bestemmer selv hva som ikke publiseres, med `export-ignore` i `.gitattributes`
   (byguider #106, reiseplanlegging #36, paalstampe.github.io #28); ny fil som ikke skal på nettsiden legges inn der.
+## Beslutningslogg 11.11.2026 (flyttet 20.11.)
+
+- 2026-11-11: Kontekst spares ved oppstart: NOTES.md holdes under ca. 10 KB (/avslutt passer på det), eldre status og beslutninger ligger i ARKIV.md. Før lastet reiseplanlegging ca. 27 KB i hver økt.
+- 2026-11-11: `Read` er sperret for `index.html` (~700 KB, generert), `Reisekalender.xlsx` og `__pycache__/` i `.claude/settings.json` (PR #46).
+- 2026-11-11: Alle 195 FN-land er med (Europa og Norge også). Mikrostatene nevnes i naboen, ikke egne reisemål. Hongkong, Taiwan,
+  Grønland og Færøyene er med som egne reiser. Ett reisemål = én reise med én klimaprofil; land deles der beste reisetid er ulik.
+- 2026-11-11: Åtte regioner (Europa, Midtøsten, Afrika, Asia, Oseania, Nord-Amerika, Mellom-Amerika og Karibia, Sør-Amerika),
+  som knapper som før.
+- 2026-11-11: Ønskelisten vises i egen visning (alle reisemål som standard), motsatt av byguidene der den er skjult.
+- 2026-11-11: Høytider som gjelder mange land står én gang i `felles_vinduer.json`. Ortodoks påske har egne datoer.
+- 2026-11-11: Detaljkortet dras etter toppen også med mus (i byguidene fra hele boksen), så kortet kan rulles og tekst markeres.
+- 2026-11-11: De 196 siste reisemålene ble fylt inn med en workflow etter at Midtøsten og Nord-Amerika var godkjent som mal.
+- 2026-11-11: Land med reiseråd vises som andre land, med varselet «Sjekk reiseråd». De skjules ikke og sorteres ikke lavere,
+  selv om de kan havne øverst i lista (Pål valgte dette framfor et filter).
+- 2026-11-11: Dataene ligger i én JSON-fil per reisemål (`reisemal/<ID>.json`), med norsk og engelsk side om side.
+  Før måtte et reisemål legges inn fem steder, noe som ikke holder når lista skal utvides til alle FN-landene. JSON fordi det ikke krever
+  avhengigheter og valideres av hooken. `Reisemål.md` genereres og er ikke lenger master. Alle dagens 40 har `onskeliste: true`.
+
 ## Beslutningslogg (til 5.11.2026)
 
 - 2026-11-05: Hva som ikke publiseres, står i hvert repos `.gitattributes` (`export-ignore`), ikke i den felles workflowen.
