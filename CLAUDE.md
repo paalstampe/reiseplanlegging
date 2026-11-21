@@ -67,6 +67,9 @@ Les aldri genererte eller store filer hele: `index.html` (~700 KB, generert), `R
   pinch, glid og dobbelttrykk i Chromium og WebKit, med OK/FEIL per sjekk.
 - UI-endringer: kjør `.claude/axe.sh <url> [bredde høyde] [js=<kode>]` før fletting (axe-core via Playwright, lys og mørk modus).
   Detaljkortet sjekkes med f.eks. `"js=state.mnd=0; oppdater(); visDetalj('JPN-HOK')"`. Rett brudd; kontrast som krever nye farger tas med Pål.
+- Android/Windows: `.claude/plattformtest.sh <url> kort=.oppslag 'apent=!document.getElementById("detalj").hidden' kart=#kart zoom='naaZoom()'`
+  simulerer Android-telefoner og -nettbrett, Windows (faste rullefelt, musehjul) og PC med berøringsskjerm (Chromium). Kjør ved endringer
+  i layout, kartbevegelse eller detaljkort. Ekte enheter og Firefox dekkes ikke.
 - Før fletting av kodeendringer: kjør /code-review (standardnivå) og /simplify på grenen selv, uten at Pål ber om det.
   Rett funnene som holder, nevn kort i PR-beskrivelsen hva som ble funnet og rettet. Gjelder ikke rene data- og tekstendringer.
 - Fletting: Kan du selv verifisere at alt er i orden (skjermbilder mobil + desktop, ingen JS-feil),
